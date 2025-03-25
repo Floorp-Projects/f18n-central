@@ -1,0 +1,58 @@
+name: 🧰 (P) Copy translated files to Floorp repository
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 12 * * *'
+
+jobs:
+  sync-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout f18n repository
+        uses: actions/checkout@v4
+        with:
+            path: f18n-central
+
+      - name: Checkout Floorp repository
+        uses: actions/checkout@v4
+        with:
+          repository: Floorp-Projects/Floorp-12
+          path: floorp
+
+      - name: Read translation targets
+        id: read-targets
+        run: |
+          TARGETS=$(cat floorp/src/apps/i18n-supports/translation-targets.json)
+          echo "targets<<EOF" >> $GITHUB_OUTPUT
+          echo "$TARGETS" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Copy translated files to Floorp repository
+        run: |
+          cd f18n-central
+          TARGETS='${{ steps.read-targets.outputs.targets }}'
+          echo "$TARGETS" | jq -c '.targets[]' | while read -r target; do
+            SOURCE_PATH=$(echo "$target" | jq -r '.source_path')
+            F18N_PATH=$(echo "$target" | jq -r '.f18n_path')
+            # Copy all locale files (e.g., ja-JP.json) to the Floorp repository
+            # Skip the source file (en-US.json)
+            for LOCALE_FILE in "$F18N_PATH"*.json; do
+              if [[ "$LOCALE_FILE" != *"en-US.json" ]]; then
+                LOCALE=$(basename "$LOCALE_FILE" .json)
+                echo "Copying $LOCALE_FILE to $SOURCE_PATH"
+                mkdir -p "../floorp/$SOURCE_PATH/locales"
+                cp "$LOCALE_FILE" "../floorp/$SOURCE_PATH/$LOCALE.json"
+              fi
+            done
+          done
+
+      - name: Commit and push changes to Floorp repository
+        run: |
+          cd floorp
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add .
+          git commit -m "[Bot] Update translated files from i18n repository"
+          git remote set-url origin https://x-access-token:${{ secrets.PAT }}@github.com/Floorp-Projects/Floorp-12.git
+          git push
