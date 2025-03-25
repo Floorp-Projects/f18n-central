@@ -1,0 +1,13 @@
+files:
+  - source: /main/en-US.json
+    translation: /main/%locale%.json
+
+  - source: /settings/en-US.json
+    translation: /settings/%locale%.json
+
+  - source: /newtab/en-US.json
+    translation: /newtab/%locale%.json
+
+  - source: /welcome/en-US.json
+    translation: /welcome/%locale%.json
+
