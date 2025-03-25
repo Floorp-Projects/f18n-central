@@ -12,13 +12,15 @@ jobs:
       - name: Checkout f18n repository
         uses: actions/checkout@v4
         with:
-            path: f18n-central
+          path: f18n-central
+          token: ${{ secrets.PAT }}
 
       - name: Checkout Floorp repository
         uses: actions/checkout@v4
         with:
           repository: Floorp-Projects/Floorp-12
           path: floorp
+          token: ${{ secrets.PAT }}
 
       - name: Read translation targets
         id: read-targets
@@ -41,7 +43,6 @@ jobs:
               if [[ "$LOCALE_FILE" != *"en-US.json" ]]; then
                 LOCALE=$(basename "$LOCALE_FILE" .json)
                 echo "Copying $LOCALE_FILE to $SOURCE_PATH"
-                mkdir -p "../floorp/$SOURCE_PATH/locales"
                 cp "$LOCALE_FILE" "../floorp/$SOURCE_PATH/$LOCALE.json"
               fi
             done
@@ -53,6 +54,5 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
           git add .
-          git commit -m "[Bot] Update translated files from i18n repository"
-          git remote set-url origin https://x-access-token:${{ secrets.PAT }}@github.com/Floorp-Projects/Floorp-12.git
+          git commit -m "[Bot] Update translated files from i18n repository" || echo "No changes to commit"
           git push
