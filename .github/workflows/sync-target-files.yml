@@ -34,10 +34,10 @@ jobs:
           TARGETS='${{ steps.read-targets.outputs.targets }}'
           echo "files:" > crowdin.yml
           echo "$TARGETS" | jq -c '.targets[]' | while read -r target; do
-            SOURCE_PATH=$(echo "$target" | jq -r '.source_path')
+            F18N_PATH=$(echo "$target" | jq -r '.f18n_path')
             SOURCE_FILE=$(echo "$TARGETS" | jq -r '.source_file')
-            echo "  - source: /$SOURCE_PATH/$SOURCE_FILE" >> crowdin.yml
-            echo "    translation: /$SOURCE_PATH/%locale%.json" >> crowdin.yml
+            echo "  - source: /$F18N_PATH$SOURCE_FILE" >> crowdin.yml
+            echo "    translation: /$F18N_PATH%locale%.json" >> crowdin.yml
             echo "" >> crowdin.yml
           done
 
