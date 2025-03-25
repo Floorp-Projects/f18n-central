@@ -1,0 +1,64 @@
+name: 🧰 (P) Update i18n source files
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  sync-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout f18n repository
+        uses: actions/checkout@v4
+        with:
+            path: f18n-central
+
+      - name: Checkout Floorp repository
+        uses: actions/checkout@v4
+        with:
+          repository: Floorp-Projects/Floorp-12
+          path: floorp
+
+      - name: Read translation targets
+        id: read-targets
+        run: |
+          TARGETS=$(cat floorp/src/apps/i18n-supports/translation-targets.json)
+          echo "targets<<EOF" >> $GITHUB_OUTPUT
+          echo "$TARGETS" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Generate Crowdin.yml
+        run: |
+          cd f18n-central
+          TARGETS='${{ steps.read-targets.outputs.targets }}'
+          echo "files:" > crowdin.yml
+          echo "$TARGETS" | jq -c '.targets[]' | while read -r target; do
+            SOURCE_PATH=$(echo "$target" | jq -r '.source_path')
+            SOURCE_FILE=$(echo "$TARGETS" | jq -r '.source_file')
+            echo "  - source: /$SOURCE_PATH/$SOURCE_FILE" >> crowdin.yml
+            echo "    translation: /$SOURCE_PATH/%locale%.json" >> crowdin.yml
+            echo "" >> crowdin.yml
+          done
+
+      - name: Copy translation files
+        run: |
+          cd f18n-central
+          TARGETS='${{ steps.read-targets.outputs.targets }}'
+          echo "$TARGETS" | jq -c '.targets[]' | while read -r target; do
+            SOURCE_PATH=$(echo "$target" | jq -r '.source_path')
+            F18N_PATH=$(echo "$target" | jq -r '.f18n_path')
+            SOURCE_FILE=$(echo "$TARGETS" | jq -r '.source_file')
+            echo "Copying $SOURCE_FILE from $SOURCE_PATH to $F18N_PATH"
+            mkdir -p "$F18N_PATH"
+            cp "../floorp/$SOURCE_PATH/$SOURCE_FILE" "$F18N_PATH"
+          done
+
+      - name: Commit and push changes
+        run: |
+          cd f18n-central
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add .
+          git commit -m "[Bot] Update i18n source files from main repository"
+          git push
