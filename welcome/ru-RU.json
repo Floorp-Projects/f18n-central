@@ -2,9 +2,9 @@
     "navigation": {
         "welcome": "Добро пожаловать",
         "language": "Язык",
-        "languageSupport": "Language Support",
+        "languageSupport": "Поддержка языков",
         "features": "Особенности",
-        "featureIntroduction": "Feature Introduction",
+        "featureIntroduction": "Введение в особенности",
         "customize": "Настроить",
         "initialSettings": "Начальные настройки",
         "complete": "Готово",
@@ -12,7 +12,7 @@
         "next": "Далее"
     },
     "customize": {
-        "title": "Customize Floorp",
+        "title": "Настроить Floorp",
         "description": "Настройте параметры по своему усмотрению. Вы всегда можете изменить их позже из Floorp Hub или со страницы настроек.",
         "appearance": {
             "title": "Настройки внешнего вида",
@@ -26,7 +26,7 @@
         "themeInfo": {
             "light": "Светлая тема",
             "dark": "Тёмная тема",
-            "system": "System preference"
+            "system": "Системные настройки"
         },
         "searchEngine": {
             "title": "Поисковая система по умолчанию",
@@ -80,51 +80,51 @@
             "title": "Боковая панель",
             "description": "Доступ к удобным функциям можно получить из боковой панели справа во время просмотра веб-страниц. На боковой панели можно разместить веб-панели, функции заметок, расширения, закладки и т.д.",
             "features": [
-                "Pin websites to the sidebar",
-                "Quickly take notes with Floorp Notes while browsing",
-                "Supports containers"
+                "Закрепляйте веб-сайты на боковой панели",
+                "Быстро делайте заметки с помощью Floorp Notes во время просмотра веб-страниц",
+                "Поддерживает контейнеры"
             ]
         },
         "workspaces": {
-            "title": "Workspaces",
-            "description": "Organize multiple tab sets to streamline your work. Quickly switch between workspaces with distinctive icons and names. Access via the workspace button in the top left.",
+            "title": "Рабочие пространства",
+            "description": "Организуйте несколько наборов вкладок, чтобы оптимизировать работу. Быстро переключайтесь между рабочими пространствами с помощью уникальных значков и имен. Доступ через кнопку рабочего пространства в левом верхнем углу.",
             "features": [
-                "Categorize by purpose: work, personal, etc.",
-                "Visually identify with custom icons",
-                "Easily manage tabs"
+                "Классифицируйте по назначению: работа, личное, и т.д.",
+                "Визуально идентифицируйте с помощью настраиваемых значков",
+                "Легко управляйте вкладками"
             ]
         },
         "pwa": {
-            "title": "Progressive Web Applications Support",
-            "description": "On Windows, you can add PWA-compatible sites as desktop applications when you visit them. Regular websites can also be installed.",
+            "title": "Поддержка прогрессивных веб-приложений",
+            "description": "В Windows вы можете добавлять PWA-совместимые сайты в качестве десктопных приложений при их посещении. Также можно устанавливать и обычные сайты.",
             "features": [
-                "Run independently as desktop apps",
-                "Can be pinned to the taskbar",
-                "Firefox add-ons work too"
+                "Работают независимо в виде десктопных приложений",
+                "Можно прикрепить на панели задач",
+                "Дополнения Firefox тоже работают"
             ]
         },
         "mouseGesture": {
             "title": "Жесты мышью",
-            "description": "Control your browser more intuitively with natively implemented mouse gesture functionality. Execute gestures by holding the right-click button and moving your mouse.",
+            "description": "Управляйте браузером более интуитивно с помощью встроенной функции жестов мыши. Выполняйте жесты, удерживая правую кнопку мыши и перемещая мышь.",
             "features": [
-                "Operate without keyboard shortcuts",
-                "Fully customizable gestures",
-                "Quickly navigate pages and history"
+                "Работайте без горячих клавиш",
+                "Полностью настраиваемые жесты",
+                "Быстрая навигация по страницам и истории"
             ]
         },
-        "notebook": "Notebook",
-        "nextTab": "Go to Next Tab"
+        "notebook": "Заметки",
+        "nextTab": "Перейти на следующую вкладку"
     },
     "finishPage": {
-        "title": "Setup Complete!",
-        "subtitle": "Congratulations! You've completed the Floorp setup. You can now enjoy comfortable and secure internet browsing.",
-        "nextSteps": "Next Steps (Optional)",
-        "defaultBrowser": "Set as Default Browser",
-        "support": "Support",
-        "documentation": "Documentation",
-        "getStarted": "Get Started with Floorp",
-        "hint": "For more detailed settings, you can customize via the Settings option in the menu button at the top right.",
-        "resourcesLabel": "Resources",
-        "defaultBrowserSuccess": "Floorp has been set as your default browser!"
+        "title": "Настройка завершена!",
+        "subtitle": "Поздравляем! Вы завершили настройку Floorp. Теперь вы можете наслаждаться комфортным и безопасным использованием Интернета.",
+        "nextSteps": "Следующие шаги (Необязательно)",
+        "defaultBrowser": "Сделать браузером по умолчанию",
+        "support": "Поддержка",
+        "documentation": "Документация",
+        "getStarted": "Начало работы с Floorp",
+        "hint": "Более подробные настройки можно выполнить с помощью пункта Настройки в меню, расположенном в правом верхнем углу.",
+        "resourcesLabel": "Ресурсы",
+        "defaultBrowserSuccess": "Floorp был установлен в качестве браузера по умолчанию!"
     }
 }
