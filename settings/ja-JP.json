@@ -4,7 +4,7 @@
     },
     "header": {
         "title": "設定",
-        "searchPlaceholder": "設定の検索",
+        "searchPlaceholder": "設定を検索",
         "darkMode": "ダークモード"
     },
     "restartWarningDialog": {
@@ -14,9 +14,9 @@
         "restart": "今すぐ再起動"
     },
     "sidebar": {
-        "firefoxSettings": "Firefox設定",
+        "firefoxSettings": "Firefox の設定",
         "about": "概要",
-        "aboutNoraneko": "Noranekoについて",
+        "aboutNoraneko": "Noraneko について",
         "debug": "デバッグ",
         "overview": "概要",
         "features": "機能"
@@ -29,47 +29,47 @@
         "keyboardShortcuts": "キーボードショートカット",
         "webApps": "ウェブアプリ",
         "profileAndAccount": "プロファイルとアカウント",
-        "aboutBrowser": "{{productName}}について",
+        "aboutBrowser": "{{productName}} について",
         "debug": "デバッグ",
         "mouseGesture": "マウスジェスチャー"
     },
     "home": {
-        "welcome": "ようこそ、 {{name}} 👋",
+        "welcome": "ようこそ、 {{name}} さん 👋",
         "defaultAccountName": "{{productName}} ユーザー",
-        "description": "{{productName}} 体験を向上させるために、アカウント、プライバシー、セキュリティを管理します。",
+        "description": "アカウント、プライバシー、セキュリティを管理して、{{productName}} の体験を向上させましょう。",
         "setup": {
-            "title": "セットアップ",
+            "title": "設定する",
             "footerLinkText": "アカウントにログイン",
-            "setupDescription": "{{productName}} を最大限に活用するためのセットアップを完了します。",
-            "setupProgressTitle": "セットアップの進行状況",
-            "step": "{{total}}のステップ {{step}}"
+            "setupDescription": "設定を完了して、 {{productName}} を最大限に活用しましょう。",
+            "setupProgressTitle": "設定の進行状況",
+            "step": "ステップ {{step}} / {{total}}"
         },
         "privacyAndTrackingProtection": {
             "title": "プライバシーと追跡保護",
             "footerLinkText": "プライバシーと追跡保護",
-            "description": "{{productName}} デフォルトであなたのデータとプライバシーを保護しますが、これらの設定を手動で管理することもできます。"
+            "description": "{{productName}} は既定であなたのデータとプライバシーを保護しますが、これらの設定を手動で管理することもできます。"
         },
         "ablazeAccount": {
-            "title": "Ablazeアカウント (近日公開予定)",
+            "title": "Ablaze アカウント (近日公開予定)",
             "footerLinkText": "Ablaze アカウント",
-            "description": "Mozillaアカウントを使用して、一部のデータを他のデバイスと同期します。Ablazeアカウントは、Mozillaアカウントで同期できないデータを同期します。"
+            "description": "Mozilla アカウントを使用して、一部のデータを他のデバイスと同期します。 Ablaze アカウントは、 Mozilla アカウントで同期できないデータを同期します。"
         },
         "manageExtensions": {
-            "title": "拡張機能の管理",
+            "title": "拡張機能を管理",
             "description": "{{productName}} は、addons.mozilla.org で利用可能な拡張機能を管理することができます。",
             "footerLinkText": "拡張機能の管理"
         },
         "browserSupport": {
             "title": "{{productName}} サポート",
-            "description": "{{productName}} の貢献者によって書かれたサポート文書にアクセスしてください。",
+            "description": "{{productName}} の貢献者によって書かれたサポート記事にアクセスしてみましょう。",
             "footerLinkText": "{{productName}} サポート"
         }
     },
     "design": {
         "tabAndAppearance": "タブと外観",
-        "customizePositionOfToolbars": "ツールバーの位置、タブバーのスタイル、 {{productName}}の外観をカスタマイズできます。",
+        "customizePositionOfToolbars": "ツールバーの位置、タブバーのスタイル、 {{productName}} の外観をカスタマイズできます。",
         "interface": "インターフェイス",
-        "aboutInterfaceDesign": "インターフェースデザインについて",
+        "aboutInterfaceDesign": "インターフェイスデザインについて",
         "proton": "Proton",
         "lepton": "Lepton",
         "photon": "Photon",
