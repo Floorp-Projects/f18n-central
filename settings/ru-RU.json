@@ -41,7 +41,7 @@
             "title": "Setup",
             "footerLinkText": "Log in to Accounts",
             "setupDescription": "Complete the setup to maximize your {{productName}} experience.",
-            "setupProgressTitle": "Setup Progress",
+            "setupProgressTitle": "Прогресс настройки",
             "step": "Шаг {{step}} из {{total}}"
         },
         "privacyAndTrackingProtection": {
@@ -83,11 +83,11 @@
         "tabBar": "Tab Bar",
         "styleDescription": "Select the tab bar style.",
         "customizeTabBar": "Customize Tab Bar",
-        "style": "Style",
+        "style": "Стиль",
         "horizontal": "Horizontal",
         "multirow": "Multi-row",
         "verticalTabIsRemovedFromBrowser": "Vertical Tabs have been removed from {{productName}}. Please use Firefox's native Vertical Tab Bar instead.",
-        "learnMore": "Learn more",
+        "learnMore": "Узнать больше",
         "position": "Position",
         "positionDescription": "Choose the tab bar position.",
         "default": "Default",
