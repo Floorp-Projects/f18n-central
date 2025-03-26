@@ -44,7 +44,7 @@
             "documentation": "ドキュメント"
         },
         "getStarted": "Floorp に飛び込もう",
-        "hint": "より詳細な設定は、右上のメニューボタンの中にある \"設定\" からいつでもアクセスできます。"
+        "hint": "より詳細な設定は、右上のメニューボタンの中にある \"設定\" からカスタマイズできます。"
     },
     "welcomePage": {
         "welcome": "Floorp へようこそ！",
@@ -105,26 +105,26 @@
         },
         "mouseGesture": {
             "title": "マウスジェスチャー",
-            "description": "Control your browser more intuitively with natively implemented mouse gesture functionality. Execute gestures by holding the right-click button and moving your mouse.",
+            "description": "ネイティブに実装されたマウスジェスチャー機能で、ブラウザをより直感的に操作しましょう。右クリックしたままマウスを動かすと、ジェスチャーを実行できます。",
             "features": [
-                "Operate without keyboard shortcuts",
-                "Fully customizable gestures",
-                "Quickly navigate pages and history"
+                "キーボードショートカットなしで操作",
+                "完全にカスタマイズ可能なジェスチャー",
+                "ページと履歴を素早くナビゲート"
             ]
         },
-        "notebook": "Notebook",
-        "nextTab": "Go to Next Tab"
+        "notebook": "ノートブック",
+        "nextTab": "次のタブに移動"
     },
     "finishPage": {
-        "title": "Setup Complete!",
-        "subtitle": "Congratulations! You've completed the Floorp setup. You can now enjoy comfortable and secure internet browsing.",
-        "nextSteps": "Next Steps (Optional)",
-        "defaultBrowser": "Set as Default Browser",
-        "support": "Support",
-        "documentation": "Documentation",
-        "getStarted": "Get Started with Floorp",
-        "hint": "For more detailed settings, you can customize via the Settings option in the menu button at the top right.",
-        "resourcesLabel": "Resources",
-        "defaultBrowserSuccess": "Floorp has been set as your default browser!"
+        "title": "設定完了！",
+        "subtitle": "おめでとうございます！ Floorp の設定が完了しました。快適で安全なネットサーフィンをお楽しみください。",
+        "nextSteps": "次のステップ (任意)",
+        "defaultBrowser": "デフォルトウェブブラウザーに設定",
+        "support": "サポート",
+        "documentation": "ドキュメント",
+        "getStarted": "Floorp に飛び込もう",
+        "hint": "より詳細な設定は、右上のメニューボタンの中にある \"設定\" からカスタマイズできます。",
+        "resourcesLabel": "リソース",
+        "defaultBrowserSuccess": "Floorp がデフォルトウェブブラウザーに設定されました！"
     }
 }
