@@ -20,13 +20,13 @@
         "noBackground": "无背景",
         "randomImage": "随机图像",
         "customImage": "自定义图像",
-        "currentImage": "Current Image:",
-        "imageRecommendation": "Recommended: 1920x1080 or larger image",
-        "close": "Close"
+        "currentImage": "当前图片：",
+        "imageRecommendation": "建议使用 1920x1080 或更大的图像",
+        "close": "关闭"
     },
     "searchBar": {
-        "searchOrEnterUrl": "Search or enter URL",
-        "loadingSearchEngines": "Loading search engines..."
+        "searchOrEnterUrl": "搜索或输入网址",
+        "loadingSearchEngines": "正在加载搜索引擎……"
     },
     "settingsButton": {
         "settings": "设置"
