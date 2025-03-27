@@ -38,17 +38,17 @@
             "notes": "Užrašai",
             "paint": "Dažai",
             "photo": "Nuotrauka",
-            "pin": "Pin",
-            "pet": "Pet",
-            "question": "Question",
-            "smartphone": "Smartphone",
-            "star": "Star",
-            "tree": "Tree",
-            "vacation": "Vacation",
-            "love": "Love",
-            "moon": "Moon",
-            "music": "Music",
-            "user": "User"
+            "pin": "Segtukas",
+            "pet": "Augintinis",
+            "question": "Klaustukas",
+            "smartphone": "Išmanusis telefonas",
+            "star": "Žvaigždė",
+            "tree": "Medis",
+            "vacation": "Atostogos",
+            "love": "Meilė",
+            "moon": "Mėnulis",
+            "music": "Muzika",
+            "user": "Naudotojas"
         },
         "service": {
             "new-workspace": "New Workspace ({{count}})"
