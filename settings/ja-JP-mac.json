@@ -56,7 +56,7 @@
         },
         "manageExtensions": {
             "title": "拡張機能を管理",
-            "description": "{{productName}} は、 addons.mozilla.org で使用可能な拡張機能を管理することができます。",
+            "description": "{{productName}} は、addons.mozilla.org で使用可能な拡張機能を管理することができます。",
             "footerLinkText": "拡張機能を管理"
         },
         "browserSupport": {
