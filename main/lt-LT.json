@@ -73,10 +73,10 @@
         "position-left": "Kairėje",
         "position-right": "Dešinėje",
         "flex-row": "Eilutė",
-        "flex-column": "Column",
-        "remove-button": "Remove Current View",
+        "flex-column": "Stulpelis",
+        "remove-button": "Šalinti dabartinį rodinį",
         "tab-context": {
-            "split-tabs": "Split Tabs",
+            "split-tabs": "Skaidyti korteles",
             "split-fixed-tab": "Split to Fixed Tab"
         }
     },
