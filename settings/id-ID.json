@@ -1,75 +1,75 @@
 {
     "title": {
-        "default": "{{productName}} Settings"
+        "default": "Pengaturan {{productName}}"
     },
     "header": {
-        "title": "Settings",
-        "searchPlaceholder": "Search Settings",
-        "darkMode": "Dark Mode"
+        "title": "Pengaturan",
+        "searchPlaceholder": "Telusuri Pengaturan",
+        "darkMode": "Tema Gelap"
     },
     "restartWarningDialog": {
-        "title": "Restart Required",
-        "description": "After restarting, the opened private windows and tabs will be lost.",
-        "cancel": "Later",
-        "restart": "Restart Now"
+        "title": "Butuh Pemulaian Ulang",
+        "description": "Setelah pemulaian ulang, jendela dan tab pribadi yang terbuka akan hilang.",
+        "cancel": "Nanti",
+        "restart": "Mulai Ulang Sekarang"
     },
     "sidebar": {
-        "firefoxSettings": "Firefox Settings",
-        "about": "About",
+        "firefoxSettings": "Pengaturan Firefox",
+        "about": "Tentang",
         "aboutNoraneko": "About Noraneko",
-        "debug": "Debug",
+        "debug": "Awakutu",
         "overview": "Overview",
-        "features": "Features"
+        "features": "Fitur"
     },
     "pages": {
-        "home": "Home",
-        "tabAndAppearance": "Tab & Appearance",
-        "browserSidebar": "Panel Sidebar",
-        "workspaces": "Workspaces",
-        "keyboardShortcuts": "Keyboard Shortcuts",
-        "webApps": "Web Apps",
-        "profileAndAccount": "Profile and Account",
-        "aboutBrowser": "About {{productName}}",
-        "debug": "Debug",
-        "mouseGesture": "Mouse Gestures"
+        "home": "Beranda",
+        "tabAndAppearance": "Tab dan Tampilan",
+        "browserSidebar": "Bilah Sisi",
+        "workspaces": "Ruang Kerja",
+        "keyboardShortcuts": "Pintasan Kibor",
+        "webApps": "Aplikasi Web",
+        "profileAndAccount": "Profil dan Akun",
+        "aboutBrowser": "Tentang {{productName}}",
+        "debug": "Awakutu",
+        "mouseGesture": "Gestur Tetikus"
     },
     "home": {
-        "welcome": "Welcome, {{name}} 👋",
-        "defaultAccountName": "{{productName}} User",
-        "description": "Manage your account, privacy, and security to enhance your {{productName}} experience.",
+        "welcome": "Selamat datang, {{name}} 👋",
+        "defaultAccountName": "Pengguna {{productName}}",
+        "description": "Kelola akun, privasi, dan keamanan Anda untuk meningkatkan pengalaman {{productName}} Anda.",
         "setup": {
-            "title": "Setup",
-            "footerLinkText": "Log in to Accounts",
-            "setupDescription": "Complete the setup to maximize your {{productName}} experience.",
-            "setupProgressTitle": "Setup Progress",
-            "step": "Step {{step}} of {{total}}"
+            "title": "Siapkan",
+            "footerLinkText": "Masuk ke Akun",
+            "setupDescription": "Selesaikan penyiapan untuk memaksimalkan pengalaman {{productName}} Anda.",
+            "setupProgressTitle": "Progres Penyiapan",
+            "step": "Langkah {{step}} dari {{total}}"
         },
         "privacyAndTrackingProtection": {
-            "title": "Privacy and Tracking Protection",
-            "footerLinkText": "Privacy and Tracking Protection",
-            "description": "{{productName}} protects your data and privacy by default, but you can also manage these settings manually."
+            "title": "Privasi dan Perlindungan Pelacakan",
+            "footerLinkText": "Privasi dan Perlindungan Pelacakan",
+            "description": "{{productName}} melindungi data dan privasi Anda dari awal, tetapi Anda juga dapat mengelola pengaturan ini secara manual."
         },
         "ablazeAccount": {
-            "title": "Ablaze Account (Coming Soon)",
-            "footerLinkText": "Ablaze Account",
-            "description": "Use a Mozilla Account to sync some data with other devices. Ablaze Account syncs data that can't be synced with a Mozilla Account."
+            "title": "Akun Ablaze (Segera Hadir)",
+            "footerLinkText": "Akun Ablaze",
+            "description": "Gunakan Akun Mozilla untuk menyinkronkan data dengan perangkat lain. Akun Ablaze dapat menyinkronkan data yang tidak dapat disinkronkan dengan Akun Mozilla."
         },
         "manageExtensions": {
-            "title": "Manage Extensions",
-            "description": "{{productName}} allows you to manage extensions available on addons.mozilla.org.",
-            "footerLinkText": "Manage Extensions"
+            "title": "Kelola Ekstensi",
+            "description": "{{productName}} memungkinkan Anda untuk mengelola ekstensi yang tersedia di addons.mozilla.org.",
+            "footerLinkText": "Kelola Ekstensi"
         },
         "browserSupport": {
-            "title": "{{productName}} Support",
-            "description": "Access support documentation written by {{productName}} contributors.",
-            "footerLinkText": "{{productName}} Support"
+            "title": "Dukungan {{productName}}",
+            "description": "Akses dokumentasi dukungan yang ditulis oleh kontributor {{productName}}.",
+            "footerLinkText": "Dukungan {{productName}}"
         }
     },
     "design": {
-        "tabAndAppearance": "Tab & Appearance",
-        "customizePositionOfToolbars": "Customize toolbar positions, tab bar style, and {{productName}}'s appearance.",
-        "interface": "Interface",
-        "aboutInterfaceDesign": "About Interface Design",
+        "tabAndAppearance": "Tab dan Tampilan",
+        "customizePositionOfToolbars": "Sesuaikan posisi bilah alat, gaya bilah tab, dan tampilan {{productName}}.",
+        "interface": "Antarmuka",
+        "aboutInterfaceDesign": "Tentang Desain Antarmuka",
         "proton": "Proton",
         "lepton": "Lepton",
         "photon": "Photon",
@@ -124,8 +124,8 @@
         "workspacesDescription": "Workspaces greatly simplify the process of grouping tabs, making it easier to organize and manage your tabs.",
         "basicSettings": "Basic Settings",
         "needRestartDescriptionForEnableAndDisable": "A restart of {{productName}} is required to completely enable or disable the workspace feature.",
-        "enableOrDisable": "Enable/Disable",
-        "enableWorkspaces": "Enable workspace feature",
+        "enableOrDisable": "(Non)Aktifkan",
+        "enableWorkspaces": "Aktifkan fitur ruang kerja",
         "enableWorkspacesDescription": "Workspaces won't function even if this setting is enabled unless the workspace button is placed on the toolbar. Use this setting if you want to completely disable workspaces.",
         "otherSettings": "Other Workspace Settings",
         "closePopupWhenSelectingWorkspace": "Close workspace popup when selecting a workspace",
@@ -165,21 +165,21 @@
         "browser": "{{productName}}",
         "copyright": "© 2024 {{productName}} Project. All rights reserved.",
         "openSourceLicense": "{{productName}} is open-source software available under the Mozilla Public License 2.0, made possible by the Firefox open-source project and other open-source software.",
-        "openSourceLicenseNotice": "Open Source License",
-        "versionInfo": "Version",
-        "license": "License"
+        "openSourceLicenseNotice": "Lisensi Sumber Terbuka",
+        "versionInfo": "Versi",
+        "license": "Lisensi"
     },
     "search": {
-        "title": "Search Settings",
-        "resultsFor": "Search results for \"{{query}}\"",
-        "noResults": "No results found",
-        "open": "Open \"{{title}}\"",
-        "matchedText": "Matched Text",
-        "results": "Search Results",
+        "title": "Telusuri Pengaturan",
+        "resultsFor": "Hasil penelusuran untuk \"{{query}}\"",
+        "noResults": "Hasil tidak ditemukan",
+        "open": "Buka \"{{title}}\"",
+        "matchedText": "Teks yang Cocok",
+        "results": "Hasil Penelusuran",
         "searchResultsDescription": "Search results for \"{{query}}\". Only {{productName}} settings are searched; Firefox settings are not included."
     },
     "panelSidebar": {
-        "title": "Panel Sidebar",
+        "title": "Bilah Sisi",
         "description": "Panel Sidebar is a feature that allows you to display various tools, websites, and extensions on the side of the window. Here, you can customize, add, delete, and manage panels.",
         "basicSettings": "Basic Settings",
         "howToUseAndCustomize": "How to use and customize Panel Sidebar",
