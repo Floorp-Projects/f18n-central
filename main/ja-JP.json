@@ -1,7 +1,7 @@
 {
     "undo-closed-tab": {
-        "label": "閉じたタブを元に戻す",
-        "tooltiptext": "最後に閉じたタブを再度開く {{shortcut}}"
+        "label": "閉じたタブを開きなおす",
+        "tooltiptext": "最後に閉じたタブを開きなおす {{shortcut}}"
     },
     "workspaces": {
         "modal": {
