@@ -1,32 +1,32 @@
 {
     "navigation": {
-        "welcome": "Welcome",
-        "language": "Language",
-        "languageSupport": "Language Support",
-        "features": "Features",
-        "featureIntroduction": "Feature Introduction",
-        "customize": "Customize",
-        "initialSettings": "Initial Settings",
-        "complete": "Complete",
-        "previous": "Previous",
-        "next": "Next"
+        "welcome": "Selamat Datang",
+        "language": "Bahasa",
+        "languageSupport": "Dukungan Bahasa",
+        "features": "Fitur",
+        "featureIntroduction": "Pengenalan Fitur",
+        "customize": "Sesuaikan",
+        "initialSettings": "Pengaturan Awal",
+        "complete": "Selesai",
+        "previous": "Sebelumnya",
+        "next": "Selanjutnya"
     },
     "customize": {
-        "title": "Customize Floorp",
-        "description": "Customize to your preferred settings. You can always change them later from the Floorp Hub or settings page.",
+        "title": "Sesuaikan Floorp",
+        "description": "Sesuaikan dengan kemauan Anda. Penyesuaian dapat diubah kapan pun melalui Floorp Hub atau halaman pengaturan.",
         "appearance": {
-            "title": "Appearance Settings",
-            "description": "You can customize Floorp's appearance to your preference. Choose a light or dark theme, or have it automatically switch based on your system settings."
+            "title": "Pengaturan Tampilan",
+            "description": "Anda dapat menyesuaikan tampilan Floorp sesuai keinginan Anda. Pilih tema tema atau gelap, atau jadikan tema menyesuaikan pengaturan sistem."
         },
         "themes": {
-            "light": "Light",
-            "dark": "Dark",
-            "system": "Follow system settings"
+            "light": "Terang",
+            "dark": "Gelap",
+            "system": "Ikuti sistem"
         },
         "themeInfo": {
-            "light": "Light theme",
-            "dark": "Dark theme",
-            "system": "System preference"
+            "light": "Tema terang",
+            "dark": "Tema gelap",
+            "system": "Preferensi sistem"
         },
         "searchEngine": {
             "title": "Default Search Engine",
