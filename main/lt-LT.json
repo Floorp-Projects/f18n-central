@@ -77,21 +77,21 @@
         "remove-button": "Šalinti dabartinį rodinį",
         "tab-context": {
             "split-tabs": "Skaidyti korteles",
-            "split-fixed-tab": "Split to Fixed Tab"
+            "split-fixed-tab": "Skaidyti į fiksuotą kortelę"
         }
     },
     "ssb": {
         "menu": {
-            "webapps": "Web Apps",
-            "install-current": "Install Current Page as Progressive Web App",
-            "open-installed": "Open Installed Apps"
+            "webapps": "Internetinės programos",
+            "install-current": "Diegti dabartinį puslapį kaip progresyvųjį internetinę programą",
+            "open-installed": "Atverti įdiegtas programas"
         },
         "page-action": {
-            "title": "Open Application",
-            "install": "Install Application",
-            "open": "Open Application",
-            "cancel": "Cancel",
-            "site-icon": "Site icon",
+            "title": "Atverti programą",
+            "install": "Diegti programą",
+            "open": "Atverti programą",
+            "cancel": "Atšaukti",
+            "site-icon": "Svetainės piktograma",
             "installing": "Installing indicator"
         }
     },
