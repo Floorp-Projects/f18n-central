@@ -92,33 +92,33 @@
             "open": "Atverti programą",
             "cancel": "Atšaukti",
             "site-icon": "Svetainės piktograma",
-            "installing": "Installing indicator"
+            "installing": "Diegimo indikatorius"
         }
     },
     "privateContainer": {
-        "openInPrivateContainer": "Open in Private Container",
-        "name": "Private Container"
+        "openInPrivateContainer": "Atverti privačiame konteineryje",
+        "name": "Privatus konteineris"
     },
     "mouseGesture": {
         "actions": {
-            "goBack": "Back",
-            "goForward": "Forward",
-            "reload": "Reload",
-            "closeTab": "Close Tab",
-            "newTab": "New Tab",
-            "duplicateTab": "Duplicate Tab",
-            "reloadAllTabs": "Reload All Tabs",
-            "reopenClosedTab": "Reopen Closed Tab"
+            "goBack": "Atgal",
+            "goForward": "Pirmyn",
+            "reload": "Įkelti iš naujo",
+            "closeTab": "Užverti kortelę",
+            "newTab": "Nauja kortelė",
+            "duplicateTab": "Dubliuoti kortelę",
+            "reloadAllTabs": "Iš naujo įkelti visas korteles",
+            "reopenClosedTab": "Iš naujo atverti užverstą kortelę"
         },
         "descriptions": {
-            "goBack": "Navigate back to the previous page",
-            "goForward": "Navigate forward to the next page",
-            "reload": "Reload the current page",
-            "closeTab": "Close the current tab",
-            "newTab": "Open a new tab",
-            "duplicateTab": "Duplicate the current tab",
-            "reloadAllTabs": "Reload all tabs",
-            "reopenClosedTab": "Reopen the last closed tab"
+            "goBack": "Naršykite atgal į ankstesnį puslapį",
+            "goForward": "Naršykite pirmyn į tolesnį puslapį",
+            "reload": "Iš naujo įkelti dabartinį puslapį",
+            "closeTab": "Užverti dabartinę kortelę",
+            "newTab": "Atverti naują kortelę",
+            "duplicateTab": "Dubliuoti dabartinę kortelę",
+            "reloadAllTabs": "Iš naujo įkelti visas korteles",
+            "reopenClosedTab": "Atverti iš naujo paskutinį užverstą kortelę"
         }
     }
 }
