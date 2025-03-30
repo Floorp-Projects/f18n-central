@@ -11,3 +11,6 @@ files:
   - source: /welcome/en-US.json
     translation: /welcome/%locale%.json
 
+  - source: /stub-win64-installer/en-US.json
+    translation: /stub-win64-installer/%locale%.json
+
