@@ -10,7 +10,7 @@
     "restartWarningDialog": {
         "title": "Privalomas paleidimas iš naujo",
         "description": "Paleidus iš naujo, atvertos privačios langos ir kortelės bus prarastos.",
-        "cancel": "Later",
+        "cancel": "Vėliau",
         "restart": "Restart Now"
     },
     "sidebar": {
