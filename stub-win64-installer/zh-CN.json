@@ -9,47 +9,47 @@
             "description": "Install Floorp browser and start a privacy-focused, fast, and customizable browsing experience.",
             "adminRights": "Install with admin rights",
             "adminRightsEnabled": "Install for all users with admin rights.",
-            "adminRightsDisabled": "Install for current user only.",
+            "adminRightsDisabled": "仅为当前用户安装。",
             "customPathRequired": "Custom installation path requires admin rights.",
-            "installLocation": "Install location",
-            "change": "Change",
-            "installButton": "Start Installation",
-            "retryButton": "Retry"
+            "installLocation": "安装位置",
+            "change": "更改",
+            "installButton": "开始安装",
+            "retryButton": "重试"
         },
         "progress": {
-            "installing": "Installing...",
+            "installing": "正在安装……",
             "slideCounter": "Slide {{current}}/{{total}}"
         },
         "modal": {
             "selectLocation": "Select Installation Location",
             "installPath": "Installation path",
-            "browse": "Browse",
+            "browse": "浏览",
             "resetDefault": "Reset to Default",
             "cancel": "Cancel",
             "save": "Save Settings",
-            "close": "Close"
+            "close": "关闭"
         },
         "exitConfirmation": {
             "title": "Cancel Installation?",
             "message": "Canceling the installation process will prevent Floorp from being installed.",
-            "cancelButton": "Cancel",
+            "cancelButton": "取消",
             "confirmButton": "Cancel Installation"
         },
         "complete": {
             "success": "Installation Successful",
             "error": "Installation Failed",
-            "launchCheckbox": "Launch Floorp browser after installation",
-            "closeButton": "Close Installer",
+            "launchCheckbox": "安装后启动 Floorp 浏览器",
+            "closeButton": "关闭安装程序",
             "countdownMessage": "Installer will close in {{count}} seconds"
         }
     },
     "slides": {
         "privacy": {
-            "title": "Privacy Protection",
+            "title": "隐私保护",
             "description": "Floorp is designed with user privacy as the top priority. Protect your online privacy with tracking prevention features and secure browsing mode."
         },
         "performance": {
-            "title": "Fast Performance",
+            "title": "性能优秀",
             "description": "Optimized engine provides speed for everything from page loading to tab switching, making your browsing experience smooth."
         },
         "customization": {
@@ -65,8 +65,8 @@
             "description": "Available on various platforms including Windows, macOS, and Linux. Enjoy the same experience everywhere."
         },
         "navigation": {
-            "previous": "Previous",
-            "next": "Next",
+            "previous": "上一步",
+            "next": "下一步",
             "goto": "Go to slide {{number}}"
         }
     },
@@ -80,16 +80,16 @@
             "download_failed": "An error occurred during download: {{0}}",
             "signature_verification_failed": "Installer signature verification failed. Execution aborted for security reasons.",
             "signature_verification_error": "An error occurred during signature verification: {{0}}",
-            "installer_exit_code": "Installer exited with code {{0}}.",
+            "installer_exit_code": "安装程序退出，代码为 {{0}}。",
             "installer_execution": "An error occurred while running the installer: {{0}}",
             "browser_not_found": "Floorp browser not found. Installation was successful, but the browser executable could not be found.",
             "browser_launch_failed": "Failed to launch browser: {{0}}",
-            "file_not_found": "File not found: {{0}}",
-            "not_a_file": "Path is not a file: {{0}}",
+            "file_not_found": "找不到文件：{{0}}",
+            "not_a_file": "路径不是文件: {{0}}",
             "admin_rights_denied": "Administrator rights were denied. You selected the administrator rights mode, but permission was denied.",
             "exit_code_not_found": "Could not get the installer's exit code. Administrator rights may have been denied.",
             "powershell_script_creation": "Failed to create PowerShell script: {{0}}",
-            "powershell_process": "Failed to start PowerShell process: {{0}}",
+            "powershell_process": "启动 PowerShell 进程失败： {{0}}",
             "admin_install_failed": "Installation with administrator rights failed. Exit code: {{0}}",
             "user_installer_launch": "Failed to launch installer process with user rights: {{0}}",
             "user_installer_execution": "An issue occurred while running the installer with user rights: {{0}}"
