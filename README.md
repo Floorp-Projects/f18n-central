@@ -5,22 +5,22 @@
 </a>
 
 <p align="center">
-<img src="assets/Floorp_Logo_f10n_Light.svg#gh-light-mode-only" width="400px"></img>
-<img src="assets/Floorp_Logo_f10n_Dark.svg#gh-dark-mode-only" width="400px"></img>
+<img src="assets/Floorp_Logo_f18n_Light.svg#gh-light-mode-only" width="300px"></img>
+<img src="assets/Floorp_Logo_f18n_Dark.svg#gh-dark-mode-only" width="300px"></img>
 </p>
 
-This repository hosts the localization files for Floorp, which have been sourced from Crowdin. It also include main [English localization](https://github.com/Floorp-Projects/Unified-l10n-central/blob/main/en-US/floorp.ftl).
+This repository hosts the localization files for Floorp, which have been sourced from Crowdin. It also include main English (US) localization.
 
-## Improving the English Localization
+## Improving the English (US) Localization
 
-If you notice any issues with the English localization, you can modify or fix it by following these steps:
+If you notice any issues with the English (US) localization, you can modify or fix it by following these steps:
 
-1. Fork this repository by clicking the [Fork](https://github.com/Floorp-Projects/Floorp-12/fork) button.
+1. Fork this repository by clicking the [Fork](https://github.com/Floorp-Projects/f18n-central/fork) button.
 
 2. Clone your forked repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/{YOUR_USERNAME}/Floorp-12.git
+git clone https://github.com/{YOUR_USERNAME}/f18n-central.git
 ```
 
 3. Create a new branch for your improvements using the following command:
@@ -64,7 +64,7 @@ git push origin your_branch
 
 7. Create a pull request.
 
-[Create Pull Request](https://github.com/Floorp-Projects/Unified-l10n-central/compare)
+[Create Pull Request](https://github.com/Floorp-Projects/f18n-central/compare)
 
 # Contributing to other translation
 
