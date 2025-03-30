@@ -118,7 +118,7 @@
             "newTab": "새 탭 열기",
             "duplicateTab": "현재 탭을 복제",
             "reloadAllTabs": "모든 탭 새로 고침",
-            "reopenClosedTab": "Reopen the last closed tab"
+            "reopenClosedTab": "마지막으로 닫은 탭을 다시 열기"
         }
     }
 }
