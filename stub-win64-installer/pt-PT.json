@@ -1,8 +1,8 @@
 {
     "app": {
         "status": {
-            "installing": "Installing in the background...",
-            "installComplete": "Installation complete"
+            "installing": "Instalação em segundo plano...",
+            "installComplete": "Instalação concluída"
         },
         "installer": {
             "title": "Floorp Installer",
