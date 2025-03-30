@@ -82,7 +82,7 @@
             "features": [
                 "Sematkan situs ke bilah sisi",
                 "Buat catatan dengan cepat menggunakan Catatan Floorp selagi meramban",
-                "Supports containers"
+                "Mendukung kontainer"
             ]
         },
         "workspaces": {
@@ -124,7 +124,7 @@
         "documentation": "Dokumentasi",
         "getStarted": "Memulai dengan Floorp",
         "hint": "Untuk pengaturan yang lebih rinci, Anda dapat mengunjungi Pengaturan melalui tombol menu di kanan atas.",
-        "resourcesLabel": "Resources",
+        "resourcesLabel": "Sumber-Sumber",
         "defaultBrowserSuccess": "Floorp telah dijadikan peramban utama Anda!"
     }
 }
