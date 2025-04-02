@@ -1,115 +1,115 @@
 {
     "undo-closed-tab": {
-        "label": "Undo Closed Tab",
-        "tooltiptext": "Reopen the last closed tab {{shortcut}}"
+        "label": "Deshacer cierre de pestaña",
+        "tooltiptext": "Reabrir última pestaña cerrada {{shortcut}}"
     },
     "workspaces": {
         "modal": {
-            "name": "Name",
-            "name-placeholder": "Enter a name for this workspace",
-            "container": "Container",
-            "no-container": "No Container",
-            "icon": "Icon",
-            "edit-title": "Edit Workspace",
-            "save": "Save Changes",
-            "cancel": "Cancel"
+            "name": "Nombre",
+            "name-placeholder": "Introduzca un nombre para este espacio de trabajo",
+            "container": "Contenedor",
+            "no-container": "Ningún contenedor",
+            "icon": "Icono",
+            "edit-title": "Editar espacio de trabajo",
+            "save": "Guardar cambios",
+            "cancel": "Cancelar"
         },
         "icons": {
-            "article": "Article",
-            "book": "Book",
+            "article": "Artículo",
+            "book": "Libro",
             "briefcase": "Briefcase",
-            "cart": "Shopping Cart",
-            "chat": "Chat",
+            "cart": "Carrito de compras",
+            "chat": "Conversación",
             "chill": "Chill",
-            "circle": "Circle",
-            "compass": "Compass",
-            "code": "Code",
+            "circle": "Círculo",
+            "compass": "Brújula",
+            "code": "Código",
             "dollar": "Dollar",
             "fence": "Fence",
-            "fingerprint": "Fingerprint",
+            "fingerprint": "Huella",
             "food": "Food",
-            "fruit": "Fruit",
-            "game": "Game",
-            "gear": "Settings",
-            "gift": "Gift",
-            "key": "Key",
+            "fruit": "Fruta",
+            "game": "Juego",
+            "gear": "Configuración",
+            "gift": "Regalo",
+            "key": "Llave",
             "lightning": "Lightning",
-            "network": "Network",
-            "notes": "Notes",
-            "paint": "Paint",
-            "photo": "Photo",
+            "network": "Red",
+            "notes": "Notas",
+            "paint": "Pintura",
+            "photo": "Foro",
             "pin": "Pin",
-            "pet": "Pet",
-            "question": "Question",
-            "smartphone": "Smartphone",
-            "star": "Star",
-            "tree": "Tree",
-            "vacation": "Vacation",
-            "love": "Love",
-            "moon": "Moon",
-            "music": "Music",
-            "user": "User"
+            "pet": "Mascota",
+            "question": "Pregunta",
+            "smartphone": "Teléfono inteligente",
+            "star": "Estrella",
+            "tree": "Árbol",
+            "vacation": "Vacaciones",
+            "love": "Amor",
+            "moon": "Luna",
+            "music": "Música",
+            "user": "Usuario"
         },
         "service": {
-            "new-workspace": "New Workspace ({{count}})"
+            "new-workspace": "Espacio de trabajo nuevo ({{count}})"
         },
         "context-menu": {
-            "move-up": "Move this Workspace Up",
-            "move-down": "Move this Workspace Down",
-            "delete": "Delete Workspace",
-            "manage": "Manage Workspace"
+            "move-up": "Subir este espacio de trabajo",
+            "move-down": "Bajar este espacio de trabajo",
+            "delete": "Eliminar espacio de trabajo",
+            "manage": "Gestionar espacio de trabajo"
         },
         "popup": {
-            "create-new": "Create New Workspace...",
-            "manage": "Manage Workspaces"
+            "create-new": "Crear espacio de trabajo nuevo…",
+            "manage": "Gestionar espacios de trabajo"
         }
     },
     "statusbar": {
         "toggle": "Status Bar{{mark}}"
     },
     "splitview": {
-        "title": "Split View",
-        "position": "Position",
-        "position-left": "Left",
-        "position-right": "Right",
-        "flex-row": "Row",
-        "flex-column": "Column",
-        "remove-button": "Remove Current View",
+        "title": "Vista dividida",
+        "position": "Posición",
+        "position-left": "Izquierda",
+        "position-right": "Derecha",
+        "flex-row": "Fila",
+        "flex-column": "Columna",
+        "remove-button": "Quitar vista actual",
         "tab-context": {
-            "split-tabs": "Split Tabs",
+            "split-tabs": "Dividir pestañas",
             "split-fixed-tab": "Split to Fixed Tab"
         }
     },
     "ssb": {
         "menu": {
-            "webapps": "Web Apps",
-            "install-current": "Install Current Page as Progressive Web App",
-            "open-installed": "Open Installed Apps"
+            "webapps": "Aplicaciones web",
+            "install-current": "Instalar página actual como aplicación web progresiva",
+            "open-installed": "Abrir aplicaciones instaladas"
         },
         "page-action": {
-            "title": "Open Application",
-            "install": "Install Application",
-            "open": "Open Application",
-            "cancel": "Cancel",
-            "site-icon": "Site icon",
+            "title": "Abrir aplicación",
+            "install": "Instalar aplicación",
+            "open": "Abrir aplicación",
+            "cancel": "Cancelar",
+            "site-icon": "Icono de sitio",
             "installing": "Installing indicator"
         }
     },
     "privateContainer": {
-        "openInPrivateContainer": "Open in Private Container",
-        "name": "Private Container"
+        "openInPrivateContainer": "Abrir en contenedor privado",
+        "name": "Contenedor privado"
     },
     "mouseGesture": {
         "actions": {
-            "gecko-back": "Back",
-            "gecko-forward": "Forward",
-            "gecko-reload": "Reload",
-            "gecko-close-tab": "Close Tab",
-            "gecko-open-new-tab": "New Tab",
-            "gecko-duplicate-tab": "Duplicate Tab",
-            "gecko-reload-all-tabs": "Reload All Tabs",
-            "gecko-restore-last-tab": "Reopen Closed Tab",
-            "gecko-open-new-window": "Open New Window",
+            "gecko-back": "Atrás",
+            "gecko-forward": "Adelante",
+            "gecko-reload": "Volver a cargar",
+            "gecko-close-tab": "Cerrar pestaña",
+            "gecko-open-new-tab": "Pestaña nueva",
+            "gecko-duplicate-tab": "Duplicar pestaña",
+            "gecko-reload-all-tabs": "Volver a cargar todas las pestañas",
+            "gecko-restore-last-tab": "Reabrir pestaña cerrada",
+            "gecko-open-new-window": "Abrir pestaña nueva",
             "gecko-open-new-private-window": "Open New Private Window",
             "gecko-close-window": "Close Window",
             "gecko-restore-last-window": "Restore Last Window",
@@ -117,9 +117,9 @@
             "gecko-show-previous-tab": "Show Previous Tab",
             "gecko-show-all-tabs-panel": "Show All Tabs Panel",
             "gecko-force-reload": "Force Reload",
-            "gecko-zoom-in": "Zoom In",
-            "gecko-zoom-out": "Zoom Out",
-            "gecko-reset-zoom": "Reset Zoom",
+            "gecko-zoom-in": "Acercar",
+            "gecko-zoom-out": "Alejar",
+            "gecko-reset-zoom": "Restablecer zum",
             "gecko-bookmark-this-page": "Bookmark This Page",
             "gecko-open-home-page": "Open Home Page",
             "gecko-open-addons-manager": "Open Addons Manager",
