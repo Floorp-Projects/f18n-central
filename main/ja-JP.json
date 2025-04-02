@@ -170,18 +170,18 @@
             "gecko-scroll-down": "下にスクロール",
             "gecko-scroll-right": "右にスクロール",
             "gecko-scroll-left": "左にスクロール",
-            "gecko-scroll-to-top": "一番上までスクロール",
-            "gecko-scroll-to-bottom": "Scroll to Bottom"
+            "gecko-scroll-to-top": "最上部までスクロール",
+            "gecko-scroll-to-bottom": "最下部までスクロール"
         },
         "descriptions": {
-            "gecko-back": "Navigate back to the previous page",
-            "gecko-forward": "Navigate forward to the next page",
-            "gecko-reload": "Reload the current page",
-            "gecko-close-tab": "Close the current tab",
-            "gecko-open-new-tab": "Open a new tab",
-            "gecko-duplicate-tab": "Duplicate the current tab",
-            "gecko-reload-all-tabs": "Reload all tabs",
-            "gecko-restore-last-tab": "Reopen the last closed tab"
+            "gecko-back": "前のページに戻る",
+            "gecko-forward": "次のページに進む",
+            "gecko-reload": "現在のページを再読み込み",
+            "gecko-close-tab": "現在のタブを閉じる",
+            "gecko-open-new-tab": "新しいタブを開く",
+            "gecko-duplicate-tab": "現在のタブを複製",
+            "gecko-reload-all-tabs": "すべてのタブを再読み込み",
+            "gecko-restore-last-tab": "最後に閉じたタブを開きなおす"
         }
     }
 }
