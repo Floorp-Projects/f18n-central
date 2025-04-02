@@ -328,7 +328,7 @@
         "copy": "Salin",
         "defaultName": "Gestur Baru",
         "emptyPatternError": "Silakan atur pola gestur",
-        "duplicatePatternError": "This gesture pattern already exists"
+        "duplicatePatternError": "Pola gestur ini sudah ada"
     },
     "keyboardShortcut": {
         "description": "Customize keyboard shortcuts for various browser actions.",
