@@ -101,10 +101,10 @@
     },
     "mouseGesture": {
         "actions": {
-            "gecko-back": "Back",
-            "gecko-forward": "Forward",
-            "gecko-reload": "Reload",
-            "gecko-close-tab": "Close Tab",
+            "gecko-back": "Précédent",
+            "gecko-forward": "Suivant",
+            "gecko-reload": "Actualiser",
+            "gecko-close-tab": "Fermer l'onglet",
             "gecko-open-new-tab": "New Tab",
             "gecko-duplicate-tab": "Duplicate Tab",
             "gecko-reload-all-tabs": "Reload All Tabs",
