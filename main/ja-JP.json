@@ -185,22 +185,22 @@
     },
     "panelSidebar": {
         "modal": {
-            "type": "Panel Type",
+            "type": "パネルの種類",
             "typeOptions": {
-                "web": "Web Page",
-                "static": "Tool Sidebar",
-                "extension": "Extension Sidebar"
+                "web": "ウェブページ",
+                "static": "ツールサイドバー",
+                "extension": "拡張機能サイドバー"
             },
-            "width": "Panel Width",
-            "url": "Web Page URL",
-            "container": "Container",
-            "noContainer": "No Container",
-            "userAgent": "Use Mobile User Agent",
-            "extension": "Display Extension",
-            "sideBarTool": "Display Sidebar Tool",
-            "title": "Add Panel",
-            "add": "Add",
-            "cancel": "Cancel"
+            "width": "パネルの幅",
+            "url": "ウェブページの URL",
+            "container": "コンテナー",
+            "noContainer": "コンテナーなし",
+            "userAgent": "モバイル版のユーザーエージェントを使用",
+            "extension": "拡張機能を表示",
+            "sideBarTool": "ツールを表示",
+            "title": "パネルを追加",
+            "add": "追加",
+            "cancel": "キャンセル"
         }
     }
 }
