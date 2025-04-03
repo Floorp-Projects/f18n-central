@@ -18,70 +18,70 @@
         "about": "About",
         "aboutNoraneko": "About Noraneko",
         "debug": "Debug",
-        "overview": "Overview",
-        "features": "Features"
+        "overview": "Oversigt",
+        "features": "Funktioner"
     },
     "pages": {
-        "home": "Home",
-        "tabAndAppearance": "Tab & Appearance",
+        "home": "Hjem",
+        "tabAndAppearance": "Fane og udseende",
         "browserSidebar": "Panel Sidebar",
-        "workspaces": "Workspaces",
-        "keyboardShortcuts": "Keyboard Shortcuts",
-        "webApps": "Web Apps",
-        "profileAndAccount": "Profile and Account",
-        "aboutBrowser": "About {{productName}}",
-        "debug": "Debug",
-        "mouseGesture": "Mouse Gestures",
-        "keyboardShortcut": "Keyboard Shortcuts"
+        "workspaces": "Arbejdsområder",
+        "keyboardShortcuts": "Tastaturgenveje",
+        "webApps": "Webapps",
+        "profileAndAccount": "Profil og konto",
+        "aboutBrowser": "Om {{productName}}",
+        "debug": "Fejlfinding",
+        "mouseGesture": "Musebevægelser",
+        "keyboardShortcut": "Tastaturgenveje"
     },
     "home": {
-        "welcome": "Welcome, {{name}} 👋",
+        "welcome": "Velkommen, {{name}} 👋",
         "defaultAccountName": "{{productName}} User",
-        "description": "Manage your account, privacy, and security to enhance your {{productName}} experience.",
+        "description": "Administrer din konto, privatliv og sikkerhed for at forbedre din {{productName}}-oplevelse.",
         "setup": {
-            "title": "Setup",
-            "footerLinkText": "Log in to Accounts",
-            "setupDescription": "Complete the setup to maximize your {{productName}} experience.",
+            "title": "Opsætning",
+            "footerLinkText": "Log ind på konti",
+            "setupDescription": "Fuldfør opsætningen for at maksimere din {{productName}}-oplevelse.",
             "setupProgressTitle": "Setup Progress",
-            "step": "Step {{step}} of {{total}}"
+            "step": "Trin {{step}} af {{total}}"
         },
         "privacyAndTrackingProtection": {
             "title": "Privacy and Tracking Protection",
             "footerLinkText": "Privacy and Tracking Protection",
-            "description": "{{productName}} protects your data and privacy by default, but you can also manage these settings manually."
+            "description": "{{productName}} beskytter dine data og dit privatliv som standard, men du kan også justere indstillingerne manuelt."
         },
         "ablazeAccount": {
-            "title": "Ablaze Account (Coming Soon)",
-            "footerLinkText": "Ablaze Account",
-            "description": "Use a Mozilla Account to sync some data with other devices. Ablaze Account syncs data that can't be synced with a Mozilla Account."
+            "title": "Ablaze-konto (kommer snart)",
+            "footerLinkText": "Ablaze-konto",
+            "description": "Brug en Mozilla-konto til at synkronisere visse data mellem enheder. Ablaze-kontoen synkroniserer data, som ikke kan synkroniseres med en Mozilla-konto."
         },
         "manageExtensions": {
-            "title": "Manage Extensions",
-            "description": "{{productName}} allows you to manage extensions available on addons.mozilla.org.",
-            "footerLinkText": "Manage Extensions"
+            "title": "Administrer udvidelser",
+            "description": "{{productName}} lader dig administrere udvidelser tilgængelige på addons.mozilla.org.",
+            "footerLinkText": "Administrer udvidelser"
         },
         "browserSupport": {
-            "title": "{{productName}} Support",
-            "description": "Access support documentation written by {{productName}} contributors.",
-            "footerLinkText": "{{productName}} Support"
+            "title": "{{productName}}-support",
+            "description": "Få adgang til supportdokumentation skrevet af {{productName}}-bidragydere.",
+            "footerLinkText": "{{productName}}-support"
         }
     },
     "design": {
-        "tabAndAppearance": "Tab & Appearance",
-        "customizePositionOfToolbars": "Customize toolbar positions, tab bar style, and {{productName}}'s appearance.",
-        "interface": "Interface",
-        "aboutInterfaceDesign": "About Interface Design",
+        "tabAndAppearance": "Fane og udseende",
+        "customizePositionOfToolbars": "Tilpas værktøjslinjepositioner, fanelinjestil og {{productName}}'s udseende.",
+        "interface": "Brugerflade",
+        "aboutInterfaceDesign": "Om brugerfladedesign",
         "proton": "Proton",
         "lepton": "Lepton",
         "photon": "Photon",
-        "protonfix": "Firefox UI Fix",
+        "protonfix": "Firefox UI-rettelse",
         "fluerial": "Fluerial",
-        "advancedLeptonThemeSettingsDescription": "The selected theme uses Lepton design. Additional customization options are available.",
-        "advancedLeptonThemeSettings": "Advanced Lepton Theme Settings",
-        "interfaceDescription": "Choose the interface design. \"Lepton\" is the default.",
-        "otherInterfaceSettings": "Other Interface Settings",
-        "useFaviconColorToBackgroundOfNavigationBar": "Use Favicon Color for Navigation Bar Background",
-        "tabBar": "Tab Bar",
+        "advancedLeptonThemeSettingsDescription": "Det valgte tema bruger Lepton-design. Flere tilpasningsmuligheder er tilgængelige.",
+        "advancedLeptonThemeSettings": "Avancerede indstillinger for Lepton-tema",
+        "interfaceDescription": "Vælg brugerfladedesignet. \"Lepton\" er standard.",
+        "otherInterfaceSettings": "Andre brugerfladeindstillinger",
+        "useFaviconColorToBackgroundOfNavigationBar": "Brug faviconfarve som baggrund for navigationslinjen",
+        "tabBar": "Fanelinje",
         "styleDescription": "Select the tab bar style.",
         "customizeTabBar": "Customize Tab Bar",
         "style": "Style",
