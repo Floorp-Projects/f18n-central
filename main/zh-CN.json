@@ -185,22 +185,22 @@
     },
     "panelSidebar": {
         "modal": {
-            "type": "Panel Type",
+            "type": "面板类型",
             "typeOptions": {
-                "web": "Web Page",
-                "static": "Tool Sidebar",
-                "extension": "Extension Sidebar"
+                "web": "网页",
+                "static": "工具侧边栏",
+                "extension": "扩展侧边栏"
             },
-            "width": "Panel Width",
-            "url": "Web Page URL",
-            "container": "Container",
-            "noContainer": "No Container",
-            "userAgent": "Use Mobile User Agent",
+            "width": "面板宽度",
+            "url": "网页地址",
+            "container": "容器",
+            "noContainer": "无容器",
+            "userAgent": "使用手机UserAgent",
             "extension": "Display Extension",
-            "sideBarTool": "Display Sidebar Tool",
-            "title": "Add Panel",
-            "add": "Add",
-            "cancel": "Cancel"
+            "sideBarTool": "显示侧边栏工具",
+            "title": "添加面板",
+            "add": "添加",
+            "cancel": "取消"
         }
     }
 }
