@@ -91,7 +91,7 @@
             "install": "Installer applikation",
             "open": "Åbn applikation",
             "cancel": "Annuller",
-            "site-icon": "Site icon"
+            "site-icon": "Webstedsikon"
         }
     },
     "privateContainer": {
@@ -128,7 +128,7 @@
             "gecko-mute-current-tab": "Mute Current Tab",
             "gecko-show-source-of-page": "Show Source Of Page",
             "gecko-show-page-info": "Vis sideoplysninger",
-            "floorp-rest-mode": "Enable Rest Mode",
+            "floorp-rest-mode": "Aktivér hviletilstand",
             "floorp-hide-user-interface": "Skjul brugerflade",
             "floorp-toggle-navigation-panel": "Vis/skjul navigationspanel",
             "gecko-stop": "Stop",
@@ -140,11 +140,11 @@
             "gecko-quit-from-application": "Afslut applikation",
             "gecko-enter-into-customize-mode": "Gå ind i tilpasningstilstand",
             "gecko-enter-into-offline-mode": "Gå ind i offline-tilstand",
-            "gecko-open-screen-capture": "Open Screen Capture",
+            "gecko-open-screen-capture": "Åbn skærmoptagelse",
             "floorp-show-pip": "Vis billede-i-billede",
             "gecko-open-bookmark-add-tool": "Open Bookmark Add Tool",
-            "gecko-open-bookmarks-manager": "Open Bookmarks Manager",
-            "gecko-toggle-bookmark-toolbar": "Toggle Bookmark Toolbar",
+            "gecko-open-bookmarks-manager": "Åbn bogmærkehåndtering",
+            "gecko-toggle-bookmark-toolbar": "Vis/skjul bogmærkelinje",
             "gecko-open-general-preferences": "Åbn generelle indstillinger",
             "gecko-open-privacy-preferences": "Åbn privatlivsindstillinger",
             "gecko-open-workspaces-preferences": "Åbn indstillinger for arbejdsområder",
@@ -159,10 +159,10 @@
             "gecko-search-history": "Søg i historik",
             "gecko-manage-history": "Administrer historik",
             "gecko-open-downloads": "Open Downloads",
-            "gecko-show-bookmark-sidebar": "Show Bookmark Sidebar",
-            "gecko-show-history-sidebar": "Show History Sidebar",
-            "gecko-show-synced-tabs-sidebar": "Show Synced Tabs Sidebar",
-            "gecko-reverse-sidebar": "Reverse Sidebar Position",
+            "gecko-show-bookmark-sidebar": "Vis Bogmærker-sidepanel",
+            "gecko-show-history-sidebar": "Vis Historik-sidepanel",
+            "gecko-show-synced-tabs-sidebar": "Vis Synkroniserede Faner-sidepanel",
+            "gecko-reverse-sidebar": "Omvendt position af sidepanel",
             "gecko-hide-sidebar": "Skjul sidepanel",
             "gecko-toggle-sidebar": "Vis/skjul sidepanel",
             "gecko-scroll-up": "Rul op",
@@ -173,34 +173,34 @@
             "gecko-scroll-to-bottom": "Rul til bunden"
         },
         "descriptions": {
-            "gecko-back": "Navigate back to the previous page",
-            "gecko-forward": "Navigate forward to the next page",
-            "gecko-reload": "Reload the current page",
-            "gecko-close-tab": "Close the current tab",
-            "gecko-open-new-tab": "Open a new tab",
-            "gecko-duplicate-tab": "Duplicate the current tab",
-            "gecko-reload-all-tabs": "Reload all tabs",
-            "gecko-restore-last-tab": "Reopen the last closed tab"
+            "gecko-back": "Naviger tilbage til den forrige side",
+            "gecko-forward": "Naviger frem til den næste side",
+            "gecko-reload": "Genindlæs nuværende side",
+            "gecko-close-tab": "Luk nuværende fane",
+            "gecko-open-new-tab": "Åbn en ny fane",
+            "gecko-duplicate-tab": "Dupliker nuværende fane",
+            "gecko-reload-all-tabs": "Genindlæs alle faner",
+            "gecko-restore-last-tab": "Genåbn den sidst lukkede fane"
         }
     },
     "panelSidebar": {
         "modal": {
-            "type": "Panel Type",
+            "type": "Paneltype",
             "typeOptions": {
-                "web": "Web Page",
-                "static": "Tool Sidebar",
-                "extension": "Extension Sidebar"
+                "web": "Webside",
+                "static": "Værktøjssidepanel",
+                "extension": "Udvidelsessidepanel"
             },
-            "width": "Panel Width",
-            "url": "Web Page URL",
-            "container": "Container",
-            "noContainer": "No Container",
-            "userAgent": "Use Mobile User Agent",
-            "extension": "Display Extension",
+            "width": "Panelbredde",
+            "url": "Webside-URL",
+            "container": "Beholder",
+            "noContainer": "Ingen beholder",
+            "userAgent": "Brug mobil brugeragent",
+            "extension": "Vis udvidelse",
             "sideBarTool": "Display Sidebar Tool",
-            "title": "Add Panel",
-            "add": "Add",
-            "cancel": "Cancel"
+            "title": "Tilføj panel",
+            "add": "Tilføj",
+            "cancel": "Annuller"
         }
     }
 }
