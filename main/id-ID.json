@@ -185,22 +185,22 @@
     },
     "panelSidebar": {
         "modal": {
-            "type": "Panel Type",
+            "type": "Jenis Panel",
             "typeOptions": {
-                "web": "Web Page",
-                "static": "Tool Sidebar",
-                "extension": "Extension Sidebar"
+                "web": "Halaman Web",
+                "static": "Bilah Sisi Alat",
+                "extension": "Bilah Sisi Ekstensi"
             },
-            "width": "Panel Width",
-            "url": "Web Page URL",
-            "container": "Container",
-            "noContainer": "No Container",
-            "userAgent": "Use Mobile User Agent",
-            "extension": "Display Extension",
-            "sideBarTool": "Display Sidebar Tool",
-            "title": "Add Panel",
-            "add": "Add",
-            "cancel": "Cancel"
+            "width": "Lebar Panel",
+            "url": "URL Halaman Web",
+            "container": "Kontainer",
+            "noContainer": "Tanpa Kontainer",
+            "userAgent": "Gunakan Agen Pengguna Seluler",
+            "extension": "Tampilkan Ekstensi",
+            "sideBarTool": "Tampilkan Alat Bilah Samping",
+            "title": "Tambahkan Panel",
+            "add": "Tambah",
+            "cancel": "Batal"
         }
     }
 }
