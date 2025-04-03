@@ -91,8 +91,7 @@
             "install": "Pasang Aplikasi",
             "open": "Buka Aplikasi",
             "cancel": "Batal",
-            "site-icon": "Ikon situs",
-            "installing": "Installing indicator"
+            "site-icon": "Ikon situs"
         }
     },
     "privateContainer": {
@@ -182,6 +181,26 @@
             "gecko-duplicate-tab": "Duplicate the current tab",
             "gecko-reload-all-tabs": "Reload all tabs",
             "gecko-restore-last-tab": "Reopen the last closed tab"
+        }
+    },
+    "panelSidebar": {
+        "modal": {
+            "type": "Panel Type",
+            "typeOptions": {
+                "web": "Web Page",
+                "static": "Tool Sidebar",
+                "extension": "Extension Sidebar"
+            },
+            "width": "Panel Width",
+            "url": "Web Page URL",
+            "container": "Container",
+            "noContainer": "No Container",
+            "userAgent": "Use Mobile User Agent",
+            "extension": "Display Extension",
+            "sideBarTool": "Display Sidebar Tool",
+            "title": "Add Panel",
+            "add": "Add",
+            "cancel": "Cancel"
         }
     }
 }
