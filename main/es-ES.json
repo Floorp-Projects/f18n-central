@@ -91,8 +91,7 @@
             "install": "Instalar aplicación",
             "open": "Abrir aplicación",
             "cancel": "Cancelar",
-            "site-icon": "Icono de sitio",
-            "installing": "Installing indicator"
+            "site-icon": "Icono de sitio"
         }
     },
     "privateContainer": {
@@ -182,6 +181,26 @@
             "gecko-duplicate-tab": "Duplicate the current tab",
             "gecko-reload-all-tabs": "Reload all tabs",
             "gecko-restore-last-tab": "Reopen the last closed tab"
+        }
+    },
+    "panelSidebar": {
+        "modal": {
+            "type": "Panel Type",
+            "typeOptions": {
+                "web": "Web Page",
+                "static": "Tool Sidebar",
+                "extension": "Extension Sidebar"
+            },
+            "width": "Panel Width",
+            "url": "Web Page URL",
+            "container": "Container",
+            "noContainer": "No Container",
+            "userAgent": "Use Mobile User Agent",
+            "extension": "Display Extension",
+            "sideBarTool": "Display Sidebar Tool",
+            "title": "Add Panel",
+            "add": "Add",
+            "cancel": "Cancel"
         }
     }
 }
