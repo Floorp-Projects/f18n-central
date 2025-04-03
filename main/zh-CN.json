@@ -91,8 +91,7 @@
             "install": "安装应用",
             "open": "打开应用",
             "cancel": "取消",
-            "site-icon": "网站图标",
-            "installing": "Installing indicator"
+            "site-icon": "网站图标"
         }
     },
     "privateContainer": {
@@ -182,6 +181,26 @@
             "gecko-duplicate-tab": "复制当前标签页",
             "gecko-reload-all-tabs": "重新加载所有标签页",
             "gecko-restore-last-tab": "重新打开上次关闭的标签页"
+        }
+    },
+    "panelSidebar": {
+        "modal": {
+            "type": "Panel Type",
+            "typeOptions": {
+                "web": "Web Page",
+                "static": "Tool Sidebar",
+                "extension": "Extension Sidebar"
+            },
+            "width": "Panel Width",
+            "url": "Web Page URL",
+            "container": "Container",
+            "noContainer": "No Container",
+            "userAgent": "Use Mobile User Agent",
+            "extension": "Display Extension",
+            "sideBarTool": "Display Sidebar Tool",
+            "title": "Add Panel",
+            "add": "Add",
+            "cancel": "Cancel"
         }
     }
 }
