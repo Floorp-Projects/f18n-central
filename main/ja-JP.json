@@ -91,8 +91,7 @@
             "install": "アプリをインストール",
             "open": "アプリを開く",
             "cancel": "キャンセル",
-            "site-icon": "サイトのアイコン",
-            "installing": "インストールインジケーター"
+            "site-icon": "サイトのアイコン"
         }
     },
     "privateContainer": {
@@ -182,6 +181,26 @@
             "gecko-duplicate-tab": "現在のタブを複製",
             "gecko-reload-all-tabs": "すべてのタブを再読み込み",
             "gecko-restore-last-tab": "最後に閉じたタブを開きなおす"
+        }
+    },
+    "panelSidebar": {
+        "modal": {
+            "type": "Panel Type",
+            "typeOptions": {
+                "web": "Web Page",
+                "static": "Tool Sidebar",
+                "extension": "Extension Sidebar"
+            },
+            "width": "Panel Width",
+            "url": "Web Page URL",
+            "container": "Container",
+            "noContainer": "No Container",
+            "userAgent": "Use Mobile User Agent",
+            "extension": "Display Extension",
+            "sideBarTool": "Display Sidebar Tool",
+            "title": "Add Panel",
+            "add": "Add",
+            "cancel": "Cancel"
         }
     }
 }
