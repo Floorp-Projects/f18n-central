@@ -7,47 +7,47 @@
         "featureIntroduction": "Feature Introduction",
         "customize": "Customize",
         "initialSettings": "Initial Settings",
-        "complete": "Complete",
-        "previous": "Previous",
-        "next": "Next"
+        "complete": "Fuldført",
+        "previous": "Forrige",
+        "next": "Næste"
     },
     "customize": {
-        "title": "Customize Floorp",
+        "title": "Tilpas Floorp",
         "description": "Customize to your preferred settings. You can always change them later from the Floorp Hub or settings page.",
         "appearance": {
-            "title": "Appearance Settings",
+            "title": "Indstillinger for udseende",
             "description": "You can customize Floorp's appearance to your preference. Choose a light or dark theme, or have it automatically switch based on your system settings."
         },
         "themes": {
-            "light": "Light",
-            "dark": "Dark",
-            "system": "Follow system settings"
+            "light": "Lys",
+            "dark": "Mørk",
+            "system": "Følg systemindstillinger"
         },
         "themeInfo": {
-            "light": "Light theme",
-            "dark": "Dark theme",
+            "light": "Lyst tema",
+            "dark": "Mørkt tema",
             "system": "System preference"
         },
         "searchEngine": {
-            "title": "Default Search Engine",
-            "default": "Default",
+            "title": "Standardsøgemaskine",
+            "default": "Standard",
             "search": "Search",
-            "noEnginesFound": "No search engines found."
+            "noEnginesFound": "Ingen søgemaskiner fundet."
         }
     },
     "finish": {
-        "title": "Setup Complete!",
-        "subtitle": "Congratulations! You've completed the Floorp setup. Enjoy a comfortable and secure internet browsing experience.",
+        "title": "Opsætning fuldført!",
+        "subtitle": "Tillykke! Du har fuldført Floorp-opsætningen. Nyd en behagelig og sikker browseroplevelse.",
         "nextSteps": {
-            "title": "Next Steps (Optional)",
-            "setDefault": "Set as Default Browser",
-            "documentation": "Documentation"
+            "title": "Næste trin (valgfrit)",
+            "setDefault": "Indstil som standardbrowser",
+            "documentation": "Dokumentation"
         },
-        "getStarted": "Get Started with Floorp",
+        "getStarted": "Kom i gang med Floorp",
         "hint": "For more detailed settings, you can customize via the Settings option in the menu button at the top right."
     },
     "welcomePage": {
-        "welcome": "Welcome to Floorp!",
+        "welcome": "Velkommen til Floorp!",
         "description": "Floorp is a fast and user-friendly web browser that emphasizes privacy and security. This guide will introduce you to the main features and settings of Floorp.",
         "readyToStart": "When you're ready, click the below button to proceed.",
         "features": "Floorp Features",
