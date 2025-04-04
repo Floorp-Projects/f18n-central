@@ -1,9 +1,8 @@
-name: 🧰 (P) Copy translated files to Floorp repository
-
+name: 🧰 (P) Copy translated files
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 12 * * *'
+    - cron: "0 17 * * *"
 
 jobs:
   sync-files:

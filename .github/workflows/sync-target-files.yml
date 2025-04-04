@@ -3,7 +3,7 @@ name: 🧰 (P) Update i18n source files
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "0 17 * * *"
 
 jobs:
   sync-files:
@@ -60,5 +60,5 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
           git add .
-          git commit -m "[Bot] Update i18n source files from main repository"
+          git commit -m "[Bot] Update i18n source files from main repository" || echo "No changes to commit"
           git push
