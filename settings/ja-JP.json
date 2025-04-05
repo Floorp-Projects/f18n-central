@@ -9,7 +9,7 @@
     },
     "restartWarningDialog": {
         "title": "再起動が必要です",
-        "description": "After restarting, the opened private windows and private tabs will be lost.",
+        "description": "再起動後、開いていたプライベートウィンドウとプライベートタブは失われます。",
         "cancel": "後で",
         "restart": "今すぐ再起動"
     },
@@ -117,39 +117,39 @@
             "minHeightError": "タブの高さは、 {{min}} から {{max}} ピクセルの間でなければなりません。"
         },
         "uiCustomization": {
-            "title": "UI Customization",
+            "title": "UI をカスタマイズ",
             "navbar": {
-                "title": "Navigation Bar",
-                "position": "Position",
-                "top": "Top",
-                "bottom": "Bottom",
-                "searchBarTop": "Move page inside search bar"
+                "title": "ナビゲーションバー",
+                "position": "位置",
+                "top": "上",
+                "bottom": "下",
+                "searchBarTop": "ページ内検索バーを移動"
             },
             "bookmarksBar": {
-                "title": "Bookmarks Bar",
-                "focusMode": "Focus mode (auto-hide)",
-                "statusMode": "Status bar mode"
+                "title": "ブックマークバー",
+                "focusMode": "集中モード (自動非表示)",
+                "statusMode": "ステータスバーモード"
             },
             "display": {
-                "title": "Display",
-                "disableFullscreenNotification": "Disable fullscreen notification",
-                "deleteBrowserBorder": "Remove browser border",
-                "hideUnifiedExtensionsButton": "Hide unified extensions button"
+                "title": "表示",
+                "disableFullscreenNotification": "フルスクリーン通知を無効にする",
+                "deleteBrowserBorder": "ブラウザーの境界線を削除",
+                "hideUnifiedExtensionsButton": "統合拡張機能ボタンを隠す"
             },
             "download": {
-                "title": "Download",
-                "legacyUI": "Use legacy download UI",
-                "redColor": "Use red color for downloading"
+                "title": "ダウンロード",
+                "legacyUI": "旧式のダウンロード UI を使用",
+                "redColor": "ダウンロードの進捗に赤色を使用"
             },
             "special": {
-                "title": "Special Features",
-                "optimizeForTreeStyleTab": "Optimize for Tree Style Tab",
-                "optimizedMsButtonOpe": "Optimize MS button operation",
-                "stgLikeWorkspaces": "Simple Tab Groups like workspaces"
+                "title": "特別な機能",
+                "optimizeForTreeStyleTab": "ツリー型タブに最適化",
+                "optimizedMsButtonOpe": "MS ボタン操作に最適化",
+                "stgLikeWorkspaces": "Simple Tab Groups をワークスペースのように使用"
             },
             "multirowTab": {
-                "title": "Multirow Tab",
-                "newtabInsideEnabled": "Show new tab button inside tab bar"
+                "title": "多段タブ",
+                "newtabInsideEnabled": "タブバーの中に [新しいタブ] ボタンを表示"
             }
         }
     },
@@ -239,7 +239,7 @@
         "enableDisable": "有効化/無効化",
         "enablePwa": "プログレッシブウェブアプリを有効にする",
         "enablePwaDescription": "ウェブサイトをデスクトップアプリとしてインストール可能にする",
-        "needRestartDescriptionForEnableAndDisable": "{{productName}}'s restart is required to completely enable or disable the progressive web app feature.",
+        "needRestartDescriptionForEnableAndDisable": "プログレッシブウェブアプリ機能を完全に有効または無効にするには、 {{productName}} の再起動が必要です。",
         "otherSettings": "その他の設定",
         "showToolbar": "ツールバーを表示",
         "showToolbarDescription": "プログレッシブウェブアプリのウィンドウにツールバーを表示します",
