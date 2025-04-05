@@ -9,7 +9,7 @@
     },
     "restartWarningDialog": {
         "title": "Reiniciar necessário",
-        "description": "Depois de reiniciar, as janelas e separadores privados abertos serão perdidos.",
+        "description": "After restarting, the opened private windows and private tabs will be lost.",
         "cancel": "Mais tarde",
         "restart": "Reiniciar agora"
     },
@@ -76,8 +76,6 @@
         "photon": "Photon",
         "protonfix": "Correção da IU do Firefox",
         "fluerial": "Fluerial",
-        "advancedLeptonThemeSettingsDescription": "O tema selecionado utiliza o design Lepton. Estão disponíveis opções de personalização adicionais.",
-        "advancedLeptonThemeSettings": "Definições avançadas do tema Lepton",
         "interfaceDescription": "Escolha o design da interface. \"Lepton\" é a predefinição.",
         "otherInterfaceSettings": "Outras definições de interface",
         "useFaviconColorToBackgroundOfNavigationBar": "Utilizar a cor do favicon para o fundo da barra de navegação",
@@ -117,6 +115,42 @@
             "minWidthError": "A largura do separador deve situar-se entre {{min}} e {{max}} píxeis.",
             "minHeight": "Altura mínima do separador",
             "minHeightError": "A altura do separador deve situar-se entre {{min}} e {{max}} píxeis."
+        },
+        "uiCustomization": {
+            "title": "UI Customization",
+            "navbar": {
+                "title": "Navigation Bar",
+                "position": "Position",
+                "top": "Top",
+                "bottom": "Bottom",
+                "searchBarTop": "Move page inside search bar"
+            },
+            "bookmarksBar": {
+                "title": "Bookmarks Bar",
+                "focusMode": "Focus mode (auto-hide)",
+                "statusMode": "Status bar mode"
+            },
+            "display": {
+                "title": "Display",
+                "disableFullscreenNotification": "Disable fullscreen notification",
+                "deleteBrowserBorder": "Remove browser border",
+                "hideUnifiedExtensionsButton": "Hide unified extensions button"
+            },
+            "download": {
+                "title": "Download",
+                "legacyUI": "Use legacy download UI",
+                "redColor": "Use red color for downloading"
+            },
+            "special": {
+                "title": "Special Features",
+                "optimizeForTreeStyleTab": "Optimize for Tree Style Tab",
+                "optimizedMsButtonOpe": "Optimize MS button operation",
+                "stgLikeWorkspaces": "Simple Tab Groups like workspaces"
+            },
+            "multirowTab": {
+                "title": "Multirow Tab",
+                "newtabInsideEnabled": "Show new tab button inside tab bar"
+            }
         }
     },
     "workspaces": {
@@ -205,7 +239,7 @@
         "enableDisable": "Ativar/Desativar",
         "enablePwa": "Ativar Aplicações Web Progressivas",
         "enablePwaDescription": "Permitir que os sítios sejam instalados como aplicações de ambiente de trabalho",
-        "needRestartDescriptionForEnableAndDisable": "É necessário reiniciar {{productName}} para aplicar esta alteração",
+        "needRestartDescriptionForEnableAndDisable": "{{productName}}'s restart is required to completely enable or disable the progressive web app feature.",
         "otherSettings": "Outras definições",
         "showToolbar": "Mostrar barra de ferramentas",
         "showToolbarDescription": "Exibir a barra de ferramentas nas janelas das Aplicações Web Progressivas",
@@ -246,7 +280,7 @@
             "gecko-open-new-tab": "Novo separador",
             "gecko-duplicate-tab": "Duplicar Separador",
             "gecko-reload-all-tabs": "Recarregar todos os separadores",
-            "gecko-restore-last-tab": "Restaurar o último separador",
+            "gecko-restore-last-tab": "Reabrir separador fechado",
             "gecko-open-new-window": "Abrir nova janela",
             "gecko-open-new-private-window": "Abrir nova janela privada",
             "gecko-close-window": "Fechar janela",
