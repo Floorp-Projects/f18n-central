@@ -203,14 +203,14 @@
             "cancel": "キャンセル"
         },
         "contextMenu": {
-            "unload": "Unload this webpanel",
-            "mute": "Mute/Unmute this webpanel",
-            "changeZoom": "Change zoom level",
-            "zoomIn": "Zoom in",
-            "zoomOut": "Zoom out",
-            "resetZoom": "Reset zoom",
-            "changeUA": "Switch User agent to Mobile/Desktop Version at this Webpanel",
-            "delete": "Delete this panel"
+            "unload": "このウェブパネルの読み込みを停止",
+            "mute": "このウェブパネルをミュート/ミュート解除",
+            "changeZoom": "拡大率を変更",
+            "zoomIn": "拡大",
+            "zoomOut": "縮小",
+            "resetZoom": "拡大率をリセット",
+            "changeUA": "このウェブパネルのユーザーエージェントをモバイル/デスクトップに切り替える",
+            "delete": "このパネルを削除"
         }
     }
 }
