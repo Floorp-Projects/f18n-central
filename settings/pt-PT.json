@@ -9,7 +9,7 @@
     },
     "restartWarningDialog": {
         "title": "Reiniciar necessário",
-        "description": "After restarting, the opened private windows and private tabs will be lost.",
+        "description": "Depois de reiniciar, as janelas privadas e os separadores privados abertos serão perdidos.",
         "cancel": "Mais tarde",
         "restart": "Reiniciar agora"
     },
@@ -117,39 +117,39 @@
             "minHeightError": "A altura do separador deve situar-se entre {{min}} e {{max}} píxeis."
         },
         "uiCustomization": {
-            "title": "UI Customization",
+            "title": "Personalização da IU",
             "navbar": {
-                "title": "Navigation Bar",
-                "position": "Position",
-                "top": "Top",
-                "bottom": "Bottom",
-                "searchBarTop": "Move page inside search bar"
+                "title": "Barra de navegação",
+                "position": "Posição",
+                "top": "Topo",
+                "bottom": "Fundo",
+                "searchBarTop": "Mover página dentro da barra de pesquisa"
             },
             "bookmarksBar": {
-                "title": "Bookmarks Bar",
-                "focusMode": "Focus mode (auto-hide)",
-                "statusMode": "Status bar mode"
+                "title": "Barra de favoritos",
+                "focusMode": "Modo de focagem (auto-ocultar)",
+                "statusMode": "Modo de barra de estado"
             },
             "display": {
-                "title": "Display",
-                "disableFullscreenNotification": "Disable fullscreen notification",
-                "deleteBrowserBorder": "Remove browser border",
-                "hideUnifiedExtensionsButton": "Hide unified extensions button"
+                "title": "Ecrã",
+                "disableFullscreenNotification": "Desativar a notificação em ecrã completo",
+                "deleteBrowserBorder": "Remover fronteira do navegador",
+                "hideUnifiedExtensionsButton": "Ocultar o botão de extensões unificadas"
             },
             "download": {
-                "title": "Download",
-                "legacyUI": "Use legacy download UI",
-                "redColor": "Use red color for downloading"
+                "title": "Descarregar",
+                "legacyUI": "Utilizar a IU de transferência antiga",
+                "redColor": "Utilizar a cor vermelha para descarregar"
             },
             "special": {
-                "title": "Special Features",
-                "optimizeForTreeStyleTab": "Optimize for Tree Style Tab",
-                "optimizedMsButtonOpe": "Optimize MS button operation",
-                "stgLikeWorkspaces": "Simple Tab Groups like workspaces"
+                "title": "Caraterísticas especiais",
+                "optimizeForTreeStyleTab": "Separador Otimizar para estilo de árvore",
+                "optimizedMsButtonOpe": "Otimizar o funcionamento do botão MS",
+                "stgLikeWorkspaces": "Grupos de separadores simples como espaços de trabalho"
             },
             "multirowTab": {
-                "title": "Multirow Tab",
-                "newtabInsideEnabled": "Show new tab button inside tab bar"
+                "title": "Separador de várias linhas",
+                "newtabInsideEnabled": "Mostrar o botão do novo separador na barra de separadores"
             }
         }
     },
@@ -239,7 +239,7 @@
         "enableDisable": "Ativar/Desativar",
         "enablePwa": "Ativar Aplicações Web Progressivas",
         "enablePwaDescription": "Permitir que os sítios sejam instalados como aplicações de ambiente de trabalho",
-        "needRestartDescriptionForEnableAndDisable": "{{productName}}'s restart is required to completely enable or disable the progressive web app feature.",
+        "needRestartDescriptionForEnableAndDisable": "É necessário reiniciar o {{productName}} para ativar ou desativar completamente a funcionalidade de aplicação Web progressiva.",
         "otherSettings": "Outras definições",
         "showToolbar": "Mostrar barra de ferramentas",
         "showToolbarDescription": "Exibir a barra de ferramentas nas janelas das Aplicações Web Progressivas",
