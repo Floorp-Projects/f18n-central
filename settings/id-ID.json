@@ -9,7 +9,7 @@
     },
     "restartWarningDialog": {
         "title": "Butuh Pemulaian Ulang",
-        "description": "After restarting, the opened private windows and private tabs will be lost.",
+        "description": "Setelah pemulaian ulang, jendela dan tab pribadi yang terbuka akan hilang.",
         "cancel": "Nanti",
         "restart": "Mulai Ulang Sekarang"
     },
@@ -117,39 +117,39 @@
             "minHeightError": "Tinggi tab harus di antara {{min}} dan {{max}} piksel."
         },
         "uiCustomization": {
-            "title": "UI Customization",
+            "title": "Kustomisasi UI",
             "navbar": {
-                "title": "Navigation Bar",
-                "position": "Position",
-                "top": "Top",
-                "bottom": "Bottom",
+                "title": "Bilah Navigasi",
+                "position": "Posisi",
+                "top": "Atas",
+                "bottom": "Bawah",
                 "searchBarTop": "Move page inside search bar"
             },
             "bookmarksBar": {
-                "title": "Bookmarks Bar",
-                "focusMode": "Focus mode (auto-hide)",
-                "statusMode": "Status bar mode"
+                "title": "Bilah Markah",
+                "focusMode": "Mode fokus (sembunyikan otomatis)",
+                "statusMode": "Mode bilah status"
             },
             "display": {
                 "title": "Display",
-                "disableFullscreenNotification": "Disable fullscreen notification",
-                "deleteBrowserBorder": "Remove browser border",
-                "hideUnifiedExtensionsButton": "Hide unified extensions button"
+                "disableFullscreenNotification": "Nonaktifkan notifikasi layar penuh",
+                "deleteBrowserBorder": "Hapus batas peramban",
+                "hideUnifiedExtensionsButton": "Sembunyikan tombol pengaya terpadu"
             },
             "download": {
-                "title": "Download",
-                "legacyUI": "Use legacy download UI",
-                "redColor": "Use red color for downloading"
+                "title": "Unduhan",
+                "legacyUI": "Gunakan antarmuka unduhan lama",
+                "redColor": "Gunakan warna merah untuk mengunduh"
             },
             "special": {
-                "title": "Special Features",
-                "optimizeForTreeStyleTab": "Optimize for Tree Style Tab",
+                "title": "Fitur Istimewa",
+                "optimizeForTreeStyleTab": "Optimalkan untuk Tree Style Tab",
                 "optimizedMsButtonOpe": "Optimize MS button operation",
                 "stgLikeWorkspaces": "Simple Tab Groups like workspaces"
             },
             "multirowTab": {
-                "title": "Multirow Tab",
-                "newtabInsideEnabled": "Show new tab button inside tab bar"
+                "title": "Tab Multibaris",
+                "newtabInsideEnabled": "Tampilkan tombol tab baru dalam bilah tab"
             }
         }
     },
@@ -239,7 +239,7 @@
         "enableDisable": "(Non)Aktifkan",
         "enablePwa": "Aktifkan Aplikasi Web Progresif",
         "enablePwaDescription": "Izinkan situs web dipasang sebagai aplikasi desktop",
-        "needRestartDescriptionForEnableAndDisable": "{{productName}}'s restart is required to completely enable or disable the progressive web app feature.",
+        "needRestartDescriptionForEnableAndDisable": "Pemulaian ulang {{productName}} diperlukan untuk benar-benar mengaktifkan atau menonaktifkan fitur aplikasi web progresif.",
         "otherSettings": "Pengaturan Lainnya",
         "showToolbar": "Tampilkan Bilah Alat",
         "showToolbarDescription": "Tampilkan bilah alat di jendela Aplikasi Web Progresif",
