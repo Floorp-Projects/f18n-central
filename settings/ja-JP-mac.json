@@ -120,7 +120,7 @@
             "title": "UI をカスタマイズ",
             "navbar": {
                 "title": "ナビゲーションバー",
-                "positionWithExperiment": "Position (Experiment)",
+                "positionWithExperiment": "位置 (実験的)",
                 "top": "上",
                 "bottom": "下",
                 "searchBarTop": "ページ内検索バーを移動"
@@ -134,7 +134,7 @@
             "special": {
                 "title": "特別な機能",
                 "optimizeForTreeStyleTab": "ツリー型タブに最適化",
-                "hideForwardBackwardButton": "Hide Forward/Backward Button",
+                "hideForwardBackwardButton": "進む/戻るボタンを隠す",
                 "stgLikeWorkspaces": "Simple Tab Groups をワークスペースのように使用"
             },
             "multirowTab": {
