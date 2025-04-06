@@ -120,15 +120,10 @@
             "title": "Kustomisasi UI",
             "navbar": {
                 "title": "Bilah Navigasi",
-                "position": "Posisi",
+                "positionWithExperiment": "Position (Experiment)",
                 "top": "Atas",
                 "bottom": "Bawah",
                 "searchBarTop": "Move page inside search bar"
-            },
-            "bookmarksBar": {
-                "title": "Bilah Markah",
-                "focusMode": "Mode fokus (sembunyikan otomatis)",
-                "statusMode": "Mode bilah status"
             },
             "display": {
                 "title": "Display",
@@ -136,15 +131,10 @@
                 "deleteBrowserBorder": "Hapus batas peramban",
                 "hideUnifiedExtensionsButton": "Sembunyikan tombol pengaya terpadu"
             },
-            "download": {
-                "title": "Unduhan",
-                "legacyUI": "Gunakan antarmuka unduhan lama",
-                "redColor": "Gunakan warna merah untuk mengunduh"
-            },
             "special": {
                 "title": "Fitur Istimewa",
                 "optimizeForTreeStyleTab": "Optimalkan untuk Tree Style Tab",
-                "optimizedMsButtonOpe": "Optimize MS button operation",
+                "hideForwardBackwardButton": "Hide Forward/Backward Button",
                 "stgLikeWorkspaces": "Simple Tab Groups like workspaces"
             },
             "multirowTab": {
