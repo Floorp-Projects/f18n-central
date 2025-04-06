@@ -120,7 +120,7 @@
             "title": "Personalização da IU",
             "navbar": {
                 "title": "Barra de navegação",
-                "positionWithExperiment": "Position (Experiment)",
+                "positionWithExperiment": "Posição (Experiência)",
                 "top": "Topo",
                 "bottom": "Fundo",
                 "searchBarTop": "Mover página dentro da barra de pesquisa"
@@ -134,7 +134,7 @@
             "special": {
                 "title": "Caraterísticas especiais",
                 "optimizeForTreeStyleTab": "Separador Otimizar para estilo de árvore",
-                "hideForwardBackwardButton": "Hide Forward/Backward Button",
+                "hideForwardBackwardButton": "Ocultar o botão de avançar/retroceder",
                 "stgLikeWorkspaces": "Grupos de separadores simples como espaços de trabalho"
             },
             "multirowTab": {
