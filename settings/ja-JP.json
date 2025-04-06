@@ -120,15 +120,10 @@
             "title": "UI をカスタマイズ",
             "navbar": {
                 "title": "ナビゲーションバー",
-                "position": "位置",
+                "positionWithExperiment": "Position (Experiment)",
                 "top": "上",
                 "bottom": "下",
                 "searchBarTop": "ページ内検索バーを移動"
-            },
-            "bookmarksBar": {
-                "title": "ブックマークバー",
-                "focusMode": "集中モード (自動非表示)",
-                "statusMode": "ステータスバーモード"
             },
             "display": {
                 "title": "表示",
@@ -136,15 +131,10 @@
                 "deleteBrowserBorder": "ブラウザーの境界線を削除",
                 "hideUnifiedExtensionsButton": "統合拡張機能ボタンを隠す"
             },
-            "download": {
-                "title": "ダウンロード",
-                "legacyUI": "旧式のダウンロード UI を使用",
-                "redColor": "ダウンロードの進捗に赤色を使用"
-            },
             "special": {
                 "title": "特別な機能",
                 "optimizeForTreeStyleTab": "ツリー型タブに最適化",
-                "optimizedMsButtonOpe": "MS ボタン操作に最適化",
+                "hideForwardBackwardButton": "Hide Forward/Backward Button",
                 "stgLikeWorkspaces": "Simple Tab Groups をワークスペースのように使用"
             },
             "multirowTab": {
