@@ -120,15 +120,10 @@
             "title": "Personalização da IU",
             "navbar": {
                 "title": "Barra de navegação",
-                "position": "Posição",
+                "positionWithExperiment": "Position (Experiment)",
                 "top": "Topo",
                 "bottom": "Fundo",
                 "searchBarTop": "Mover página dentro da barra de pesquisa"
-            },
-            "bookmarksBar": {
-                "title": "Barra de favoritos",
-                "focusMode": "Modo de focagem (auto-ocultar)",
-                "statusMode": "Modo de barra de estado"
             },
             "display": {
                 "title": "Ecrã",
@@ -136,15 +131,10 @@
                 "deleteBrowserBorder": "Remover fronteira do navegador",
                 "hideUnifiedExtensionsButton": "Ocultar o botão de extensões unificadas"
             },
-            "download": {
-                "title": "Descarregar",
-                "legacyUI": "Utilizar a IU de transferência antiga",
-                "redColor": "Utilizar a cor vermelha para descarregar"
-            },
             "special": {
                 "title": "Caraterísticas especiais",
                 "optimizeForTreeStyleTab": "Separador Otimizar para estilo de árvore",
-                "optimizedMsButtonOpe": "Otimizar o funcionamento do botão MS",
+                "hideForwardBackwardButton": "Hide Forward/Backward Button",
                 "stgLikeWorkspaces": "Grupos de separadores simples como espaços de trabalho"
             },
             "multirowTab": {
