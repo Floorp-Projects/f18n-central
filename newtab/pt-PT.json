@@ -1,14 +1,14 @@
 {
     "title": "Início do Floorp",
     "topSites": {
-        "addSite": "Add site",
-        "addNewSite": "Add new site",
+        "addSite": "Adicionar site",
+        "addNewSite": "Adicionar um novo site",
         "url": "URL",
         "label": "Etiqueta",
         "cancel": "Cancelar",
         "add": "Adicionar",
         "close": "Fechar",
-        "labelPlaceholder": "Website name"
+        "labelPlaceholder": "Nome do site"
     },
     "settings": {
         "newTabSettings": "Definições do novo separador",
@@ -20,13 +20,13 @@
         "noBackground": "Sem fundo",
         "randomImage": "Imagem aleatória",
         "customImage": "Imagem personalizada",
-        "folderImages": "Images from Folder",
-        "floorpImages": "Floorp Images",
-        "currentImage": "Current image:",
-        "currentFolder": "Current folder:",
-        "selectFolder": "Select Folder",
-        "selected": "Selected",
-        "imageRecommendation": "Recommended: 1920x1080 or higher",
+        "folderImages": "Imagens da pasta",
+        "floorpImages": "Imagens de Floorp",
+        "currentImage": "Imagem atual:",
+        "currentFolder": "Pasta atual:",
+        "selectFolder": "Selecionar pasta",
+        "selected": "Selecionado",
+        "imageRecommendation": "Recomendado: 1920x1080 ou superior",
         "close": "Fechar"
     },
     "searchBar": {
