@@ -1,14 +1,14 @@
 {
     "title": "Floorp Start",
     "topSites": {
-        "addSite": "Add site",
-        "addNewSite": "Add new site",
+        "addSite": "サイトを追加",
+        "addNewSite": "新規サイトを追加",
         "url": "URL",
         "label": "表示名",
         "cancel": "キャンセル",
         "add": "追加",
         "close": "閉じる",
-        "labelPlaceholder": "Website name"
+        "labelPlaceholder": "ウェブサイト名"
     },
     "settings": {
         "newTabSettings": "新規タブの設定",
@@ -20,13 +20,13 @@
         "noBackground": "背景なし",
         "randomImage": "ランダム画像",
         "customImage": "カスタム画像",
-        "folderImages": "Images from Folder",
-        "floorpImages": "Floorp Images",
-        "currentImage": "Current image:",
-        "currentFolder": "Current folder:",
-        "selectFolder": "Select Folder",
-        "selected": "Selected",
-        "imageRecommendation": "Recommended: 1920x1080 or higher",
+        "folderImages": "フォルダーの画像",
+        "floorpImages": "Floorp の画像",
+        "currentImage": "現在の画像:",
+        "currentFolder": "現在のフォルダー:",
+        "selectFolder": "フォルダーを選択",
+        "selected": "選択中",
+        "imageRecommendation": "推奨: 1920x1080 以上",
         "close": "閉じる"
     },
     "searchBar": {
