@@ -118,6 +118,7 @@
         },
         "uiCustomization": {
             "title": "UI をカスタマイズ",
+            "needRestartDescriptionForEnableAndDisable": "A restart of {{productName}} is required to completely enable or disable this UI customization feature.",
             "navbar": {
                 "title": "ナビゲーションバー",
                 "positionWithExperiment": "位置 (実験的)",
