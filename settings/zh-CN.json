@@ -9,7 +9,7 @@
     },
     "restartWarningDialog": {
         "title": "需要重启",
-        "description": "After restarting, the opened private windows and private tabs will be lost.",
+        "description": "重新启动后，已打开的私人窗口和私人标签页将丢失。",
         "cancel": "稍后",
         "restart": "立即重启"
     },
@@ -24,7 +24,7 @@
     "pages": {
         "home": "主页",
         "tabAndAppearance": "标签页和外观",
-        "browserSidebar": "Panel Sidebar",
+        "browserSidebar": "面板侧边栏",
         "workspaces": "工作区",
         "keyboardShortcuts": "键盘快捷键",
         "webApps": "应用",
@@ -36,8 +36,8 @@
     },
     "home": {
         "welcome": "欢迎您， {{name}}👋",
-        "defaultAccountName": "{{productName}} User",
-        "description": "Manage your account, privacy, and security to enhance your {{productName}} experience.",
+        "defaultAccountName": "{{productName}} 用户",
+        "description": "管理您的账户、隐私和安全，提升您的 {{productName}} 体验。",
         "setup": {
             "title": "Setup",
             "footerLinkText": "登录账户",
@@ -74,7 +74,7 @@
         "proton": "Proton",
         "lepton": "Lepton",
         "photon": "Photon",
-        "protonfix": "Firefox UI Fix",
+        "protonfix": "Firefox UI 修复",
         "fluerial": "Fluerial",
         "interfaceDescription": "Choose the interface design. \"Lepton\" is the default.",
         "otherInterfaceSettings": "其他界面设置",
@@ -122,11 +122,11 @@
                 "title": "Navigation Bar",
                 "positionWithExperiment": "Position (Experiment)",
                 "top": "Top",
-                "bottom": "Bottom",
+                "bottom": "底部",
                 "searchBarTop": "Move page inside search bar"
             },
             "display": {
-                "title": "Display",
+                "title": "显示",
                 "disableFullscreenNotification": "Disable fullscreen notification",
                 "deleteBrowserBorder": "Remove browser border",
                 "hideUnifiedExtensionsButton": "Hide unified extensions button"
