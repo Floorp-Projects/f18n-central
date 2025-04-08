@@ -118,6 +118,7 @@
         },
         "uiCustomization": {
             "title": "UI 맞춤 설정",
+            "needRestartDescriptionForEnableAndDisable": "A restart of {{productName}} is required to completely enable or disable this UI customization feature.",
             "navbar": {
                 "title": "내비게이션 바",
                 "positionWithExperiment": "위치 (실험)",
