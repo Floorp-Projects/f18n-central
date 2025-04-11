@@ -121,7 +121,7 @@
             "needRestartDescriptionForEnableAndDisable": "Pemulaian ulang {{productName}} diperlukan untuk benar-benar mengaktifkan atau menonaktifkan fitur kustomisasi antarmuka ini.",
             "navbar": {
                 "title": "Bilah Navigasi",
-                "positionWithExperiment": "Position (Experiment)",
+                "positionWithExperiment": "Posisi (Eksperimen)",
                 "top": "Atas",
                 "bottom": "Bawah",
                 "searchBarTop": "Move page inside search bar"
@@ -135,7 +135,7 @@
             "special": {
                 "title": "Fitur Istimewa",
                 "optimizeForTreeStyleTab": "Optimalkan untuk Tree Style Tab",
-                "hideForwardBackwardButton": "Hide Forward/Backward Button",
+                "hideForwardBackwardButton": "Sembunyikan Tombol Maju/Mundur",
                 "stgLikeWorkspaces": "Simple Tab Groups like workspaces"
             },
             "multirowTab": {
