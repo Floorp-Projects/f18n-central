@@ -118,7 +118,7 @@
         },
         "uiCustomization": {
             "title": "Kustomisasi UI",
-            "needRestartDescriptionForEnableAndDisable": "A restart of {{productName}} is required to completely enable or disable this UI customization feature.",
+            "needRestartDescriptionForEnableAndDisable": "Pemulaian ulang {{productName}} diperlukan untuk benar-benar mengaktifkan atau menonaktifkan fitur kustomisasi antarmuka ini.",
             "navbar": {
                 "title": "Bilah Navigasi",
                 "positionWithExperiment": "Position (Experiment)",
