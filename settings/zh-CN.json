@@ -39,9 +39,9 @@
         "defaultAccountName": "{{productName}} 用户",
         "description": "管理您的账户、隐私和安全，提升您的 {{productName}} 体验。",
         "setup": {
-            "title": "Setup",
+            "title": "上手设置",
             "footerLinkText": "登录账户",
-            "setupDescription": "Complete the setup to maximize your {{productName}} experience.",
+            "setupDescription": "完成上手设置，最大限度地提高 {{productName}} 体验。",
             "setupProgressTitle": "设置进度",
             "step": "第 {{step}} 步 / 总 {{total}} 步"
         },
@@ -74,11 +74,11 @@
         "proton": "Proton",
         "lepton": "Lepton",
         "photon": "Photon",
-        "protonfix": "Firefox UI 修复",
+        "protonfix": "Firefox UI Fix",
         "fluerial": "Fluerial",
-        "interfaceDescription": "Choose the interface design. \"Lepton\" is the default.",
+        "interfaceDescription": "选择界面设计，默认为“Lepton”。",
         "otherInterfaceSettings": "其他界面设置",
-        "useFaviconColorToBackgroundOfNavigationBar": "将 Favicon 颜色用于导航栏背景",
+        "useFaviconColorToBackgroundOfNavigationBar": "将网站图标（Favicon）颜色用于导航栏背景",
         "tabBar": "标签栏",
         "styleDescription": "选择标签栏样式。",
         "customizeTabBar": "自定义标签栏",
@@ -92,16 +92,16 @@
         "default": "默认",
         "hideTabBar": "隐藏标签栏",
         "hideTabBarAndTitleBar": "隐藏标签栏和标题栏",
-        "showTabBarOnBottomOfNavigationBar": "Show Tab Bar at Bottom of Navigation Bar",
-        "showTabBarOnBottomOfWindow": "Show Tab Bar at Bottom of Window",
+        "showTabBarOnBottomOfNavigationBar": "在导航栏下方显示标签栏",
+        "showTabBarOnBottomOfWindow": "在窗口底部显示标签栏",
         "tab": {
             "title": "标签页",
             "footerLinkText": "关于标签设置",
-            "scroll": "Scroll",
+            "scroll": "滚动",
             "scrollDescription": "Choose whether to use scrolling for tab switching and select scrolling behavior.",
-            "scrollTab": "Switch tabs by scrolling",
-            "reverseScroll": "Reverse tab scroll",
-            "scrollWrap": "Loop tab scroll",
+            "scrollTab": "滚动滚轮切换标签页",
+            "reverseScroll": "反向滚动",
+            "scrollWrap": "循环滚动",
             "scrollPrefInfo": "\"{{reverseScrollPrefName}}\" & \"{{scrollWrapPrefName}}\" will only work if \"{{scrollPrefName}}\" is enabled.",
             "pinTitle": "显示固定标签页标题",
             "openPosition": "新标签页打开位置",
@@ -118,9 +118,9 @@
         },
         "uiCustomization": {
             "title": "UI Customization",
-            "needRestartDescriptionForEnableAndDisable": "A restart of {{productName}} is required to completely enable or disable this UI customization feature.",
+            "needRestartDescriptionForEnableAndDisable": "要完全启用或禁用此用户界面定制功能，需要重新启动 {{productName}}。",
             "navbar": {
-                "title": "Navigation Bar",
+                "title": "导航栏",
                 "positionWithExperiment": "Position (Experiment)",
                 "top": "Top",
                 "bottom": "底部",
@@ -133,10 +133,10 @@
                 "hideUnifiedExtensionsButton": "Hide unified extensions button"
             },
             "special": {
-                "title": "Special Features",
-                "optimizeForTreeStyleTab": "Optimize for Tree Style Tab",
-                "hideForwardBackwardButton": "Hide Forward/Backward Button",
-                "stgLikeWorkspaces": "Simple Tab Groups like workspaces"
+                "title": "特色功能",
+                "optimizeForTreeStyleTab": "优化 Tree Style Tab 的体验",
+                "hideForwardBackwardButton": "隐藏前进/后退按钮",
+                "stgLikeWorkspaces": "启用和工作区类似的简单标签组"
             },
             "multirowTab": {
                 "title": "Multirow Tab",
