@@ -142,10 +142,10 @@
             "gecko-enter-into-offline-mode": "오프라인 모드로 전환",
             "gecko-open-screen-capture": "화면 캡처 열기",
             "floorp-show-pip": "화면 속 화면 보기",
-            "gecko-open-bookmark-add-tool": "Open Bookmark Add Tool",
-            "gecko-open-bookmarks-manager": "Open Bookmarks Manager",
-            "gecko-toggle-bookmark-toolbar": "Toggle Bookmark Toolbar",
-            "gecko-open-general-preferences": "Open General Preferences",
+            "gecko-open-bookmark-add-tool": "북마크 추가 도구 열기",
+            "gecko-open-bookmarks-manager": "북마크 관리자 열기",
+            "gecko-toggle-bookmark-toolbar": "북마크 도구 모음 전환",
+            "gecko-open-general-preferences": "일반 환경 설정 열기",
             "gecko-open-privacy-preferences": "Open Privacy Preferences",
             "gecko-open-workspaces-preferences": "Open Workspaces Preferences",
             "gecko-open-containers-preferences": "Open Containers Preferences",
@@ -185,32 +185,32 @@
     },
     "panelSidebar": {
         "modal": {
-            "type": "Panel Type",
+            "type": "패널 유형",
             "typeOptions": {
-                "web": "Web Page",
-                "static": "Tool Sidebar",
-                "extension": "Extension Sidebar"
+                "web": "웹 페이지",
+                "static": "사이드바 도구",
+                "extension": "사이드바 확장"
             },
-            "width": "Panel Width",
-            "url": "Web Page URL",
-            "container": "Container",
-            "noContainer": "No Container",
-            "userAgent": "Use Mobile User Agent",
-            "extension": "Display Extension",
-            "sideBarTool": "Display Sidebar Tool",
-            "title": "Add Panel",
+            "width": "패널 너비",
+            "url": "웹 페이지 URL",
+            "container": "컨테이너",
+            "noContainer": "컨테이너 없음",
+            "userAgent": "모바일 사용자 에이전트 사용",
+            "extension": "확장 표시",
+            "sideBarTool": "사이드바 도구 표시",
+            "title": "패널 추가",
             "add": "추가",
             "cancel": "취소"
         },
         "contextMenu": {
-            "unload": "Unload this webpanel",
-            "mute": "Mute/Unmute this webpanel",
-            "changeZoom": "Change zoom level",
-            "zoomIn": "Zoom in",
-            "zoomOut": "Zoom out",
-            "resetZoom": "Reset zoom",
-            "changeUA": "Switch User agent to Mobile/Desktop Version at this Webpanel",
-            "delete": "Delete this panel"
+            "unload": "이 웹 패널 비활성화",
+            "mute": "이 웹 패널 음소거/음소거 해제",
+            "changeZoom": "비율 변경",
+            "zoomIn": "확대",
+            "zoomOut": "축소",
+            "resetZoom": "비율 초기화",
+            "changeUA": "이 엡 패널에서 사용자 에이전트를 모바일/데스크톱 버전으로 전환",
+            "delete": "이 패널 삭제"
         }
     }
 }
