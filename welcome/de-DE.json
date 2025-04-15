@@ -1,9 +1,9 @@
 {
     "navigation": {
-        "welcome": "Welcome",
-        "language": "Language",
-        "languageSupport": "Language Support",
-        "features": "Features",
+        "welcome": "Willkommen",
+        "language": "Sprache",
+        "languageSupport": "Sprachunterstützung",
+        "features": "Funktionen",
         "featureIntroduction": "Feature Introduction",
         "customize": "Customize",
         "initialSettings": "Initial Settings",
