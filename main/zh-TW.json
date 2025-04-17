@@ -61,30 +61,30 @@
         },
         "popup": {
             "create-new": "建立新工作區...",
-            "manage": "Manage Workspaces"
+            "manage": "管理工作區"
         }
     },
     "statusbar": {
-        "toggle": "Status Bar{{mark}}"
+        "toggle": "狀態列{{mark}}"
     },
     "splitview": {
-        "title": "Split View",
-        "position": "Position",
-        "position-left": "Left",
-        "position-right": "Right",
-        "flex-row": "Row",
-        "flex-column": "Column",
-        "remove-button": "Remove Current View",
+        "title": "分離檢視",
+        "position": "位置",
+        "position-left": "左",
+        "position-right": "右",
+        "flex-row": "行",
+        "flex-column": "列",
+        "remove-button": "移除目前的視圖",
         "tab-context": {
-            "split-tabs": "Split Tabs",
-            "split-fixed-tab": "Split to Fixed Tab"
+            "split-tabs": "分割分頁",
+            "split-fixed-tab": "分割為固定分頁"
         }
     },
     "ssb": {
         "menu": {
-            "webapps": "Web Apps",
-            "install-current": "Install Current Page as Progressive Web App",
-            "open-installed": "Open Installed Apps"
+            "webapps": "PWA 應用程式",
+            "install-current": "將目前頁面安裝為 PWA 應用程式",
+            "open-installed": "開啟已安裝的 PWA 應用程式"
         },
         "page-action": {
             "title": "Open Application",
