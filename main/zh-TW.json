@@ -6,11 +6,11 @@
     "workspaces": {
         "modal": {
             "name": "名稱",
-            "name-placeholder": "為此工作區命名",
+            "name-placeholder": "為此工作空間命名",
             "container": "容器",
             "no-container": "無容器",
             "icon": "圖示",
-            "edit-title": "編輯工作區",
+            "edit-title": "編輯工作空間",
             "save": "儲存變更",
             "cancel": "取消"
         },
@@ -51,17 +51,17 @@
             "user": "用户"
         },
         "service": {
-            "new-workspace": "新工作區 ({{count}})"
+            "new-workspace": "新工作空間 ({{count}})"
         },
         "context-menu": {
-            "move-up": "向上移動此工作區",
-            "move-down": "向下移動此工作區",
-            "delete": "刪除工作區",
-            "manage": "管理工作區"
+            "move-up": "向上移動此工作空間",
+            "move-down": "向下移動此工作空間",
+            "delete": "刪除工作空間",
+            "manage": "管理工作空間"
         },
         "popup": {
-            "create-new": "建立新工作區...",
-            "manage": "管理工作區"
+            "create-new": "建立新工作空間...",
+            "manage": "管理工作空間"
         }
     },
     "statusbar": {
@@ -129,14 +129,14 @@
             "gecko-show-source-of-page": "檢視頁面原始碼",
             "gecko-show-page-info": "檢視頁面資訊",
             "floorp-rest-mode": "啟用休息模式",
-            "floorp-hide-user-interface": "Hide Interface",
-            "floorp-toggle-navigation-panel": "Toggle Navigation Panel",
-            "gecko-stop": "Stop",
-            "gecko-search-in-this-page": "Search In This Page",
-            "gecko-show-next-search-result": "Show Next Search Result",
-            "gecko-show-previous-search-result": "Show Previous Search Result",
-            "gecko-search-the-web": "Search The Web",
-            "gecko-open-migration-wizard": "Open Migration Wizard",
+            "floorp-hide-user-interface": "隱藏介面",
+            "floorp-toggle-navigation-panel": "切換導覽面板",
+            "gecko-stop": "停止",
+            "gecko-search-in-this-page": "在本頁搜尋",
+            "gecko-show-next-search-result": "顯示下一個搜尋結果",
+            "gecko-show-previous-search-result": "顯示上一個搜尋結果",
+            "gecko-search-the-web": "在網路上搜尋",
+            "gecko-open-migration-wizard": "開啟遷移導引",
             "gecko-quit-from-application": "Quit Application",
             "gecko-enter-into-customize-mode": "Enter Customize Mode",
             "gecko-enter-into-offline-mode": "Enter Offline Mode",
