@@ -1,8 +1,8 @@
 {
     "navigation": {
-        "welcome": "Welcome",
-        "language": "Language",
-        "languageSupport": "Language Support",
+        "welcome": "歡迎！",
+        "language": "語言",
+        "languageSupport": "語言支援",
         "features": "Features",
         "featureIntroduction": "Feature Introduction",
         "customize": "Customize",
