@@ -1,23 +1,23 @@
 {
     "app": {
         "status": {
-            "installing": "Installing in the background...",
-            "installComplete": "Installation complete"
+            "installing": "正在背景安裝中...",
+            "installComplete": "安裝已完成"
         },
         "installer": {
-            "title": "Floorp Installer",
-            "description": "Install Floorp browser and start a privacy-focused, fast, and customizable browsing experience.",
-            "adminRights": "Install with admin rights",
-            "adminRightsEnabled": "Install for all users with admin rights.",
-            "adminRightsDisabled": "Install for current user only.",
-            "customPathRequired": "Custom installation path requires admin rights.",
-            "installLocation": "Install location",
-            "change": "Change",
-            "installButton": "Start Installation",
-            "retryButton": "Retry"
+            "title": "Floorp 安裝程式",
+            "description": "安裝 Floorp 瀏覽器，開啟一份注重隱私、快速且可自由客製化的瀏覽體驗。",
+            "adminRights": "使用管理員權限安裝",
+            "adminRightsEnabled": "為所有具有管理權限的使用者安裝。",
+            "adminRightsDisabled": "僅為目前使用者安裝。",
+            "customPathRequired": "自訂安裝路徑需要管理員權限。",
+            "installLocation": "安裝位置",
+            "change": "變更",
+            "installButton": "開始安裝",
+            "retryButton": "重試"
         },
         "progress": {
-            "installing": "Installing...",
+            "installing": "正在安裝中...",
             "slideCounter": "Slide {{current}}/{{total}}"
         },
         "modal": {
