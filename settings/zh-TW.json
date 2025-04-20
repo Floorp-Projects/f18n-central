@@ -1,15 +1,15 @@
 {
     "title": {
-        "default": "{{productName}} Settings"
+        "default": "{{productName}} 設定"
     },
     "header": {
-        "title": "Settings",
-        "searchPlaceholder": "Search Settings",
-        "darkMode": "Dark Mode"
+        "title": "設定",
+        "searchPlaceholder": "搜尋設定",
+        "darkMode": "暗色模式"
     },
     "restartWarningDialog": {
-        "title": "Restart Required",
-        "description": "After restarting, the opened private windows and private tabs will be lost.",
+        "title": "需要重新啟動",
+        "description": "重新啟動後，已開啟的私隱視窗和私隱分頁將會遺失。",
         "cancel": "Later",
         "restart": "Restart Now"
     },
