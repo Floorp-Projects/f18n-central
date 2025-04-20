@@ -65,14 +65,14 @@
             "description": "支援各種平台，包括 Windows、macOS 和 Linux。在任何地方都能享受相同的體驗。"
         },
         "navigation": {
-            "previous": "Previous",
-            "next": "Next",
-            "goto": "Go to slide {{number}}"
+            "previous": "上一步",
+            "next": "下一步",
+            "goto": "滑動至 {{number}}"
         }
     },
     "rust": {
         "success": {
-            "downloaded_dev_mode": "Floorp installer has been downloaded (development mode)",
+            "downloaded_dev_mode": "已下載 Floorp 安裝程式 (開發模式)",
             "installation_complete": "Floorp installation completed successfully."
         },
         "errors": {
