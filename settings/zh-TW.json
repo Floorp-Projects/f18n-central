@@ -10,67 +10,67 @@
     "restartWarningDialog": {
         "title": "需要重新啟動",
         "description": "重新啟動後，已開啟的私隱視窗和私隱分頁將會遺失。",
-        "cancel": "Later",
-        "restart": "Restart Now"
+        "cancel": "稍後",
+        "restart": "立即重新啟動"
     },
     "sidebar": {
-        "firefoxSettings": "Firefox Settings",
-        "about": "About",
-        "aboutNoraneko": "About Noraneko",
-        "debug": "Debug",
-        "overview": "Overview",
-        "features": "Features"
+        "firefoxSettings": "Firefox 設定",
+        "about": "關於",
+        "aboutNoraneko": "關於 Noraneko",
+        "debug": "偵錯",
+        "overview": "概要",
+        "features": "特色功能"
     },
     "pages": {
-        "home": "Home",
-        "tabAndAppearance": "Tab & Appearance",
-        "browserSidebar": "Panel Sidebar",
-        "workspaces": "Workspaces",
-        "keyboardShortcuts": "Keyboard Shortcuts",
-        "webApps": "Web Apps",
-        "profileAndAccount": "Profile and Account",
-        "aboutBrowser": "About {{productName}}",
-        "debug": "Debug",
-        "mouseGesture": "Mouse Gestures",
-        "keyboardShortcut": "Keyboard Shortcuts"
+        "home": "首頁",
+        "tabAndAppearance": "分頁與外觀",
+        "browserSidebar": "面板側邊欄",
+        "workspaces": "工作空間",
+        "keyboardShortcuts": "鍵盤快捷鍵",
+        "webApps": "PWA 應用程式",
+        "profileAndAccount": "設定檔和帳戶",
+        "aboutBrowser": "關於 {{productName}}",
+        "debug": "偵錯",
+        "mouseGesture": "滑鼠手勢",
+        "keyboardShortcut": "鍵盤快捷鍵"
     },
     "home": {
-        "welcome": "Welcome, {{name}} 👋",
-        "defaultAccountName": "{{productName}} User",
-        "description": "Manage your account, privacy, and security to enhance your {{productName}} experience.",
+        "welcome": "歡迎您， {{name}}👋",
+        "defaultAccountName": "{{productName}} 使用者",
+        "description": "管理您的帳戶、隱私和安全，提升您的 {{productName}} 體驗。",
         "setup": {
-            "title": "Setup",
-            "footerLinkText": "Log in to Accounts",
-            "setupDescription": "Complete the setup to maximize your {{productName}} experience.",
-            "setupProgressTitle": "Setup Progress",
-            "step": "Step {{step}} of {{total}}"
+            "title": "使用安排",
+            "footerLinkText": "登入帳戶",
+            "setupDescription": "完成設定，以最佳化您的 {{productName}} 體驗。",
+            "setupProgressTitle": "設定進度",
+            "step": "第 {{step}} 步 / 總共 {{total}} 步"
         },
         "privacyAndTrackingProtection": {
-            "title": "Privacy and Tracking Protection",
-            "footerLinkText": "Privacy and Tracking Protection",
-            "description": "{{productName}} protects your data and privacy by default, but you can also manage these settings manually."
+            "title": "隱私和追蹤保護",
+            "footerLinkText": "隱私和追蹤保護",
+            "description": "{{productName}} 預設會保護您的個資和隱私，但您也可以手動管理這些設定。"
         },
         "ablazeAccount": {
-            "title": "Ablaze Account (Coming Soon)",
-            "footerLinkText": "Ablaze Account",
-            "description": "Use a Mozilla Account to sync some data with other devices. Ablaze Account syncs data that can't be synced with a Mozilla Account."
+            "title": "Ablaze 帳戶 (即將推出)",
+            "footerLinkText": "Ablaze 帳戶",
+            "description": "使用 Mozilla 帳戶與其他裝置同步某些資料。而使用 Ablaze 帳戶則可同步 Mozilla 帳戶無法同步的資料。"
         },
         "manageExtensions": {
-            "title": "Manage Extensions",
-            "description": "{{productName}} allows you to manage extensions available on addons.mozilla.org.",
-            "footerLinkText": "Manage Extensions"
+            "title": "擴充套件管理",
+            "description": "{{productName}} 允許您管理 addons.mozilla.org 上可用的擴充套件。",
+            "footerLinkText": "擴充套件管理"
         },
         "browserSupport": {
-            "title": "{{productName}} Support",
-            "description": "Access support documentation written by {{productName}} contributors.",
-            "footerLinkText": "{{productName}} Support"
+            "title": "{{productName}} 支援",
+            "description": "存取由 {{productName}} 貢獻者撰寫的支援文檔。",
+            "footerLinkText": "{{productName}} 支援"
         }
     },
     "design": {
-        "tabAndAppearance": "Tab & Appearance",
-        "customizePositionOfToolbars": "Customize toolbar positions, tab bar style, and {{productName}}'s appearance.",
-        "interface": "Interface",
-        "aboutInterfaceDesign": "About Interface Design",
+        "tabAndAppearance": "分頁與外觀",
+        "customizePositionOfToolbars": "客製化工具列位置、分頁列樣式和 {{productName}}的外觀。",
+        "interface": "介面",
+        "aboutInterfaceDesign": "關於介面設計",
         "proton": "Proton",
         "lepton": "Lepton",
         "photon": "Photon",
