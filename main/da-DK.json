@@ -209,8 +209,8 @@
             "zoomIn": "Zoom ind",
             "zoomOut": "Zoom ud",
             "resetZoom": "Nulstil zoom",
-            "changeUA": "Switch User agent to Mobile/Desktop Version at this Webpanel",
-            "delete": "Delete this panel"
+            "changeUA": "Skift brugeragent til mobil-/computerversion på dette webpanel",
+            "delete": "Slet dette panel"
         }
     }
 }
