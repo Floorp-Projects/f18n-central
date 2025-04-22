@@ -9,7 +9,7 @@
     },
     "restartWarningDialog": {
         "title": "Genstart påkrævet",
-        "description": "After restarting, the opened private windows and private tabs will be lost.",
+        "description": "Efter genstart vil de åbne private vinduer og private faner gå tabt.",
         "cancel": "Senere",
         "restart": "Genstart nu"
     },
@@ -24,7 +24,7 @@
     "pages": {
         "home": "Hjem",
         "tabAndAppearance": "Fane og udseende",
-        "browserSidebar": "Panel Sidebar",
+        "browserSidebar": "Sidepanel",
         "workspaces": "Arbejdsområder",
         "keyboardShortcuts": "Tastaturgenveje",
         "webApps": "Webapps",
@@ -117,30 +117,30 @@
             "minHeightError": "Fanehøjde skal være mellem {{min}} og {{max}} pixels."
         },
         "uiCustomization": {
-            "title": "UI Customization",
-            "needRestartDescriptionForEnableAndDisable": "A restart of {{productName}} is required to completely enable or disable this UI customization feature.",
+            "title": "UI-tilpasning",
+            "needRestartDescriptionForEnableAndDisable": "En genstart af {{productName}} er nødvendig for at aktivere eller deaktivere denne UI-tilpasningsfunktion helt.",
             "navbar": {
-                "title": "Navigation Bar",
-                "positionWithExperiment": "Position (Experiment)",
-                "top": "Top",
-                "bottom": "Bottom",
-                "searchBarTop": "Move page inside search bar"
+                "title": "Navigationslinje",
+                "positionWithExperiment": "Position (eksperimentel)",
+                "top": "Øverst",
+                "bottom": "Nederst",
+                "searchBarTop": "Flyt side ind i søgefelt"
             },
             "display": {
-                "title": "Display",
+                "title": "Visning",
                 "disableFullscreenNotification": "Disable fullscreen notification",
-                "deleteBrowserBorder": "Remove browser border",
-                "hideUnifiedExtensionsButton": "Hide unified extensions button"
+                "deleteBrowserBorder": "Fjern browserkant",
+                "hideUnifiedExtensionsButton": "Skjul knappen for samlede udvidelser"
             },
             "special": {
-                "title": "Special Features",
-                "optimizeForTreeStyleTab": "Optimize for Tree Style Tab",
-                "hideForwardBackwardButton": "Hide Forward/Backward Button",
+                "title": "Særlige funktioner",
+                "optimizeForTreeStyleTab": "Optimer til Tree Style Tab",
+                "hideForwardBackwardButton": "Skjul frem-/tilbage-knap",
                 "stgLikeWorkspaces": "Simple Tab Groups like workspaces"
             },
             "multirowTab": {
                 "title": "Multirow Tab",
-                "newtabInsideEnabled": "Show new tab button inside tab bar"
+                "newtabInsideEnabled": "Vis Ny Fane-knap i fanelinjen"
             }
         }
     },
@@ -205,21 +205,21 @@
         "searchResultsDescription": "Søgeresultater for \"{{query}}\". Der søges kun i {{productName}}-indstillinger; Firefox-indstillinger er ikke inkluderet."
     },
     "panelSidebar": {
-        "title": "Panel Sidebar",
-        "description": "Panel Sidebar is a feature that allows you to display various tools, websites, and extensions on the side of the window. Here, you can customize, add, delete, and manage panels.",
+        "title": "Sidepanel",
+        "description": "Sidepanelet er en funktion, der lader dig vise forskellige værktøjer, hjemmesider og udvidelser i siden af vinduet. Her kan du tilpasse, tilføje, slette og administrere paneler.",
         "basicSettings": "Grundlæggende indstillinger",
-        "howToUseAndCustomize": "How to use and customize Panel Sidebar",
+        "howToUseAndCustomize": "Sådan bruger og tilpasser du sidepanelet",
         "enableOrDisable": "Aktivér/deaktivér",
-        "enablePanelSidebar": "Enable Panel Sidebar",
-        "enableDescription": "Panel Sidebar is different from Firefox's sidebar and won't interfere with it. Panel Sidebar can display web pages, unlike Firefox's sidebar. You can also manage workspaces in the sidebar.",
-        "otherSettings": "Other Panel Sidebar Settings",
-        "autoUnloadOnClose": "Unload when closing panel",
+        "enablePanelSidebar": "Aktivér sidepanel",
+        "enableDescription": "Sidepanelet adskiller sig fra Firefox' og påvirker det ikke. Det kan vise websider og lader dig også administrere arbejdsområder i det.",
+        "otherSettings": "Andre indstillinger for sidepanel",
+        "autoUnloadOnClose": "Stop indlæsning af panel, når du lukker det",
         "position": "Sidepanelets position",
         "positionLeft": "Venstre",
         "positionRight": "Højre",
         "globalWidth": "Global webpanelbredde",
         "globalWidthDescription": "Global bredde anvendes, når panelbredde er sat til 0.",
-        "iconProviderRemoved": "The icon provider setting has been removed as {{productName}} now tries to get panel icons directly from web pages when possible.",
+        "iconProviderRemoved": "Indstillingen for ikonudbyder er blevet fjernet, da {{productName}} nu forsøger at hente panelikoner direkte fra websider, når muligt.",
         "needRestartDescriptionForEnableAndDisable": "{{productName}}'s restart is required to completely enable or disable the panel sidebar feature."
     },
     "progressiveWebApp": {
