@@ -138,6 +138,10 @@
                 "hideForwardBackwardButton": "隐藏前进/后退按钮",
                 "stgLikeWorkspaces": "启用和工作区类似的简单标签组"
             },
+            "newtab": {
+                "title": "New Tab",
+                "disableFloorpStart": "Disable Floorp Start"
+            },
             "multirowTab": {
                 "title": "Multirow Tab",
                 "newtabInsideEnabled": "在标签栏内显示新标签按钮"
