@@ -139,8 +139,8 @@
                 "stgLikeWorkspaces": "Grupos de separadores simples como espaços de trabalho"
             },
             "newtab": {
-                "title": "New Tab",
-                "disableFloorpStart": "Disable Floorp Start"
+                "title": "Novo separador",
+                "disableFloorpStart": "Desativar início do Floorp"
             },
             "multirowTab": {
                 "title": "Separador de várias linhas",
