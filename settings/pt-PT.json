@@ -138,6 +138,10 @@
                 "hideForwardBackwardButton": "Ocultar o botão de avançar/retroceder",
                 "stgLikeWorkspaces": "Grupos de separadores simples como espaços de trabalho"
             },
+            "newtab": {
+                "title": "New Tab",
+                "disableFloorpStart": "Disable Floorp Start"
+            },
             "multirowTab": {
                 "title": "Separador de várias linhas",
                 "newtabInsideEnabled": "Mostrar o botão do novo separador na barra de separadores"
