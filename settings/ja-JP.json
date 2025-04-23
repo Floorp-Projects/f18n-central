@@ -139,8 +139,8 @@
                 "stgLikeWorkspaces": "Simple Tab Groups をワークスペースのように使用"
             },
             "newtab": {
-                "title": "New Tab",
-                "disableFloorpStart": "Disable Floorp Start"
+                "title": "新しいタブ",
+                "disableFloorpStart": "Floorp Start を無効にする"
             },
             "multirowTab": {
                 "title": "多段タブ",
