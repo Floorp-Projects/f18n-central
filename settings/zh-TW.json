@@ -124,19 +124,19 @@
                 "positionWithExperiment": "位置 (實驗性質)",
                 "top": "頂部",
                 "bottom": "底部",
-                "searchBarTop": "Move page inside search bar"
+                "searchBarTop": "將搜尋列移至頁面內"
             },
             "display": {
-                "title": "Display",
-                "disableFullscreenNotification": "Disable fullscreen notification",
-                "deleteBrowserBorder": "Remove browser border",
-                "hideUnifiedExtensionsButton": "Hide unified extensions button"
+                "title": "顯示",
+                "disableFullscreenNotification": "停用全螢幕通知",
+                "deleteBrowserBorder": "移除瀏覽器邊框",
+                "hideUnifiedExtensionsButton": "隱藏統合擴充套件按鈕"
             },
             "special": {
-                "title": "Special Features",
-                "optimizeForTreeStyleTab": "Optimize for Tree Style Tab",
-                "hideForwardBackwardButton": "Hide Forward/Backward Button",
-                "stgLikeWorkspaces": "Simple Tab Groups like workspaces"
+                "title": "特色功能",
+                "optimizeForTreeStyleTab": "最佳化 Tree Style Tab 的體驗",
+                "hideForwardBackwardButton": "隱藏向前/向後按鈕",
+                "stgLikeWorkspaces": "將 Simple Tab Groups 作為工作空間啟用"
             },
             "newtab": {
                 "title": "New Tab",
