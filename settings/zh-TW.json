@@ -400,17 +400,17 @@
         "modal": {
             "title": "快速鍵編輯",
             "description": "鍵入您要使用的按鍵，然後選擇修飾鍵以進行組合。",
-            "currentShortcut": "Current Shortcut",
-            "newShortcut": "New Shortcut",
-            "pressKey": "Press any key...",
-            "clear": "Clear",
-            "clearDescription": "Remove the current shortcut",
-            "close": "Close",
-            "closeDescription": "Close without saving changes",
-            "save": "Save",
-            "saveDescription": "Save the shortcut",
-            "cancel": "Cancel",
-            "cancelDescription": "Cancel editing"
+            "currentShortcut": "目前的快速鍵",
+            "newShortcut": "新增快速鍵",
+            "pressKey": "按下任意鍵...",
+            "clear": "清除",
+            "clearDescription": "移除目前的快速鍵",
+            "close": "關閉",
+            "closeDescription": "關閉且不儲存變更",
+            "save": "儲存",
+            "saveDescription": "將快速鍵儲存",
+            "cancel": "取消",
+            "cancelDescription": "取消編輯"
         }
     }
 }
