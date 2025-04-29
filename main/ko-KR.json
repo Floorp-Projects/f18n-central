@@ -188,7 +188,7 @@
             "type": "패널 유형",
             "typeOptions": {
                 "web": "웹 페이지",
-                "sidebar-tool": "Tool Sidebar",
+                "sidebar-tool": "도구 사이드바",
                 "extension": "사이드바 확장"
             },
             "width": "패널 너비",
