@@ -188,7 +188,7 @@
             "type": "パネルの種類",
             "typeOptions": {
                 "web": "ウェブページ",
-                "static": "ツールサイドバー",
+                "sidebar-tool": "Tool Sidebar",
                 "extension": "拡張機能サイドバー"
             },
             "width": "パネルの幅",
