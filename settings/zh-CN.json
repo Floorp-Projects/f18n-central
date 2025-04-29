@@ -224,7 +224,48 @@
         "globalWidth": "全局 Web 面板宽度",
         "globalWidthDescription": "当面板宽度设置为 0 时，将应用全局宽度。",
         "iconProviderRemoved": "图标 API 设置已被删除，因为 {{productName}} 现在会尽可能直接从网页中获取面板图标。",
-        "needRestartDescriptionForEnableAndDisable": "{{productName}}需要重新启动才能完全启用或禁用面板侧边栏功能。"
+        "needRestartDescriptionForEnableAndDisable": "{{productName}}需要重新启动才能完全启用或禁用面板侧边栏功能。",
+        "staticPanel": "Sidebar Tool Panel",
+        "extensionPanel": "Extension Panel",
+        "selectStaticPanel": "Select a Sidebar Tool",
+        "selectExtension": "Select an extension",
+        "icon": "Icon",
+        "width": "Width",
+        "zoomLevel": "Zoom Level",
+        "container": "Container",
+        "noContainer": "No Container",
+        "useUserAgent": "Use Mobile User Agent",
+        "panelType": "Panel Type",
+        "panelList": "Panel List",
+        "type": {
+            "web": "Web",
+            "static": "Sidebar Tool",
+            "extension": "Extension"
+        },
+        "staticPanels": {
+            "bmt": "Browser Manager Tool",
+            "bookmarks": "Bookmarks",
+            "history": "History",
+            "downloads": "Downloads",
+            "notes": "Notes"
+        },
+        "url": "URL",
+        "untitled": "Untitled",
+        "confirmDeleteTitle": "Delete Panel",
+        "confirmDelete": "Are you sure you want to delete this panel?",
+        "delete": "Delete",
+        "addPanel": "Add Panel",
+        "editPanel": "Edit Panel",
+        "errors": {
+            "typeRequired": "Panel type is required",
+            "urlRequired": "URL is required for web panels",
+            "invalidUrl": "Please enter a valid URL",
+            "extensionIdRequired": "Extension ID is required for extension panels",
+            "staticPanelRequired": "Please select a sidebar tool",
+            "invalidWidth": "Width must be at least 100 pixels"
+        },
+        "save": "Save",
+        "cancel": "Cancel"
     },
     "progressiveWebApp": {
         "title": "应用",
