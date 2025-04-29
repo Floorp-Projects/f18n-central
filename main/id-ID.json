@@ -188,7 +188,7 @@
             "type": "Jenis Panel",
             "typeOptions": {
                 "web": "Halaman Web",
-                "static": "Bilah Sisi Alat",
+                "sidebar-tool": "Tool Sidebar",
                 "extension": "Bilah Sisi Ekstensi"
             },
             "width": "Lebar Panel",
