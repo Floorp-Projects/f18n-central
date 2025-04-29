@@ -188,7 +188,7 @@
             "type": "Paneltype",
             "typeOptions": {
                 "web": "Webside",
-                "static": "Værktøjssidepanel",
+                "sidebar-tool": "Tool Sidebar",
                 "extension": "Udvidelsessidepanel"
             },
             "width": "Panelbredde",
