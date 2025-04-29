@@ -188,7 +188,7 @@
             "type": "面板类型",
             "typeOptions": {
                 "web": "网页",
-                "static": "工具侧边栏",
+                "sidebar-tool": "Tool Sidebar",
                 "extension": "扩展侧边栏"
             },
             "width": "面板宽度",
