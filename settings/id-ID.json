@@ -224,7 +224,48 @@
         "globalWidth": "Lebar Umum Panel Web",
         "globalWidthDescription": "Lebar umum diterapkan apabila lebar panel ditulis 0.",
         "iconProviderRemoved": "Pengaturan penyedia ikon telah dihapus karena {{productName}} sekarang selalu mencoba sebisa mungkin mendapat ikon panel secara langsung dari halaman web.",
-        "needRestartDescriptionForEnableAndDisable": "Pemulaian ulang {{productName}} diperlukan untuk benar-benar mengaktifkan atau menonaktifkan fitur bilah sisi."
+        "needRestartDescriptionForEnableAndDisable": "Pemulaian ulang {{productName}} diperlukan untuk benar-benar mengaktifkan atau menonaktifkan fitur bilah sisi.",
+        "staticPanel": "Sidebar Tool Panel",
+        "extensionPanel": "Extension Panel",
+        "selectStaticPanel": "Select a Sidebar Tool",
+        "selectExtension": "Select an extension",
+        "icon": "Icon",
+        "width": "Width",
+        "zoomLevel": "Zoom Level",
+        "container": "Container",
+        "noContainer": "No Container",
+        "useUserAgent": "Use Mobile User Agent",
+        "panelType": "Panel Type",
+        "panelList": "Panel List",
+        "type": {
+            "web": "Web",
+            "static": "Sidebar Tool",
+            "extension": "Extension"
+        },
+        "staticPanels": {
+            "bmt": "Browser Manager Tool",
+            "bookmarks": "Bookmarks",
+            "history": "History",
+            "downloads": "Downloads",
+            "notes": "Notes"
+        },
+        "url": "URL",
+        "untitled": "Untitled",
+        "confirmDeleteTitle": "Delete Panel",
+        "confirmDelete": "Are you sure you want to delete this panel?",
+        "delete": "Delete",
+        "addPanel": "Add Panel",
+        "editPanel": "Edit Panel",
+        "errors": {
+            "typeRequired": "Panel type is required",
+            "urlRequired": "URL is required for web panels",
+            "invalidUrl": "Please enter a valid URL",
+            "extensionIdRequired": "Extension ID is required for extension panels",
+            "staticPanelRequired": "Please select a sidebar tool",
+            "invalidWidth": "Width must be at least 100 pixels"
+        },
+        "save": "Save",
+        "cancel": "Cancel"
     },
     "progressiveWebApp": {
         "title": "Aplikasi Web",
