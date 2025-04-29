@@ -224,7 +224,48 @@
         "globalWidth": "Global webpanelbredde",
         "globalWidthDescription": "Global bredde anvendes, når panelbredde er sat til 0.",
         "iconProviderRemoved": "Indstillingen for ikonudbyder er blevet fjernet, da {{productName}} nu forsøger at hente panelikoner direkte fra websider, når muligt.",
-        "needRestartDescriptionForEnableAndDisable": "{{productName}}'s genstart er nødvendig for at aktivere eller deaktivere sidepanelfunktionen helt."
+        "needRestartDescriptionForEnableAndDisable": "{{productName}}'s genstart er nødvendig for at aktivere eller deaktivere sidepanelfunktionen helt.",
+        "staticPanel": "Sidebar Tool Panel",
+        "extensionPanel": "Extension Panel",
+        "selectStaticPanel": "Select a Sidebar Tool",
+        "selectExtension": "Select an extension",
+        "icon": "Icon",
+        "width": "Width",
+        "zoomLevel": "Zoom Level",
+        "container": "Container",
+        "noContainer": "No Container",
+        "useUserAgent": "Use Mobile User Agent",
+        "panelType": "Panel Type",
+        "panelList": "Panel List",
+        "type": {
+            "web": "Web",
+            "static": "Sidebar Tool",
+            "extension": "Extension"
+        },
+        "staticPanels": {
+            "bmt": "Browser Manager Tool",
+            "bookmarks": "Bookmarks",
+            "history": "History",
+            "downloads": "Downloads",
+            "notes": "Notes"
+        },
+        "url": "URL",
+        "untitled": "Untitled",
+        "confirmDeleteTitle": "Delete Panel",
+        "confirmDelete": "Are you sure you want to delete this panel?",
+        "delete": "Delete",
+        "addPanel": "Add Panel",
+        "editPanel": "Edit Panel",
+        "errors": {
+            "typeRequired": "Panel type is required",
+            "urlRequired": "URL is required for web panels",
+            "invalidUrl": "Please enter a valid URL",
+            "extensionIdRequired": "Extension ID is required for extension panels",
+            "staticPanelRequired": "Please select a sidebar tool",
+            "invalidWidth": "Width must be at least 100 pixels"
+        },
+        "save": "Save",
+        "cancel": "Cancel"
     },
     "progressiveWebApp": {
         "title": "Webapps",
