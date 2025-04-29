@@ -188,7 +188,7 @@
             "type": "Panel Type",
             "typeOptions": {
                 "web": "Web Page",
-                "sidebar-tool": "Tool Sidebar",
+                "sidebar-tool": "Barra lateral de ferramentas",
                 "extension": "Extension Sidebar"
             },
             "width": "Panel Width",
