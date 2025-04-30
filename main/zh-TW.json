@@ -188,7 +188,7 @@
             "type": "面板類型",
             "typeOptions": {
                 "web": "網頁",
-                "sidebar-tool": "Tool Sidebar",
+                "sidebar-tool": "工具側邊欄",
                 "extension": "擴充側邊欄"
             },
             "width": "面板寬度",
