@@ -64,10 +64,10 @@
             "manage": "ワークスペースを管理"
         },
         "menu": {
-            "moveTabToAnotherWorkspace": "Move Tab to Another Workspace"
+            "moveTabToAnotherWorkspace": "タブを他のワークスペースに移動"
         },
         "error": {
-            "invalidWorkspaceID": "Not valid ID for Workspaces (maybe order is not updated)"
+            "invalidWorkspaceID": "ワークスペースの ID が無効です (並べ替えが反映されていない可能性があります)"
         }
     },
     "statusbar": {
