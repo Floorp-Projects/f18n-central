@@ -64,10 +64,10 @@
             "manage": "Gerir espaços de trabalho"
         },
         "menu": {
-            "moveTabToAnotherWorkspace": "Move Tab to Another Workspace"
+            "moveTabToAnotherWorkspace": "Mover o separador para outro espaço de trabalho"
         },
         "error": {
-            "invalidWorkspaceID": "Not valid ID for Workspaces (maybe order is not updated)"
+            "invalidWorkspaceID": "ID não válido para espaços de trabalho (talvez a ordem não esteja atualizada)"
         }
     },
     "statusbar": {
