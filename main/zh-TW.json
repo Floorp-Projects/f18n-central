@@ -64,10 +64,10 @@
             "manage": "管理工作空間"
         },
         "menu": {
-            "moveTabToAnotherWorkspace": "Move Tab to Another Workspace"
+            "moveTabToAnotherWorkspace": "將分頁移至另一個工作空間"
         },
         "error": {
-            "invalidWorkspaceID": "Not valid ID for Workspaces (maybe order is not updated)"
+            "invalidWorkspaceID": "工作空間的 ID 無效（或許是因為排序未更新）"
         }
     },
     "statusbar": {
