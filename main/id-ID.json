@@ -64,10 +64,10 @@
             "manage": "Kelola Ruang Kerja"
         },
         "menu": {
-            "moveTabToAnotherWorkspace": "Move Tab to Another Workspace"
+            "moveTabToAnotherWorkspace": "Pindahkan Tab ke Ruang Kerja Lain"
         },
         "error": {
-            "invalidWorkspaceID": "Not valid ID for Workspaces (maybe order is not updated)"
+            "invalidWorkspaceID": "ID Ruang Kerja tidak valid (mungkin urutan belum diperbarui)"
         }
     },
     "statusbar": {
@@ -194,7 +194,7 @@
             "type": "Jenis Panel",
             "typeOptions": {
                 "web": "Halaman Web",
-                "sidebar-tool": "Tool Sidebar",
+                "sidebar-tool": "Bilah Sisi Alat",
                 "extension": "Bilah Sisi Ekstensi"
             },
             "width": "Lebar Panel",
