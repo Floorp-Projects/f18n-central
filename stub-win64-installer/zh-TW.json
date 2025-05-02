@@ -44,30 +44,25 @@
         }
     },
     "slides": {
-        "privacy": {
-            "title": "隱私保護",
-            "description": "Floorp 是以使用者的隱私安全為優先而設計的。使用防追蹤功能和安全瀏覽模式保護您的線上隱私。"
+        "slide1": {
+            "title": "Welcome to Floorp",
+            "description": "Welcome to the latest version of Floorp, a web browser developed with a focus on development and research in Japan. The content introduced next is only a part of the project."
         },
-        "performance": {
-            "title": "效能高速",
-            "description": "從網頁載入到分頁切換，搭載最佳化引擎，實現更順暢的瀏覽體驗。"
+        "slide2": {
+            "title": "Regular Updates",
+            "description": "Floorp is maintained and updated continuously, even as a community-based project. We deliver safe browsing aligned with the principle that the web should be accessible freely to everyone."
         },
-        "customization": {
-            "title": "豐富的客製化功能",
-            "description": "Floorp 提供豐富的客製化選項。從使用者介面到功能，您都可以依喜好客製化。"
+        "slide3": {
+            "title": "Latest Features",
+            "description": "The latest version of Floorp leverages cutting-edge web features developed by Mozilla's Firefox. It has also been redesigned to make tools everyone desires easily accessible."
         },
-        "extensions": {
-            "title": "擴充技能",
-            "description": "與 Firefox 擴充套件相容，可讓您將喜愛的工具和服務新增至瀏覽器。"
+        "slide4": {
+            "title": "Advanced Customization",
+            "description": "Equipped with numerous customization options to maintain privacy better than your default browser. Floorp allows you to realize your preferred configuration."
         },
-        "multiplatform": {
-            "title": " 多平台支援",
-            "description": "支援各種平台，包括 Windows、macOS 和 Linux。在任何地方都能享受相同的體驗。"
-        },
-        "navigation": {
-            "previous": "上一步",
-            "next": "下一步",
-            "goto": "滑動至 {{number}}"
+        "slide5": {
+            "title": "Fighting for You",
+            "description": "Floorp blocks harmful tracking. We balance website operation and user rights, working to improve the web both in functionality and privacy."
         }
     },
     "rust": {
