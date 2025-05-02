@@ -44,30 +44,25 @@
         }
     },
     "slides": {
-        "privacy": {
-            "title": "プライバシー保護",
-            "description": "Floorp は、あなたのプライバシーを最優先に設計されています。追跡遮断やセキュアブラウジングでオンライン上のプライバシーを保護します。"
+        "slide1": {
+            "title": "Welcome to Floorp",
+            "description": "Welcome to the latest version of Floorp, a web browser developed with a focus on development and research in Japan. The content introduced next is only a part of the project."
         },
-        "performance": {
-            "title": "高速なパフォーマンス",
-            "description": "最適化されたエンジンにより、ページの読み込みからタブの切り替えに至るまで、快適なブラウジングを実現します。"
+        "slide2": {
+            "title": "Regular Updates",
+            "description": "Floorp is maintained and updated continuously, even as a community-based project. We deliver safe browsing aligned with the principle that the web should be accessible freely to everyone."
         },
-        "customization": {
-            "title": "豊富なカスタマイズ",
-            "description": "Floorp は、豊富なカスタマイズ項目を提供しています。ユーザーインターフェイスから機能まで、お好みに合わせてカスタマイズすることができます。"
+        "slide3": {
+            "title": "Latest Features",
+            "description": "The latest version of Floorp leverages cutting-edge web features developed by Mozilla's Firefox. It has also been redesigned to make tools everyone desires easily accessible."
         },
-        "extensions": {
-            "title": "拡張機能",
-            "description": "Firefox の拡張機能と互換性があるので、お気に入りのツールやサービスをブラウザーに追加できます。"
+        "slide4": {
+            "title": "Advanced Customization",
+            "description": "Equipped with numerous customization options to maintain privacy better than your default browser. Floorp allows you to realize your preferred configuration."
         },
-        "multiplatform": {
-            "title": "マルチプラットフォーム対応",
-            "description": "Windows、macOS、Linux など、さまざまなプラットフォームでご利用いただけます。どこでも同じ体験をお楽しみください。"
-        },
-        "navigation": {
-            "previous": "前へ",
-            "next": "次へ",
-            "goto": "スライド {{number}} に移動"
+        "slide5": {
+            "title": "Fighting for You",
+            "description": "Floorp blocks harmful tracking. We balance website operation and user rights, working to improve the web both in functionality and privacy."
         }
     },
     "rust": {
