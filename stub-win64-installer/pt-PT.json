@@ -44,30 +44,25 @@
         }
     },
     "slides": {
-        "privacy": {
-            "title": "Proteção da privacidade",
-            "description": "O Floorp foi concebido tendo como principal prioridade a privacidade do utilizador. Proteja a sua privacidade online com funcionalidades de prevenção de rastreio e modo de navegação segura."
+        "slide1": {
+            "title": "Welcome to Floorp",
+            "description": "Welcome to the latest version of Floorp, a web browser developed with a focus on development and research in Japan. The content introduced next is only a part of the project."
         },
-        "performance": {
-            "title": "Desempenho rápido",
-            "description": "O motor otimizado fornece velocidade para tudo, desde o carregamento da página até à mudança de separador, tornando a sua experiência de navegação suave."
+        "slide2": {
+            "title": "Regular Updates",
+            "description": "Floorp is maintained and updated continuously, even as a community-based project. We deliver safe browsing aligned with the principle that the web should be accessible freely to everyone."
         },
-        "customization": {
-            "title": "Personalização rica",
-            "description": "O Floorp oferece opções de personalização ricas. Pode personalizar tudo, desde a interface do utilizador até às funcionalidades, de acordo com as suas preferências."
+        "slide3": {
+            "title": "Latest Features",
+            "description": "The latest version of Floorp leverages cutting-edge web features developed by Mozilla's Firefox. It has also been redesigned to make tools everyone desires easily accessible."
         },
-        "extensions": {
-            "title": "Extensões extensivas",
-            "description": "Compatível com as extensões do Firefox, permitindo-lhe adicionar as suas ferramentas e serviços favoritos ao seu browser."
+        "slide4": {
+            "title": "Advanced Customization",
+            "description": "Equipped with numerous customization options to maintain privacy better than your default browser. Floorp allows you to realize your preferred configuration."
         },
-        "multiplatform": {
-            "title": "Suporte multiplataforma",
-            "description": "Disponível em várias plataformas, incluindo Windows, macOS e Linux. Desfrute da mesma experiência em todo o lado."
-        },
-        "navigation": {
-            "previous": "Anterior",
-            "next": "Seguinte",
-            "goto": "Ir para o diapositivo {{number}}"
+        "slide5": {
+            "title": "Fighting for You",
+            "description": "Floorp blocks harmful tracking. We balance website operation and user rights, working to improve the web both in functionality and privacy."
         }
     },
     "rust": {
