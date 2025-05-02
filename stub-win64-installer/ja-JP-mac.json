@@ -45,24 +45,24 @@
     },
     "slides": {
         "slide1": {
-            "title": "Welcome to Floorp",
-            "description": "Welcome to the latest version of Floorp, a web browser developed with a focus on development and research in Japan. The content introduced next is only a part of the project."
+            "title": "Floorp へようこそ！",
+            "description": "日本で生まれた開発・研究志向のウェブブラウザー、Floorp の最新版へようこそ。プロジェクトのほんの一部をご紹介します。"
         },
         "slide2": {
-            "title": "Regular Updates",
-            "description": "Floorp is maintained and updated continuously, even as a community-based project. We deliver safe browsing aligned with the principle that the web should be accessible freely to everyone."
+            "title": "定期的なアップデート",
+            "description": "Floorp はコミュニティベースのプロジェクトとして、継続的にメンテナンスと更新を行っています。ウェブは誰でも自由にアクセスできる場所であるべきだと信じ、安全なブラウジングを提供します。"
         },
         "slide3": {
-            "title": "Latest Features",
-            "description": "The latest version of Floorp leverages cutting-edge web features developed by Mozilla's Firefox. It has also been redesigned to make tools everyone desires easily accessible."
+            "title": "最新の機能",
+            "description": "Floorp の最新バージョンは、Mozilla の Firefox で開発された最先端のウェブ機能を活用しています。加えて、誰もが望むツールに簡単にアクセスできるように再設計されています。"
         },
         "slide4": {
-            "title": "Advanced Customization",
-            "description": "Equipped with numerous customization options to maintain privacy better than your default browser. Floorp allows you to realize your preferred configuration."
+            "title": "高度なカスタマイズ",
+            "description": "お使いのブラウザーよりもプライバシーを保護するためのカスタマイズオプションを多数搭載。Floorp はあなたのお好みの設定を実現します。"
         },
         "slide5": {
-            "title": "Fighting for You",
-            "description": "Floorp blocks harmful tracking. We balance website operation and user rights, working to improve the web both in functionality and privacy."
+            "title": "あなたのために戦う",
+            "description": "Floorp は有害なトラッキングをブロックします。ウェブサイトの運営とユーザーの権利のバランスをとり、機能性とプライバシーの両面からウェブの改善に努めています。"
         }
     },
     "rust": {
