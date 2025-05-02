@@ -45,24 +45,24 @@
     },
     "slides": {
         "slide1": {
-            "title": "Welcome to Floorp",
-            "description": "Welcome to the latest version of Floorp, a web browser developed with a focus on development and research in Japan. The content introduced next is only a part of the project."
+            "title": "Bem-vindo ao Floorp",
+            "description": "Bem-vindo à última versão do Floorp, um navegador desenvolvido com foco no desenvolvimento e na investigação no Japão. O conteúdo apresentado a seguir é apenas uma parte do projeto."
         },
         "slide2": {
-            "title": "Regular Updates",
-            "description": "Floorp is maintained and updated continuously, even as a community-based project. We deliver safe browsing aligned with the principle that the web should be accessible freely to everyone."
+            "title": "Atualizações regulares",
+            "description": "O Floorp é mantido e atualizado continuamente, mesmo sendo um projeto baseado na comunidade. Proporcionamos uma navegação segura, conforme o princípio de que a Web deve ser acessível gratuitamente a todos."
         },
         "slide3": {
-            "title": "Latest Features",
-            "description": "The latest version of Floorp leverages cutting-edge web features developed by Mozilla's Firefox. It has also been redesigned to make tools everyone desires easily accessible."
+            "title": "Caraterísticas mais recentes",
+            "description": "A versão mais recente do Floorp tira partido das funcionalidades Web de ponta desenvolvidas pelo Firefox da Mozilla. Também foi redesenhado para tornar as ferramentas que todos desejam facilmente acessíveis."
         },
         "slide4": {
-            "title": "Advanced Customization",
-            "description": "Equipped with numerous customization options to maintain privacy better than your default browser. Floorp allows you to realize your preferred configuration."
+            "title": "Personalização avançada",
+            "description": "Equipado com inúmeras opções de personalização para manter a privacidade melhor do que o seu navegador padrão. O Floorp permite-lhe realizar a sua configuração preferida."
         },
         "slide5": {
-            "title": "Fighting for You",
-            "description": "Floorp blocks harmful tracking. We balance website operation and user rights, working to improve the web both in functionality and privacy."
+            "title": "Lutando por ti",
+            "description": "A Floorp bloqueia o rastreio nocivo. Equilibramos o funcionamento do sítio Web e os direitos do utilizador, trabalhando para melhorar a Web tanto em termos de funcionalidade como de privacidade."
         }
     },
     "rust": {
