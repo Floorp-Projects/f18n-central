@@ -46,23 +46,23 @@
     "slides": {
         "slide1": {
             "title": "歡迎使用 Floorp",
-            "description": "Welcome to the latest version of Floorp, a web browser developed with a focus on development and research in Japan. The content introduced next is only a part of the project."
+            "description": "歡迎來的最新版本的 Floorp，在日本研發的一款瀏覽器。接下來介紹的內容僅是此企劃的一部分。"
         },
         "slide2": {
-            "title": "Regular Updates",
-            "description": "Floorp is maintained and updated continuously, even as a community-based project. We deliver safe browsing aligned with the principle that the web should be accessible freely to everyone."
+            "title": "定期更新",
+            "description": "即使 Floorp 只是一個由社群愛好者運作的企劃，我們仍然會持續的維護與更新。以堅信每個人都有權利自由的存取網路為原則，提供一份安全的瀏覽體驗。"
         },
         "slide3": {
-            "title": "Latest Features",
-            "description": "The latest version of Floorp leverages cutting-edge web features developed by Mozilla's Firefox. It has also been redesigned to make tools everyone desires easily accessible."
+            "title": "最新功能",
+            "description": "最新版本的 Floorp 運用著由 Mozilla Firefox 研發的最先進的網路功能。並在其基礎上重新設計，讓每個人都能輕鬆的使用各種功能。"
         },
         "slide4": {
-            "title": "Advanced Customization",
-            "description": "Equipped with numerous customization options to maintain privacy better than your default browser. Floorp allows you to realize your preferred configuration."
+            "title": "高度客製化",
+            "description": "比您預設的瀏覽器更能保護隱私，且配備有多種客製化選項。Floorp 允許您按照自己的喜好調整。"
         },
         "slide5": {
-            "title": "Fighting for You",
-            "description": "Floorp blocks harmful tracking. We balance website operation and user rights, working to improve the web both in functionality and privacy."
+            "title": "為了您而戰鬥著",
+            "description": "Floorp 能夠阻擋有害的追蹤。我們在網站運作和用戶權利之間找尋平衡點，努力爭取網路功能及隱私保障之間的相容，以改善網路。"
         }
     },
     "rust": {
