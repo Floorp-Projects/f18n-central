@@ -118,7 +118,7 @@
         },
         "uiCustomization": {
             "title": "UI Kişiselleştirme",
-            "needRestartDescriptionForEnableAndDisable": "Bu kullanıcı UI kişiselleştirme özelliğini tamamen etkinleştirmek veya devre dışı bırakmak için {{productName}}'un yeniden başlatılması gerekir.",
+            "needRestartDescriptionForEnableAndDisable": "Bu UI kişiselleştirme özelliğini tamamen etkinleştirmek veya devre dışı bırakmak için {{productName}} adresinin yeniden başlatılması gerekir.",
             "navbar": {
                 "title": "Gezinti Çubuğu",
                 "positionWithExperiment": "Konum (Deneysel)",
@@ -134,12 +134,12 @@
             },
             "special": {
                 "title": "Special Features",
-                "optimizeForTreeStyleTab": "Optimize for Tree Style Tab",
-                "hideForwardBackwardButton": "Hide Forward/Backward Button",
-                "stgLikeWorkspaces": "Simple Tab Groups like workspaces"
+                "optimizeForTreeStyleTab": "Tree Style Tab için optimize et",
+                "hideForwardBackwardButton": "İleri/Geri Düğmesini Gizle",
+                "stgLikeWorkspaces": "Çalışma Alanları gibi basit sekme grupları"
             },
             "newtab": {
-                "title": "New Tab",
+                "title": "Yeni Sekme",
                 "disableFloorpStart": "Disable Floorp Start"
             },
             "multirowTab": {
@@ -153,19 +153,19 @@
         "howToUseAndCustomize": "How to use and customize workspaces",
         "workspacesDescription": "Workspaces greatly simplify the process of grouping tabs, making it easier to organize and manage your tabs.",
         "basicSettings": "Basic Settings",
-        "needRestartDescriptionForEnableAndDisable": "A restart of {{productName}} is required to completely enable or disable the workspace feature.",
-        "enableOrDisable": "Enable/Disable",
-        "enableWorkspaces": "Enable workspace feature",
-        "enableWorkspacesDescription": "Workspaces won't function even if this setting is enabled unless the workspace button is placed on the toolbar. Use this setting if you want to completely disable workspaces.",
-        "otherSettings": "Other Workspace Settings",
+        "needRestartDescriptionForEnableAndDisable": "Bu Çalışma Alanı özelliğini tamamen etkinleştirmek veya devre dışı bırakmak için {{productName}}'un yeniden başlatılması gerekir.",
+        "enableOrDisable": "Etkinleştir / Devre Dışı Bırak",
+        "enableWorkspaces": "Çalışma Alanı özelliğini etkinleştirin",
+        "enableWorkspacesDescription": "Çalışma Alanı düğmesi araç çubuğuna yerleştirilmediği sürece bu ayar etkin olsa bile çalışma alanları çalışmayacaktır. Çalışma Alanlarını tamamen devre dışı bırakmak istiyorsanız bu ayarı kullanın.",
+        "otherSettings": "Diğer Çalışma Alanı Ayarları",
         "closePopupWhenSelectingWorkspace": "Close workspace popup when selecting a workspace",
         "closePopupWhenSelectingWorkspaceDescription": "Choose whether to close the workspace popup when selecting a workspace.",
         "showWorkspaceNameOnToolbar": "Show workspace name next to the icon",
         "manageOnBms": "Manage workspaces on {{productName}} sidebar",
         "manageOnBmsDescription": "When this feature is enabled, you can only manage workspaces on the {{productName}} sidebar. You won't be able to manage workspaces using the toolbar button.",
-        "backup": "Workspace Backup",
-        "backupComingSoon": "Coming Soon",
-        "backupDescription": "Learn about workspace backup"
+        "backup": "Çalışma Alanı Yedekleme",
+        "backupComingSoon": "Yakında",
+        "backupDescription": "Çalışma Alanı yedeklemesi hakkında bilgi edinin"
     },
     "accounts": {
         "profileAndAccount": "Profil ve Hesap",
@@ -180,15 +180,15 @@
         "syncedTo": "{{email}} ile senkronize edildi",
         "syncFloorpNotesToMozillaAccount": "Floorp Notlar'ı Mozilla Hesabı İle Senkronize Et(Deneysel)",
         "floorpFeatureSyncSettings": "Floorp Feature Sync Settings",
-        "manageMozillaAccount": "Manage Mozilla Account",
+        "manageMozillaAccount": "Mozilla Hesabını Yönet",
         "manageFirefoxFeatureSync": "Manage Firefox Feature Sync",
-        "aboutMozillaAccount": "About Mozilla Account",
+        "aboutMozillaAccount": "Mozilla Hesabı Hakkında",
         "notLoggedIn": "Not logged in",
         "notSynced": "Log in to Mozilla Account to enable sync feature"
     },
     "about": {
-        "aboutBrowser": "About {{productName}}",
-        "releaseNotes": "Release Notes & More Information",
+        "aboutBrowser": "{{productName}} Hakkında",
+        "releaseNotes": "Sürüm Notları ve Daha Fazla Bilgi",
         "browserVersion": "{{productName}} version: {{browserVersion}} | Firefox version: {{firefoxVersion}}",
         "isOfficialBuild": "(Official Build)",
         "browserDescription": "{{productName}} is a browser developed in Japan. It's built on Firefox under Ablaze to improve the web.",
