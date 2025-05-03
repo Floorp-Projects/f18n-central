@@ -45,19 +45,19 @@
     },
     "slides": {
         "slide1": {
-            "title": "Welcome to Floorp",
-            "description": "Welcome to the latest version of Floorp, a web browser developed with a focus on development and research in Japan. The content introduced next is only a part of the project."
+            "title": "Selamat Datang di Floorp",
+            "description": "Selamat datang di versi terbaru Floorp, sebuah peramban web yang dikembangkan di Jepang dengan fokus pada pengembangan dan penelitian. Konten yang diperkenalkan selanjutnya hanyalah sebagian dari proyek ini."
         },
         "slide2": {
-            "title": "Regular Updates",
+            "title": "Pembaruan Teratur",
             "description": "Floorp is maintained and updated continuously, even as a community-based project. We deliver safe browsing aligned with the principle that the web should be accessible freely to everyone."
         },
         "slide3": {
-            "title": "Latest Features",
+            "title": "Fitur-Fitur Terkini",
             "description": "The latest version of Floorp leverages cutting-edge web features developed by Mozilla's Firefox. It has also been redesigned to make tools everyone desires easily accessible."
         },
         "slide4": {
-            "title": "Advanced Customization",
+            "title": "Kustomisasi Tingkat Lanjut",
             "description": "Equipped with numerous customization options to maintain privacy better than your default browser. Floorp allows you to realize your preferred configuration."
         },
         "slide5": {
