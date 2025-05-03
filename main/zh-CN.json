@@ -64,10 +64,10 @@
             "manage": "管理工作区"
         },
         "menu": {
-            "moveTabToAnotherWorkspace": "Move Tab to Another Workspace"
+            "moveTabToAnotherWorkspace": "移动标签到另一个工作区"
         },
         "error": {
-            "invalidWorkspaceID": "Not valid ID for Workspaces (maybe order is not updated)"
+            "invalidWorkspaceID": "工作区 ID 无效（可能请求未更新）"
         }
     },
     "statusbar": {
