@@ -45,24 +45,24 @@
     },
     "slides": {
         "slide1": {
-            "title": "Welcome to Floorp",
-            "description": "Welcome to the latest version of Floorp, a web browser developed with a focus on development and research in Japan. The content introduced next is only a part of the project."
+            "title": "Floorp'a Hoş Geldiniz",
+            "description": "Japonya'da geliştirme ve araştırma odaklı olarak geliştirilen bir web tarayıcısı olan Floorp'un en son sürümüne hoş geldiniz. Bundan sonra tanıtılacak içerik projenin sadece bir parçasıdır."
         },
         "slide2": {
-            "title": "Regular Updates",
-            "description": "Floorp is maintained and updated continuously, even as a community-based project. We deliver safe browsing aligned with the principle that the web should be accessible freely to everyone."
+            "title": "Düzenli Güncellemeler",
+            "description": "Floorp, topluluk tabanlı bir proje olmasına rağmen sürekli olarak korunmakta ve güncellenmektedir. Web'in herkes için özgürce erişilebilir olması gerektiği ilkesiyle uyumlu güvenli gezinme sunuyoruz."
         },
         "slide3": {
-            "title": "Latest Features",
-            "description": "The latest version of Floorp leverages cutting-edge web features developed by Mozilla's Firefox. It has also been redesigned to make tools everyone desires easily accessible."
+            "title": "En Yeni Özellikler",
+            "description": "Floorp'un en son sürümü Mozilla'nın Firefox'u tarafından geliştirilen en son web özelliklerinden yararlanıyor. Ayrıca herkesin istediği araçları kolayca erişilebilir kılmak için yeniden tasarlandı."
         },
         "slide4": {
-            "title": "Advanced Customization",
-            "description": "Equipped with numerous customization options to maintain privacy better than your default browser. Floorp allows you to realize your preferred configuration."
+            "title": "Gelişmiş Kişiselleştirme",
+            "description": "Varsayılan tarayıcınızdan daha iyi gizlilik sağlamak için çok sayıda kişilelleştirme seçeneği ile donatılmıştır. Floorp tercih ettiğiniz yapılandırmayı gerçekleştirmenizi sağlar."
         },
         "slide5": {
-            "title": "Fighting for You",
-            "description": "Floorp blocks harmful tracking. We balance website operation and user rights, working to improve the web both in functionality and privacy."
+            "title": "Senin İçin Savaşıyoruz",
+            "description": "Floorp, zararlı izlemeyi engeller. Web'i hem işlevsellik hem de gizlilik açısından geliştirmek için çalışarak web sitesinin işleyişini ve kullanıcı haklarını dengeliyoruz."
         }
     },
     "rust": {
