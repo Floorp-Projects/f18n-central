@@ -206,7 +206,7 @@
         "open": "Open \"{{title}}\"",
         "matchedText": "Matched Text",
         "results": "Search Results",
-        "searchResultsDescription": "Search results for \"{{query}}\". Only {{productName}} settings are searched; Firefox settings are not included."
+        "searchResultsDescription": "\"{{query}}\" için arama sonuçları. Yalnızca {{productName}} ayarları aranır; Firefox ayarları dahil değildir."
     },
     "panelSidebar": {
         "title": "Panel Sidebar",
