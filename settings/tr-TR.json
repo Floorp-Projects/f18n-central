@@ -118,7 +118,7 @@
         },
         "uiCustomization": {
             "title": "UI Kişiselleştirme",
-            "needRestartDescriptionForEnableAndDisable": "Bu UI kişiselleştirme özelliğini tamamen etkinleştirmek veya devre dışı bırakmak için {{productName}} adresinin yeniden başlatılması gerekir.",
+            "needRestartDescriptionForEnableAndDisable": "Bu kullanıcı UI kişiselleştirme özelliğini tamamen etkinleştirmek veya devre dışı bırakmak için {{productName}}'un yeniden başlatılması gerekir.",
             "navbar": {
                 "title": "Gezinti Çubuğu",
                 "positionWithExperiment": "Konum (Deneysel)",
