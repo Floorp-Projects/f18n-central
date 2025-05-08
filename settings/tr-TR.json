@@ -51,7 +51,7 @@
             "description": "{{productName}} varsayılan olarak verilerinizi ve gizliliğinizi korur, ancak bu ayarları manuel olarak da değiştirebilirsiniz."
         },
         "ablazeAccount": {
-            "title": "Ablaze Hesabı (Çok Yakında)",
+            "title": "Ablaze Hesabı (Yakında Gelecek)",
             "footerLinkText": "Ablaze Hesabı",
             "description": "Bazı verileri diğer cihazlarla senkronize etmek için bir Mozilla Hesabı kullanın. Ablaze Hesabı, Mozilla Hesabı ile senkronize edilemeyen verileri senkronize eder."
         },
