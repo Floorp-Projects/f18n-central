@@ -437,21 +437,21 @@
         "preview": "Preview",
         "pressKey": "Press any key...",
         "recording": "Recording...",
-        "key": "Key",
+        "key": "Tuş",
         "modal": {
-            "title": "Edit Shortcut",
-            "description": "Enter the key you want to use and select the modifier keys to combine them.",
-            "currentShortcut": "Current Shortcut",
-            "newShortcut": "New Shortcut",
-            "pressKey": "Press any key...",
-            "clear": "Clear",
-            "clearDescription": "Remove the current shortcut",
-            "close": "Close",
-            "closeDescription": "Close without saving changes",
-            "save": "Save",
-            "saveDescription": "Save the shortcut",
-            "cancel": "Cancel",
-            "cancelDescription": "Cancel editing"
+            "title": "Kısayolu Düzenle",
+            "description": "Kullanmak istediğiniz tuş veya tuş kombinasyonlarını girin.",
+            "currentShortcut": "Geçerli Kısayol",
+            "newShortcut": "Yeni Kısayol",
+            "pressKey": "Herhangi bir tuşa basın...",
+            "clear": "Temizle",
+            "clearDescription": "Geçerli kısayolu kaldır",
+            "close": "Kapat",
+            "closeDescription": "Değişiklikleri kaydetmeden kapat",
+            "save": "Kaydet",
+            "saveDescription": "Kısayolu kaydet",
+            "cancel": "İptal Et",
+            "cancelDescription": "Değişikliği iptal et"
         }
     }
 }
