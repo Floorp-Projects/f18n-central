@@ -129,7 +129,7 @@
             "display": {
                 "title": "Ecrã",
                 "disableFullscreenNotification": "Desativar a notificação em ecrã completo",
-                "deleteBrowserBorder": "Remover fronteira do navegador",
+                "deleteBrowserBorder": "Round the corners of pages",
                 "hideUnifiedExtensionsButton": "Ocultar o botão de extensões unificadas"
             },
             "special": {
