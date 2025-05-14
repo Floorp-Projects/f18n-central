@@ -129,7 +129,7 @@
             "display": {
                 "title": "Visning",
                 "disableFullscreenNotification": "Disable fullscreen notification",
-                "deleteBrowserBorder": "Fjern browserkant",
+                "deleteBrowserBorder": "Round the corners of pages",
                 "hideUnifiedExtensionsButton": "Skjul knappen for samlede udvidelser"
             },
             "special": {

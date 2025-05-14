@@ -129,7 +129,7 @@
             "display": {
                 "title": "显示",
                 "disableFullscreenNotification": "禁用全屏通知",
-                "deleteBrowserBorder": "移除浏览器边框",
+                "deleteBrowserBorder": "Round the corners of pages",
                 "hideUnifiedExtensionsButton": "隐藏扩展统一管理按钮"
             },
             "special": {
