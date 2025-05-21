@@ -24,26 +24,26 @@
     "pages": {
         "home": "Home",
         "tabAndAppearance": "Tab & Appearance",
-        "browserSidebar": "Panel Sidebar",
-        "workspaces": "Workspaces",
-        "keyboardShortcuts": "Keyboard Shortcuts",
-        "webApps": "Web Apps",
-        "profileAndAccount": "Profile and Account",
-        "aboutBrowser": "About {{productName}}",
-        "debug": "Debug",
-        "mouseGesture": "Mouse Gestures",
-        "keyboardShortcut": "Keyboard Shortcuts"
+        "browserSidebar": "Panel sidofält",
+        "workspaces": "Arbetsytor",
+        "keyboardShortcuts": "Tangentbordsgenvägar",
+        "webApps": "Webbappar",
+        "profileAndAccount": "Profil och konto",
+        "aboutBrowser": "Om {{productName}}",
+        "debug": "Felsökning",
+        "mouseGesture": "Musgester",
+        "keyboardShortcut": "Tangentbordsgenvägar"
     },
     "home": {
-        "welcome": "Welcome, {{name}} 👋",
-        "defaultAccountName": "{{productName}} User",
-        "description": "Manage your account, privacy, and security to enhance your {{productName}} experience.",
+        "welcome": "Välkommen, {{name}}👋",
+        "defaultAccountName": "{{productName}} användare",
+        "description": "Hantera ditt konto, din integritet och din säkerhet för att förbättra din {{productName}} upplevelse.",
         "setup": {
-            "title": "Setup",
-            "footerLinkText": "Log in to Accounts",
-            "setupDescription": "Complete the setup to maximize your {{productName}} experience.",
-            "setupProgressTitle": "Setup Progress",
-            "step": "Step {{step}} of {{total}}"
+            "title": "Konfiguration",
+            "footerLinkText": "Logga in på konton",
+            "setupDescription": "Slutför installationen för att maximera din {{productName}} upplevelse.",
+            "setupProgressTitle": "Konfigurationsframsteg",
+            "step": "Steg {{step}} av {{total}}"
         },
         "privacyAndTrackingProtection": {
             "title": "Privacy and Tracking Protection",
