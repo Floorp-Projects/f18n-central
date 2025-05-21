@@ -61,78 +61,78 @@
         },
         "popup": {
             "create-new": "Skapa ny arbetsyta...",
-            "manage": "Manage Workspaces"
+            "manage": "Hantera arbetsytor"
         },
         "menu": {
-            "moveTabToAnotherWorkspace": "Move Tab to Another Workspace"
+            "moveTabToAnotherWorkspace": "Flytta flik till en annan arbetsyta"
         },
         "error": {
-            "invalidWorkspaceID": "Not valid ID for Workspaces (maybe order is not updated)"
+            "invalidWorkspaceID": "Ej giltigt ID för arbetsytor (kanske är placeringen inte uppdaterad)"
         }
     },
     "statusbar": {
-        "toggle": "Status Bar{{mark}}"
+        "toggle": "Statusfält{{mark}}"
     },
     "splitview": {
-        "title": "Split View",
+        "title": "Delad vy",
         "position": "Position",
-        "position-left": "Left",
-        "position-right": "Right",
-        "flex-row": "Row",
-        "flex-column": "Column",
-        "remove-button": "Remove Current View",
+        "position-left": "Vänster",
+        "position-right": "Höger",
+        "flex-row": "Rad",
+        "flex-column": "Kolumn",
+        "remove-button": "Ta bort aktuell vy",
         "tab-context": {
-            "split-tabs": "Split Tabs",
-            "split-fixed-tab": "Split to Fixed Tab"
+            "split-tabs": "Dela flikar",
+            "split-fixed-tab": "Dela till fast flik"
         }
     },
     "ssb": {
         "menu": {
-            "webapps": "Web Apps",
-            "install-current": "Install Current Page as Progressive Web App",
-            "open-installed": "Open Installed Apps"
+            "webapps": "Webbappar",
+            "install-current": "Installera nuvarande sida som progressiv webbapp",
+            "open-installed": "Öppna installerade appar"
         },
         "page-action": {
-            "title": "Open Application",
-            "install": "Install Application",
-            "open": "Open Application",
-            "cancel": "Cancel",
-            "site-icon": "Site icon"
+            "title": "Öppna program",
+            "install": "Installera program",
+            "open": "Öppna program",
+            "cancel": "Avbryt",
+            "site-icon": "Webbplatsikon"
         }
     },
     "privateContainer": {
-        "openInPrivateContainer": "Open in Private Container",
-        "name": "Private Container"
+        "openInPrivateContainer": "Öppna i privat behållare",
+        "name": "Privat behållare"
     },
     "mouseGesture": {
         "actions": {
-            "gecko-back": "Back",
-            "gecko-forward": "Forward",
-            "gecko-reload": "Reload",
-            "gecko-close-tab": "Close Tab",
-            "gecko-open-new-tab": "New Tab",
-            "gecko-duplicate-tab": "Duplicate Tab",
-            "gecko-reload-all-tabs": "Reload All Tabs",
-            "gecko-restore-last-tab": "Reopen Closed Tab",
-            "gecko-open-new-window": "Open New Window",
-            "gecko-open-new-private-window": "Open New Private Window",
-            "gecko-close-window": "Close Window",
-            "gecko-restore-last-window": "Restore Last Window",
-            "gecko-show-next-tab": "Show Next Tab",
-            "gecko-show-previous-tab": "Show Previous Tab",
-            "gecko-show-all-tabs-panel": "Show All Tabs Panel",
-            "gecko-force-reload": "Force Reload",
-            "gecko-zoom-in": "Zoom In",
-            "gecko-zoom-out": "Zoom Out",
-            "gecko-reset-zoom": "Reset Zoom",
-            "gecko-bookmark-this-page": "Bookmark This Page",
-            "gecko-open-home-page": "Open Home Page",
-            "gecko-open-addons-manager": "Open Addons Manager",
-            "gecko-send-with-mail": "Send With Mail",
-            "gecko-save-page": "Save Page",
-            "gecko-print-page": "Print Page",
-            "gecko-mute-current-tab": "Mute Current Tab",
-            "gecko-show-source-of-page": "Show Source Of Page",
+            "gecko-back": "Tillbaka",
+            "gecko-forward": "Framåt",
+            "gecko-reload": "Ladda om",
+            "gecko-close-tab": "Stäng flik",
+            "gecko-open-new-tab": "Ny flik",
+            "gecko-duplicate-tab": "Duplicera flik",
+            "gecko-reload-all-tabs": "Ladda om alla flikar",
+            "gecko-restore-last-tab": "Återöppna stängd flik",
+            "gecko-open-new-window": "Öppna nytt fönster",
+            "gecko-open-new-private-window": "Öppna nytt privat fönster",
+            "gecko-close-window": "Stäng fönster",
+            "gecko-restore-last-window": "Återställ senaste fönster",
+            "gecko-show-next-tab": "Visa nästa flik",
+            "gecko-show-previous-tab": "Visa föregående flik",
+            "gecko-show-all-tabs-panel": "Visa alla flikar panel",
+            "gecko-force-reload": "Tvinga omladdning",
+            "gecko-zoom-in": "Zooma In",
+            "gecko-zoom-out": "Zooma ut",
+            "gecko-reset-zoom": "Återställ Zoom",
+            "gecko-bookmark-this-page": "Bokmärk denna sida",
+            "gecko-open-home-page": "Öppna startsida",
+            "gecko-open-addons-manager": "Öppna tilläggshanterare",
+            "gecko-send-with-mail": "Skicka med e-post",
+            "gecko-save-page": "Spara sida",
+            "gecko-print-page": "Skriv ut sida",
+            "gecko-mute-current-tab": "Tysta aktuell flik",
+            "gecko-show-source-of-page": "Visa källkod för sida",
             "gecko-show-page-info": "Visa sidinformation",
             "floorp-rest-mode": "Aktivera viloläge",
             "floorp-hide-user-interface": "Dölj gränssnitt",
@@ -185,50 +185,50 @@
             "gecko-close-tab": "Stäng aktuell flik",
             "gecko-open-new-tab": "Öppna en ny flik",
             "gecko-duplicate-tab": "Duplicera den aktuella fliken",
-            "gecko-reload-all-tabs": "Reload all tabs",
-            "gecko-restore-last-tab": "Reopen the last closed tab"
+            "gecko-reload-all-tabs": "Ladda om alla flikar",
+            "gecko-restore-last-tab": "Öppna den senaste stängda fliken"
         }
     },
     "panelSidebar": {
         "modal": {
-            "type": "Panel Type",
+            "type": "Paneltyp",
             "typeOptions": {
-                "web": "Web Page",
-                "sidebar-tool": "Tool Sidebar",
-                "extension": "Extension Sidebar"
+                "web": "Webbsida",
+                "sidebar-tool": "Sidofält för verktyg",
+                "extension": "Sidofält för tillägg"
             },
-            "width": "Panel Width",
-            "url": "Web Page URL",
-            "container": "Container",
-            "noContainer": "No Container",
-            "userAgent": "Use Mobile User Agent",
-            "extension": "Display Extension",
-            "sideBarTool": "Display Sidebar Tool",
-            "title": "Add Panel",
-            "add": "Add",
-            "cancel": "Cancel"
+            "width": "Panelbredd",
+            "url": "Webbsida URL",
+            "container": "Behållare",
+            "noContainer": "Inga behållare",
+            "userAgent": "Använd mobil användaragent",
+            "extension": "Visa förlängning",
+            "sideBarTool": "Visa sidofält verktyg",
+            "title": "Lägg till panel",
+            "add": "Lägg till",
+            "cancel": "Avbryt"
         },
         "contextMenu": {
-            "unload": "Unload this webpanel",
-            "mute": "Mute/Unmute this webpanel",
-            "changeZoom": "Change zoom level",
-            "zoomIn": "Zoom in",
-            "zoomOut": "Zoom out",
-            "resetZoom": "Reset zoom",
-            "changeUA": "Switch User agent to Mobile/Desktop Version at this Webpanel",
-            "delete": "Delete this panel"
+            "unload": "Avlägsna denna webbpanel",
+            "mute": "Tysta/avtysta denna webbpanel",
+            "changeZoom": "Ändra zoomnivå",
+            "zoomIn": "Zooma in",
+            "zoomOut": "Zooma ut",
+            "resetZoom": "Återställ zoom",
+            "changeUA": "Byt användaragent till mobil/datorversion på denna webbpanel",
+            "delete": "Ta bort denna panel"
         }
     },
     "chrome_css": {
-        "menu": "Style",
-        "rebuild": "Rebuild Style Sheets",
-        "create": "Create New Style Sheet",
-        "open_folder": "Open Style Sheets Folder",
-        "edit_user_chrome": "Edit userChrome.css",
-        "edit_user_content": "Edit userContent.css",
-        "rebuild_complete": "Style sheets rebuilt",
-        "editor_path_not_found": "Editor Path Not Found",
-        "set_pref_description": "Please set the editor path",
-        "please_enter_filename": "Please enter a filename"
+        "menu": "Stil",
+        "rebuild": "Bygg om stilmallar",
+        "create": "Skapa ny stilmall",
+        "open_folder": "Öppna stilmallsmapp",
+        "edit_user_chrome": "Redigera userChrome.css",
+        "edit_user_content": "Redigera userContent.css",
+        "rebuild_complete": "Stilmallar ombyggda",
+        "editor_path_not_found": "Sökväg för redigerare hittades inte",
+        "set_pref_description": "Vänligen ange sökvägen för redigeraren",
+        "please_enter_filename": "Vänligen ange ett filnamn"
     }
 }
