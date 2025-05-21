@@ -220,15 +220,15 @@
         }
     },
     "chrome_css": {
-        "menu": "Style",
-        "rebuild": "Rebuild Style Sheets",
-        "create": "Create New Style Sheet",
-        "open_folder": "Open Style Sheets Folder",
-        "edit_user_chrome": "Edit userChrome.css",
-        "edit_user_content": "Edit userContent.css",
-        "rebuild_complete": "Style sheets rebuilt",
-        "editor_path_not_found": "Editor Path Not Found",
-        "set_pref_description": "Please set the editor path",
-        "please_enter_filename": "Please enter a filename"
+        "menu": "样式",
+        "rebuild": "重载样式",
+        "create": "创建样式",
+        "open_folder": "打开样式文件夹",
+        "edit_user_chrome": "编辑 userChrome.css",
+        "edit_user_content": "编辑 userChrome.css",
+        "rebuild_complete": "样式已重重载",
+        "editor_path_not_found": "未找到编辑器路径",
+        "set_pref_description": "请设置编辑器路径",
+        "please_enter_filename": "请输入文件名称"
     }
 }
