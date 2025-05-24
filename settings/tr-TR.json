@@ -82,9 +82,9 @@
         "tabBar": "Sekme Çubuğu",
         "styleDescription": "Sekme çubuğu stilini seç.",
         "customizeTabBar": "Sekme Çubuğunu Özelleştir",
-        "style": "Style",
+        "style": "Stil",
         "horizontal": "Yatay",
-        "multirow": "Multi-row",
+        "multirow": "Çok-satırlı",
         "verticalTabIsRemovedFromBrowser": "Dikey Sekmeler {{productName}}adresinden kaldırılmıştır. Lütfen bunun yerine Firefox'un yerel Dikey Sekme Çubuğunu kullanın.",
         "learnMore": "Daha fazla bilgi",
         "position": "Konum",
@@ -97,8 +97,8 @@
         "tab": {
             "title": "Sekmeler",
             "footerLinkText": "Sekme Ayarları Hakkında",
-            "scroll": "Scroll",
-            "scrollDescription": "Choose whether to use scrolling for tab switching and select scrolling behavior.",
+            "scroll": "Kaydırma",
+            "scrollDescription": "Sekmeler arası geçiş için kaydırma kullanılıp kullanılmayacağını ve kaydırma davranışını seçin.",
             "scrollTab": "Switch tabs by scrolling",
             "reverseScroll": "Reverse tab scroll",
             "scrollWrap": "Loop tab scroll",
@@ -117,8 +117,8 @@
             "minHeightError": "Sekme yüksekliği {{min}} ile {{max}} piksel arasında olmalıdır."
         },
         "uiCustomization": {
-            "title": "UI Kişiselleştirme",
-            "needRestartDescriptionForEnableAndDisable": "Bu kullanıcı UI kişiselleştirme özelliğini tamamen etkinleştirmek veya devre dışı bırakmak için {{productName}}'un yeniden başlatılması gerekir.",
+            "title": "Arayüz Özelleştirme",
+            "needRestartDescriptionForEnableAndDisable": "Arayüz Özelleştirmesini tamamen etkinleştirmek veya devre dışı bırakmak için {{productName}}'un yeniden başlatılması gerekir.",
             "navbar": {
                 "title": "Gezinti Çubuğu",
                 "positionWithExperiment": "Konum (Deneysel)",
