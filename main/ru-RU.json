@@ -64,7 +64,7 @@
             "manage": "Управление рабочими пространствами"
         },
         "menu": {
-            "moveTabToAnotherWorkspace": "Move Tab to Another Workspace"
+            "moveTabToAnotherWorkspace": "Переместить вкладку в другое рабочее пространство"
         },
         "error": {
             "invalidWorkspaceID": "Not valid ID for Workspaces (maybe order is not updated)"
