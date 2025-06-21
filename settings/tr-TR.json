@@ -99,10 +99,10 @@
             "footerLinkText": "Sekme Ayarları Hakkında",
             "scroll": "Kaydırma",
             "scrollDescription": "Sekmeler arası geçiş için kaydırma kullanılıp kullanılmayacağını ve kaydırma davranışını seçin.",
-            "scrollTab": "Switch tabs by scrolling",
-            "reverseScroll": "Reverse tab scroll",
-            "scrollWrap": "Loop tab scroll",
-            "scrollPrefInfo": "\"{{reverseScrollPrefName}}\" & \"{{scrollWrapPrefName}}\" will only work if \"{{scrollPrefName}}\" is enabled.",
+            "scrollTab": "Kaydırarak sekmeleri değiştir",
+            "reverseScroll": "Ters sekme kaydırma",
+            "scrollWrap": "Sekme kaydırma döngüsü",
+            "scrollPrefInfo": "\"{{reverseScrollPrefName}}\" & \"{{scrollWrapPrefName}}\" yalnızca \"{{scrollPrefName}}\" etkinleştirilirse çalışacaktır.",
             "pinTitle": "Sabitlenmiş sekme başlıklarını göster",
             "openPosition": "Yeni sekme açılış konumu",
             "openPositionDescription": "Yeni sekmelerin nerede açılacağını belirleyin. Firefox'un davranışını takip etmek, bağlantıları nasıl açtığınıza bağlı olarak konumu değiştirecektir.",
@@ -122,29 +122,29 @@
             "navbar": {
                 "title": "Gezinti Çubuğu",
                 "positionWithExperiment": "Konum (Deneysel)",
-                "top": "Top",
-                "bottom": "Bottom",
+                "top": "En üst",
+                "bottom": "En alt",
                 "searchBarTop": "Sayfayı arama çubuğunun içine taşı"
             },
             "display": {
-                "title": "Display",
-                "disableFullscreenNotification": "Disable fullscreen notification",
-                "deleteBrowserBorder": "Round the corners of pages",
-                "hideUnifiedExtensionsButton": "Hide unified extensions button"
+                "title": "Görünüm",
+                "disableFullscreenNotification": "Tam ekran bildirimini devre dışı bırak",
+                "deleteBrowserBorder": "Sayfaların köşelerini yuvarla",
+                "hideUnifiedExtensionsButton": "Birleşik uzantılar düğmesini gizle"
             },
             "special": {
-                "title": "Special Features",
+                "title": "Ayrıcalıklı Özellikler",
                 "optimizeForTreeStyleTab": "Tree Style Tab için optimize et",
                 "hideForwardBackwardButton": "İleri/Geri Düğmesini Gizle",
                 "stgLikeWorkspaces": "Çalışma Alanları gibi basit sekme grupları"
             },
             "newtab": {
                 "title": "Yeni Sekme",
-                "disableFloorpStart": "Disable Floorp Start"
+                "disableFloorpStart": "Floorp Start'ı Devre Dışı Bırak"
             },
             "multirowTab": {
-                "title": "Multirow Tab",
-                "newtabInsideEnabled": "Show new tab button inside tab bar"
+                "title": "Çok Satırlı Sekme",
+                "newtabInsideEnabled": "Yeni sekme düğmesini sekme çubuğunun içinde göster"
             }
         }
     },
@@ -158,8 +158,8 @@
         "enableWorkspaces": "Çalışma Alanı özelliğini etkinleştirin",
         "enableWorkspacesDescription": "Çalışma Alanı düğmesi araç çubuğuna yerleştirilmediği sürece bu ayar etkin olsa bile çalışma alanları çalışmayacaktır. Çalışma Alanlarını tamamen devre dışı bırakmak istiyorsanız bu ayarı kullanın.",
         "otherSettings": "Diğer Çalışma Alanı Ayarları",
-        "closePopupWhenSelectingWorkspace": "Close workspace popup when selecting a workspace",
-        "closePopupWhenSelectingWorkspaceDescription": "Choose whether to close the workspace popup when selecting a workspace.",
+        "closePopupWhenSelectingWorkspace": "Bir çalışma alanı seçerken çalışma alanları açılır penceresini kapat",
+        "closePopupWhenSelectingWorkspaceDescription": "Bir çalışma alanı seçerken çalışma alanı açılır penceresinin kapatılıp kapatılmayacağını seçin.",
         "showWorkspaceNameOnToolbar": "Simgenin yanında çalışma alanı adını göster",
         "manageOnBms": "Çalışma alanlarını {{productName}} kenar çubuğu üzerinden yönetin",
         "manageOnBmsDescription": "Bu özellik etkinleştirildiğinde, çalışma alanlarını yalnızca {{productName}} kenar çubuğu üzerinden yönetebilirsiniz. Araç çubuğu düğmesini kullanarak çalışma alanlarını yönetemezsiniz.",
@@ -171,7 +171,7 @@
         "profileAndAccount": "Profil ve Hesap",
         "profileDescription": "Profiller geçmiş, yer imleri, ayarlar ve eklentiler gibi tarama ile ilgili bilgileri içerir. Floorp bu profili verileri kaydetmek için kullanır.",
         "profileManagement": "Profil Yönetimi",
-        "profileManagementDescription": "Profiles can be created and separated from each other, and their data is stored in the profile folder.",
+        "profileManagementDescription": "Profiller oluşturulabili ve birbirlerinden ayrılabilir. Verileri profil klasörlerinde saklanır.",
         "currentProfileName": "Mevcut Profil Adı: {{name}}",
         "profileSaveLocation": "Profil Kaydedileceği Konum: {{path}}",
         "openProfileManager": "Profil Yöneticisini Aç",
@@ -179,9 +179,9 @@
         "mozillaAccountSyncSettings": "Mozilla Hesap Senkronizasyon Ayarları",
         "syncedTo": "{{email}} ile senkronize edildi",
         "syncFloorpNotesToMozillaAccount": "Floorp Notlar'ı Mozilla Hesabı İle Senkronize Et(Deneysel)",
-        "floorpFeatureSyncSettings": "Floorp Feature Sync Settings",
+        "floorpFeatureSyncSettings": "Floorp Özellik Senkronizasyon Ayarları",
         "manageMozillaAccount": "Mozilla Hesabını Yönet",
-        "manageFirefoxFeatureSync": "Manage Firefox Feature Sync",
+        "manageFirefoxFeatureSync": "Firefox Özellik Senkronizasyonunu Yönet",
         "aboutMozillaAccount": "Mozilla Hesabı Hakkında",
         "notLoggedIn": "Giriş yapılmadı",
         "notSynced": "Senkronizasyon özelliğini etkinleştirmek için Mozilla Hesabında oturum açın"
@@ -223,7 +223,7 @@
         "positionRight": "Sağ",
         "globalWidth": "Genel Web Paneli Genişliği",
         "globalWidthDescription": "Panel genişliği 0 olarak ayarlandığında varsayılan genişlik uygulanır.",
-        "iconProviderRemoved": "The icon provider setting has been removed as {{productName}} now tries to get panel icons directly from web pages when possible.",
+        "iconProviderRemoved": "{{productName}} artık mümkün olduğunda panel simgelerini doğrudan web sayfalarından almaya çalıştığı için simge sağlayıcı ayarı kaldırılmıştır.",
         "needRestartDescriptionForEnableAndDisable": "Panel kenar çubuğu özelliğini tamamen etkinleştirmek veya devre dışı bırakmak için {{productName}}'un yeniden başlatılması gereklidir.",
         "staticPanel": "Kenar Çubuğu Araç Paneli",
         "extensionPanel": "Eklenti Paneli",
@@ -302,12 +302,12 @@
         "high": "Yüksek",
         "trailWidth": "İz genişliği",
         "trailColor": "İz rengi",
-        "actionsSettings": "Gesture Actions",
-        "actionsSettingsDescription": "Configure mouse gesture actions",
-        "name": "Name",
-        "pattern": "Pattern",
-        "action": "Action",
-        "actionDescription": "Description of the gesture",
+        "actionsSettings": "Hareket Eylemleri",
+        "actionsSettingsDescription": "Fare hareketi eylemlerini yapılandır",
+        "name": "Ad",
+        "pattern": "Desen",
+        "action": "Eylem",
+        "actionDescription": "Hareketin açıklaması",
         "actions": {
             "gecko-back": "Go Back",
             "gecko-forward": "Go Forward",
