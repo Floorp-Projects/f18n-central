@@ -117,8 +117,8 @@
             "minHeightError": "Sekme yüksekliği {{min}} ile {{max}} piksel arasında olmalıdır."
         },
         "uiCustomization": {
-            "title": "Arayüz Özelleştirme",
-            "needRestartDescriptionForEnableAndDisable": "Bu Arayüz Özelleştirmesini tamamen etkinleştirmek veya devre dışı bırakmak için {{productName}}'un yeniden başlatılması gerekir.",
+            "title": "UI Kişiselleştirme",
+            "needRestartDescriptionForEnableAndDisable": "Arayüz Özelleştirmesini tamamen etkinleştirmek veya devre dışı bırakmak için {{productName}}'un yeniden başlatılması gerekir.",
             "navbar": {
                 "title": "Gezinti Çubuğu",
                 "positionWithExperiment": "Konum (Deneysel)",
@@ -129,7 +129,7 @@
             "display": {
                 "title": "Görünüm",
                 "disableFullscreenNotification": "Tam ekran bildirimini devre dışı bırak",
-                "deleteBrowserBorder": "Sayfaların köşelerini yuvarla",
+                "deleteBrowserBorder": "Remove browser border",
                 "hideUnifiedExtensionsButton": "Birleşik uzantılar düğmesini gizle"
             },
             "special": {
