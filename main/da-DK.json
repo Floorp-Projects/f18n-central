@@ -64,7 +64,7 @@
             "manage": "Administrer arbejdsområder"
         },
         "menu": {
-            "moveTabToAnotherWorkspace": "Move Tab to Another Workspace"
+            "moveTabToAnotherWorkspace": "Flyt fane til andet arbejdsområde"
         },
         "error": {
             "invalidWorkspaceID": "Not valid ID for Workspaces (maybe order is not updated)"
@@ -194,7 +194,7 @@
             "type": "Paneltype",
             "typeOptions": {
                 "web": "Webside",
-                "sidebar-tool": "Tool Sidebar",
+                "sidebar-tool": "Værktøjssidepanel",
                 "extension": "Udvidelsessidepanel"
             },
             "width": "Panelbredde",
@@ -220,15 +220,15 @@
         }
     },
     "chrome_css": {
-        "menu": "Style",
-        "rebuild": "Rebuild Style Sheets",
-        "create": "Create New Style Sheet",
-        "open_folder": "Open Style Sheets Folder",
-        "edit_user_chrome": "Edit userChrome.css",
-        "edit_user_content": "Edit userContent.css",
-        "rebuild_complete": "Style sheets rebuilt",
-        "editor_path_not_found": "Editor Path Not Found",
-        "set_pref_description": "Please set the editor path",
-        "please_enter_filename": "Please enter a filename"
+        "menu": "Stil",
+        "rebuild": "Gendan stylesheets",
+        "create": "Opret ny stylesheet",
+        "open_folder": "Åbn stylesheets-mappen",
+        "edit_user_chrome": "Rediger userChrome.css",
+        "edit_user_content": "Rediger userContent.css",
+        "rebuild_complete": "Stylesheets gendannet",
+        "editor_path_not_found": "Editorsti ikke fundet",
+        "set_pref_description": "Angiv venligst stien til editoren",
+        "please_enter_filename": "Indtast venligst et filnavn"
     }
 }
