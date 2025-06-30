@@ -128,8 +128,8 @@
             },
             "display": {
                 "title": "Visning",
-                "disableFullscreenNotification": "Disable fullscreen notification",
-                "deleteBrowserBorder": "Round the corners of pages",
+                "disableFullscreenNotification": "Deaktiver fuldskærmsmeddelelser",
+                "deleteBrowserBorder": "Afrund hjørnerne på sider",
                 "hideUnifiedExtensionsButton": "Skjul knappen for samlede udvidelser"
             },
             "special": {

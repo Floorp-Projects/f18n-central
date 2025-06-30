@@ -238,18 +238,18 @@
         "panelType": "面板类型",
         "panelList": "面板列表",
         "type": {
-            "web": "Web",
+            "web": "网页",
             "static": "边栏工具",
             "extension": "扩展"
         },
         "staticPanels": {
-            "bmt": "浏览器管理器",
+            "bmt": "我的足迹",
             "bookmarks": "书签",
             "history": "历史",
             "downloads": "下载",
             "notes": "便笺"
         },
-        "url": "URL",
+        "url": "URL 地址",
         "untitled": "Untitled",
         "confirmDeleteTitle": "删除面板",
         "confirmDelete": "确定要删除此面板吗？",
@@ -258,7 +258,7 @@
         "editPanel": "编辑面板",
         "errors": {
             "typeRequired": "必须输入面板类型",
-            "urlRequired": "URL is required for web panels",
+            "urlRequired": "网页面板需要填写 URL 地址",
             "invalidUrl": "请输入有效的 URL 地址",
             "extensionIdRequired": "扩展面板需要扩展 ID",
             "staticPanelRequired": "请选择边栏工具",
@@ -275,7 +275,7 @@
         "enableDisable": "启用/禁用",
         "enablePwa": "启用渐进式 Web App（PWA）",
         "enablePwaDescription": "允许将网站安装为桌面应用程序",
-        "needRestartDescriptionForEnableAndDisable": "{{productName}}'s restart is required to completely enable or disable the progressive web app feature.",
+        "needRestartDescriptionForEnableAndDisable": "{{productName}} 需要重新启动才能完全启用或禁用渐进式应用（PWA）功能。",
         "otherSettings": "其它设置",
         "showToolbar": "显示工具栏",
         "showToolbarDescription": "Display the toolbar in Progressive Web App windows",
