@@ -189,6 +189,19 @@
             "gecko-restore-last-tab": "Öppna den senaste stängda fliken"
         }
     },
+    "qrCode": {
+        "pageAction": "Generate QR Code",
+        "modalTitle": "QR Code Generator",
+        "loading": "Generating QR Code...",
+        "copyButton": "Copy Image",
+        "downloadButton": "Download",
+        "closeButton": "Close",
+        "copySuccess": "QR code copied to clipboard!",
+        "copyError": "Failed to copy QR code",
+        "generateError": "Failed to generate QR code"
+    },
+    "qrcode-generate-page-action": "Generate QR Code for this page",
+    "qrcode-generate-page-action-title": "QR Code Generator",
     "panelSidebar": {
         "modal": {
             "type": "Paneltyp",
@@ -230,5 +243,14 @@
         "editor_path_not_found": "Sökväg för redigerare hittades inte",
         "set_pref_description": "Vänligen ange sökvägen för redigeraren",
         "please_enter_filename": "Vänligen ange ett filnamn"
+    },
+    "reboot": {
+        "menu": {
+            "title": "Restart",
+            "normal-restart": "Restart",
+            "restart-cache-clear": "Restart with Cache Clear",
+            "restart-safe-mode": "Restart in Safe Mode",
+            "restart-profile-manager": "Restart with Profile Manager"
+        }
     }
 }
