@@ -147,7 +147,7 @@
                 "newtabInsideEnabled": "在分頁列內顯示新分頁按鈕"
             },
             "bookmarkBar": {
-                "title": "Bookmark Bar",
+                "title": "書籤列",
                 "focusExpand": "Expand bookmark bar on focus"
             }
         }
