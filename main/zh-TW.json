@@ -250,7 +250,7 @@
             "normal-restart": "重新啟動",
             "restart-cache-clear": "清除快取並重新啟動",
             "restart-safe-mode": "在安全模式下重新啟動",
-            "restart-profile-manager": "Restart with Profile Manager"
+            "restart-profile-manager": "重新啟動並開啟設定檔管理員"
         }
     }
 }
