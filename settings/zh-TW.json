@@ -148,7 +148,7 @@
             },
             "bookmarkBar": {
                 "title": "書籤列",
-                "focusExpand": "Expand bookmark bar on focus"
+                "focusExpand": "對焦時展開書籤列"
             }
         }
     },
