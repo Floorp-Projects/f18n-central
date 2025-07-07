@@ -145,6 +145,10 @@
             "multirowTab": {
                 "title": "Tab Multibaris",
                 "newtabInsideEnabled": "Tampilkan tombol tab baru dalam bilah tab"
+            },
+            "bookmarkBar": {
+                "title": "Bookmark Bar",
+                "focusExpand": "Expand bookmark bar on focus"
             }
         }
     },
