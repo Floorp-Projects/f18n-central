@@ -12,13 +12,15 @@ jobs:
       - name: Checkout f18n repository
         uses: actions/checkout@v4
         with:
-            path: f18n-central
+          path: f18n-central
 
       - name: Checkout Floorp repository
         uses: actions/checkout@v4
         with:
-          repository: Floorp-Projects/Floorp-12
+          repository: Floorp-Projects/Floorp
           path: floorp
+          ref: main
+          token: ${{ secrets.PAT }}
 
       - name: Read translation targets
         id: read-targets
