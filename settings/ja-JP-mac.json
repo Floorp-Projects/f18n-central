@@ -147,8 +147,8 @@
                 "newtabInsideEnabled": "タブバーの中に \"新規タブ\" ボタンを表示"
             },
             "bookmarkBar": {
-                "title": "Bookmark Bar",
-                "focusExpand": "Expand bookmark bar on focus"
+                "title": "ブックマークバー",
+                "focusExpand": "カーソルを合わせたときにブックマークバーを広げる"
             }
         }
     },
