@@ -190,18 +190,18 @@
         }
     },
     "qrCode": {
-        "pageAction": "Generate QR Code",
-        "modalTitle": "QR Code Generator",
-        "loading": "Generating QR Code...",
-        "copyButton": "Copy Image",
-        "downloadButton": "Download",
-        "closeButton": "Close",
-        "copySuccess": "QR code copied to clipboard!",
-        "copyError": "Failed to copy QR code",
-        "generateError": "Failed to generate QR code"
+        "pageAction": "Gerar código QR",
+        "modalTitle": "",
+        "loading": "Geração de código QR...",
+        "copyButton": "Copiar imagem",
+        "downloadButton": "Descarregar",
+        "closeButton": "Fechar",
+        "copySuccess": "Código QR copiado para a área de transferência!",
+        "copyError": "Falha ao copiar o código QR",
+        "generateError": "Falha ao gerar o código QR"
     },
-    "qrcode-generate-page-action": "Generate QR Code for this page",
-    "qrcode-generate-page-action-title": "QR Code Generator",
+    "qrcode-generate-page-action": "Gerar código QR para esta página",
+    "qrcode-generate-page-action-title": "Gerador de código QR",
     "panelSidebar": {
         "modal": {
             "type": "Panel Type",
@@ -246,11 +246,11 @@
     },
     "reboot": {
         "menu": {
-            "title": "Restart",
-            "normal-restart": "Restart",
-            "restart-cache-clear": "Restart with Cache Clear",
-            "restart-safe-mode": "Restart in Safe Mode",
-            "restart-profile-manager": "Restart with Profile Manager"
+            "title": "Reiniciar",
+            "normal-restart": "Reiniciar",
+            "restart-cache-clear": "Reiniciar com limpeza de cache",
+            "restart-safe-mode": "Reiniciar no modo de segurança",
+            "restart-profile-manager": "Reiniciar com o Profile Manager"
         }
     }
 }
