@@ -190,18 +190,18 @@
         }
     },
     "qrCode": {
-        "pageAction": "Generate QR Code",
-        "modalTitle": "QR Code Generator",
-        "loading": "Generating QR Code...",
-        "copyButton": "Copy Image",
-        "downloadButton": "Download",
-        "closeButton": "Close",
-        "copySuccess": "QR code copied to clipboard!",
-        "copyError": "Failed to copy QR code",
-        "generateError": "Failed to generate QR code"
+        "pageAction": "產生 QR 碼",
+        "modalTitle": "QR 碼產生器",
+        "loading": "正在產生 QR 碼……",
+        "copyButton": "複製圖片",
+        "downloadButton": "下載",
+        "closeButton": "關閉",
+        "copySuccess": "QR 碼已複製到剪貼簿！",
+        "copyError": "複製 QR 碼失敗",
+        "generateError": "產生 QR 碼失敗"
     },
-    "qrcode-generate-page-action": "Generate QR Code for this page",
-    "qrcode-generate-page-action-title": "QR Code Generator",
+    "qrcode-generate-page-action": "為此頁生成 QR 碼",
+    "qrcode-generate-page-action-title": "QR 碼產生器",
     "panelSidebar": {
         "modal": {
             "type": "面板類型",
@@ -246,10 +246,10 @@
     },
     "reboot": {
         "menu": {
-            "title": "Restart",
-            "normal-restart": "Restart",
-            "restart-cache-clear": "Restart with Cache Clear",
-            "restart-safe-mode": "Restart in Safe Mode",
+            "title": "重新啟動",
+            "normal-restart": "重新啟動",
+            "restart-cache-clear": "清除快取並重新啟動",
+            "restart-safe-mode": "在安全模式下重新啟動",
             "restart-profile-manager": "Restart with Profile Manager"
         }
     }
