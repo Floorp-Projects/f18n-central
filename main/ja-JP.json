@@ -190,18 +190,18 @@
         }
     },
     "qrCode": {
-        "pageAction": "Generate QR Code",
-        "modalTitle": "QR Code Generator",
-        "loading": "Generating QR Code...",
-        "copyButton": "Copy Image",
-        "downloadButton": "Download",
-        "closeButton": "Close",
-        "copySuccess": "QR code copied to clipboard!",
-        "copyError": "Failed to copy QR code",
-        "generateError": "Failed to generate QR code"
+        "pageAction": "QR コードを生成",
+        "modalTitle": "QR コードジェネレーター",
+        "loading": "QR コードを生成中...",
+        "copyButton": "画像をコピー",
+        "downloadButton": "ダウンロード",
+        "closeButton": "閉じる",
+        "copySuccess": "QR コードをクリップボードにコピーしました！",
+        "copyError": "QR コードのコピーに失敗しました",
+        "generateError": "QR コードの生成に失敗しました"
     },
-    "qrcode-generate-page-action": "Generate QR Code for this page",
-    "qrcode-generate-page-action-title": "QR Code Generator",
+    "qrcode-generate-page-action": "このページの QR コードを生成",
+    "qrcode-generate-page-action-title": "QR コードジェネレーター",
     "panelSidebar": {
         "modal": {
             "type": "パネルの種類",
@@ -246,11 +246,11 @@
     },
     "reboot": {
         "menu": {
-            "title": "Restart",
-            "normal-restart": "Restart",
-            "restart-cache-clear": "Restart with Cache Clear",
-            "restart-safe-mode": "Restart in Safe Mode",
-            "restart-profile-manager": "Restart with Profile Manager"
+            "title": "再起動",
+            "normal-restart": "再起動",
+            "restart-cache-clear": "キャッシュを消去して再起動",
+            "restart-safe-mode": "セーフモードで再起動",
+            "restart-profile-manager": "再起動してプロファイルマネージャーを表示"
         }
     }
 }
