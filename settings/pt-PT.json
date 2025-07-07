@@ -145,6 +145,10 @@
             "multirowTab": {
                 "title": "Separador de várias linhas",
                 "newtabInsideEnabled": "Mostrar o botão do novo separador na barra de separadores"
+            },
+            "bookmarkBar": {
+                "title": "Bookmark Bar",
+                "focusExpand": "Expand bookmark bar on focus"
             }
         }
     },
