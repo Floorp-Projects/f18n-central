@@ -147,8 +147,8 @@
                 "newtabInsideEnabled": "Mostrar o botão do novo separador na barra de separadores"
             },
             "bookmarkBar": {
-                "title": "Bookmark Bar",
-                "focusExpand": "Expand bookmark bar on focus"
+                "title": "Barra de favoritos",
+                "focusExpand": "Expandir a barra de favoritos ao focar"
             }
         }
     },
