@@ -190,18 +190,18 @@
         }
     },
     "qrCode": {
-        "pageAction": "Generate QR Code",
-        "modalTitle": "QR Code Generator",
-        "loading": "Generating QR Code...",
-        "copyButton": "Copy Image",
-        "downloadButton": "Download",
-        "closeButton": "Close",
-        "copySuccess": "QR code copied to clipboard!",
-        "copyError": "Failed to copy QR code",
-        "generateError": "Failed to generate QR code"
+        "pageAction": "Buat Kode QR",
+        "modalTitle": "Pembuat Kode QR",
+        "loading": "Membuat kode QR …",
+        "copyButton": "Salin Gambar",
+        "downloadButton": "Unduh",
+        "closeButton": "Tutup",
+        "copySuccess": "Kode QR disaln ke papan kerani!",
+        "copyError": "Gagal menyalin kode QR",
+        "generateError": "Gagal membuat kode QR"
     },
-    "qrcode-generate-page-action": "Generate QR Code for this page",
-    "qrcode-generate-page-action-title": "QR Code Generator",
+    "qrcode-generate-page-action": "Buat kode QR untuk halaman ini",
+    "qrcode-generate-page-action-title": "Pembuat Kode QR",
     "panelSidebar": {
         "modal": {
             "type": "Jenis Panel",
@@ -246,11 +246,11 @@
     },
     "reboot": {
         "menu": {
-            "title": "Restart",
-            "normal-restart": "Restart",
-            "restart-cache-clear": "Restart with Cache Clear",
-            "restart-safe-mode": "Restart in Safe Mode",
-            "restart-profile-manager": "Restart with Profile Manager"
+            "title": "Mulai Ulang",
+            "normal-restart": "Mulai Ulang",
+            "restart-cache-clear": "Mulai Ulang dengan Pembersihan Cache",
+            "restart-safe-mode": "Mulai Ulang dalam Mode Aman",
+            "restart-profile-manager": "Mulai Ulang dengan Manajer Profil"
         }
     }
 }
