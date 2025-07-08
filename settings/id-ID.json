@@ -147,7 +147,7 @@
                 "newtabInsideEnabled": "Tampilkan tombol tab baru dalam bilah tab"
             },
             "bookmarkBar": {
-                "title": "Bookmark Bar",
+                "title": "Bilah Markah",
                 "focusExpand": "Expand bookmark bar on focus"
             }
         }
