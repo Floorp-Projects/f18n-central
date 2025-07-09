@@ -190,18 +190,18 @@
         }
     },
     "qrCode": {
-        "pageAction": "Generate QR Code",
-        "modalTitle": "QR Code Generator",
-        "loading": "Generating QR Code...",
-        "copyButton": "Copy Image",
-        "downloadButton": "Download",
-        "closeButton": "Close",
-        "copySuccess": "QR code copied to clipboard!",
-        "copyError": "Failed to copy QR code",
-        "generateError": "Failed to generate QR code"
+        "pageAction": "Generera QR-kod",
+        "modalTitle": "QR-kodgenerator",
+        "loading": "Genererar QR-kod...",
+        "copyButton": "Kopiera bild",
+        "downloadButton": "Ladda ner",
+        "closeButton": "Stäng",
+        "copySuccess": "QR-kod har kopierats till urklipp!",
+        "copyError": "Misslyckades med att kopiera QR-kod",
+        "generateError": "Misslyckades med att generera QR-kod"
     },
-    "qrcode-generate-page-action": "Generate QR Code for this page",
-    "qrcode-generate-page-action-title": "QR Code Generator",
+    "qrcode-generate-page-action": "Generera QR-kod för den här sidan",
+    "qrcode-generate-page-action-title": "QR-kodgenerator",
     "panelSidebar": {
         "modal": {
             "type": "Paneltyp",
@@ -246,11 +246,11 @@
     },
     "reboot": {
         "menu": {
-            "title": "Restart",
-            "normal-restart": "Restart",
-            "restart-cache-clear": "Restart with Cache Clear",
-            "restart-safe-mode": "Restart in Safe Mode",
-            "restart-profile-manager": "Restart with Profile Manager"
+            "title": "Starta om",
+            "normal-restart": "Starta om",
+            "restart-cache-clear": "Starta om med cache rensning",
+            "restart-safe-mode": "Starta om i felsäkert läge",
+            "restart-profile-manager": "Starta om med profilhanterare"
         }
     }
 }
