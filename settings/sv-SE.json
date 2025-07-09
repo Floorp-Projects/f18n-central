@@ -147,8 +147,8 @@
                 "newtabInsideEnabled": "Visa knappen för ny flik inuti flikfältet"
             },
             "bookmarkBar": {
-                "title": "Bookmark Bar",
-                "focusExpand": "Expand bookmark bar on focus"
+                "title": "Bokmärkesfält",
+                "focusExpand": "Expandera bokmärkesfältet vid fokus"
             }
         }
     },
