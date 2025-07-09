@@ -243,12 +243,12 @@
         "editor_path_not_found": "未找到編輯器路徑",
         "set_pref_description": "請設定編輯器路徑",
         "please_enter_filename": "請鍵入檔案名",
-        "file_created": "File Created",
-        "file_created_successfully": "File created successfully",
-        "open_file_in_editor": "Open file in editor?",
-        "error_title": "Error",
-        "folder_open_failed": "Failed to open CSS folder",
-        "edit_failed": "Failed to edit file"
+        "file_created": "已新增檔案",
+        "file_created_successfully": "已成功新增檔案",
+        "open_file_in_editor": "在編輯器中開啟檔案？",
+        "error_title": "錯誤",
+        "folder_open_failed": "開啟 CSS 資料夾失敗",
+        "edit_failed": "編輯檔案失敗"
     },
     "reboot": {
         "menu": {
