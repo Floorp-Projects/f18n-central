@@ -243,12 +243,12 @@
         "editor_path_not_found": "Caminho do editor não encontrado",
         "set_pref_description": "Defina o caminho do editor",
         "please_enter_filename": "Introduza um nome de ficheiro",
-        "file_created": "File Created",
-        "file_created_successfully": "File created successfully",
-        "open_file_in_editor": "Open file in editor?",
-        "error_title": "Error",
-        "folder_open_failed": "Failed to open CSS folder",
-        "edit_failed": "Failed to edit file"
+        "file_created": "Ficheiro criado",
+        "file_created_successfully": "Ficheiro criado com sucesso",
+        "open_file_in_editor": "Abrir o ficheiro no editor?",
+        "error_title": "Erro",
+        "folder_open_failed": "Falha ao abrir a pasta CSS",
+        "edit_failed": "Falha ao editar o ficheiro"
     },
     "reboot": {
         "menu": {
