@@ -243,12 +243,12 @@
         "editor_path_not_found": "Sökväg för redigerare hittades inte",
         "set_pref_description": "Vänligen ange sökvägen för redigeraren",
         "please_enter_filename": "Vänligen ange ett filnamn",
-        "file_created": "File Created",
-        "file_created_successfully": "File created successfully",
-        "open_file_in_editor": "Open file in editor?",
-        "error_title": "Error",
-        "folder_open_failed": "Failed to open CSS folder",
-        "edit_failed": "Failed to edit file"
+        "file_created": "Fil skapad",
+        "file_created_successfully": "Filen skapades framgångsrikt",
+        "open_file_in_editor": "Öppna fil i redigerare?",
+        "error_title": "Fel",
+        "folder_open_failed": "Misslyckades med att öppna CSS-mapp",
+        "edit_failed": "Misslyckades med att redigera fil"
     },
     "reboot": {
         "menu": {
