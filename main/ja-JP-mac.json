@@ -243,12 +243,12 @@
         "editor_path_not_found": "エディターのパスが見つかりません",
         "set_pref_description": "エディターのパスを指定してください",
         "please_enter_filename": "ファイル名を入力してください",
-        "file_created": "File Created",
-        "file_created_successfully": "File created successfully",
-        "open_file_in_editor": "Open file in editor?",
-        "error_title": "Error",
-        "folder_open_failed": "Failed to open CSS folder",
-        "edit_failed": "Failed to edit file"
+        "file_created": "ファイルを作成しました",
+        "file_created_successfully": "ファイルは正常に作成されました",
+        "open_file_in_editor": "エディターでファイルを開きますか？",
+        "error_title": "エラー",
+        "folder_open_failed": "CSS フォルダーを開けませんでした",
+        "edit_failed": "ファイルを編集できませんでした"
     },
     "reboot": {
         "menu": {
