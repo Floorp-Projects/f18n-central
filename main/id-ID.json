@@ -246,9 +246,9 @@
         "file_created": "Berkas Dibuat",
         "file_created_successfully": "Berkas berhasil dibuat",
         "open_file_in_editor": "Buka berkas di editor?",
-        "error_title": "Error",
-        "folder_open_failed": "Failed to open CSS folder",
-        "edit_failed": "Failed to edit file"
+        "error_title": "Galat",
+        "folder_open_failed": "Gagal membuka folder CSS",
+        "edit_failed": "Gagal menyunting berkas"
     },
     "reboot": {
         "menu": {
