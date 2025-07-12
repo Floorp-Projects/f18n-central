@@ -87,7 +87,9 @@
             "powershell_process": "啟動 PowerShell 程序失敗： {{0}}",
             "admin_install_failed": "使用管理員權限安裝失敗。退出代碼： {{0}}",
             "user_installer_launch": "以使用者權限啟動安裝程式程序失敗： {{0}}",
-            "user_installer_execution": "以使用者權限執行安裝程式時發生問題： {{0}}"
+            "user_installer_execution": "以使用者權限執行安裝程式時發生問題： {{0}}",
+            "cpu_not_supported": "This device's CPU does not support SSE4.1. Floorp requires a processor with SSE4.1 support.",
+            "cpu_check_failed": "Failed to verify CPU requirements. Please check system requirements."
         }
     }
 }
