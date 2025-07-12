@@ -88,8 +88,8 @@
             "admin_install_failed": "A instalação com direitos de administrador falhou. Código de saída: {{0}}",
             "user_installer_launch": "Falha ao iniciar o processo de instalação com direitos de utilizador: {{0}}",
             "user_installer_execution": "Ocorreu um problema ao executar o instalador com direitos de utilizador: {{0}}",
-            "cpu_not_supported": "This device's CPU does not support SSE4.1. Floorp requires a processor with SSE4.1 support.",
-            "cpu_check_failed": "Failed to verify CPU requirements. Please check system requirements."
+            "cpu_not_supported": "O processador deste dispositivo não suporta SSE4.1. O Floorp requer um processador com suporte para SSE4.1.",
+            "cpu_check_failed": "Falha ao verificar os requisitos do processador. Verifique os requisitos do sistema."
         }
     }
 }
