@@ -88,8 +88,8 @@
             "admin_install_failed": "Pemasangan dengan hak administrator gagal. Kode keluar: {{0}}",
             "user_installer_launch": "Gagal meluncurkan proses penginstal dengan hak pengguna: {{0}}",
             "user_installer_execution": "Terjadi masalah menjalankan penginstal dengan hak pengguna: {{0}}",
-            "cpu_not_supported": "This device's CPU does not support SSE4.1. Floorp requires a processor with SSE4.1 support.",
-            "cpu_check_failed": "Failed to verify CPU requirements. Please check system requirements."
+            "cpu_not_supported": "CPU Perangkat ini tidak mendukung SSE4.1. Floorp memerlukan prosesor yang mendukung SSE4.1.",
+            "cpu_check_failed": "Gagal memastikan persyaratan CPU. Silakan periksa persyaratan sistem."
         }
     }
 }
