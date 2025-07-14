@@ -88,8 +88,8 @@
             "admin_install_failed": "管理者権限でのインストールに失敗しました。終了コード: {{0}}",
             "user_installer_launch": "ユーザー権限でインストーラープロセスを起動できませんでした: {{0}}",
             "user_installer_execution": "ユーザー権限でインストーラーを実行中に問題が発生しました: {{0}}",
-            "cpu_not_supported": "This device's CPU does not support SSE4.1. Floorp requires a processor with SSE4.1 support.",
-            "cpu_check_failed": "Failed to verify CPU requirements. Please check system requirements."
+            "cpu_not_supported": "このデバイスの CPU は SSE4.1 をサポートしていません。Floorp には SSE4.1 をサポートするプロセッサーが必要です。",
+            "cpu_check_failed": "CPU が要件を満たしているか確認できませんでした。システム要件をご確認ください。"
         }
     }
 }
