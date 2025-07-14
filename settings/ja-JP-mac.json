@@ -117,61 +117,61 @@
             "minHeightError": "タブの高さは、 {{min}} から {{max}} ピクセルの間でなければなりません。"
         },
         "lepton-preferences": {
-            "title": "Lepton Settings",
-            "description": "Configure advanced Lepton theme preferences",
-            "configureLepton": "Configure Lepton",
-            "back": "Back",
+            "title": "Lepton の設定",
+            "description": "Lepton テーマの高度な設定を変更します",
+            "configureLepton": "Lepton の設定",
+            "back": "戻る",
             "experimentalWarning": {
-                "title": "⚠️ Experimental Features",
-                "description": "These settings are experimental and not officially supported. Issues may occur.",
-                "leptonRepository": "Lepton is a css theme for Firefox.",
-                "visitRepository": "Visit Repository Page"
+                "title": "⚠️ 実験的な機能",
+                "description": "これらの設定は実験的なもので、公式にはサポートされていません。問題が発生する可能性があります。",
+                "leptonRepository": "Lepton は Firefox 用の CSS テーマです。",
+                "visitRepository": "リポジトリのページを開く"
             },
             "autohide": {
-                "title": "Auto-hide Settings",
-                "tab": "Automatically hide tabs",
-                "navbar": "Automatically hide Toolbar",
-                "sidebar": "Automatically hide Sidebar",
-                "backButton": "Automatically hide back button",
-                "forwardButton": "Automatically hide forward button",
-                "pageAction": "Automatically hide buttons on the Address Bar"
+                "title": "自動非表示の設定",
+                "tab": "タブを自動的に隠す",
+                "navbar": "ツールバーを自動的に隠す",
+                "sidebar": "サイドバーを自動的に隠す",
+                "backButton": "戻るボタンを自動的に隠す",
+                "forwardButton": "進むボタンを自動的に隠す",
+                "pageAction": "アドレスバー上のボタンを自動的に隠す"
             },
             "hidden": {
-                "title": "Hide Settings",
-                "tabIcon": "Hide tab icons",
-                "tabbar": "Hide Tab Bar",
-                "navbar": "Hide Toolbar",
-                "sidebarHeader": "Hide Sidebar Headers",
-                "urlbarIconbox": "Hide Address Bar icons",
-                "bookmarkbarIcon": "Hide Bookmarks Bar icons",
-                "bookmarkbarLabel": "Hide Bookmarks Bar labels",
-                "disabledMenu": "Hide disabled context menu items"
+                "title": "非表示の設定",
+                "tabIcon": "タブのアイコンを隠す",
+                "tabbar": "タブバーを隠す",
+                "navbar": "ツールバーを隠す",
+                "sidebarHeader": "サイドバーのヘッダーを隠す",
+                "urlbarIconbox": "アドレスバーのアイコンを隠す",
+                "bookmarkbarIcon": "ブックマークバーのアイコンを隠す",
+                "bookmarkbarLabel": "ブックマークバーのラベルを隠す",
+                "disabledMenu": "無効なコンテキストメニュー項目を隠す"
             },
             "icon": {
-                "title": "Icon Settings",
-                "disabled": "Disable Lepton's context menu and panel menu icons",
-                "menu": "Enable Lepton's context menu icons"
+                "title": "アイコンの設定",
+                "disabled": "Lepton によるコンテキストメニューとパネルメニューのアイコン表示を無効にする",
+                "menu": "Lepton によるコンテキストメニューのアイコン表示を有効にする"
             },
             "centered": {
-                "title": "Centered Settings",
-                "tab": "Center labels in tabs",
-                "urlbar": "Center text in the Address Bar",
-                "bookmarkbar": "Center Bookmarks Bar items"
+                "title": "中央揃えの設定",
+                "tab": "タブ名を中央揃えにする",
+                "urlbar": "アドレスバーのテキストを中央揃えにする",
+                "bookmarkbar": "ブックマークバーの項目を中央揃えにする"
             },
             "urlView": {
-                "title": "URL View Settings",
-                "moveIconToLeft": "Move Address Bar icons to the left side",
-                "goButtonWhenTyping": "When typing, show a \"Go\" button",
-                "alwaysShowPageActions": "Always show page actions in the Address Bar"
+                "title": "URL 表示の設定",
+                "moveIconToLeft": "アドレスバーのアイコンを左側に移動",
+                "goButtonWhenTyping": "入力中に [移動] ボタンを表示",
+                "alwaysShowPageActions": "アドレスバーのページアクションボタンを常に表示"
             },
             "tabbar": {
-                "title": "Tab Bar Settings",
-                "asTitlebar": "Tab Bar in the Title Bar",
-                "oneLiner": "Combine Tab Bar and Toolbar"
+                "title": "タブバーの設定",
+                "asTitlebar": "タイトルバーにタブバーを表示",
+                "oneLiner": "タブバーとアドレスバーを統合"
             },
             "sidebar": {
-                "title": "Sidebar Settings",
-                "overlap": "Show Sidebar over website content"
+                "title": "サイドバーの設定",
+                "overlap": "サイドバーをウェブサイトに重ねて表示"
             }
         },
         "uiCustomization": {
