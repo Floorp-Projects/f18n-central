@@ -88,8 +88,8 @@
             "admin_install_failed": "Yönetici izni ile kurulum başarısız oldu. Çıkış kodu: {{0}}",
             "user_installer_launch": "Kullanıcı izni ile yükleyici işlemi başlatılamadı: {{0}}",
             "user_installer_execution": "Yükleyiciyi kullanıcı izni ile çalıştırırken bir sorun oluştu: {{0}}",
-            "cpu_not_supported": "This device's CPU does not support SSE4.1. Floorp requires a processor with SSE4.1 support.",
-            "cpu_check_failed": "Failed to verify CPU requirements. Please check system requirements."
+            "cpu_not_supported": "Bu cihazın CPU'su SSE4.1'i desteklemiyor. Floorp, SSE4.1 desteği olan bir işlemci gerektirir.",
+            "cpu_check_failed": "CPU gereksinimleri doğrulanamadı. Lütfen sistem gereksinimlerini kontrol edin."
         }
     }
 }
