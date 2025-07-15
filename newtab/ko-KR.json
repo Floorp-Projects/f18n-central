@@ -11,37 +11,37 @@
         "labelPlaceholder": "웹사이트 이름"
     },
     "settings": {
-        "newTabSettings": "New Tab Settings",
-        "displayComponents": "Display Components",
-        "topSites": "Top Sites",
-        "clock": "Clock",
-        "searchBar": "Search Bar",
-        "backgroundSettings": "Background Settings",
-        "noBackground": "No Background",
-        "randomImage": "Random Image",
-        "customImage": "Custom Image",
-        "folderImages": "Images from Folder",
-        "floorpImages": "Floorp Images",
-        "currentImage": "Current image:",
-        "currentFolder": "Current folder:",
-        "selectFolder": "Select Folder",
-        "selected": "Selected",
-        "imageRecommendation": "Recommended: 1920x1080 or higher",
-        "enableSlideshow": "Enable Slideshow",
-        "slideshowInterval": "Slideshow Interval",
-        "seconds": "seconds",
-        "minute": "minute",
-        "minutes": "minutes",
-        "close": "Close"
+        "newTabSettings": "새 탭 설정",
+        "displayComponents": "구성 요소 표시",
+        "topSites": "상위 사이트",
+        "clock": "시계",
+        "searchBar": "검색 바",
+        "backgroundSettings": "배경 설정",
+        "noBackground": "배경 없음",
+        "randomImage": "무작위 이미지",
+        "customImage": "맞춤 이미지",
+        "folderImages": "폴더에서 이미지 열기",
+        "floorpImages": "Floorp 이미지",
+        "currentImage": "현재 이미지:",
+        "currentFolder": "현재 폴더:",
+        "selectFolder": "폴더 선택",
+        "selected": "선택됨",
+        "imageRecommendation": "권장: 1920x1080 이상",
+        "enableSlideshow": "슬라이드쇼 활성화",
+        "slideshowInterval": "슬라이드쇼 간격",
+        "seconds": "초",
+        "minute": "분",
+        "minutes": "분",
+        "close": "닫기"
     },
     "searchBar": {
-        "searchOrEnterUrl": "Search or enter URL",
-        "loadingSearchEngines": "Loading search engines..."
+        "searchOrEnterUrl": "검색 혹은 URL 입력",
+        "loadingSearchEngines": "검색 엔진 불러오는 중..."
     },
     "settingsButton": {
-        "settings": "Settings"
+        "settings": "설정"
     },
     "modal": {
-        "close": "Close"
+        "close": "닫기"
     }
 }
