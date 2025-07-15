@@ -27,6 +27,11 @@
         "selectFolder": "Klasörü Seçin",
         "selected": "Seçilen",
         "imageRecommendation": "Önerilen: 1920x1080 veya daha büyük görsel",
+        "enableSlideshow": "Enable Slideshow",
+        "slideshowInterval": "Slideshow Interval",
+        "seconds": "seconds",
+        "minute": "minute",
+        "minutes": "minutes",
         "close": "Kapat"
     },
     "searchBar": {
