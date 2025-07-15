@@ -117,40 +117,40 @@
             "minHeightError": "Sekme yüksekliği {{min}} ile {{max}} piksel arasında olmalıdır."
         },
         "lepton-preferences": {
-            "title": "Lepton Settings",
-            "description": "Configure advanced Lepton theme preferences",
-            "configureLepton": "Configure Lepton",
-            "back": "Back",
+            "title": "Lepton Ayarları",
+            "description": "Gelişmiş Lepton tema tercihlerini yapılandırma",
+            "configureLepton": "Lepton'u Yapılandırma",
+            "back": "Geri",
             "experimentalWarning": {
-                "title": "⚠️ Experimental Features",
-                "description": "These settings are experimental and not officially supported. Issues may occur.",
-                "leptonRepository": "Lepton is a css theme for Firefox.",
-                "visitRepository": "Visit Repository Page"
+                "title": "⚠️ Deneysel Özellikler",
+                "description": "Bu ayarlar deneyseldir ve resmi olarak desteklenmemektedir. Bazı sorunlar meydana gelebilir.",
+                "leptonRepository": "Lepton, Firefox için bir css temasıdır.",
+                "visitRepository": "Depo Sayfasını Ziyaret Edin"
             },
             "autohide": {
-                "title": "Auto-hide Settings",
-                "tab": "Automatically hide tabs",
-                "navbar": "Automatically hide Toolbar",
-                "sidebar": "Automatically hide Sidebar",
-                "backButton": "Automatically hide back button",
-                "forwardButton": "Automatically hide forward button",
-                "pageAction": "Automatically hide buttons on the Address Bar"
+                "title": "Otomatik Gizleme Ayarları",
+                "tab": "Sekmeleri otomatik olarak gizle",
+                "navbar": "Araç Çubuğunu otomatik olarak gizle",
+                "sidebar": "Kenar Çubuğunu otomatik olarak gizle",
+                "backButton": "Geri düğmesini otomatik olarak gizle",
+                "forwardButton": "İleri düğmesini otomatik olarak gizle",
+                "pageAction": "Adres Çubuğundaki düğmeleri otomatik olarak gizle"
             },
             "hidden": {
-                "title": "Hide Settings",
-                "tabIcon": "Hide tab icons",
-                "tabbar": "Hide Tab Bar",
-                "navbar": "Hide Toolbar",
-                "sidebarHeader": "Hide Sidebar Headers",
-                "urlbarIconbox": "Hide Address Bar icons",
-                "bookmarkbarIcon": "Hide Bookmarks Bar icons",
-                "bookmarkbarLabel": "Hide Bookmarks Bar labels",
-                "disabledMenu": "Hide disabled context menu items"
+                "title": "Ayarları Gizle",
+                "tabIcon": "Sekme simgelerini gizle",
+                "tabbar": "Sekme Çubuğunu gizle",
+                "navbar": "Araç Çubuğunu gizle",
+                "sidebarHeader": "Kenar Çubuğu başlıklarını gizle",
+                "urlbarIconbox": "Adres Çubuğu simgelerini gizle",
+                "bookmarkbarIcon": "Yer İmleri Çubuğu simgelerini gizle",
+                "bookmarkbarLabel": "Yer İmleri Çubuğu etiketlerini gizle",
+                "disabledMenu": "Devre dışı bırakılmış içerik menüsü öğelerini gizle"
             },
             "icon": {
-                "title": "Icon Settings",
-                "disabled": "Disable Lepton's context menu and panel menu icons",
-                "menu": "Enable Lepton's context menu icons"
+                "title": "Simge Ayarları",
+                "disabled": "Lepton'un içerik menüsünü ve panel menü simgelerini devre dışı bırakın",
+                "menu": "Lepton'un içerik menüsü simgelerini etkinleştirin"
             },
             "centered": {
                 "title": "Centered Settings",
