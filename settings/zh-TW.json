@@ -117,27 +117,27 @@
             "minHeightError": "分頁高度必須介於 {{min}} 和 {{max}} 像素之間。"
         },
         "lepton-preferences": {
-            "title": "Lepton Settings",
+            "title": "Lepton 設定",
             "description": "Configure advanced Lepton theme preferences",
-            "configureLepton": "Configure Lepton",
-            "back": "Back",
+            "configureLepton": "設定 Lepton",
+            "back": "返回",
             "experimentalWarning": {
-                "title": "⚠️ Experimental Features",
-                "description": "These settings are experimental and not officially supported. Issues may occur.",
-                "leptonRepository": "Lepton is a css theme for Firefox.",
+                "title": "⚠️ 測試功能",
+                "description": "這些設定為實驗性且未獲得官方支援。可能會發生問題。",
+                "leptonRepository": "Lepton 是 Firefox 的 css 主題。",
                 "visitRepository": "Visit Repository Page"
             },
             "autohide": {
-                "title": "Auto-hide Settings",
-                "tab": "Automatically hide tabs",
-                "navbar": "Automatically hide Toolbar",
-                "sidebar": "Automatically hide Sidebar",
-                "backButton": "Automatically hide back button",
-                "forwardButton": "Automatically hide forward button",
-                "pageAction": "Automatically hide buttons on the Address Bar"
+                "title": "自動隱藏設定",
+                "tab": "自動隱藏分頁列",
+                "navbar": "自動隱藏工具列",
+                "sidebar": "自動隱藏側邊欄",
+                "backButton": "自動隱藏\"返回\"鈕",
+                "forwardButton": "自動隱藏\"前進\"鈕",
+                "pageAction": "自動隱藏位址欄上的按鈕"
             },
             "hidden": {
-                "title": "Hide Settings",
+                "title": "隱藏設定",
                 "tabIcon": "Hide tab icons",
                 "tabbar": "Hide Tab Bar",
                 "navbar": "Hide Toolbar",
@@ -161,7 +161,7 @@
             "urlView": {
                 "title": "URL View Settings",
                 "moveIconToLeft": "Move Address Bar icons to the left side",
-                "goButtonWhenTyping": "When typing, show a \"Go\" button",
+                "goButtonWhenTyping": "打字時顯示\"前往\"按鈕",
                 "alwaysShowPageActions": "Always show page actions in the Address Bar"
             },
             "tabbar": {
@@ -170,7 +170,7 @@
                 "oneLiner": "Combine Tab Bar and Toolbar"
             },
             "sidebar": {
-                "title": "Sidebar Settings",
+                "title": "側邊欄設定",
                 "overlap": "Show Sidebar over website content"
             }
         },
