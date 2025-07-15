@@ -159,19 +159,19 @@
                 "bookmarkbar": "Center Bookmarks Bar items"
             },
             "urlView": {
-                "title": "URL View Settings",
-                "moveIconToLeft": "Move Address Bar icons to the left side",
-                "goButtonWhenTyping": "When typing, show a \"Go\" button",
-                "alwaysShowPageActions": "Always show page actions in the Address Bar"
+                "title": "URL Görünüm Ayarları",
+                "moveIconToLeft": "Adres Çubuğu simgelerini sol tarafa taşı",
+                "goButtonWhenTyping": "Yazarken \"Git\" düğmesini göster",
+                "alwaysShowPageActions": "Sayfa eylemlerini her zaman Adres Çubuğunda göster"
             },
             "tabbar": {
-                "title": "Tab Bar Settings",
-                "asTitlebar": "Tab Bar in the Title Bar",
-                "oneLiner": "Combine Tab Bar and Toolbar"
+                "title": "Sekme Çubuğu Ayarları",
+                "asTitlebar": "Başlık Çubuğunda Sekme Çubuğu",
+                "oneLiner": "Sekme Çubuğu ve Araç Çubuğunu Birleştir"
             },
             "sidebar": {
-                "title": "Sidebar Settings",
-                "overlap": "Show Sidebar over website content"
+                "title": "Kenar Çubuğu Ayarları",
+                "overlap": "Kenar Çubuğunu web sitesi içeriğinin üzerinde göster"
             }
         },
         "uiCustomization": {
@@ -205,8 +205,8 @@
                 "newtabInsideEnabled": "Yeni sekme düğmesini sekme çubuğunun içinde göster"
             },
             "bookmarkBar": {
-                "title": "Bookmark Bar",
-                "focusExpand": "Expand bookmark bar on focus"
+                "title": "Yer imleri Çubuğu",
+                "focusExpand": "Odaklanıldığında yer imi çubuğunu genişlet"
             }
         }
     },
@@ -233,7 +233,7 @@
         "profileAndAccount": "Profil ve Hesap",
         "profileDescription": "Profiller geçmiş, yer imleri, ayarlar ve eklentiler gibi tarama ile ilgili bilgileri içerir. Floorp bu profili verileri kaydetmek için kullanır.",
         "profileManagement": "Profil Yönetimi",
-        "profileManagementDescription": "Profiller oluşturulabili ve birbirlerinden ayrılabilir. Verileri profil klasörlerinde saklanır.",
+        "profileManagementDescription": "Birden fazla profil oluşturulabilir ve birbirlerinden ayrılabilir. Verileri profil klasörlerinde saklanır.",
         "currentProfileName": "Mevcut Profil Adı: {{name}}",
         "profileSaveLocation": "Profil Kaydedileceği Konum: {{path}}",
         "openProfileManager": "Profil Yöneticisini Aç",
