@@ -27,11 +27,11 @@
         "selectFolder": "Select Folder",
         "selected": "Selected",
         "imageRecommendation": "Recommended: 1920x1080 or higher",
-        "enableSlideshow": "Enable Slideshow",
-        "slideshowInterval": "Slideshow Interval",
-        "seconds": "seconds",
+        "enableSlideshow": "Увімкнути слайд-шоу",
+        "slideshowInterval": "Інтервал зміни слайдів",
+        "seconds": "секунди",
         "minute": "minute",
-        "minutes": "minutes",
+        "minutes": "хвилини",
         "close": "Close"
     },
     "searchBar": {
