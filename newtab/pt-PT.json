@@ -27,6 +27,11 @@
         "selectFolder": "Selecionar pasta",
         "selected": "Selecionado",
         "imageRecommendation": "Recomendado: 1920x1080 ou superior",
+        "enableSlideshow": "Enable Slideshow",
+        "slideshowInterval": "Slideshow Interval",
+        "seconds": "seconds",
+        "minute": "minute",
+        "minutes": "minutes",
         "close": "Fechar"
     },
     "searchBar": {
