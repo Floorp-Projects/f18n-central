@@ -27,6 +27,11 @@
         "selectFolder": "Pilih Folder",
         "selected": "Terpilih",
         "imageRecommendation": "Saran: gambar berukuran 1920×1080 atau lebih",
+        "enableSlideshow": "Enable Slideshow",
+        "slideshowInterval": "Slideshow Interval",
+        "seconds": "seconds",
+        "minute": "minute",
+        "minutes": "minutes",
         "close": "Tutup"
     },
     "searchBar": {
