@@ -17,7 +17,7 @@
         "firefoxSettings": "Firefox Settings",
         "about": "About",
         "aboutNoraneko": "About Noraneko",
-        "debug": "Debug",
+        "debug": "Налагодження",
         "overview": "Overview",
         "features": "Features"
     },
@@ -273,9 +273,9 @@
     "panelSidebar": {
         "title": "Panel Sidebar",
         "description": "Panel Sidebar is a feature that allows you to display various tools, websites, and extensions on the side of the window. Here, you can customize, add, delete, and manage panels.",
-        "basicSettings": "Basic Settings",
+        "basicSettings": "Базові налаштування",
         "howToUseAndCustomize": "How to use and customize Panel Sidebar",
-        "enableOrDisable": "Enable/Disable",
+        "enableOrDisable": "Увімкнути/Вимкнути",
         "enablePanelSidebar": "Enable Panel Sidebar",
         "enableDescription": "Panel Sidebar is different from Firefox's sidebar and won't interfere with it. Panel Sidebar can display web pages, unlike Firefox's sidebar. You can also manage workspaces in the sidebar.",
         "otherSettings": "Other Panel Sidebar Settings",
@@ -302,13 +302,13 @@
         "type": {
             "web": "Web",
             "static": "Sidebar Tool",
-            "extension": "Extension"
+            "extension": "Розширення"
         },
         "staticPanels": {
             "bmt": "Browser Manager Tool",
-            "bookmarks": "Bookmarks",
+            "bookmarks": "Закладки",
             "history": "History",
-            "downloads": "Downloads",
+            "downloads": "Завантаження",
             "notes": "Notes"
         },
         "url": "URL",
@@ -430,10 +430,10 @@
             "gecko-search-history": "Search History",
             "gecko-manage-history": "Manage History",
             "gecko-open-downloads": "Open Downloads",
-            "gecko-show-bookmark-sidebar": "Show Bookmark Sidebar",
+            "gecko-show-bookmark-sidebar": "Показати бічну панель закладок",
             "gecko-show-history-sidebar": "Show History Sidebar",
             "gecko-show-synced-tabs-sidebar": "Показати бічну панель синхронізованих вкладок",
-            "gecko-reverse-sidebar": "Reverse Sidebar Position",
+            "gecko-reverse-sidebar": "Зворотне положення бічної панелі",
             "gecko-hide-sidebar": "Hide Sidebar",
             "gecko-toggle-sidebar": "Toggle Sidebar",
             "gecko-scroll-up": "Scroll Up",
