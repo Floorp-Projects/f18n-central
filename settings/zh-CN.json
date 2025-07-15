@@ -171,7 +171,7 @@
             },
             "sidebar": {
                 "title": "侧边栏设置",
-                "overlap": "Show Sidebar over website content"
+                "overlap": "在网站内容上显示侧边栏"
             }
         },
         "uiCustomization": {
@@ -205,8 +205,8 @@
                 "newtabInsideEnabled": "在标签栏内显示新标签按钮"
             },
             "bookmarkBar": {
-                "title": "Bookmark Bar",
-                "focusExpand": "Expand bookmark bar on focus"
+                "title": "书签栏",
+                "focusExpand": "聚焦时展开书签栏"
             }
         }
     },
@@ -252,11 +252,11 @@
         "aboutBrowser": "关于 {{productName}}",
         "releaseNotes": "发布说明和更多信息",
         "browserVersion": "{{productName}} 版本： {{browserVersion}} | 火狐浏览器版本： {{firefoxVersion}}",
-        "isOfficialBuild": "(Official Build)",
+        "isOfficialBuild": "（官方构建）",
         "browserDescription": "{{productName}} 是日本开发的一款浏览器。是 Ablaze 旗下的，基于 Firefox 上开发的浏览器，旨在促进网络发展。",
         "browser": "{{productName}}",
-        "copyright": "© 2024 {{productName}} Project. All rights reserved.",
-        "openSourceLicense": "{{productName}} is open-source software available under the Mozilla Public License 2.0, made possible by the Firefox open-source project and other open-source software.",
+        "copyright": "© 2024 {{productName}} 项目。保留所有权利。",
+        "openSourceLicense": "{{productName}} 是根据 Mozilla Public License 2.0 提供的开源软件，由 Firefox 开源项目和其他开源软件实现。",
         "openSourceLicenseNotice": "开源许可",
         "versionInfo": "版本",
         "license": "许可协议"
@@ -312,7 +312,7 @@
             "notes": "便笺"
         },
         "url": "URL 地址",
-        "untitled": "Untitled",
+        "untitled": "未命名",
         "confirmDeleteTitle": "删除面板",
         "confirmDelete": "确定要删除此面板吗？",
         "delete": "删除",
@@ -324,7 +324,7 @@
             "invalidUrl": "请输入有效的 URL 地址",
             "extensionIdRequired": "扩展面板需要扩展 ID",
             "staticPanelRequired": "请选择边栏工具",
-            "invalidWidth": "Width must be at least 100 pixels"
+            "invalidWidth": "宽度必须至少为 100 像素"
         },
         "save": "保存",
         "cancel": "取消"
@@ -340,7 +340,7 @@
         "needRestartDescriptionForEnableAndDisable": "{{productName}} 需要重新启动才能完全启用或禁用渐进式应用（PWA）功能。",
         "otherSettings": "其它设置",
         "showToolbar": "显示工具栏",
-        "showToolbarDescription": "Display the toolbar in Progressive Web App windows",
+        "showToolbarDescription": "在 Progressive Web App 窗口中显示工具栏",
         "installedApps": "已安装的应用",
         "noInstalledApps": "未安装任何应用",
         "removeApp": "移除 Web 应用",
@@ -360,13 +360,13 @@
         "enabled": "启用鼠标手势",
         "showTrail": "显示手势轨迹",
         "sensitivity": "灵敏度",
-        "low": "Low",
-        "high": "High",
+        "low": "低",
+        "high": "高",
         "trailWidth": "轨迹宽度",
         "trailColor": "轨迹颜色",
         "actionsSettings": "手势操作",
         "actionsSettingsDescription": "配置鼠标手势操作",
-        "name": "Name",
+        "name": "名称",
         "pattern": "手势",
         "action": "动作",
         "actionDescription": "手势说明",
@@ -401,7 +401,7 @@
             "gecko-show-page-info": "显示页面信息",
             "floorp-rest-mode": "启用休息模式",
             "floorp-hide-user-interface": "隐藏界面",
-            "floorp-toggle-navigation-panel": "Toggle Navigation Panel",
+            "floorp-toggle-navigation-panel": "切换导航面板",
             "gecko-stop": "停止",
             "gecko-search-in-this-page": "页内搜索",
             "gecko-show-next-search-result": "查找下一个",
