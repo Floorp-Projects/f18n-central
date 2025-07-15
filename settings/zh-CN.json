@@ -117,60 +117,60 @@
             "minHeightError": "标签高度必须在 {{min}} 和 {{max}} 像素之间。"
         },
         "lepton-preferences": {
-            "title": "Lepton Settings",
-            "description": "Configure advanced Lepton theme preferences",
-            "configureLepton": "Configure Lepton",
-            "back": "Back",
+            "title": "Lepton 设置",
+            "description": "配置 Lepton 主题高级首选项",
+            "configureLepton": "配置 Lepton",
+            "back": "后退",
             "experimentalWarning": {
-                "title": "⚠️ Experimental Features",
-                "description": "These settings are experimental and not officially supported. Issues may occur.",
-                "leptonRepository": "Lepton is a css theme for Firefox.",
-                "visitRepository": "Visit Repository Page"
+                "title": "⚠️ 实验功能",
+                "description": "这些设置是实验性的，不受官方支持。问题可能会发生。",
+                "leptonRepository": "Lepton 是一款适用于 Firefox 的 css 主题。",
+                "visitRepository": "访问仓库页面"
             },
             "autohide": {
-                "title": "Auto-hide Settings",
-                "tab": "Automatically hide tabs",
-                "navbar": "Automatically hide Toolbar",
-                "sidebar": "Automatically hide Sidebar",
-                "backButton": "Automatically hide back button",
-                "forwardButton": "Automatically hide forward button",
-                "pageAction": "Automatically hide buttons on the Address Bar"
+                "title": "自动隐藏设置",
+                "tab": "自动隐藏标签栏",
+                "navbar": "自动隐藏工具栏",
+                "sidebar": "自动隐藏侧边栏",
+                "backButton": "自动隐藏 “后退” 按钮",
+                "forwardButton": "自动隐藏 “前进” 按钮",
+                "pageAction": "自动隐藏地址栏上的按钮"
             },
             "hidden": {
-                "title": "Hide Settings",
-                "tabIcon": "Hide tab icons",
-                "tabbar": "Hide Tab Bar",
-                "navbar": "Hide Toolbar",
-                "sidebarHeader": "Hide Sidebar Headers",
-                "urlbarIconbox": "Hide Address Bar icons",
-                "bookmarkbarIcon": "Hide Bookmarks Bar icons",
-                "bookmarkbarLabel": "Hide Bookmarks Bar labels",
-                "disabledMenu": "Hide disabled context menu items"
+                "title": "隐藏设置",
+                "tabIcon": "隐藏标签页图标",
+                "tabbar": "隐藏标签栏",
+                "navbar": "隐藏工具栏",
+                "sidebarHeader": "隐藏侧边栏标题",
+                "urlbarIconbox": "隐藏地址栏图标",
+                "bookmarkbarIcon": "隐藏书签栏图标",
+                "bookmarkbarLabel": "隐藏书签栏文本",
+                "disabledMenu": "隐藏禁用的上下文菜单项"
             },
             "icon": {
-                "title": "Icon Settings",
-                "disabled": "Disable Lepton's context menu and panel menu icons",
-                "menu": "Enable Lepton's context menu icons"
+                "title": "图标设置",
+                "disabled": "禁用 Lepton 的上下文菜单和面板菜单图标",
+                "menu": "启用 Lepton 的上下文菜单图标"
             },
             "centered": {
-                "title": "Centered Settings",
-                "tab": "Center labels in tabs",
-                "urlbar": "Center text in the Address Bar",
-                "bookmarkbar": "Center Bookmarks Bar items"
+                "title": "居中设置",
+                "tab": "标签页居中标签",
+                "urlbar": "地址栏居中文本",
+                "bookmarkbar": "居中书签栏项目"
             },
             "urlView": {
-                "title": "URL View Settings",
-                "moveIconToLeft": "Move Address Bar icons to the left side",
-                "goButtonWhenTyping": "When typing, show a \"Go\" button",
-                "alwaysShowPageActions": "Always show page actions in the Address Bar"
+                "title": "URL 视图设置",
+                "moveIconToLeft": "将地址栏图标移至左侧",
+                "goButtonWhenTyping": "键入时，显示 “转到” 按钮",
+                "alwaysShowPageActions": "始终在地址栏中显示页面操作"
             },
             "tabbar": {
-                "title": "Tab Bar Settings",
-                "asTitlebar": "Tab Bar in the Title Bar",
-                "oneLiner": "Combine Tab Bar and Toolbar"
+                "title": "标签栏设置",
+                "asTitlebar": "在标题栏中显示标签栏",
+                "oneLiner": "合并标签栏和工具栏"
             },
             "sidebar": {
-                "title": "Sidebar Settings",
+                "title": "侧边栏设置",
                 "overlap": "Show Sidebar over website content"
             }
         },
