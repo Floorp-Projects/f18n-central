@@ -1,14 +1,14 @@
 {
-    "title": "Floorp Start",
+    "title": "Floorp 시작",
     "topSites": {
-        "addSite": "Add site",
-        "addNewSite": "Add new site",
+        "addSite": "사이트 추가",
+        "addNewSite": "새로운 사이트 추가",
         "url": "URL",
-        "label": "Label",
-        "cancel": "Cancel",
-        "add": "Add",
-        "close": "Close",
-        "labelPlaceholder": "Website name"
+        "label": "라벨",
+        "cancel": "취소",
+        "add": "추가",
+        "close": "닫기",
+        "labelPlaceholder": "웹사이트 이름"
     },
     "settings": {
         "newTabSettings": "New Tab Settings",
