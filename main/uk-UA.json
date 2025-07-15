@@ -75,7 +75,7 @@
     },
     "splitview": {
         "title": "Split View",
-        "position": "Position",
+        "position": "Розташування",
         "position-left": "Left",
         "position-right": "Right",
         "flex-row": "Row",
@@ -135,7 +135,7 @@
             "gecko-show-source-of-page": "Show Source Of Page",
             "gecko-show-page-info": "Show Page Info",
             "floorp-rest-mode": "Enable Rest Mode",
-            "floorp-hide-user-interface": "Hide Interface",
+            "floorp-hide-user-interface": "Приховати інтерфейс",
             "floorp-toggle-navigation-panel": "Toggle Navigation Panel",
             "gecko-stop": "Stop",
             "gecko-search-in-this-page": "Search In This Page",
@@ -233,7 +233,7 @@
         }
     },
     "chrome_css": {
-        "menu": "Style",
+        "menu": "Стиль",
         "rebuild": "Rebuild Style Sheets",
         "create": "Create New Style Sheet",
         "open_folder": "Open Style Sheets Folder",
