@@ -27,6 +27,11 @@
         "selectFolder": "Vælg mappe",
         "selected": "Valgt",
         "imageRecommendation": "Anbefalet: 1920x1080 eller højere",
+        "enableSlideshow": "Enable Slideshow",
+        "slideshowInterval": "Slideshow Interval",
+        "seconds": "seconds",
+        "minute": "minute",
+        "minutes": "minutes",
         "close": "Luk"
     },
     "searchBar": {
