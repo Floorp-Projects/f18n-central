@@ -27,11 +27,11 @@
         "selectFolder": "選擇資料夾",
         "selected": "已選取",
         "imageRecommendation": "建議: 1920x1080 及以上",
-        "enableSlideshow": "Enable Slideshow",
-        "slideshowInterval": "Slideshow Interval",
-        "seconds": "seconds",
-        "minute": "minute",
-        "minutes": "minutes",
+        "enableSlideshow": "啟用幻燈片",
+        "slideshowInterval": "幻燈片播放間隔",
+        "seconds": "秒",
+        "minute": "分鐘",
+        "minutes": "分鐘",
         "close": "關閉"
     },
     "searchBar": {
