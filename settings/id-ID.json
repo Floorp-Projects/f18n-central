@@ -94,6 +94,8 @@
         "hideTabBarAndTitleBar": "Sembunyikan Bilah Tab dan Bilah Judul",
         "showTabBarOnBottomOfNavigationBar": "Tampilkan Bilah Tab di Bawah Bilah Navigasi",
         "showTabBarOnBottomOfWindow": "Tampilkan Bilah Tab di Bawah Jendela",
+        "maxRowEnabled": "Enable Maximum Row of Tabbar",
+        "maxRow": "Maximum Row of Tabbar",
         "tab": {
             "title": "Tab",
             "footerLinkText": "About Tab Settings",
