@@ -118,14 +118,14 @@
         },
         "lepton-preferences": {
             "title": "Lepton 設定",
-            "description": "Configure advanced Lepton theme preferences",
+            "description": "Lepton 進階主題偏好設定",
             "configureLepton": "設定 Lepton",
             "back": "返回",
             "experimentalWarning": {
                 "title": "⚠️ 測試功能",
                 "description": "這些設定為實驗性且未獲得官方支援。可能會發生問題。",
                 "leptonRepository": "Lepton 是 Firefox 的 css 主題。",
-                "visitRepository": "Visit Repository Page"
+                "visitRepository": "訪問儲存庫頁面"
             },
             "autohide": {
                 "title": "自動隱藏設定",
@@ -138,40 +138,40 @@
             },
             "hidden": {
                 "title": "隱藏設定",
-                "tabIcon": "Hide tab icons",
-                "tabbar": "Hide Tab Bar",
-                "navbar": "Hide Toolbar",
-                "sidebarHeader": "Hide Sidebar Headers",
-                "urlbarIconbox": "Hide Address Bar icons",
-                "bookmarkbarIcon": "Hide Bookmarks Bar icons",
-                "bookmarkbarLabel": "Hide Bookmarks Bar labels",
-                "disabledMenu": "Hide disabled context menu items"
+                "tabIcon": "隱藏分頁圖示",
+                "tabbar": "隱藏分頁列",
+                "navbar": "隱藏工具列",
+                "sidebarHeader": "隱藏側邊欄標題",
+                "urlbarIconbox": "隱藏位址欄圖示",
+                "bookmarkbarIcon": "隱藏書籤列圖示",
+                "bookmarkbarLabel": "隱藏書籤列文本",
+                "disabledMenu": "隱藏不可用的選單項目"
             },
             "icon": {
-                "title": "Icon Settings",
-                "disabled": "Disable Lepton's context menu and panel menu icons",
-                "menu": "Enable Lepton's context menu icons"
+                "title": "圖示設定",
+                "disabled": "停用 Lepton 的選單項目以及面板的圖示",
+                "menu": "啟用 Lepton 的選單項目圖示"
             },
             "centered": {
-                "title": "Centered Settings",
-                "tab": "Center labels in tabs",
-                "urlbar": "Center text in the Address Bar",
-                "bookmarkbar": "Center Bookmarks Bar items"
+                "title": "居中設定",
+                "tab": "居中顯示分頁標題",
+                "urlbar": "居中顯示位址欄文本",
+                "bookmarkbar": "居中顯示書籤列項目"
             },
             "urlView": {
-                "title": "URL View Settings",
-                "moveIconToLeft": "Move Address Bar icons to the left side",
+                "title": "URL 檢視設定",
+                "moveIconToLeft": "將位址欄圖示移至左邊",
                 "goButtonWhenTyping": "打字時顯示\"前往\"按鈕",
-                "alwaysShowPageActions": "Always show page actions in the Address Bar"
+                "alwaysShowPageActions": "始終在位址欄顯示頁面操作"
             },
             "tabbar": {
-                "title": "Tab Bar Settings",
-                "asTitlebar": "Tab Bar in the Title Bar",
-                "oneLiner": "Combine Tab Bar and Toolbar"
+                "title": "標籤列設定",
+                "asTitlebar": "在標題欄中顯示分頁列",
+                "oneLiner": "合併分頁列及工具列"
             },
             "sidebar": {
                 "title": "側邊欄設定",
-                "overlap": "Show Sidebar over website content"
+                "overlap": "在網站內容上顯示側邊欄"
             }
         },
         "uiCustomization": {
