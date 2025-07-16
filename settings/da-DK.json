@@ -94,6 +94,8 @@
         "hideTabBarAndTitleBar": "Skjul fanelinje og titellinje",
         "showTabBarOnBottomOfNavigationBar": "Vis fanelinje nederst på navigationslinjen",
         "showTabBarOnBottomOfWindow": "Vis fanelinje nederst på vinduet",
+        "maxRowEnabled": "Enable Maximum Row of Tabbar",
+        "maxRow": "Maximum Row of Tabbar",
         "tab": {
             "title": "Faner",
             "footerLinkText": "Om faneindstillinger",
