@@ -94,6 +94,8 @@
         "hideTabBarAndTitleBar": "隐藏标签栏和标题栏",
         "showTabBarOnBottomOfNavigationBar": "在导航栏下方显示标签栏",
         "showTabBarOnBottomOfWindow": "在窗口底部显示标签栏",
+        "maxRowEnabled": "Enable Maximum Row of Tabbar",
+        "maxRow": "Maximum Row of Tabbar",
         "tab": {
             "title": "标签页",
             "footerLinkText": "关于标签设置",
