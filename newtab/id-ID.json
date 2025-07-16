@@ -27,11 +27,11 @@
         "selectFolder": "Pilih Folder",
         "selected": "Terpilih",
         "imageRecommendation": "Saran: gambar berukuran 1920×1080 atau lebih",
-        "enableSlideshow": "Enable Slideshow",
-        "slideshowInterval": "Slideshow Interval",
-        "seconds": "seconds",
-        "minute": "minute",
-        "minutes": "minutes",
+        "enableSlideshow": "Nyalakan Tayangan Salindia",
+        "slideshowInterval": "Jarak Waktu Salindia",
+        "seconds": "detik",
+        "minute": "menit",
+        "minutes": "menit",
         "close": "Tutup"
     },
     "searchBar": {
