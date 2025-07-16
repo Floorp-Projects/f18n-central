@@ -94,6 +94,8 @@
         "hideTabBarAndTitleBar": "Скрыть панель вкладок и заголовков",
         "showTabBarOnBottomOfNavigationBar": "Показывать панель вкладок в нижней части панели навигации",
         "showTabBarOnBottomOfWindow": "Показывать панель вкладок в нижней части окна",
+        "maxRowEnabled": "Enable Maximum Row of Tabbar",
+        "maxRow": "Maximum Row of Tabbar",
         "tab": {
             "title": "Вкладки",
             "footerLinkText": "О настройках вкладки",
