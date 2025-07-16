@@ -22,17 +22,13 @@
         "customImage": "Özel Görsel",
         "folderImages": "Klasörden Görüntüler",
         "floorpImages": "Floorp Resimler",
-        "currentImage": "Geçerli resim:",
-        "currentFolder": "Geçerli klasör:",
+        "currentImage": "Geçerli Görsel:",
+        "imageRecommendation": "Recommendation: Use images with a resolution of 1920x1080 or higher.",
+        "currentFolder": "Current Folder:",
         "selectFolder": "Klasörü Seçin",
         "selected": "Seçilen",
-        "imageRecommendation": "Önerilen: 1920x1080 veya daha büyük görsel",
         "enableSlideshow": "Enable Slideshow",
-        "slideshowInterval": "Slideshow Interval",
-        "seconds": "seconds",
-        "minute": "minute",
-        "minutes": "minutes",
-        "close": "Kapat"
+        "slideshowInterval": "Interval (seconds)"
     },
     "searchBar": {
         "searchOrEnterUrl": "Arama yapın veya adres girin",
