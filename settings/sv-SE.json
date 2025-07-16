@@ -94,6 +94,8 @@
         "hideTabBarAndTitleBar": "Dölj flikfält och titelfält",
         "showTabBarOnBottomOfNavigationBar": "Visa flikfält längst ner i navigeringsfältet",
         "showTabBarOnBottomOfWindow": "Visa flikfältet längst ner i fönstret",
+        "maxRowEnabled": "Enable Maximum Row of Tabbar",
+        "maxRow": "Maximum Row of Tabbar",
         "tab": {
             "title": "Flikar",
             "footerLinkText": "Om flik inställningar",
