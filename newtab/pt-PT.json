@@ -23,16 +23,12 @@
         "folderImages": "Imagens da pasta",
         "floorpImages": "Imagens de Floorp",
         "currentImage": "Imagem atual:",
-        "currentFolder": "Pasta atual:",
+        "imageRecommendation": "Recommendation: Use images with a resolution of 1920x1080 or higher.",
+        "currentFolder": "Current Folder:",
         "selectFolder": "Selecionar pasta",
         "selected": "Selecionado",
-        "imageRecommendation": "Recomendado: 1920x1080 ou superior",
         "enableSlideshow": "Ativar apresentação de diapositivos",
-        "slideshowInterval": "Intervalo de apresentação de diapositivos",
-        "seconds": "segundos",
-        "minute": "minuto",
-        "minutes": "minutos",
-        "close": "Fechar"
+        "slideshowInterval": "Interval (seconds)"
     },
     "searchBar": {
         "searchOrEnterUrl": "Pesquisar ou introduzir URL",
