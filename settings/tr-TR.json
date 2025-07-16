@@ -94,6 +94,8 @@
         "hideTabBarAndTitleBar": "Sekme Çubuğunu ve Başlık Çubuğunu Gizle",
         "showTabBarOnBottomOfNavigationBar": "Gezinti Çubuğunun Altında Sekme Çubuğunu Göster",
         "showTabBarOnBottomOfWindow": "Sekme Çubuğunu Pencerenin Altında Göster",
+        "maxRowEnabled": "Enable Maximum Row of Tabbar",
+        "maxRow": "Maximum Row of Tabbar",
         "tab": {
             "title": "Sekmeler",
             "footerLinkText": "Sekme Ayarları Hakkında",
