@@ -23,12 +23,12 @@
         "folderImages": "フォルダーの画像",
         "floorpImages": "Floorp の画像",
         "currentImage": "現在の画像:",
-        "imageRecommendation": "Recommendation: Use images with a resolution of 1920x1080 or higher.",
-        "currentFolder": "Current Folder:",
+        "imageRecommendation": "1920x1080 以上の解像度の画像を使用することをおすすめします。",
+        "currentFolder": "現在のフォルダー:",
         "selectFolder": "フォルダーを選択",
         "selected": "選択中",
         "enableSlideshow": "スライドショーを有効にする",
-        "slideshowInterval": "Interval (seconds)"
+        "slideshowInterval": "間隔 (秒)"
     },
     "searchBar": {
         "searchOrEnterUrl": "検索または URL を入力",
