@@ -94,6 +94,8 @@
         "hideTabBarAndTitleBar": "Ocultar a barra de separadores e a barra de título",
         "showTabBarOnBottomOfNavigationBar": "Mostrar barra de separadores na parte inferior da barra de navegação",
         "showTabBarOnBottomOfWindow": "Mostrar barra de separadores na parte inferior da janela",
+        "maxRowEnabled": "Enable Maximum Row of Tabbar",
+        "maxRow": "Maximum Row of Tabbar",
         "tab": {
             "title": "Separadores",
             "footerLinkText": "Acerca das definições dos separadores",
