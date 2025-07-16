@@ -22,17 +22,13 @@
         "customImage": "맞춤 이미지",
         "folderImages": "폴더에서 이미지 열기",
         "floorpImages": "Floorp 이미지",
-        "currentImage": "현재 이미지:",
-        "currentFolder": "현재 폴더:",
+        "currentImage": "Current Image:",
+        "imageRecommendation": "Recommendation: Use images with a resolution of 1920x1080 or higher.",
+        "currentFolder": "Current Folder:",
         "selectFolder": "폴더 선택",
         "selected": "선택됨",
-        "imageRecommendation": "권장: 1920x1080 이상",
         "enableSlideshow": "슬라이드쇼 활성화",
-        "slideshowInterval": "슬라이드쇼 간격",
-        "seconds": "초",
-        "minute": "분",
-        "minutes": "분",
-        "close": "닫기"
+        "slideshowInterval": "Interval (seconds)"
     },
     "searchBar": {
         "searchOrEnterUrl": "검색 혹은 URL 입력",
