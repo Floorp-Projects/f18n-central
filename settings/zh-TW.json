@@ -94,6 +94,8 @@
         "hideTabBarAndTitleBar": "隱藏分頁列和標題列",
         "showTabBarOnBottomOfNavigationBar": "在瀏覽位址列底部顯示分頁列",
         "showTabBarOnBottomOfWindow": "在視窗底部顯示分頁列",
+        "maxRowEnabled": "Enable Maximum Row of Tabbar",
+        "maxRow": "Maximum Row of Tabbar",
         "tab": {
             "title": "分頁列",
             "footerLinkText": "關於分頁設定",
