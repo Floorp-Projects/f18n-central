@@ -23,12 +23,12 @@
         "folderImages": "Imagens da pasta",
         "floorpImages": "Imagens de Floorp",
         "currentImage": "Imagem atual:",
-        "imageRecommendation": "Recommendation: Use images with a resolution of 1920x1080 or higher.",
-        "currentFolder": "Current Folder:",
+        "imageRecommendation": "Recomendação: Utilize imagens com uma resolução de 1920x1080 ou superior.",
+        "currentFolder": "Pasta atual:",
         "selectFolder": "Selecionar pasta",
         "selected": "Selecionado",
         "enableSlideshow": "Ativar apresentação de diapositivos",
-        "slideshowInterval": "Interval (seconds)"
+        "slideshowInterval": "Intervalo (segundos)"
     },
     "searchBar": {
         "searchOrEnterUrl": "Pesquisar ou introduzir URL",
