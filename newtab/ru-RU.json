@@ -22,17 +22,13 @@
         "customImage": "Пользовательское изображение",
         "folderImages": "Images from Folder",
         "floorpImages": "Floorp Images",
-        "currentImage": "Current image:",
-        "currentFolder": "Current folder:",
+        "currentImage": "Текущее изображение:",
+        "imageRecommendation": "Recommendation: Use images with a resolution of 1920x1080 or higher.",
+        "currentFolder": "Current Folder:",
         "selectFolder": "Select Folder",
         "selected": "Selected",
-        "imageRecommendation": "Recommended: 1920x1080 or higher",
         "enableSlideshow": "Enable Slideshow",
-        "slideshowInterval": "Slideshow Interval",
-        "seconds": "seconds",
-        "minute": "minute",
-        "minutes": "minutes",
-        "close": "Закрыть"
+        "slideshowInterval": "Interval (seconds)"
     },
     "searchBar": {
         "searchOrEnterUrl": "Поиск или ввод URL-адреса",
