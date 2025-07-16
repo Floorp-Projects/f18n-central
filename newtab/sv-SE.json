@@ -22,17 +22,13 @@
         "customImage": "Anpassad bild",
         "folderImages": "Bilder från mapp",
         "floorpImages": "Floorp bilder",
-        "currentImage": "Nuvarande bild:",
-        "currentFolder": "Nuvarande mapp:",
+        "currentImage": "Current Image:",
+        "imageRecommendation": "Recommendation: Use images with a resolution of 1920x1080 or higher.",
+        "currentFolder": "Current Folder:",
         "selectFolder": "Välj mapp",
         "selected": "Vald",
-        "imageRecommendation": "Rekommenderas: 1920x1080 eller högre",
         "enableSlideshow": "Enable Slideshow",
-        "slideshowInterval": "Slideshow Interval",
-        "seconds": "seconds",
-        "minute": "minute",
-        "minutes": "minutes",
-        "close": "Stäng"
+        "slideshowInterval": "Interval (seconds)"
     },
     "searchBar": {
         "searchOrEnterUrl": "Sök eller ange URL",
