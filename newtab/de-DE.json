@@ -22,17 +22,13 @@
         "customImage": "Benutzerdefiniertes Bild",
         "folderImages": "Bilder aus einem Ordner",
         "floorpImages": "Floorp Bilder",
-        "currentImage": "Aktuelles Bild:",
-        "currentFolder": "Aktueller Ordner:",
+        "currentImage": "Current Image:",
+        "imageRecommendation": "Recommendation: Use images with a resolution of 1920x1080 or higher.",
+        "currentFolder": "Current Folder:",
         "selectFolder": "Ordner auswählen",
         "selected": "Ausgewählt",
-        "imageRecommendation": "Empfohlen: 1920x1080 oder höher",
         "enableSlideshow": "Enable Slideshow",
-        "slideshowInterval": "Slideshow Interval",
-        "seconds": "seconds",
-        "minute": "minute",
-        "minutes": "minutes",
-        "close": "Beenden"
+        "slideshowInterval": "Interval (seconds)"
     },
     "searchBar": {
         "searchOrEnterUrl": "Suchen oder Url eingeben",
