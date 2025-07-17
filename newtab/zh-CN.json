@@ -18,17 +18,17 @@
         "searchBar": "搜索栏",
         "backgroundSettings": "背景设置",
         "noBackground": "无背景",
-        "randomImage": "随机图像",
-        "customImage": "自定义图像",
+        "randomImage": "随机图片",
+        "customImage": "自定义图片",
         "folderImages": "文件夹中的图片",
         "floorpImages": "Floorp 内置图片",
         "currentImage": "当前图片：",
-        "imageRecommendation": "Recommendation: Use images with a resolution of 1920x1080 or higher.",
-        "currentFolder": "Current Folder:",
+        "imageRecommendation": "建议：使用 1920x1080 分辨率以上的图片。",
+        "currentFolder": "当前文件夹：",
         "selectFolder": "选择文件夹",
         "selected": "已选择",
         "enableSlideshow": "启用幻灯片",
-        "slideshowInterval": "Interval (seconds)"
+        "slideshowInterval": "间隔（秒）"
     },
     "searchBar": {
         "searchOrEnterUrl": "搜索或输入网址",
