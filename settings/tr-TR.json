@@ -94,8 +94,8 @@
         "hideTabBarAndTitleBar": "Sekme Çubuğunu ve Başlık Çubuğunu Gizle",
         "showTabBarOnBottomOfNavigationBar": "Gezinti Çubuğunun Altında Sekme Çubuğunu Göster",
         "showTabBarOnBottomOfWindow": "Sekme Çubuğunu Pencerenin Altında Göster",
-        "maxRowEnabled": "Enable Maximum Row of Tabbar",
-        "maxRow": "Maximum Row of Tabbar",
+        "maxRowEnabled": "Maksimum Sekme Çubuğu Sırasını Etkinleştir",
+        "maxRow": "Maksimum Sekme Çubuğu Sırası",
         "tab": {
             "title": "Sekmeler",
             "footerLinkText": "Sekme Ayarları Hakkında",
@@ -155,10 +155,10 @@
                 "menu": "Lepton'un içerik menüsü simgelerini etkinleştirin"
             },
             "centered": {
-                "title": "Centered Settings",
-                "tab": "Center labels in tabs",
-                "urlbar": "Center text in the Address Bar",
-                "bookmarkbar": "Center Bookmarks Bar items"
+                "title": "Ortaya Hizalama Ayarları",
+                "tab": "Sekme etiketlerini ortala",
+                "urlbar": "Adres Çubuğundaki metni ortala",
+                "bookmarkbar": "Yer İmleri çubuğu öğelerini ortala"
             },
             "urlView": {
                 "title": "URL Görünüm Ayarları",
