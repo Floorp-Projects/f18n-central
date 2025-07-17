@@ -85,7 +85,7 @@
         "style": "Stil",
         "horizontal": "Yatay",
         "multirow": "Çok-satırlı",
-        "verticalTabIsRemovedFromBrowser": "Dikey Sekmeler {{productName}}adresinden kaldırılmıştır. Lütfen bunun yerine Firefox'un yerel Dikey Sekme Çubuğunu kullanın.",
+        "verticalTabIsRemovedFromBrowser": "Dikey Sekmeler {{productName}}'tan kaldırılmıştır. Lütfen bunun yerine Firefox'un yerel Dikey Sekme Çubuğunu kullanın.",
         "learnMore": "Daha fazla bilgi",
         "position": "Konum",
         "positionDescription": "Sekme çubuğu konumunu seç.",
