@@ -13,7 +13,7 @@
     },
     "customize": {
         "title": "自定义 Floorp",
-        "description": "自定义您喜欢的设置。您可以随时从 Floorp Hub 或设置页面进行更改。",
+        "description": "自定义您喜欢的设置。您可以随时更改 Floorp Hub 或设置页面。",
         "appearance": {
             "title": "外观设置",
             "description": "你可以根据自己的喜好定制 Floorp 的外观。选择浅色或深色主题，或根据系统设置自动切换。"
@@ -61,7 +61,7 @@
     },
     "localizationPage": {
         "title": "Floorp 会说您的语言",
-        "subtitle": "检查语言设置并根据需要进行更改",
+        "subtitle": "检查语言设置并按需更改",
         "languageSettings": "语言设置",
         "languageChanged": "语言已更改！",
         "currentLanguageInfo": "当前语言信息",
