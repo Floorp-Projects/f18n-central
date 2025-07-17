@@ -20,15 +20,15 @@
         "noBackground": "Arka Plan Yok",
         "randomImage": "Rastgele Görsel",
         "customImage": "Özel Görsel",
-        "folderImages": "Klasörden Görüntüler",
-        "floorpImages": "Floorp Resimler",
+        "folderImages": "Klasörden Görseller",
+        "floorpImages": "Floorp Göreseller",
         "currentImage": "Geçerli Görsel:",
-        "imageRecommendation": "Recommendation: Use images with a resolution of 1920x1080 or higher.",
-        "currentFolder": "Current Folder:",
+        "imageRecommendation": "Öneri: 1920x1080 veya daha yüksek çözünürlüğe sahip görüntüler kullanın.",
+        "currentFolder": "Geçerli Klasör:",
         "selectFolder": "Klasörü Seçin",
         "selected": "Seçilen",
-        "enableSlideshow": "Enable Slideshow",
-        "slideshowInterval": "Interval (seconds)"
+        "enableSlideshow": "Slayt Gösterisini Etkinleştir",
+        "slideshowInterval": "Aralık (saniye)"
     },
     "searchBar": {
         "searchOrEnterUrl": "Arama yapın veya adres girin",
