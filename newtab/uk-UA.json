@@ -22,12 +22,13 @@
         "customImage": "Custom Image",
         "folderImages": "Images from Folder",
         "floorpImages": "Floorp Images",
-        "currentImage": "Current image:",
-        "currentFolder": "Current folder:",
+        "currentImage": "Поточне зображення:",
+        "imageRecommendation": "Рекомендація: Використовуйте зображення з роздільною здатністю 1920x1080 або вище.",
+        "currentFolder": "Поточна тека:",
         "selectFolder": "Select Folder",
         "selected": "Selected",
-        "imageRecommendation": "Recommended: 1920x1080 or higher",
-        "close": "Close"
+        "enableSlideshow": "Увімкнути слайд-шоу",
+        "slideshowInterval": "Інтервал (секунди)"
     },
     "searchBar": {
         "searchOrEnterUrl": "Search or enter URL",

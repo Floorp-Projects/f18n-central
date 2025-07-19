@@ -29,7 +29,7 @@
             "system": "System preference"
         },
         "searchEngine": {
-            "title": "Default Search Engine",
+            "title": "Пошукова система за замовчуванням",
             "default": "Default",
             "search": "Search",
             "noEnginesFound": "No search engines found."
