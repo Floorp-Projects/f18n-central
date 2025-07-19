@@ -22,13 +22,13 @@
         "customImage": "自訂圖像",
         "folderImages": "資料夾中的圖像",
         "floorpImages": "Floorp 圖像",
-        "currentImage": "Current Image:",
-        "imageRecommendation": "Recommendation: Use images with a resolution of 1920x1080 or higher.",
-        "currentFolder": "Current Folder:",
+        "currentImage": "目前的圖像:",
+        "imageRecommendation": "建議：使用解析度為 1920x1080 或更高的圖像。",
+        "currentFolder": "現在的資料夾:",
         "selectFolder": "選擇資料夾",
         "selected": "已選取",
         "enableSlideshow": "啟用幻燈片",
-        "slideshowInterval": "Interval (seconds)"
+        "slideshowInterval": "間隔(秒)"
     },
     "searchBar": {
         "searchOrEnterUrl": "搜尋或輸入網址",
