@@ -9,9 +9,9 @@
         "add": "Add",
         "close": "Close",
         "labelPlaceholder": "Website name",
-        "pin": "Pin",
-        "unpin": "Unpin",
-        "block": "Block"
+        "pin": "Прикріпити",
+        "unpin": "Відкріпити",
+        "block": "Заблокувати"
     },
     "settings": {
         "newTabSettings": "New Tab Settings",
