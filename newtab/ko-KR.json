@@ -8,7 +8,10 @@
         "cancel": "취소",
         "add": "추가",
         "close": "닫기",
-        "labelPlaceholder": "웹사이트 이름"
+        "labelPlaceholder": "웹사이트 이름",
+        "pin": "Pin",
+        "unpin": "Unpin",
+        "block": "Block"
     },
     "settings": {
         "newTabSettings": "새 탭 설정",
