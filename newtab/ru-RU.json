@@ -1,14 +1,14 @@
 {
     "title": "Floorp Start",
     "topSites": {
-        "addSite": "Add site",
-        "addNewSite": "Add new site",
+        "addSite": "Добавить сайт",
+        "addNewSite": "Добавить новый сайт",
         "url": "URL-адрес",
         "label": "Метка",
         "cancel": "Отменить",
         "add": "Добавить",
         "close": "Закрыть",
-        "labelPlaceholder": "Website name"
+        "labelPlaceholder": "Имя сайта"
     },
     "settings": {
         "newTabSettings": "Настройки новой вкладки",
@@ -20,14 +20,14 @@
         "noBackground": "Без фона",
         "randomImage": "Случайное изображение",
         "customImage": "Пользовательское изображение",
-        "folderImages": "Images from Folder",
+        "folderImages": "Изображения из папки",
         "floorpImages": "Floorp Images",
         "currentImage": "Текущее изображение:",
         "imageRecommendation": "Recommendation: Use images with a resolution of 1920x1080 or higher.",
-        "currentFolder": "Current Folder:",
-        "selectFolder": "Select Folder",
+        "currentFolder": "Текущая папка:",
+        "selectFolder": "Выбрать папку",
         "selected": "Selected",
-        "enableSlideshow": "Enable Slideshow",
+        "enableSlideshow": "Включить слайд-шоу",
         "slideshowInterval": "Interval (seconds)"
     },
     "searchBar": {
