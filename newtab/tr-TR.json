@@ -8,7 +8,10 @@
         "cancel": "İptal",
         "add": "Ekle",
         "close": "Kapat",
-        "labelPlaceholder": "Web site adı"
+        "labelPlaceholder": "Web site adı",
+        "pin": "Pin",
+        "unpin": "Unpin",
+        "block": "Block"
     },
     "settings": {
         "newTabSettings": "Yeni Sekme Ayarları",
