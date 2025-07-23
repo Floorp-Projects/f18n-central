@@ -8,7 +8,10 @@
         "cancel": "取消",
         "add": "添加",
         "close": "关闭",
-        "labelPlaceholder": "网站名称"
+        "labelPlaceholder": "网站名称",
+        "pin": "Pin",
+        "unpin": "Unpin",
+        "block": "Block"
     },
     "settings": {
         "newTabSettings": "新标签设置",
