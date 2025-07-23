@@ -8,7 +8,10 @@
         "cancel": "Отменить",
         "add": "Добавить",
         "close": "Закрыть",
-        "labelPlaceholder": "Имя сайта"
+        "labelPlaceholder": "Имя сайта",
+        "pin": "Pin",
+        "unpin": "Unpin",
+        "block": "Block"
     },
     "settings": {
         "newTabSettings": "Настройки новой вкладки",
