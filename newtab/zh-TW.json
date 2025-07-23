@@ -8,7 +8,10 @@
         "cancel": "取消",
         "add": "添加",
         "close": "關閉",
-        "labelPlaceholder": "網站名稱"
+        "labelPlaceholder": "網站名稱",
+        "pin": "Pin",
+        "unpin": "Unpin",
+        "block": "Block"
     },
     "settings": {
         "newTabSettings": "新分頁設定",
