@@ -8,7 +8,10 @@
         "cancel": "Batal",
         "add": "Tambah",
         "close": "Tutup",
-        "labelPlaceholder": "Nama situs web"
+        "labelPlaceholder": "Nama situs web",
+        "pin": "Pin",
+        "unpin": "Unpin",
+        "block": "Block"
     },
     "settings": {
         "newTabSettings": "Pengaturan Tab Baru",
