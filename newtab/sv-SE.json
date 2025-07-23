@@ -8,7 +8,10 @@
         "cancel": "Avbryt",
         "add": "Lägg till",
         "close": "Stäng",
-        "labelPlaceholder": "Webbplatsnamn"
+        "labelPlaceholder": "Webbplatsnamn",
+        "pin": "Pin",
+        "unpin": "Unpin",
+        "block": "Block"
     },
     "settings": {
         "newTabSettings": "Ny flikinställningar",
