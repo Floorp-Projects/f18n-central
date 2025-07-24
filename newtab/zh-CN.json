@@ -9,9 +9,9 @@
         "add": "添加",
         "close": "关闭",
         "labelPlaceholder": "网站名称",
-        "pin": "Pin",
-        "unpin": "Unpin",
-        "block": "Block"
+        "pin": "置顶",
+        "unpin": "取消置顶",
+        "block": "阻止"
     },
     "settings": {
         "newTabSettings": "新标签设置",
