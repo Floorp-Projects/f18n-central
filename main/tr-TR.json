@@ -67,7 +67,7 @@
             "moveTabToAnotherWorkspace": "Sekmeyi Başka Bir Çalışma Alanına Taşı"
         },
         "error": {
-            "invalidWorkspaceID": "Not valid ID for Workspaces (maybe order is not updated)"
+            "invalidWorkspaceID": "Geçersiz çalışma alanı ID'si (sıralama güncel olmayabilir)"
         }
     },
     "statusbar": {
