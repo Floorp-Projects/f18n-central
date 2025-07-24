@@ -9,9 +9,9 @@
         "add": "Ekle",
         "close": "Kapat",
         "labelPlaceholder": "Web site adı",
-        "pin": "Pin",
-        "unpin": "Unpin",
-        "block": "Block"
+        "pin": "Sabitle",
+        "unpin": "Sabitlemeyi kaldır",
+        "block": "Engelle"
     },
     "settings": {
         "newTabSettings": "Yeni Sekme Ayarları",
