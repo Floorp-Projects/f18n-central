@@ -9,9 +9,9 @@
         "add": "追加",
         "close": "閉じる",
         "labelPlaceholder": "ウェブサイト名",
-        "pin": "Pin",
-        "unpin": "Unpin",
-        "block": "Block"
+        "pin": "ピン留め",
+        "unpin": "ピン留めを外す",
+        "block": "ブロック"
     },
     "settings": {
         "newTabSettings": "新しいタブの設定",
