@@ -5,7 +5,7 @@
     },
     "workspaces": {
         "modal": {
-            "name": "Name",
+            "name": "Tên",
             "name-placeholder": "Enter a name for this workspace",
             "container": "Container",
             "no-container": "No Container",
