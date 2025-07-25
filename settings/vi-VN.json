@@ -3,26 +3,26 @@
         "default": "{{productName}} Settings"
     },
     "header": {
-        "title": "Settings",
-        "searchPlaceholder": "Search Settings",
-        "darkMode": "Dark Mode"
+        "title": "Cài đặt",
+        "searchPlaceholder": "Tìm kiếm cài đặt",
+        "darkMode": "Chế độ Tối"
     },
     "restartWarningDialog": {
-        "title": "Restart Required",
+        "title": "Khởi động lại là cần thiết",
         "description": "After restarting, the opened private windows and private tabs will be lost.",
-        "cancel": "Later",
+        "cancel": "Để sau",
         "restart": "Restart Now"
     },
     "sidebar": {
         "firefoxSettings": "Firefox Settings",
-        "about": "About",
+        "about": "Về",
         "aboutNoraneko": "About Noraneko",
         "debug": "Debug",
-        "overview": "Overview",
-        "features": "Features"
+        "overview": "Tổng quan",
+        "features": "Tính năng"
     },
     "pages": {
-        "home": "Home",
+        "home": "Nhà",
         "tabAndAppearance": "Tab & Appearance",
         "browserSidebar": "Panel Sidebar",
         "workspaces": "Workspaces",
@@ -31,8 +31,8 @@
         "profileAndAccount": "Profile and Account",
         "aboutBrowser": "About {{productName}}",
         "debug": "Debug",
-        "mouseGesture": "Mouse Gestures",
-        "keyboardShortcut": "Keyboard Shortcuts"
+        "mouseGesture": "Cử chỉ chuột",
+        "keyboardShortcut": "Phím tắt"
     },
     "home": {
         "welcome": "Welcome, {{name}} 👋",
