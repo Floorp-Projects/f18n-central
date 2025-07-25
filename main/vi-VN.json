@@ -71,7 +71,7 @@
         }
     },
     "statusbar": {
-        "toggle": "Thanh trạng thái{{mark}}"
+        "toggle": "Thanh trạng thái {{mark}}"
     },
     "splitview": {
         "title": "Chia màn hình",
