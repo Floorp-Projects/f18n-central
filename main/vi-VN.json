@@ -6,13 +6,13 @@
     "workspaces": {
         "modal": {
             "name": "Tên",
-            "name-placeholder": "Enter a name for this workspace",
-            "container": "Container",
-            "no-container": "No Container",
-            "icon": "Icon",
+            "name-placeholder": "Nhập tên cho không gian làm việc",
+            "container": "Ngăn chứa",
+            "no-container": "Không ngăn chứa",
+            "icon": "Biểu tượng",
             "edit-title": "Chỉnh không gian làm việc",
             "save": "Lưu thay đổi",
-            "cancel": "Cancel"
+            "cancel": "Hủy"
         },
         "icons": {
             "article": "Article",
@@ -57,21 +57,21 @@
             "move-up": "Move this Workspace Up",
             "move-down": "Move this Workspace Down",
             "delete": "Delete Workspace",
-            "manage": "Manage Workspace"
+            "manage": "Quản lý không gian"
         },
         "popup": {
-            "create-new": "Create New Workspace...",
-            "manage": "Manage Workspaces"
+            "create-new": "Tạo không gian làm việc mới...",
+            "manage": "Quản lý các không gian"
         },
         "menu": {
-            "moveTabToAnotherWorkspace": "Move Tab to Another Workspace"
+            "moveTabToAnotherWorkspace": "Di chuyển thẻ sang không gian khác"
         },
         "error": {
-            "invalidWorkspaceID": "Not valid ID for Workspaces (maybe order is not updated)"
+            "invalidWorkspaceID": "ID không hợp lệ cho không gian (có thể vị trí chưa được cập nhật)"
         }
     },
     "statusbar": {
-        "toggle": "Status Bar{{mark}}"
+        "toggle": "Thanh trạng thái{{mark}}"
     },
     "splitview": {
         "title": "Chia màn hình",
@@ -80,7 +80,7 @@
         "position-right": "Phải",
         "flex-row": "Hàng",
         "flex-column": "Cột",
-        "remove-button": "Remove Current View",
+        "remove-button": "Bỏ chia thẻ",
         "tab-context": {
             "split-tabs": "Chia thẻ",
             "split-fixed-tab": "Chia thẻ ở vị trí cố định"
@@ -88,21 +88,21 @@
     },
     "ssb": {
         "menu": {
-            "webapps": "Ứng dụng web",
-            "install-current": "Cài đặt trang hiện tại như một ứng dụng web",
-            "open-installed": "Open Installed Apps"
+            "webapps": "Ứng dụng Web",
+            "install-current": "Cài đặt trang hiện tại như một ứng dụng Web",
+            "open-installed": "Mở các ứng dụng đã cài"
         },
         "page-action": {
-            "title": "Open Application",
-            "install": "Install Application",
-            "open": "Open Application",
+            "title": "Mở ứng dụng",
+            "install": "Cài đặt ứng dụng",
+            "open": "Mở ứng dụng",
             "cancel": "Hủy",
             "site-icon": "Site icon"
         }
     },
     "privateContainer": {
-        "openInPrivateContainer": "Open in Private Container",
-        "name": "Private Container"
+        "openInPrivateContainer": "Mở trong ngăn chứa riêng tư",
+        "name": "Ngăn chứa riêng tư"
     },
     "mouseGesture": {
         "actions": {
@@ -117,7 +117,7 @@
             "gecko-open-new-window": "Mở cửa sổ mới",
             "gecko-open-new-private-window": "Mở cửa sổ riêng tư mới",
             "gecko-close-window": "Đóng cửa sổ",
-            "gecko-restore-last-window": "Restore Last Window",
+            "gecko-restore-last-window": "Khôi phục cửa sổ gần nhất",
             "gecko-show-next-tab": "Show Next Tab",
             "gecko-show-previous-tab": "Show Previous Tab",
             "gecko-show-all-tabs-panel": "Show All Tabs Panel",
@@ -126,25 +126,25 @@
             "gecko-zoom-out": "Thu nhỏ",
             "gecko-reset-zoom": "Đặt lại thu phóng",
             "gecko-bookmark-this-page": "Đánh dấu trang này",
-            "gecko-open-home-page": "Open Home Page",
+            "gecko-open-home-page": "Mở trang chủ",
             "gecko-open-addons-manager": "Open Addons Manager",
             "gecko-send-with-mail": "Send With Mail",
             "gecko-save-page": "Lưu trang",
-            "gecko-print-page": "In trang ",
+            "gecko-print-page": "In trang",
             "gecko-mute-current-tab": "Mute Current Tab",
             "gecko-show-source-of-page": "Show Source Of Page",
             "gecko-show-page-info": "Show Page Info",
             "floorp-rest-mode": "Enable Rest Mode",
-            "floorp-hide-user-interface": "Hide Interface",
+            "floorp-hide-user-interface": "Ẩn giao diện",
             "floorp-toggle-navigation-panel": "Toggle Navigation Panel",
-            "gecko-stop": "Stop",
-            "gecko-search-in-this-page": "Search In This Page",
+            "gecko-stop": "Dừng",
+            "gecko-search-in-this-page": "Tìm trong trang",
             "gecko-show-next-search-result": "Show Next Search Result",
             "gecko-show-previous-search-result": "Show Previous Search Result",
             "gecko-search-the-web": "Search The Web",
             "gecko-open-migration-wizard": "Open Migration Wizard",
             "gecko-quit-from-application": "Quit Application",
-            "gecko-enter-into-customize-mode": "Enter Customize Mode",
+            "gecko-enter-into-customize-mode": "U",
             "gecko-enter-into-offline-mode": "Enter Offline Mode",
             "gecko-open-screen-capture": "Open Screen Capture",
             "floorp-show-pip": "Show Picture-in-Picture",
@@ -183,10 +183,10 @@
             "gecko-forward": "Navigate forward to the next page",
             "gecko-reload": "Reload the current page",
             "gecko-close-tab": "Close the current tab",
-            "gecko-open-new-tab": "Open a new tab",
+            "gecko-open-new-tab": "Mở thẻ mới",
             "gecko-duplicate-tab": "Duplicate the current tab",
-            "gecko-reload-all-tabs": "Reload all tabs",
-            "gecko-restore-last-tab": "Reopen the last closed tab"
+            "gecko-reload-all-tabs": "Tải lại tất cả thẻ",
+            "gecko-restore-last-tab": "Mở lại thẻ đóng gần nhất"
         }
     },
     "qrCode": {
