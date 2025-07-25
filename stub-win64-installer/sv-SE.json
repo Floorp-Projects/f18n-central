@@ -87,7 +87,9 @@
             "powershell_process": "Misslyckades med att starta PowerShell-process: {{0}}",
             "admin_install_failed": "Installation med administratörsrättigheter misslyckades. Avsluta kod: {{0}}",
             "user_installer_launch": "Misslyckades med att starta installationsprocessen med användarrättigheter: {{0}}",
-            "user_installer_execution": "Ett problem uppstod när installationsprogrammet kördes med användarrättigheter: {{0}}"
+            "user_installer_execution": "Ett problem uppstod när installationsprogrammet kördes med användarrättigheter: {{0}}",
+            "cpu_not_supported": "Denna enhets CPU stöder inte SSE4.1. Floorp kräver en processor med SSE4.1 stöd.",
+            "cpu_check_failed": "Mislsyckades med att verifiera CPU-krav. Kontrollera systemkrav."
         }
     }
 }

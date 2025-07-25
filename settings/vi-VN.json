@@ -3,26 +3,26 @@
         "default": "{{productName}} Settings"
     },
     "header": {
-        "title": "Settings",
-        "searchPlaceholder": "Search Settings",
-        "darkMode": "Dark Mode"
+        "title": "Cài đặt",
+        "searchPlaceholder": "Tìm kiếm cài đặt",
+        "darkMode": "Chế độ Tối"
     },
     "restartWarningDialog": {
-        "title": "Restart Required",
+        "title": "Khởi động lại là cần thiết",
         "description": "After restarting, the opened private windows and private tabs will be lost.",
-        "cancel": "Later",
+        "cancel": "Để sau",
         "restart": "Restart Now"
     },
     "sidebar": {
         "firefoxSettings": "Firefox Settings",
-        "about": "About",
+        "about": "Về",
         "aboutNoraneko": "About Noraneko",
         "debug": "Debug",
-        "overview": "Overview",
-        "features": "Features"
+        "overview": "Tổng quan",
+        "features": "Tính năng"
     },
     "pages": {
-        "home": "Home",
+        "home": "Nhà",
         "tabAndAppearance": "Tab & Appearance",
         "browserSidebar": "Panel Sidebar",
         "workspaces": "Workspaces",
@@ -31,8 +31,8 @@
         "profileAndAccount": "Profile and Account",
         "aboutBrowser": "About {{productName}}",
         "debug": "Debug",
-        "mouseGesture": "Mouse Gestures",
-        "keyboardShortcut": "Keyboard Shortcuts"
+        "mouseGesture": "Cử chỉ chuột",
+        "keyboardShortcut": "Phím tắt"
     },
     "home": {
         "welcome": "Welcome, {{name}} 👋",
@@ -94,6 +94,8 @@
         "hideTabBarAndTitleBar": "Hide Tab Bar & Title Bar",
         "showTabBarOnBottomOfNavigationBar": "Show Tab Bar at Bottom of Navigation Bar",
         "showTabBarOnBottomOfWindow": "Show Tab Bar at Bottom of Window",
+        "maxRowEnabled": "Enable Maximum Row of Tabbar",
+        "maxRow": "Maximum Row of Tabbar",
         "tab": {
             "title": "Tabs",
             "footerLinkText": "About Tab Settings",
@@ -115,6 +117,64 @@
             "minWidthError": "Tab width must be between {{min}} and {{max}} pixels.",
             "minHeight": "Minimum tab height",
             "minHeightError": "Tab height must be between {{min}} and {{max}} pixels."
+        },
+        "lepton-preferences": {
+            "title": "Lepton Settings",
+            "description": "Configure advanced Lepton theme preferences",
+            "configureLepton": "Configure Lepton",
+            "back": "Back",
+            "experimentalWarning": {
+                "title": "⚠️ Experimental Features",
+                "description": "These settings are experimental and not officially supported. Issues may occur.",
+                "leptonRepository": "Lepton is a css theme for Firefox.",
+                "visitRepository": "Visit Repository Page"
+            },
+            "autohide": {
+                "title": "Auto-hide Settings",
+                "tab": "Automatically hide tabs",
+                "navbar": "Automatically hide Toolbar",
+                "sidebar": "Automatically hide Sidebar",
+                "backButton": "Automatically hide back button",
+                "forwardButton": "Automatically hide forward button",
+                "pageAction": "Automatically hide buttons on the Address Bar"
+            },
+            "hidden": {
+                "title": "Hide Settings",
+                "tabIcon": "Hide tab icons",
+                "tabbar": "Hide Tab Bar",
+                "navbar": "Hide Toolbar",
+                "sidebarHeader": "Hide Sidebar Headers",
+                "urlbarIconbox": "Hide Address Bar icons",
+                "bookmarkbarIcon": "Hide Bookmarks Bar icons",
+                "bookmarkbarLabel": "Hide Bookmarks Bar labels",
+                "disabledMenu": "Hide disabled context menu items"
+            },
+            "icon": {
+                "title": "Icon Settings",
+                "disabled": "Disable Lepton's context menu and panel menu icons",
+                "menu": "Enable Lepton's context menu icons"
+            },
+            "centered": {
+                "title": "Centered Settings",
+                "tab": "Center labels in tabs",
+                "urlbar": "Center text in the Address Bar",
+                "bookmarkbar": "Center Bookmarks Bar items"
+            },
+            "urlView": {
+                "title": "URL View Settings",
+                "moveIconToLeft": "Move Address Bar icons to the left side",
+                "goButtonWhenTyping": "When typing, show a \"Go\" button",
+                "alwaysShowPageActions": "Always show page actions in the Address Bar"
+            },
+            "tabbar": {
+                "title": "Tab Bar Settings",
+                "asTitlebar": "Tab Bar in the Title Bar",
+                "oneLiner": "Combine Tab Bar and Toolbar"
+            },
+            "sidebar": {
+                "title": "Sidebar Settings",
+                "overlap": "Show Sidebar over website content"
+            }
         },
         "uiCustomization": {
             "title": "UI Customization",

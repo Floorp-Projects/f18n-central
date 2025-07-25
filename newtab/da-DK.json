@@ -8,7 +8,10 @@
         "cancel": "Annuller",
         "add": "Tilføj",
         "close": "Luk",
-        "labelPlaceholder": "Website name"
+        "labelPlaceholder": "Website name",
+        "pin": "Pin",
+        "unpin": "Unpin",
+        "block": "Block"
     },
     "settings": {
         "newTabSettings": "Indstillinger for ny fane",
@@ -23,11 +26,12 @@
         "folderImages": "Billeder fra mappe",
         "floorpImages": "Floorp-billeder",
         "currentImage": "Nuværende billede:",
-        "currentFolder": "Nuværende mappe:",
+        "imageRecommendation": "Recommendation: Use images with a resolution of 1920x1080 or higher.",
+        "currentFolder": "Current Folder:",
         "selectFolder": "Vælg mappe",
         "selected": "Valgt",
-        "imageRecommendation": "Anbefalet: 1920x1080 eller højere",
-        "close": "Luk"
+        "enableSlideshow": "Enable Slideshow",
+        "slideshowInterval": "Interval (seconds)"
     },
     "searchBar": {
         "searchOrEnterUrl": "Søg eller indtast URL",

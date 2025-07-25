@@ -1,15 +1,15 @@
 {
     "navigation": {
-        "welcome": "Welcome",
-        "language": "Language",
-        "languageSupport": "Language Support",
-        "features": "Features",
-        "featureIntroduction": "Feature Introduction",
-        "customize": "Customize",
+        "welcome": "Chào mừng",
+        "language": "Ngôn ngữ",
+        "languageSupport": "Ngôn ngữ",
+        "features": "Tính năng",
+        "featureIntroduction": "",
+        "customize": "Tùy chỉnh",
         "initialSettings": "Initial Settings",
-        "complete": "Complete",
-        "previous": "Previous",
-        "next": "Next"
+        "complete": "Xong",
+        "previous": "Trước",
+        "next": "Tiếp"
     },
     "customize": {
         "title": "Customize Floorp",
@@ -19,9 +19,9 @@
             "description": "You can customize Floorp's appearance to your preference. Choose a light or dark theme, or have it automatically switch based on your system settings."
         },
         "themes": {
-            "light": "Light",
-            "dark": "Dark",
-            "system": "Follow system settings"
+            "light": "Sáng",
+            "dark": "Tối",
+            "system": "Theo hệ thống"
         },
         "themeInfo": {
             "light": "Light theme",
@@ -29,10 +29,10 @@
             "system": "System preference"
         },
         "searchEngine": {
-            "title": "Default Search Engine",
-            "default": "Default",
+            "title": "Công cụ tìm kiếm",
+            "default": "Mặc định",
             "search": "Search",
-            "noEnginesFound": "No search engines found."
+            "noEnginesFound": "Không tìm thấy công cụ tìm kiếm."
         }
     },
     "finish": {
@@ -47,17 +47,17 @@
         "hint": "For more detailed settings, you can customize via the Settings option in the menu button at the top right."
     },
     "welcomePage": {
-        "welcome": "Welcome to Floorp!",
+        "welcome": "Chào mừng đến Floorp!",
         "description": "Floorp is a fast and user-friendly web browser that emphasizes privacy and security. This guide will introduce you to the main features and settings of Floorp.",
         "readyToStart": "When you're ready, click the below button to proceed.",
-        "features": "Floorp Features",
-        "privacy": "Privacy",
-        "privacyDesc": "Protects your data",
-        "speed": "Speed",
-        "speedDesc": "Optimized performance",
-        "customization": "Customization",
-        "customizationDesc": "Arrange to your preference",
-        "start": "Get Started"
+        "features": "Các tính năng của Floorp",
+        "privacy": "Quyền riêng tư",
+        "privacyDesc": "Bảo vệ dữ liệu của bạn",
+        "speed": "Nhanh",
+        "speedDesc": "Nhanh như cơn gió",
+        "customization": "Tùy chỉnh",
+        "customizationDesc": "Cài đặt nào cũng có",
+        "start": "Bắt đầu thôi"
     },
     "localizationPage": {
         "title": "Floorp speaks your language",
@@ -119,8 +119,8 @@
         "title": "Setup Complete!",
         "subtitle": "Congratulations! You've completed the Floorp setup. You can now enjoy comfortable and secure internet browsing.",
         "nextSteps": "Next Steps (Optional)",
-        "defaultBrowser": "Set as Default Browser",
-        "support": "Support",
+        "defaultBrowser": "Đặt làm trình duyệt mặc định",
+        "support": "Hỗ trợ",
         "documentation": "Documentation",
         "getStarted": "Get Started with Floorp",
         "hint": "For more detailed settings, you can customize via the Settings option in the menu button at the top right.",
