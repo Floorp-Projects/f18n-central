@@ -9,9 +9,9 @@
         "add": "添加",
         "close": "關閉",
         "labelPlaceholder": "網站名稱",
-        "pin": "Pin",
-        "unpin": "Unpin",
-        "block": "Block"
+        "pin": "釘選",
+        "unpin": "取消釘選",
+        "block": "阻擋"
     },
     "settings": {
         "newTabSettings": "新分頁設定",
