@@ -128,19 +128,19 @@
         "defaultBrowserSuccess": "Floorp has been set as your default browser!"
     },
     "whatsNew": {
-        "title": "Welcome to Floorp {{version}}!",
-        "subtitle": "Check out what's new in Floorp!",
+        "title": "Вітаємо у Floorp {{version}}!",
+        "subtitle": "Погляньте, що нового у Floorp!",
         "tags": {
-            "productivity": "Productivity",
+            "productivity": "Продуктивність",
             "workspaces": "Workspaces",
             "pwa": "PWA",
-            "gestures": "Gestures"
+            "gestures": "Жести"
         },
         "footer": {
-            "follow": "Follow",
-            "privacy": "Privacy & Terms",
-            "about": "About Floorp",
-            "copyright": "© {{year}} Floorp Projects. All rights reserved."
+            "follow": "Слідкувати",
+            "privacy": "Політики конфіденційності",
+            "about": "Про Floorp",
+            "copyright": "© {{year}} Floorp Projects. Всі права захищені."
         }
     }
 }
