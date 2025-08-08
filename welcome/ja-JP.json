@@ -128,19 +128,19 @@
         "defaultBrowserSuccess": "Floorp が既定のブラウザーに設定されました！"
     },
     "whatsNew": {
-        "title": "Welcome to Floorp {{version}}!",
-        "subtitle": "Check out what's new in Floorp!",
+        "title": "Floorp {{version}} へようこそ！",
+        "subtitle": "Floorp の最新情報をチェック！",
         "tags": {
-            "productivity": "Productivity",
-            "workspaces": "Workspaces",
+            "productivity": "生産性",
+            "workspaces": "ワークスペース",
             "pwa": "PWA",
-            "gestures": "Gestures"
+            "gestures": "ジェスチャー"
         },
         "footer": {
-            "follow": "Follow",
-            "privacy": "Privacy & Terms",
-            "about": "About Floorp",
-            "copyright": "© {{year}} Floorp Projects. All rights reserved."
+            "follow": "フォロー",
+            "privacy": "プライバシーと利用規約",
+            "about": "Floorp について",
+            "copyright": "© {{year}} Floorp プロジェクト。無断転載禁止。"
         }
     }
 }
