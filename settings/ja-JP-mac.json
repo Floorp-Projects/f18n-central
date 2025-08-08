@@ -281,7 +281,7 @@
         "enablePanelSidebar": "パネルサイドバーを有効にする",
         "enableDescription": "パネルサイドバーは Firefox のサイドバーとは別の機能です。 Firefox のサイドバーとは異なり、ウェブページを表示することができます。また、サイドバーでワークスペースを管理することもできます。",
         "otherSettings": "その他のパネルサイドバー設定",
-        "autoUnloadOnClose": "閉じる操作をしたパネルの読み込みを停止",
+        "autoUnloadOnClose": "閉じる操作をしたパネルを解放する",
         "position": "サイドバーの位置",
         "positionLeft": "左",
         "positionRight": "右",
