@@ -126,5 +126,21 @@
         "hint": "如需更詳細的設定，您可以透過右上方選單按鈕中的設定選項進行調整。",
         "resourcesLabel": "資源",
         "defaultBrowserSuccess": "Floorp 已設定為您的預設瀏覽器！"
+    },
+    "whatsNew": {
+        "title": "Welcome to Floorp {{version}}!",
+        "subtitle": "Check out what's new in Floorp!",
+        "tags": {
+            "productivity": "Productivity",
+            "workspaces": "Workspaces",
+            "pwa": "PWA",
+            "gestures": "Gestures"
+        },
+        "footer": {
+            "follow": "Follow",
+            "privacy": "Privacy & Terms",
+            "about": "About Floorp",
+            "copyright": "© {{year}} Floorp Projects. All rights reserved."
+        }
     }
 }
