@@ -126,5 +126,21 @@
         "hint": "Para obter definições mais detalhadas, pode personalizar através da opção Definições no botão de menu no canto superior direito.",
         "resourcesLabel": "Recursos",
         "defaultBrowserSuccess": "O Floorp foi definido como o seu navegador predefinido!"
+    },
+    "whatsNew": {
+        "title": "Welcome to Floorp {{version}}!",
+        "subtitle": "Check out what's new in Floorp!",
+        "tags": {
+            "productivity": "Productivity",
+            "workspaces": "Workspaces",
+            "pwa": "PWA",
+            "gestures": "Gestures"
+        },
+        "footer": {
+            "follow": "Follow",
+            "privacy": "Privacy & Terms",
+            "about": "About Floorp",
+            "copyright": "© {{year}} Floorp Projects. All rights reserved."
+        }
     }
 }
