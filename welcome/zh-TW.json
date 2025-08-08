@@ -128,19 +128,19 @@
         "defaultBrowserSuccess": "Floorp 已設定為您的預設瀏覽器！"
     },
     "whatsNew": {
-        "title": "Welcome to Floorp {{version}}!",
-        "subtitle": "Check out what's new in Floorp!",
+        "title": "歡迎來到 Floorp {{version}}！",
+        "subtitle": "看看 Floorp 有什麼新東西！",
         "tags": {
-            "productivity": "Productivity",
-            "workspaces": "Workspaces",
+            "productivity": "生產力",
+            "workspaces": "工作空間",
             "pwa": "PWA",
-            "gestures": "Gestures"
+            "gestures": "手勢"
         },
         "footer": {
             "follow": "Follow",
-            "privacy": "Privacy & Terms",
-            "about": "About Floorp",
-            "copyright": "© {{year}} Floorp Projects. All rights reserved."
+            "privacy": "隱私聲明與條款",
+            "about": "關於 Floorp",
+            "copyright": "© {{year}} Floorp Projects。保留所有權利。"
         }
     }
 }
