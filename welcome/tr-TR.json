@@ -37,7 +37,7 @@
     },
     "finish": {
         "title": "Kurulum Tamamlandı!",
-        "subtitle": "Tebrikler! Floorp kurulumunu tamamladınız. Rahat ve güvenli bir internet tarama deneyiminin keyfini çıkarın.",
+        "subtitle": "Tebrikler! Floorp kurulumunu tamamladınız. İnternette rahat ve güvenli bir deneyimin tadını çıkarın.",
         "nextSteps": {
             "title": "Sonraki Adımlar (İsteğe Bağlı)",
             "setDefault": "Varsayılan Tarayıcı Olarak Ayarla",
@@ -128,19 +128,19 @@
         "defaultBrowserSuccess": "Floorp varsayılan tarayıcınız olarak ayarlandı!"
     },
     "whatsNew": {
-        "title": "Welcome to Floorp {{version}}!",
-        "subtitle": "Check out what's new in Floorp!",
+        "title": "Floorp {{version}} sürümüne hoş geldiniz!",
+        "subtitle": "Floorp'taki yeniliklere göz atın!",
         "tags": {
-            "productivity": "Productivity",
-            "workspaces": "Workspaces",
+            "productivity": "Üretkenlik",
+            "workspaces": "Çalışma Alanları",
             "pwa": "PWA",
-            "gestures": "Gestures"
+            "gestures": "Hareketler"
         },
         "footer": {
-            "follow": "Follow",
-            "privacy": "Privacy & Terms",
-            "about": "About Floorp",
-            "copyright": "© {{year}} Floorp Projects. All rights reserved."
+            "follow": "Takip Et",
+            "privacy": "Gizlilik & Şartlar",
+            "about": "Floorp Hakkında",
+            "copyright": "© {{year}} Floorp Projesi. Tüm hakları saklıdır."
         }
     }
 }
