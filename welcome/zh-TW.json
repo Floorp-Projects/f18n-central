@@ -18,8 +18,8 @@
         "subtitle": "A central place for Floorp-specific settings.",
         "sectionTitle": "Floorp Hub",
         "description": "Floorp Hub is a dedicated settings center for Floorp-specific options. You can open it by navigating to 'about:hub'. It can also be accessed from the left sidebar of Firefox's settings page at 'about:preferences'.",
-        "openHub": "Open about:hub",
-        "openPreferences": "Open Settings (about:preferences)",
+        "openHub": "開啟 about:hub",
+        "openPreferences": "開啟設定 (about:preferences)",
         "tip": "Tip: You can also access Floorp Hub from the Firefox settings sidebar.",
         "features": {
             "dedicated": "Dedicated Floorp settings center",
@@ -53,8 +53,8 @@
         "floorpHub": {
             "title": "Floorp Hub",
             "description": "Floorp Hub is a dedicated settings center for Floorp-specific options. You can open it by navigating to 'about:hub'. It can also be accessed from the left sidebar of Firefox's settings page at 'about:preferences'.",
-            "openHub": "Open about:hub",
-            "openPreferences": "Open Settings (about:preferences)"
+            "openHub": "開啟 about:hub",
+            "openPreferences": "開啟設定 (about:preferences)"
         }
     },
     "finish": {
@@ -153,7 +153,7 @@
         "title": "歡迎來到 Floorp {{version}}！",
         "subtitle": "看看 Floorp 有什麼新東西！",
         "tags": {
-            "settings": "Settings",
+            "settings": "設定",
             "productivity": "生產力",
             "workspaces": "工作空間",
             "pwa": "PWA",
