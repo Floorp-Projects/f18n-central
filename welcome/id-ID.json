@@ -5,11 +5,27 @@
         "languageSupport": "Dukungan Bahasa",
         "features": "Fitur",
         "featureIntroduction": "Pengenalan Fitur",
+        "hub": "Floorp Hub",
+        "hubIntro": "About Floorp Hub",
         "customize": "Sesuaikan",
         "initialSettings": "Pengaturan Awal",
         "complete": "Selesai",
         "previous": "Sebelumnya",
         "next": "Selanjutnya"
+    },
+    "hubPage": {
+        "title": "About Floorp Hub",
+        "subtitle": "A central place for Floorp-specific settings.",
+        "sectionTitle": "Floorp Hub",
+        "description": "Floorp Hub is a dedicated settings center for Floorp-specific options. You can open it by navigating to 'about:hub'. It can also be accessed from the left sidebar of Firefox's settings page at 'about:preferences'.",
+        "openHub": "Open about:hub",
+        "openPreferences": "Open Settings (about:preferences)",
+        "tip": "Tip: You can also access Floorp Hub from the Firefox settings sidebar.",
+        "features": {
+            "dedicated": "Dedicated Floorp settings center",
+            "accessible": "Accessible from about:hub or Firefox settings",
+            "centralized": "All Floorp-specific options in one place"
+        }
     },
     "customize": {
         "title": "Sesuaikan Floorp",
@@ -33,6 +49,12 @@
             "default": "Bawaan",
             "search": "Cari",
             "noEnginesFound": "Tidak ada mesin pencari."
+        },
+        "floorpHub": {
+            "title": "Floorp Hub",
+            "description": "Floorp Hub is a dedicated settings center for Floorp-specific options. You can open it by navigating to 'about:hub'. It can also be accessed from the left sidebar of Firefox's settings page at 'about:preferences'.",
+            "openHub": "Open about:hub",
+            "openPreferences": "Open Settings (about:preferences)"
         }
     },
     "finish": {
@@ -131,6 +153,7 @@
         "title": "Selamat datang di Floorp {{version}}!",
         "subtitle": "Lihat apa yang baru di Floorp!",
         "tags": {
+            "settings": "Settings",
             "productivity": "Produktivitas",
             "workspaces": "Ruang Kerja",
             "pwa": "PWA",
