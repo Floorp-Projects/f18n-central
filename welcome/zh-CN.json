@@ -133,14 +133,14 @@
         "tags": {
             "productivity": "效率",
             "workspaces": "工作区",
-            "pwa": "PWA",
-            "gestures": "Gestures"
+            "pwa": "网站应用",
+            "gestures": "手势"
         },
         "footer": {
-            "follow": "Follow",
-            "privacy": "Privacy & Terms",
-            "about": "About Floorp",
-            "copyright": "© {{year}} Floorp Projects. All rights reserved."
+            "follow": "关注",
+            "privacy": "隐私政策",
+            "about": "关于 Floorp",
+            "copyright": "© {{year}} Floorp 项目。保留所有权利。"
         }
     }
 }
