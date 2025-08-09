@@ -5,11 +5,27 @@
         "languageSupport": "언어 지원",
         "features": "기능",
         "featureIntroduction": "기능 소개",
+        "hub": "Floorp Hub",
+        "hubIntro": "About Floorp Hub",
         "customize": "맞춤 설정",
         "initialSettings": "초기 설정",
         "complete": "완료",
         "previous": "이전",
         "next": "다음"
+    },
+    "hubPage": {
+        "title": "About Floorp Hub",
+        "subtitle": "A central place for Floorp-specific settings.",
+        "sectionTitle": "Floorp Hub",
+        "description": "Floorp Hub is a dedicated settings center for Floorp-specific options. You can open it by navigating to 'about:hub'. It can also be accessed from the left sidebar of Firefox's settings page at 'about:preferences'.",
+        "openHub": "Open about:hub",
+        "openPreferences": "Open Settings (about:preferences)",
+        "tip": "Tip: You can also access Floorp Hub from the Firefox settings sidebar.",
+        "features": {
+            "dedicated": "Dedicated Floorp settings center",
+            "accessible": "Accessible from about:hub or Firefox settings",
+            "centralized": "All Floorp-specific options in one place"
+        }
     },
     "customize": {
         "title": "Floorp 맞춤 설정",
@@ -33,6 +49,12 @@
             "default": "기본",
             "search": "검색",
             "noEnginesFound": "검색 엔진을 찾을 수 없습니다."
+        },
+        "floorpHub": {
+            "title": "Floorp Hub",
+            "description": "Floorp Hub is a dedicated settings center for Floorp-specific options. You can open it by navigating to 'about:hub'. It can also be accessed from the left sidebar of Firefox's settings page at 'about:preferences'.",
+            "openHub": "Open about:hub",
+            "openPreferences": "Open Settings (about:preferences)"
         }
     },
     "finish": {
@@ -131,6 +153,7 @@
         "title": "Welcome to Floorp {{version}}!",
         "subtitle": "Check out what's new in Floorp!",
         "tags": {
+            "settings": "Settings",
             "productivity": "Productivity",
             "workspaces": "Workspaces",
             "pwa": "PWA",
