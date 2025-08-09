@@ -128,19 +128,19 @@
         "defaultBrowserSuccess": "Floorp telah dijadikan peramban utama Anda!"
     },
     "whatsNew": {
-        "title": "Welcome to Floorp {{version}}!",
-        "subtitle": "Check out what's new in Floorp!",
+        "title": "Selamat datang di Floorp {{version}}!",
+        "subtitle": "Lihat apa yang baru di Floorp!",
         "tags": {
-            "productivity": "Productivity",
-            "workspaces": "Workspaces",
+            "productivity": "Produktivitas",
+            "workspaces": "Ruang Kerja",
             "pwa": "PWA",
-            "gestures": "Gestures"
+            "gestures": "Gestur"
         },
         "footer": {
-            "follow": "Follow",
-            "privacy": "Privacy & Terms",
-            "about": "About Floorp",
-            "copyright": "© {{year}} Floorp Projects. All rights reserved."
+            "follow": "Ikuti",
+            "privacy": "Privasi & Ketentuan",
+            "about": "Tentang Floorp",
+            "copyright": "© {{year}} Floorp Projects. Semua hak cipta dilindungi undang-undang."
         }
     }
 }
