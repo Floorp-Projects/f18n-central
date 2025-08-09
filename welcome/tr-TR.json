@@ -5,11 +5,27 @@
         "languageSupport": "Dil Desteği",
         "features": "Özellikler",
         "featureIntroduction": "Özellik Tanıtımı",
+        "hub": "Floorp Hub",
+        "hubIntro": "About Floorp Hub",
         "customize": "Kişiselleştir",
         "initialSettings": "İlk Ayarlar",
         "complete": "Tamamla",
         "previous": "Önceki",
         "next": "Sıradaki"
+    },
+    "hubPage": {
+        "title": "About Floorp Hub",
+        "subtitle": "A central place for Floorp-specific settings.",
+        "sectionTitle": "Floorp Hub",
+        "description": "Floorp Hub is a dedicated settings center for Floorp-specific options. You can open it by navigating to 'about:hub'. It can also be accessed from the left sidebar of Firefox's settings page at 'about:preferences'.",
+        "openHub": "Open about:hub",
+        "openPreferences": "Open Settings (about:preferences)",
+        "tip": "Tip: You can also access Floorp Hub from the Firefox settings sidebar.",
+        "features": {
+            "dedicated": "Dedicated Floorp settings center",
+            "accessible": "Accessible from about:hub or Firefox settings",
+            "centralized": "All Floorp-specific options in one place"
+        }
     },
     "customize": {
         "title": "Floorp'u Kişiselleştirin",
@@ -33,6 +49,12 @@
             "default": "Varsayılan",
             "search": "Ara",
             "noEnginesFound": "Arama motoru bulunamadı."
+        },
+        "floorpHub": {
+            "title": "Floorp Hub",
+            "description": "Floorp Hub is a dedicated settings center for Floorp-specific options. You can open it by navigating to 'about:hub'. It can also be accessed from the left sidebar of Firefox's settings page at 'about:preferences'.",
+            "openHub": "Open about:hub",
+            "openPreferences": "Open Settings (about:preferences)"
         }
     },
     "finish": {
@@ -131,6 +153,7 @@
         "title": "Floorp {{version}} sürümüne hoş geldiniz!",
         "subtitle": "Floorp'taki yeniliklere göz atın!",
         "tags": {
+            "settings": "Settings",
             "productivity": "Üretkenlik",
             "workspaces": "Çalışma Alanları",
             "pwa": "PWA",
