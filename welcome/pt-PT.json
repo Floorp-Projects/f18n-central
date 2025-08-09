@@ -128,19 +128,19 @@
         "defaultBrowserSuccess": "O Floorp foi definido como o seu navegador predefinido!"
     },
     "whatsNew": {
-        "title": "Welcome to Floorp {{version}}!",
-        "subtitle": "Check out what's new in Floorp!",
+        "title": "Bem-vindo ao Floorp {{version}}!",
+        "subtitle": "Veja o que há de novo no Floorp!",
         "tags": {
-            "productivity": "Productivity",
-            "workspaces": "Workspaces",
+            "productivity": "Produtividade",
+            "workspaces": "Espaços de trabalho",
             "pwa": "PWA",
-            "gestures": "Gestures"
+            "gestures": "Gestos"
         },
         "footer": {
-            "follow": "Follow",
-            "privacy": "Privacy & Terms",
-            "about": "About Floorp",
-            "copyright": "© {{year}} Floorp Projects. All rights reserved."
+            "follow": "Seguir",
+            "privacy": "Privacidade e Termos",
+            "about": "Sobre o Floorp",
+            "copyright": "© {{year}} Projectos Floorp. Todos os direitos reservados."
         }
     }
 }
