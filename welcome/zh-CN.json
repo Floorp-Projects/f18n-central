@@ -128,11 +128,11 @@
         "defaultBrowserSuccess": "Floorp 已被设置为您的默认浏览器！"
     },
     "whatsNew": {
-        "title": "Welcome to Floorp {{version}}!",
-        "subtitle": "Check out what's new in Floorp!",
+        "title": "欢迎访问 Floorp {{version}}！",
+        "subtitle": "查看 Floorp 的新功能！",
         "tags": {
-            "productivity": "Productivity",
-            "workspaces": "Workspaces",
+            "productivity": "效率",
+            "workspaces": "工作区",
             "pwa": "PWA",
             "gestures": "Gestures"
         },
