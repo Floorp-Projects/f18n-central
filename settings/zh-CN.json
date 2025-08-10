@@ -126,7 +126,7 @@
             "experimentalWarning": {
                 "title": "⚠️ 实验功能",
                 "description": "这些设置是实验性的，不受官方支持。问题可能会发生。",
-                "leptonRepository": "Lepton 是一款适用于 Firefox 的 css 主题。",
+                "leptonRepository": "Lepton 是一款适用于 Firefox 的 css 主题。\n",
                 "visitRepository": "访问仓库页面"
             },
             "autohide": {
