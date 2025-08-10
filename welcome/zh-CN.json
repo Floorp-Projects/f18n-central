@@ -5,8 +5,8 @@
         "languageSupport": "语言支持",
         "features": "技术特性",
         "featureIntroduction": "功能介绍",
-        "hub": "Floorp Hub",
-        "hubIntro": "About Floorp Hub",
+        "hub": "Floorp 中心",
+        "hubIntro": "关于 Floorp 中心",
         "customize": "自定义",
         "initialSettings": "初始设置",
         "complete": "完成",
@@ -14,9 +14,9 @@
         "next": "下一步"
     },
     "hubPage": {
-        "title": "About Floorp Hub",
-        "subtitle": "A central place for Floorp-specific settings.",
-        "sectionTitle": "Floorp Hub",
+        "title": "关于 Floorp 中心",
+        "subtitle": "Floorp 特定设置的中心位置。",
+        "sectionTitle": "Floorp 中心",
         "description": "Floorp Hub is a dedicated settings center for Floorp-specific options. You can open it by navigating to 'about:hub'. It can also be accessed from the left sidebar of Firefox's settings page at 'about:preferences'.",
         "openHub": "Open about:hub",
         "openPreferences": "Open Settings (about:preferences)",
