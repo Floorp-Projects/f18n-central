@@ -17,14 +17,14 @@
         "title": "关于 Floorp 中心",
         "subtitle": "Floorp 特定设置的中心位置。",
         "sectionTitle": "Floorp 中心",
-        "description": "Floorp Hub is a dedicated settings center for Floorp-specific options. You can open it by navigating to 'about:hub'. It can also be accessed from the left sidebar of Firefox's settings page at 'about:preferences'.",
-        "openHub": "Open about:hub",
-        "openPreferences": "Open Settings (about:preferences)",
-        "tip": "Tip: You can also access Floorp Hub from the Firefox settings sidebar.",
+        "description": "Floorp 中心是用于设置 Floorp 特定选项的设置中心。你可以通过导航到“关于：中心”来打开它。也可以从 Firefox 设置页面左侧的“关于：首选项”进入。",
+        "openHub": "打开 关于：中心",
+        "openPreferences": "打开设置（关于：首选项）",
+        "tip": "提示：你也可以从 Firefox 设置左侧访问 Floorp 中心。",
         "features": {
-            "dedicated": "Dedicated Floorp settings center",
-            "accessible": "Accessible from about:hub or Firefox settings",
-            "centralized": "All Floorp-specific options in one place"
+            "dedicated": "Floorp 专用设置中心",
+            "accessible": "可从 关于：中心 或 Firefox 设置中访问",
+            "centralized": "将所有 Floorp 选项集中到一处"
         }
     },
     "customize": {
@@ -51,10 +51,10 @@
             "noEnginesFound": "未找到搜索引擎。"
         },
         "floorpHub": {
-            "title": "Floorp Hub",
-            "description": "Floorp Hub is a dedicated settings center for Floorp-specific options. You can open it by navigating to 'about:hub'. It can also be accessed from the left sidebar of Firefox's settings page at 'about:preferences'.",
-            "openHub": "Open about:hub",
-            "openPreferences": "Open Settings (about:preferences)"
+            "title": "Floorp 中心",
+            "description": "Floorp 中心是用于设置 Floorp 特定选项的设置中心。你可以通过导航到“关于：中心”来打开它。也可以从 Firefox 设置页面左侧的“关于：首选项”进入。",
+            "openHub": "打开 关于：中心",
+            "openPreferences": "打开设置（关于：首选项）"
         }
     },
     "finish": {
@@ -153,7 +153,7 @@
         "title": "欢迎访问 Floorp {{version}}！",
         "subtitle": "查看 Floorp 的新功能！",
         "tags": {
-            "settings": "Settings",
+            "settings": "设置",
             "productivity": "效率",
             "workspaces": "工作区",
             "pwa": "网站应用",
