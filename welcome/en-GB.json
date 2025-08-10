@@ -7,7 +7,7 @@
         "featureIntroduction": "Feature Introduction",
         "hub": "Floorp Hub",
         "hubIntro": "About Floorp Hub",
-        "customize": "Customize",
+        "customize": "Customise",
         "initialSettings": "Initial Settings",
         "complete": "Complete",
         "previous": "Previous",
@@ -28,11 +28,11 @@
         }
     },
     "customize": {
-        "title": "Customize Floorp",
+        "title": "Customise Floorp",
         "description": "Customize to your preferred settings. You can always change them later from the Floorp Hub or settings page.",
         "appearance": {
             "title": "Appearance Settings",
-            "description": "You can customize Floorp's appearance to your preference. Choose a light or dark theme, or have it automatically switch based on your system settings."
+            "description": "You can customise Floorp's appearance to your preference. Choose a light or dark theme, or have it automatically switch based on your system settings."
         },
         "themes": {
             "light": "Light",
@@ -45,7 +45,7 @@
             "system": "System preference"
         },
         "searchEngine": {
-            "title": "Default Search Engine",
+            "title": "Default search engine",
             "default": "Default",
             "search": "Search",
             "noEnginesFound": "No search engines found."
@@ -66,11 +66,11 @@
             "documentation": "Documentation"
         },
         "getStarted": "Get Started with Floorp",
-        "hint": "For more detailed settings, you can customize via the Settings option in the menu button at the top right."
+        "hint": "For more detailed settings, you can customise via the Settings option in the menu button at the top right."
     },
     "welcomePage": {
         "welcome": "Welcome to Floorp!",
-        "description": "Floorp is a fast and user-friendly web browser that emphasizes privacy and security. This guide will introduce you to the main features and settings of Floorp.",
+        "description": "Floorp is a fast and user-friendly web browser that emphasises privacy and security. This guide will introduce you to the main features and settings of Floorp.",
         "readyToStart": "When you're ready, click the below button to proceed.",
         "features": "Floorp Features",
         "privacy": "Privacy",
