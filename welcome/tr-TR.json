@@ -32,7 +32,7 @@
         "description": "Tercih ettiğiniz ayarlara göre kişiselleştirin. Bunları daha sonra Floorp Hub veya ayarlar sayfasından her zaman değiştirebilirsiniz.",
         "appearance": {
             "title": "Görünüm Ayarları",
-            "description": "Floorp'un görünümünü tercihinize göre kişiselleştirebilirsiniz. Açık veya koyu bir tema seçin ya da sistem ayarlarınıza göre otomatik olarak geçiş yapmasını sağlayın."
+            "description": "Floorp'un görünümünü tercihlerinize göre kişiselleştirebilirsiniz. Açık veya koyu tema seçebilir ya da sistem ayarlarına göre otomatik geçiş yapabilirsiniz."
         },
         "themes": {
             "light": "Açık",
