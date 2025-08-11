@@ -6,7 +6,7 @@
         "features": "Fonctionnalités ",
         "featureIntroduction": "Présentation des fonctionnalités.",
         "hub": "Floorp Hub",
-        "hubIntro": "About Floorp Hub",
+        "hubIntro": "À propos de Floorp Hub",
         "customize": "Personnaliser",
         "initialSettings": "Paramètres initiaux",
         "complete": "Terminer",
@@ -14,17 +14,17 @@
         "next": "Suivant"
     },
     "hubPage": {
-        "title": "About Floorp Hub",
-        "subtitle": "A central place for Floorp-specific settings.",
+        "title": "À propos de Floorp Hub",
+        "subtitle": "Un endroit central pour les paramètres spécifiques à Floorp.",
         "sectionTitle": "Floorp Hub",
-        "description": "Floorp Hub is a dedicated settings center for Floorp-specific options. You can open it by navigating to 'about:hub'. It can also be accessed from the left sidebar of Firefox's settings page at 'about:preferences'.",
-        "openHub": "Open about:hub",
-        "openPreferences": "Open Settings (about:preferences)",
-        "tip": "Tip: You can also access Floorp Hub from the Firefox settings sidebar.",
+        "description": "Floorp Hub est un centre de paramétrage dédié aux options spécifiques à Floorp. Vous pouvez l'ouvrir en naviguant vers 'about:hub'. Il est également accessible depuis la barre latérale gauche de la page des paramètres de Firefox à 'about:preferences'.",
+        "openHub": "Ouvrir about:hub",
+        "openPreferences": "Ouvrir les paramètres (about:preferences)",
+        "tip": "Astuce : Vous pouvez également accéder à Floorp Hub à partir de la barre latérale des paramètres de Firefox.",
         "features": {
-            "dedicated": "Dedicated Floorp settings center",
-            "accessible": "Accessible from about:hub or Firefox settings",
-            "centralized": "All Floorp-specific options in one place"
+            "dedicated": "Centre de paramétrage dédié à Floorp",
+            "accessible": "Accessible à partir de about:hub ou des paramètres de Firefox",
+            "centralized": "Toutes les options spécifiques à Floorp en un seul endroit"
         }
     },
     "customize": {
@@ -51,10 +51,10 @@
             "noEnginesFound": "Aucun moteur de recherche n'a été trouvé."
         },
         "floorpHub": {
-            "title": "Floorp Hub",
-            "description": "Floorp Hub is a dedicated settings center for Floorp-specific options. You can open it by navigating to 'about:hub'. It can also be accessed from the left sidebar of Firefox's settings page at 'about:preferences'.",
-            "openHub": "Open about:hub",
-            "openPreferences": "Open Settings (about:preferences)"
+            "title": "Hub Floorp",
+            "description": "Floorp Hub est un centre de paramétrage dédié aux options spécifiques à Floorp. Vous pouvez l'ouvrir en naviguant vers 'about:hub'. Il est également accessible depuis la barre latérale gauche de la page des paramètres de Firefox à 'about:preferences'.",
+            "openHub": "Ouvrir about:hub",
+            "openPreferences": "Ouvrir les Paramètres (about:preferences)"
         }
     },
     "finish": {
@@ -150,20 +150,20 @@
         "defaultBrowserSuccess": "Floorp a été défini comme votre navigateur par défaut !"
     },
     "whatsNew": {
-        "title": "Welcome to Floorp {{version}}!",
-        "subtitle": "Check out what's new in Floorp!",
+        "title": "Bienvenue sur Floorp {{version}}!",
+        "subtitle": "Découvrez les nouveautés de Floorp !",
         "tags": {
-            "settings": "Settings",
-            "productivity": "Productivity",
-            "workspaces": "Workspaces",
+            "settings": "Paramètres",
+            "productivity": "Productivité",
+            "workspaces": "Espaces de travail",
             "pwa": "PWA",
-            "gestures": "Gestures"
+            "gestures": "Gestes"
         },
         "footer": {
-            "follow": "Follow",
-            "privacy": "Privacy & Terms",
-            "about": "About Floorp",
-            "copyright": "© {{year}} Floorp Projects. All rights reserved."
+            "follow": "Suivre",
+            "privacy": "Confidentialité & Conditions d'Utilisation",
+            "about": "À propos de Floorp",
+            "copyright": "© {{year}} Floorp Projects. Tous droits réservés."
         }
     }
 }
