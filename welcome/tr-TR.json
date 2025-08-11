@@ -6,7 +6,7 @@
         "features": "Özellikler",
         "featureIntroduction": "Özellik Tanıtımı",
         "hub": "Floorp Hub",
-        "hubIntro": "About Floorp Hub",
+        "hubIntro": "Floorp Hub Hakkında",
         "customize": "Kişiselleştir",
         "initialSettings": "İlk Ayarlar",
         "complete": "Tamamla",
@@ -14,17 +14,17 @@
         "next": "Sıradaki"
     },
     "hubPage": {
-        "title": "About Floorp Hub",
-        "subtitle": "A central place for Floorp-specific settings.",
+        "title": "Floorp Hub Hakkında",
+        "subtitle": "Floorp'a özgü ayarlar için merkezi bir yer.",
         "sectionTitle": "Floorp Hub",
-        "description": "Floorp Hub is a dedicated settings center for Floorp-specific options. You can open it by navigating to 'about:hub'. It can also be accessed from the left sidebar of Firefox's settings page at 'about:preferences'.",
-        "openHub": "Open about:hub",
-        "openPreferences": "Open Settings (about:preferences)",
-        "tip": "Tip: You can also access Floorp Hub from the Firefox settings sidebar.",
+        "description": "Floorp Hub, Floorp’a özel ayarlar için tasarlanmış bir merkezdir. ‘about:hub’ adresini ziyaret ederek açabilirsiniz. Ayrıca Firefox’un ‘about:preferences’ adresindeki ayarlar sayfasının sol kenar çubuğundan da ulaşabilirsiniz.",
+        "openHub": "Aç about:hub",
+        "openPreferences": "Ayarlar'ı aç (about:preferences)",
+        "tip": "İpucu: Floorp Hub'a Firefox ayarları kenar çubuğundan da erişebilirsiniz.",
         "features": {
-            "dedicated": "Dedicated Floorp settings center",
-            "accessible": "Accessible from about:hub or Firefox settings",
-            "centralized": "All Floorp-specific options in one place"
+            "dedicated": "Özel Floorp ayar merkezi",
+            "accessible": "about:hub veya Firefox ayarlarından ulaşılabilir",
+            "centralized": "Floorp'a özgü tüm seçenekler tek bir yerde"
         }
     },
     "customize": {
@@ -35,12 +35,12 @@
             "description": "Floorp'un görünümünü tercihinize göre kişiselleştirebilirsiniz. Açık veya koyu bir tema seçin ya da sistem ayarlarınıza göre otomatik olarak geçiş yapmasını sağlayın."
         },
         "themes": {
-            "light": "Aydınlık",
+            "light": "Açık",
             "dark": "Koyu",
             "system": "Sistem ayarlarını takip edin"
         },
         "themeInfo": {
-            "light": "Aydınlık tema",
+            "light": "Açık tema",
             "dark": "Koyu tema",
             "system": "Sistem tercihleri"
         },
@@ -52,9 +52,9 @@
         },
         "floorpHub": {
             "title": "Floorp Hub",
-            "description": "Floorp Hub is a dedicated settings center for Floorp-specific options. You can open it by navigating to 'about:hub'. It can also be accessed from the left sidebar of Firefox's settings page at 'about:preferences'.",
-            "openHub": "Open about:hub",
-            "openPreferences": "Open Settings (about:preferences)"
+            "description": "Floorp Hub, Floorp’a özel ayarlar için tasarlanmış bir merkezdir. ‘about:hub’ adresini ziyaret ederek açabilirsiniz. Ayrıca Firefox’un ‘about:preferences’ adresindeki ayarlar sayfasının sol kenar çubuğundan da ulaşabilirsiniz.",
+            "openHub": "Aç about:hub",
+            "openPreferences": "Ayarlar'ı aç (about:preferences)"
         }
     },
     "finish": {
@@ -153,7 +153,7 @@
         "title": "Floorp {{version}} sürümüne hoş geldiniz!",
         "subtitle": "Floorp'taki yeniliklere göz atın!",
         "tags": {
-            "settings": "Settings",
+            "settings": "Ayarlar",
             "productivity": "Üretkenlik",
             "workspaces": "Çalışma Alanları",
             "pwa": "PWA",
