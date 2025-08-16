@@ -40,7 +40,9 @@
             "error": "安装失败",
             "launchCheckbox": "安装后启动 Floorp 浏览器",
             "closeButton": "关闭安装程序",
-            "countdownMessage": "安装程序将在 {{count}} 秒后关闭"
+            "countdownMessage": "安装程序将在 {{count}} 秒后关闭",
+            "legacyDownloadMessage": "You can also try the legacy installer.",
+            "legacyDownloadButton": "Download"
         }
     },
     "slides": {
