@@ -40,7 +40,9 @@
             "error": "Installation mislykkedes",
             "launchCheckbox": "Start Floorp-browseren efter installation",
             "closeButton": "Luk installationsprogram",
-            "countdownMessage": "Installationsprogram lukker om {{count}} sekunder"
+            "countdownMessage": "Installationsprogram lukker om {{count}} sekunder",
+            "legacyDownloadMessage": "You can also try the legacy installer.",
+            "legacyDownloadButton": "Download"
         }
     },
     "slides": {
