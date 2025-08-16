@@ -40,7 +40,9 @@
             "error": "Yükleme Başarısız oldu",
             "launchCheckbox": "Yükleme bitince Floorp tarayıcısını başlatın",
             "closeButton": "Yükleyiciyi Kapat",
-            "countdownMessage": "Yükleyici {{count}} saniye içinde kapanacaktır"
+            "countdownMessage": "Yükleyici {{count}} saniye içinde kapanacaktır",
+            "legacyDownloadMessage": "You can also try the legacy installer.",
+            "legacyDownloadButton": "Download"
         }
     },
     "slides": {
