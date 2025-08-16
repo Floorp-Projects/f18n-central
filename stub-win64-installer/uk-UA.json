@@ -40,7 +40,9 @@
             "error": "Встановлення не вдалося",
             "launchCheckbox": "Запускати браузер Floorp після встановлення",
             "closeButton": "Закрити встановлювач",
-            "countdownMessage": "Встановлювач закриється через {{count}} секунд"
+            "countdownMessage": "Встановлювач закриється через {{count}} секунд",
+            "legacyDownloadMessage": "You can also try the legacy installer.",
+            "legacyDownloadButton": "Download"
         }
     },
     "slides": {
