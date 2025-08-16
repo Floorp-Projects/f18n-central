@@ -41,8 +41,8 @@
             "launchCheckbox": "インストール後、 Floorp ブラウザーを起動する",
             "closeButton": "インストーラーを閉じる",
             "countdownMessage": "{{count}} 秒後にインストーラーを終了します",
-            "legacyDownloadMessage": "You can also try the legacy installer.",
-            "legacyDownloadButton": "Download"
+            "legacyDownloadMessage": "従来のインストーラーもお試しいただけます。",
+            "legacyDownloadButton": "ダウンロード"
         }
     },
     "slides": {
