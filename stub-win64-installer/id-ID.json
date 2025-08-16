@@ -40,7 +40,9 @@
             "error": "Pemasangan Gagal",
             "launchCheckbox": "Luncurkan peramban Floorp setelah pemasangan",
             "closeButton": "Tutup Penginstal",
-            "countdownMessage": "Penginstal akan menutup dalam {{count}} detik"
+            "countdownMessage": "Penginstal akan menutup dalam {{count}} detik",
+            "legacyDownloadMessage": "You can also try the legacy installer.",
+            "legacyDownloadButton": "Download"
         }
     },
     "slides": {
