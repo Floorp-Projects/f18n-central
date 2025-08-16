@@ -41,8 +41,8 @@
             "launchCheckbox": "安裝後啟動 Floorp 瀏覽器",
             "closeButton": "關閉安裝程式",
             "countdownMessage": "安裝程式會在 {{count}} 秒後關閉",
-            "legacyDownloadMessage": "You can also try the legacy installer.",
-            "legacyDownloadButton": "Download"
+            "legacyDownloadMessage": "你也可以試試傳統的安裝程式。",
+            "legacyDownloadButton": "下載"
         }
     },
     "slides": {
