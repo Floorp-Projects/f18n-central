@@ -40,7 +40,9 @@
             "error": "安裝失敗",
             "launchCheckbox": "安裝後啟動 Floorp 瀏覽器",
             "closeButton": "關閉安裝程式",
-            "countdownMessage": "安裝程式會在 {{count}} 秒後關閉"
+            "countdownMessage": "安裝程式會在 {{count}} 秒後關閉",
+            "legacyDownloadMessage": "You can also try the legacy installer.",
+            "legacyDownloadButton": "Download"
         }
     },
     "slides": {
