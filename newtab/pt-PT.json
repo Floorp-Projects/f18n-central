@@ -8,7 +8,10 @@
         "cancel": "Cancelar",
         "add": "Adicionar",
         "close": "Fechar",
-        "labelPlaceholder": "Nome do site"
+        "labelPlaceholder": "Nome do site",
+        "pin": "Pin",
+        "unpin": "Unpin",
+        "block": "Block"
     },
     "settings": {
         "newTabSettings": "Definições do novo separador",
@@ -23,11 +26,12 @@
         "folderImages": "Imagens da pasta",
         "floorpImages": "Imagens de Floorp",
         "currentImage": "Imagem atual:",
+        "imageRecommendation": "Recomendação: Utilize imagens com uma resolução de 1920x1080 ou superior.",
         "currentFolder": "Pasta atual:",
         "selectFolder": "Selecionar pasta",
         "selected": "Selecionado",
-        "imageRecommendation": "Recomendado: 1920x1080 ou superior",
-        "close": "Fechar"
+        "enableSlideshow": "Ativar apresentação de diapositivos",
+        "slideshowInterval": "Intervalo (segundos)"
     },
     "searchBar": {
         "searchOrEnterUrl": "Pesquisar ou introduzir URL",

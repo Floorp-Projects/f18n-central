@@ -8,7 +8,10 @@
         "cancel": "Avbryt",
         "add": "Lägg till",
         "close": "Stäng",
-        "labelPlaceholder": "Webbplatsnamn"
+        "labelPlaceholder": "Webbplatsnamn",
+        "pin": "Pin",
+        "unpin": "Unpin",
+        "block": "Block"
     },
     "settings": {
         "newTabSettings": "Ny flikinställningar",
@@ -22,12 +25,13 @@
         "customImage": "Anpassad bild",
         "folderImages": "Bilder från mapp",
         "floorpImages": "Floorp bilder",
-        "currentImage": "Nuvarande bild:",
-        "currentFolder": "Nuvarande mapp:",
+        "currentImage": "Current Image:",
+        "imageRecommendation": "Recommendation: Use images with a resolution of 1920x1080 or higher.",
+        "currentFolder": "Current Folder:",
         "selectFolder": "Välj mapp",
         "selected": "Vald",
-        "imageRecommendation": "Rekommenderas: 1920x1080 eller högre",
-        "close": "Stäng"
+        "enableSlideshow": "Enable Slideshow",
+        "slideshowInterval": "Interval (seconds)"
     },
     "searchBar": {
         "searchOrEnterUrl": "Sök eller ange URL",
