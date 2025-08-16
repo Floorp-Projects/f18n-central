@@ -40,7 +40,9 @@
             "error": "Установка не удалась",
             "launchCheckbox": "Запустить Floorp после установки",
             "closeButton": "Закрыть установщик",
-            "countdownMessage": "Установщик будет закрыт через {{count}} секунд"
+            "countdownMessage": "Установщик будет закрыт через {{count}} секунд",
+            "legacyDownloadMessage": "You can also try the legacy installer.",
+            "legacyDownloadButton": "Download"
         }
     },
     "slides": {
