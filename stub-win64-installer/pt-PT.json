@@ -40,7 +40,9 @@
             "error": "Falha na instalação",
             "launchCheckbox": "Iniciar o navegador Floorp após a instalação",
             "closeButton": "Fechar o instalador",
-            "countdownMessage": "O instalador fechará em {{count}} segundos"
+            "countdownMessage": "O instalador fechará em {{count}} segundos",
+            "legacyDownloadMessage": "You can also try the legacy installer.",
+            "legacyDownloadButton": "Download"
         }
     },
     "slides": {
