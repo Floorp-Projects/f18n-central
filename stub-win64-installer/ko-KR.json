@@ -40,7 +40,9 @@
             "error": "설치에 실패했습니다",
             "launchCheckbox": "설치 후 Floorp 브라우저 실행",
             "closeButton": "설치 관리자 닫기",
-            "countdownMessage": "{{count}}초 후 설치 프로그램이 닫힙니다"
+            "countdownMessage": "{{count}}초 후 설치 프로그램이 닫힙니다",
+            "legacyDownloadMessage": "You can also try the legacy installer.",
+            "legacyDownloadButton": "Download"
         }
     },
     "slides": {
