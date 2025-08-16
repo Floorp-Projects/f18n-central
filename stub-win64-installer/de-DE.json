@@ -40,7 +40,9 @@
             "error": "Installation fehlgeschlagen",
             "launchCheckbox": "Floorp Browser nach der Installation starten",
             "closeButton": "Installationsprogramm schließen",
-            "countdownMessage": "Das Installationsprogramm wird in {{count}} Sekunden beendet"
+            "countdownMessage": "Das Installationsprogramm wird in {{count}} Sekunden beendet",
+            "legacyDownloadMessage": "You can also try the legacy installer.",
+            "legacyDownloadButton": "Download"
         }
     },
     "slides": {
