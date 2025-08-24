@@ -190,7 +190,8 @@
                 "title": "Görünüm",
                 "disableFullscreenNotification": "Tam ekran bildirimini devre dışı bırak",
                 "deleteBrowserBorder": "Remove browser border",
-                "hideUnifiedExtensionsButton": "Birleşik uzantılar düğmesini gizle"
+                "hideUnifiedExtensionsButton": "Birleşik uzantılar düğmesini gizle",
+                "disableQRCodeButton": "Disable QR code button"
             },
             "special": {
                 "title": "Ayrıcalıklı Özellikler",
