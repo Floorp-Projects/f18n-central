@@ -190,7 +190,8 @@
                 "title": "Visning",
                 "disableFullscreenNotification": "Deaktiver fuldskærmsmeddelelser",
                 "deleteBrowserBorder": "Afrund hjørnerne på sider",
-                "hideUnifiedExtensionsButton": "Skjul knappen for samlede udvidelser"
+                "hideUnifiedExtensionsButton": "Skjul knappen for samlede udvidelser",
+                "disableQRCodeButton": "Disable QR code button"
             },
             "special": {
                 "title": "Særlige funktioner",
