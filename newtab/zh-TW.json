@@ -11,7 +11,10 @@
         "labelPlaceholder": "網站名稱",
         "pin": "釘選",
         "unpin": "取消釘選",
-        "block": "阻擋"
+        "block": "阻擋",
+        "blockTitle": "Block \"{{title}}\"?",
+        "blockConfirm": "This site will be removed from your Top Sites and won't be suggested again. You can manage blocked sites in settings.",
+        "invalidUrl": "Invalid URL"
     },
     "settings": {
         "newTabSettings": "新分頁設定",
