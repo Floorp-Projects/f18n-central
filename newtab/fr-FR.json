@@ -11,7 +11,10 @@
         "labelPlaceholder": "Nom du site",
         "pin": "Épingler",
         "unpin": "Désépingler",
-        "block": "Bloquer"
+        "block": "Bloquer",
+        "blockTitle": "Block \"{{title}}\"?",
+        "blockConfirm": "This site will be removed from your Top Sites and won't be suggested again. You can manage blocked sites in settings.",
+        "invalidUrl": "Invalid URL"
     },
     "settings": {
         "newTabSettings": "Paramètres nouvel onglet",
