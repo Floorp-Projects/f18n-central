@@ -12,9 +12,9 @@
         "pin": "釘選",
         "unpin": "取消釘選",
         "block": "阻擋",
-        "blockTitle": "Block \"{{title}}\"?",
-        "blockConfirm": "This site will be removed from your Top Sites and won't be suggested again. You can manage blocked sites in settings.",
-        "invalidUrl": "Invalid URL"
+        "blockTitle": "封鎖 \"{{title}}\"？",
+        "blockConfirm": "此網站將從你的 Top Sites 中移除，並且不會再被建議。你可以在設定中管理封鎖的網站。",
+        "invalidUrl": "網址無效"
     },
     "settings": {
         "newTabSettings": "新分頁設定",
