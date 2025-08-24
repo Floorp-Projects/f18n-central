@@ -190,7 +190,8 @@
                 "title": "显示",
                 "disableFullscreenNotification": "禁用全屏通知",
                 "deleteBrowserBorder": "网页区域圆角",
-                "hideUnifiedExtensionsButton": "隐藏扩展统一管理按钮"
+                "hideUnifiedExtensionsButton": "隐藏扩展统一管理按钮",
+                "disableQRCodeButton": "Disable QR code button"
             },
             "special": {
                 "title": "特色功能",
