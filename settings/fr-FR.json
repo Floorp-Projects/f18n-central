@@ -190,7 +190,8 @@
                 "title": "Affichage",
                 "disableFullscreenNotification": "Désactiver la notification en plein écran",
                 "deleteBrowserBorder": "Arrondir les angles des pages",
-                "hideUnifiedExtensionsButton": "Bouton des extensions unifiées"
+                "hideUnifiedExtensionsButton": "Bouton des extensions unifiées",
+                "disableQRCodeButton": "Disable QR code button"
             },
             "special": {
                 "title": "Fonctionnalités spéciales",
