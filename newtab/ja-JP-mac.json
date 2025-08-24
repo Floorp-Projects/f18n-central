@@ -12,9 +12,9 @@
         "pin": "ピン留め",
         "unpin": "ピン留めを外す",
         "block": "ブロック",
-        "blockTitle": "Block \"{{title}}\"?",
-        "blockConfirm": "This site will be removed from your Top Sites and won't be suggested again. You can manage blocked sites in settings.",
-        "invalidUrl": "Invalid URL"
+        "blockTitle": "\"{{title}}\" をブロックしますか？",
+        "blockConfirm": "このサイトはトップサイトから削除され、二度と提案されなくなります。設定でブロックされたサイトを管理できます。",
+        "invalidUrl": "無効な URL"
     },
     "settings": {
         "newTabSettings": "新規タブの設定",
