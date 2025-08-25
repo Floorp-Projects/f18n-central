@@ -8,7 +8,13 @@
         "cancel": "Avbryt",
         "add": "Lägg till",
         "close": "Stäng",
-        "labelPlaceholder": "Webbplatsnamn"
+        "labelPlaceholder": "Webbplatsnamn",
+        "pin": "Pin",
+        "unpin": "Unpin",
+        "block": "Block",
+        "blockTitle": "Block \"{{title}}\"?",
+        "blockConfirm": "This site will be removed from your Top Sites and won't be suggested again. You can manage blocked sites in settings.",
+        "invalidUrl": "Invalid URL"
     },
     "settings": {
         "newTabSettings": "Ny flikinställningar",
@@ -22,12 +28,13 @@
         "customImage": "Anpassad bild",
         "folderImages": "Bilder från mapp",
         "floorpImages": "Floorp bilder",
-        "currentImage": "Nuvarande bild:",
-        "currentFolder": "Nuvarande mapp:",
+        "currentImage": "Current Image:",
+        "imageRecommendation": "Recommendation: Use images with a resolution of 1920x1080 or higher.",
+        "currentFolder": "Current Folder:",
         "selectFolder": "Välj mapp",
         "selected": "Vald",
-        "imageRecommendation": "Rekommenderas: 1920x1080 eller högre",
-        "close": "Stäng"
+        "enableSlideshow": "Enable Slideshow",
+        "slideshowInterval": "Interval (seconds)"
     },
     "searchBar": {
         "searchOrEnterUrl": "Sök eller ange URL",
