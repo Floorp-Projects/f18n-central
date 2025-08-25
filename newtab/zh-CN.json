@@ -12,9 +12,9 @@
         "pin": "置顶",
         "unpin": "取消置顶",
         "block": "阻止",
-        "blockTitle": "Block \"{{title}}\"?",
-        "blockConfirm": "This site will be removed from your Top Sites and won't be suggested again. You can manage blocked sites in settings.",
-        "invalidUrl": "Invalid URL"
+        "blockTitle": "阻止 “{{title}}”？",
+        "blockConfirm": "此网站将从您的“热门网站”中删除，并不再建议。您可以在设置中管理被阻止的网站。",
+        "invalidUrl": "链接无效"
     },
     "settings": {
         "newTabSettings": "新标签设置",
