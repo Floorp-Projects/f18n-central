@@ -191,7 +191,7 @@
                 "disableFullscreenNotification": "Nonaktifkan notifikasi layar penuh",
                 "deleteBrowserBorder": "Bulatkan sudut halaman",
                 "hideUnifiedExtensionsButton": "Sembunyikan tombol pengaya terpadu",
-                "disableQRCodeButton": "Disable QR code button"
+                "disableQRCodeButton": "Nonaktifkan tombol kode QR"
             },
             "special": {
                 "title": "Fitur Istimewa",
