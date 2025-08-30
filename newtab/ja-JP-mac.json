@@ -34,7 +34,11 @@
         "selectFolder": "フォルダーを選択",
         "selected": "選択中",
         "enableSlideshow": "スライドショーを有効にする",
-        "slideshowInterval": "間隔 (秒)"
+        "slideshowInterval": "間隔 (秒)",
+        "floorpStart": "Floorp Start",
+        "disableFloorpStart": "Disable Floorp Start (use classic about:newtab)",
+        "disableFloorpStartDescription": "When enabled, Floorp Start will be replaced by the classic Firefox new tab / home page.",
+        "restartRequired": "Requires browser restart to take full effect."
     },
     "searchBar": {
         "searchOrEnterUrl": "検索または URL を入力",
