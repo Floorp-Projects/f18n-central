@@ -41,8 +41,8 @@
             "launchCheckbox": "Starta Floorp webbläsare efter installation",
             "closeButton": "Stäng installationsprogrammet",
             "countdownMessage": "Installationsprogrammet stängs om {{count}} sekunder",
-            "legacyDownloadMessage": "You can also try the legacy installer.",
-            "legacyDownloadButton": "Download"
+            "legacyDownloadMessage": "Du kan också prova det äldre installationsprogrammet.",
+            "legacyDownloadButton": "Ladda ner"
         }
     },
     "slides": {
