@@ -9,12 +9,12 @@
         "add": "Lägg till",
         "close": "Stäng",
         "labelPlaceholder": "Webbplatsnamn",
-        "pin": "Pin",
-        "unpin": "Unpin",
-        "block": "Block",
-        "blockTitle": "Block \"{{title}}\"?",
-        "blockConfirm": "This site will be removed from your Top Sites and won't be suggested again. You can manage blocked sites in settings.",
-        "invalidUrl": "Invalid URL"
+        "pin": "Fäst",
+        "unpin": "Lossa",
+        "block": "Blockera",
+        "blockTitle": "Blockera \"{{title}}\"?",
+        "blockConfirm": "Den här webbplatsen tas bort från dina toppwebbplatser och kommer inte att föreslås igen. Du kan hantera blockerade webbplatser i inställningar.",
+        "invalidUrl": "Ogiltig URL"
     },
     "settings": {
         "newTabSettings": "Ny flikinställningar",
@@ -28,13 +28,13 @@
         "customImage": "Anpassad bild",
         "folderImages": "Bilder från mapp",
         "floorpImages": "Floorp bilder",
-        "currentImage": "Current Image:",
-        "imageRecommendation": "Recommendation: Use images with a resolution of 1920x1080 or higher.",
-        "currentFolder": "Current Folder:",
+        "currentImage": "Nuvarande bild:",
+        "imageRecommendation": "Rekommendation: Använd bilder med en upplösning som är 1920x1080 eller högre.",
+        "currentFolder": "Nuvarande mapp:",
         "selectFolder": "Välj mapp",
         "selected": "Vald",
-        "enableSlideshow": "Enable Slideshow",
-        "slideshowInterval": "Interval (seconds)"
+        "enableSlideshow": "Aktivera bildspel",
+        "slideshowInterval": "Intervall (sekunder)"
     },
     "searchBar": {
         "searchOrEnterUrl": "Sök eller ange URL",
