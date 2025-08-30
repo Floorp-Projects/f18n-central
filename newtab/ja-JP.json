@@ -36,9 +36,9 @@
         "enableSlideshow": "スライドショーを有効にする",
         "slideshowInterval": "間隔 (秒)",
         "floorpStart": "Floorp Start",
-        "disableFloorpStart": "Disable Floorp Start (use classic about:newtab)",
-        "disableFloorpStartDescription": "When enabled, Floorp Start will be replaced by the classic Firefox new tab / home page.",
-        "restartRequired": "Requires browser restart to take full effect."
+        "disableFloorpStart": "Floorp Start を無効にする (クラシックな about:newtab を使用)",
+        "disableFloorpStartDescription": "有効にすると、Floorp Start は従来の Firefox の新しいタブ / ホームページで置き換えられます。",
+        "restartRequired": "完全に有効にするにはブラウザーの再起動が必要です。"
     },
     "searchBar": {
         "searchOrEnterUrl": "検索または URL を入力",
