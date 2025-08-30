@@ -94,8 +94,8 @@
         "hideTabBarAndTitleBar": "Dölj flikfält och titelfält",
         "showTabBarOnBottomOfNavigationBar": "Visa flikfält längst ner i navigeringsfältet",
         "showTabBarOnBottomOfWindow": "Visa flikfältet längst ner i fönstret",
-        "maxRowEnabled": "Enable Maximum Row of Tabbar",
-        "maxRow": "Maximum Row of Tabbar",
+        "maxRowEnabled": "Aktivera maximal rad av flikfält",
+        "maxRow": "Maximal rad av flikfält",
         "tab": {
             "title": "Flikar",
             "footerLinkText": "Om flik inställningar",
@@ -119,43 +119,43 @@
             "minHeightError": "Flikens höjd måste vara mellan {{min}} och {{max}} pixlar."
         },
         "lepton-preferences": {
-            "title": "Lepton Settings",
-            "description": "Configure advanced Lepton theme preferences",
-            "configureLepton": "Configure Lepton",
-            "back": "Back",
+            "title": "Lepton inställningar",
+            "description": "Konfigurera avancerade Lepton temainställningar",
+            "configureLepton": "Konfigurera Lepton",
+            "back": "Tillbaka",
             "experimentalWarning": {
-                "title": "⚠️ Experimental Features",
-                "description": "These settings are experimental and not officially supported. Issues may occur.",
-                "leptonRepository": "Lepton is a css theme for Firefox.",
-                "visitRepository": "Visit Repository Page"
+                "title": "⚠️ Experimentella funktioner",
+                "description": "Dessa inställningar är experimentella och stöds inte officiellt. Problem kan uppstå.",
+                "leptonRepository": "Lepton är ett css-tema för Firefox.",
+                "visitRepository": "Besök förråd sidan"
             },
             "autohide": {
-                "title": "Auto-hide Settings",
-                "tab": "Automatically hide tabs",
-                "navbar": "Automatically hide Toolbar",
-                "sidebar": "Automatically hide Sidebar",
-                "backButton": "Automatically hide back button",
-                "forwardButton": "Automatically hide forward button",
-                "pageAction": "Automatically hide buttons on the Address Bar"
+                "title": "Dölj inställningar automatiskt",
+                "tab": "Dölj flikar automatiskt",
+                "navbar": "Dölj verktygsfältet automatiskt",
+                "sidebar": "Dölj automatiskt sidofältet",
+                "backButton": "Dölj automatiskt bakåtknappen",
+                "forwardButton": "Dölj automatiskt framåtknappen",
+                "pageAction": "Dölj automatiskt knappar på adressfältet"
             },
             "hidden": {
-                "title": "Hide Settings",
-                "tabIcon": "Hide tab icons",
-                "tabbar": "Hide Tab Bar",
-                "navbar": "Hide Toolbar",
-                "sidebarHeader": "Hide Sidebar Headers",
-                "urlbarIconbox": "Hide Address Bar icons",
-                "bookmarkbarIcon": "Hide Bookmarks Bar icons",
-                "bookmarkbarLabel": "Hide Bookmarks Bar labels",
-                "disabledMenu": "Hide disabled context menu items"
+                "title": "Dölj inställningar",
+                "tabIcon": "Dölj flikikoner",
+                "tabbar": "Dölj flikfält",
+                "navbar": "Dölj verktygsfält",
+                "sidebarHeader": "Dölj sidofältets rubriker",
+                "urlbarIconbox": "Dölj ikoner i adressfältet",
+                "bookmarkbarIcon": "Dölj ikoner i bokmärkesfältet",
+                "bookmarkbarLabel": "Dölj etiketter i bokmärkesfältet",
+                "disabledMenu": "Dölj inaktiverade kontextmenyobjekt"
             },
             "icon": {
-                "title": "Icon Settings",
-                "disabled": "Disable Lepton's context menu and panel menu icons",
-                "menu": "Enable Lepton's context menu icons"
+                "title": "Ikon inställningar",
+                "disabled": "Inaktivera Leptons sammanhangsmeny och panelmenyikoner",
+                "menu": "Aktivera Leptons sammanhangsberoende menyikoner"
             },
             "centered": {
-                "title": "Centered Settings",
+                "title": "Centrerade inställningar",
                 "tab": "Center labels in tabs",
                 "urlbar": "Center text in the Address Bar",
                 "bookmarkbar": "Center Bookmarks Bar items"
