@@ -12,9 +12,9 @@
         "pin": "Pin",
         "unpin": "Unpin",
         "block": "Block",
-        "blockTitle": "Block \"{{title}}\"?",
-        "blockConfirm": "This site will be removed from your Top Sites and won't be suggested again. You can manage blocked sites in settings.",
-        "invalidUrl": "Invalid URL"
+        "blockTitle": "Blokir \"{{title}}\"?",
+        "blockConfirm": "Situs ini akan dihapus dari Situs Teratas dan tidak akan disarankan lagi. Anda dapat mengelola situs yang diblokir di pengaturan.",
+        "invalidUrl": "URL tidak valid"
     },
     "settings": {
         "newTabSettings": "Pengaturan Tab Baru",
