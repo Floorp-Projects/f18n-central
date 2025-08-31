@@ -29,7 +29,7 @@ git clone https://github.com/{YOUR_USERNAME}/f18n-central.git
 git checkout -b your_branch
 ```
 
-4. Edit `en-US.json` listed in locales dir https://github.com/Floorp-Projects/Floorp-12/blob/main/src/apps/i18n-supports/translation-targets.json.
+4. Edit `en-US.json` listed in locales dir https://github.com/Floorp-Projects/Floorp/blob/main/src/apps/i18n-supports/translation-targets.json.
 
 The `JSON` file extension is used for i18next localization files. You can use any text editor to edit the file. The structure of the file is as follows:
 
