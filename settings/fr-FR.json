@@ -29,7 +29,7 @@
         "keyboardShortcuts": "Raccourcis clavier",
         "webApps": "Applications Web",
         "profileAndAccount": "Profil et compte",
-        "aboutBrowser": "À propos de { productName }",
+        "aboutBrowser": "À propos de {{productName}}",
         "debug": "Débogage",
         "mouseGesture": "Gestes de la souris",
         "keyboardShortcut": "Raccourcis clavier"
