@@ -119,10 +119,10 @@
             "minHeightError": "Tab height must be between {{min}} and {{max}} pixels."
         },
         "lepton-preferences": {
-            "title": "Lepton Settings",
-            "description": "Configure advanced Lepton theme preferences",
-            "configureLepton": "Configure Lepton",
-            "back": "Back",
+            "title": "Cài đặt Leptop",
+            "description": "Thay đổi các cài đặt nâng cao của Leptop",
+            "configureLepton": "Tùy chỉnh Lepton",
+            "back": "Quay lại",
             "experimentalWarning": {
                 "title": "⚠️ Experimental Features",
                 "description": "These settings are experimental and not officially supported. Issues may occur.",
