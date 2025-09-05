@@ -362,6 +362,7 @@
         "generalSettingsDescription": "Temel fare hareketi ayarları",
         "enabled": "Fare hareketlerini etkinleştir",
         "showTrail": "Hareket izini göster",
+        "showLabel": "Show gesture label",
         "sensitivity": "Hassasiyet",
         "low": "Düşük",
         "high": "Yüksek",
