@@ -362,6 +362,7 @@
         "generalSettingsDescription": "Paramètres de base des gestes de la souris",
         "enabled": "Activer les mouvements de la souris",
         "showTrail": "Afficher la trace des gestes",
+        "showLabel": "Show gesture label",
         "sensitivity": "Sensibilité",
         "low": "Faible",
         "high": "Élevé",
