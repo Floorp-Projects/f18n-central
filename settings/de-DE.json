@@ -29,15 +29,15 @@
         "keyboardShortcuts": "Tastenkürzel",
         "webApps": "Web-Apps",
         "profileAndAccount": "Profil und Konten",
-        "aboutBrowser": "About {{productName}}",
+        "aboutBrowser": "Über {{productName}}",
         "debug": "Debug",
-        "mouseGesture": "Mouse Gestures",
-        "keyboardShortcut": "Keyboard Shortcuts"
+        "mouseGesture": "Mausgesten",
+        "keyboardShortcut": "Tastenkürzel"
     },
     "home": {
-        "welcome": "Welcome, {{name}} 👋",
-        "defaultAccountName": "{{productName}} User",
-        "description": "Manage your account, privacy, and security to enhance your {{productName}} experience.",
+        "welcome": "Hallo, {{name}} 👋",
+        "defaultAccountName": "{{productName}}-Benutzer",
+        "description": "Verwalten Sie Ihr Konto, Datenschutz und Sicherheit, um Ihr {{productName}} Erlebnis zu verbessern.",
         "setup": {
             "title": "Setup",
             "footerLinkText": "Log in to Accounts",
