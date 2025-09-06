@@ -9,12 +9,12 @@
         "add": "Neu",
         "close": "Schließen",
         "labelPlaceholder": "Webseitenname",
-        "pin": "Pin",
-        "unpin": "Unpin",
-        "block": "Block",
-        "blockTitle": "Block \"{{title}}\"?",
-        "blockConfirm": "This site will be removed from your Top Sites and won't be suggested again. You can manage blocked sites in settings.",
-        "invalidUrl": "Invalid URL"
+        "pin": "Anheften",
+        "unpin": "Ablösen",
+        "block": "Blockieren",
+        "blockTitle": "\"{{title}}\" blockieren?",
+        "blockConfirm": "Diese Webseite wird von Ihren Verknüpfungen entfernt und wird nicht mehr vorgeschlagen. Sie können blockierte Webseiten in den Einstellungen verwalten.",
+        "invalidUrl": "Ungültige URL"
     },
     "settings": {
         "newTabSettings": "Neue Tab Einstellungen",
