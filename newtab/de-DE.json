@@ -33,10 +33,10 @@
         "currentFolder": "Aktueller Ordner:",
         "selectFolder": "Ordner auswählen",
         "selected": "Ausgewählt",
-        "enableSlideshow": "Enable Slideshow",
+        "enableSlideshow": "Diashow aktivieren",
         "slideshowInterval": "Slideshow Interval",
-        "floorpStart": "Floorp Start",
-        "disableFloorpStart": "Disable Floorp Start (use classic about:newtab)",
+        "floorpStart": "Floorp-Start",
+        "disableFloorpStart": "Floorp-Start deaktivieren (Klassisches about:newtab verwenden)",
         "disableFloorpStartDescription": "When enabled, Floorp Start will be replaced by the classic Firefox new tab / home page.",
         "restartRequired": "Requires browser restart to take full effect."
     },
