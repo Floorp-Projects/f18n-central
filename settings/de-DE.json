@@ -39,7 +39,7 @@
         "defaultAccountName": "{{productName}}-Benutzer",
         "description": "Verwalten Sie Ihr Konto, Datenschutz und Sicherheit, um Ihr {{productName}} Erlebnis zu verbessern.",
         "setup": {
-            "title": "Setup",
+            "title": "Einrichtung",
             "footerLinkText": "Log in to Accounts",
             "setupDescription": "Complete the setup to maximize your {{productName}} experience.",
             "setupProgressTitle": "Setup Progress",
