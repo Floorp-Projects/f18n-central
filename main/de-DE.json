@@ -45,29 +45,29 @@
             "star": "Stern",
             "tree": "Baum",
             "vacation": "Flugzeug",
-            "love": "Love",
-            "moon": "Moon",
-            "music": "Music",
-            "user": "User"
+            "love": "Herz",
+            "moon": "Mond",
+            "music": "Musik",
+            "user": "Benutzer"
         },
         "service": {
-            "new-workspace": "New Workspace ({{count}})"
+            "new-workspace": "Neuer Arbeitsbereich ({{count}})"
         },
         "context-menu": {
-            "move-up": "Move this Workspace Up",
-            "move-down": "Move this Workspace Down",
-            "delete": "Delete Workspace",
-            "manage": "Manage Workspace"
+            "move-up": "Diesen Arbeitsbereich nach oben schieben",
+            "move-down": "Diesen Arbeitsbereich nach unten schieben",
+            "delete": "Arbeitsbereich löschen",
+            "manage": "Arbeitsbereich verwalten"
         },
         "popup": {
-            "create-new": "Create New Workspace...",
+            "create-new": "Neuen Arbeitsbereich erstellen...",
             "manage": "Arbeitsbereiche verwalten"
         },
         "menu": {
-            "moveTabToAnotherWorkspace": "Move Tab to Another Workspace"
+            "moveTabToAnotherWorkspace": "Tab zu einem anderen Arbeitsbereich verschieben"
         },
         "error": {
-            "invalidWorkspaceID": "Not valid ID for Workspaces (maybe order is not updated)"
+            "invalidWorkspaceID": "Ungültige ID für Arbeitsbereich (Sortierung nicht aktualisiert)"
         }
     },
     "statusbar": {
