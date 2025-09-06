@@ -1,9 +1,9 @@
 {
-    "title": "Floorp Start",
+    "title": "Floorp-Start",
     "topSites": {
         "addSite": "Seite hinzufügen",
         "addNewSite": "Neue Seite hinzufügen",
-        "url": "Url",
+        "url": "URL",
         "label": "Titel",
         "cancel": "Abbrechen",
         "add": "Neu",
@@ -19,15 +19,15 @@
     "settings": {
         "newTabSettings": "Neue Tab Einstellungen",
         "displayComponents": "Komponenten anzeigen",
-        "topSites": "Top-Seiten",
+        "topSites": "Verknüpfungen",
         "clock": "Uhr",
         "searchBar": "Suchleiste",
-        "backgroundSettings": "Hintergrund Einstellungen",
+        "backgroundSettings": "Hintergrund-Einstellungen",
         "noBackground": "Ohne Hintergrund",
-        "randomImage": "Zufallsbild",
+        "randomImage": "Zufälliges Bild",
         "customImage": "Benutzerdefiniertes Bild",
         "folderImages": "Bilder aus einem Ordner",
-        "floorpImages": "Floorp Bilder",
+        "floorpImages": "Floorp-Bilder",
         "currentImage": "Aktuelles Bild:",
         "imageRecommendation": "Empfohlen: 1920x1080 oder höher",
         "currentFolder": "Aktueller Ordner:",
@@ -37,17 +37,17 @@
         "slideshowInterval": "Slideshow Interval",
         "floorpStart": "Floorp-Start",
         "disableFloorpStart": "Floorp-Start deaktivieren (Klassisches about:newtab verwenden)",
-        "disableFloorpStartDescription": "When enabled, Floorp Start will be replaced by the classic Firefox new tab / home page.",
-        "restartRequired": "Requires browser restart to take full effect."
+        "disableFloorpStartDescription": "Wenn aktiviert, Floorp-Start wird durch den klassischen Firefox neuen Tab ersetzt.",
+        "restartRequired": "Erfordert einen Neustart des Browsers, um angewendet zu werden."
     },
     "searchBar": {
-        "searchOrEnterUrl": "Suchen oder Url eingeben",
+        "searchOrEnterUrl": "Suchen oder URL eingeben",
         "loadingSearchEngines": "Suchmaschinen werden geladen..."
     },
     "settingsButton": {
         "settings": "Einstellungen"
     },
     "modal": {
-        "close": "Beenden"
+        "close": "Schließen"
     }
 }
