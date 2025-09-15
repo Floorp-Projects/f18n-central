@@ -60,11 +60,11 @@
         },
         "slide4": {
             "title": "Розширена кастомізація",
-            "description": "Equipped with numerous customization options to maintain privacy better than your default browser. Floorp allows you to realize your preferred configuration."
+            "description": "Оснащений численними можливостями кастомізації для кращого захисту конфіденційності, ніж ваш стандартний браузер. Floorp дозволяє вам реалізувати будь-яку бажану конфігурацію."
         },
         "slide5": {
-            "title": "Fighting for You",
-            "description": "Floorp blocks harmful tracking. We balance website operation and user rights, working to improve the web both in functionality and privacy."
+            "title": "Боремось за тебе",
+            "description": "Floorp блокує шкідливе відстеження. Ми балансуємо між повноцінною роботою веб-сайту та правами користувачів, працюючи над покращенням функціональності та конфіденційності Інтернету."
         }
     },
     "rust": {
@@ -90,8 +90,8 @@
             "admin_install_failed": "Встановлення з правами адміністратора не вдалося. Код виходу: {{0}}",
             "user_installer_launch": "Не вдалося запустити процес інсталятора з правами користувача: {{0}}",
             "user_installer_execution": "Виникла проблема під час запуску інсталятора з правами користувача: {{0}}",
-            "cpu_not_supported": "This device's CPU does not support SSE4.1. Floorp requires a processor with SSE4.1 support.",
-            "cpu_check_failed": "Failed to verify CPU requirements. Please check system requirements."
+            "cpu_not_supported": "Процесор цього пристрою не підтримує SSE4.1. Для роботи Floorp потрібен процесор з підтримкою SSE4.1.",
+            "cpu_check_failed": "Не вдалося перевірити вимоги ЦП. Будь ласка, перевірте системні вимоги."
         }
     }
 }
