@@ -1,12 +1,12 @@
 {
     "undo-closed-tab": {
-        "label": "Undo Closed Tab",
-        "tooltiptext": "Reopen the last closed tab {{shortcut}}"
+        "label": "Herstel gesloten tabblad",
+        "tooltiptext": "Heropen het laatst gesloten tabblad {{shortcut}}"
     },
     "workspaces": {
         "modal": {
-            "name": "Name",
-            "name-placeholder": "Enter a name for this workspace",
+            "name": "Naam",
+            "name-placeholder": "Geef een naam voor deze workspace",
             "container": "Container",
             "no-container": "No Container",
             "icon": "Icon",
