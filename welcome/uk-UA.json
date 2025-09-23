@@ -1,8 +1,8 @@
 {
     "navigation": {
-        "welcome": "Welcome",
-        "language": "Language",
-        "languageSupport": "Language Support",
+        "welcome": "Ласкаво просимо",
+        "language": "Мова",
+        "languageSupport": "Підтримка мов",
         "features": "Features",
         "featureIntroduction": "Feature Introduction",
         "hub": "Floorp Hub",
