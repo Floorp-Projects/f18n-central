@@ -28,11 +28,11 @@
         }
     },
     "customize": {
-        "title": "Customize Floorp",
-        "description": "Customize to your preferred settings. You can always change them later from the Floorp Hub or settings page.",
+        "title": "Налаштувати Floorp",
+        "description": "Налаштуйте відповідно до своїх уподобань. Ви завжди можете змінити їх пізніше в Floorp Hub або на сторінці налаштувань.",
         "appearance": {
-            "title": "Appearance Settings",
-            "description": "You can customize Floorp's appearance to your preference. Choose a light or dark theme, or have it automatically switch based on your system settings."
+            "title": "Налаштування зовнішнього вигляду",
+            "description": "Ви можете налаштувати зовнішній вигляд Floorp відповідно до своїх уподобань. Виберіть світлу або темну тему або налаштуйте автоматичне перемикання залежно від налаштувань вашої системи."
         },
         "themes": {
             "light": "Light",
@@ -52,13 +52,13 @@
         },
         "floorpHub": {
             "title": "Floorp Hub",
-            "description": "Floorp Hub is a dedicated settings center for Floorp-specific options. You can open it by navigating to 'about:hub'. It can also be accessed from the left sidebar of Firefox's settings page at 'about:preferences'.",
-            "openHub": "Open about:hub",
+            "description": "Floorp Hub — це спеціальний центр налаштувань для опцій, характерних суто для Floorp. Його можна відкрити, перейшовши за адресою «about:hub». Доступ до нього також можна отримати з лівої бічної панелі сторінки налаштувань Firefox за адресою «about:preferences».",
+            "openHub": "Відкрити about:hub",
             "openPreferences": "Open Settings (about:preferences)"
         }
     },
     "finish": {
-        "title": "Setup Complete!",
+        "title": "Налаштування завершено!",
         "subtitle": "Congratulations! You've completed the Floorp setup. Enjoy a comfortable and secure internet browsing experience.",
         "nextSteps": {
             "title": "Next Steps (Optional)",
@@ -87,13 +87,13 @@
         "languageSettings": "Language Settings",
         "languageChanged": "Language Changed!",
         "currentLanguageInfo": "Current Language Information",
-        "systemLanguage": "System Language",
+        "systemLanguage": "Мова системи",
         "floorpLanguage": "Floorp Language",
         "selectLanguage": "Select Language",
         "useSystemLanguage": "Use System Language",
         "multilingual": "Multilingual Support",
         "chooseLanguage": "Choose from a wide range of languages",
-        "languageChangeNotice": "Changing language will apply the new language without restarting Floorp. Some add-ons may not support language changes."
+        "languageChangeNotice": "Зміна мови призведе до застосування нової мови без перезапуску Floorp. Деякі додатки можуть не підтримувати зміну мови."
     },
     "featuresPage": {
         "title": "Main Floorp Features",
