@@ -35,13 +35,13 @@
             "description": "Ви можете налаштувати зовнішній вигляд Floorp відповідно до своїх уподобань. Виберіть світлу або темну тему або налаштуйте автоматичне перемикання залежно від налаштувань вашої системи."
         },
         "themes": {
-            "light": "Light",
-            "dark": "Dark",
-            "system": "Follow system settings"
+            "light": "Світла",
+            "dark": "Темна",
+            "system": "Налаштування як у системі"
         },
         "themeInfo": {
-            "light": "Light theme",
-            "dark": "Dark theme",
+            "light": "Світла тема",
+            "dark": "Темна тема",
             "system": "System preference"
         },
         "searchEngine": {
