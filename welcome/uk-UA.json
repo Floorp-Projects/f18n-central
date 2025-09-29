@@ -42,12 +42,12 @@
         "themeInfo": {
             "light": "Світла тема",
             "dark": "Темна тема",
-            "system": "System preference"
+            "system": "Системні налаштування"
         },
         "searchEngine": {
             "title": "Пошукова система за замовчуванням",
-            "default": "Default",
-            "search": "Search",
+            "default": "За замовчуванням",
+            "search": "Пошук",
             "noEnginesFound": "No search engines found."
         },
         "floorpHub": {
