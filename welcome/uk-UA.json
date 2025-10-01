@@ -84,7 +84,7 @@
     "localizationPage": {
         "title": "Floorp speaks your language",
         "subtitle": "Check language settings and change if needed",
-        "languageSettings": "Language Settings",
+        "languageSettings": "Налаштування мови",
         "languageChanged": "Language Changed!",
         "currentLanguageInfo": "Current Language Information",
         "systemLanguage": "Мова системи",
