@@ -61,7 +61,7 @@
         },
         "popup": {
             "create-new": "Створити новий робочий простір...",
-            "manage": "Manage Workspaces"
+            "manage": "Керування робочими просторами"
         },
         "menu": {
             "moveTabToAnotherWorkspace": "Move Tab to Another Workspace"
@@ -137,11 +137,11 @@
             "floorp-rest-mode": "Enable Rest Mode",
             "floorp-hide-user-interface": "Приховати інтерфейс",
             "floorp-toggle-navigation-panel": "Toggle Navigation Panel",
-            "gecko-stop": "Stop",
-            "gecko-search-in-this-page": "Search In This Page",
-            "gecko-show-next-search-result": "Show Next Search Result",
-            "gecko-show-previous-search-result": "Show Previous Search Result",
-            "gecko-search-the-web": "Search The Web",
+            "gecko-stop": "Зупинити",
+            "gecko-search-in-this-page": "Пошук на цій сторінці",
+            "gecko-show-next-search-result": "Показати наступний результат пошуку",
+            "gecko-show-previous-search-result": "Показати попередній результат пошуку",
+            "gecko-search-the-web": "Пошук в Інтернеті",
             "gecko-open-migration-wizard": "Open Migration Wizard",
             "gecko-quit-from-application": "Quit Application",
             "gecko-enter-into-customize-mode": "Enter Customize Mode",
@@ -229,7 +229,7 @@
             "zoomOut": "Зменшити",
             "resetZoom": "Reset zoom",
             "changeUA": "Switch User agent to Mobile/Desktop Version at this Webpanel",
-            "delete": "Delete this panel"
+            "delete": "Видалити цю панель"
         }
     },
     "chrome_css": {
@@ -237,8 +237,8 @@
         "rebuild": "Rebuild Style Sheets",
         "create": "Create New Style Sheet",
         "open_folder": "Open Style Sheets Folder",
-        "edit_user_chrome": "Edit userChrome.css",
-        "edit_user_content": "Edit userContent.css",
+        "edit_user_chrome": "Редагувати userChrome.css",
+        "edit_user_content": "Редагувати userContent.css",
         "rebuild_complete": "Style sheets rebuilt",
         "editor_path_not_found": "Editor Path Not Found",
         "set_pref_description": "Please set the editor path",
@@ -246,14 +246,14 @@
         "file_created": "File Created",
         "file_created_successfully": "File created successfully",
         "open_file_in_editor": "Open file in editor?",
-        "error_title": "Error",
+        "error_title": "Помилка",
         "folder_open_failed": "Failed to open CSS folder",
         "edit_failed": "Failed to edit file"
     },
     "reboot": {
         "menu": {
-            "title": "Restart",
-            "normal-restart": "Restart",
+            "title": "Перезапустити",
+            "normal-restart": "Перезапустити",
             "restart-cache-clear": "Restart with Cache Clear",
             "restart-safe-mode": "Restart in Safe Mode",
             "restart-profile-manager": "Restart with Profile Manager"
