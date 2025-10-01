@@ -9,7 +9,7 @@
             "name-placeholder": "Введіть назву для цього робочого простору",
             "container": "Контейнер",
             "no-container": "Без контейнера",
-            "icon": "Icon",
+            "icon": "Іконка",
             "edit-title": "Редагувати робочий простір",
             "save": "Зберегти зміни",
             "cancel": "Скасувати"
@@ -17,7 +17,7 @@
         "icons": {
             "article": "Стаття",
             "book": "Книга",
-            "briefcase": "Briefcase",
+            "briefcase": "Портфель",
             "cart": "Кошик для покупок",
             "chat": "Чат",
             "chill": "Холод",
@@ -38,7 +38,7 @@
             "notes": "Нотатки",
             "paint": "Фарба",
             "photo": "Фото",
-            "pin": "Pin",
+            "pin": "Закріпити",
             "pet": "Домашній улюбленець",
             "question": "Question",
             "smartphone": "Смартфон",
@@ -71,7 +71,7 @@
         }
     },
     "statusbar": {
-        "toggle": "Status Bar{{mark}}"
+        "toggle": "Рядок стану{{mark}}"
     },
     "splitview": {
         "title": "Split View",
@@ -79,61 +79,61 @@
         "position-left": "Left",
         "position-right": "Right",
         "flex-row": "Row",
-        "flex-column": "Column",
-        "remove-button": "Remove Current View",
+        "flex-column": "Стовпчик",
+        "remove-button": "Видалити поточний вигляд",
         "tab-context": {
-            "split-tabs": "Split Tabs",
-            "split-fixed-tab": "Split to Fixed Tab"
+            "split-tabs": "Розділити вкладки",
+            "split-fixed-tab": "Розділити на фіксовану вкладку"
         }
     },
     "ssb": {
         "menu": {
-            "webapps": "Web Apps",
-            "install-current": "Install Current Page as Progressive Web App",
-            "open-installed": "Open Installed Apps"
+            "webapps": "Вебзастосунок",
+            "install-current": "Встановити поточну сторінку як прогресивний вебзастосунок",
+            "open-installed": "Відкрити встановлені застосунки"
         },
         "page-action": {
-            "title": "Open Application",
-            "install": "Install Application",
-            "open": "Open Application",
-            "cancel": "Cancel",
-            "site-icon": "Site icon"
+            "title": "Відкрити застосунок",
+            "install": "Встановити застосунок",
+            "open": "Відкрити застосунок",
+            "cancel": "Скасувати",
+            "site-icon": "Іконка сайту"
         }
     },
     "privateContainer": {
-        "openInPrivateContainer": "Open in Private Container",
-        "name": "Private Container"
+        "openInPrivateContainer": "Відкрити в приватному контейнері",
+        "name": "Приватний контейнер"
     },
     "mouseGesture": {
         "actions": {
-            "gecko-back": "Back",
-            "gecko-forward": "Forward",
-            "gecko-reload": "Reload",
+            "gecko-back": "Назад",
+            "gecko-forward": "Вперед",
+            "gecko-reload": "Перезавантажити",
             "gecko-close-tab": "Закрити вкладку",
             "gecko-open-new-tab": "Нова вкладка",
-            "gecko-duplicate-tab": "Duplicate Tab",
-            "gecko-reload-all-tabs": "Reload All Tabs",
-            "gecko-restore-last-tab": "Reopen Closed Tab",
-            "gecko-open-new-window": "Open New Window",
-            "gecko-open-new-private-window": "Open New Private Window",
-            "gecko-close-window": "Close Window",
-            "gecko-restore-last-window": "Restore Last Window",
-            "gecko-show-next-tab": "Show Next Tab",
-            "gecko-show-previous-tab": "Show Previous Tab",
-            "gecko-show-all-tabs-panel": "Show All Tabs Panel",
-            "gecko-force-reload": "Force Reload",
-            "gecko-zoom-in": "Zoom In",
-            "gecko-zoom-out": "Zoom Out",
-            "gecko-reset-zoom": "Reset Zoom",
-            "gecko-bookmark-this-page": "Bookmark This Page",
-            "gecko-open-home-page": "Open Home Page",
-            "gecko-open-addons-manager": "Open Addons Manager",
-            "gecko-send-with-mail": "Send With Mail",
+            "gecko-duplicate-tab": "Дублювати вкладку",
+            "gecko-reload-all-tabs": "Перезавантажити всі вкладки",
+            "gecko-restore-last-tab": "Відкрити закриту вкладку",
+            "gecko-open-new-window": "Відкрити нове вікно",
+            "gecko-open-new-private-window": "Відкрити нове приватне вікно",
+            "gecko-close-window": "Закрити вікно",
+            "gecko-restore-last-window": "Відновити останнє вікно",
+            "gecko-show-next-tab": "Показати наступну вкладку",
+            "gecko-show-previous-tab": "Показати попередню вкладку",
+            "gecko-show-all-tabs-panel": "Показати всі вкладки на панелі",
+            "gecko-force-reload": "Примусове перезавантаження",
+            "gecko-zoom-in": "Збільшити",
+            "gecko-zoom-out": "Зменшити",
+            "gecko-reset-zoom": "Скинути масштаб",
+            "gecko-bookmark-this-page": "Додати сторінку до закладок",
+            "gecko-open-home-page": "Відкрити домашню сторінку",
+            "gecko-open-addons-manager": "Відкрити менеджер застосунків",
+            "gecko-send-with-mail": "Надіслати поштою",
             "gecko-save-page": "Зберегти сторінку",
             "gecko-print-page": "Надрукувати сторінку",
             "gecko-mute-current-tab": "Заглушити поточну вкладку",
-            "gecko-show-source-of-page": "Show Source Of Page",
-            "gecko-show-page-info": "Show Page Info",
+            "gecko-show-source-of-page": "Показати джерело сторінки",
+            "gecko-show-page-info": "Показати інформацію про сторінку",
             "floorp-rest-mode": "Enable Rest Mode",
             "floorp-hide-user-interface": "Приховати інтерфейс",
             "floorp-toggle-navigation-panel": "Toggle Navigation Panel",
@@ -193,40 +193,40 @@
         "pageAction": "Generate QR Code",
         "modalTitle": "QR Code Generator",
         "loading": "Generating QR Code...",
-        "copyButton": "Copy Image",
-        "downloadButton": "Download",
-        "closeButton": "Close",
+        "copyButton": "Копіювати зображення",
+        "downloadButton": "Завантажити",
+        "closeButton": "Закрити",
         "copySuccess": "QR code copied to clipboard!",
         "copyError": "Failed to copy QR code",
         "generateError": "Failed to generate QR code"
     },
-    "qrcode-generate-page-action": "Generate QR Code for this page",
-    "qrcode-generate-page-action-title": "QR Code Generator",
+    "qrcode-generate-page-action": "Генерувати QR-код для цієї сторінки",
+    "qrcode-generate-page-action-title": "Генератор QR-кодів",
     "panelSidebar": {
         "modal": {
-            "type": "Panel Type",
+            "type": "Тип панелі",
             "typeOptions": {
-                "web": "Web Page",
-                "sidebar-tool": "Tool Sidebar",
-                "extension": "Extension Sidebar"
+                "web": "Вебсторінка",
+                "sidebar-tool": "Бічна панель інструментів",
+                "extension": "Бічна панель розширень"
             },
-            "width": "Panel Width",
-            "url": "Web Page URL",
-            "container": "Container",
-            "noContainer": "No Container",
-            "userAgent": "Use Mobile User Agent",
-            "extension": "Display Extension",
+            "width": "Ширина панелі",
+            "url": "URL вебсторінки",
+            "container": "Контейнер",
+            "noContainer": "Без контейнера",
+            "userAgent": "Використовувати мобільний агент користувача",
+            "extension": "Показати розширення",
             "sideBarTool": "Display Sidebar Tool",
-            "title": "Add Panel",
-            "add": "Add",
-            "cancel": "Cancel"
+            "title": "Додати панель",
+            "add": "Додати",
+            "cancel": "Скасувати"
         },
         "contextMenu": {
             "unload": "Unload this webpanel",
             "mute": "Mute/Unmute this webpanel",
             "changeZoom": "Change zoom level",
-            "zoomIn": "Zoom in",
-            "zoomOut": "Zoom out",
+            "zoomIn": "Збільшити",
+            "zoomOut": "Зменшити",
             "resetZoom": "Reset zoom",
             "changeUA": "Switch User agent to Mobile/Desktop Version at this Webpanel",
             "delete": "Delete this panel"
