@@ -48,114 +48,114 @@
             "title": "Пошукова система за замовчуванням",
             "default": "За замовчуванням",
             "search": "Пошук",
-            "noEnginesFound": "No search engines found."
+            "noEnginesFound": "Пошукові системи не знайдено."
         },
         "floorpHub": {
             "title": "Floorp Hub",
             "description": "Floorp Hub — це спеціальний центр налаштувань для опцій, характерних суто для Floorp. Його можна відкрити, перейшовши за адресою «about:hub». Доступ до нього також можна отримати з лівої бічної панелі сторінки налаштувань Firefox за адресою «about:preferences».",
             "openHub": "Відкрити about:hub",
-            "openPreferences": "Open Settings (about:preferences)"
+            "openPreferences": "Відкрити налаштування (about:preferences)"
         }
     },
     "finish": {
         "title": "Налаштування завершено!",
-        "subtitle": "Congratulations! You've completed the Floorp setup. Enjoy a comfortable and secure internet browsing experience.",
+        "subtitle": "Вітаю! Ви завершили налаштування Floorp. Насолоджуйтесь комфортним та безпечним переглядом веб-сторінок.",
         "nextSteps": {
-            "title": "Next Steps (Optional)",
-            "setDefault": "Set as Default Browser",
-            "documentation": "Documentation"
+            "title": "Наступні кроки (необов'язково)",
+            "setDefault": "Встановити браузер за замовчуванням",
+            "documentation": "Документація"
         },
-        "getStarted": "Get Started with Floorp",
-        "hint": "For more detailed settings, you can customize via the Settings option in the menu button at the top right."
+        "getStarted": "Початок роботи з Floorp",
+        "hint": "Детальніші налаштування можна виконати за допомогою меню Налаштування, розташованому у верхньому правому куті."
     },
     "welcomePage": {
-        "welcome": "Welcome to Floorp!",
-        "description": "Floorp is a fast and user-friendly web browser that emphasizes privacy and security. This guide will introduce you to the main features and settings of Floorp.",
-        "readyToStart": "When you're ready, click the below button to proceed.",
-        "features": "Floorp Features",
-        "privacy": "Privacy",
-        "privacyDesc": "Protects your data",
-        "speed": "Speed",
-        "speedDesc": "Optimized performance",
+        "welcome": "Вітаємо у Floorp!",
+        "description": "Floorp - це швидкий і зручний веб-браузер, який приділяє особливу увагу конфіденційності та безпеці. Цей посібник познайомить вас з основними можливостями та налаштуваннями Floorp.",
+        "readyToStart": "Коли будете готові, натисніть кнопку нижче, щоб продовжити.",
+        "features": "Особливості Floorp",
+        "privacy": "Конфіденційність",
+        "privacyDesc": "Захищає ваші дані",
+        "speed": "Швидкість",
+        "speedDesc": "Оптимізована продуктивність",
         "customization": "Customization",
         "customizationDesc": "Arrange to your preference",
-        "start": "Get Started"
+        "start": "Почати роботу"
     },
     "localizationPage": {
-        "title": "Floorp speaks your language",
-        "subtitle": "Check language settings and change if needed",
+        "title": "Floorp говорить вашою мовою",
+        "subtitle": "Перевірте мовні налаштування та змініть їх за потреби",
         "languageSettings": "Налаштування мови",
-        "languageChanged": "Language Changed!",
-        "currentLanguageInfo": "Current Language Information",
+        "languageChanged": "Мову змінено!",
+        "currentLanguageInfo": "Інформація про поточну мову",
         "systemLanguage": "Мова системи",
-        "floorpLanguage": "Floorp Language",
-        "selectLanguage": "Select Language",
-        "useSystemLanguage": "Use System Language",
-        "multilingual": "Multilingual Support",
-        "chooseLanguage": "Choose from a wide range of languages",
-        "languageChangeNotice": "Зміна мови призведе до застосування нової мови без перезапуску Floorp. Деякі додатки можуть не підтримувати зміну мови."
+        "floorpLanguage": "Мова Floorp",
+        "selectLanguage": "Вибір мови",
+        "useSystemLanguage": "Використовувати мову системи",
+        "multilingual": "Багатомовна підтримка",
+        "chooseLanguage": "Обирайте з широкого спектру мов",
+        "languageChangeNotice": "Зміна мови призведе до застосування нової мови без перезапуску Floorp. Деякі розширення можуть не підтримувати зміну мови."
     },
     "featuresPage": {
-        "title": "Main Floorp Features",
-        "subtitle": "Floorp comes with many useful features. Check out the feature overview!",
+        "title": "Основні можливості Floorp",
+        "subtitle": "Floorp має багато корисних функцій. Ознайомтеся з оглядом функцій!",
         "panelSidebar": {
-            "title": "Panel Sidebar",
-            "description": "Access convenient features from the sidebar on the right while browsing. You can place web panels, note-taking functions, add-ons, bookmarks, etc. in the sidebar.",
+            "title": "Бічна панель",
+            "description": "Отримуйте доступ до зручних функцій з бічної панелі праворуч під час перегляду. На бічній панелі можна розміщувати веб-панелі, функції нотаток, розширення, закладки тощо.",
             "features": [
-                "Pin websites to the sidebar",
-                "Quickly take notes with Floorp Notes while browsing",
-                "Supports containers"
+                "Закріпіть веб-сайти на бічній панелі",
+                "Швидко робіть нотатки за допомогою Floorp Notes під час перегляду",
+                "Підтримує контейнери"
             ]
         },
         "workspaces": {
-            "title": "Workspaces",
-            "description": "Organize multiple tab sets to streamline your work. Quickly switch between workspaces with distinctive icons and names. Access via the workspace button in the top left.",
+            "title": "Робочі області",
+            "description": "Організуйте кілька наборів вкладок, щоб спростити роботу. Швидко перемикайтеся між робочими областями за допомогою характерних іконок і назв. Доступ за допомогою кнопки робочої області у верхньому лівому куті.",
             "features": [
-                "Categorize by purpose: work, personal, etc.",
-                "Visually identify with custom icons",
-                "Easily manage tabs"
+                "Розподіліть за призначенням: робота, особисте тощо.",
+                "Візуально визначайте за допомогою іконок користувача",
+                "Легке керування вкладками"
             ]
         },
         "pwa": {
-            "title": "Progressive Web Applications Support",
-            "description": "On Windows, you can add PWA-compatible sites as desktop applications when you visit them. Regular websites can also be installed.",
+            "title": "Підтримка прогресивних веб-застосунків",
+            "description": "На Windows ви можете додати сайти сумісності з PWA-застосунками як настільні застосунки, якщо відвідувати їх. Звичайні сайти також можуть бути встановлені.",
             "features": [
-                "Run independently as desktop apps",
-                "Can be pinned to the taskbar",
-                "Firefox add-ons work too"
+                "Працюють незалежно у вигляді настільних застосунків",
+                "Можна закріпити на панелі завдань",
+                "Розширення Firefox також працюють"
             ]
         },
         "mouseGesture": {
-            "title": "Mouse Gestures",
-            "description": "Control your browser more intuitively with natively implemented mouse gesture functionality. Execute gestures by holding the right-click button and moving your mouse.",
+            "title": "Жести мишею",
+            "description": "Керуйте браузером інтуїтивно зрозуміліше завдяки вбудованій функції жестів миші. Виконуйте жести, утримуючи праву кнопку миші та рухаючи нею.",
             "features": [
-                "Operate without keyboard shortcuts",
-                "Fully customizable gestures",
+                "Працюйте без комбінацій клавіш",
+                "Повністю налаштовувані жести",
                 "Quickly navigate pages and history"
             ]
         },
-        "notebook": "Notebook",
-        "nextTab": "Go to Next Tab"
+        "notebook": "Нотатник",
+        "nextTab": "Перейти до наступної вкладки"
     },
     "finishPage": {
-        "title": "Setup Complete!",
-        "subtitle": "Congratulations! You've completed the Floorp setup. You can now enjoy comfortable and secure internet browsing.",
-        "nextSteps": "Next Steps (Optional)",
-        "defaultBrowser": "Set as Default Browser",
-        "support": "Support",
-        "documentation": "Documentation",
-        "getStarted": "Get Started with Floorp",
-        "hint": "For more detailed settings, you can customize via the Settings option in the menu button at the top right.",
-        "resourcesLabel": "Resources",
-        "defaultBrowserSuccess": "Floorp has been set as your default browser!"
+        "title": "Налаштування завершено!",
+        "subtitle": "Вітаю! Ви завершили налаштування Floorp. Тепер ви можете насолоджуватися комфортним і безпечним переглядом веб-сторінок.",
+        "nextSteps": "Наступні кроки (необов'язково)",
+        "defaultBrowser": "Встановити браузер за замовчуванням",
+        "support": "Підтримка",
+        "documentation": "Документація",
+        "getStarted": "Початок роботи з Floorp",
+        "hint": "Детальніші налаштування можна виконати за допомогою меню Налаштування, розташованому у верхньому правому куті.",
+        "resourcesLabel": "Ресурси",
+        "defaultBrowserSuccess": "Floorp встановлено як браузер за замовчуванням!"
     },
     "whatsNew": {
         "title": "Вітаємо у Floorp {{version}}!",
         "subtitle": "Погляньте, що нового у Floorp!",
         "tags": {
-            "settings": "Settings",
+            "settings": "Налаштування",
             "productivity": "Продуктивність",
-            "workspaces": "Workspaces",
+            "workspaces": "Робочі області",
             "pwa": "PWA",
             "gestures": "Жести"
         },
