@@ -30,7 +30,7 @@
         "webApps": "Вебзастосунки",
         "profileAndAccount": "Профіль та обліковий запис",
         "aboutBrowser": "Про {{productName}}",
-        "debug": "Debug",
+        "debug": "Налагодження",
         "mouseGesture": "Жести мишею",
         "keyboardShortcut": "Комбінації клавіш"
     },
@@ -99,16 +99,16 @@
         "tab": {
             "title": "Вкладки",
             "footerLinkText": "Про налаштування вкладки",
-            "scroll": "Scroll",
+            "scroll": "Прокрутка",
             "scrollDescription": "Choose whether to use scrolling for tab switching and select scrolling behavior.",
-            "scrollTab": "Switch tabs by scrolling",
+            "scrollTab": "Перемикання вкладок за допомогою прокрутки",
             "reverseScroll": "Reverse tab scroll",
             "scrollWrap": "Loop tab scroll",
             "scrollPrefInfo": "\"{{reverseScrollPrefName}}\" і \"{{scrollWrapPrefName}}\" буде працювати тільки якщо \"{{scrollPrefName}}\" увімкнено.",
             "pinTitle": "Показувати назви закріплених вкладок",
             "openPosition": "Положення відкриття нової вкладки",
             "openPositionDescription": "Вкажіть, де відкриватимуться нові вкладки. Firefox змінюватиме їх положення залежно від способу відкриття посилань.",
-            "openDefault": "Follow Firefox's behavior",
+            "openDefault": "Дотримуйтесь поведінки Firefox",
             "openLast": "Відкрити в кінці панелі вкладок",
             "openNext": "Відкрити поруч з поточною вкладкою",
             "other": "Інші налаштування вкладки",
@@ -119,22 +119,22 @@
             "minHeightError": "Висота вкладки повинна бути між {{min}} та {{max}} пікселями."
         },
         "lepton-preferences": {
-            "title": "Lepton Settings",
+            "title": "Налаштування Lepton",
             "description": "Configure advanced Lepton theme preferences",
             "configureLepton": "Configure Lepton",
             "back": "Назад",
             "experimentalWarning": {
-                "title": "⚠️ Experimental Features",
+                "title": "⚠️ Експериментальні можливості",
                 "description": "These settings are experimental and not officially supported. Issues may occur.",
                 "leptonRepository": "Lepton is a css theme for Firefox.",
                 "visitRepository": "Visit Repository Page"
             },
             "autohide": {
                 "title": "Auto-hide Settings",
-                "tab": "Automatically hide tabs",
-                "navbar": "Automatically hide Toolbar",
-                "sidebar": "Automatically hide Sidebar",
-                "backButton": "Automatically hide back button",
+                "tab": "Автоматично приховувати вкладки",
+                "navbar": "Автоматично приховувати панель інструментів",
+                "sidebar": "Автоматично приховувати бічну панель",
+                "backButton": "Автоматично приховувати кнопку Назад",
                 "forwardButton": "Automatically hide forward button",
                 "pageAction": "Automatically hide buttons on the Address Bar"
             },
