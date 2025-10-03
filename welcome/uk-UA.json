@@ -77,8 +77,8 @@
         "privacyDesc": "Захищає ваші дані",
         "speed": "Швидкість",
         "speedDesc": "Оптимізована продуктивність",
-        "customization": "Customization",
-        "customizationDesc": "Arrange to your preference",
+        "customization": "Кастомізація",
+        "customizationDesc": "Розташуйте на свій розсуд",
         "start": "Почати роботу"
     },
     "localizationPage": {
@@ -131,7 +131,7 @@
             "features": [
                 "Працюйте без комбінацій клавіш",
                 "Повністю налаштовувані жести",
-                "Quickly navigate pages and history"
+                "Швидка навігація сторінок і історії"
             ]
         },
         "notebook": "Нотатник",
