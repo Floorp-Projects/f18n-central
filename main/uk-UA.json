@@ -40,7 +40,7 @@
             "photo": "Фото",
             "pin": "Закріпити",
             "pet": "Домашній улюбленець",
-            "question": "Question",
+            "question": "Знак запитання",
             "smartphone": "Смартфон",
             "star": "Зірка",
             "tree": "Дерево",
@@ -64,21 +64,21 @@
             "manage": "Керування робочими просторами"
         },
         "menu": {
-            "moveTabToAnotherWorkspace": "Move Tab to Another Workspace"
+            "moveTabToAnotherWorkspace": "Перемістити вкладку в іншу робочу область"
         },
         "error": {
-            "invalidWorkspaceID": "Not valid ID for Workspaces (maybe order is not updated)"
+            "invalidWorkspaceID": "Недійсний ідентифікатор робочої області (можливо, порядок не оновлено)"
         }
     },
     "statusbar": {
         "toggle": "Рядок стану{{mark}}"
     },
     "splitview": {
-        "title": "Split View",
+        "title": "Розділений екран",
         "position": "Розташування",
-        "position-left": "Left",
-        "position-right": "Right",
-        "flex-row": "Row",
+        "position-left": "Лівий",
+        "position-right": "Правий",
+        "flex-row": "Рядок",
         "flex-column": "Стовпчик",
         "remove-button": "Видалити поточний вигляд",
         "tab-context": {
@@ -134,16 +134,16 @@
             "gecko-mute-current-tab": "Заглушити поточну вкладку",
             "gecko-show-source-of-page": "Показати джерело сторінки",
             "gecko-show-page-info": "Показати інформацію про сторінку",
-            "floorp-rest-mode": "Enable Rest Mode",
+            "floorp-rest-mode": "Увімкнути режим відпочинку",
             "floorp-hide-user-interface": "Приховати інтерфейс",
-            "floorp-toggle-navigation-panel": "Toggle Navigation Panel",
+            "floorp-toggle-navigation-panel": "Увімкнути/вимкнути панель навігації",
             "gecko-stop": "Зупинити",
             "gecko-search-in-this-page": "Пошук на цій сторінці",
             "gecko-show-next-search-result": "Показати наступний результат пошуку",
             "gecko-show-previous-search-result": "Показати попередній результат пошуку",
             "gecko-search-the-web": "Пошук в Інтернеті",
-            "gecko-open-migration-wizard": "Open Migration Wizard",
-            "gecko-quit-from-application": "Quit Application",
+            "gecko-open-migration-wizard": "Відкрити майстер міграції",
+            "gecko-quit-from-application": "Вийти із застосунку",
             "gecko-enter-into-customize-mode": "Enter Customize Mode",
             "gecko-enter-into-offline-mode": "Увійдіть в автономний режим",
             "gecko-open-screen-capture": "Open Screen Capture",
@@ -186,19 +186,19 @@
             "gecko-open-new-tab": "Open a new tab",
             "gecko-duplicate-tab": "Duplicate the current tab",
             "gecko-reload-all-tabs": "Reload all tabs",
-            "gecko-restore-last-tab": "Reopen the last closed tab"
+            "gecko-restore-last-tab": "Відкрити останню закриту вкладку"
         }
     },
     "qrCode": {
-        "pageAction": "Generate QR Code",
-        "modalTitle": "QR Code Generator",
-        "loading": "Generating QR Code...",
+        "pageAction": "Згенерувати QR-код",
+        "modalTitle": "Генератор QR-кодів",
+        "loading": "Генерація QR-коду...",
         "copyButton": "Копіювати зображення",
         "downloadButton": "Завантажити",
         "closeButton": "Закрити",
-        "copySuccess": "QR code copied to clipboard!",
-        "copyError": "Failed to copy QR code",
-        "generateError": "Failed to generate QR code"
+        "copySuccess": "QR-код скопійовано в буфер обміну!",
+        "copyError": "Не вдалося скопіювати QR-код",
+        "generateError": "Не вдалося згенерувати QR код"
     },
     "qrcode-generate-page-action": "Генерувати QR-код для цієї сторінки",
     "qrcode-generate-page-action-title": "Генератор QR-кодів",
@@ -245,7 +245,7 @@
         "please_enter_filename": "Please enter a filename",
         "file_created": "File Created",
         "file_created_successfully": "File created successfully",
-        "open_file_in_editor": "Open file in editor?",
+        "open_file_in_editor": "Відкрити файл у редакторі?",
         "error_title": "Помилка",
         "folder_open_failed": "Failed to open CSS folder",
         "edit_failed": "Failed to edit file"
@@ -255,7 +255,7 @@
             "title": "Перезапустити",
             "normal-restart": "Перезапустити",
             "restart-cache-clear": "Restart with Cache Clear",
-            "restart-safe-mode": "Restart in Safe Mode",
+            "restart-safe-mode": "Перезавантажити в безпечному режимі",
             "restart-profile-manager": "Restart with Profile Manager"
         }
     }
