@@ -209,7 +209,7 @@
                 "web": "Web Page",
                 "sidebar-tool": "Barra lateral de ferramentas",
                 "extension": "Extension Sidebar",
-                "builtin": "Built-in Pages (Downloads, Bookmarks, History)"
+                "builtin": "Páginas incorporadas (transferências, marcadores, histórico)"
             },
             "width": "Panel Width",
             "url": "Web Page URL",
