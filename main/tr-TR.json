@@ -208,7 +208,8 @@
             "typeOptions": {
                 "web": "Web Sayfası",
                 "sidebar-tool": "Araç Kenar Çubuğu",
-                "extension": "Uzantı Kenar Çubuğu"
+                "extension": "Uzantı Kenar Çubuğu",
+                "builtin": "Built-in Pages (Downloads, Bookmarks, History)"
             },
             "width": "Panel Genişliği",
             "url": "Web Sayfası URL'si",
