@@ -208,7 +208,8 @@
             "typeOptions": {
                 "web": "Вебсторінка",
                 "sidebar-tool": "Бічна панель інструментів",
-                "extension": "Бічна панель розширень"
+                "extension": "Бічна панель розширень",
+                "builtin": "Built-in Pages (Downloads, Bookmarks, History)"
             },
             "width": "Ширина панелі",
             "url": "URL вебсторінки",
