@@ -208,7 +208,8 @@
             "typeOptions": {
                 "web": "Halaman Web",
                 "sidebar-tool": "Bilah Sisi Alat",
-                "extension": "Bilah Sisi Ekstensi"
+                "extension": "Bilah Sisi Ekstensi",
+                "builtin": "Built-in Pages (Downloads, Bookmarks, History)"
             },
             "width": "Lebar Panel",
             "url": "URL Halaman Web",
