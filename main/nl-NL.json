@@ -208,7 +208,8 @@
             "typeOptions": {
                 "web": "Webpagina",
                 "sidebar-tool": "Zijbalk Tool",
-                "extension": "Zijbalk Extensie"
+                "extension": "Zijbalk Extensie",
+                "builtin": "Built-in Pages (Downloads, Bookmarks, History)"
             },
             "width": "Paneelbreedte",
             "url": "URL van webpagina",
