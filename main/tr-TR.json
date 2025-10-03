@@ -209,7 +209,7 @@
                 "web": "Web Sayfası",
                 "sidebar-tool": "Araç Kenar Çubuğu",
                 "extension": "Uzantı Kenar Çubuğu",
-                "builtin": "Built-in Pages (Downloads, Bookmarks, History)"
+                "builtin": "Yerleşik Sayfalar (İndirmeler, Yer İmleri, Geçmiş)"
             },
             "width": "Panel Genişliği",
             "url": "Web Sayfası URL'si",
