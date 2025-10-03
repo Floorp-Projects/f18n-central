@@ -34,13 +34,13 @@
         "mouseGesture": "滑鼠手勢",
         "keyboardShortcut": "鍵盤快捷鍵",
         "search": {
-            "title": "Search Settings",
-            "resultsFor": "Search results for \"{{query}}\"",
-            "searchResultsDescription": "Search results for \"{{query}}\". Only {{productName}} settings are searched; Firefox settings are not included.",
-            "noResults": "No results found",
-            "open": "Open \"{{title}}\"",
-            "matchedText": "Matched Text",
-            "results": "Search Results"
+            "title": "搜尋設定",
+            "resultsFor": "搜尋 {{query}} 的結果",
+            "searchResultsDescription": "搜尋 \"{{query}}\"的結果。只搜尋了 {{productName}} 的設定；並不包括 Firefox 的設定。",
+            "noResults": "找不到結果",
+            "open": "開啟 \"{{title}}\"",
+            "matchedText": "匹配文字",
+            "results": "搜尋結果"
         }
     },
     "home": {
