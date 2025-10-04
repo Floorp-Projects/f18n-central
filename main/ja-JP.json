@@ -209,7 +209,7 @@
                 "web": "ウェブページ",
                 "sidebar-tool": "ツールサイドバー",
                 "extension": "拡張機能サイドバー",
-                "builtin": "Built-in Pages (Downloads, Bookmarks, History)"
+                "builtin": "内蔵ページ (ダウンロード、ブックマーク、履歴)"
             },
             "width": "パネルの幅",
             "url": "ウェブページの URL",
