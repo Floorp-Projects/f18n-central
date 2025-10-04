@@ -34,13 +34,13 @@
         "mouseGesture": "マウスジェスチャー",
         "keyboardShortcut": "キーボードショートカット",
         "search": {
-            "title": "Search Settings",
-            "resultsFor": "Search results for \"{{query}}\"",
-            "searchResultsDescription": "Search results for \"{{query}}\". Only {{productName}} settings are searched; Firefox settings are not included.",
-            "noResults": "No results found",
-            "open": "Open \"{{title}}\"",
-            "matchedText": "Matched Text",
-            "results": "Search Results"
+            "title": "検索の設定",
+            "resultsFor": "[{{query}}] の検索結果",
+            "searchResultsDescription": "[{{query}}] の検索結果です。 {{productName}} の設定のみ表示されます。 Firefox の設定は含まれません。",
+            "noResults": "何も見つかりませんでした",
+            "open": "[{{title}}] を開く",
+            "matchedText": "一致したテキスト",
+            "results": "検索結果"
         }
     },
     "home": {
