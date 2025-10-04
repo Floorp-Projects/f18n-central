@@ -35,12 +35,12 @@
         "keyboardShortcut": "Keyboard Shortcuts",
         "search": {
             "title": "Search Settings",
-            "resultsFor": "Search results for \"{{query}}\"",
-            "searchResultsDescription": "Search results for \"{{query}}\". Only {{productName}} settings are searched; Firefox settings are not included.",
-            "noResults": "No results found",
-            "open": "Open \"{{title}}\"",
-            "matchedText": "Matched Text",
-            "results": "Search Results"
+            "resultsFor": "Hasil pencarian untuk \"{{query}}\"",
+            "searchResultsDescription": "Hasil pencarian untuk \"{{query}}\". Hanya pengaturan {{productName}} yang dicari; pengaturan Firefox tidak disertakan.",
+            "noResults": "Hasil tidak ditemukan",
+            "open": "Buka \"{{title}}\"",
+            "matchedText": "Teks yang Cocok",
+            "results": "Hasil Pencarian"
         }
     },
     "home": {
