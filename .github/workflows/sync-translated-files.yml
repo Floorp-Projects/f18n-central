@@ -25,7 +25,7 @@ jobs:
       - name: Read translation targets
         id: read-targets
         run: |
-          TARGETS=$(cat floorp/src/apps/i18n-supports/translation-targets.json)
+          TARGETS=$(cat floorp/i18n/translation-targets.json)
           echo "targets<<EOF" >> $GITHUB_OUTPUT
           echo "$TARGETS" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
@@ -33,20 +33,41 @@ jobs:
       - name: Copy translated files to Floorp repository
         run: |
           cd f18n-central
+          shopt -s nullglob
           TARGETS='${{ steps.read-targets.outputs.targets }}'
           echo "$TARGETS" | jq -c '.targets[]' | while read -r target; do
+            TYPE=$(echo "$target" | jq -r '.type // "file"')
             SOURCE_PATH=$(echo "$target" | jq -r '.source_path')
             F18N_PATH=$(echo "$target" | jq -r '.f18n_path')
-            # Copy all locale files (e.g., ja-JP.json) to the Floorp repository
-            # Skip the source file (en-US.json)
-            for LOCALE_FILE in "$F18N_PATH"*.json; do
-              if [[ "$LOCALE_FILE" != *"en-US.json" ]]; then
+            F18N_PATH="${F18N_PATH%/}/"
+            if [ "$TYPE" = "directory" ]; then
+              SOURCE_LOCALE=$(echo "$target" | jq -r '.source_locale')
+              for LOCALE_DIR in "$F18N_PATH"*/ ; do
+                [ -d "$LOCALE_DIR" ] || continue
+                LOCALE=$(basename "$LOCALE_DIR")
+                if [ "$LOCALE" = "$SOURCE_LOCALE" ]; then
+                  continue
+                fi
+                DEST_DIR="../floorp/$SOURCE_PATH/$LOCALE"
+                echo "Copying $LOCALE_DIR to $DEST_DIR"
+                rm -rf "$DEST_DIR"
+                mkdir -p "$DEST_DIR"
+                cp -a "$LOCALE_DIR/." "$DEST_DIR/"
+              done
+            else
+              SOURCE_FILE=$(echo "$target" | jq -r '.source_file')
+              mkdir -p "../floorp/$SOURCE_PATH"
+              for LOCALE_FILE in "$F18N_PATH"*.json; do
+                if [[ "$LOCALE_FILE" == "$F18N_PATH$SOURCE_FILE" ]]; then
+                  continue
+                fi
                 LOCALE=$(basename "$LOCALE_FILE" .json)
                 echo "Copying $LOCALE_FILE to $SOURCE_PATH"
                 cp "$LOCALE_FILE" "../floorp/$SOURCE_PATH/$LOCALE.json"
-              fi
-            done
+              done
+            fi
           done
+          shopt -u nullglob
 
       - name: Commit and push changes to Floorp repository
         run: |

@@ -25,7 +25,7 @@ jobs:
       - name: Read translation targets
         id: read-targets
         run: |
-          TARGETS=$(cat floorp/src/apps/i18n-supports/translation-targets.json)
+          TARGETS=$(cat floorp/i18n/translation-targets.json)
           echo "targets<<EOF" >> $GITHUB_OUTPUT
           echo "$TARGETS" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
@@ -36,10 +36,18 @@ jobs:
           TARGETS='${{ steps.read-targets.outputs.targets }}'
           echo "files:" > crowdin.yml
           echo "$TARGETS" | jq -c '.targets[]' | while read -r target; do
+            TYPE=$(echo "$target" | jq -r '.type // "file"')
             F18N_PATH=$(echo "$target" | jq -r '.f18n_path')
-            SOURCE_FILE=$(echo "$TARGETS" | jq -r '.source_file')
-            echo "  - source: /$F18N_PATH$SOURCE_FILE" >> crowdin.yml
-            echo "    translation: /$F18N_PATH%locale%.json" >> crowdin.yml
+            F18N_PATH="${F18N_PATH%/}/"
+            if [ "$TYPE" = "directory" ]; then
+              SOURCE_LOCALE=$(echo "$target" | jq -r '.source_locale')
+              echo "  - source: /$F18N_PATH${SOURCE_LOCALE}/*.json" >> crowdin.yml
+              echo "    translation: /$F18N_PATH%locale%/*.json" >> crowdin.yml
+            else
+              SOURCE_FILE=$(echo "$target" | jq -r '.source_file')
+              echo "  - source: /$F18N_PATH$SOURCE_FILE" >> crowdin.yml
+              echo "    translation: /$F18N_PATH%locale%.json" >> crowdin.yml
+            fi
             echo "" >> crowdin.yml
           done
 
@@ -48,12 +56,24 @@ jobs:
           cd f18n-central
           TARGETS='${{ steps.read-targets.outputs.targets }}'
           echo "$TARGETS" | jq -c '.targets[]' | while read -r target; do
+            TYPE=$(echo "$target" | jq -r '.type // "file"')
             SOURCE_PATH=$(echo "$target" | jq -r '.source_path')
             F18N_PATH=$(echo "$target" | jq -r '.f18n_path')
-            SOURCE_FILE=$(echo "$TARGETS" | jq -r '.source_file')
-            echo "Copying $SOURCE_FILE from $SOURCE_PATH to $F18N_PATH"
-            mkdir -p "$F18N_PATH"
-            cp "../floorp/$SOURCE_PATH/$SOURCE_FILE" "$F18N_PATH"
+            F18N_PATH="${F18N_PATH%/}/"
+            if [ "$TYPE" = "directory" ]; then
+              SOURCE_LOCALE=$(echo "$target" | jq -r '.source_locale')
+              DEST_DIR="$F18N_PATH$SOURCE_LOCALE"
+              echo "Syncing $SOURCE_LOCALE from $SOURCE_PATH to $DEST_DIR"
+              mkdir -p "$F18N_PATH"
+              rm -rf "$DEST_DIR"
+              mkdir -p "$DEST_DIR"
+              cp -a "../floorp/$SOURCE_PATH/$SOURCE_LOCALE/." "$DEST_DIR/"
+            else
+              SOURCE_FILE=$(echo "$target" | jq -r '.source_file')
+              echo "Copying $SOURCE_FILE from $SOURCE_PATH to $F18N_PATH"
+              mkdir -p "$F18N_PATH"
+              cp "../floorp/$SOURCE_PATH/$SOURCE_FILE" "$F18N_PATH"
+            fi
           done
 
       - name: Commit and push changes

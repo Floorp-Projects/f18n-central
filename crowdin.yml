@@ -1,6 +1,6 @@
 files:
-  - source: /main/en-US.json
-    translation: /main/%locale%.json
+  - source: /main/en-US/*.json
+    translation: /main/%locale%/*.json
 
   - source: /settings/en-US.json
     translation: /settings/%locale%.json
@@ -13,4 +13,3 @@ files:
 
   - source: /stub-win64-installer/en-US.json
     translation: /stub-win64-installer/%locale%.json
-

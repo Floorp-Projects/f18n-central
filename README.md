@@ -29,7 +29,7 @@ git clone https://github.com/{YOUR_USERNAME}/f18n-central.git
 git checkout -b your_branch
 ```
 
-4. Edit `en-US.json` listed in locales dir https://github.com/Floorp-Projects/Floorp/blob/main/src/apps/i18n-supports/translation-targets.json.
+4. Update the English (US) source files under `main/en-US/` (for example `main/en-US/browser-chrome.json`). The list of synced namespaces lives in Floorp at https://github.com/Floorp-Projects/Floorp/blob/main/i18n/translation-targets.json.
 
 The `JSON` file extension is used for i18next localization files. You can use any text editor to edit the file. The structure of the file is as follows:
 
@@ -77,3 +77,4 @@ git push origin your_branch
 # Main Repository
 
 [![Link to Main Repository](assets/Link2MainRepo.svg)](https://github.com/Floorp-Projects/Floorp)
+
