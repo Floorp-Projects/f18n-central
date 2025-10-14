@@ -41,8 +41,10 @@ jobs:
             F18N_PATH="${F18N_PATH%/}/"
             if [ "$TYPE" = "directory" ]; then
               SOURCE_LOCALE=$(echo "$target" | jq -r '.source_locale')
+              # Use %original_file_name% for translations so generated crowdin.yml
+              # matches the current repository format (keeps original file names)
               echo "  - source: /$F18N_PATH${SOURCE_LOCALE}/*.json" >> crowdin.yml
-              echo "    translation: /$F18N_PATH%locale%/*.json" >> crowdin.yml
+              echo "    translation: /$F18N_PATH%locale%/%original_file_name%" >> crowdin.yml
             else
               SOURCE_FILE=$(echo "$target" | jq -r '.source_file')
               echo "  - source: /$F18N_PATH$SOURCE_FILE" >> crowdin.yml
