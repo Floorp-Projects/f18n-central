@@ -13,3 +13,4 @@ files:
 
   - source: /stub-win64-installer/en-US.json
     translation: /stub-win64-installer/%locale%.json
+
