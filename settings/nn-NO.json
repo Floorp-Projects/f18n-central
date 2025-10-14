@@ -32,7 +32,16 @@
         "aboutBrowser": "About {{productName}}",
         "debug": "Debug",
         "mouseGesture": "Mouse Gestures",
-        "keyboardShortcut": "Keyboard Shortcuts"
+        "keyboardShortcut": "Keyboard Shortcuts",
+        "search": {
+            "title": "Search Settings",
+            "resultsFor": "Search results for \"{{query}}\"",
+            "searchResultsDescription": "Search results for \"{{query}}\". Only {{productName}} settings are searched; Firefox settings are not included.",
+            "noResults": "No results found",
+            "open": "Open \"{{title}}\"",
+            "matchedText": "Matched Text",
+            "results": "Search Results"
+        }
     },
     "home": {
         "welcome": "Welcome, {{name}} 👋",
@@ -119,10 +128,10 @@
             "minHeightError": "Tab height must be between {{min}} and {{max}} pixels."
         },
         "lepton-preferences": {
-            "title": "Lepton Settings",
+            "title": "Innstillinger for Lepton",
             "description": "Configure advanced Lepton theme preferences",
             "configureLepton": "Configure Lepton",
-            "back": "Back",
+            "back": "Tilbake",
             "experimentalWarning": {
                 "title": "⚠️ Experimental Features",
                 "description": "These settings are experimental and not officially supported. Issues may occur.",
@@ -131,8 +140,8 @@
             },
             "autohide": {
                 "title": "Auto-hide Settings",
-                "tab": "Automatically hide tabs",
-                "navbar": "Automatically hide Toolbar",
+                "tab": "Skjul faner automatisk",
+                "navbar": "Skjul verktøylinjen automatisk",
                 "sidebar": "Automatically hide Sidebar",
                 "backButton": "Automatically hide back button",
                 "forwardButton": "Automatically hide forward button",
@@ -180,7 +189,7 @@
             "title": "UI Customization",
             "needRestartDescriptionForEnableAndDisable": "A restart of {{productName}} is required to completely enable or disable this UI customization feature.",
             "navbar": {
-                "title": "Navigation Bar",
+                "title": "Navigasjonsbar",
                 "positionWithExperiment": "Position (Experiment)",
                 "top": "Top",
                 "bottom": "Bottom",
@@ -189,7 +198,7 @@
             "display": {
                 "title": "Display",
                 "disableFullscreenNotification": "Disable fullscreen notification",
-                "deleteBrowserBorder": "Round the corners of pages",
+                "deleteBrowserBorder": "Avrund hjørnene på sider",
                 "hideUnifiedExtensionsButton": "Hide unified extensions button",
                 "disableQRCodeButton": "Disable QR code button"
             },
@@ -298,7 +307,7 @@
         "width": "Width",
         "zoomLevel": "Zoom Level",
         "container": "Container",
-        "noContainer": "No Container",
+        "noContainer": "Ingen beholder",
         "useUserAgent": "Use Mobile User Agent",
         "panelType": "Panel Type",
         "panelList": "Panel List",
@@ -309,16 +318,16 @@
         },
         "staticPanels": {
             "bmt": "Browser Manager Tool",
-            "bookmarks": "Bookmarks",
-            "history": "History",
-            "downloads": "Downloads",
-            "notes": "Notes"
+            "bookmarks": "Bokmerker",
+            "history": "Logg",
+            "downloads": "Nedlastinger",
+            "notes": "Notater"
         },
         "url": "URL",
         "untitled": "Untitled",
         "confirmDeleteTitle": "Delete Panel",
         "confirmDelete": "Are you sure you want to delete this panel?",
-        "delete": "Delete",
+        "delete": "Slett",
         "addPanel": "Add Panel",
         "editPanel": "Edit Panel",
         "errors": {
@@ -329,8 +338,8 @@
             "staticPanelRequired": "Please select a sidebar tool",
             "invalidWidth": "Width must be at least 100 pixels"
         },
-        "save": "Save",
-        "cancel": "Cancel"
+        "save": "Lagre",
+        "cancel": "Avbryt"
     },
     "progressiveWebApp": {
         "title": "Web Apps",
@@ -355,46 +364,6 @@
         "cancel": "Cancel",
         "rename": "Rename",
         "uninstall": "Uninstall"
-    },
-    "floorpOS": {
-        "title": "Floorp OS",
-        "description": "Manage Floorp OS backend modules and services",
-        "loading": "Loading...",
-        "statusCard": {
-            "title": "Status",
-            "description": "Current status of Floorp OS",
-            "platformSupport": "Platform Support",
-            "platformSupported": "Your platform is supported",
-            "platformUnsupported": "Your platform is not supported",
-            "installedVersion": "Installed Version",
-            "notInstalled": "Not installed",
-            "serviceStatus": "Service Status",
-            "running": "Running",
-            "stopped": "Stopped",
-            "enabledBadge": "Enabled",
-            "disabledBadge": "Disabled"
-        },
-        "controlsCard": {
-            "title": "Controls",
-            "description": "Enable or disable Floorp OS",
-            "enable": "Enable Floorp OS",
-            "disable": "Disable Floorp OS",
-            "refresh": "Refresh Status"
-        },
-        "messages": {
-            "enabling": "Enabling Floorp OS...",
-            "disabling": "Disabling Floorp OS...",
-            "enableSuccess": "Floorp OS enabled successfully!",
-            "disableSuccess": "Floorp OS disabled successfully!"
-        },
-        "errors": {
-            "apiUnavailable": "OSAutomotor API is not available.",
-            "loadStatus": "Failed to load status: {{reason}}",
-            "enable": "Failed to enable Floorp OS.",
-            "disable": "Failed to disable Floorp OS.",
-            "enableAction": "Error enabling Floorp OS: {{reason}}",
-            "disableAction": "Error disabling Floorp OS: {{reason}}"
-        }
     },
     "mouseGesture": {
         "description": "Control your browser with mouse movements.",
