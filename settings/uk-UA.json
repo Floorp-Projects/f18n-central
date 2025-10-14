@@ -144,23 +144,23 @@
                 "navbar": "Автоматично приховувати панель інструментів",
                 "sidebar": "Автоматично приховувати бічну панель",
                 "backButton": "Автоматично приховувати кнопку Назад",
-                "forwardButton": "Automatically hide forward button",
-                "pageAction": "Automatically hide buttons on the Address Bar"
+                "forwardButton": "Автоматично приховувати кнопку \"Вперед\"",
+                "pageAction": "Автоматично приховувати кнопки на адресній панелі"
             },
             "hidden": {
                 "title": "Hide Settings",
-                "tabIcon": "Hide tab icons",
+                "tabIcon": "Приховувати значки вкладок",
                 "tabbar": "Приховати панель вкладок",
                 "navbar": "Приховати панель інструментів",
-                "sidebarHeader": "Hide Sidebar Headers",
-                "urlbarIconbox": "Hide Address Bar icons",
-                "bookmarkbarIcon": "Hide Bookmarks Bar icons",
-                "bookmarkbarLabel": "Hide Bookmarks Bar labels",
-                "disabledMenu": "Hide disabled context menu items"
+                "sidebarHeader": "Приховувати заголовки бічних панелей",
+                "urlbarIconbox": "Приховувати значки адресного рядка",
+                "bookmarkbarIcon": "Приховувати значки в панелі закладок",
+                "bookmarkbarLabel": "Приховувати значки в панелі закладок",
+                "disabledMenu": "Приховувати вимкнені пункти контекстного меню"
             },
             "icon": {
                 "title": "Налаштування значків",
-                "disabled": "Disable Lepton's context menu and panel menu icons",
+                "disabled": "Вимкнути іконки контекстного меню та меню панелі Lepton",
                 "menu": "Enable Lepton's context menu icons"
             },
             "centered": {
@@ -198,7 +198,7 @@
             "display": {
                 "title": "Display",
                 "disableFullscreenNotification": "Disable fullscreen notification",
-                "deleteBrowserBorder": "Round the corners of pages",
+                "deleteBrowserBorder": "Округлити кути сторінок",
                 "hideUnifiedExtensionsButton": "Hide unified extensions button",
                 "disableQRCodeButton": "Disable QR code button"
             },
@@ -308,7 +308,7 @@
         "zoomLevel": "Zoom Level",
         "container": "Контейнер",
         "noContainer": "Без контейнера",
-        "useUserAgent": "Use Mobile User Agent",
+        "useUserAgent": "Використовувати мобільний агент користувача",
         "panelType": "Тип панелі",
         "panelList": "Список панелей",
         "type": {
