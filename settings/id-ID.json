@@ -358,37 +358,37 @@
     },
     "floorpOS": {
         "title": "Floorp OS",
-        "description": "Manage Floorp OS backend modules and services",
-        "loading": "Loading...",
+        "description": "Kelola modul dan layanan backend Floorp OS",
+        "loading": "Memuat...",
         "statusCard": {
             "title": "Status",
-            "description": "Current status of Floorp OS",
-            "platformSupport": "Platform Support",
-            "platformSupported": "Your platform is supported",
-            "platformUnsupported": "Your platform is not supported",
-            "installedVersion": "Installed Version",
-            "notInstalled": "Not installed",
-            "serviceStatus": "Service Status",
-            "running": "Running",
-            "stopped": "Stopped",
-            "enabledBadge": "Enabled",
-            "disabledBadge": "Disabled"
+            "description": "Status Floorp OS saat ini",
+            "platformSupport": "Dukungan Platform",
+            "platformSupported": "Platform Anda didukung",
+            "platformUnsupported": "Platform Anda tidak didukung",
+            "installedVersion": "Versi Terpasang",
+            "notInstalled": "Tidak terpasang",
+            "serviceStatus": "Status Layanan",
+            "running": "Berjalan",
+            "stopped": "Berhenti",
+            "enabledBadge": "Aktif",
+            "disabledBadge": "Nonaktif"
         },
         "controlsCard": {
             "title": "Controls",
-            "description": "Enable or disable Floorp OS",
-            "enable": "Enable Floorp OS",
-            "disable": "Disable Floorp OS",
-            "refresh": "Refresh Status"
+            "description": "Aktifkan atau nonaktifkan Floorp OS",
+            "enable": "Aktifkan Floorp OS",
+            "disable": "Nonaktifkan Floorp OS",
+            "refresh": "Segarkan Status"
         },
         "messages": {
-            "enabling": "Enabling Floorp OS...",
-            "disabling": "Disabling Floorp OS...",
-            "enableSuccess": "Floorp OS enabled successfully!",
-            "disableSuccess": "Floorp OS disabled successfully!"
+            "enabling": "Mengaktifkan Floorp OS...",
+            "disabling": "Menonaktifkan Floorp OS...",
+            "enableSuccess": "Floorp OS berhasil diaktifkan!",
+            "disableSuccess": "Floorp OS berhasil dinonaktifkan!"
         },
         "errors": {
-            "apiUnavailable": "OSAutomotor API is not available.",
+            "apiUnavailable": "API OSAutomotor tidak tersedia.",
             "loadStatus": "Failed to load status: {{reason}}",
             "enable": "Failed to enable Floorp OS.",
             "disable": "Failed to disable Floorp OS.",
