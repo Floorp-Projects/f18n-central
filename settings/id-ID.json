@@ -389,11 +389,11 @@
         },
         "errors": {
             "apiUnavailable": "API OSAutomotor tidak tersedia.",
-            "loadStatus": "Failed to load status: {{reason}}",
-            "enable": "Failed to enable Floorp OS.",
-            "disable": "Failed to disable Floorp OS.",
-            "enableAction": "Error enabling Floorp OS: {{reason}}",
-            "disableAction": "Error disabling Floorp OS: {{reason}}"
+            "loadStatus": "Gagal memuat status: {{reason}}",
+            "enable": "Gagal mengaktifkan Floorp OS.",
+            "disable": "Gagal menonaktifkan Floorp OS.",
+            "enableAction": "Galat mengaktifkan Floorp OS: {{reason}}",
+            "disableAction": "Galat menonaktifkan Floorp OS: {{reason}}"
         }
     },
     "mouseGesture": {
