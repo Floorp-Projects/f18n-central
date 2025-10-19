@@ -177,8 +177,8 @@
       "gecko-scroll-left": "Deslocação para a esquerda",
       "gecko-scroll-to-top": "Deslocar para o topo",
       "gecko-scroll-to-bottom": "Deslocação para baixo",
-      "gecko-workspace-next": "Switch to Next Workspace",
-      "gecko-workspace-previous": "Switch to Previous Workspace"
+      "gecko-workspace-next": "Mudar para o espaço de trabalho seguinte",
+      "gecko-workspace-previous": "Mudar para o espaço de trabalho anterior"
     },
     "descriptions": {
       "gecko-back": "Navegar de volta para a página anterior",
