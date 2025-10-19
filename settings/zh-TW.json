@@ -414,6 +414,8 @@
         "pattern": "樣式",
         "action": "動作",
         "actionDescription": "手勢說明",
+        "rockerGesturesEnabled": "Enable rocker gestures",
+        "rockerGesturesDescription": "Right-click and move left to go back, right-click and move right to go forward. (Experimental)",
         "actions": {
             "gecko-back": "返回",
             "gecko-forward": "前進",
@@ -485,7 +487,9 @@
             "gecko-scroll-right": "向右捲動",
             "gecko-scroll-left": "向左捲動",
             "gecko-scroll-to-top": "捲動至頂端",
-            "gecko-scroll-to-bottom": "捲動至底端"
+            "gecko-scroll-to-bottom": "捲動至底端",
+            "gecko-workspace-next": "Switch to Next Workspace",
+            "gecko-workspace-previous": "Switch to Previous Workspace"
         },
         "edit": "編輯",
         "duplicate": "複製",
