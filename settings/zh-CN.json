@@ -489,7 +489,7 @@
             "gecko-scroll-to-top": "滚动到顶部",
             "gecko-scroll-to-bottom": "滚动到底部",
             "gecko-workspace-next": "切换到下个工作区",
-            "gecko-workspace-previous": "Switch to Previous Workspace"
+            "gecko-workspace-previous": "切换到上个工作区"
         },
         "edit": "编辑",
         "duplicate": "复制",
