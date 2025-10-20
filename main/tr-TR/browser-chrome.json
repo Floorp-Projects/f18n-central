@@ -102,6 +102,7 @@
   },
   "privateContainer": {
     "openInPrivateContainer": "Gizli Kapsayıcıda Aç",
+    "reopenInPrivateContainer": "Reopen in Private Container",
     "name": "Gizlil Kapsayıcı"
   },
   "mouseGesture": {
