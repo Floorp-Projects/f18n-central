@@ -102,6 +102,7 @@
   },
   "privateContainer": {
     "openInPrivateContainer": "Buka di Kontainer Pribadi",
+    "reopenInPrivateContainer": "Reopen in Private Container",
     "name": "Kontainer Pribadi"
   },
   "mouseGesture": {
