@@ -102,6 +102,7 @@
   },
   "privateContainer": {
     "openInPrivateContainer": "在私隱容器中開啟",
+    "reopenInPrivateContainer": "Reopen in Private Container",
     "name": "私隱容器"
   },
   "mouseGesture": {
