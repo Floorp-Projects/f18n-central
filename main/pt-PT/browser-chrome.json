@@ -102,6 +102,7 @@
   },
   "privateContainer": {
     "openInPrivateContainer": "Abrir num contentor privado",
+    "reopenInPrivateContainer": "Reopen in Private Container",
     "name": "Contentor privado"
   },
   "mouseGesture": {
