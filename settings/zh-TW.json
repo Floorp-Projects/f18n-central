@@ -373,8 +373,8 @@
             "title": "狀態",
             "description": "Floorp OS 的當前狀態",
             "platformSupport": "平台支援",
-            "platformSupported": "Your platform is supported",
-            "platformUnsupported": "Your platform is not supported",
+            "platformSupported": "支援您的平台",
+            "platformUnsupported": "不支援您的平台",
             "installedVersion": "已安裝版本",
             "notInstalled": "未安裝",
             "serviceStatus": "服務狀態",
@@ -384,25 +384,25 @@
             "disabledBadge": "已停用"
         },
         "controlsCard": {
-            "title": "Controls",
-            "description": "Enable or disable Floorp OS",
-            "enable": "Enable Floorp OS",
-            "disable": "Disable Floorp OS",
-            "refresh": "Refresh Status"
+            "title": "控制",
+            "description": "啟用或停用 Floorp OS",
+            "enable": "啟用 Floorp OS",
+            "disable": "停用 Floorp OS",
+            "refresh": "更新狀態"
         },
         "messages": {
-            "enabling": "Enabling Floorp OS...",
-            "disabling": "Disabling Floorp OS...",
-            "enableSuccess": "Floorp OS enabled successfully!",
-            "disableSuccess": "Floorp OS disabled successfully!"
+            "enabling": "啟用 Floorp OS 中...",
+            "disabling": "停用 Floorp OS 中...",
+            "enableSuccess": "Floorp OS 啟用成功！",
+            "disableSuccess": "Floorp OS 停用成功！"
         },
         "errors": {
-            "apiUnavailable": "OSAutomotor API is not available.",
-            "loadStatus": "Failed to load status: {{reason}}",
-            "enable": "Failed to enable Floorp OS.",
-            "disable": "Failed to disable Floorp OS.",
-            "enableAction": "Error enabling Floorp OS: {{reason}}",
-            "disableAction": "Error disabling Floorp OS: {{reason}}"
+            "apiUnavailable": "OSAutomotor API 無法使用。",
+            "loadStatus": "載入失敗狀態: {{reason}}",
+            "enable": "啟用 Floorp OS 失敗。",
+            "disable": "停用 Floorp OS 失敗。",
+            "enableAction": "啟用 Floorp OS 出錯： {{reason}}",
+            "disableAction": "停用 Floorp OS 出錯： {{reason}}"
         }
     },
     "mouseGesture": {
@@ -423,8 +423,8 @@
         "pattern": "樣式",
         "action": "動作",
         "actionDescription": "手勢說明",
-        "rockerGesturesEnabled": "Enable rocker gestures",
-        "rockerGesturesDescription": "Right-click and move left to go back, right-click and move right to go forward. (Experimental)",
+        "rockerGesturesEnabled": "啟用搖桿手勢",
+        "rockerGesturesDescription": "按一下滑鼠右鍵並向左移動可返回，按一下滑鼠右鍵並向右移動可向前。(實驗性質)",
         "actions": {
             "gecko-back": "返回",
             "gecko-forward": "前進",
