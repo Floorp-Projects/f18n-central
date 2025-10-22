@@ -367,12 +367,12 @@
     },
     "floorpOS": {
         "title": "Floorp OS",
-        "description": "Manage Floorp OS backend modules and services",
-        "loading": "Loading...",
+        "description": "管理 Floorp OS 後端模組與服務",
+        "loading": "正在載入…",
         "statusCard": {
             "title": "狀態",
-            "description": "Current status of Floorp OS",
-            "platformSupport": "Platform Support",
+            "description": "Floorp OS 的當前狀態",
+            "platformSupport": "平台支援",
             "platformSupported": "Your platform is supported",
             "platformUnsupported": "Your platform is not supported",
             "installedVersion": "已安裝版本",
@@ -497,8 +497,8 @@
             "gecko-scroll-left": "向左捲動",
             "gecko-scroll-to-top": "捲動至頂端",
             "gecko-scroll-to-bottom": "捲動至底端",
-            "gecko-workspace-next": "Switch to Next Workspace",
-            "gecko-workspace-previous": "Switch to Previous Workspace"
+            "gecko-workspace-next": "切換到下一個工作空間",
+            "gecko-workspace-previous": "切換到上一個工作空間"
         },
         "edit": "編輯",
         "duplicate": "複製",
