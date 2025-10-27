@@ -2,8 +2,7 @@
     "profileManager": {
         "title": "Profiles",
         "buttons": {
-            "refresh": "Refresh",
-            "restart": "Yeniden Başlat",
+            "refresh": "Refresh List",
             "create": "Create"
         },
         "loading": "Loading…",
@@ -11,7 +10,7 @@
         "current": "Current",
         "default": "Varsayılan",
         "actions": {
-            "open": "Open",
+            "open": "Launch",
             "new": "New",
             "rename": "Yeniden adlandır",
             "remove": "Remove",
