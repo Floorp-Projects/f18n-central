@@ -2,8 +2,7 @@
     "profileManager": {
         "title": "Profiles",
         "buttons": {
-            "refresh": "Refresh",
-            "restart": "Starta om",
+            "refresh": "Refresh List",
             "create": "Create"
         },
         "loading": "Loading…",
@@ -11,7 +10,7 @@
         "current": "Current",
         "default": "Standard",
         "actions": {
-            "open": "Open",
+            "open": "Starta",
             "new": "New",
             "rename": "Byt namn",
             "remove": "Remove",
