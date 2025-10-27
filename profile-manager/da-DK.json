@@ -2,8 +2,7 @@
     "profileManager": {
         "title": "Profiler",
         "buttons": {
-            "refresh": "Refresh",
-            "restart": "Genstart",
+            "refresh": "Refresh List",
             "create": "Create"
         },
         "loading": "Loading…",
@@ -11,7 +10,7 @@
         "current": "Current",
         "default": "Standard",
         "actions": {
-            "open": "Open",
+            "open": "Launch",
             "new": "Ny",
             "rename": "Omdøb",
             "remove": "Remove",
