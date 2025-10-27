@@ -1,0 +1,25 @@
+{
+    "profileManager": {
+        "title": "プロファイル",
+        "buttons": {
+            "refresh": "Refresh",
+            "restart": "再起動",
+            "create": "Create"
+        },
+        "loading": "Loading…",
+        "noProfiles": "No profiles found.",
+        "current": "Current",
+        "default": "デフォルト",
+        "actions": {
+            "open": "Open",
+            "new": "新規作成",
+            "rename": "名前を変更",
+            "remove": "Remove",
+            "setDefault": "デフォルト"
+        },
+        "prompts": {
+            "confirmRemove": "Are you sure you want to remove this profile?",
+            "newName": "New profile name:"
+        }
+    }
+}
