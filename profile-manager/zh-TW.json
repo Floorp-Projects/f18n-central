@@ -2,18 +2,18 @@
     "profileManager": {
         "title": "設定檔",
         "buttons": {
-            "refresh": "Refresh List",
-            "create": "Create"
+            "refresh": "Refresh",
+            "create": "新增"
         },
-        "loading": "Loading…",
+        "loading": "正在載入…",
         "noProfiles": "No profiles found.",
         "current": "Current",
         "default": "預設",
         "actions": {
-            "open": "啟動",
+            "open": "Open",
             "new": "新增筆記",
             "rename": "重新命名",
-            "remove": "Remove",
+            "remove": "移除",
             "setDefault": "預設"
         },
         "prompts": {
