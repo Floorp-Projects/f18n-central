@@ -6,8 +6,8 @@
             "create": "新增"
         },
         "loading": "正在載入…",
-        "noProfiles": "No profiles found.",
-        "current": "Current",
+        "noProfiles": "找不到設定檔。",
+        "current": "目前",
         "default": "預設",
         "actions": {
             "open": "Open",
@@ -17,8 +17,8 @@
             "setDefault": "預設"
         },
         "prompts": {
-            "confirmRemove": "Are you sure you want to remove this profile?",
-            "newName": "New profile name:"
+            "confirmRemove": "您確定要移除此設定檔嗎？",
+            "newName": "新的設定檔名稱："
         }
     }
 }
