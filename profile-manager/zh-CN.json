@@ -1,0 +1,25 @@
+{
+    "profileManager": {
+        "title": "配置文件",
+        "buttons": {
+            "refresh": "Refresh",
+            "restart": "重新启动",
+            "create": "Create"
+        },
+        "loading": "Loading…",
+        "noProfiles": "No profiles found.",
+        "current": "Current",
+        "default": "默认",
+        "actions": {
+            "open": "Open",
+            "new": "新建",
+            "rename": "重命名",
+            "remove": "Remove",
+            "setDefault": "默认"
+        },
+        "prompts": {
+            "confirmRemove": "Are you sure you want to remove this profile?",
+            "newName": "New profile name:"
+        }
+    }
+}
