@@ -1,0 +1,25 @@
+{
+    "profileManager": {
+        "title": "Hồ sơ",
+        "buttons": {
+            "refresh": "Refresh",
+            "restart": "Khởi động lại",
+            "create": "Create"
+        },
+        "loading": "Loading…",
+        "noProfiles": "No profiles found.",
+        "current": "Current",
+        "default": "Đầu",
+        "actions": {
+            "open": "Open",
+            "new": "Tạo",
+            "rename": "Rename",
+            "remove": "Remove",
+            "setDefault": "Đầu"
+        },
+        "prompts": {
+            "confirmRemove": "Are you sure you want to remove this profile?",
+            "newName": "New profile name:"
+        }
+    }
+}
