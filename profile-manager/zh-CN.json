@@ -2,7 +2,7 @@
     "profileManager": {
         "title": "配置文件",
         "buttons": {
-            "refresh": "Refresh List",
+            "refresh": "Refresh",
             "create": "Create"
         },
         "loading": "Loading…",
@@ -10,7 +10,7 @@
         "current": "Current",
         "default": "默认",
         "actions": {
-            "open": "启动",
+            "open": "Open",
             "new": "新建",
             "rename": "重命名",
             "remove": "Remove",
