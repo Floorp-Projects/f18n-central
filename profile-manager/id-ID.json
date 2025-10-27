@@ -2,8 +2,7 @@
     "profileManager": {
         "title": "Profiles",
         "buttons": {
-            "refresh": "Refresh",
-            "restart": "Mulai Ulang",
+            "refresh": "Refresh List",
             "create": "Create"
         },
         "loading": "Loading…",
@@ -11,7 +10,7 @@
         "current": "Current",
         "default": "Bawaan",
         "actions": {
-            "open": "Open",
+            "open": "Launch",
             "new": "New",
             "rename": "Ganti nama",
             "remove": "Remove",
