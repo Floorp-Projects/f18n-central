@@ -1,0 +1,25 @@
+{
+    "profileManager": {
+        "title": "Profiles",
+        "buttons": {
+            "refresh": "Refresh",
+            "restart": "다시 시작",
+            "create": "Create"
+        },
+        "loading": "Loading…",
+        "noProfiles": "No profiles found.",
+        "current": "Current",
+        "default": "기본",
+        "actions": {
+            "open": "Open",
+            "new": "New",
+            "rename": "Rename",
+            "remove": "Remove",
+            "setDefault": "기본"
+        },
+        "prompts": {
+            "confirmRemove": "Are you sure you want to remove this profile?",
+            "newName": "New profile name:"
+        }
+    }
+}
