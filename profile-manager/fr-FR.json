@@ -1,0 +1,25 @@
+{
+    "profileManager": {
+        "title": "Profiles",
+        "buttons": {
+            "refresh": "Refresh",
+            "restart": "Redémarrer",
+            "create": "Create"
+        },
+        "loading": "Loading…",
+        "noProfiles": "No profiles found.",
+        "current": "Current",
+        "default": "Par défaut",
+        "actions": {
+            "open": "Open",
+            "new": "New",
+            "rename": "Renommer",
+            "remove": "Remove",
+            "setDefault": "Par défaut"
+        },
+        "prompts": {
+            "confirmRemove": "Are you sure you want to remove this profile?",
+            "newName": "New profile name:"
+        }
+    }
+}
