@@ -4,12 +4,12 @@
     "tooltiptext": "最後に閉じたタブを開きなおす {{shortcut}}"
   },
   "floorpHubWarning": {
-    "message": "Floorp-specific settings such as the panel sidebar, Workspaces, and mouse gestures are managed in Floorp Hub.",
-    "openButton": "Open Floorp Hub"
+    "message": "パネルのサイドバー、ワークスペース、マウスジェスチャーなどの Floorp 固有の設定は、Floorp Hubで管理できます。",
+    "openButton": "Floorp Hub を開く"
   },
   "floorpStartWarning": {
-    "message": "To change the \"Home\" setting, disable Floorp Start from Floorp Hub (about:hub#/features/design).",
-    "openButton": "Open Floorp Hub — Design"
+    "message": "「ホーム」の設定を変更するには、Floorp Hub から「Floorp Start」を無効にします(about:hub#/features/design)。",
+    "openButton": "Floorp Hub を開く — デザイン"
   },
   "workspaces": {
     "modal": {
@@ -114,7 +114,7 @@
   },
   "privateContainer": {
     "openInPrivateContainer": "プライベートコンテナーで開く",
-    "reopenInPrivateContainer": "Reopen in Private Container",
+    "reopenInPrivateContainer": "プライベート/コンテナなしで再度開く",
     "name": "プライベートコンテナー"
   },
   "mouseGesture": {
