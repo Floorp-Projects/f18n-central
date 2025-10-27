@@ -1,39 +1,39 @@
 {
     "title": {
-        "default": "{{productName}} Notes"
+        "default": "{{productName}} Notas"
     },
     "notes": {
-        "welcome": "Welcome to {{productName}} Notes!",
-        "welcomeContent": "Welcome to {{productName}} Notes! Here's how to use it.\n\n{{productName}} Notes is a note-taking feature that can be synchronized across devices. To enable synchronization, you need to sign in to {{productName}} with a Mozilla account.\n{{productName}} Notes are stored in {{productName}} and synchronized across devices using Firefox Sync. Firefox Sync encrypts the content of the synchronization with your Mozilla account password, so no one can know its contents.",
-        "new": "New Note",
-        "reorder": "Reorder",
-        "done": "Done",
+        "welcome": "Bem-vindo ao {{productName}} Notes!",
+        "welcomeContent": "Bem-vindo ao {{productName}} Notes! Eis como o utilizar.\n\n{{productName}} O Notes é um recurso de tomada de notas que pode ser sincronizado entre dispositivos. Para ativar a sincronização, é necessário iniciar sessão em {{productName}} com uma conta Mozilla.\n{{productName}} As notas são armazenadas em {{productName}} e sincronizadas entre dispositivos através do Firefox Sync. O Firefox Sync encripta o conteúdo da sincronização com a palavra-passe da sua conta Mozilla, para que ninguém possa saber o seu conteúdo.",
+        "new": "Nova nota",
+        "reorder": "Reordenar",
+        "done": "Feito",
         "emptyTitle": "Sem título",
-        "emptyContent": "No content",
-        "noNotesSelected": "Select a note or create a new one",
-        "createNew": "Create New Note",
-        "titlePlaceholder": "Title",
-        "loading": "Loading notes...",
+        "emptyContent": "Sem conteúdo",
+        "noNotesSelected": "Selecionar uma nota ou criar uma nova nota",
+        "createNew": "Criar nova nota",
+        "titlePlaceholder": "Título",
+        "loading": "Carregando notas...",
         "delete": "Eliminar"
     },
     "editor": {
-        "bold": "Bold",
-        "italic": "Italic",
-        "underline": "Underline",
-        "strikethrough": "Strikethrough",
-        "bulletList": "Bullet List",
-        "numberedList": "Numbered List",
-        "alignLeft": "Align Left",
-        "alignCenter": "Align Center",
-        "alignRight": "Align Right",
-        "quote": "Quote",
-        "heading1": "Heading 1",
-        "heading2": "Heading 2",
-        "heading3": "Heading 3"
+        "bold": "Negrito",
+        "italic": "Itálico",
+        "underline": "Sublinhar",
+        "strikethrough": "Riscado",
+        "bulletList": "Lista de marcadores",
+        "numberedList": "Lista numerada",
+        "alignLeft": "Alinhar à esquerda",
+        "alignCenter": "Alinhar ao centro",
+        "alignRight": "Alinhar à direita",
+        "quote": "Citação",
+        "heading1": "Cabeçalho 1",
+        "heading2": "Cabeçalho 2",
+        "heading3": "Cabeçalho 3"
     },
     "error": {
-        "loadFailed": "Failed to load note data",
-        "saveFailed": "Failed to save note data",
-        "indexOutOfRange": "Index {{index}} is out of range"
+        "loadFailed": "Falha ao carregar os dados da nota",
+        "saveFailed": "Falha ao guardar os dados da nota",
+        "indexOutOfRange": "O índice {{index}} está fora do intervalo"
     }
 }
