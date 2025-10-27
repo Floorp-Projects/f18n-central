@@ -1,0 +1,25 @@
+{
+    "profileManager": {
+        "title": "Profile",
+        "buttons": {
+            "refresh": "Refresh",
+            "restart": "Restart",
+            "create": "Create"
+        },
+        "loading": "Loading…",
+        "noProfiles": "No profiles found.",
+        "current": "Current",
+        "default": "Domyślna",
+        "actions": {
+            "open": "Open",
+            "new": "Nowa",
+            "rename": "Rename",
+            "remove": "Remove",
+            "setDefault": "Domyślna"
+        },
+        "prompts": {
+            "confirmRemove": "Are you sure you want to remove this profile?",
+            "newName": "New profile name:"
+        }
+    }
+}
