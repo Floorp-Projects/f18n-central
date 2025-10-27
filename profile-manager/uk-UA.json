@@ -1,0 +1,25 @@
+{
+    "profileManager": {
+        "title": "Обліковий запис",
+        "buttons": {
+            "refresh": "Refresh",
+            "restart": "Перезапустити",
+            "create": "Create"
+        },
+        "loading": "Loading…",
+        "noProfiles": "No profiles found.",
+        "current": "Current",
+        "default": "За замовчуванням",
+        "actions": {
+            "open": "Open",
+            "new": "Новий",
+            "rename": "Перейменувати",
+            "remove": "Remove",
+            "setDefault": "За замовчуванням"
+        },
+        "prompts": {
+            "confirmRemove": "Are you sure you want to remove this profile?",
+            "newName": "New profile name:"
+        }
+    }
+}
