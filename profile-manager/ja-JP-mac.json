@@ -4,22 +4,22 @@
         "buttons": {
             "refresh": "Refresh",
             "restart": "再起動",
-            "create": "Create"
+            "create": "作成"
         },
-        "loading": "Loading…",
-        "noProfiles": "No profiles found.",
-        "current": "Current",
+        "loading": "読み込み中...",
+        "noProfiles": "プロファイルが見つかりません。",
+        "current": "現在",
         "default": "デフォルト",
         "actions": {
-            "open": "Open",
+            "open": "開く",
             "new": "新規作成",
             "rename": "名前を変更",
-            "remove": "Remove",
+            "remove": "削除",
             "setDefault": "デフォルト"
         },
         "prompts": {
-            "confirmRemove": "Are you sure you want to remove this profile?",
-            "newName": "New profile name:"
+            "confirmRemove": "本当にこのプロファイルを削除してもよろしいですか？",
+            "newName": "新規プロファイル名:"
         }
     }
 }
