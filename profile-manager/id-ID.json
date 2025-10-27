@@ -1,0 +1,25 @@
+{
+    "profileManager": {
+        "title": "Profiles",
+        "buttons": {
+            "refresh": "Refresh",
+            "restart": "Mulai Ulang",
+            "create": "Create"
+        },
+        "loading": "Loading…",
+        "noProfiles": "No profiles found.",
+        "current": "Current",
+        "default": "Bawaan",
+        "actions": {
+            "open": "Open",
+            "new": "New",
+            "rename": "Ganti nama",
+            "remove": "Remove",
+            "setDefault": "Bawaan"
+        },
+        "prompts": {
+            "confirmRemove": "Are you sure you want to remove this profile?",
+            "newName": "New profile name:"
+        }
+    }
+}
