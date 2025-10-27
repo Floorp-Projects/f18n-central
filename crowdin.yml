@@ -14,3 +14,9 @@ files:
   - source: /stub-win64-installer/en-US.json
     translation: /stub-win64-installer/%locale%.json
 
+  - source: /profile-manager/en-US.json
+    translation: /profile-manager/%locale%.json
+
+  - source: /notes/en-US.json
+    translation: /notes/%locale%.json
+
