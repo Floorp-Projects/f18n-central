@@ -34,6 +34,6 @@
     "error": {
         "loadFailed": "Failed to load note data",
         "saveFailed": "Failed to save note data",
-        "indexOutOfRange": "Index {{index}} is out of range"
+        "indexOutOfRange": "O índice {{index}} está fora do alcance"
     }
 }
