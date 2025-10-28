@@ -10,7 +10,7 @@
         "current": "Current",
         "default": "Padrão",
         "actions": {
-            "open": "Open",
+            "open": "Abrir",
             "new": "New",
             "rename": "Rename",
             "remove": "Remove",
