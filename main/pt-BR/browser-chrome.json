@@ -189,9 +189,9 @@
       "gecko-scroll-right": "Scroll Right",
       "gecko-scroll-left": "Scroll Left",
       "gecko-scroll-to-top": "Scroll to Top",
-      "gecko-scroll-to-bottom": "Scroll to Bottom",
-      "gecko-workspace-next": "Switch to Next Workspace",
-      "gecko-workspace-previous": "Switch to Previous Workspace"
+      "gecko-scroll-to-bottom": "Rolar para o final",
+      "gecko-workspace-next": "Mudar para a próximo espaço de trabalho",
+      "gecko-workspace-previous": "Mudar para o espaço de trabalho anterior"
     },
     "descriptions": {
       "gecko-back": "Navigate back to the previous page",
@@ -230,7 +230,7 @@
       "url": "Web Page URL",
       "container": "Container",
       "noContainer": "Sem Contêiner",
-      "userAgent": "Use Mobile User Agent",
+      "userAgent": "",
       "extension": "Display Extension",
       "sideBarTool": "Display Sidebar Tool",
       "title": "Add Panel",
