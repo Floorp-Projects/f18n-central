@@ -129,7 +129,7 @@
         },
         "lepton-preferences": {
             "title": "Lepton Settings",
-            "description": "Configure advanced Lepton theme preferences",
+            "description": "Configurar as preferências avançadas do tema Lepton",
             "configureLepton": "Configure Lepton",
             "back": "Back",
             "experimentalWarning": {
