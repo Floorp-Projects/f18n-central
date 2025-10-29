@@ -285,7 +285,7 @@
         "title": "Panel Sidebar",
         "description": "Panel Sidebar is a feature that allows you to display various tools, websites, and extensions on the side of the window. Here, you can customize, add, delete, and manage panels.",
         "basicSettings": "Basic Settings",
-        "howToUseAndCustomize": "How to use and customize Panel Sidebar",
+        "howToUseAndCustomize": "",
         "enableOrDisable": "Enable/Disable",
         "enablePanelSidebar": "Enable Panel Sidebar",
         "enableDescription": "Panel Sidebar is different from Firefox's sidebar and won't interfere with it. Panel Sidebar can display web pages, unlike Firefox's sidebar. You can also manage workspaces in the sidebar.",
@@ -568,7 +568,7 @@
             "closeDescription": "Close without saving changes",
             "save": "Save",
             "saveDescription": "Save the shortcut",
-            "cancel": "Cancel",
+            "cancel": "Cancelar",
             "cancelDescription": "Cancel editing"
         }
     }
