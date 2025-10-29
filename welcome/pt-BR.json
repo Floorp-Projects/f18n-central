@@ -19,7 +19,7 @@
         "sectionTitle": "Floorp Hub",
         "description": "Floorp Hub is a dedicated settings center for Floorp-specific options. You can open it by navigating to 'about:hub'. It can also be accessed from the left sidebar of Firefox's settings page at 'about:preferences'.",
         "openHub": "Open about:hub",
-        "openPreferences": "Open Settings (about:preferences)",
+        "openPreferences": "Abrir Configurações (about:preferences)",
         "tip": "Tip: You can also access Floorp Hub from the Firefox settings sidebar.",
         "features": {
             "dedicated": "Dedicated Floorp settings center",
@@ -155,7 +155,7 @@
         "tags": {
             "settings": "Settings",
             "productivity": "Productivity",
-            "workspaces": "Áreas de trabalho",
+            "workspaces": "Espaços de trabalho",
             "pwa": "PWA",
             "gestures": "Gestures"
         },
