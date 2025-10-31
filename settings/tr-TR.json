@@ -366,42 +366,42 @@
     },
     "floorpOS": {
         "title": "Floorp OS",
-        "description": "Manage Floorp OS backend modules and services",
-        "loading": "Loading...",
+        "description": "Floorp OS arka uç modüllerini ve hizmetlerini yönet",
+        "loading": "Yükleniyor...",
         "statusCard": {
-            "title": "Status",
-            "description": "Current status of Floorp OS",
-            "platformSupport": "Platform Support",
-            "platformSupported": "Your platform is supported",
-            "platformUnsupported": "Your platform is not supported",
-            "installedVersion": "Installed Version",
-            "notInstalled": "Not installed",
-            "serviceStatus": "Service Status",
-            "running": "Running",
-            "stopped": "Stopped",
-            "enabledBadge": "Enabled",
-            "disabledBadge": "Disabled"
+            "title": "Durum",
+            "description": "Floorp OS'nin güncel durumu",
+            "platformSupport": "Platform Desteği",
+            "platformSupported": "Platformunuz destekleniyor",
+            "platformUnsupported": "Platformunuz desteklenmiyor",
+            "installedVersion": "Yüklü sürüm",
+            "notInstalled": "Kurulu değil",
+            "serviceStatus": "Hizmet Durumu",
+            "running": "Çalışıyor",
+            "stopped": "Durduruldu",
+            "enabledBadge": "Etkinleştirildi",
+            "disabledBadge": "Devre dışı"
         },
         "controlsCard": {
-            "title": "Controls",
-            "description": "Enable or disable Floorp OS",
-            "enable": "Enable Floorp OS",
-            "disable": "Disable Floorp OS",
-            "refresh": "Refresh Status"
+            "title": "Kontroller",
+            "description": "Floorp OS'yi etkinleştir / devre dışı bırak",
+            "enable": "Floorp OS'yi Etkinleştir",
+            "disable": "Floorp OS'yi devre dışı bırakın",
+            "refresh": "Durumu Yenile"
         },
         "messages": {
-            "enabling": "Enabling Floorp OS...",
-            "disabling": "Disabling Floorp OS...",
-            "enableSuccess": "Floorp OS enabled successfully!",
-            "disableSuccess": "Floorp OS disabled successfully!"
+            "enabling": "Floorp OS'yi Etkinleştirme",
+            "disabling": "Floorp OS'yi Devre dışı bırakma",
+            "enableSuccess": "Floorp OS başarıyla etkinleştirildi!",
+            "disableSuccess": "Floorp OS başarıyla devre dışı bırakıldı!"
         },
         "errors": {
-            "apiUnavailable": "OSAutomotor API is not available.",
-            "loadStatus": "Failed to load status: {{reason}}",
-            "enable": "Failed to enable Floorp OS.",
-            "disable": "Failed to disable Floorp OS.",
-            "enableAction": "Error enabling Floorp OS: {{reason}}",
-            "disableAction": "Error disabling Floorp OS: {{reason}}"
+            "apiUnavailable": "OSAutomotor API mevcut değil.",
+            "loadStatus": "Durum yüklenemedi: {{reason}}",
+            "enable": "Floorp OS etkinleştirilemedi.",
+            "disable": "Floorp OS devre dışı bırakılamadı.",
+            "enableAction": "Floorp OS etkinleştirilirken hata oluştu: {{reason}}",
+            "disableAction": "Floorp OS devre dışı bırakılırken hata oluştu: {{reason}}"
         }
     },
     "mouseGesture": {
@@ -422,8 +422,8 @@
         "pattern": "Desen",
         "action": "Eylem",
         "actionDescription": "Hareketin açıklaması",
-        "rockerGesturesEnabled": "Enable rocker gestures",
-        "rockerGesturesDescription": "Right-click and move left to go back, right-click and move right to go forward. (Experimental)",
+        "rockerGesturesEnabled": "Rocker hareketlerini etkinleştirin",
+        "rockerGesturesDescription": "Geri gitmek için sağ tıklayın ve sola hareket edin, ileri gitmek için sağ tıklayın ve sağa hareket edin. (Deneysel)",
         "actions": {
             "gecko-back": "Geri",
             "gecko-forward": "İleri",
@@ -496,8 +496,8 @@
             "gecko-scroll-left": "Sola Kaydır",
             "gecko-scroll-to-top": "Başa Kaydır",
             "gecko-scroll-to-bottom": "Sona Kaydır",
-            "gecko-workspace-next": "Switch to Next Workspace",
-            "gecko-workspace-previous": "Switch to Previous Workspace"
+            "gecko-workspace-next": "Sonraki Çalışma Alanına Geç",
+            "gecko-workspace-previous": "Önceki Çalışma Alanına Geç"
         },
         "edit": "Düzenle",
         "duplicate": "Çoğalt",
