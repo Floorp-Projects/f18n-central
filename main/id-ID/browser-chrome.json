@@ -4,12 +4,12 @@
     "tooltiptext": "Buka kembali tab yang baru saja ditutup {{shortcut}}"
   },
   "floorpHubWarning": {
-    "message": "Floorp-specific settings such as the panel sidebar, Workspaces, and mouse gestures are managed in Floorp Hub.",
-    "openButton": "Open Floorp Hub"
+    "message": "Pengaturan spesifik Floorp seperti bilah sisi, Ruang Kerja, dan gestur tetikus dikelola di Floorp Hub.",
+    "openButton": "Buka Floorp Hub"
   },
   "floorpStartWarning": {
-    "message": "To change the \"Home\" setting, disable Floorp Start from Floorp Hub (about:hub#/features/design).",
-    "openButton": "Open Floorp Hub — Design"
+    "message": "Untuk mengubah pengaturan \"Home\", nonaktifkan Floorp Start dari Floorp Hub (about:hub#/features/design).",
+    "openButton": "Buka Floorp Hub — Desain"
   },
   "workspaces": {
     "modal": {
@@ -79,7 +79,7 @@
     }
   },
   "profile-manager-button": {
-    "label": "Profile Manager",
+    "label": "Manajer Profil",
     "tooltiptext": "Buka Manajer Profil"
   },
   "statusbar": {
