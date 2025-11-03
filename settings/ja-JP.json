@@ -30,7 +30,7 @@
         "webApps": "ウェブアプリ",
         "profileAndAccount": "プロファイルとアカウント",
         "aboutBrowser": "{{productName}} について",
-        "updates": "Updates & Experiments",
+        "updates": "更新と実験",
         "debug": "デバッグ",
         "mouseGesture": "マウスジェスチャー",
         "keyboardShortcut": "キーボードショートカット",
@@ -235,7 +235,7 @@
         "closePopupWhenSelectingWorkspace": "ワークスペース選択時にワークスペースのポップアップを閉じる",
         "closePopupWhenSelectingWorkspaceDescription": "ワークスペースを選択した後、ワークスペースのポップアップを閉じるかどうかを選択します。",
         "showWorkspaceNameOnToolbar": "アイコンの隣にワークスペース名を表示",
-        "exitOnLastTabClose": "Exit Floorp when last workspace tab is closed",
+        "exitOnLastTabClose": "最後のワークスペースのタブを閉じたときに Floorp を終了する",
         "manageOnBms": "{{productName}} サイドバーでワークスペースを管理",
         "manageOnBmsDescription": "この機能を有効にすると、 {{productName}} サイドバーでのみワークスペースを管理できます。ツールバーのボタンは引き続き必要ですが、使用できません。",
         "backup": "ワークスペースのバックアップ",
@@ -275,19 +275,19 @@
         "license": "ライセンス"
     },
     "updates": {
-        "title": "Updates & Experiments",
-        "description": "Manage update settings and experimental features participation.",
+        "title": "更新と実験",
+        "description": "更新に関する設定と実験的な機能への参加を管理します。",
         "experiments": {
-            "title": "{{productName}} Test Participation",
-            "description": "Control how {{productName}} enrolls you in experimental features and {{productName}} tests.",
-            "policyLabel": "Participation Policy",
+            "title": "{{productName}} のテストに参加",
+            "description": "{{productName}} の実験的な機能や {{productName}} テストに参加する方法を管理します。",
+            "policyLabel": "参加方針",
             "policy": {
-                "default": "Default (Recommended)",
-                "always": "Always Participate",
-                "never": "Never Participate"
+                "default": "既定 (推奨)",
+                "always": "常に参加",
+                "never": "参加しない"
             },
             "policyHelp": {
-                "default": "Follow the recommended participation policy. You may be enrolled in {{productName}} tests based on rollout percentages.",
+                "default": "推奨の参加方針を選択すると、ロールアウト率に基づいて {{productName}} テストに参加することができます。",
                 "always": "Always participate in all available {{productName}} tests. This option is for users who want to test new features early.",
                 "never": "Never participate in {{productName}} tests. You will only receive stable, tested features."
             },
