@@ -30,7 +30,7 @@
         "webApps": "ウェブアプリ",
         "profileAndAccount": "プロファイルとアカウント",
         "aboutBrowser": "{{productName}} について",
-        "updates": "Updates & Experiments",
+        "updates": "更新と実験",
         "debug": "デバッグ",
         "mouseGesture": "マウスジェスチャー",
         "keyboardShortcut": "キーボードショートカット",
@@ -235,7 +235,7 @@
         "closePopupWhenSelectingWorkspace": "ワークスペース選択時にワークスペースのポップアップを閉じる",
         "closePopupWhenSelectingWorkspaceDescription": "ワークスペースを選択した後、ワークスペースのポップアップを閉じるかどうかを選択します。",
         "showWorkspaceNameOnToolbar": "アイコンの隣にワークスペース名を表示",
-        "exitOnLastTabClose": "Exit Floorp when last workspace tab is closed",
+        "exitOnLastTabClose": "最後のワークスペースのタブを閉じたときに Floorp を終了する",
         "manageOnBms": "{{productName}} サイドバーでワークスペースを管理",
         "manageOnBmsDescription": "この機能を有効にすると、 {{productName}} サイドバーでのみワークスペースを管理できます。ツールバーのボタンは引き続き必要ですが、使用できません。",
         "backup": "ワークスペースのバックアップ",
@@ -275,39 +275,39 @@
         "license": "ライセンス"
     },
     "updates": {
-        "title": "Updates & Experiments",
-        "description": "Manage update settings and experimental features participation.",
+        "title": "更新と実験",
+        "description": "更新に関する設定と実験的な機能への参加を管理します。",
         "experiments": {
-            "title": "{{productName}} Test Participation",
-            "description": "Control how {{productName}} enrolls you in experimental features and {{productName}} tests.",
-            "policyLabel": "Participation Policy",
+            "title": "{{productName}} テストに参加",
+            "description": "{{productName}} の実験的な機能や {{productName}} テストに参加する方法を管理します。",
+            "policyLabel": "参加方針",
             "policy": {
-                "default": "Default (Recommended)",
-                "always": "Always Participate",
-                "never": "Never Participate"
+                "default": "デフォルト (推奨)",
+                "always": "常に参加",
+                "never": "参加しない"
             },
             "policyHelp": {
-                "default": "Follow the recommended participation policy. You may be enrolled in {{productName}} tests based on rollout percentages.",
-                "always": "Always participate in all available {{productName}} tests. This option is for users who want to test new features early.",
-                "never": "Never participate in {{productName}} tests. You will only receive stable, tested features."
+                "default": "推奨の参加方針に従います。ロールアウト率に基づいて {{productName}} テストに参加します。",
+                "always": "利用可能なすべての {{productName}} テストに参加します。新機能を早期に試したいユーザーに向いています。",
+                "never": "{{productName}} テストに参加しません。テスト済みの安定した機能のみを受け取ります。"
             },
-            "confirmClearCache": "Are you sure you want to clear all experiment data? This will reset your assignments and cannot be undone.",
-            "troubleshooting": "Troubleshooting",
-            "clearCacheDescription": "If you are experiencing issues with experiments, clearing the cache may resolve them by resetting all experiment-related data to its initial state.",
-            "clearCache": "Clear Experiment Cache"
+            "confirmClearCache": "本当にすべての実験データを消去しますか？ これにより割り当てがリセットされます。この操作は取り消せません。",
+            "troubleshooting": "トラブルシューティング",
+            "clearCacheDescription": "実験で問題が発生した場合、キャッシュを消去することで実験に関連するすべてのデータが初期状態にリセットされ、問題が解決することがあります。",
+            "clearCache": "実験キャッシュを消去"
         },
         "activeTests": {
-            "title": "Active {{productName}} Tests",
-            "description": "View and manage your currently active test enrollments.",
-            "refresh": "Refresh",
-            "noTests": "You are not currently enrolled in any tests.",
-            "assignedAt": "Enrolled on {{date}}",
-            "disable": "Disable",
-            "enable": "Enable",
+            "title": "有効な {{productName}} テスト",
+            "description": "現在有効なテスト登録を確認および管理します。",
+            "refresh": "更新",
+            "noTests": "現在、どのテストにも参加していません。",
+            "assignedAt": "登録日: {{date}}",
+            "disable": "無効化",
+            "enable": "有効化",
             "disabledLabel": "無効",
-            "confirmDisable": "Are you sure you want to disable this experiment? You can re-enable it later.",
-            "confirmEnable": "Are you sure you want to re-enable this experiment?",
-            "lastUpdated": "Last updated:"
+            "confirmDisable": "本当にこの実験を無効にしますか？ 後で再度有効にできます。",
+            "confirmEnable": "本当にこの実験を再度有効にしますか？",
+            "lastUpdated": "最終更新:"
         }
     },
     "common": {
