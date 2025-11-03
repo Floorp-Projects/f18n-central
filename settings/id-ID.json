@@ -30,7 +30,7 @@
         "webApps": "Aplikasi Web",
         "profileAndAccount": "Profil dan Akun",
         "aboutBrowser": "Tentang {{productName}}",
-        "updates": "Updates & Experiments",
+        "updates": "Pembaruan & Eksperimen",
         "debug": "Awakutu",
         "mouseGesture": "Gestur Tetikus",
         "keyboardShortcut": "Keyboard Shortcuts",
@@ -235,7 +235,7 @@
         "closePopupWhenSelectingWorkspace": "Tutup munculan ruang kerja saat memilih ruang kerja",
         "closePopupWhenSelectingWorkspaceDescription": "Pilih apakah munculan ruang kerja ditutup setelah memilih ruang kerja.",
         "showWorkspaceNameOnToolbar": "Tampilkan nama ruang kerja di sebelah ikon",
-        "exitOnLastTabClose": "Exit Floorp when last workspace tab is closed",
+        "exitOnLastTabClose": "Tutup Floorp saat tab ruang kerja terakhir ditutup",
         "manageOnBms": "Kelola ruang kerja di bilah sisi {{productName}}",
         "manageOnBmsDescription": "Ketika fitur ini diaktifkan, Anda hanya dapat mengelola ruang kerja di bilah sisi {{productName}}. Anda tidak akan dapat mengelola ruang kerja menggunakan tombol bilah alat.",
         "backup": "Pencadangan Ruang Kerja",
@@ -275,16 +275,16 @@
         "license": "Lisensi"
     },
     "updates": {
-        "title": "Updates & Experiments",
-        "description": "Manage update settings and experimental features participation.",
+        "title": "Pembaruan & Eksperimen",
+        "description": "Kelola pengaturan pembaruan dan fitur-fitur eksperimental.",
         "experiments": {
             "title": "{{productName}} Test Participation",
             "description": "Control how {{productName}} enrolls you in experimental features and {{productName}} tests.",
             "policyLabel": "Participation Policy",
             "policy": {
-                "default": "Default (Recommended)",
-                "always": "Always Participate",
-                "never": "Never Participate"
+                "default": "Bawaan (Direkomendasikan)",
+                "always": "Selalu Ikut",
+                "never": "Jangan Pernah Ikut"
             },
             "policyHelp": {
                 "default": "Follow the recommended participation policy. You may be enrolled in {{productName}} tests based on rollout percentages.",
