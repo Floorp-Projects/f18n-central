@@ -30,7 +30,7 @@
         "webApps": "Web Uygulamaları",
         "profileAndAccount": "Profil ve Hesap",
         "aboutBrowser": "{{productName}} Hakkında",
-        "updates": "Updates & Experiments",
+        "updates": "Güncellemeler & Deneyler",
         "debug": "Hata Ayıklama",
         "mouseGesture": "Fare Hareketleri",
         "keyboardShortcut": "Klavye Kısayolları",
@@ -235,7 +235,7 @@
         "closePopupWhenSelectingWorkspace": "Bir çalışma alanı seçerken çalışma alanları açılır penceresini kapat",
         "closePopupWhenSelectingWorkspaceDescription": "Bir çalışma alanı seçerken çalışma alanı açılır penceresinin kapatılıp kapatılmayacağını seçin.",
         "showWorkspaceNameOnToolbar": "Simgenin yanında çalışma alanı adını göster",
-        "exitOnLastTabClose": "Exit Floorp when last workspace tab is closed",
+        "exitOnLastTabClose": "Son çalışma alanı sekmesi kapatıldığında Floorp'tan çıkın",
         "manageOnBms": "Çalışma alanlarını {{productName}} kenar çubuğu üzerinden yönetin",
         "manageOnBmsDescription": "Bu özellik etkinleştirildiğinde, çalışma alanlarını yalnızca {{productName}} kenar çubuğu üzerinden yönetebilirsiniz. Araç çubuğu düğmesini kullanarak çalışma alanlarını yönetemezsiniz.",
         "backup": "Çalışma Alanı Yedekleme",
@@ -275,39 +275,39 @@
         "license": "Lisans"
     },
     "updates": {
-        "title": "Updates & Experiments",
-        "description": "Manage update settings and experimental features participation.",
+        "title": "Güncellemeler & Deneyler",
+        "description": "Güncelleme ayarlarını ve deneysel özelliklerin katılımını yönetin.",
         "experiments": {
-            "title": "{{productName}} Test Participation",
-            "description": "Control how {{productName}} enrolls you in experimental features and {{productName}} tests.",
-            "policyLabel": "Participation Policy",
+            "title": "{{productName}} Teste Katılın",
+            "description": "{{productName}} 'un sizi deneysel özelliklere ve {{productName}} testlerine nasıl kaydedeceğini kontrol edin.",
+            "policyLabel": "Katılım Politikası",
             "policy": {
-                "default": "Default (Recommended)",
-                "always": "Always Participate",
-                "never": "Never Participate"
+                "default": "Varsayılan (Önerilen)",
+                "always": "Her Zaman Katıl",
+                "never": "Asla Katılma"
             },
             "policyHelp": {
-                "default": "Follow the recommended participation policy. You may be enrolled in {{productName}} tests based on rollout percentages.",
-                "always": "Always participate in all available {{productName}} tests. This option is for users who want to test new features early.",
-                "never": "Never participate in {{productName}} tests. You will only receive stable, tested features."
+                "default": "Önerilen katılım politikasını izleyin. Katılım yüzdelerine göre {{productName}} testlerine kaydolabilirsiniz.",
+                "always": "Her zaman mevcut {{productName}} testlerine katılın. Bu seçenek, yeni özellikleri erkenden test etmek isteyen kullanıcılar içindir.",
+                "never": "Asla {{productName}} testlerine katılmayın. Yalnızca kararlı, test edilmiş özellikler alacaksınız."
             },
-            "confirmClearCache": "Are you sure you want to clear all experiment data? This will reset your assignments and cannot be undone.",
-            "troubleshooting": "Troubleshooting",
-            "clearCacheDescription": "If you are experiencing issues with experiments, clearing the cache may resolve them by resetting all experiment-related data to its initial state.",
-            "clearCache": "Clear Experiment Cache"
+            "confirmClearCache": "Tüm deney verilerini silmek istediğinizden emin misiniz? Bu işlem ödevlerinizi sıfırlar ve geri alınamaz.",
+            "troubleshooting": "Sorun giderme",
+            "clearCacheDescription": "Deneylerle ilgili sorunlar yaşıyorsanız, önbelleği temizlemek deneyle ilgili tüm verileri başlangıç durumuna sıfırlayarak sorunları çözebilir.",
+            "clearCache": "Deney Önbelleğini Temizle"
         },
         "activeTests": {
-            "title": "Active {{productName}} Tests",
-            "description": "View and manage your currently active test enrollments.",
-            "refresh": "Refresh",
-            "noTests": "You are not currently enrolled in any tests.",
-            "assignedAt": "Enrolled on {{date}}",
-            "disable": "Disable",
-            "enable": "Enable",
+            "title": "{{productName}} Aktif Testler",
+            "description": "Şu anda aktif olan test kayıtlarınızı görüntüleyin ve yönetin.",
+            "refresh": "Yenile",
+            "noTests": "Şu anda herhangi bir teste kayıtlı değilsiniz.",
+            "assignedAt": "{{date}} tarihinde kayıt oldu",
+            "disable": "Devre dışı",
+            "enable": "Etkinleştir",
             "disabledLabel": "Devre dışı",
-            "confirmDisable": "Are you sure you want to disable this experiment? You can re-enable it later.",
-            "confirmEnable": "Are you sure you want to re-enable this experiment?",
-            "lastUpdated": "Last updated:"
+            "confirmDisable": "Bu deneyi devre dışı bırakmak istediğinizden emin misiniz? Daha sonra yeniden etkinleştirebilirsiniz.",
+            "confirmEnable": "Bu deneyi yeniden etkinleştirmek istediğinizden emin misiniz?",
+            "lastUpdated": "Son güncelleme:"
         }
     },
     "common": {
