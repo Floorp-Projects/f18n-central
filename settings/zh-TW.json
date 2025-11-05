@@ -307,7 +307,7 @@
             "disabledLabel": "已停用",
             "confirmDisable": "您確定要停用這項實驗嗎？您可以稍後重新啟用。",
             "confirmEnable": "您確定要重新啟用此實驗嗎？",
-            "lastUpdated": "Last updated:"
+            "lastUpdated": "上次更新:"
         }
     },
     "common": {
