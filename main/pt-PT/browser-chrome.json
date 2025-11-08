@@ -86,9 +86,9 @@
       "restore-time-minutes": "{{minutes}} minuto atrás",
       "restore-time-minutes_plural": "há {{minutes}} minutos",
       "restore-time-hours": "há {{hours}} hora",
-      "restore-time-hours_plural": "{{hours}} hours ago",
-      "restore-time-days": "{{days}} day ago",
-      "restore-time-days_plural": "{{days}} days ago"
+      "restore-time-hours_plural": "{{hours}} horas atrás",
+      "restore-time-days": "{{days}} dia atrás",
+      "restore-time-days_plural": "{{days}} dias atrás"
     },
     "menu": {
       "moveTabToAnotherWorkspace": "Mover o separador para outro espaço de trabalho"
