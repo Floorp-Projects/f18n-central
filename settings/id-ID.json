@@ -95,6 +95,7 @@
         "style": "Gaya",
         "horizontal": "Horizontal",
         "multirow": "Multibaris",
+        "vertical": "Vertikal",
         "verticalTabIsRemovedFromBrowser": "Tab Vertikal telah dihapus dari {{productName}}. Silakan gunakan Bilah Tab Vertikal asli Firefox sebagai gantinya.",
         "learnMore": "Lebih lanjut",
         "position": "Posisi",
@@ -240,7 +241,17 @@
         "manageOnBmsDescription": "Ketika fitur ini diaktifkan, Anda hanya dapat mengelola ruang kerja di bilah sisi {{productName}}. Anda tidak akan dapat mengelola ruang kerja menggunakan tombol bilah alat.",
         "backup": "Pencadangan Ruang Kerja",
         "backupComingSoon": "Segera Hadir",
-        "backupDescription": "Pelajari tentang pencadangan ruang kerja"
+        "backupDescription": "Pelajari tentang pencadangan ruang kerja",
+        "dangerZone": "Danger Zone",
+        "initializeTitle": "Initialize workspaces",
+        "initializeDescription": "Reset workspace data to its default state. All custom workspaces will be removed and all tabs will be reassigned to the new workspace.",
+        "initializeAction": "Initialize workspaces",
+        "initializeSuccess": "Workspaces have been reset to their default state.",
+        "initializeFailure": "Failed to initialize workspaces. Please try again.",
+        "initializeConfirmTitle": "Initialize Workspaces",
+        "initializeConfirmDescription": "This removes all workspace data and recreates a single default workspace. Do you want to continue?",
+        "initializeConfirmAction": "Initialize",
+        "initializeConfirmCancel": "Batal"
     },
     "accounts": {
         "profileAndAccount": "Profil dan Akun",
