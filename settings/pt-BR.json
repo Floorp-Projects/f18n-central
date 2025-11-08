@@ -95,6 +95,7 @@
         "style": "Estilo",
         "horizontal": "Horizontal",
         "multirow": "Multilinha",
+        "vertical": "Vertical",
         "verticalTabIsRemovedFromBrowser": "As abas verticais foram removidas do {{productName}}. Em vez disso, use a barra de abas verticais nativa do Firefox.",
         "learnMore": "Saiba mais",
         "position": "Posição",
@@ -240,7 +241,17 @@
         "manageOnBmsDescription": "Quando esse recurso estiver ativado, você só poderá gerenciar espaços de trabalho na barra lateral {{productName}}. Não será possível gerenciar espaços de trabalho usando o botão da barra de ferramentas.",
         "backup": "Backup do espaço de trabalho",
         "backupComingSoon": "Em breve",
-        "backupDescription": "Saiba mais sobre o backup dos espaços de trabalho"
+        "backupDescription": "Saiba mais sobre o backup dos espaços de trabalho",
+        "dangerZone": "Danger Zone",
+        "initializeTitle": "Initialize workspaces",
+        "initializeDescription": "Reset workspace data to its default state. All custom workspaces will be removed and all tabs will be reassigned to the new workspace.",
+        "initializeAction": "Initialize workspaces",
+        "initializeSuccess": "Workspaces have been reset to their default state.",
+        "initializeFailure": "Failed to initialize workspaces. Please try again.",
+        "initializeConfirmTitle": "Initialize Workspaces",
+        "initializeConfirmDescription": "This removes all workspace data and recreates a single default workspace. Do you want to continue?",
+        "initializeConfirmAction": "Initialize",
+        "initializeConfirmCancel": "Cancelar"
     },
     "accounts": {
         "profileAndAccount": "Perfil e conta",
