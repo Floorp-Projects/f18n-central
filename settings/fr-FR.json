@@ -95,6 +95,7 @@
         "style": "Style",
         "horizontal": "Horizontale",
         "multirow": "Multi-ligne",
+        "vertical": "Vertical",
         "verticalTabIsRemovedFromBrowser": "Les onglets verticaux ont été supprimés de {{productName}}. Veuillez utiliser la barre d'onglets verticale native de Firefox à la place.",
         "learnMore": "En savoir plus",
         "position": "Emplacement",
@@ -240,7 +241,17 @@
         "manageOnBmsDescription": "Lorsque cette fonctionnalité est activée, vous ne pouvez gérer les espaces de travail que dans la barre latérale de {{productName}} . Vous ne pourrez pas gérer les espaces de travail à l'aide du bouton de la barre d'outils.",
         "backup": "Sauvegarde de l'espace de travail",
         "backupComingSoon": "Prochainement",
-        "backupDescription": "En savoir plus sur la sauvegarde de l'espace de travail"
+        "backupDescription": "En savoir plus sur la sauvegarde de l'espace de travail",
+        "dangerZone": "Danger Zone",
+        "initializeTitle": "Initialize workspaces",
+        "initializeDescription": "Reset workspace data to its default state. All custom workspaces will be removed and all tabs will be reassigned to the new workspace.",
+        "initializeAction": "Initialize workspaces",
+        "initializeSuccess": "Workspaces have been reset to their default state.",
+        "initializeFailure": "Failed to initialize workspaces. Please try again.",
+        "initializeConfirmTitle": "Initialize Workspaces",
+        "initializeConfirmDescription": "This removes all workspace data and recreates a single default workspace. Do you want to continue?",
+        "initializeConfirmAction": "Initialize",
+        "initializeConfirmCancel": "Cancel"
     },
     "accounts": {
         "profileAndAccount": "Profil et compte",
