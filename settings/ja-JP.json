@@ -95,6 +95,7 @@
         "style": "スタイル",
         "horizontal": "水平",
         "multirow": "多段",
+        "vertical": "垂直",
         "verticalTabIsRemovedFromBrowser": "垂直タブは {{productName}} から削除されました。 Firefox のネイティブの垂直タブバーを使用してください。",
         "learnMore": "詳細",
         "position": "位置",
@@ -240,7 +241,17 @@
         "manageOnBmsDescription": "この機能を有効にすると、 {{productName}} サイドバーでのみワークスペースを管理できます。ツールバーのボタンは引き続き必要ですが、使用できません。",
         "backup": "ワークスペースのバックアップ",
         "backupComingSoon": "近日公開",
-        "backupDescription": "ワークスペースのバックアップについて"
+        "backupDescription": "ワークスペースのバックアップについて",
+        "dangerZone": "Danger Zone",
+        "initializeTitle": "Initialize workspaces",
+        "initializeDescription": "Reset workspace data to its default state. All custom workspaces will be removed and all tabs will be reassigned to the new workspace.",
+        "initializeAction": "Initialize workspaces",
+        "initializeSuccess": "Workspaces have been reset to their default state.",
+        "initializeFailure": "Failed to initialize workspaces. Please try again.",
+        "initializeConfirmTitle": "Initialize Workspaces",
+        "initializeConfirmDescription": "This removes all workspace data and recreates a single default workspace. Do you want to continue?",
+        "initializeConfirmAction": "Initialize",
+        "initializeConfirmCancel": "キャンセル"
     },
     "accounts": {
         "profileAndAccount": "プロファイルとアカウント",
