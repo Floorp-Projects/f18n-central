@@ -95,6 +95,7 @@
         "style": "Стиль",
         "horizontal": "Горизонтально",
         "multirow": "Многострочный",
+        "vertical": "Вертикальный",
         "verticalTabIsRemovedFromBrowser": "Вертикальные вкладки были удалены из {{productName}}. Вместо них используйте нативную вертикальную панель вкладок Firefox.",
         "learnMore": "Узнать больше",
         "position": "Расположение",
@@ -240,7 +241,17 @@
         "manageOnBmsDescription": "При включении этой функции управление рабочими пространствами возможно только из боковой панели {{productName}}. Вы не сможете управлять рабочими пространствами с помощью кнопки на панели инструментов.",
         "backup": "Резервное копирование рабочего пространства",
         "backupComingSoon": "Скоро",
-        "backupDescription": "Узнайте о резервном копировании рабочих пространства"
+        "backupDescription": "Узнайте о резервном копировании рабочих пространства",
+        "dangerZone": "Danger Zone",
+        "initializeTitle": "Initialize workspaces",
+        "initializeDescription": "Reset workspace data to its default state. All custom workspaces will be removed and all tabs will be reassigned to the new workspace.",
+        "initializeAction": "Initialize workspaces",
+        "initializeSuccess": "Workspaces have been reset to their default state.",
+        "initializeFailure": "Failed to initialize workspaces. Please try again.",
+        "initializeConfirmTitle": "Initialize Workspaces",
+        "initializeConfirmDescription": "This removes all workspace data and recreates a single default workspace. Do you want to continue?",
+        "initializeConfirmAction": "Initialize",
+        "initializeConfirmCancel": "Отменить"
     },
     "accounts": {
         "profileAndAccount": "Профиль и учетная запись",
