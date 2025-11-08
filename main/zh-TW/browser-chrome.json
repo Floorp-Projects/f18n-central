@@ -65,11 +65,30 @@
       "move-up": "向上移動此工作區",
       "move-down": "向下移動此工作區",
       "delete": "刪除工作區",
-      "manage": "管理工作區"
+      "manage": "管理工作區",
+      "archive": "Archive Workspace"
     },
     "popup": {
       "create-new": "建立新工作區...",
-      "manage": "管理工作區"
+      "manage": "管理工作區",
+      "restore": "Show Archived Workspaces",
+      "restore-cancel": "Exit Restore Mode",
+      "restore-title": "Archived Workspaces",
+      "restore-loading": "Loading archived workspaces…",
+      "restore-empty": "No archived workspaces",
+      "restore-error": "Failed to load archived workspaces",
+      "restore-tooltip": "Toggle restore mode",
+      "restore-item": "Restore \"{{name}}\"",
+      "restore-delete-tooltip": "Delete this archive",
+      "restore-tab-count": "{{count}} tab",
+      "restore-tab-count_plural": "{{count}} tabs",
+      "restore-time-just-now": "Just now",
+      "restore-time-minutes": "{{minutes}} minute ago",
+      "restore-time-minutes_plural": "{{minutes}} minutes ago",
+      "restore-time-hours": "{{hours}} hour ago",
+      "restore-time-hours_plural": "{{hours}} hours ago",
+      "restore-time-days": "{{days}} day ago",
+      "restore-time-days_plural": "{{days}} days ago"
     },
     "menu": {
       "moveTabToAnotherWorkspace": "將分頁移至另一個工作空間"
