@@ -95,6 +95,7 @@
         "style": "样式",
         "horizontal": "横向",
         "multirow": "多行",
+        "vertical": "垂直",
         "verticalTabIsRemovedFromBrowser": "Floorp 老版本内置垂直标签已从 {{productName}}中移除。请使用 Firefox 自带的垂直标签栏。",
         "learnMore": "了解更多",
         "position": "位置",
@@ -240,7 +241,17 @@
         "manageOnBmsDescription": "启用此功能后，您只能在 {{productName}} 侧边栏上管理工作区。您将无法使用工具栏按钮管理工作区。",
         "backup": "工作区备份",
         "backupComingSoon": "敬请期待",
-        "backupDescription": "了解工作区备份"
+        "backupDescription": "了解工作区备份",
+        "dangerZone": "Danger Zone",
+        "initializeTitle": "Initialize workspaces",
+        "initializeDescription": "Reset workspace data to its default state. All custom workspaces will be removed and all tabs will be reassigned to the new workspace.",
+        "initializeAction": "Initialize workspaces",
+        "initializeSuccess": "Workspaces have been reset to their default state.",
+        "initializeFailure": "Failed to initialize workspaces. Please try again.",
+        "initializeConfirmTitle": "Initialize Workspaces",
+        "initializeConfirmDescription": "This removes all workspace data and recreates a single default workspace. Do you want to continue?",
+        "initializeConfirmAction": "Initialize",
+        "initializeConfirmCancel": "取消"
     },
     "accounts": {
         "profileAndAccount": "配置和账户",
