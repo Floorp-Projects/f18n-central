@@ -95,6 +95,7 @@
         "style": "Stil",
         "horizontal": "Vandret",
         "multirow": "Flere rækker",
+        "vertical": "Lodret",
         "verticalTabIsRemovedFromBrowser": "Lodrette faner er blevet fjernet fra {{productName}}. Brug venligst Firefox' indbyggede lodrette fanelinje i stedet.",
         "learnMore": "Lær mere",
         "position": "Position",
@@ -240,7 +241,17 @@
         "manageOnBmsDescription": "Når denne funktion er aktiveret, kan du kun administrere arbejdsområder i sidepanelet {{productName}}. Du vil ikke kunne administrere dem via værktøjslinjens knap.",
         "backup": "Workspace Backup",
         "backupComingSoon": "Kommer snart",
-        "backupDescription": "Learn about workspace backup"
+        "backupDescription": "Learn about workspace backup",
+        "dangerZone": "Danger Zone",
+        "initializeTitle": "Initialize workspaces",
+        "initializeDescription": "Reset workspace data to its default state. All custom workspaces will be removed and all tabs will be reassigned to the new workspace.",
+        "initializeAction": "Initialize workspaces",
+        "initializeSuccess": "Workspaces have been reset to their default state.",
+        "initializeFailure": "Failed to initialize workspaces. Please try again.",
+        "initializeConfirmTitle": "Initialize Workspaces",
+        "initializeConfirmDescription": "This removes all workspace data and recreates a single default workspace. Do you want to continue?",
+        "initializeConfirmAction": "Initialize",
+        "initializeConfirmCancel": "Afbryd"
     },
     "accounts": {
         "profileAndAccount": "Profil og konto",
