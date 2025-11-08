@@ -95,6 +95,7 @@
         "style": "Стиль",
         "horizontal": "Горизонтально",
         "multirow": "Багаторядний",
+        "vertical": "Вертикально",
         "verticalTabIsRemovedFromBrowser": "Вертикальні вкладки було вилучено з {{productName}}. Будь ласка, використовуйте замість них рідну панель вертикальних вкладок Firefox.",
         "learnMore": "Дізнатися більше",
         "position": "Розташування",
@@ -240,7 +241,17 @@
         "manageOnBmsDescription": "Якщо цю функцію ввімкнено, можна керувати лише робочими областями на бічній панелі {{productName}}. Ви не зможете керувати робочими областями за допомогою кнопки панелі інструментів.",
         "backup": "Резервне копіювання робочої області",
         "backupComingSoon": "Незабаром",
-        "backupDescription": "Дізнатися про резервну копію робочої області"
+        "backupDescription": "Дізнатися про резервну копію робочої області",
+        "dangerZone": "Danger Zone",
+        "initializeTitle": "Initialize workspaces",
+        "initializeDescription": "Reset workspace data to its default state. All custom workspaces will be removed and all tabs will be reassigned to the new workspace.",
+        "initializeAction": "Initialize workspaces",
+        "initializeSuccess": "Workspaces have been reset to their default state.",
+        "initializeFailure": "Failed to initialize workspaces. Please try again.",
+        "initializeConfirmTitle": "Initialize Workspaces",
+        "initializeConfirmDescription": "This removes all workspace data and recreates a single default workspace. Do you want to continue?",
+        "initializeConfirmAction": "Initialize",
+        "initializeConfirmCancel": "Скасувати"
     },
     "accounts": {
         "profileAndAccount": "Профіль та обліковий запис",
