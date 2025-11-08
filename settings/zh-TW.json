@@ -95,6 +95,7 @@
         "style": "樣式",
         "horizontal": "水平",
         "multirow": "多層分頁排列",
+        "vertical": "垂直",
         "verticalTabIsRemovedFromBrowser": "垂直分頁已從 {{productName}}中移除。請改用 Firefox 原生的垂直分頁列。",
         "learnMore": "瞭解更多",
         "position": "位置",
@@ -240,7 +241,17 @@
         "manageOnBmsDescription": "啟用此功能後，您只能在 {{productName}} 側邊列上管理工作空間。您將無法使用工具列按鈕管理工作空間。",
         "backup": "工作空間備份",
         "backupComingSoon": "即將推出",
-        "backupDescription": "瞭解工作空間備份"
+        "backupDescription": "瞭解工作空間備份",
+        "dangerZone": "Danger Zone",
+        "initializeTitle": "Initialize workspaces",
+        "initializeDescription": "Reset workspace data to its default state. All custom workspaces will be removed and all tabs will be reassigned to the new workspace.",
+        "initializeAction": "Initialize workspaces",
+        "initializeSuccess": "Workspaces have been reset to their default state.",
+        "initializeFailure": "Failed to initialize workspaces. Please try again.",
+        "initializeConfirmTitle": "Initialize Workspaces",
+        "initializeConfirmDescription": "This removes all workspace data and recreates a single default workspace. Do you want to continue?",
+        "initializeConfirmAction": "Initialize",
+        "initializeConfirmCancel": "取消"
     },
     "accounts": {
         "profileAndAccount": "設定檔和帳戶",
