@@ -72,7 +72,7 @@
         },
         "browserSupport": {
             "title": "Guia do {{productName}}",
-            "description": "Acesse o guia de suporte escrito por colaboradores do {{productName}} .",
+            "description": "Acesse o guia de suporte escrito por colaboradores do {{productName}}.",
             "footerLinkText": "Guia do Floorp"
         }
     },
@@ -334,8 +334,8 @@
         "searchResultsDescription": "Resultados da pesquisa para \"{{query}}\". Somente as configurações do {{productName}} são pesquisadas; as configurações do Firefox não estão incluídas."
     },
     "panelSidebar": {
-        "title": "Barra lateral do painel",
-        "description": "O Panel Sidebar é um recurso que permite exibir várias ferramentas, sites e extensões na lateral da janela. Aqui, você pode personalizar, adicionar, excluir e gerenciar painéis.",
+        "title": "Barra lateral",
+        "description": "A barra lateral é um recurso que permite exibir várias ferramentas, sites e extensões na lateral da janela. Aqui, você pode personalizar, adicionar, excluir e gerenciar painéis.",
         "basicSettings": "Configurações básicas",
         "howToUseAndCustomize": "Como usar e personalizar a barra lateral do painel",
         "enableOrDisable": "Ativar/Desativar",
