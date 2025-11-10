@@ -75,7 +75,7 @@
       "restore-cancel": "復元モードを終了",
       "restore-title": "アーカイブされたワークスペース",
       "restore-loading": "アーカイブされたワークスペースを読み込み中...",
-      "restore-empty": "アーカイブされたワークスペースがありません",
+      "restore-empty": "アーカイブされたワークスペースはありません",
       "restore-error": "アーカイブされたワークスペースの読み込みに失敗しました",
       "restore-tooltip": "復元モードを切り替える",
       "restore-item": "\"{{name}}\" を復元",
