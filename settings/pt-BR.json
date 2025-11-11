@@ -405,7 +405,7 @@
         "showToolbar": "Exibir barra de ferramentas",
         "showToolbarDescription": "Exibe a barra de ferramentas em janelas de aplicativos Web progressivos",
         "installedApps": "Aplicativos instalados",
-        "noInstalledApps": "Nenhum aplicativo progressivo da Web instalado",
+        "noInstalledApps": "Nenhum aplicativo Web progressivo instalado",
         "removeApp": "Remover aplicativo",
         "renameApp": "Renomear aplicativo",
         "enterNewName": "Insira o novo nome",
