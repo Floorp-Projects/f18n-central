@@ -295,8 +295,8 @@
     }
   },
   "nr-webscraper": {
-    "panelTitle": "{{productName}} is operating",
-    "panelDefaultMessage": "{{action}} in progress...",
+    "panelTitle": "{{productName}} 正在運作",
+    "panelDefaultMessage": "{{action}} 進行中...",
     "panelProgressSummary": "Affects {{count}} element(s)",
     "formSummary": "Filling form: {{count}} field(s)",
     "formFieldProgress": "Field {{current}}/{{total}}: \"{{value}}\"",
@@ -309,12 +309,12 @@
     "inspectGetElementByText": "Retrieved element matching text: \"{{text}}\"",
     "inspectGetElementText": "Retrieved text from: {{selector}}",
     "inspectGetValue": "Retrieved value: {{selector}}",
-    "submitForm": "Submitting form: {{name}}",
-    "actionLabelHighlight": "Highlight",
-    "actionLabelInspect": "Inspect",
-    "actionLabelFill": "Fill",
-    "actionLabelInput": "Input",
-    "actionLabelClick": "Click",
-    "actionLabelSubmit": "Submit"
+    "submitForm": "提交表格： {{name}}",
+    "actionLabelHighlight": "焦點",
+    "actionLabelInspect": "檢查",
+    "actionLabelFill": "填入",
+    "actionLabelInput": "輸入",
+    "actionLabelClick": "點選",
+    "actionLabelSubmit": "提交"
   }
 }
