@@ -219,6 +219,9 @@
             },
             "bookmarkBar": {
                 "title": "Barra de favoritos",
+                "position": "Posição (experimental)",
+                "top": "Superior",
+                "bottom": "Inferior",
                 "focusExpand": "Expandir a barra de favoritos ao focalizar"
             }
         }
