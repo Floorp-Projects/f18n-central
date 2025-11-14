@@ -219,6 +219,9 @@
             },
             "bookmarkBar": {
                 "title": "書籤列",
+                "position": "位置 (實驗性質)",
+                "top": "頂部",
+                "bottom": "底部",
                 "focusExpand": "對焦時展開書籤列"
             }
         }
