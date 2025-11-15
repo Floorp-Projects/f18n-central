@@ -91,7 +91,9 @@
       "restore-time-days_plural": "{{days}} 天前"
     },
     "menu": {
-      "moveTabToAnotherWorkspace": "移动标签到另一个工作区"
+      "moveTabToAnotherWorkspace": "移动标签到另一个工作区",
+      "openLinkInWorkspace": "Open Link in Another Workspace",
+      "noOtherWorkspace": "No other workspaces available"
     },
     "error": {
       "invalidWorkspaceID": "工作区 ID 无效（可能请求未更新）"
@@ -105,16 +107,9 @@
     "toggle": "状态栏{{mark}}"
   },
   "splitview": {
-    "title": "拆分视图",
-    "position": "位置",
-    "position-left": "左边",
-    "position-right": "右边",
-    "flex-row": "行",
-    "flex-column": "列",
-    "remove-button": "移除当前视图",
     "tab-context": {
-      "split-tabs": "拆分标签",
-      "split-fixed-tab": "拆分为固定标签"
+      "temporarily-unavailable": "Split View is temporarily unavailable",
+      "details": "Details"
     }
   },
   "ssb": {
