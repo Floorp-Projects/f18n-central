@@ -91,7 +91,9 @@
       "restore-time-days_plural": "{{days}} gün önce"
     },
     "menu": {
-      "moveTabToAnotherWorkspace": "Sekmeyi Başka Bir Çalışma Alanına Taşı"
+      "moveTabToAnotherWorkspace": "Sekmeyi Başka Bir Çalışma Alanına Taşı",
+      "openLinkInWorkspace": "Open Link in Another Workspace",
+      "noOtherWorkspace": "No other workspaces available"
     },
     "error": {
       "invalidWorkspaceID": "Geçersiz çalışma alanı ID'si (sıralama güncel olmayabilir)"
@@ -105,16 +107,9 @@
     "toggle": "Durum Çubuğu{{mark}}"
   },
   "splitview": {
-    "title": "Bölünmüş Görünüm",
-    "position": "Konum",
-    "position-left": "Sol",
-    "position-right": "Sağ",
-    "flex-row": "Satır",
-    "flex-column": "Sütun",
-    "remove-button": "Geçerli Görünümü Kaldır",
     "tab-context": {
-      "split-tabs": "Bölünmüş Sekmeler",
-      "split-fixed-tab": "Sabit Sekmeye Böl"
+      "temporarily-unavailable": "Split View is temporarily unavailable",
+      "details": "Details"
     }
   },
   "ssb": {
