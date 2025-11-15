@@ -66,14 +66,14 @@
       "move-down": "向下移動此工作區",
       "delete": "刪除工作區",
       "manage": "管理工作區",
-      "archive": "存檔工作空間"
+      "archive": "存檔工作區"
     },
     "popup": {
       "create-new": "建立新工作區...",
       "manage": "管理工作區",
-      "restore": "顯示已存檔的工作空間",
+      "restore": "顯示已存檔的工作區",
       "restore-cancel": "退出還原模式",
-      "restore-title": "已存檔的工作空間",
+      "restore-title": "已存檔的工作區",
       "restore-loading": "載入已存檔的工作空間…",
       "restore-empty": "沒有已存檔的工作空間",
       "restore-error": "載入存檔工作空間失敗",
