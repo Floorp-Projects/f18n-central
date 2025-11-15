@@ -91,7 +91,9 @@
       "restore-time-days_plural": "{{days}} hari yang lalu"
     },
     "menu": {
-      "moveTabToAnotherWorkspace": "Pindahkan Tab ke Ruang Kerja Lain"
+      "moveTabToAnotherWorkspace": "Pindahkan Tab ke Ruang Kerja Lain",
+      "openLinkInWorkspace": "Open Link in Another Workspace",
+      "noOtherWorkspace": "No other workspaces available"
     },
     "error": {
       "invalidWorkspaceID": "ID Ruang Kerja tidak valid (mungkin urutan belum diperbarui)"
@@ -105,16 +107,9 @@
     "toggle": "Bilah Status{{mark}}"
   },
   "splitview": {
-    "title": "Tampilan Belah",
-    "position": "Posisi",
-    "position-left": "Kiri",
-    "position-right": "Kanan",
-    "flex-row": "Baris",
-    "flex-column": "Kolom",
-    "remove-button": "Hapus Tampilan Saat Ini",
     "tab-context": {
-      "split-tabs": "Tab Belah",
-      "split-fixed-tab": "Split to Fixed Tab"
+      "temporarily-unavailable": "Split View is temporarily unavailable",
+      "details": "Details"
     }
   },
   "ssb": {
