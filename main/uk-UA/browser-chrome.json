@@ -91,7 +91,9 @@
       "restore-time-days_plural": "{{days}} days ago"
     },
     "menu": {
-      "moveTabToAnotherWorkspace": "Перемістити вкладку в іншу робочу область"
+      "moveTabToAnotherWorkspace": "Перемістити вкладку в іншу робочу область",
+      "openLinkInWorkspace": "Open Link in Another Workspace",
+      "noOtherWorkspace": "No other workspaces available"
     },
     "error": {
       "invalidWorkspaceID": "Недійсний ідентифікатор робочої області (можливо, порядок не оновлено)"
@@ -105,16 +107,9 @@
     "toggle": "Рядок стану{{mark}}"
   },
   "splitview": {
-    "title": "Розділений екран",
-    "position": "Розташування",
-    "position-left": "Лівий",
-    "position-right": "Правий",
-    "flex-row": "Рядок",
-    "flex-column": "Стовпчик",
-    "remove-button": "Видалити поточний вигляд",
     "tab-context": {
-      "split-tabs": "Розділити вкладки",
-      "split-fixed-tab": "Розділити на фіксовану вкладку"
+      "temporarily-unavailable": "Split View is temporarily unavailable",
+      "details": "Details"
     }
   },
   "ssb": {
