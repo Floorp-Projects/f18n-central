@@ -91,7 +91,9 @@
       "restore-time-days_plural": "{{days}} days ago"
     },
     "menu": {
-      "moveTabToAnotherWorkspace": "Flyt fane til andet arbejdsområde"
+      "moveTabToAnotherWorkspace": "Flyt fane til andet arbejdsområde",
+      "openLinkInWorkspace": "Open Link in Another Workspace",
+      "noOtherWorkspace": "No other workspaces available"
     },
     "error": {
       "invalidWorkspaceID": "Not valid ID for Workspaces (maybe order is not updated)"
@@ -105,16 +107,9 @@
     "toggle": "Statuslinje{{mark}}"
   },
   "splitview": {
-    "title": "Opdelt visning",
-    "position": "Position",
-    "position-left": "Venstre",
-    "position-right": "Højre",
-    "flex-row": "Række",
-    "flex-column": "Kolonne",
-    "remove-button": "Fjern nuværende visning",
     "tab-context": {
-      "split-tabs": "Opdel faner",
-      "split-fixed-tab": "Opdel til fast fane"
+      "temporarily-unavailable": "Split View is temporarily unavailable",
+      "details": "Details"
     }
   },
   "ssb": {
