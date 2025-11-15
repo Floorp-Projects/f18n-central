@@ -91,7 +91,9 @@
       "restore-time-days_plural": "{{days}} days ago"
     },
     "menu": {
-      "moveTabToAnotherWorkspace": "탭을 다른 워크스페이스로 이동"
+      "moveTabToAnotherWorkspace": "탭을 다른 워크스페이스로 이동",
+      "openLinkInWorkspace": "Open Link in Another Workspace",
+      "noOtherWorkspace": "No other workspaces available"
     },
     "error": {
       "invalidWorkspaceID": "워크스페이스 ID가 유효하지 않습니다(주문이 업데이트되지 않았을 수 있음)"
@@ -105,16 +107,9 @@
     "toggle": "상태 표시줄{{mark}}"
   },
   "splitview": {
-    "title": "분할 보기",
-    "position": "위치",
-    "position-left": "왼쪽",
-    "position-right": "오른쪽",
-    "flex-row": "평행",
-    "flex-column": "수직",
-    "remove-button": "현재 보기 제거",
     "tab-context": {
-      "split-tabs": "탭 분할",
-      "split-fixed-tab": "분할하여 고정 표시"
+      "temporarily-unavailable": "Split View is temporarily unavailable",
+      "details": "Details"
     }
   },
   "ssb": {
