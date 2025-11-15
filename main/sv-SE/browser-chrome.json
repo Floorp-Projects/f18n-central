@@ -91,7 +91,9 @@
       "restore-time-days_plural": "{{days}} days ago"
     },
     "menu": {
-      "moveTabToAnotherWorkspace": "Flytta flik till en annan arbetsyta"
+      "moveTabToAnotherWorkspace": "Flytta flik till en annan arbetsyta",
+      "openLinkInWorkspace": "Open Link in Another Workspace",
+      "noOtherWorkspace": "No other workspaces available"
     },
     "error": {
       "invalidWorkspaceID": "Ej giltigt ID för arbetsytor (kanske är placeringen inte uppdaterad)"
@@ -105,16 +107,9 @@
     "toggle": "Statusfält{{mark}}"
   },
   "splitview": {
-    "title": "Delad vy",
-    "position": "Position",
-    "position-left": "Vänster",
-    "position-right": "Höger",
-    "flex-row": "Rad",
-    "flex-column": "Kolumn",
-    "remove-button": "Ta bort aktuell vy",
     "tab-context": {
-      "split-tabs": "Dela flikar",
-      "split-fixed-tab": "Dela till fast flik"
+      "temporarily-unavailable": "Split View is temporarily unavailable",
+      "details": "Details"
     }
   },
   "ssb": {
