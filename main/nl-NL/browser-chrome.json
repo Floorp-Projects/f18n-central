@@ -91,7 +91,9 @@
       "restore-time-days_plural": "{{days}} dagen geleden"
     },
     "menu": {
-      "moveTabToAnotherWorkspace": "Tabblad verplaatsen naar een andere workspace"
+      "moveTabToAnotherWorkspace": "Tabblad verplaatsen naar een andere workspace",
+      "openLinkInWorkspace": "Open Link in Another Workspace",
+      "noOtherWorkspace": "No other workspaces available"
     },
     "error": {
       "invalidWorkspaceID": "Geen geldig ID voor Workspaces (misschien is de volgorde niet bijgewerkt)"
@@ -105,16 +107,9 @@
     "toggle": "Statusbalk{{mark}}"
   },
   "splitview": {
-    "title": "Gesplitste weergave",
-    "position": "Positie",
-    "position-left": "Links",
-    "position-right": "Rechts",
-    "flex-row": "Rij",
-    "flex-column": "Kolom",
-    "remove-button": "Huidige weergave verwijderen",
     "tab-context": {
-      "split-tabs": "Tabbladen splitsen",
-      "split-fixed-tab": "Splitsen naar vast tabblad"
+      "temporarily-unavailable": "Split View is temporarily unavailable",
+      "details": "Details"
     }
   },
   "ssb": {
