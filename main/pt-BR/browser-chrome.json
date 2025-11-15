@@ -91,7 +91,9 @@
       "restore-time-days_plural": "{{days}} dias atrás"
     },
     "menu": {
-      "moveTabToAnotherWorkspace": "Mover aba para outra espaço de trabalho"
+      "moveTabToAnotherWorkspace": "Mover aba para outra espaço de trabalho",
+      "openLinkInWorkspace": "Open Link in Another Workspace",
+      "noOtherWorkspace": "No other workspaces available"
     },
     "error": {
       "invalidWorkspaceID": "ID inválida para espaços de trabalho (talvez a ordem não esteja atualizada)"
@@ -105,16 +107,9 @@
     "toggle": "Barra de status{{mark}}"
   },
   "splitview": {
-    "title": "Exibição dividida",
-    "position": "Posição",
-    "position-left": "Esquerda",
-    "position-right": "Direita",
-    "flex-row": "Linha",
-    "flex-column": "Coluna",
-    "remove-button": "Remover exibição atual",
     "tab-context": {
-      "split-tabs": "Dividir abas",
-      "split-fixed-tab": "Dividir para aba fixa"
+      "temporarily-unavailable": "Split View is temporarily unavailable",
+      "details": "Details"
     }
   },
   "ssb": {
