@@ -91,7 +91,9 @@
       "restore-time-days_plural": "{{days}} days ago"
     },
     "menu": {
-      "moveTabToAnotherWorkspace": "Переместить вкладку в другое рабочее пространство"
+      "moveTabToAnotherWorkspace": "Переместить вкладку в другое рабочее пространство",
+      "openLinkInWorkspace": "Open Link in Another Workspace",
+      "noOtherWorkspace": "No other workspaces available"
     },
     "error": {
       "invalidWorkspaceID": "Неправильный идентификатор рабочих пространств (возможно не обновлён порядок)"
@@ -105,16 +107,9 @@
     "toggle": "Строка состояния{{mark}}"
   },
   "splitview": {
-    "title": "Разделённый вид",
-    "position": "Расположение",
-    "position-left": "Слева",
-    "position-right": "Справа",
-    "flex-row": "Строка",
-    "flex-column": "Столбец",
-    "remove-button": "Удалить текущий вид",
     "tab-context": {
-      "split-tabs": "Разделить вкладки",
-      "split-fixed-tab": "Разделить на фиксированную вкладку"
+      "temporarily-unavailable": "Split View is temporarily unavailable",
+      "details": "Details"
     }
   },
   "ssb": {
