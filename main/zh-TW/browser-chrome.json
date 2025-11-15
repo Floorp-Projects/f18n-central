@@ -91,7 +91,9 @@
       "restore-time-days_plural": "{{days}} 日前"
     },
     "menu": {
-      "moveTabToAnotherWorkspace": "將分頁移至另一個工作空間"
+      "moveTabToAnotherWorkspace": "將分頁移至另一個工作空間",
+      "openLinkInWorkspace": "Open Link in Another Workspace",
+      "noOtherWorkspace": "No other workspaces available"
     },
     "error": {
       "invalidWorkspaceID": "工作空間的 ID 無效（或許是因為排序未更新）"
@@ -105,16 +107,9 @@
     "toggle": "狀態列{{mark}}"
   },
   "splitview": {
-    "title": "分離檢視",
-    "position": "位置",
-    "position-left": "左",
-    "position-right": "右",
-    "flex-row": "行",
-    "flex-column": "列",
-    "remove-button": "移除目前的視圖",
     "tab-context": {
-      "split-tabs": "分割分頁",
-      "split-fixed-tab": "分割為固定分頁"
+      "temporarily-unavailable": "Split View is temporarily unavailable",
+      "details": "Details"
     }
   },
   "ssb": {
