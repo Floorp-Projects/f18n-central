@@ -92,8 +92,8 @@
     },
     "menu": {
       "moveTabToAnotherWorkspace": "將分頁移至另一個工作空間",
-      "openLinkInWorkspace": "Open Link in Another Workspace",
-      "noOtherWorkspace": "No other workspaces available"
+      "openLinkInWorkspace": "在其他工作空間中開啟鏈接",
+      "noOtherWorkspace": "沒有其他可用的工作空間"
     },
     "error": {
       "invalidWorkspaceID": "工作空間的 ID 無效（或許是因為排序未更新）"
@@ -108,8 +108,8 @@
   },
   "splitview": {
     "tab-context": {
-      "temporarily-unavailable": "Split View is temporarily unavailable",
-      "details": "Details"
+      "temporarily-unavailable": "暫時無法使用分割檢視",
+      "details": "詳細資訊"
     }
   },
   "ssb": {
