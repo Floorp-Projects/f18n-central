@@ -92,8 +92,8 @@
     },
     "menu": {
       "moveTabToAnotherWorkspace": "Mover aba para outra espaço de trabalho",
-      "openLinkInWorkspace": "Open Link in Another Workspace",
-      "noOtherWorkspace": "No other workspaces available"
+      "openLinkInWorkspace": "Abrir link em outro espaço de trabalho",
+      "noOtherWorkspace": "Não há outros espaços de trabalho disponíveis"
     },
     "error": {
       "invalidWorkspaceID": "ID inválida para espaços de trabalho (talvez a ordem não esteja atualizada)"
@@ -108,8 +108,8 @@
   },
   "splitview": {
     "tab-context": {
-      "temporarily-unavailable": "Split View is temporarily unavailable",
-      "details": "Details"
+      "temporarily-unavailable": "A visualização dividida está temporariamente indisponível",
+      "details": "Detalhes"
     }
   },
   "ssb": {
