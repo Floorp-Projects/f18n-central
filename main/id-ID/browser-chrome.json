@@ -92,8 +92,8 @@
     },
     "menu": {
       "moveTabToAnotherWorkspace": "Pindahkan Tab ke Ruang Kerja Lain",
-      "openLinkInWorkspace": "Open Link in Another Workspace",
-      "noOtherWorkspace": "No other workspaces available"
+      "openLinkInWorkspace": "Buka Tautan di Ruang Kerja Lain",
+      "noOtherWorkspace": "Tidak ada ruang kerja lain yang tersedia"
     },
     "error": {
       "invalidWorkspaceID": "ID Ruang Kerja tidak valid (mungkin urutan belum diperbarui)"
@@ -108,8 +108,8 @@
   },
   "splitview": {
     "tab-context": {
-      "temporarily-unavailable": "Split View is temporarily unavailable",
-      "details": "Details"
+      "temporarily-unavailable": "Tampilan Terbagi sementara tidak tersedia",
+      "details": "Rincian"
     }
   },
   "ssb": {

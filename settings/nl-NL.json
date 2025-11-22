@@ -1,74 +1,74 @@
 {
     "title": {
-        "default": "{{productName}} Settings"
+        "default": "{{productName}} Instellingen"
     },
     "header": {
-        "title": "Settings",
-        "searchPlaceholder": "Search Settings",
-        "darkMode": "Dark Mode"
+        "title": "Instellingen",
+        "searchPlaceholder": "Zoekinstellingen",
+        "darkMode": "Donkere Modus"
     },
     "restartWarningDialog": {
-        "title": "Restart Required",
-        "description": "After restarting, the opened private windows and private tabs will be lost.",
-        "cancel": "Later",
-        "restart": "Restart Now"
+        "title": "Opnieuw opstarten vereist",
+        "description": "Na het opnieuw opstarten gaan de geopende privévensters en privétabbladen verloren.",
+        "cancel": "Niet nu",
+        "restart": "Nu opnieuw opstarten"
     },
     "sidebar": {
-        "firefoxSettings": "Firefox Settings",
-        "about": "About",
-        "aboutNoraneko": "About Noraneko",
+        "firefoxSettings": "Firefox-instellingen",
+        "about": "Over",
+        "aboutNoraneko": "Over Noraneko",
         "debug": "Debug",
-        "overview": "Overview",
-        "features": "Features"
+        "overview": "Overzicht",
+        "features": "Functies"
     },
     "pages": {
-        "home": "Home",
-        "tabAndAppearance": "Tab & Appearance",
-        "browserSidebar": "Panel Sidebar",
+        "home": "Startscherm",
+        "tabAndAppearance": "Tabblad & Uiterlijk",
+        "browserSidebar": "Paneel zijbalk",
         "workspaces": "Workspaces",
-        "keyboardShortcuts": "Keyboard Shortcuts",
+        "keyboardShortcuts": "Sneltoetsen",
         "webApps": "Web Apps",
-        "profileAndAccount": "Profile and Account",
-        "aboutBrowser": "About {{productName}}",
-        "updates": "Updates & Experiments",
+        "profileAndAccount": "Profiel en Account",
+        "aboutBrowser": "Over {{productName}}",
+        "updates": "Updates & Experimenten",
         "debug": "Debug",
-        "mouseGesture": "Mouse Gestures",
-        "keyboardShortcut": "Keyboard Shortcuts",
+        "mouseGesture": "Muis gebaren",
+        "keyboardShortcut": "Sneltoetsen",
         "search": {
-            "title": "Search Settings",
-            "resultsFor": "Search results for \"{{query}}\"",
-            "searchResultsDescription": "Search results for \"{{query}}\". Only {{productName}} settings are searched; Firefox settings are not included.",
-            "noResults": "No results found",
+            "title": "Zoekinstellingen",
+            "resultsFor": "Zoekresultaten voor \"{{query}}\"",
+            "searchResultsDescription": "Zoekresultaten voor \"{{query}}\". Er wordt alleen gezocht op {{productName}} instellingen; Firefox-instellingen worden niet meegenomen.",
+            "noResults": "Geen zoekresultaten",
             "open": "Open \"{{title}}\"",
-            "matchedText": "Matched Text",
-            "results": "Search Results"
+            "matchedText": "Overeenkomende tekst",
+            "results": "Zoekresultaten"
         }
     },
     "home": {
-        "welcome": "Welcome, {{name}} 👋",
-        "defaultAccountName": "{{productName}} User",
-        "description": "Manage your account, privacy, and security to enhance your {{productName}} experience.",
+        "welcome": "Welkom, {{name}}👋",
+        "defaultAccountName": "{{productName}} Gebruiker",
+        "description": "Beheer uw account, privacy en beveiliging om uw {{productName}} ervaring te verbeteren.",
         "setup": {
-            "title": "Setup",
-            "footerLinkText": "Log in to Accounts",
-            "setupDescription": "Complete the setup to maximize your {{productName}} experience.",
-            "setupProgressTitle": "Setup Progress",
-            "step": "Step {{step}} of {{total}}"
+            "title": "Installatie",
+            "footerLinkText": "Inloggen bij Accounts",
+            "setupDescription": "Voltooi de installatie om uw {{productName}} ervaring te maximaliseren.",
+            "setupProgressTitle": "Voortgang van de installatie",
+            "step": "Stap {{step}} van {{total}}"
         },
         "privacyAndTrackingProtection": {
-            "title": "Privacy and Tracking Protection",
-            "footerLinkText": "Privacy and Tracking Protection",
-            "description": "{{productName}} protects your data and privacy by default, but you can also manage these settings manually."
+            "title": "Privacy en Tracking Bescherming",
+            "footerLinkText": "Privacy en Tracking Bescherming",
+            "description": "{{productName}} beschermt standaard je gegevens en privacy, maar je kunt deze instellingen ook handmatig beheren."
         },
         "ablazeAccount": {
-            "title": "Ablaze Account (Coming Soon)",
+            "title": "Ablaze Account (binnenkort beschikbaar)",
             "footerLinkText": "Ablaze Account",
-            "description": "Use a Mozilla Account to sync some data with other devices. Ablaze Account syncs data that can't be synced with a Mozilla Account."
+            "description": "Gebruik een Mozilla-account om bepaalde gegevens met andere apparaten te synchroniseren. Ablaze Account synchroniseert gegevens die niet met een Mozilla-account gesynchroniseerd kunnen worden."
         },
         "manageExtensions": {
-            "title": "Manage Extensions",
-            "description": "{{productName}} allows you to manage extensions available on addons.mozilla.org.",
-            "footerLinkText": "Manage Extensions"
+            "title": "Extensies beheren",
+            "description": "Met {{productName}} kunt u extensies beheren die beschikbaar zijn op addons.mozilla.org.",
+            "footerLinkText": "Extensies beheren"
         },
         "browserSupport": {
             "title": "{{productName}} Support",
