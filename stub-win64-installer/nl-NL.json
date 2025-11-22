@@ -1,7 +1,7 @@
 {
     "app": {
         "status": {
-            "installing": "Installing in the background...",
+            "installing": "Installeren op de achtergrond...",
             "installComplete": "Installation complete"
         },
         "installer": {
