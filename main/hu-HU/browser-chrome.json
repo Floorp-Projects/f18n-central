@@ -1,7 +1,7 @@
 {
   "undo-closed-tab": {
     "label": "Bezárt lap újranyitása",
-    "tooltiptext": "Reopen the last closed tab {{shortcut}}"
+    "tooltiptext": "Az utolsó bezárt lap újranyitása {{shortcut}}"
   },
   "floorpHubWarning": {
     "message": "A Floorp-specifikus beállítások, például a panel oldalsáv, a munkaterületek és az egérmozdulatok kezelése a Floorp Hubban történik.",
@@ -45,41 +45,41 @@
       "network": "Hálózat",
       "notes": "Jegyzetek",
       "paint": "Ecset",
-      "photo": "Photo",
-      "pin": "Pin",
-      "pet": "Pet",
-      "question": "Question",
-      "smartphone": "Smartphone",
-      "star": "Star",
-      "tree": "Tree",
-      "vacation": "Vacation",
-      "love": "Love",
-      "moon": "Moon",
-      "music": "Music",
-      "user": "User"
+      "photo": "Fotó",
+      "pin": "Rögzítés",
+      "pet": "Kisállat",
+      "question": "Kérdés",
+      "smartphone": "Okostelefon",
+      "star": "Csillag",
+      "tree": "Fa",
+      "vacation": "Nyaralás",
+      "love": "Szeretet",
+      "moon": "Hold",
+      "music": "Zene",
+      "user": "Felhasználó"
     },
     "service": {
-      "new-workspace": "New Workspace ({{count}})"
+      "new-workspace": "Új munkaterület ({{count}})"
     },
     "context-menu": {
-      "move-up": "Move this Workspace Up",
-      "move-down": "Move this Workspace Down",
-      "delete": "Delete Workspace",
-      "manage": "Manage Workspace",
-      "archive": "Archive Workspace"
+      "move-up": "A munkaterület mozgatása fel",
+      "move-down": "A munkaterület mozgatása le",
+      "delete": "Munkaterület törlése",
+      "manage": "Munkaterület kezelése",
+      "archive": "Munkaterület archiválása"
     },
     "popup": {
-      "create-new": "Create New Workspace...",
-      "manage": "Manage Workspaces",
-      "restore": "Show Archived Workspaces",
+      "create-new": "Munkaterület létrehozása...",
+      "manage": "Munkaterületek kezelése",
+      "restore": "Archivált munkaterületek megjelenítése",
       "restore-cancel": "Exit Restore Mode",
-      "restore-title": "Archived Workspaces",
+      "restore-title": "Archivált munkaterületek",
       "restore-loading": "Loading archived workspaces…",
       "restore-empty": "No archived workspaces",
       "restore-error": "Failed to load archived workspaces",
-      "restore-tooltip": "Toggle restore mode",
-      "restore-item": "Restore \"{{name}}\"",
-      "restore-delete-tooltip": "Delete this archive",
+      "restore-tooltip": "Visszaállítási mód ki/be",
+      "restore-item": "\"{{name}}\" visszaállítása",
+      "restore-delete-tooltip": "Archívum törlése",
       "restore-tab-count": "{{count}} tab",
       "restore-tab-count_plural": "{{count}} tabs",
       "restore-time-just-now": "Just now",
