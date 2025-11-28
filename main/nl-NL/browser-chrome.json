@@ -8,7 +8,7 @@
     "openButton": "Open Floorp Hub"
   },
   "floorpStartWarning": {
-    "message": "To change the \"Home\" setting, disable Floorp Start from Floorp Hub (about:hub#/features/design).",
+    "message": "Als u de \"Home\" instelling wilt wijzigen, schakelt u de Floorp Start uit van de Floorp Hub (about:hub#/features/design).",
     "openButton": "Open Floorp Hub - Ontwerp"
   },
   "workspaces": {
@@ -80,7 +80,7 @@
       "restore-tooltip": "Herstel modus in-/uitschakelen",
       "restore-item": "Herstel \"{{name}}\"",
       "restore-delete-tooltip": "Dit archief verwijderen",
-      "restore-tab-count": "{{count}} tab",
+      "restore-tab-count": "{{count}} tabblad",
       "restore-tab-count_plural": "{{count}} tabbladen",
       "restore-time-just-now": "Zojuist",
       "restore-time-minutes": "{{minutes}} minuut geleden",
@@ -92,8 +92,8 @@
     },
     "menu": {
       "moveTabToAnotherWorkspace": "Tabblad verplaatsen naar een andere workspace",
-      "openLinkInWorkspace": "Open Link in Another Workspace",
-      "noOtherWorkspace": "No other workspaces available"
+      "openLinkInWorkspace": "Open link in een andere workspace",
+      "noOtherWorkspace": "Geen andere workspace beschikbaar"
     },
     "error": {
       "invalidWorkspaceID": "Geen geldig ID voor Workspaces (misschien is de volgorde niet bijgewerkt)"
@@ -108,7 +108,7 @@
   },
   "splitview": {
     "tab-context": {
-      "temporarily-unavailable": "Split View is temporarily unavailable",
+      "temporarily-unavailable": "Gesplitste weergave is tijdelijk niet beschikbaar",
       "details": "Details"
     }
   },
@@ -265,11 +265,11 @@
   "chrome_css": {
     "menu": "Stijl",
     "rebuild": "Stylesheet herbouwen",
-    "create": "Create New Style Sheet",
-    "open_folder": "Open Style Sheets Folder",
+    "create": "Nieuwe Style Sheet aanmaken",
+    "open_folder": "Open Style Sheets folder",
     "edit_user_chrome": "Bewerk userChrome.css",
     "edit_user_content": "Bewerk userContent.css",
-    "rebuild_complete": "Style sheets rebuilt",
+    "rebuild_complete": "Style Sheets herbouwd",
     "editor_path_not_found": "Editor pad niet gevonden",
     "set_pref_description": "Stel het pad van de editor in",
     "please_enter_filename": "Voer een bestandsnaam in",
@@ -290,26 +290,26 @@
     }
   },
   "nr-webscraper": {
-    "panelTitle": "{{productName}} is operating",
-    "panelDefaultMessage": "{{action}} in progress...",
-    "panelProgressSummary": "Affects {{count}} element(s)",
-    "formSummary": "Filling form: {{count}} field(s)",
-    "formFieldProgress": "Field {{current}}/{{total}}: \"{{value}}\"",
-    "inputValueSet": "Set input value: \"{{value}}\"",
-    "clickElementWithText": "Click {{tag}}: \"{{text}}\"",
-    "clickElementNoText": "Clicking {{tag}} element",
-    "inspectPageHtml": "Retrieved full page HTML",
-    "inspectGetElement": "Retrieved element: {{selector}}",
-    "inspectGetElements": "{{count}} element(s) matched: {{selector}}",
-    "inspectGetElementByText": "Retrieved element matching text: \"{{text}}\"",
-    "inspectGetElementText": "Retrieved text from: {{selector}}",
-    "inspectGetValue": "Retrieved value: {{selector}}",
-    "submitForm": "Submitting form: {{name}}",
-    "actionLabelHighlight": "Highlight",
-    "actionLabelInspect": "Inspect",
-    "actionLabelFill": "Fill",
-    "actionLabelInput": "Input",
-    "actionLabelClick": "Click",
-    "actionLabelSubmit": "Submit"
+    "panelTitle": "{{productName}} is actief",
+    "panelDefaultMessage": "{{action}} wordt uitgevoerd...",
+    "panelProgressSummary": "Beïnvloedt {{count}} element(en)",
+    "formSummary": "Invulformulier: {{count}} veld(en)",
+    "formFieldProgress": "Veld {{current}}/{{total}}: \"{{value}}\"",
+    "inputValueSet": "Invoerwaarde instellen: \"{{value}}\"",
+    "clickElementWithText": "Klik op {{tag}}: \"{{text}}\"",
+    "clickElementNoText": "Klikken op {{tag}} element",
+    "inspectPageHtml": "Volledige pagina HTML opgehaald",
+    "inspectGetElement": "Opgehaald element: {{selector}}",
+    "inspectGetElements": "{{count}} element(en) komen overeen: {{selector}}",
+    "inspectGetElementByText": "Element met overeenkomende tekst opgehaald: \"{{text}}\"",
+    "inspectGetElementText": "Tekst opgehaald van: {{selector}}",
+    "inspectGetValue": "Opgehaalde waarde: {{selector}}",
+    "submitForm": "Formulier versturen: {{name}}",
+    "actionLabelHighlight": "Markeren",
+    "actionLabelInspect": "Inspecteren",
+    "actionLabelFill": "Vullen",
+    "actionLabelInput": "Invoer",
+    "actionLabelClick": "Klik",
+    "actionLabelSubmit": "Versturen"
   }
 }
