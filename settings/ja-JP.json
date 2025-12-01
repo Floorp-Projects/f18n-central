@@ -211,7 +211,7 @@
             },
             "newtab": {
                 "title": "新しいタブ",
-                "disable{{productName}}Start": "Disable {{productName}} Start"
+                "disable{{productName}}Start": "{{productName}} Start を無効にする"
             },
             "multirowTab": {
                 "title": "多段タブ",
@@ -239,7 +239,7 @@
         "closePopupWhenSelectingWorkspace": "ワークスペース選択時にワークスペースのポップアップを閉じる",
         "closePopupWhenSelectingWorkspaceDescription": "ワークスペースを選択した後、ワークスペースのポップアップを閉じるかどうかを選択します。",
         "showWorkspaceNameOnToolbar": "アイコンの隣にワークスペース名を表示",
-        "exitOnLastTabClose": "Exit {{productName}} when last workspace tab is closed",
+        "exitOnLastTabClose": "最後のワークスペースのタブを閉じたときに {{productName}} を終了する",
         "manageOnBms": "{{productName}} サイドバーでワークスペースを管理",
         "manageOnBmsDescription": "この機能を有効にすると、 {{productName}} サイドバーでのみワークスペースを管理できます。ツールバーのボタンは引き続き必要ですが、使用できません。",
         "backup": "ワークスペースのバックアップ",
@@ -258,7 +258,7 @@
     },
     "accounts": {
         "profileAndAccount": "プロファイルとアカウント",
-        "profileDescription": "Profiles contain browsing-related information such as history, bookmarks, settings, and add-ons. {{productName}} uses this profile to save data.",
+        "profileDescription": "プロファイルには、履歴、ブックマーク、設定、アドオンなどの閲覧関連情報が含まれています。 {{productName}} はこのプロファイルを使用してデータを保存します。",
         "profileManagement": "プロファイルを管理",
         "profileManagementDescription": "プロファイルは作成するたびに別のデータとして保存されます。データはプロファイルフォルダーに保存されます。",
         "currentProfileName": "現在のプロファイル名: {{name}}",
@@ -267,8 +267,8 @@
         "openProfileSaveLocation": "プロファイルの保存先を開く",
         "mozillaAccountSyncSettings": "Mozilla アカウントの同期設定",
         "syncedTo": "{{email}} に同期中",
-        "sync{{productName}}NotesToMozillaAccount": "Sync {{productName}} Notes to Mozilla Account (Experimental)",
-        "{{productName}}FeatureSyncSettings": "{{productName}} Feature Sync Settings",
+        "sync{{productName}}NotesToMozillaAccount": "{{productName}} Notes を Mozilla アカウントと同期 (実験的)",
+        "{{productName}}FeatureSyncSettings": "{{productName}} 機能の同期設定",
         "manageMozillaAccount": "Mozilla アカウントを管理",
         "manageFirefoxFeatureSync": "Firefox 機能の同期を管理",
         "aboutMozillaAccount": "Mozilla アカウントについて",
@@ -292,8 +292,8 @@
         "title": "更新と実験",
         "description": "更新に関する設定と実験的な機能への参加を管理します。",
         "experiments": {
-            "title": "{{productName}} Flasco Participation",
-            "description": "Control how {{productName}} enrolls you in experimental features and {{productName}} Flascos.",
+            "title": "{{productName}} Flasco に参加",
+            "description": "{{productName}} の実験的な機能や {{productName}} Flasco に参加する方法を管理します。",
             "policyLabel": "参加方針",
             "policy": {
                 "default": "既定 (推奨)",
@@ -301,9 +301,9 @@
                 "never": "参加しない"
             },
             "policyHelp": {
-                "default": "Follow the recommended participation policy. You may be enrolled in {{productName}} Flasco based on rollout percentages.",
-                "always": "Always participate in all available {{productName}} Flascos. This option is for users who want to test new features early.",
-                "never": "Never participate in {{productName}} Flascos. You will only receive stable, tested features."
+                "default": "推奨の参加方針に従います。ロールアウト率に基づいて {{productName}} Flasco に参加します。",
+                "always": "利用可能なすべての {{productName}} Flasco に参加します。新機能を早期に試したいユーザーに向いています。",
+                "never": "{{productName}} Flasco に参加しません。テスト済みの安定した機能のみを受け取ります。"
             },
             "confirmClearCache": "本当にすべての実験データを消去しますか？ これにより割り当てがリセットされます。この操作は取り消せません。",
             "troubleshooting": "トラブルシューティング",
@@ -311,16 +311,16 @@
             "clearCache": "実験キャッシュを消去"
         },
         "activeFlascos": {
-            "title": "Active {{productName}} Flascos",
-            "description": "View and manage your currently active Flasco enrollments.",
+            "title": "有効な {{productName}} Flasco",
+            "description": "現在有効な Flasco 登録を確認および管理します。",
             "refresh": "更新",
-            "noFlascos": "You are not currently enrolled in any Flascos.",
+            "noFlascos": "現在、どの Flasco にも参加していません。",
             "assignedAt": "登録日: {{date}}",
             "disable": "無効化",
             "enable": "有効化",
             "disabledLabel": "無効",
-            "confirmDisable": "Are you sure you want to disable this Flasco? You can re-enable it later.",
-            "confirmEnable": "Are you sure you want to re-enable this Flasco?",
+            "confirmDisable": "本当にこの Flasco を無効にしますか？ 後で再度有効にできます。",
+            "confirmEnable": "本当にこの Flasco を再度有効にしますか？",
             "lastUpdated": "最終更新:"
         }
     },
@@ -421,11 +421,11 @@
     },
     "floorpOS": {
         "title": "{{productName}} OS",
-        "description": "Manage {{productName}} OS backend modules and services",
+        "description": "{{productName}} OS のバックエンドモジュールとサービスを管理",
         "loading": "読み込み中...",
         "statusCard": {
             "title": "状態",
-            "description": "Current status of {{productName}} OS",
+            "description": "{{productName}} OS の現在の状態",
             "platformSupport": "プラットフォーム対応",
             "platformSupported": "お使いのプラットフォームはサポートされています",
             "platformUnsupported": "お使いのプラットフォームはサポートされていません",
@@ -439,24 +439,24 @@
         },
         "controlsCard": {
             "title": "制御",
-            "description": "Enable or disable {{productName}} OS",
-            "enable": "Enable {{productName}} OS",
-            "disable": "Disable {{productName}} OS",
+            "description": "{{productName}} OS を有効または無効にする",
+            "enable": "{{productName}} OS を有効にする",
+            "disable": "{{productName}} OS を無効にする",
             "refresh": "状態を更新"
         },
         "messages": {
-            "enabling": "Enabling {{productName}} OS...",
-            "disabling": "Disabling {{productName}} OS...",
-            "enableSuccess": "{{productName}} OS enabled successfully!",
-            "disableSuccess": "{{productName}} OS disabled successfully!"
+            "enabling": "{{productName}} OS を有効にしています...",
+            "disabling": "{{productName}} OS を無効にしています...",
+            "enableSuccess": "{{productName}} OS は正常に有効になりました！",
+            "disableSuccess": "{{productName}} OS は正常に無効になりました！"
         },
         "errors": {
             "apiUnavailable": "OSAutomotor API は利用できません。",
             "loadStatus": "状態の読み込みに失敗しました: {{reason}}",
-            "enable": "Failed to enable {{productName}} OS.",
-            "disable": "Failed to disable {{productName}} OS.",
-            "enableAction": "Error enabling {{productName}} OS: {{reason}}",
-            "disableAction": "Error disabling {{productName}} OS: {{reason}}"
+            "enable": "{{productName}} OS を有効にできませんでした。",
+            "disable": "{{productName}} OS を無効にできませんでした。",
+            "enableAction": "{{productName}} OS の有効化でエラー: {{reason}}",
+            "disableAction": "{{productName}} OS の無効化でエラー: {{reason}}"
         }
     },
     "mouseGesture": {
