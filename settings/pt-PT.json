@@ -211,7 +211,7 @@
             },
             "newtab": {
                 "title": "Novo separador",
-                "disable{{productName}}Start": "Disable {{productName}} Start"
+                "disable{{productName}}Start": "Desativar {{productName}} Start"
             },
             "multirowTab": {
                 "title": "Separador de várias linhas",
@@ -239,7 +239,7 @@
         "closePopupWhenSelectingWorkspace": "Fechar o pop-up do espaço de trabalho ao selecionar um espaço de trabalho",
         "closePopupWhenSelectingWorkspaceDescription": "Escolha se o pop-up do espaço de trabalho deve ser fechado ao selecionar um espaço de trabalho.",
         "showWorkspaceNameOnToolbar": "Mostrar o nome do espaço de trabalho junto ao ícone",
-        "exitOnLastTabClose": "Exit {{productName}} when last workspace tab is closed",
+        "exitOnLastTabClose": "Sair de {{productName}} quando o último separador do espaço de trabalho é fechado",
         "manageOnBms": "Gerir espaços de trabalho na barra lateral {{productName}}",
         "manageOnBmsDescription": "Quando esta funcionalidade está ativada, só é possível gerir espaços de trabalho na barra lateral {{productName}}. Não será possível gerir espaços de trabalho utilizando o botão da barra de ferramentas.",
         "backup": "Cópia de segurança do espaço de trabalho",
@@ -258,7 +258,7 @@
     },
     "accounts": {
         "profileAndAccount": "Perfil e conta",
-        "profileDescription": "Profiles contain browsing-related information such as history, bookmarks, settings, and add-ons. {{productName}} uses this profile to save data.",
+        "profileDescription": "Os perfis contêm informações relacionadas com a navegação, como o histórico, os marcadores, as definições e os suplementos. O {{productName}} utiliza este perfil para guardar dados.",
         "profileManagement": "Gestão de perfis",
         "profileManagementDescription": "Os perfis podem ser criados e separados uns dos outros, e os seus dados são armazenados na pasta de perfis.",
         "currentProfileName": "Nome do perfil atual: {{name}}",
@@ -267,8 +267,8 @@
         "openProfileSaveLocation": "Abrir localização do perfil guardado",
         "mozillaAccountSyncSettings": "Definições de sincronização da conta Mozilla",
         "syncedTo": "Sincronizado com {{email}}",
-        "sync{{productName}}NotesToMozillaAccount": "Sync {{productName}} Notes to Mozilla Account (Experimental)",
-        "{{productName}}FeatureSyncSettings": "{{productName}} Feature Sync Settings",
+        "sync{{productName}}NotesToMozillaAccount": "Sincronizar {{productName}} Notas com a conta Mozilla (Experimental)",
+        "{{productName}}FeatureSyncSettings": "{{productName}} Definições de sincronização de funcionalidades",
         "manageMozillaAccount": "Gerir a conta Mozilla",
         "manageFirefoxFeatureSync": "Gerir a sincronização de funcionalidades do Firefox",
         "aboutMozillaAccount": "Sobre a conta Mozilla",
@@ -292,8 +292,8 @@
         "title": "Actualizações e experiências",
         "description": "Gerir as definições de atualização e a participação em funcionalidades experimentais.",
         "experiments": {
-            "title": "{{productName}} Flasco Participation",
-            "description": "Control how {{productName}} enrolls you in experimental features and {{productName}} Flascos.",
+            "title": "{{productName}} Participação Flasco",
+            "description": "Controlar a forma como {{productName}} o inscreve em funcionalidades experimentais e {{productName}} Flascos.",
             "policyLabel": "Política de participação",
             "policy": {
                 "default": "Predefinição (Recomendado)",
@@ -301,9 +301,9 @@
                 "never": "Nunca participar"
             },
             "policyHelp": {
-                "default": "Follow the recommended participation policy. You may be enrolled in {{productName}} Flasco based on rollout percentages.",
-                "always": "Always participate in all available {{productName}} Flascos. This option is for users who want to test new features early.",
-                "never": "Never participate in {{productName}} Flascos. You will only receive stable, tested features."
+                "default": "Siga a política de participação recomendada. Pode ser inscrito em {{productName}} Flasco com base nas percentagens de lançamento.",
+                "always": "Participar sempre em todos os {{productName}} Flascos disponíveis. Esta opção destina-se a utilizadores que pretendam testar antecipadamente novas funcionalidades.",
+                "never": "Nunca participe em {{productName}} Flascos. Receberá apenas funcionalidades estáveis e testadas."
             },
             "confirmClearCache": "Tem a certeza de que pretende apagar todos os dados da experiência? Isto irá repor as suas atribuições e não pode ser anulado.",
             "troubleshooting": "Resolução de problemas",
@@ -311,16 +311,16 @@
             "clearCache": "Limpar a cache da experiência"
         },
         "activeFlascos": {
-            "title": "Active {{productName}} Flascos",
-            "description": "View and manage your currently active Flasco enrollments.",
+            "title": "Ativo {{productName}} Flascos",
+            "description": "Ver e gerir as suas inscrições Flasco atualmente activas.",
             "refresh": "Atualizar",
-            "noFlascos": "You are not currently enrolled in any Flascos.",
+            "noFlascos": "Não está atualmente inscrito em nenhum Flascos.",
             "assignedAt": "Inscrito em {{date}}",
             "disable": "Desativar",
             "enable": "Ativar",
             "disabledLabel": "Desativado",
-            "confirmDisable": "Are you sure you want to disable this Flasco? You can re-enable it later.",
-            "confirmEnable": "Are you sure you want to re-enable this Flasco?",
+            "confirmDisable": "Tem a certeza de que pretende desativar este Flasco? Pode voltar a activá-lo mais tarde.",
+            "confirmEnable": "Tem a certeza de que pretende voltar a ativar este Flasco?",
             "lastUpdated": "Última atualização:"
         }
     },
@@ -420,12 +420,12 @@
         "uninstall": "Desinstalar"
     },
     "floorpOS": {
-        "title": "{{productName}} OS",
-        "description": "Manage {{productName}} OS backend modules and services",
+        "title": "{{productName}} SO",
+        "description": "Gerir os módulos e serviços backend do {{productName}} OS",
         "loading": "Loading...",
         "statusCard": {
             "title": "Status",
-            "description": "Current status of {{productName}} OS",
+            "description": "Estado atual do {{productName}} OS",
             "platformSupport": "Platform Support",
             "platformSupported": "Your platform is supported",
             "platformUnsupported": "Your platform is not supported",
@@ -439,24 +439,24 @@
         },
         "controlsCard": {
             "title": "Controls",
-            "description": "Enable or disable {{productName}} OS",
-            "enable": "Enable {{productName}} OS",
-            "disable": "Disable {{productName}} OS",
+            "description": "Ativar ou desativar {{productName}} OS",
+            "enable": "Ativar {{productName}} OS",
+            "disable": "Desativar {{productName}} OS",
             "refresh": "Refresh Status"
         },
         "messages": {
-            "enabling": "Enabling {{productName}} OS...",
-            "disabling": "Disabling {{productName}} OS...",
-            "enableSuccess": "{{productName}} OS enabled successfully!",
-            "disableSuccess": "{{productName}} OS disabled successfully!"
+            "enabling": "Ativar {{productName}} OS...",
+            "disabling": "Desativar {{productName}} OS...",
+            "enableSuccess": "{{productName}} SO ativado com sucesso!",
+            "disableSuccess": "{{productName}} SO desativado com sucesso!"
         },
         "errors": {
             "apiUnavailable": "OSAutomotor API is not available.",
             "loadStatus": "Failed to load status: {{reason}}",
-            "enable": "Failed to enable {{productName}} OS.",
-            "disable": "Failed to disable {{productName}} OS.",
-            "enableAction": "Error enabling {{productName}} OS: {{reason}}",
-            "disableAction": "Error disabling {{productName}} OS: {{reason}}"
+            "enable": "Falha ao ativar {{productName}} OS.",
+            "disable": "Falha ao desativar {{productName}} OS.",
+            "enableAction": "Erro ao ativar {{productName}} OS: {{reason}}",
+            "disableAction": "Erro ao desativar o {{productName}} OS: {{reason}}"
         }
     },
     "mouseGesture": {
