@@ -211,7 +211,7 @@
             },
             "newtab": {
                 "title": "新しいタブ",
-                "disableFloorpStart": "Floorp Start を無効にする"
+                "disable{{productName}}Start": "Disable {{productName}} Start"
             },
             "multirowTab": {
                 "title": "多段タブ",
@@ -239,7 +239,7 @@
         "closePopupWhenSelectingWorkspace": "ワークスペース選択時にワークスペースのポップアップを閉じる",
         "closePopupWhenSelectingWorkspaceDescription": "ワークスペースを選択した後、ワークスペースのポップアップを閉じるかどうかを選択します。",
         "showWorkspaceNameOnToolbar": "アイコンの隣にワークスペース名を表示",
-        "exitOnLastTabClose": "最後のワークスペースのタブを閉じたときに Floorp を終了する",
+        "exitOnLastTabClose": "Exit {{productName}} when last workspace tab is closed",
         "manageOnBms": "{{productName}} サイドバーでワークスペースを管理",
         "manageOnBmsDescription": "この機能を有効にすると、 {{productName}} サイドバーでのみワークスペースを管理できます。ツールバーのボタンは引き続き必要ですが、使用できません。",
         "backup": "ワークスペースのバックアップ",
@@ -258,7 +258,7 @@
     },
     "accounts": {
         "profileAndAccount": "プロファイルとアカウント",
-        "profileDescription": "プロファイルには、履歴、ブックマーク、設定、アドオンなどの閲覧関連情報が含まれています。 Floorp はこのプロファイルを使用してデータを保存します。",
+        "profileDescription": "Profiles contain browsing-related information such as history, bookmarks, settings, and add-ons. {{productName}} uses this profile to save data.",
         "profileManagement": "プロファイルを管理",
         "profileManagementDescription": "プロファイルは作成するたびに別のデータとして保存されます。データはプロファイルフォルダーに保存されます。",
         "currentProfileName": "現在のプロファイル名: {{name}}",
@@ -267,8 +267,8 @@
         "openProfileSaveLocation": "プロファイルの保存先を開く",
         "mozillaAccountSyncSettings": "Mozilla アカウントの同期設定",
         "syncedTo": "{{email}} に同期中",
-        "syncFloorpNotesToMozillaAccount": "Floorp Notes を Mozilla アカウントと同期 (実験的)",
-        "floorpFeatureSyncSettings": "Floorp 機能の同期設定",
+        "sync{{productName}}NotesToMozillaAccount": "Sync {{productName}} Notes to Mozilla Account (Experimental)",
+        "{{productName}}FeatureSyncSettings": "{{productName}} Feature Sync Settings",
         "manageMozillaAccount": "Mozilla アカウントを管理",
         "manageFirefoxFeatureSync": "Firefox 機能の同期を管理",
         "aboutMozillaAccount": "Mozilla アカウントについて",
@@ -292,8 +292,8 @@
         "title": "更新と実験",
         "description": "更新に関する設定と実験的な機能への参加を管理します。",
         "experiments": {
-            "title": "{{productName}} テストに参加",
-            "description": "{{productName}} の実験的な機能や {{productName}} テストに参加する方法を管理します。",
+            "title": "{{productName}} Flasco Participation",
+            "description": "Control how {{productName}} enrolls you in experimental features and {{productName}} Flascos.",
             "policyLabel": "参加方針",
             "policy": {
                 "default": "既定 (推奨)",
@@ -301,26 +301,26 @@
                 "never": "参加しない"
             },
             "policyHelp": {
-                "default": "推奨の参加方針に従います。ロールアウト率に基づいて {{productName}} テストに参加します。",
-                "always": "利用可能なすべての {{productName}} テストに参加します。新機能を早期に試したいユーザーに向いています。",
-                "never": "{{productName}} テストに参加しません。テスト済みの安定した機能のみを受け取ります。"
+                "default": "Follow the recommended participation policy. You may be enrolled in {{productName}} Flasco based on rollout percentages.",
+                "always": "Always participate in all available {{productName}} Flascos. This option is for users who want to test new features early.",
+                "never": "Never participate in {{productName}} Flascos. You will only receive stable, tested features."
             },
             "confirmClearCache": "本当にすべての実験データを消去しますか？ これにより割り当てがリセットされます。この操作は取り消せません。",
             "troubleshooting": "トラブルシューティング",
             "clearCacheDescription": "実験で問題が発生した場合、キャッシュを消去して実験に関連するすべてのデータを初期状態にリセットすることで、解決することがあります。",
             "clearCache": "実験キャッシュを消去"
         },
-        "activeTests": {
-            "title": "有効な {{productName}} テスト",
-            "description": "現在有効なテスト登録を確認および管理します。",
+        "activeFlascos": {
+            "title": "Active {{productName}} Flascos",
+            "description": "View and manage your currently active Flasco enrollments.",
             "refresh": "更新",
-            "noTests": "現在、どのテストにも参加していません。",
+            "noFlascos": "You are not currently enrolled in any Flascos.",
             "assignedAt": "登録日: {{date}}",
             "disable": "無効化",
             "enable": "有効化",
             "disabledLabel": "無効",
-            "confirmDisable": "本当にこの実験を無効にしますか？ 後で再度有効にできます。",
-            "confirmEnable": "本当にこの実験を再度有効にしますか？",
+            "confirmDisable": "Are you sure you want to disable this Flasco? You can re-enable it later.",
+            "confirmEnable": "Are you sure you want to re-enable this Flasco?",
             "lastUpdated": "最終更新:"
         }
     },
@@ -420,12 +420,12 @@
         "uninstall": "アンインストール"
     },
     "floorpOS": {
-        "title": "Floorp OS",
-        "description": "Floorp OS のバックエンドモジュールとサービスを管理",
+        "title": "{{productName}} OS",
+        "description": "Manage {{productName}} OS backend modules and services",
         "loading": "読み込み中...",
         "statusCard": {
             "title": "状態",
-            "description": "Floorp OS の現在の状態",
+            "description": "Current status of {{productName}} OS",
             "platformSupport": "プラットフォーム対応",
             "platformSupported": "お使いのプラットフォームはサポートされています",
             "platformUnsupported": "お使いのプラットフォームはサポートされていません",
@@ -439,24 +439,24 @@
         },
         "controlsCard": {
             "title": "制御",
-            "description": "Floorp OS の有効化または無効化",
-            "enable": "Floorp OS を有効にする",
-            "disable": "Floorp OS を無効にする",
+            "description": "Enable or disable {{productName}} OS",
+            "enable": "Enable {{productName}} OS",
+            "disable": "Disable {{productName}} OS",
             "refresh": "状態を更新"
         },
         "messages": {
-            "enabling": "Floorp OS を有効化中...",
-            "disabling": "Floorp OS を無効化中...",
-            "enableSuccess": "Floorp OS は正常に有効になりました！",
-            "disableSuccess": "Floorp OS は正常に無効になりました！"
+            "enabling": "Enabling {{productName}} OS...",
+            "disabling": "Disabling {{productName}} OS...",
+            "enableSuccess": "{{productName}} OS enabled successfully!",
+            "disableSuccess": "{{productName}} OS disabled successfully!"
         },
         "errors": {
             "apiUnavailable": "OSAutomotor API は利用できません。",
             "loadStatus": "状態の読み込みに失敗しました: {{reason}}",
-            "enable": "Floorp OS の有効化に失敗しました。",
-            "disable": "Floorp OS の無効化に失敗しました。",
-            "enableAction": "Floorp OS の有効化でエラーが発生しました: {{reason}}",
-            "disableAction": "Floorp OS の無効化でエラーが発生しました: {{reason}}"
+            "enable": "Failed to enable {{productName}} OS.",
+            "disable": "Failed to disable {{productName}} OS.",
+            "enableAction": "Error enabling {{productName}} OS: {{reason}}",
+            "disableAction": "Error disabling {{productName}} OS: {{reason}}"
         }
     },
     "mouseGesture": {
@@ -508,9 +508,9 @@
             "gecko-mute-current-tab": "現在のタブをミュート",
             "gecko-show-source-of-page": "ページのソースを表示",
             "gecko-show-page-info": "ページの情報を表示",
-            "floorp-rest-mode": "休憩モードを有効にする",
-            "floorp-hide-user-interface": "インターフェイスを隠す",
-            "floorp-toggle-navigation-panel": "ナビゲーションパネルの表示を切り替える",
+            "{{productName}}-rest-mode": "休憩モードを有効にする",
+            "{{productName}}-hide-user-interface": "インターフェイスを隠す",
+            "{{productName}}-toggle-navigation-panel": "ナビゲーションパネルの表示を切り替える",
             "gecko-stop": "読み込みを中止",
             "gecko-search-in-this-page": "ページ内を検索",
             "gecko-show-next-search-result": "次の検索結果を表示",
@@ -521,7 +521,7 @@
             "gecko-enter-into-customize-mode": "カスタマイズモードに入る",
             "gecko-enter-into-offline-mode": "オフラインモードに入る",
             "gecko-open-screen-capture": "スクリーンショットツールを開く",
-            "floorp-show-pip": "ピクチャーインピクチャーを表示",
+            "{{productName}}-show-pip": "ピクチャーインピクチャーを表示",
             "gecko-open-bookmark-add-tool": "ブックマーク追加ツールを開く",
             "gecko-open-bookmarks-manager": "ブックマークマネージャーを開く",
             "gecko-toggle-bookmark-toolbar": "ブックマークツールバーの表示を切り替える",
