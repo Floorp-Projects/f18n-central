@@ -211,7 +211,7 @@
             },
             "newtab": {
                 "title": "Nova aba",
-                "disableFloorpStart": "Desativar o Floorp Start"
+                "disable{{productName}}Start": "Disable {{productName}} Start"
             },
             "multirowTab": {
                 "title": "Aba multilinha",
@@ -239,7 +239,7 @@
         "closePopupWhenSelectingWorkspace": "Fechar o pop-up do espaço de trabalho ao selecionar um espaço de trabalho",
         "closePopupWhenSelectingWorkspaceDescription": "Escolha se deseja fechar o pop-up do espaço de trabalho ao selecionar um espaço de trabalho.",
         "showWorkspaceNameOnToolbar": "Mostrar o nome do espaço de trabalho ao lado do ícone",
-        "exitOnLastTabClose": "Sair do Floorp quando a última aba do espaço de trabalho for fechada",
+        "exitOnLastTabClose": "Exit {{productName}} when last workspace tab is closed",
         "manageOnBms": "Gerenciar espaços de trabalho na barra lateral do {{productName}}",
         "manageOnBmsDescription": "Quando esse recurso estiver ativado, você só poderá gerenciar espaços de trabalho na barra lateral {{productName}}. Não será possível gerenciar espaços de trabalho usando o botão da barra de ferramentas.",
         "backup": "Backup do espaço de trabalho",
@@ -258,7 +258,7 @@
     },
     "accounts": {
         "profileAndAccount": "Perfil e conta",
-        "profileDescription": "Os perfis contêm informações relacionadas à navegação, como histórico, favoritos, configurações e complementos. O Floorp usa esse perfil para salvar dados.",
+        "profileDescription": "Profiles contain browsing-related information such as history, bookmarks, settings, and add-ons. {{productName}} uses this profile to save data.",
         "profileManagement": "Gerenciamento de perfis",
         "profileManagementDescription": "Os perfis podem ser criados e separados uns dos outros, e os dados são armazenados na pasta de perfis.",
         "currentProfileName": "Nome do perfil atual: {{name}}",
@@ -267,8 +267,8 @@
         "openProfileSaveLocation": "Abrir Local para Salvar Perfil",
         "mozillaAccountSyncSettings": "Configurações de sincronização da conta Mozilla",
         "syncedTo": "Sincronizado com {{email}}",
-        "syncFloorpNotesToMozillaAccount": "Sincronizar Notas Floorp com a conta Mozilla (experimental)",
-        "floorpFeatureSyncSettings": "Configurações de sincronização de recursos do Floorp",
+        "sync{{productName}}NotesToMozillaAccount": "Sync {{productName}} Notes to Mozilla Account (Experimental)",
+        "{{productName}}FeatureSyncSettings": "{{productName}} Feature Sync Settings",
         "manageMozillaAccount": "Gerenciar conta Mozilla",
         "manageFirefoxFeatureSync": "Gerenciar sincronização de recursos do Firefox",
         "aboutMozillaAccount": "Sobre a conta Mozilla",
@@ -292,8 +292,8 @@
         "title": "Atualizações e testes",
         "description": "Gerencie as configurações de atualização e a participação em recursos experimentais.",
         "experiments": {
-            "title": "Participação em testes do {{productName}}",
-            "description": "Controle como o {{productName}} inscreve você em recursos experimentais e testes do {{productName}}.",
+            "title": "{{productName}} Flasco Participation",
+            "description": "Control how {{productName}} enrolls you in experimental features and {{productName}} Flascos.",
             "policyLabel": "Política de participação",
             "policy": {
                 "default": "Padrão (recomendado)",
@@ -301,26 +301,26 @@
                 "never": "Nunca participar"
             },
             "policyHelp": {
-                "default": "Siga a política de participação recomendada. Você pode ser inscrito em testes do {{productName}} com base em porcentagens de lançamento.",
-                "always": "Sempre participe de todos os testes do {{productName}} disponíveis. Essa opção é para usuários que desejam testar novos recursos antecipadamente.",
-                "never": "Nunca participe dos testes do {{productName}}. Você só receberá recursos estáveis e testados."
+                "default": "Follow the recommended participation policy. You may be enrolled in {{productName}} Flasco based on rollout percentages.",
+                "always": "Always participate in all available {{productName}} Flascos. This option is for users who want to test new features early.",
+                "never": "Never participate in {{productName}} Flascos. You will only receive stable, tested features."
             },
             "confirmClearCache": "Tem certeza de que deseja limpar todos os dados do experimento? Isso redefinirá suas atribuições e não poderá ser desfeito.",
             "troubleshooting": "Resolução de problemas",
             "clearCacheDescription": "Se estiver tendo problemas com os experimentos, a limpeza do cache pode resolvê-los, redefinindo todos os dados relacionados aos testes para o estado inicial.",
             "clearCache": "Limpar o cache de testes"
         },
-        "activeTests": {
-            "title": "Ativar testes do {{productName}}",
-            "description": "Veja e gerencie suas inscrições de teste ativas no momento.",
+        "activeFlascos": {
+            "title": "Active {{productName}} Flascos",
+            "description": "View and manage your currently active Flasco enrollments.",
             "refresh": "Atualizar",
-            "noTests": "Você não está inscrito em nenhum teste no momento.",
+            "noFlascos": "You are not currently enrolled in any Flascos.",
             "assignedAt": "Inscrito em {{date}}",
             "disable": "Desativar",
             "enable": "Ativar",
             "disabledLabel": "Desativado",
-            "confirmDisable": "Tem certeza de que deseja desativar este teste? Você pode reativá-lo mais tarde.",
-            "confirmEnable": "Tem certeza de que deseja reativar este teste?",
+            "confirmDisable": "Are you sure you want to disable this Flasco? You can re-enable it later.",
+            "confirmEnable": "Are you sure you want to re-enable this Flasco?",
             "lastUpdated": "Última atualização:"
         }
     },
@@ -420,12 +420,12 @@
         "uninstall": "Desinstalar"
     },
     "floorpOS": {
-        "title": "Floorp OS",
-        "description": "Gerenciar módulos e serviços de backend do Floorp OS",
+        "title": "{{productName}} OS",
+        "description": "Manage {{productName}} OS backend modules and services",
         "loading": "Carregando...",
         "statusCard": {
             "title": "Status",
-            "description": "Status atual do Floorp OS",
+            "description": "Current status of {{productName}} OS",
             "platformSupport": "Suporte à plataforma",
             "platformSupported": "Sua plataforma é compatível",
             "platformUnsupported": "Sua plataforma não é compatível",
@@ -439,24 +439,24 @@
         },
         "controlsCard": {
             "title": "Controles",
-            "description": "Ativar ou desativar o Floorp OS",
-            "enable": "Ativar o Floorp OS",
-            "disable": "Desativar o Floorp OS",
+            "description": "Enable or disable {{productName}} OS",
+            "enable": "Enable {{productName}} OS",
+            "disable": "Disable {{productName}} OS",
             "refresh": "Atualizar status"
         },
         "messages": {
-            "enabling": "Ativando o Floorp OS...",
-            "disabling": "Desativando o Floorp OS...",
-            "enableSuccess": "Floorp OS ativado com sucesso!",
-            "disableSuccess": "Floorp OS desativado com sucesso!"
+            "enabling": "Enabling {{productName}} OS...",
+            "disabling": "Disabling {{productName}} OS...",
+            "enableSuccess": "{{productName}} OS enabled successfully!",
+            "disableSuccess": "{{productName}} OS disabled successfully!"
         },
         "errors": {
             "apiUnavailable": "A API do OSAutomotor não está disponível.",
             "loadStatus": "Falha ao carregar status: {{reason}}",
-            "enable": "Falha ao ativar o Floorp OS.",
-            "disable": "Falha ao desativar o Floorp OS.",
-            "enableAction": "Erro ao ativar o Floorp OS: {{reason}}",
-            "disableAction": "Erro ao desativar o Floorp OS: {{reason}}"
+            "enable": "Failed to enable {{productName}} OS.",
+            "disable": "Failed to disable {{productName}} OS.",
+            "enableAction": "Error enabling {{productName}} OS: {{reason}}",
+            "disableAction": "Error disabling {{productName}} OS: {{reason}}"
         }
     },
     "mouseGesture": {
@@ -508,9 +508,9 @@
             "gecko-mute-current-tab": "",
             "gecko-show-source-of-page": "Mostrar código-fonte da página",
             "gecko-show-page-info": "Exibir informações da página",
-            "floorp-rest-mode": "Ativar modo de repouso",
-            "floorp-hide-user-interface": "Ocultar interface",
-            "floorp-toggle-navigation-panel": "Mostrar/esconder Painel de Navegação",
+            "{{productName}}-rest-mode": "Ativar modo de repouso",
+            "{{productName}}-hide-user-interface": "Ocultar interface",
+            "{{productName}}-toggle-navigation-panel": "Mostrar/esconder Painel de Navegação",
             "gecko-stop": "Parar",
             "gecko-search-in-this-page": "Pesquisar nesta página",
             "gecko-show-next-search-result": "Exibir próximo resultado",
@@ -521,7 +521,7 @@
             "gecko-enter-into-customize-mode": "Abrir modo de personalização",
             "gecko-enter-into-offline-mode": "Entrar no modo offline",
             "gecko-open-screen-capture": "Abrir captura de tela",
-            "floorp-show-pip": "Mostrar picture-in-picture",
+            "{{productName}}-show-pip": "Mostrar picture-in-picture",
             "gecko-open-bookmark-add-tool": "Abrir ferramenta Adicionar aos Favoritos",
             "gecko-open-bookmarks-manager": "Abrir o Gerenciador de Favoritos",
             "gecko-toggle-bookmark-toolbar": "Ativar/desativar barra de favoritos",
