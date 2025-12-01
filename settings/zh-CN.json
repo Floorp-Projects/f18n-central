@@ -211,7 +211,7 @@
             },
             "newtab": {
                 "title": "新标签页",
-                "disableFloorpStart": "禁用 Floorp 启动页"
+                "disable{{productName}}Start": "Disable {{productName}} Start"
             },
             "multirowTab": {
                 "title": "多行标签页",
@@ -239,7 +239,7 @@
         "closePopupWhenSelectingWorkspace": "选择工作区时关闭工作区弹出面板",
         "closePopupWhenSelectingWorkspaceDescription": "选择是否在选择工作区时关闭工作区弹出面板。",
         "showWorkspaceNameOnToolbar": "在工作区图标旁显示工作区名称",
-        "exitOnLastTabClose": "关闭最后一个工作区时退出 Floorp",
+        "exitOnLastTabClose": "Exit {{productName}} when last workspace tab is closed",
         "manageOnBms": "管理 {{productName}} 侧边栏上的工作区",
         "manageOnBmsDescription": "启用此功能后，您只能在 {{productName}} 侧边栏上管理工作区。您将无法使用工具栏按钮管理工作区。",
         "backup": "工作区备份",
@@ -258,7 +258,7 @@
     },
     "accounts": {
         "profileAndAccount": "配置和账户",
-        "profileDescription": "配置文件包含与浏览相关的信息，例如历史记录、书签、设置和附加组件。Floorp 使用此配置文件来保存数据。",
+        "profileDescription": "Profiles contain browsing-related information such as history, bookmarks, settings, and add-ons. {{productName}} uses this profile to save data.",
         "profileManagement": "配置管理",
         "profileManagementDescription": "可以创建相互隔离的配置文件，其数据存储在配置文件夹中。",
         "currentProfileName": "当前配置名称：{{name}}",
@@ -267,8 +267,8 @@
         "openProfileSaveLocation": "打开配置文件 保存位置",
         "mozillaAccountSyncSettings": "Mozilla 账户同步设置",
         "syncedTo": "同步至 {{email}}",
-        "syncFloorpNotesToMozillaAccount": "将 Floorp Notes 同步到 Mozilla 账户（试验性）",
-        "floorpFeatureSyncSettings": "Floorp 功能同步设置",
+        "sync{{productName}}NotesToMozillaAccount": "Sync {{productName}} Notes to Mozilla Account (Experimental)",
+        "{{productName}}FeatureSyncSettings": "{{productName}} Feature Sync Settings",
         "manageMozillaAccount": "管理 Mozilla 账户",
         "manageFirefoxFeatureSync": "管理火狐功能同步",
         "aboutMozillaAccount": "管理 Mozilla 账户",
@@ -292,8 +292,8 @@
         "title": "更新与实验",
         "description": "管理更新设置和实验功能参与。",
         "experiments": {
-            "title": "{{productName}} 参加测试",
-            "description": "控制 {{productName}} 如何让您参加实验功能和 {{productName}} 测试。",
+            "title": "{{productName}} Flasco Participation",
+            "description": "Control how {{productName}} enrolls you in experimental features and {{productName}} Flascos.",
             "policyLabel": "参与政策",
             "policy": {
                 "default": "默认（推荐）",
@@ -301,26 +301,26 @@
                 "never": "从不参与"
             },
             "policyHelp": {
-                "default": "遵循建议的参与政策。您可能会根据推出比例被纳入 {{productName}} 测试。",
-                "always": "始终参与所有可用的 {{productName}} 测试。此选项适用于希望尽早测试新功能的用户。",
-                "never": "切勿参与 {{productName}} 测试。您只会收到稳定的、经过测试的功能。"
+                "default": "Follow the recommended participation policy. You may be enrolled in {{productName}} Flasco based on rollout percentages.",
+                "always": "Always participate in all available {{productName}} Flascos. This option is for users who want to test new features early.",
+                "never": "Never participate in {{productName}} Flascos. You will only receive stable, tested features."
             },
             "confirmClearCache": "您确定要清除所有实验数据吗？这将重置您的作业，且无法撤销。",
             "troubleshooting": "故障排除",
             "clearCacheDescription": "如果在实验中遇到问题，清除缓存可将所有实验相关数据重置为初始状态，从而解决这些问题。",
             "clearCache": "清除实验缓存"
         },
-        "activeTests": {
-            "title": "主动 {{productName}} 测试",
-            "description": "查看和管理当前激活的测试。",
+        "activeFlascos": {
+            "title": "Active {{productName}} Flascos",
+            "description": "View and manage your currently active Flasco enrollments.",
             "refresh": "刷新",
-            "noTests": "您目前未参加任何测试。",
+            "noFlascos": "You are not currently enrolled in any Flascos.",
             "assignedAt": "在 {{date}} 上注册",
             "disable": "禁用",
             "enable": "启用",
             "disabledLabel": "已禁用",
-            "confirmDisable": "您确定要禁用此实验吗？您可以稍后再启用。",
-            "confirmEnable": "您确定要重新启用该实验吗？",
+            "confirmDisable": "Are you sure you want to disable this Flasco? You can re-enable it later.",
+            "confirmEnable": "Are you sure you want to re-enable this Flasco?",
             "lastUpdated": "最近更新："
         }
     },
@@ -420,12 +420,12 @@
         "uninstall": "卸载"
     },
     "floorpOS": {
-        "title": "Floorp OS",
-        "description": "管理 Floorp OS 后端模块和服务",
+        "title": "{{productName}} OS",
+        "description": "Manage {{productName}} OS backend modules and services",
         "loading": "加载中……",
         "statusCard": {
             "title": "状态",
-            "description": "Floorp OS 的当前状态",
+            "description": "Current status of {{productName}} OS",
             "platformSupport": "平台支持",
             "platformSupported": "支持您的平台",
             "platformUnsupported": "不支持您的平台",
@@ -439,24 +439,24 @@
         },
         "controlsCard": {
             "title": "控制",
-            "description": "启用或禁用 Floorp OS",
-            "enable": "启用 Floorp OS",
-            "disable": "禁用 Floorp OS",
+            "description": "Enable or disable {{productName}} OS",
+            "enable": "Enable {{productName}} OS",
+            "disable": "Disable {{productName}} OS",
             "refresh": "刷新状态"
         },
         "messages": {
-            "enabling": "启用 Floorp OS……",
-            "disabling": "禁用 Floorp OS……",
-            "enableSuccess": "Floorp OS 启用成功！",
-            "disableSuccess": "Floorp OS 禁用成功！"
+            "enabling": "Enabling {{productName}} OS...",
+            "disabling": "Disabling {{productName}} OS...",
+            "enableSuccess": "{{productName}} OS enabled successfully!",
+            "disableSuccess": "{{productName}} OS disabled successfully!"
         },
         "errors": {
             "apiUnavailable": "OSAutomotor API 不可用。",
             "loadStatus": "加载失败状态：{{reason}}",
-            "enable": "启用 Floorp OS 失败。",
-            "disable": "禁用 Floorp OS 失败。",
-            "enableAction": "启用 Floorp OS 出错：{{reason}}",
-            "disableAction": "禁用 Floorp OS 出错：{{reason}}"
+            "enable": "Failed to enable {{productName}} OS.",
+            "disable": "Failed to disable {{productName}} OS.",
+            "enableAction": "Error enabling {{productName}} OS: {{reason}}",
+            "disableAction": "Error disabling {{productName}} OS: {{reason}}"
         }
     },
     "mouseGesture": {
@@ -508,9 +508,9 @@
             "gecko-mute-current-tab": "静音当前标签页",
             "gecko-show-source-of-page": "显示页面源码",
             "gecko-show-page-info": "显示页面信息",
-            "floorp-rest-mode": "启用休息模式",
-            "floorp-hide-user-interface": "隐藏界面",
-            "floorp-toggle-navigation-panel": "切换导航面板",
+            "{{productName}}-rest-mode": "启用休息模式",
+            "{{productName}}-hide-user-interface": "隐藏界面",
+            "{{productName}}-toggle-navigation-panel": "切换导航面板",
             "gecko-stop": "停止",
             "gecko-search-in-this-page": "页内搜索",
             "gecko-show-next-search-result": "查找下一个",
@@ -521,7 +521,7 @@
             "gecko-enter-into-customize-mode": "进入定制模式",
             "gecko-enter-into-offline-mode": "进入脱机模式",
             "gecko-open-screen-capture": "打开屏幕截图工具",
-            "floorp-show-pip": "显示画中画",
+            "{{productName}}-show-pip": "显示画中画",
             "gecko-open-bookmark-add-tool": "打开书签添加工具",
             "gecko-open-bookmarks-manager": "打开书签管理器",
             "gecko-toggle-bookmark-toolbar": "显示/隐藏书签工具栏",
