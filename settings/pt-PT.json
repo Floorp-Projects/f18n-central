@@ -187,6 +187,21 @@
                 "overlap": "Mostrar barra lateral sobre o conteúdo do sítio Web"
             }
         },
+        "tabSleepExclusion": {
+            "title": "Tab Sleep Exclusion",
+            "description": "Exclude specific websites from tab sleep (unloading). Tabs matching these patterns will remain active and won't be automatically unloaded when memory is low.",
+            "enable": "Enable tab sleep exclusion",
+            "patterns": "Exclusion Patterns",
+            "patternsDescription": "Add URL patterns to exclude from tab sleep. Tabs matching these patterns will not be unloaded.",
+            "patternPlaceholder": "Enter URL pattern (e.g., example.com, *.google.com)",
+            "add": "Adicionar",
+            "remove": "Remover",
+            "noPatterns": "No exclusion patterns configured. Add patterns to keep specific tabs active.",
+            "examples": "Pattern Examples",
+            "exampleDomain": "Matches any URL containing this domain",
+            "exampleWildcard": "Matches all subdomains of google.com",
+            "exampleFullUrl": "Matches Gmail URLs only"
+        },
         "uiCustomization": {
             "title": "Personalização da IU",
             "needRestartDescriptionForEnableAndDisable": "É necessário reiniciar o site {{productName}} para ativar ou desativar completamente esta funcionalidade de personalização da IU.",
@@ -211,7 +226,7 @@
             },
             "newtab": {
                 "title": "Novo separador",
-                "disable{{productName}}Start": "Desativar {{productName}} Start"
+                "disableFloorpStart": "Desativar {{productName}} Start"
             },
             "multirowTab": {
                 "title": "Separador de várias linhas",
@@ -508,9 +523,9 @@
             "gecko-mute-current-tab": "Silenciar o separador atual",
             "gecko-show-source-of-page": "Mostrar origem da página",
             "gecko-show-page-info": "Mostrar informações da página",
-            "{{productName}}-rest-mode": "Ativar o modo de repouso",
-            "{{productName}}-hide-user-interface": "Ocultar interface",
-            "{{productName}}-toggle-navigation-panel": "Alternar painel de navegação",
+            "floorp-rest-mode": "Ativar o modo de repouso",
+            "floorp-hide-user-interface": "Ocultar interface",
+            "floorp-toggle-navigation-panel": "Alternar painel de navegação",
             "gecko-stop": "Parar",
             "gecko-search-in-this-page": "Pesquisar nesta página",
             "gecko-show-next-search-result": "Mostrar o próximo resultado da pesquisa",
@@ -521,7 +536,7 @@
             "gecko-enter-into-customize-mode": "Entrar no modo Personalizar",
             "gecko-enter-into-offline-mode": "Entrar no modo offline",
             "gecko-open-screen-capture": "Abrir a captura de ecrã",
-            "{{productName}}-show-pip": "Mostrar Picture-in-Picture",
+            "floorp-show-pip": "Mostrar Picture-in-Picture",
             "gecko-open-bookmark-add-tool": "Abrir a ferramenta Adicionar favoritos",
             "gecko-open-bookmarks-manager": "Abrir o Gestor de Favoritos",
             "gecko-toggle-bookmark-toolbar": "Alternar a barra de ferramentas dos favoritos",
