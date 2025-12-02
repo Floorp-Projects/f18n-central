@@ -211,7 +211,7 @@
             },
             "newtab": {
                 "title": "新标签页",
-                "disable{{productName}}Start": "Disable {{productName}} Start"
+                "disable{{productName}}Start": "禁用 {{productName}} 启动"
             },
             "multirowTab": {
                 "title": "多行标签页",
@@ -239,7 +239,7 @@
         "closePopupWhenSelectingWorkspace": "选择工作区时关闭工作区弹出面板",
         "closePopupWhenSelectingWorkspaceDescription": "选择是否在选择工作区时关闭工作区弹出面板。",
         "showWorkspaceNameOnToolbar": "在工作区图标旁显示工作区名称",
-        "exitOnLastTabClose": "Exit {{productName}} when last workspace tab is closed",
+        "exitOnLastTabClose": "关闭最后工作区时退出 {{productName}}",
         "manageOnBms": "管理 {{productName}} 侧边栏上的工作区",
         "manageOnBmsDescription": "启用此功能后，您只能在 {{productName}} 侧边栏上管理工作区。您将无法使用工具栏按钮管理工作区。",
         "backup": "工作区备份",
