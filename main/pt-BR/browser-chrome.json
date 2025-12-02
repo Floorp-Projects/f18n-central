@@ -314,11 +314,11 @@
   },
   "externalBrowser": {
     "menu": {
-      "openTabIn": "Open Tab in External Browser",
-      "openLinkIn": "Open Link in External Browser",
-      "defaultBrowser": "System Default Browser",
-      "noBrowsers": "No external browsers detected",
-      "noValidUrl": "No valid URL to open"
+      "openTabIn": "Abrir aba em navegador externo",
+      "openLinkIn": "Abrir link em navegador externo",
+      "defaultBrowser": "Navegador padrão do sistema",
+      "noBrowsers": "Nenhum navegador externo detectado",
+      "noValidUrl": "Nenhuma URL válida para abrir"
     }
   }
 }
