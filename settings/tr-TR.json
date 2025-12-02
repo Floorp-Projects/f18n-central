@@ -187,6 +187,21 @@
                 "overlap": "Kenar Çubuğunu web sitesi içeriğinin üzerinde göster"
             }
         },
+        "tabSleepExclusion": {
+            "title": "Tab Sleep Exclusion",
+            "description": "Exclude specific websites from tab sleep (unloading). Tabs matching these patterns will remain active and won't be automatically unloaded when memory is low.",
+            "enable": "Enable tab sleep exclusion",
+            "patterns": "Exclusion Patterns",
+            "patternsDescription": "Add URL patterns to exclude from tab sleep. Tabs matching these patterns will not be unloaded.",
+            "patternPlaceholder": "Enter URL pattern (e.g., example.com, *.google.com)",
+            "add": "Ekle",
+            "remove": "Kaldır",
+            "noPatterns": "No exclusion patterns configured. Add patterns to keep specific tabs active.",
+            "examples": "Pattern Examples",
+            "exampleDomain": "Matches any URL containing this domain",
+            "exampleWildcard": "Matches all subdomains of google.com",
+            "exampleFullUrl": "Matches Gmail URLs only"
+        },
         "uiCustomization": {
             "title": "UI Kişiselleştirme",
             "needRestartDescriptionForEnableAndDisable": "Arayüz Özelleştirmesini tamamen etkinleştirmek veya devre dışı bırakmak için {{productName}}'un yeniden başlatılması gerekir.",
@@ -211,7 +226,7 @@
             },
             "newtab": {
                 "title": "Yeni Sekme",
-                "disable{{productName}}Start": "Disable {{productName}} Start"
+                "disableFloorpStart": "Disable {{productName}} Start"
             },
             "multirowTab": {
                 "title": "Çok Satırlı Sekme",
@@ -508,9 +523,9 @@
             "gecko-mute-current-tab": "Geçerli Sekmeyi Sustur",
             "gecko-show-source-of-page": "Sayfa Kaynağını Göster",
             "gecko-show-page-info": "Sayfa Bilgisini Göster",
-            "{{productName}}-rest-mode": "Dinlenme Modunu Etkinleştir",
-            "{{productName}}-hide-user-interface": "Arayüzü Gizle",
-            "{{productName}}-toggle-navigation-panel": "Gezinme Panelini Aç/Kapat",
+            "floorp-rest-mode": "Dinlenme Modunu Etkinleştir",
+            "floorp-hide-user-interface": "Arayüzü Gizle",
+            "floorp-toggle-navigation-panel": "Gezinme Panelini Aç/Kapat",
             "gecko-stop": "Durdur",
             "gecko-search-in-this-page": "Bu Sayfada Ara",
             "gecko-show-next-search-result": "Sonraki Arama Sonucunu Göster",
@@ -521,7 +536,7 @@
             "gecko-enter-into-customize-mode": "Kişiselleştirme Moduna Girin",
             "gecko-enter-into-offline-mode": "Çevrimdışı Moda Geç",
             "gecko-open-screen-capture": "Ekran Yakalamayı Aç",
-            "{{productName}}-show-pip": "Resim İçinde Resim Göster",
+            "floorp-show-pip": "Resim İçinde Resim Göster",
             "gecko-open-bookmark-add-tool": "Yer İmi Ekleme Aracını Açın",
             "gecko-open-bookmarks-manager": "Yer İmleri Yöneticisini Açın",
             "gecko-toggle-bookmark-toolbar": "Yer İmi Araç Çubuğunu Aç / Kapat",
