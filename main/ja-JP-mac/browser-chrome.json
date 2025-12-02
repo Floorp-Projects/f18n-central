@@ -314,11 +314,11 @@
   },
   "externalBrowser": {
     "menu": {
-      "openTabIn": "Open Tab in External Browser",
-      "openLinkIn": "Open Link in External Browser",
-      "defaultBrowser": "System Default Browser",
-      "noBrowsers": "No external browsers detected",
-      "noValidUrl": "No valid URL to open"
+      "openTabIn": "外部ブラウザーでタブを開く",
+      "openLinkIn": "外部ブラウザーでリンクを開く",
+      "defaultBrowser": "システムのデフォルトウェブブラウザー",
+      "noBrowsers": "外部ブラウザーが見つかりません",
+      "noValidUrl": "開ける URL がありません"
     }
   }
 }
