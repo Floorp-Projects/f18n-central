@@ -311,5 +311,14 @@
     "actionLabelInput": "Entrada",
     "actionLabelClick": "Clicar",
     "actionLabelSubmit": "Enviar"
+  },
+  "externalBrowser": {
+    "menu": {
+      "openTabIn": "Open Tab in External Browser",
+      "openLinkIn": "Open Link in External Browser",
+      "defaultBrowser": "System Default Browser",
+      "noBrowsers": "No external browsers detected",
+      "noValidUrl": "No valid URL to open"
+    }
   }
 }
