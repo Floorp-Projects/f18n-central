@@ -187,6 +187,21 @@
                 "overlap": "サイドバーをウェブサイトに重ねて表示"
             }
         },
+        "tabSleepExclusion": {
+            "title": "Tab Sleep Exclusion",
+            "description": "Exclude specific websites from tab sleep (unloading). Tabs matching these patterns will remain active and won't be automatically unloaded when memory is low.",
+            "enable": "Enable tab sleep exclusion",
+            "patterns": "Exclusion Patterns",
+            "patternsDescription": "Add URL patterns to exclude from tab sleep. Tabs matching these patterns will not be unloaded.",
+            "patternPlaceholder": "Enter URL pattern (e.g., example.com, *.google.com)",
+            "add": "追加",
+            "remove": "削除",
+            "noPatterns": "No exclusion patterns configured. Add patterns to keep specific tabs active.",
+            "examples": "Pattern Examples",
+            "exampleDomain": "Matches any URL containing this domain",
+            "exampleWildcard": "Matches all subdomains of google.com",
+            "exampleFullUrl": "Matches Gmail URLs only"
+        },
         "uiCustomization": {
             "title": "UI をカスタマイズ",
             "needRestartDescriptionForEnableAndDisable": "この UI カスタマイズ機能を完全に有効または無効にするには、 {{productName}} の再起動が必要です。",
@@ -211,7 +226,7 @@
             },
             "newtab": {
                 "title": "新しいタブ",
-                "disable{{productName}}Start": "{{productName}} Start を無効にする"
+                "disableFloorpStart": "{{productName}} Start を無効にする"
             },
             "multirowTab": {
                 "title": "多段タブ",
@@ -508,9 +523,9 @@
             "gecko-mute-current-tab": "現在のタブをミュート",
             "gecko-show-source-of-page": "ページのソースを表示",
             "gecko-show-page-info": "ページの情報を表示",
-            "{{productName}}-rest-mode": "休憩モードを有効にする",
-            "{{productName}}-hide-user-interface": "インターフェイスを隠す",
-            "{{productName}}-toggle-navigation-panel": "ナビゲーションパネルの表示を切り替える",
+            "floorp-rest-mode": "休憩モードを有効にする",
+            "floorp-hide-user-interface": "インターフェイスを隠す",
+            "floorp-toggle-navigation-panel": "ナビゲーションパネルの表示を切り替える",
             "gecko-stop": "読み込みを中止",
             "gecko-search-in-this-page": "ページ内を検索",
             "gecko-show-next-search-result": "次の検索結果を表示",
@@ -521,7 +536,7 @@
             "gecko-enter-into-customize-mode": "カスタマイズモードに入る",
             "gecko-enter-into-offline-mode": "オフラインモードに入る",
             "gecko-open-screen-capture": "スクリーンショットツールを開く",
-            "{{productName}}-show-pip": "ピクチャーインピクチャーを表示",
+            "floorp-show-pip": "ピクチャーインピクチャーを表示",
             "gecko-open-bookmark-add-tool": "ブックマーク追加ツールを開く",
             "gecko-open-bookmarks-manager": "ブックマークマネージャーを開く",
             "gecko-toggle-bookmark-toolbar": "ブックマークツールバーの表示を切り替える",
