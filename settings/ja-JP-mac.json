@@ -188,19 +188,19 @@
             }
         },
         "tabSleepExclusion": {
-            "title": "Tab Sleep Exclusion",
-            "description": "Exclude specific websites from tab sleep (unloading). Tabs matching these patterns will remain active and won't be automatically unloaded when memory is low.",
-            "enable": "Enable tab sleep exclusion",
-            "patterns": "Exclusion Patterns",
-            "patternsDescription": "Add URL patterns to exclude from tab sleep. Tabs matching these patterns will not be unloaded.",
-            "patternPlaceholder": "Enter URL pattern (e.g., example.com, *.google.com)",
+            "title": "タブスリープの除外",
+            "description": "特定のウェブサイトをタブスリープ (タブの自動解放) から除外します。以下のパターンに一致するタブは読み込まれた状態が維持され、メモリが足りなくても自動的に解放されません。",
+            "enable": "タブスリープの除外を有効にする",
+            "patterns": "除外パターン",
+            "patternsDescription": "タブスリープから除外する URL パターンを追加します。これらのパターンに一致するタブは自動解放されません。",
+            "patternPlaceholder": "URL パターンを入力 (例: example.com, *.google.com)",
             "add": "追加",
             "remove": "削除",
-            "noPatterns": "No exclusion patterns configured. Add patterns to keep specific tabs active.",
-            "examples": "Pattern Examples",
-            "exampleDomain": "Matches any URL containing this domain",
-            "exampleWildcard": "Matches all subdomains of google.com",
-            "exampleFullUrl": "Matches Gmail URLs only"
+            "noPatterns": "除外パターンが設定されていません。自動解放しないパターンを設定してください。",
+            "examples": "パターンの例",
+            "exampleDomain": "このドメインを含む URL に反応",
+            "exampleWildcard": "google.com のすべてのサブドメインに反応",
+            "exampleFullUrl": "Gmail の URL のみに反応"
         },
         "uiCustomization": {
             "title": "UI をカスタマイズ",
