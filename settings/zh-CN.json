@@ -258,7 +258,7 @@
     },
     "accounts": {
         "profileAndAccount": "配置和账户",
-        "profileDescription": "Profiles contain browsing-related information such as history, bookmarks, settings, and add-ons. {{productName}} uses this profile to save data.",
+        "profileDescription": "配置文件包含浏览信息，如历史记录、书签、设置和附加组件。{{productName}} 使用此文件保存数据。",
         "profileManagement": "配置管理",
         "profileManagementDescription": "可以创建相互隔离的配置文件，其数据存储在配置文件夹中。",
         "currentProfileName": "当前配置名称：{{name}}",
@@ -267,8 +267,8 @@
         "openProfileSaveLocation": "打开配置文件 保存位置",
         "mozillaAccountSyncSettings": "Mozilla 账户同步设置",
         "syncedTo": "同步至 {{email}}",
-        "sync{{productName}}NotesToMozillaAccount": "Sync {{productName}} Notes to Mozilla Account (Experimental)",
-        "{{productName}}FeatureSyncSettings": "{{productName}} Feature Sync Settings",
+        "sync{{productName}}NotesToMozillaAccount": "将 {{productName}} 笔记同步到 Mozilla 账户（实验性）",
+        "{{productName}}FeatureSyncSettings": "{{productName}} 同步设置",
         "manageMozillaAccount": "管理 Mozilla 账户",
         "manageFirefoxFeatureSync": "管理火狐功能同步",
         "aboutMozillaAccount": "管理 Mozilla 账户",
@@ -292,8 +292,8 @@
         "title": "更新与实验",
         "description": "管理更新设置和实验功能参与。",
         "experiments": {
-            "title": "{{productName}} Flasco Participation",
-            "description": "Control how {{productName}} enrolls you in experimental features and {{productName}} Flascos.",
+            "title": "{{productName}} 参加测试",
+            "description": "控制 {{productName}} 参加实验功能和{{productName}} 测试。",
             "policyLabel": "参与政策",
             "policy": {
                 "default": "默认（推荐）",
@@ -301,9 +301,9 @@
                 "never": "从不参与"
             },
             "policyHelp": {
-                "default": "Follow the recommended participation policy. You may be enrolled in {{productName}} Flasco based on rollout percentages.",
-                "always": "Always participate in all available {{productName}} Flascos. This option is for users who want to test new features early.",
-                "never": "Never participate in {{productName}} Flascos. You will only receive stable, tested features."
+                "default": "遵循建议的参与政策。您可能根据推出进度加入 {{productName}} 测试。",
+                "always": "始终参与所有可用的 {{productName}} 测试。此选项适于希望尽早测试性能的用户。",
+                "never": "从不参与 {{productName}} 测试。您只会收到稳定且经过测试的功能。"
             },
             "confirmClearCache": "您确定要清除所有实验数据吗？这将重置您的作业，且无法撤销。",
             "troubleshooting": "故障排除",
@@ -311,16 +311,16 @@
             "clearCache": "清除实验缓存"
         },
         "activeFlascos": {
-            "title": "Active {{productName}} Flascos",
-            "description": "View and manage your currently active Flasco enrollments.",
+            "title": "活跃 {{productName}} 测试",
+            "description": "查看和管理当前激活的测试。",
             "refresh": "刷新",
-            "noFlascos": "You are not currently enrolled in any Flascos.",
+            "noFlascos": "您当前未参加任何测试。",
             "assignedAt": "在 {{date}} 上注册",
             "disable": "禁用",
             "enable": "启用",
             "disabledLabel": "已禁用",
-            "confirmDisable": "Are you sure you want to disable this Flasco? You can re-enable it later.",
-            "confirmEnable": "Are you sure you want to re-enable this Flasco?",
+            "confirmDisable": "您确定禁用此实验？可以稍后再启用。",
+            "confirmEnable": "您确定重新启用此实验？",
             "lastUpdated": "最近更新："
         }
     },
@@ -421,11 +421,11 @@
     },
     "floorpOS": {
         "title": "{{productName}} OS",
-        "description": "Manage {{productName}} OS backend modules and services",
+        "description": "管理 {{productName}} OS 后端模块和服务",
         "loading": "加载中……",
         "statusCard": {
             "title": "状态",
-            "description": "Current status of {{productName}} OS",
+            "description": "{{productName}} OS 现状",
             "platformSupport": "平台支持",
             "platformSupported": "支持您的平台",
             "platformUnsupported": "不支持您的平台",
@@ -439,24 +439,24 @@
         },
         "controlsCard": {
             "title": "控制",
-            "description": "Enable or disable {{productName}} OS",
-            "enable": "Enable {{productName}} OS",
-            "disable": "Disable {{productName}} OS",
+            "description": "{{productName}} OS 启用/禁用",
+            "enable": "{{productName}} OS 启用",
+            "disable": "{{productName}} OS 禁用",
             "refresh": "刷新状态"
         },
         "messages": {
-            "enabling": "Enabling {{productName}} OS...",
-            "disabling": "Disabling {{productName}} OS...",
-            "enableSuccess": "{{productName}} OS enabled successfully!",
-            "disableSuccess": "{{productName}} OS disabled successfully!"
+            "enabling": "{{productName}} OS 启用……",
+            "disabling": "{{productName}} OS 禁用……",
+            "enableSuccess": "{{productName}} OS 成功启用！",
+            "disableSuccess": "{{productName}} OS 成功禁用！"
         },
         "errors": {
             "apiUnavailable": "OSAutomotor API 不可用。",
             "loadStatus": "加载失败状态：{{reason}}",
-            "enable": "Failed to enable {{productName}} OS.",
-            "disable": "Failed to disable {{productName}} OS.",
-            "enableAction": "Error enabling {{productName}} OS: {{reason}}",
-            "disableAction": "Error disabling {{productName}} OS: {{reason}}"
+            "enable": "{{productName}} OS 启用失败。",
+            "disable": "{{productName}} OS 禁用失败。",
+            "enableAction": "启用 {{productName}} OS时错误：{{reason}}",
+            "disableAction": "禁用 {{productName}} OS时错误：{{reason}}"
         }
     },
     "mouseGesture": {
