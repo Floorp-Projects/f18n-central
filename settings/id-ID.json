@@ -187,6 +187,21 @@
                 "overlap": "Show Sidebar over website content"
             }
         },
+        "tabSleepExclusion": {
+            "title": "Tab Sleep Exclusion",
+            "description": "Exclude specific websites from tab sleep (unloading). Tabs matching these patterns will remain active and won't be automatically unloaded when memory is low.",
+            "enable": "Enable tab sleep exclusion",
+            "patterns": "Exclusion Patterns",
+            "patternsDescription": "Add URL patterns to exclude from tab sleep. Tabs matching these patterns will not be unloaded.",
+            "patternPlaceholder": "Enter URL pattern (e.g., example.com, *.google.com)",
+            "add": "Tambah",
+            "remove": "Hapus",
+            "noPatterns": "No exclusion patterns configured. Add patterns to keep specific tabs active.",
+            "examples": "Pattern Examples",
+            "exampleDomain": "Matches any URL containing this domain",
+            "exampleWildcard": "Matches all subdomains of google.com",
+            "exampleFullUrl": "Matches Gmail URLs only"
+        },
         "uiCustomization": {
             "title": "Kustomisasi UI",
             "needRestartDescriptionForEnableAndDisable": "Pemulaian ulang {{productName}} diperlukan untuk benar-benar mengaktifkan atau menonaktifkan fitur kustomisasi antarmuka ini.",
@@ -211,7 +226,7 @@
             },
             "newtab": {
                 "title": "Tab Baru",
-                "disable{{productName}}Start": "Disable {{productName}} Start"
+                "disableFloorpStart": "Disable {{productName}} Start"
             },
             "multirowTab": {
                 "title": "Tab Multibaris",
@@ -508,9 +523,9 @@
             "gecko-mute-current-tab": "Senyapkan Tab Saat Ini",
             "gecko-show-source-of-page": "Tampilkan Sumber Halaman",
             "gecko-show-page-info": "Tampilkan Info Halaman",
-            "{{productName}}-rest-mode": "Nyalakan Mode Rehat",
-            "{{productName}}-hide-user-interface": "Sembunyikan Antarmuka",
-            "{{productName}}-toggle-navigation-panel": "Toggle Navigation Panel",
+            "floorp-rest-mode": "Nyalakan Mode Rehat",
+            "floorp-hide-user-interface": "Sembunyikan Antarmuka",
+            "floorp-toggle-navigation-panel": "Toggle Navigation Panel",
             "gecko-stop": "Berhenti",
             "gecko-search-in-this-page": "Cari di Halaman Ini",
             "gecko-show-next-search-result": "Tampilkan Hasil Pencarian Berikutnya",
@@ -521,7 +536,7 @@
             "gecko-enter-into-customize-mode": "Masuki Mode Kustomisasi",
             "gecko-enter-into-offline-mode": "Masuki Mode Luring",
             "gecko-open-screen-capture": "Open Screen Capture",
-            "{{productName}}-show-pip": "Show Picture-in-Picture",
+            "floorp-show-pip": "Show Picture-in-Picture",
             "gecko-open-bookmark-add-tool": "Open Bookmark Add Tool",
             "gecko-open-bookmarks-manager": "Open Bookmarks Manager",
             "gecko-toggle-bookmark-toolbar": "Toggle Bookmark Toolbar",
