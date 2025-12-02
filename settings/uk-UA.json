@@ -187,6 +187,21 @@
                 "overlap": "Показати бічну панель над вмістом сайту"
             }
         },
+        "tabSleepExclusion": {
+            "title": "Tab Sleep Exclusion",
+            "description": "Exclude specific websites from tab sleep (unloading). Tabs matching these patterns will remain active and won't be automatically unloaded when memory is low.",
+            "enable": "Enable tab sleep exclusion",
+            "patterns": "Exclusion Patterns",
+            "patternsDescription": "Add URL patterns to exclude from tab sleep. Tabs matching these patterns will not be unloaded.",
+            "patternPlaceholder": "Enter URL pattern (e.g., example.com, *.google.com)",
+            "add": "Додати",
+            "remove": "Remove",
+            "noPatterns": "No exclusion patterns configured. Add patterns to keep specific tabs active.",
+            "examples": "Pattern Examples",
+            "exampleDomain": "Matches any URL containing this domain",
+            "exampleWildcard": "Matches all subdomains of google.com",
+            "exampleFullUrl": "Matches Gmail URLs only"
+        },
         "uiCustomization": {
             "title": "Налаштування інтерфейсу",
             "needRestartDescriptionForEnableAndDisable": "Щоб повністю увімкнути або вимкнути цю функцію налаштування інтерфейсу, потрібно перезапустити {{productName}}.",
@@ -211,7 +226,7 @@
             },
             "newtab": {
                 "title": "Нова вкладка",
-                "disable{{productName}}Start": "Disable {{productName}} Start"
+                "disableFloorpStart": "Disable {{productName}} Start"
             },
             "multirowTab": {
                 "title": "Multirow Tab",
@@ -508,9 +523,9 @@
             "gecko-mute-current-tab": "Вимкнути звук поточної вкладки",
             "gecko-show-source-of-page": "Показати джерело сторінки",
             "gecko-show-page-info": "Показати інформацію про сторінку",
-            "{{productName}}-rest-mode": "Увімкнути режим відпочинку",
-            "{{productName}}-hide-user-interface": "Приховати інтерфейс",
-            "{{productName}}-toggle-navigation-panel": "Увімкнути/вимкнути панель навігації",
+            "floorp-rest-mode": "Увімкнути режим відпочинку",
+            "floorp-hide-user-interface": "Приховати інтерфейс",
+            "floorp-toggle-navigation-panel": "Увімкнути/вимкнути панель навігації",
             "gecko-stop": "Зупинити",
             "gecko-search-in-this-page": "Пошук на цій сторінці",
             "gecko-show-next-search-result": "Показати наступний результат пошуку",
@@ -521,7 +536,7 @@
             "gecko-enter-into-customize-mode": "Enter Customize Mode",
             "gecko-enter-into-offline-mode": "Увійдіть в автономний режим",
             "gecko-open-screen-capture": "Open Screen Capture",
-            "{{productName}}-show-pip": "Показати картинку в картинці",
+            "floorp-show-pip": "Показати картинку в картинці",
             "gecko-open-bookmark-add-tool": "Open Bookmark Add Tool",
             "gecko-open-bookmarks-manager": "Open Bookmarks Manager",
             "gecko-toggle-bookmark-toolbar": "Toggle Bookmark Toolbar",
