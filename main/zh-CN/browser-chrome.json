@@ -311,5 +311,14 @@
     "actionLabelInput": "输入",
     "actionLabelClick": "点击",
     "actionLabelSubmit": "提交"
+  },
+  "externalBrowser": {
+    "menu": {
+      "openTabIn": "Open Tab in External Browser",
+      "openLinkIn": "Open Link in External Browser",
+      "defaultBrowser": "System Default Browser",
+      "noBrowsers": "No external browsers detected",
+      "noValidUrl": "No valid URL to open"
+    }
   }
 }
