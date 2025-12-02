@@ -187,6 +187,21 @@
                 "overlap": "Visa sidofält över webbplatsens innehåll"
             }
         },
+        "tabSleepExclusion": {
+            "title": "Tab Sleep Exclusion",
+            "description": "Exclude specific websites from tab sleep (unloading). Tabs matching these patterns will remain active and won't be automatically unloaded when memory is low.",
+            "enable": "Enable tab sleep exclusion",
+            "patterns": "Exclusion Patterns",
+            "patternsDescription": "Add URL patterns to exclude from tab sleep. Tabs matching these patterns will not be unloaded.",
+            "patternPlaceholder": "Enter URL pattern (e.g., example.com, *.google.com)",
+            "add": "Lägg till",
+            "remove": "Remove",
+            "noPatterns": "No exclusion patterns configured. Add patterns to keep specific tabs active.",
+            "examples": "Pattern Examples",
+            "exampleDomain": "Matches any URL containing this domain",
+            "exampleWildcard": "Matches all subdomains of google.com",
+            "exampleFullUrl": "Matches Gmail URLs only"
+        },
         "uiCustomization": {
             "title": "Anpassning av användargränssnitt",
             "needRestartDescriptionForEnableAndDisable": "En omstart av {{productName}} krävs för att helt aktivera eller inaktivera denna funktion för anpassning av användargränssnittet.",
@@ -211,7 +226,7 @@
             },
             "newtab": {
                 "title": "Ny flik",
-                "disable{{productName}}Start": "Disable {{productName}} Start"
+                "disableFloorpStart": "Disable {{productName}} Start"
             },
             "multirowTab": {
                 "title": "Flik med flera rader",
@@ -508,9 +523,9 @@
             "gecko-mute-current-tab": "Tysta aktuell flik",
             "gecko-show-source-of-page": "Visa källkod för sida",
             "gecko-show-page-info": "Visa sidinformation",
-            "{{productName}}-rest-mode": "Aktivera viloläge",
-            "{{productName}}-hide-user-interface": "Dölj gränssnitt",
-            "{{productName}}-toggle-navigation-panel": "Växla navigeringspanel",
+            "floorp-rest-mode": "Aktivera viloläge",
+            "floorp-hide-user-interface": "Dölj gränssnitt",
+            "floorp-toggle-navigation-panel": "Växla navigeringspanel",
             "gecko-stop": "Stopp",
             "gecko-search-in-this-page": "Sök på denna sida",
             "gecko-show-next-search-result": "Visa nästa sökresultat",
@@ -521,7 +536,7 @@
             "gecko-enter-into-customize-mode": "Gå till anpassningsläge",
             "gecko-enter-into-offline-mode": "Gå in i offline-läge",
             "gecko-open-screen-capture": "Öppna skärmbildsverktyget",
-            "{{productName}}-show-pip": "Visa bild-i-bild",
+            "floorp-show-pip": "Visa bild-i-bild",
             "gecko-open-bookmark-add-tool": "Öppna bokmärke lägga till verktyget",
             "gecko-open-bookmarks-manager": "Öppna bokmärkeshanteraren",
             "gecko-toggle-bookmark-toolbar": "Växla bokmärkesfältet",
