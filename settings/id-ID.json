@@ -188,7 +188,7 @@
             }
         },
         "tabSleepExclusion": {
-            "title": "Tab Sleep Exclusion",
+            "title": "Pengecualian Tab Tidur",
             "description": "Exclude specific websites from tab sleep (unloading). Tabs matching these patterns will remain active and won't be automatically unloaded when memory is low.",
             "enable": "Enable tab sleep exclusion",
             "patterns": "Exclusion Patterns",
@@ -254,7 +254,7 @@
         "closePopupWhenSelectingWorkspace": "Tutup munculan ruang kerja saat memilih ruang kerja",
         "closePopupWhenSelectingWorkspaceDescription": "Pilih apakah munculan ruang kerja ditutup setelah memilih ruang kerja.",
         "showWorkspaceNameOnToolbar": "Tampilkan nama ruang kerja di sebelah ikon",
-        "exitOnLastTabClose": "Exit {{productName}} when last workspace tab is closed",
+        "exitOnLastTabClose": "Keluar dari {{productName}} ketika tab ruang kerja terakhir ditutup",
         "manageOnBms": "Kelola ruang kerja di bilah sisi {{productName}}",
         "manageOnBmsDescription": "Ketika fitur ini diaktifkan, Anda hanya dapat mengelola ruang kerja di bilah sisi {{productName}}. Anda tidak akan dapat mengelola ruang kerja menggunakan tombol bilah alat.",
         "backup": "Pencadangan Ruang Kerja",
@@ -273,7 +273,7 @@
     },
     "accounts": {
         "profileAndAccount": "Profil dan Akun",
-        "profileDescription": "Profiles contain browsing-related information such as history, bookmarks, settings, and add-ons. {{productName}} uses this profile to save data.",
+        "profileDescription": "Profil mengandung informasi terkait penelusuran seperti riwayat, markah, pengaturan, dan pengaya. {{productName}} menggunakan profil ini untuk menyimpan data.",
         "profileManagement": "Manajemen Profil",
         "profileManagementDescription": "Profil bisa dibuat dan dipisahkan satu sama lain, dan datanya disimpan dalam folder profil.",
         "currentProfileName": "Nama Profil Saat Ini: {{name}}",
@@ -282,8 +282,8 @@
         "openProfileSaveLocation": "Buka Lokasi Penyimpanan Profil",
         "mozillaAccountSyncSettings": "Pengaturan Sinkronisasi Akun Mozilla",
         "syncedTo": "Disinkronkan ke {{email}}",
-        "sync{{productName}}NotesToMozillaAccount": "Sync {{productName}} Notes to Mozilla Account (Experimental)",
-        "{{productName}}FeatureSyncSettings": "{{productName}} Feature Sync Settings",
+        "sync{{productName}}NotesToMozillaAccount": "Sinkronisasikan Catatan {{productName}} ke Akun Mozilla (Eksperimental)",
+        "{{productName}}FeatureSyncSettings": "Pengaturan Sinkronisasi Fitur {{productName}}",
         "manageMozillaAccount": "Kelola Akun Mozilla",
         "manageFirefoxFeatureSync": "Kelola Sinkronisasi Fitur Firefox",
         "aboutMozillaAccount": "Tentang Akun Mozilla",
@@ -307,8 +307,8 @@
         "title": "Pembaruan & Eksperimen",
         "description": "Kelola pengaturan pembaruan dan fitur-fitur eksperimental.",
         "experiments": {
-            "title": "{{productName}} Flasco Participation",
-            "description": "Control how {{productName}} enrolls you in experimental features and {{productName}} Flascos.",
+            "title": "Partisipasi Flasco {{productName}}",
+            "description": "Atur cara {{productName}} mendaftarkan Anda dalam fitur eksperimental dan Flasco {{productName}}.",
             "policyLabel": "Participation Policy",
             "policy": {
                 "default": "Bawaan (Direkomendasikan)",
@@ -316,7 +316,7 @@
                 "never": "Jangan Pernah Ikut"
             },
             "policyHelp": {
-                "default": "Follow the recommended participation policy. You may be enrolled in {{productName}} Flasco based on rollout percentages.",
+                "default": "Ikuti kebijakan partisipasi yang direkomendasikan. Anda dapat terdaftar di {{productName}} Flasco berdasarkan persentase peluncuran.",
                 "always": "Always participate in all available {{productName}} Flascos. This option is for users who want to test new features early.",
                 "never": "Never participate in {{productName}} Flascos. You will only receive stable, tested features."
             },
@@ -336,7 +336,7 @@
             "disabledLabel": "Nonaktif",
             "confirmDisable": "Are you sure you want to disable this Flasco? You can re-enable it later.",
             "confirmEnable": "Are you sure you want to re-enable this Flasco?",
-            "lastUpdated": "Last updated:"
+            "lastUpdated": "Terakhir diperbarui:"
         }
     },
     "common": {
