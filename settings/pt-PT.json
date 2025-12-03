@@ -188,19 +188,19 @@
             }
         },
         "tabSleepExclusion": {
-            "title": "Tab Sleep Exclusion",
-            "description": "Exclude specific websites from tab sleep (unloading). Tabs matching these patterns will remain active and won't be automatically unloaded when memory is low.",
-            "enable": "Enable tab sleep exclusion",
-            "patterns": "Exclusion Patterns",
-            "patternsDescription": "Add URL patterns to exclude from tab sleep. Tabs matching these patterns will not be unloaded.",
-            "patternPlaceholder": "Enter URL pattern (e.g., example.com, *.google.com)",
+            "title": "Separador Exclusão do sono",
+            "description": "Excluir sites específicos da suspensão de separadores (descarregamento). Os separadores que correspondam a estes padrões permanecerão activos e não serão descarregados automaticamente quando a memória estiver fraca.",
+            "enable": "Ativar a exclusão de sono do separador",
+            "patterns": "Padrões de exclusão",
+            "patternsDescription": "Adicione padrões de URL para excluir da suspensão de separadores. Os separadores que correspondam a estes padrões não serão descarregados.",
+            "patternPlaceholder": "Introduzir padrão de URL (por exemplo, exemplo.com, *.google.com)",
             "add": "Adicionar",
             "remove": "Remover",
-            "noPatterns": "No exclusion patterns configured. Add patterns to keep specific tabs active.",
-            "examples": "Pattern Examples",
-            "exampleDomain": "Matches any URL containing this domain",
-            "exampleWildcard": "Matches all subdomains of google.com",
-            "exampleFullUrl": "Matches Gmail URLs only"
+            "noPatterns": "Não há padrões de exclusão configurados. Adicionar padrões para manter activos separadores específicos.",
+            "examples": "Exemplos de padrões",
+            "exampleDomain": "Corresponde a qualquer URL que contenha este domínio",
+            "exampleWildcard": "Corresponde a todos os subdomínios de google.com",
+            "exampleFullUrl": "Corresponde apenas a URLs do Gmail"
         },
         "uiCustomization": {
             "title": "Personalização da IU",
