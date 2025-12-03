@@ -314,11 +314,11 @@
   },
   "externalBrowser": {
     "menu": {
-      "openTabIn": "Open Tab in External Browser",
-      "openLinkIn": "Open Link in External Browser",
-      "defaultBrowser": "System Default Browser",
-      "noBrowsers": "No external browsers detected",
-      "noValidUrl": "No valid URL to open"
+      "openTabIn": "Buka Tab di Peramban Eksternal",
+      "openLinkIn": "Buka Tautan di Peramban Eksternal",
+      "defaultBrowser": "Peramban Bawaan Sistem",
+      "noBrowsers": "Tidak ada peramban eksternal terdeteksi",
+      "noValidUrl": "Tidak ada URL valid untuk dibuka"
     }
   }
 }
