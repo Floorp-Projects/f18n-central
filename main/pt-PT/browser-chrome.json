@@ -323,52 +323,52 @@
   },
   "chromeWebStore": {
     "button": {
-      "addToFloorp": "Add to Floorp",
+      "addToFloorp": "Adicionar ao Floorp",
       "installing": "Instalando...",
-      "success": "Added!",
-      "error": "Error occurred",
-      "installed": "Installed"
+      "success": "Adicionado!",
+      "error": "Ocorreu um erro",
+      "installed": "Instalado"
     },
     "error": {
-      "title": "Installation Error",
-      "compatibilityNote": "This extension may not be compatible with Firefox/Floorp.",
-      "alreadyInstalled": "This extension is already installed ({{name}})",
-      "downloadFailed": "Failed to download CRX file",
-      "conversionFailed": "Failed to convert extension: {{error}}",
-      "conversionFailedGeneric": "Failed to convert CRX to XPI",
-      "installError": "Installation error: {{error}}",
-      "installFailed": "Installation failed",
-      "noData": "No installation data provided",
-      "addonManagerUnavailable": "AddonManager is not available",
-      "noBrowserWindow": "Could not find browser window for installation",
-      "createInstallFailed": "Failed to create installation object",
-      "cancelledByUser": "Installation cancelled by user",
-      "downloadCancelled": "Download cancelled",
-      "timeout": "Installation timed out",
-      "xpiInstallError": "XPI installation error: {{error}}",
-      "errorWithCode": "Installation error (code: {{code}})",
-      "experimentDisabled": "This feature is not currently available"
+      "title": "Erro de instalação",
+      "compatibilityNote": "Esta extensão pode não ser compatível com o Firefox/Floorp.",
+      "alreadyInstalled": "Esta extensão já está instalada ({{name}})",
+      "downloadFailed": "Falha ao descarregar o ficheiro CRX",
+      "conversionFailed": "Falha ao converter a extensão: {{error}}",
+      "conversionFailedGeneric": "Falha ao converter CRX em XPI",
+      "installError": "Erro de instalação: {{error}}",
+      "installFailed": "A instalação falhou",
+      "noData": "Não foram fornecidos dados de instalação",
+      "addonManagerUnavailable": "O AddonManager não está disponível",
+      "noBrowserWindow": "Não foi possível encontrar a janela do navegador para a instalação",
+      "createInstallFailed": "Falha ao criar o objeto de instalação",
+      "cancelledByUser": "Instalação cancelada pelo utilizador",
+      "downloadCancelled": "Transferência cancelada",
+      "timeout": "A instalação expirou",
+      "xpiInstallError": "Erro de instalação do XPI: {{error}}",
+      "errorWithCode": "Erro de instalação (código: {{code}})",
+      "experimentDisabled": "Esta funcionalidade não está atualmente disponível"
     },
     "installErrors": {
-      "downloadFailed": "Download failed",
-      "signatureVerifyFailed": "Failed to verify extension signature",
-      "corruptOrIncompatible": "Extension is corrupted or incompatible",
-      "incompatible": "This extension is not compatible with Floorp",
-      "blocked": "This extension is blocked",
-      "timeout": "Extension installation timed out",
-      "installFailed": "Extension installation failed",
-      "parseFailed": "Failed to parse extension",
-      "invalidFile": "Invalid extension file",
-      "networkError": "A network error occurred"
+      "downloadFailed": "Transferência falhou",
+      "signatureVerifyFailed": "Falha ao verificar a assinatura da extensão",
+      "corruptOrIncompatible": "A extensão está corrompida ou é incompatível",
+      "incompatible": "Esta extensão não é compatível com o Floorp",
+      "blocked": "Esta extensão está bloqueada",
+      "timeout": "A instalação da extensão expirou",
+      "installFailed": "Falha na instalação da extensão",
+      "parseFailed": "Falha ao analisar a extensão",
+      "invalidFile": "Ficheiro de extensão inválido",
+      "networkError": "Ocorreu um erro de rede"
     }
   },
   "addons": {
     "notification": {
-      "chromeExtensionMessage": "Do you want to add Chrome extension \"{{name}}\"? This extension has been converted from Chrome Web Store.",
-      "chromeExtensionPrompt": "Do you want to add Chrome extension \"{{name}}\"?",
-      "defaultExtensionName": "this extension",
+      "chromeExtensionMessage": "Deseja adicionar a extensão do Chrome \"{{name}}\"? Esta extensão foi convertida da Chrome Web Store.",
+      "chromeExtensionPrompt": "Pretende adicionar a extensão do Chrome \"{{name}}\"?",
+      "defaultExtensionName": "esta extensão",
       "chromeBadge": "[Chrome]",
-      "compatibilityWarning": "This Chrome extension has been converted to Firefox compatible format. Some features may not work properly."
+      "compatibilityWarning": "Esta extensão do Chrome foi convertida para um formato compatível com o Firefox. Algumas funcionalidades podem não funcionar corretamente."
     }
   }
 }
