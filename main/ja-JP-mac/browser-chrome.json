@@ -323,52 +323,52 @@
   },
   "chromeWebStore": {
     "button": {
-      "addToFloorp": "Add to Floorp",
+      "addToFloorp": "Floorp に追加",
       "installing": "インストール中...",
-      "success": "Added!",
-      "error": "Error occurred",
-      "installed": "Installed"
+      "success": "追加完了！",
+      "error": "エラーが発生しました",
+      "installed": "インストール済み"
     },
     "error": {
-      "title": "Installation Error",
-      "compatibilityNote": "This extension may not be compatible with Firefox/Floorp.",
-      "alreadyInstalled": "This extension is already installed ({{name}})",
-      "downloadFailed": "Failed to download CRX file",
-      "conversionFailed": "Failed to convert extension: {{error}}",
-      "conversionFailedGeneric": "Failed to convert CRX to XPI",
-      "installError": "Installation error: {{error}}",
-      "installFailed": "Installation failed",
-      "noData": "No installation data provided",
-      "addonManagerUnavailable": "AddonManager is not available",
-      "noBrowserWindow": "Could not find browser window for installation",
-      "createInstallFailed": "Failed to create installation object",
-      "cancelledByUser": "Installation cancelled by user",
-      "downloadCancelled": "Download cancelled",
-      "timeout": "Installation timed out",
-      "xpiInstallError": "XPI installation error: {{error}}",
-      "errorWithCode": "Installation error (code: {{code}})",
-      "experimentDisabled": "This feature is not currently available"
+      "title": "インストールエラー",
+      "compatibilityNote": "この拡張機能は Firefox/Floorp と互換性がない可能性があります。",
+      "alreadyInstalled": "この拡張機能はすでにインストールされています ({{name}})",
+      "downloadFailed": "CRX ファイルをダウンロードできませんでした",
+      "conversionFailed": "拡張機能を変換できませんでした: {{error}}",
+      "conversionFailedGeneric": "CRX から XPI に変換できませんでした",
+      "installError": "インストールエラー: {{error}}",
+      "installFailed": "インストール失敗",
+      "noData": "インストールデータが提供されていません",
+      "addonManagerUnavailable": "AddonManager は使用できません",
+      "noBrowserWindow": "インストール用のブラウザーウィンドウが見つかりません",
+      "createInstallFailed": "インストールオブジェクトを作成できませんでした",
+      "cancelledByUser": "インストールはユーザーによってキャンセルされました",
+      "downloadCancelled": "ダウンロードがキャンセルされました",
+      "timeout": "インストールがタイムアウトしました",
+      "xpiInstallError": "XPI インストールエラー: {{error}}",
+      "errorWithCode": "インストールエラー (コード: {{code}})",
+      "experimentDisabled": "この機能は現在使用できません"
     },
     "installErrors": {
-      "downloadFailed": "Download failed",
-      "signatureVerifyFailed": "Failed to verify extension signature",
-      "corruptOrIncompatible": "Extension is corrupted or incompatible",
-      "incompatible": "This extension is not compatible with Floorp",
-      "blocked": "This extension is blocked",
-      "timeout": "Extension installation timed out",
-      "installFailed": "Extension installation failed",
-      "parseFailed": "Failed to parse extension",
-      "invalidFile": "Invalid extension file",
-      "networkError": "A network error occurred"
+      "downloadFailed": "ダウンロード失敗",
+      "signatureVerifyFailed": "拡張機能の署名を検証できませんでした",
+      "corruptOrIncompatible": "拡張機能が壊れているか、互換性がありません",
+      "incompatible": "この拡張機能は Floorp と互換性がありません",
+      "blocked": "この拡張機能はブロックされています",
+      "timeout": "拡張機能のインストールがタイムアウトしました",
+      "installFailed": "拡張機能のインストールに失敗しました",
+      "parseFailed": "拡張機能の解析に失敗しました",
+      "invalidFile": "無効な拡張機能ファイルです",
+      "networkError": "ネットワークエラーが発生しました"
     }
   },
   "addons": {
     "notification": {
-      "chromeExtensionMessage": "Do you want to add Chrome extension \"{{name}}\"? This extension has been converted from Chrome Web Store.",
-      "chromeExtensionPrompt": "Do you want to add Chrome extension \"{{name}}\"?",
-      "defaultExtensionName": "this extension",
+      "chromeExtensionMessage": "Chrome 拡張機能 \"{{name}}\" を追加しますか？ この拡張機能は Chrome ウェブストアから変換されました。",
+      "chromeExtensionPrompt": "Chrome 拡張機能 \"{{name}}\" を追加しますか？",
+      "defaultExtensionName": "この拡張機能",
       "chromeBadge": "[Chrome]",
-      "compatibilityWarning": "This Chrome extension has been converted to Firefox compatible format. Some features may not work properly."
+      "compatibilityWarning": "この Chrome 拡張機能は Firefox 互換形式に変換されています。一部の機能は正しく動作しない可能性があります。"
     }
   }
 }
