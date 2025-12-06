@@ -106,12 +106,6 @@
   "statusbar": {
     "toggle": "Bilah Status{{mark}}"
   },
-  "splitview": {
-    "tab-context": {
-      "temporarily-unavailable": "Tampilan Terbagi sementara tidak tersedia",
-      "details": "Rincian"
-    }
-  },
   "ssb": {
     "menu": {
       "webapps": "Aplikasi Web",
