@@ -106,12 +106,6 @@
   "statusbar": {
     "toggle": "状态栏{{mark}}"
   },
-  "splitview": {
-    "tab-context": {
-      "temporarily-unavailable": "分割视图暂时不可用",
-      "details": "详情"
-    }
-  },
   "ssb": {
     "menu": {
       "webapps": "应用",

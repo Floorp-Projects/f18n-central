@@ -106,12 +106,6 @@
   "statusbar": {
     "toggle": "Thanh trạng thái {{mark}}"
   },
-  "splitview": {
-    "tab-context": {
-      "temporarily-unavailable": "Split View is temporarily unavailable",
-      "details": "Details"
-    }
-  },
   "ssb": {
     "menu": {
       "webapps": "Ứng dụng Web",
