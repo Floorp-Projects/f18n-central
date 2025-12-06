@@ -1,6 +1,6 @@
 {
     "title": {
-        "default": "{{productName}} Settings"
+        "default": "Cài đặt {{productName}}"
     },
     "header": {
         "title": "Cài đặt",
@@ -9,12 +9,12 @@
     },
     "restartWarningDialog": {
         "title": "Khởi động lại là cần thiết",
-        "description": "After restarting, the opened private windows and private tabs will be lost.",
+        "description": "Sau khi khởi động lại, các cửa sổ và thẻ riêng tư sẽ mất.",
         "cancel": "Để sau",
-        "restart": "Restart Now"
+        "restart": "Khởi động lại"
     },
     "sidebar": {
-        "firefoxSettings": "Firefox Settings",
+        "firefoxSettings": "Cài đặt Firefox",
         "about": "Về",
         "aboutNoraneko": "Về Noraneko",
         "debug": "Gỡ lỗi",
@@ -28,18 +28,18 @@
         "workspaces": "Không gian làm việc",
         "keyboardShortcuts": "Phím tắt ",
         "webApps": "Ứng dụng Web",
-        "profileAndAccount": "Profile and Account",
+        "profileAndAccount": "Hồ sơ và Tài khoản",
         "aboutBrowser": "Về {{productName}}",
-        "updates": "Updates & Experiments",
+        "updates": "Cập nhật và thử nghiệm",
         "debug": "Gỡ lỗi",
         "mouseGesture": "Cử chỉ chuột",
         "keyboardShortcut": "Phím tắt",
         "search": {
             "title": "Tìm kiếm cài đặt",
-            "resultsFor": "Search results for \"{{query}}\"",
+            "resultsFor": "Kết quả tìm kiếm cho \"{{query}}\"",
             "searchResultsDescription": "Search results for \"{{query}}\". Only {{productName}} settings are searched; Firefox settings are not included.",
-            "noResults": "No results found",
-            "open": "Open \"{{title}}\"",
+            "noResults": "Không tìm thấy gì cả",
+            "open": "Mở \"{{title}}\"",
             "matchedText": "Matched Text",
             "results": "Search Results"
         }
@@ -66,14 +66,14 @@
             "description": "Use a Mozilla Account to sync some data with other devices. Ablaze Account syncs data that can't be synced with a Mozilla Account."
         },
         "manageExtensions": {
-            "title": "Manage Extensions",
-            "description": "{{productName}} allows you to manage extensions available on addons.mozilla.org.",
+            "title": "Quản lý tiện ích",
+            "description": "{{productName}} cho phép bạn quản lý tiện ích có ở addons.mozilla.org.",
             "footerLinkText": "Quản lí tiện ích"
         },
         "browserSupport": {
             "title": "{{productName}} Support",
             "description": "Access support documentation written by {{productName}} contributors.",
-            "footerLinkText": "{{productName}} Support"
+            "footerLinkText": "Hỗ trợ {{productName}}"
         }
     },
     "design": {
@@ -95,7 +95,7 @@
         "style": "Phong cách",
         "horizontal": "Dọc",
         "multirow": "Nhiều dòng",
-        "vertical": "Vertical",
+        "vertical": "Dọc",
         "verticalTabIsRemovedFromBrowser": "Thẻ dọc đã bị loại bỏ khỏi {{productName}}. Hãy dùng thẻ dọc của Firefox.",
         "learnMore": "Tìm hiểu thêm",
         "position": "Vị trí",
