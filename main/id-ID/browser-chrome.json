@@ -323,16 +323,16 @@
   },
   "chromeWebStore": {
     "button": {
-      "addToFloorp": "Add to Floorp",
+      "addToFloorp": "Tambahkan ke Floorp",
       "installing": "Memasang …",
-      "success": "Added!",
-      "error": "Error occurred",
-      "installed": "Installed"
+      "success": "Ditambahkan!",
+      "error": "Terjadi galat",
+      "installed": "Terpasang"
     },
     "error": {
-      "title": "Installation Error",
-      "compatibilityNote": "This extension may not be compatible with Firefox/Floorp.",
-      "alreadyInstalled": "This extension is already installed ({{name}})",
+      "title": "Galat pemasangan",
+      "compatibilityNote": "Ekstensi ini mungkin tidak kompatibel dengan Firefox/Floorp.",
+      "alreadyInstalled": "Ekstensi ini sudah terpasang ({{name}})",
       "downloadFailed": "Failed to download CRX file",
       "conversionFailed": "Failed to convert extension: {{error}}",
       "conversionFailedGeneric": "Failed to convert CRX to XPI",
