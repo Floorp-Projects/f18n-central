@@ -5,7 +5,7 @@
   },
   "floorpHubWarning": {
     "message": "Floorp-specific settings such as the panel sidebar, Workspaces, and mouse gestures are managed in Floorp Hub.",
-    "openButton": "Open Floorp Hub"
+    "openButton": "Mở Floorp Hub"
   },
   "floorpStartWarning": {
     "message": "To change the \"Home\" setting, disable Floorp Start from Floorp Hub (about:hub#/features/design).",
