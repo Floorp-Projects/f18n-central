@@ -188,7 +188,7 @@
             }
         },
         "tabSleepExclusion": {
-            "title": "Tab Sleep Exclusion",
+            "title": "排除分頁睡眠",
             "description": "Exclude specific websites from tab sleep (unloading). Tabs matching these patterns will remain active and won't be automatically unloaded when memory is low.",
             "enable": "Enable tab sleep exclusion",
             "patterns": "Exclusion Patterns",
