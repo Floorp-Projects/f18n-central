@@ -1,7 +1,7 @@
 {
   "undo-closed-tab": {
-    "label": "Undo Closed Tab",
-    "tooltiptext": "Reopen the last closed tab {{shortcut}}"
+    "label": "Αναίρεση κλεισίματος καρτέλας",
+    "tooltiptext": "Άνοιγμα της τελευταίας κλεισμένης καρτέλας {{shortcut}}"
   },
   "floorpHubWarning": {
     "message": "Floorp-specific settings such as the panel sidebar, Workspaces, and mouse gestures are managed in Floorp Hub.",
@@ -13,64 +13,64 @@
   },
   "workspaces": {
     "modal": {
-      "name": "Name",
-      "name-placeholder": "Enter a name for this workspace",
-      "container": "Container",
-      "no-container": "No Container",
-      "icon": "Icon",
+      "name": "Όνομα",
+      "name-placeholder": "Εισάγετε ένα όνομα για αυτόν τον χώρο εργασίας",
+      "container": "Περιέκτης",
+      "no-container": "Χωρίς περιέκτη",
+      "icon": "Εικονίδιο",
       "edit-title": "Edit Workspace",
-      "save": "Save Changes",
-      "cancel": "Cancel"
+      "save": "Αποθήκευση αλλαγών",
+      "cancel": "Ακύρωση"
     },
     "icons": {
-      "article": "Article",
-      "book": "Book",
-      "briefcase": "Briefcase",
-      "cart": "Shopping Cart",
-      "chat": "Chat",
-      "chill": "Chill",
-      "circle": "Circle",
-      "compass": "Compass",
-      "code": "Code",
-      "dollar": "Dollar",
-      "fence": "Fence",
-      "fingerprint": "Fingerprint",
-      "food": "Food",
-      "fruit": "Fruit",
-      "game": "Game",
-      "gear": "Settings",
-      "gift": "Gift",
-      "key": "Key",
-      "lightning": "Lightning",
-      "network": "Network",
-      "notes": "Notes",
-      "paint": "Paint",
-      "photo": "Photo",
-      "pin": "Pin",
-      "pet": "Pet",
-      "question": "Question",
+      "article": "Άρθρο",
+      "book": "Βιβλίο",
+      "briefcase": "Χαρτοφύλακας",
+      "cart": "Καλάθι αγορών",
+      "chat": "Συνομιλία",
+      "chill": "Ψύξη",
+      "circle": "Κύκλος",
+      "compass": "Πυξίδα",
+      "code": "Κωδικός",
+      "dollar": "Δολλάριο",
+      "fence": "Φράχτης",
+      "fingerprint": "Δακτυλικό αποτύπωμα",
+      "food": "Φαγητό",
+      "fruit": "Φρούτο",
+      "game": "Παιχνίδι",
+      "gear": "Ρυθμίσεις",
+      "gift": "Δώρο",
+      "key": "Κλειδί",
+      "lightning": "Αστραπή",
+      "network": "Δίκτυο",
+      "notes": "Σημειώσεις",
+      "paint": "Ζωγραφική",
+      "photo": "Φωτογραφία",
+      "pin": "Καρφίτσα",
+      "pet": "Κατοικίδιο",
+      "question": "Ερώτηση",
       "smartphone": "Smartphone",
-      "star": "Star",
-      "tree": "Tree",
-      "vacation": "Vacation",
-      "love": "Love",
-      "moon": "Moon",
-      "music": "Music",
-      "user": "User"
+      "star": "Αστέρι",
+      "tree": "Δέντρο",
+      "vacation": "Διακοπές",
+      "love": "Αγάπη",
+      "moon": "Φεγγάρι",
+      "music": "Μουσική",
+      "user": "Χρήστης"
     },
     "service": {
-      "new-workspace": "New Workspace ({{count}})"
+      "new-workspace": "Νέος χώρος εργασίας ({{count}})"
     },
     "context-menu": {
-      "move-up": "Move this Workspace Up",
-      "move-down": "Move this Workspace Down",
-      "delete": "Delete Workspace",
-      "manage": "Manage Workspace",
-      "archive": "Archive Workspace"
+      "move-up": "Μετακίνηση αυτού του χώρου εργασίας επάνω",
+      "move-down": "Μετακίνηση αυτού του χώρου εργασίας κάτω",
+      "delete": "Διαγραφή χώρου εργασίας",
+      "manage": "Διαχείριση χώρου εργασίας",
+      "archive": "Αρχειοθέτηση χώρου εργασίας"
     },
     "popup": {
-      "create-new": "Create New Workspace...",
-      "manage": "Manage Workspaces",
+      "create-new": "Δημιουργία νέου χώρου εργασίας...",
+      "manage": "Διαχείριση χώρων εργασίας",
       "restore": "Show Archived Workspaces",
       "restore-cancel": "Exit Restore Mode",
       "restore-title": "Archived Workspaces",
@@ -79,64 +79,64 @@
       "restore-error": "Failed to load archived workspaces",
       "restore-tooltip": "Toggle restore mode",
       "restore-item": "Restore \"{{name}}\"",
-      "restore-delete-tooltip": "Delete this archive",
-      "restore-tab-count": "{{count}} tab",
-      "restore-tab-count_plural": "{{count}} tabs",
-      "restore-time-just-now": "Just now",
-      "restore-time-minutes": "{{minutes}} minute ago",
-      "restore-time-minutes_plural": "{{minutes}} minutes ago",
-      "restore-time-hours": "{{hours}} hour ago",
-      "restore-time-hours_plural": "{{hours}} hours ago",
-      "restore-time-days": "{{days}} day ago",
-      "restore-time-days_plural": "{{days}} days ago"
+      "restore-delete-tooltip": "Διαγραφή αυτού του αρχείου",
+      "restore-tab-count": "{{count}} καρτέλα",
+      "restore-tab-count_plural": "{{count}} καρτέλες",
+      "restore-time-just-now": "Μόλις τώρα",
+      "restore-time-minutes": "{{minutes}} λεπτό πριν",
+      "restore-time-minutes_plural": "{{minutes}} λεπτά πριν",
+      "restore-time-hours": "{{hours}} ώρα πριν",
+      "restore-time-hours_plural": "{{hours}} ώρες πριν",
+      "restore-time-days": "{{days}} ημέρα πριν",
+      "restore-time-days_plural": "{{days}} ημέρες πριν"
     },
     "menu": {
-      "moveTabToAnotherWorkspace": "Move Tab to Another Workspace",
-      "openLinkInWorkspace": "Open Link in Another Workspace",
-      "noOtherWorkspace": "No other workspaces available"
+      "moveTabToAnotherWorkspace": "Μετακίνηση καρτέλας σε άλλο χώρο εργασίας",
+      "openLinkInWorkspace": "Άνοιγμα συνδέσμου σε άλλο χώρο εργασίας",
+      "noOtherWorkspace": "Δεν υπάρχουν άλλοι διαθέσιμοι χώροι εργασίας"
     },
     "error": {
-      "invalidWorkspaceID": "Not valid ID for Workspaces (maybe order is not updated)"
+      "invalidWorkspaceID": "Μη έγκυρο αναγνωριστικό για χώρους εργασίας (ίσως η παραγγελία δεν έχει ενημερωθεί)"
     }
   },
   "profile-manager-button": {
-    "label": "Profile Manager",
-    "tooltiptext": "Open Profile Manager"
+    "label": "Διαχειριστής προφίλ",
+    "tooltiptext": "Άνοιγμα του Διαχειριστή προφίλ"
   },
   "statusbar": {
-    "toggle": "Status Bar{{mark}}"
+    "toggle": "Γραμμή κατάστασης{{mark}}"
   },
   "ssb": {
     "menu": {
-      "webapps": "Web Apps",
-      "install-current": "Install Current Page as Progressive Web App",
-      "open-installed": "Open Installed Apps"
+      "webapps": "Εφαρμογές Web",
+      "install-current": "Εγκατάσταση της τρέχουσας σελίδας ως προοδευτική εφαρμογή ιστού",
+      "open-installed": "Άνοιγμα εγκατεστημένων εφαρμογών"
     },
     "page-action": {
-      "title": "Open Application",
-      "install": "Install Application",
-      "open": "Open Application",
-      "cancel": "Cancel",
-      "site-icon": "Site icon"
+      "title": "Άνοιγμα εφαρμογής",
+      "install": "Εγκατάσταση εφαρμογής",
+      "open": "Άνοιγμα εφαρμογής",
+      "cancel": "Ακύρωση",
+      "site-icon": "Εικονίδιο ιστότοπου"
     }
   },
   "privateContainer": {
-    "openInPrivateContainer": "Open in Private Container",
-    "reopenInPrivateContainer": "Reopen in Private Container",
-    "name": "Private Container"
+    "openInPrivateContainer": "Άνοιγμα σε ιδιωτικό περιέκτη",
+    "reopenInPrivateContainer": "Επανάνοιγμα σε ιδιωτικό περιέκτη",
+    "name": "Ιδιωτικός περιέκτης"
   },
   "mouseGesture": {
     "actions": {
-      "gecko-back": "Back",
-      "gecko-forward": "Forward",
-      "gecko-reload": "Reload",
-      "gecko-close-tab": "Close Tab",
-      "gecko-open-new-tab": "New Tab",
-      "gecko-duplicate-tab": "Duplicate Tab",
-      "gecko-reload-all-tabs": "Reload All Tabs",
-      "gecko-restore-last-tab": "Reopen Closed Tab",
-      "gecko-open-new-window": "Open New Window",
-      "gecko-open-new-private-window": "Open New Private Window",
+      "gecko-back": "Πίσω",
+      "gecko-forward": "Εμπρός",
+      "gecko-reload": "Επαναφόρτωση",
+      "gecko-close-tab": "Κλείσιμο καρτέλας",
+      "gecko-open-new-tab": "Νέα καρτέλα",
+      "gecko-duplicate-tab": "Κλωνοποίηση καρτέλας",
+      "gecko-reload-all-tabs": "Επαναφόρτωση όλων των καρτελών",
+      "gecko-restore-last-tab": "Επανάνοοιγμα κλεισμένης καρτέλας",
+      "gecko-open-new-window": "Άνοιγμα νέου παραθύρου",
+      "gecko-open-new-private-window": "Άνοιγμα νέου ιδιωτικού παραθύρου",
       "gecko-close-window": "Close Window",
       "gecko-restore-last-window": "Restore Last Window",
       "gecko-show-next-tab": "Show Next Tab",
@@ -174,8 +174,8 @@
       "gecko-toggle-bookmark-toolbar": "Toggle Bookmark Toolbar",
       "gecko-open-general-preferences": "Open General Preferences",
       "gecko-open-privacy-preferences": "Open Privacy Preferences",
-      "gecko-open-workspaces-preferences": "Open Workspaces Preferences",
-      "gecko-open-containers-preferences": "Open Containers Preferences",
+      "gecko-open-workspaces-preferences": "Προτιμήσεις ανοικτών χώρων εργασίας",
+      "gecko-open-containers-preferences": "Προτιμήσεις ανοικτών περιεκτών",
       "gecko-open-search-preferences": "Open Search Preferences",
       "gecko-open-sync-preferences": "Open Sync Preferences",
       "gecko-open-task-manager": "Open Task Manager",
@@ -190,7 +190,7 @@
       "gecko-show-history-sidebar": "Show History Sidebar",
       "gecko-show-synced-tabs-sidebar": "Show Synced Tabs Sidebar",
       "gecko-reverse-sidebar": "Reverse Sidebar Position",
-      "gecko-hide-sidebar": "Hide Sidebar",
+      "gecko-hide-sidebar": "Απόκρυψη πλευρικής γραμμής",
       "gecko-toggle-sidebar": "Toggle Sidebar",
       "gecko-scroll-up": "Scroll Up",
       "gecko-scroll-down": "Scroll Down",
