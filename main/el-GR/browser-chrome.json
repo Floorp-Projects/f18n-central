@@ -192,10 +192,10 @@
       "gecko-reverse-sidebar": "Reverse Sidebar Position",
       "gecko-hide-sidebar": "Απόκρυψη πλευρικής γραμμής",
       "gecko-toggle-sidebar": "Toggle Sidebar",
-      "gecko-scroll-up": "Scroll Up",
-      "gecko-scroll-down": "Scroll Down",
-      "gecko-scroll-right": "Scroll Right",
-      "gecko-scroll-left": "Scroll Left",
+      "gecko-scroll-up": "Κύλιση προς τα πάνω",
+      "gecko-scroll-down": "Κάντε κύλιση προς τα κάτω",
+      "gecko-scroll-right": "Κύλιση δεξιά",
+      "gecko-scroll-left": "Κύλιση αριστερά",
       "gecko-scroll-to-top": "Scroll to Top",
       "gecko-scroll-to-bottom": "Scroll to Bottom",
       "gecko-workspace-next": "Switch to Next Workspace",
@@ -215,11 +215,11 @@
   "qrCode": {
     "pageAction": "Generate QR Code",
     "modalTitle": "QR Code Generator",
-    "loading": "Generating QR Code...",
-    "copyButton": "Copy Image",
-    "downloadButton": "Download",
-    "closeButton": "Close",
-    "copySuccess": "QR code copied to clipboard!",
+    "loading": "Δημιουργία κώδικα QR...",
+    "copyButton": "Αντιγραφή εικόνας",
+    "downloadButton": "Λήψη",
+    "closeButton": "Κλείσιμο",
+    "copySuccess": "Ο κώδικας QR αντιγράφηκε στο πρόχειρο!",
     "copyError": "Failed to copy QR code",
     "generateError": "Failed to generate QR code"
   },
@@ -229,7 +229,7 @@
     "modal": {
       "type": "Panel Type",
       "typeOptions": {
-        "web": "Web Page",
+        "web": "Ιστοσελίδα",
         "sidebar-tool": "Tool Sidebar",
         "extension": "Extension Sidebar",
         "builtin": "Built-in Pages (Downloads, Bookmarks, History)"
@@ -249,15 +249,15 @@
       "unload": "Unload this webpanel",
       "mute": "Mute/Unmute this webpanel",
       "changeZoom": "Change zoom level",
-      "zoomIn": "Zoom in",
-      "zoomOut": "Zoom out",
-      "resetZoom": "Reset zoom",
+      "zoomIn": "Μεγέθυνση",
+      "zoomOut": "Σμίκρυνση",
+      "resetZoom": "Επαναφορά ζουμ",
       "changeUA": "Switch User agent to Mobile/Desktop Version at this Webpanel",
       "delete": "Delete this panel"
     }
   },
   "chrome_css": {
-    "menu": "Style",
+    "menu": "Στυλ",
     "rebuild": "Rebuild Style Sheets",
     "create": "Create New Style Sheet",
     "open_folder": "Open Style Sheets Folder",
@@ -270,14 +270,14 @@
     "file_created": "File Created",
     "file_created_successfully": "File created successfully",
     "open_file_in_editor": "Open file in editor?",
-    "error_title": "Error",
+    "error_title": "Σφάλμα",
     "folder_open_failed": "Failed to open CSS folder",
     "edit_failed": "Failed to edit file"
   },
   "reboot": {
     "menu": {
-      "title": "Restart",
-      "normal-restart": "Restart",
+      "title": "Επανεκκίνηση",
+      "normal-restart": "Επανεκκίνηση",
       "restart-cache-clear": "Restart with Cache Clear",
       "restart-safe-mode": "Restart in Safe Mode",
       "restart-profile-manager": "Restart with Profile Manager"
@@ -299,18 +299,18 @@
     "inspectGetElementText": "Retrieved text from: {{selector}}",
     "inspectGetValue": "Retrieved value: {{selector}}",
     "submitForm": "Submitting form: {{name}}",
-    "actionLabelHighlight": "Highlight",
-    "actionLabelInspect": "Inspect",
-    "actionLabelFill": "Fill",
-    "actionLabelInput": "Input",
-    "actionLabelClick": "Click",
-    "actionLabelSubmit": "Submit"
+    "actionLabelHighlight": "Επισήμανση",
+    "actionLabelInspect": "Επιθεώρηση",
+    "actionLabelFill": "Συμπλήρωση",
+    "actionLabelInput": "Εισαγωγή",
+    "actionLabelClick": "Κάντε κλικ",
+    "actionLabelSubmit": "Υποβολή"
   },
   "externalBrowser": {
     "menu": {
-      "openTabIn": "Open Tab in External Browser",
-      "openLinkIn": "Open Link in External Browser",
-      "defaultBrowser": "System Default Browser",
+      "openTabIn": "Άνοιγμα καρτέλας σε εξωτερικό περιηγητή",
+      "openLinkIn": "Άνοιγμα συνδέσμου σε εξωτερικό περιηγητή",
+      "defaultBrowser": "Προεπιλεγμένο πρόγραμμα περιήγησης",
       "noBrowsers": "No external browsers detected",
       "noValidUrl": "No valid URL to open"
     }
@@ -337,19 +337,19 @@
       "noBrowserWindow": "Could not find browser window for installation",
       "createInstallFailed": "Failed to create installation object",
       "cancelledByUser": "Installation cancelled by user",
-      "downloadCancelled": "Download cancelled",
-      "timeout": "Installation timed out",
-      "xpiInstallError": "XPI installation error: {{error}}",
-      "errorWithCode": "Installation error (code: {{code}})",
-      "experimentDisabled": "This feature is not currently available"
+      "downloadCancelled": "Η λήψη ακυρώθηκε",
+      "timeout": "Λήξη χρονικού ορίου εγκατάστασης",
+      "xpiInstallError": "Σφάλμα εγκατάστασης XPI: {{error}}",
+      "errorWithCode": "Σφάλμα εγκατάστασης (κωδικός: {{code}})",
+      "experimentDisabled": "Αυτή η λειτουργία δεν είναι προς το παρόν διαθέσιμη"
     },
     "installErrors": {
-      "downloadFailed": "Download failed",
-      "signatureVerifyFailed": "Failed to verify extension signature",
-      "corruptOrIncompatible": "Extension is corrupted or incompatible",
-      "incompatible": "This extension is not compatible with Floorp",
-      "blocked": "This extension is blocked",
-      "timeout": "Extension installation timed out",
+      "downloadFailed": "Η λήψη απέτυχε",
+      "signatureVerifyFailed": "Αποτυχία επαλήθευσης της υπογραφής επέκτασης",
+      "corruptOrIncompatible": "Η επέκταση είναι κατεστραμμένη ή ασύμβατη",
+      "incompatible": "Αυτή η επέκταση δεν είναι συμβατή με το Floorp",
+      "blocked": "Αυτή η επέκταση είναι μπλοκαρισμένη",
+      "timeout": "Λήξη χρονικού ορίου εγκατάστασης",
       "installFailed": "Extension installation failed",
       "parseFailed": "Failed to parse extension",
       "invalidFile": "Invalid extension file",
