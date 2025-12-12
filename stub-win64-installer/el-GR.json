@@ -1,53 +1,53 @@
 {
     "app": {
         "status": {
-            "installing": "Installing in the background...",
-            "installComplete": "Installation complete"
+            "installing": "Εγκατάσταση στο παρασκήνιο...",
+            "installComplete": "Η εγκατάσταση ολοκληρώθηκε"
         },
         "installer": {
-            "title": "Floorp Installer",
-            "description": "Install Floorp browser and start a privacy-focused, fast, and customizable browsing experience.",
-            "adminRights": "Install with admin rights",
-            "adminRightsEnabled": "Install for all users with admin rights.",
-            "adminRightsDisabled": "Install for current user only.",
-            "customPathRequired": "Custom installation path requires admin rights.",
-            "installLocation": "Install location",
-            "change": "Change",
-            "installButton": "Start Installation",
-            "retryButton": "Retry"
+            "title": "Εγκαταστάτης Floorp",
+            "description": "Εγκαταστήστε το πρόγραμμα περιήγησης Floorp και ξεκινήστε μια γρήγορη και προσαρμόσιμη εμπειρία περιήγησης με γνώμονα την προστασία της ιδιωτικής ζωής.",
+            "adminRights": "Εγκατάσταση με δικαιώματα διαχειριστή",
+            "adminRightsEnabled": "Εγκατάσταση για όλους τους χρήστες με δικαιώματα διαχειριστή.",
+            "adminRightsDisabled": "Εγκατάσταση μόνο για τον τρέχοντα χρήστη.",
+            "customPathRequired": "Η προσαρμοσμένη διαδρομή εγκατάστασης απαιτεί δικαιώματα διαχειριστή.",
+            "installLocation": "Θέση εγκατάστασης",
+            "change": "Αλλαγή",
+            "installButton": "Έναρξη εγκατάστασης",
+            "retryButton": "Επανάληψη"
         },
         "progress": {
-            "installing": "Installing...",
-            "slideCounter": "Slide {{current}}/{{total}}"
+            "installing": "Γίνεται εγκατάσταση...",
+            "slideCounter": "Διαφάνεια {{current}}/{{total}}"
         },
         "modal": {
-            "selectLocation": "Select Installation Location",
-            "installPath": "Installation path",
-            "browse": "Browse",
-            "resetDefault": "Reset to Default",
-            "cancel": "Cancel",
-            "save": "Save Settings",
-            "close": "Close"
+            "selectLocation": "Επιλέξτε θέση εγκατάστασης",
+            "installPath": "Διαδρομή εγκατάστασης",
+            "browse": "Περιήγηση",
+            "resetDefault": "Επαναφορά προεπιλογών",
+            "cancel": "Ακύρωση",
+            "save": "Αποθήκευση ρυθμίσεων",
+            "close": "Κλείσιμο"
         },
         "exitConfirmation": {
-            "title": "Cancel Installation?",
-            "message": "Canceling the installation process will prevent Floorp from being installed.",
-            "cancelButton": "Cancel",
-            "confirmButton": "Cancel Installation"
+            "title": "Ακύρωση εγκατάστασης;",
+            "message": "Η ακύρωση της διαδικασίας εγκατάστασης θα αποτρέψει την εγκατάσταση του Floorp.",
+            "cancelButton": "Ακύρωση",
+            "confirmButton": "Ακύρωση εγκατάστασης"
         },
         "complete": {
-            "success": "Installation Successful",
-            "error": "Installation Failed",
-            "launchCheckbox": "Launch Floorp browser after installation",
-            "closeButton": "Close Installer",
-            "countdownMessage": "Installer will close in {{count}} seconds",
-            "legacyDownloadMessage": "You can also try the legacy installer.",
-            "legacyDownloadButton": "Download"
+            "success": "Επιτυχής εγκατάσταση",
+            "error": "Αποτυχία εγκατάστασης",
+            "launchCheckbox": "Εκκίνηση του προγράμματος περιήγησης Floorp μετά την εγκατάσταση",
+            "closeButton": "Κλείσιμο εγκαταστάτη",
+            "countdownMessage": "Το πρόγραμμα εγκατάστασης θα κλείσει σε {{count}} δευτερόλεπτα",
+            "legacyDownloadMessage": "Μπορείτε επίσης να δοκιμάσετε το παλαιό πρόγραμμα εγκατάστασης.",
+            "legacyDownloadButton": "Λήψη"
         }
     },
     "slides": {
         "slide1": {
-            "title": "Welcome to Floorp",
+            "title": "Καλώς ήλθατε στο Floorp",
             "description": "Welcome to the latest version of Floorp, a web browser developed with a focus on development and research in Japan. The content introduced next is only a part of the project."
         },
         "slide2": {
