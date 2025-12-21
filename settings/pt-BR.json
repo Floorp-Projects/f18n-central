@@ -513,8 +513,6 @@
         "minDistanceDescription": "Distância mínima de movimento para ser reconhecido como um gesto",
         "preventionTimeout": "Tempo de supressão do clique com o botão direito do mouse",
         "preventionTimeoutDescription": "Tempo para suprimir o meu do botão direito do mouse após o gesto",
-        "minDirectionChangeDistance": "Distância de detecção de mudança de direção",
-        "minDirectionChangeDistanceDescription": "Distância mínima para detectar uma mudança de direção",
         "trailSettings": "Configurações de trilhas de gestos",
         "trailSettingsDescription": "Personalize a aparência das trilhas de gestos.",
         "trailWidth": "Largura do rastro",
