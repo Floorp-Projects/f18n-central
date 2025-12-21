@@ -513,8 +513,6 @@
         "minDistanceDescription": "ジェスチャーとして認識される最短の移動距離",
         "preventionTimeout": "右クリックを抑制する時間",
         "preventionTimeoutDescription": "ジェスチャー後に右クリックメニューを表示しない時間",
-        "minDirectionChangeDistance": "方向の変化を検出する距離",
-        "minDirectionChangeDistanceDescription": "方向転換を検知する最短の距離",
         "trailSettings": "軌跡の設定",
         "trailSettingsDescription": "ジェスチャーの軌跡の外観をカスタマイズします。",
         "trailWidth": "軌跡の太さ",
