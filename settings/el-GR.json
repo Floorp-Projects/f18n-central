@@ -513,8 +513,6 @@
         "minDistanceDescription": "Ελάχιστη απόσταση κίνησης για να αναγνωριστεί ως χειρονομία",
         "preventionTimeout": "Χρόνος καταστολής δεξιού κλικ",
         "preventionTimeoutDescription": "Χρόνος κατάργησης του μενού δεξιού κλικ μετά την χειρονομία",
-        "minDirectionChangeDistance": "Απόσταση ανίχνευσης αλλαγής κατεύθυνσης",
-        "minDirectionChangeDistanceDescription": "Ελάχιστη απόσταση για την ανίχνευση αλλαγής κατεύθυνσης",
         "trailSettings": "Ρυθμίσεις ίχνους",
         "trailSettingsDescription": "Προσαρμόστε την εμφάνιση των ιχνών της χειρονομίας.",
         "trailWidth": "Πλάτος ίχνους",
