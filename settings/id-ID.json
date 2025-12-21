@@ -349,9 +349,9 @@
             "confirmForceEnroll": "Are you sure you want to enroll in this Flasco? This will override the rollout settings.",
             "confirmRemoveForceEnrollment": "Remove enrollment and return to normal rollout behavior?",
             "status": {
-                "enrolled": "Enrolled",
+                "enrolled": "Terdaftar",
                 "not_in_rollout": "Not in rollout",
-                "force_enrolled": "Enrolled",
+                "force_enrolled": "Terdaftar",
                 "disabled": "Nonaktif",
                 "control": "Control"
             }
