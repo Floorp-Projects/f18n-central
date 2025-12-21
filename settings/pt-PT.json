@@ -513,8 +513,6 @@
         "minDistanceDescription": "Distância mínima de movimento para ser reconhecido como um gesto",
         "preventionTimeout": "Tempo de supressão com o botão direito do rato",
         "preventionTimeoutDescription": "Tempo para suprimir o menu do botão direito do rato após um gesto",
-        "minDirectionChangeDistance": "Distância de deteção de mudança de direção",
-        "minDirectionChangeDistanceDescription": "Distância mínima para detetar uma mudança de direção",
         "trailSettings": "Definições do trilho",
         "trailSettingsDescription": "Personalizar o aspeto dos rastos de gestos.",
         "trailWidth": "Largura do trilho",
