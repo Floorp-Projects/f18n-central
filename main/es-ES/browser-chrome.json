@@ -4,8 +4,8 @@
     "tooltiptext": "Reabrir última pestaña cerrada {{shortcut}}"
   },
   "floorpHubWarning": {
-    "message": "Floorp-specific settings such as the panel sidebar, Workspaces, and mouse gestures are managed in Floorp Hub.",
-    "openButton": "Open Floorp Hub"
+    "message": "La configuración específica de Floorp, como la barra lateral del panel, los espacios de trabajo y los gestos del ratón, se gestionan en Floorp Hub.",
+    "openButton": "Abrir Floorp Hub"
   },
   "floorpStartWarning": {
     "message": "To change the \"Home\" setting, disable Floorp Start from Floorp Hub (about:hub#/features/design).",
@@ -25,7 +25,7 @@
     "icons": {
       "article": "Artículo",
       "book": "Libro",
-      "briefcase": "Briefcase",
+      "briefcase": "Maletín",
       "cart": "Carrito de compras",
       "chat": "Conversación",
       "chill": "Chill",
@@ -66,34 +66,34 @@
       "move-down": "Bajar este espacio de trabajo",
       "delete": "Eliminar espacio de trabajo",
       "manage": "Gestionar espacio de trabajo",
-      "archive": "Archive Workspace"
+      "archive": "Archivar espacio de trabajo"
     },
     "popup": {
       "create-new": "Crear espacio de trabajo nuevo…",
       "manage": "Gestionar espacios de trabajo",
-      "restore": "Show Archived Workspaces",
-      "restore-cancel": "Exit Restore Mode",
-      "restore-title": "Archived Workspaces",
-      "restore-loading": "Loading archived workspaces…",
-      "restore-empty": "No archived workspaces",
-      "restore-error": "Failed to load archived workspaces",
-      "restore-tooltip": "Toggle restore mode",
+      "restore": "Mostrar espacios de trabajo archivados",
+      "restore-cancel": "Salir del modo de restauración",
+      "restore-title": "Espacios de trabajo archivados",
+      "restore-loading": "Cargando espacios de trabajo archivados…",
+      "restore-empty": "No hay ningún espacio de trabajo archivado",
+      "restore-error": "No se pudieron cargar los espacios de trabajo archivados",
+      "restore-tooltip": "Activar o desactivar modo de restauración",
       "restore-item": "Restore \"{{name}}\"",
-      "restore-delete-tooltip": "Delete this archive",
-      "restore-tab-count": "{{count}} tab",
-      "restore-tab-count_plural": "{{count}} tabs",
-      "restore-time-just-now": "Just now",
-      "restore-time-minutes": "{{minutes}} minute ago",
-      "restore-time-minutes_plural": "{{minutes}} minutes ago",
-      "restore-time-hours": "{{hours}} hour ago",
-      "restore-time-hours_plural": "{{hours}} hours ago",
-      "restore-time-days": "{{days}} day ago",
-      "restore-time-days_plural": "{{days}} days ago"
+      "restore-delete-tooltip": "Eliminar este archivo",
+      "restore-tab-count": "{{count}} pestaña",
+      "restore-tab-count_plural": "{{count}} pestañas",
+      "restore-time-just-now": "Ahora mismo",
+      "restore-time-minutes": "Hace {{minutes}} minuto",
+      "restore-time-minutes_plural": "Hace {{minutes}} minutos",
+      "restore-time-hours": "Hace {{hours}} hora",
+      "restore-time-hours_plural": "Hace {{hours}} horas",
+      "restore-time-days": "Hace {{days}} día",
+      "restore-time-days_plural": "Hace {{days}} días"
     },
     "menu": {
-      "moveTabToAnotherWorkspace": "Move Tab to Another Workspace",
-      "openLinkInWorkspace": "Open Link in Another Workspace",
-      "noOtherWorkspace": "No other workspaces available"
+      "moveTabToAnotherWorkspace": "Mover pestaña a otro espacio de trabajo",
+      "openLinkInWorkspace": "Abrir enlace en otro espacio de trabajo",
+      "noOtherWorkspace": "No hay otros espacios de trabajo disponibles"
     },
     "error": {
       "invalidWorkspaceID": "Not valid ID for Workspaces (maybe order is not updated)"
