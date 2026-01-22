@@ -100,11 +100,11 @@
     }
   },
   "profile-manager-button": {
-    "label": "Profile Manager",
-    "tooltiptext": "Open Profile Manager"
+    "label": "Gestor de perfiles",
+    "tooltiptext": "Abrir gestor de perfiles"
   },
   "statusbar": {
-    "toggle": "Status Bar{{mark}}"
+    "toggle": "Barra de estado{{mark}}"
   },
   "ssb": {
     "menu": {
@@ -122,7 +122,7 @@
   },
   "privateContainer": {
     "openInPrivateContainer": "Abrir en contenedor privado",
-    "reopenInPrivateContainer": "Reopen in Private Container",
+    "reopenInPrivateContainer": "Reabrir en contenedor privado",
     "name": "Contenedor privado"
   },
   "mouseGesture": {
@@ -136,11 +136,11 @@
       "gecko-reload-all-tabs": "Volver a cargar todas las pestañas",
       "gecko-restore-last-tab": "Reabrir pestaña cerrada",
       "gecko-open-new-window": "Abrir pestaña nueva",
-      "gecko-open-new-private-window": "Open New Private Window",
-      "gecko-close-window": "Close Window",
-      "gecko-restore-last-window": "Restore Last Window",
-      "gecko-show-next-tab": "Show Next Tab",
-      "gecko-show-previous-tab": "Show Previous Tab",
+      "gecko-open-new-private-window": "Abrir ventana privada nueva",
+      "gecko-close-window": "Cerrar ventana",
+      "gecko-restore-last-window": "Restaurar última ventana",
+      "gecko-show-next-tab": "Mostrar pestaña siguiente",
+      "gecko-show-previous-tab": "Mostrar pestaña anterior",
       "gecko-show-previously-selected-tab": "Show Previously Selected Tab",
       "gecko-show-all-tabs-panel": "Show All Tabs Panel",
       "gecko-force-reload": "Force Reload",
