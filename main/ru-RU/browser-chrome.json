@@ -265,30 +265,30 @@
     "edit_user_chrome": "Изменить userChrome.css",
     "edit_user_content": "Изменить userContent.css",
     "rebuild_complete": "Таблицы стилей перестроены",
-    "editor_path_not_found": "Editor Path Not Found",
-    "set_pref_description": "Please set the editor path",
-    "please_enter_filename": "Please enter a filename",
-    "file_created": "File Created",
-    "file_created_successfully": "File created successfully",
-    "open_file_in_editor": "Open file in editor?",
+    "editor_path_not_found": "Путь к редактору не найден",
+    "set_pref_description": "Пожалуйста, задайте путь к редактору",
+    "please_enter_filename": "Пожалуйста, укажите имя файла",
+    "file_created": "Файл создан",
+    "file_created_successfully": "Файл создан успешно",
+    "open_file_in_editor": "Открыть файл в редакторе?",
     "error_title": "Ошибка",
-    "folder_open_failed": "Failed to open CSS folder",
-    "edit_failed": "Failed to edit file"
+    "folder_open_failed": "Не удалось открыть папку CSS",
+    "edit_failed": "Не удалось отредактировать файл"
   },
   "reboot": {
     "menu": {
       "title": "Перезапустить",
       "normal-restart": "Перезапустить",
-      "restart-cache-clear": "Restart with Cache Clear",
-      "restart-safe-mode": "Restart in Safe Mode",
-      "restart-profile-manager": "Restart with Profile Manager"
+      "restart-cache-clear": "Перезапуск с очисткой кеша",
+      "restart-safe-mode": "Перезапуск в безопасном режиме",
+      "restart-profile-manager": "Перезапуск через менеджер профилей"
     }
   },
   "nr-webscraper": {
-    "panelTitle": "{{productName}} is operating",
-    "panelDefaultMessage": "{{action}} in progress...",
-    "panelProgressSummary": "Affects {{count}} element(s)",
-    "formSummary": "Filling form: {{count}} field(s)",
+    "panelTitle": "{{productName}} работает",
+    "panelDefaultMessage": "{{action}} в процессе...",
+    "panelProgressSummary": "Влияет на {{count}} элем.",
+    "formSummary": "Полей формы заполнения: {{count}}",
     "formFieldProgress": "Field {{current}}/{{total}}: \"{{value}}\"",
     "inputValueSet": "Set input value: \"{{value}}\"",
     "clickElementWithText": "Click {{tag}}: \"{{text}}\"",
