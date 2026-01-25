@@ -289,40 +289,40 @@
     "panelDefaultMessage": "{{action}} в процессе...",
     "panelProgressSummary": "Влияет на {{count}} элем.",
     "formSummary": "Полей формы заполнения: {{count}}",
-    "formFieldProgress": "Field {{current}}/{{total}}: \"{{value}}\"",
-    "inputValueSet": "Set input value: \"{{value}}\"",
-    "clickElementWithText": "Click {{tag}}: \"{{text}}\"",
-    "clickElementNoText": "Clicking {{tag}} element",
-    "inspectPageHtml": "Retrieved full page HTML",
-    "inspectGetElement": "Retrieved element: {{selector}}",
-    "inspectGetElements": "{{count}} element(s) matched: {{selector}}",
-    "inspectGetElementByText": "Retrieved element matching text: \"{{text}}\"",
-    "inspectGetElementText": "Retrieved text from: {{selector}}",
-    "inspectGetValue": "Retrieved value: {{selector}}",
-    "submitForm": "Submitting form: {{name}}",
-    "actionLabelHighlight": "Highlight",
-    "actionLabelInspect": "Inspect",
-    "actionLabelFill": "Fill",
-    "actionLabelInput": "Input",
-    "actionLabelClick": "Click",
-    "actionLabelSubmit": "Submit"
+    "formFieldProgress": "Поле {{current}}/{{total}}: «{{value}}»",
+    "inputValueSet": "Установка входного значения: «{{value}}»",
+    "clickElementWithText": "Нажмите {{tag}}: «{{text}}»",
+    "clickElementNoText": "Щелчок по элементу {{tag}}",
+    "inspectPageHtml": "Получена полная страница HTML",
+    "inspectGetElement": "Полученный элемент: {{selector}}",
+    "inspectGetElements": "{{count}} элем. подходит: {{selector}}",
+    "inspectGetElementByText": "Полученный элемент соответствует тексту: «{{text}}»",
+    "inspectGetElementText": "Полученный текст от: {{selector}}",
+    "inspectGetValue": "Полученное значение: {{selector}}",
+    "submitForm": "Отправка формы: {{name}}",
+    "actionLabelHighlight": "Выделение",
+    "actionLabelInspect": "Исследовать",
+    "actionLabelFill": "Заполнение",
+    "actionLabelInput": "Ввод",
+    "actionLabelClick": "Нажать",
+    "actionLabelSubmit": "Отправить"
   },
   "externalBrowser": {
     "menu": {
-      "openTabIn": "Open Tab in External Browser",
-      "openLinkIn": "Open Link in External Browser",
-      "defaultBrowser": "System Default Browser",
-      "noBrowsers": "No external browsers detected",
-      "noValidUrl": "No valid URL to open"
+      "openTabIn": "Открыть вкладку во внешнем браузере",
+      "openLinkIn": "Открыть ссылку во внешнем браузере",
+      "defaultBrowser": "Браузер по умолчанию",
+      "noBrowsers": "Внешние браузеры не обнаружены",
+      "noValidUrl": "Нет действительного URL-адреса для открытия"
     }
   },
   "chromeWebStore": {
     "button": {
-      "addToFloorp": "Add to Floorp",
+      "addToFloorp": "Добавить в Floorp",
       "installing": "Установка...",
-      "success": "Added!",
-      "error": "Error occurred",
-      "installed": "Installed"
+      "success": "Добавлено!",
+      "error": "Произошла ошибка",
+      "installed": "Установлено"
     },
     "error": {
       "title": "Installation Error",
