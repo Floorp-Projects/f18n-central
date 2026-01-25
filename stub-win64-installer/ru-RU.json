@@ -6,8 +6,8 @@
         },
         "installer": {
             "title": "Установщик Floorp",
-            "description": "Установить браузер Floorp и начать приватный, быстрый и настраиваемый веб-серфинг.",
-            "adminRights": "Установите с правами администратора",
+            "description": "Установить браузер Floorp и начать приватный, быстрый и настраиваемый веб-сёрфинг.",
+            "adminRights": "Установить с правами администратора",
             "adminRightsEnabled": "Установить для всех пользователей (требуются права администратора).",
             "adminRightsDisabled": "Установить только для текущего пользователя.",
             "customPathRequired": "Выбор пути установки требует прав администратора.",
@@ -40,7 +40,7 @@
             "error": "Установка не удалась",
             "launchCheckbox": "Запустить Floorp после установки",
             "closeButton": "Закрыть установщик",
-            "countdownMessage": "Установщик будет закрыт через {{count}} секунд",
+            "countdownMessage": "Установщик будет закрыт через {{count}} сек.",
             "legacyDownloadMessage": "You can also try the legacy installer.",
             "legacyDownloadButton": "Скачать"
         }
@@ -69,12 +69,12 @@
     },
     "rust": {
         "success": {
-            "downloaded_dev_mode": "Установщик Floorp была загружен (режим разработки)",
+            "downloaded_dev_mode": "Установщик Floorp был скачан (режим разработки)",
             "installation_complete": "Установка Floorp успешно завершена."
         },
         "errors": {
             "installer_not_found": "Не удалось получить установщик Floorp.",
-            "download_failed": "Во время загрузки произошла ошибка: {{0}}",
+            "download_failed": "Во время скачивания произошла ошибка: {{0}}",
             "signature_verification_failed": "Проверка подписи установщика не удалась. Выполнение прервано по соображениям безопасности.",
             "signature_verification_error": "При проверке подписи произошла ошибка: {{0}}",
             "installer_exit_code": "Установщик завершился с кодом {{0}}.",
