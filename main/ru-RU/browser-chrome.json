@@ -4,7 +4,7 @@
     "tooltiptext": "Переоткрыть последнюю закрытую вкладку {{shortcut}}"
   },
   "floorpHubWarning": {
-    "message": "Floorp-specific settings such as the panel sidebar, Workspaces, and mouse gestures are managed in Floorp Hub.",
+    "message": "Настройки Floorp, такие как боковая панель, рабочие пространства и жесты мыши, управляются через «Центр Floorp».",
     "openButton": "Open Floorp Hub"
   },
   "floorpStartWarning": {
