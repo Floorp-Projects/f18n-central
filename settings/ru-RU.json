@@ -15,7 +15,7 @@
     },
     "sidebar": {
         "firefoxSettings": "Настройки Firefox",
-        "about": "About",
+        "about": "О программе",
         "aboutNoraneko": "О Noraneko",
         "debug": "Отладка",
         "overview": "Обзор",
@@ -30,7 +30,7 @@
         "webApps": "Веб приложения",
         "profileAndAccount": "Профиль и учетная запись",
         "aboutBrowser": "О {{productName}}",
-        "updates": "Updates & Experiments",
+        "updates": "Обновления и эксперименты",
         "debug": "Отладка",
         "mouseGesture": "Жесты мышью",
         "keyboardShortcut": "Сочетания клавиш",
@@ -115,7 +115,7 @@
             "scrollTab": "Переключать вкладки прокруткой колеса мыши",
             "reverseScroll": "Reverse tab scroll",
             "scrollWrap": "Loop tab scroll",
-            "scrollPrefInfo": "Параметры «{{reverseScrollPrefName}}» и «{{scrollWrapPrefName}}» будут работать, только если включен параметр «{{scrollPrefName}}».",
+            "scrollPrefInfo": "Параметры «{{reverseScrollPrefName}}» и «{{scrollWrapPrefName}}» будут работать, только если включён параметр «{{scrollPrefName}}».",
             "pinTitle": "Показать названия закреплённых вкладок",
             "openPosition": "Положение открытия новой вкладки",
             "openPositionDescription": "Укажите, где будут открываться новые вкладки. Firefox будет менять их положение в зависимости от способа открытия ссылок.",
@@ -138,7 +138,7 @@
                 "title": "⚠️ Experimental Features",
                 "description": "These settings are experimental and not officially supported. Issues may occur.",
                 "leptonRepository": "Lepton is a css theme for Firefox.",
-                "visitRepository": "Visit Repository Page"
+                "visitRepository": "Открыть страницу репозитория"
             },
             "autohide": {
                 "title": "Auto-hide Settings",
@@ -304,19 +304,19 @@
         "license": "Лицензия"
     },
     "updates": {
-        "title": "Updates & Experiments",
-        "description": "Manage update settings and experimental features participation.",
+        "title": "Обновления и эксперименты",
+        "description": "Управление настройками обновлений и участием в экспериментальных функциях.",
         "experiments": {
-            "title": "{{productName}} Flasco Participation",
-            "description": "Control how {{productName}} enrolls you in experimental features and {{productName}} Flascos.",
-            "policyLabel": "Participation Policy",
+            "title": "Участие в {{productName}} Flasco",
+            "description": "Управляйте тем, как {{productName}} регистрирует вас в экспериментальных функциях и {{productName}} Flascos.",
+            "policyLabel": "Политика участия",
             "policy": {
-                "default": "Default (Recommended)",
-                "always": "Always Participate",
+                "default": "По умолчанию (рекомендуется)",
+                "always": "Всегда участвовать",
                 "never": "Never Participate"
             },
             "policyHelp": {
-                "default": "Follow the recommended participation policy. You may be enrolled in {{productName}} Flasco based on rollout percentages.",
+                "default": "Следуйте рекомендуемой политике участия. Вы можете быть зарегистрированы в {{productName}} Flasco на основе процентных долей развёртывания.",
                 "always": "Always participate in all available {{productName}} Flascos. This option is for users who want to test new features early.",
                 "never": "Never participate in {{productName}} Flascos. You will only receive stable, tested features."
             },
