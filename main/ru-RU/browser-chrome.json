@@ -326,49 +326,49 @@
     },
     "error": {
       "title": "Ошибка установки",
-      "compatibilityNote": "This extension may not be compatible with Firefox/Floorp.",
-      "alreadyInstalled": "This extension is already installed ({{name}})",
-      "downloadFailed": "Failed to download CRX file",
-      "conversionFailed": "Failed to convert extension: {{error}}",
-      "conversionFailedGeneric": "Failed to convert CRX to XPI",
-      "installError": "Installation error: {{error}}",
-      "installFailed": "Installation failed",
-      "noData": "No installation data provided",
-      "addonManagerUnavailable": "AddonManager is not available",
-      "noBrowserWindow": "Could not find browser window for installation",
-      "createInstallFailed": "Failed to create installation object",
-      "cancelledByUser": "Installation cancelled by user",
-      "downloadCancelled": "Download cancelled",
-      "timeout": "Installation timed out",
-      "xpiInstallError": "XPI installation error: {{error}}",
-      "errorWithCode": "Installation error (code: {{code}})",
-      "experimentDisabled": "This feature is not currently available"
+      "compatibilityNote": "Это расширение может быть несовместимо с Firefox/Floorp.",
+      "alreadyInstalled": "Это расширение уже установлено ({{name}})",
+      "downloadFailed": "Не удалось загрузить файл CRX",
+      "conversionFailed": "Не удалось преобразовать расширение: {{error}}",
+      "conversionFailedGeneric": "Не удалось преобразовать CRX в XPI",
+      "installError": "Ошибка установки: {{error}}",
+      "installFailed": "Установка не удалась",
+      "noData": "Нет данных об установке",
+      "addonManagerUnavailable": "AddonManager недоступен",
+      "noBrowserWindow": "Не удалось найти окно браузера для установки",
+      "createInstallFailed": "Не удалось создать объект установки",
+      "cancelledByUser": "Установка отменена пользователем",
+      "downloadCancelled": "Скачивание отменено",
+      "timeout": "Время ожидания установки истекло",
+      "xpiInstallError": "Ошибка установки XPI: {{error}}",
+      "errorWithCode": "Ошибка установки (код: {{code}})",
+      "experimentDisabled": "Эта функция сейчас недоступна"
     },
     "installErrors": {
-      "downloadFailed": "Download failed",
-      "signatureVerifyFailed": "Failed to verify extension signature",
-      "corruptOrIncompatible": "Extension is corrupted or incompatible",
-      "incompatible": "This extension is not compatible with Floorp",
-      "blocked": "This extension is blocked",
-      "timeout": "Extension installation timed out",
-      "installFailed": "Extension installation failed",
-      "parseFailed": "Failed to parse extension",
-      "invalidFile": "Invalid extension file",
-      "networkError": "A network error occurred"
+      "downloadFailed": "Скачивание не удалось",
+      "signatureVerifyFailed": "Не удалось проверить подпись расширения",
+      "corruptOrIncompatible": "Расширение повреждено или несовместимо",
+      "incompatible": "Это расширение несовместимо с Floorp",
+      "blocked": "Это расширение заблокировано",
+      "timeout": "Время установки расширения истекло",
+      "installFailed": "Не удалось установить расширение",
+      "parseFailed": "Не удалось разобрать расширение",
+      "invalidFile": "Некорректный файл расширения",
+      "networkError": "Произошла ошибка сети"
     }
   },
   "addons": {
     "notification": {
-      "chromeExtensionMessage": "Do you want to add Chrome extension \"{{name}}\"? This extension has been converted from Chrome Web Store.",
-      "chromeExtensionPrompt": "Do you want to add Chrome extension \"{{name}}\"?",
-      "defaultExtensionName": "this extension",
+      "chromeExtensionMessage": "Вы хотите добавить расширение Chrome «{{name}}»? Это расширение было преобразовано из Интернет-магазина Chrome.",
+      "chromeExtensionPrompt": "Вы хотите добавить расширение Chrome «{{name}}»?",
+      "defaultExtensionName": "это расширение",
       "chromeBadge": "[Chrome]",
-      "compatibilityWarning": "This Chrome extension has been converted to Firefox compatible format. Some features may not work properly."
+      "compatibilityWarning": "Это расширение для Chrome было преобразовано в формат, совместимый с Firefox. Некоторые функции могут работать неправильно."
     }
   },
   "hub": {
     "menu": {
-      "title": "Floorp Hub"
+      "title": "Центр Floorp"
     }
   }
 }
