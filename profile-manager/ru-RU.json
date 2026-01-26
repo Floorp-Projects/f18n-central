@@ -3,22 +3,22 @@
         "title": "Профили",
         "buttons": {
             "refresh": "Обновить список",
-            "create": "Create"
+            "create": "Создать"
         },
-        "loading": "Loading…",
-        "noProfiles": "No profiles found.",
-        "current": "Current",
+        "loading": "Загрузка…",
+        "noProfiles": "Профили не найдены.",
+        "current": "Текущий",
         "default": "По умолчанию",
         "actions": {
             "open": "Запустить",
             "new": "Новая заметка",
             "rename": "Переименовать",
-            "remove": "Remove",
+            "remove": "Удалить",
             "setDefault": "По умолчанию"
         },
         "prompts": {
-            "confirmRemove": "Are you sure you want to remove this profile?",
-            "newName": "New profile name:"
+            "confirmRemove": "Вы уверены, что хотите удалить этот профиль?",
+            "newName": "Новое имя профиля:"
         }
     }
 }
