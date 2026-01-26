@@ -325,7 +325,7 @@
       "installed": "Установлено"
     },
     "error": {
-      "title": "Installation Error",
+      "title": "Ошибка установки",
       "compatibilityNote": "This extension may not be compatible with Firefox/Floorp.",
       "alreadyInstalled": "This extension is already installed ({{name}})",
       "downloadFailed": "Failed to download CRX file",
