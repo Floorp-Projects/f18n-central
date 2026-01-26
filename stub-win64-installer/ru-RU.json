@@ -41,7 +41,7 @@
             "launchCheckbox": "Запустить Floorp после установки",
             "closeButton": "Закрыть установщик",
             "countdownMessage": "Установщик будет закрыт через {{count}} сек.",
-            "legacyDownloadMessage": "You can also try the legacy installer.",
+            "legacyDownloadMessage": "Вы также можете попробовать устаревшую программу установки.",
             "legacyDownloadButton": "Скачать"
         }
     },
