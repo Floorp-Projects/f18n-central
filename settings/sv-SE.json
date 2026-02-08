@@ -526,6 +526,7 @@
         "actionDescription": "Beskrivning av gest",
         "rockerGesturesEnabled": "Aktivera rocker gester",
         "rockerGesturesDescription": "Högerklicka och flytta till vänster för att gå tillbaka, högerklicka och flytta till höger för att gå framåt. (Experimentell)",
+        "wheelGesturesEnabled": "Aktivera scrollhjuls gester",
         "actions": {
             "gecko-back": "Gå tillbaka",
             "gecko-forward": "Gå framåt",
