@@ -454,12 +454,12 @@
         "uninstall": "Удалить"
     },
     "floorpOS": {
-        "title": "ОС {{productName}}",
-        "description": "Управление модулями и службами подсистемы ОС {{productName}}",
+        "title": "{{productName}} OS",
+        "description": "Управление модулями и службами подсистемы {{productName}} OS",
         "loading": "Загрузка...",
         "statusCard": {
             "title": "Состояние",
-            "description": "Текущее состояние ОС {{productName}}",
+            "description": "Текущее состояние {{productName}} OS",
             "platformSupport": "Поддержка платформы",
             "platformSupported": "Ваша платформа поддерживается",
             "platformUnsupported": "Ваша платформа не поддерживается",
@@ -473,24 +473,24 @@
         },
         "controlsCard": {
             "title": "Управление",
-            "description": "Включить или отключить ОС {{productName}}",
-            "enable": "Включить ОС {{productName}}",
-            "disable": "Отключить ОС {{productName}}",
+            "description": "Включить или отключить {{productName}} OS",
+            "enable": "Включить {{productName}} OS",
+            "disable": "Отключить {{productName}} OS",
             "refresh": "Обновить состояние"
         },
         "messages": {
-            "enabling": "Включение ОС {{productName}}...",
-            "disabling": "Отключение ОС {{productName}}...",
-            "enableSuccess": "ОС {{productName}} успешно включена!",
-            "disableSuccess": "ОС {{productName}} успешно отключена!"
+            "enabling": "Включение {{productName}} OS...",
+            "disabling": "Отключение {{productName}} OS...",
+            "enableSuccess": "{{productName}} OS успешно включена!",
+            "disableSuccess": "{{productName}} OS успешно отключена!"
         },
         "errors": {
             "apiUnavailable": "OSAutomotor API недоступен.",
             "loadStatus": "Не удалось загрузить состояние: {{reason}}",
-            "enable": "Не удалось включить ОС {{productName}}.",
-            "disable": "Не удалось отключить ОС {{productName}}.",
-            "enableAction": "Ошибка включения ОС {{productName}}: {{reason}}",
-            "disableAction": "Ошибка отключения ОС {{productName}}: {{reason}}"
+            "enable": "Не удалось включить {{productName}} OS.",
+            "disable": "Не удалось отключить {{productName}} OS.",
+            "enableAction": "Ошибка включения {{productName}} OS: {{reason}}",
+            "disableAction": "Ошибка отключения {{productName}} OS: {{reason}}"
         }
     },
     "mouseGesture": {
