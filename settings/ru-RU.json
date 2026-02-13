@@ -4,7 +4,7 @@
     },
     "header": {
         "title": "Настройки",
-        "searchPlaceholder": "Настройки поиска",
+        "searchPlaceholder": "Поиск настройки",
         "darkMode": "Тёмный режим"
     },
     "restartWarningDialog": {
