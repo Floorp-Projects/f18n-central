@@ -292,7 +292,7 @@
     "formFieldProgress": "字段 {{current}}/{{total}}：“{{value}}”",
     "inputValueSet": "設定輸入值：\"{{value}}\"",
     "clickElementWithText": "點選 {{tag}}: \"{{text}}\"",
-    "clickElementNoText": "點選 {{tag}} 元素",
+    "clickElementNoText": "點擊一下 {{tag}} 元素",
     "inspectPageHtml": "已獲取完整的 HTML 頁面",
     "inspectGetElement": "已獲取的元素：{{selector}}",
     "inspectGetElements": "{{count}} 個匹配的元素: {{selector}}",
