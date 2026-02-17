@@ -191,7 +191,7 @@
             "title": "排除分頁睡眠",
             "description": "將特定網站排除出分頁睡眠狀態(自動卸下分頁)。當記憶體不足時，符合特定設定的分頁將會排除出睡眠狀態並繼續運作。",
             "enable": "啟用分頁休眠排除",
-            "patterns": "排除樣式",
+            "patterns": "排除設定",
             "patternsDescription": "增添需要排除出分頁睡眠狀態的 URL 樣式。符合這些樣式的分頁將不會被卸下。",
             "patternPlaceholder": "鍵入 URL 樣式 (例如：example.com, *.google.com)",
             "add": "添加",
@@ -316,7 +316,7 @@
                 "never": "從不參與"
             },
             "policyHelp": {
-                "default": "遵循建議的參與政策。您可能會被依據推出百分比而納入 {{productName}} Flasco。",
+                "default": "遵循建議的參與政策。您可能會根據推出百分比被納入 {{productName}} Flasco。",
                 "always": "始終參與所有可用的 {{productName}} Flasco。此選項適合想要及早測試新功能的使用者。",
                 "never": "從不參與 {{productName}} Flasco。您只會收到穩定、經過測試的功能。"
             },
