@@ -327,7 +327,7 @@
         },
         "activeFlascos": {
             "title": "{{productName}} Flasco 活躍",
-            "description": "檢視並管理您目前活躍的 Flasco。",
+            "description": "檢視並管理您目前啟用的 Flasco。",
             "refresh": "重新整理",
             "noFlascos": "您目前未參與任何 Flasco。",
             "assignedAt": "在 {{date}}上註冊",
