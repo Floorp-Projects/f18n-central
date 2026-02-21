@@ -1,15 +1,15 @@
 {
   "undo-closed-tab": {
     "label": "Mở lại thẻ đã đóng",
-    "tooltiptext": "Reopen the last closed tab {{shortcut}}"
+    "tooltiptext": "Mở lại thẻ vừa đóng {{shortcut}}"
   },
   "floorpHubWarning": {
-    "message": "Floorp-specific settings such as the panel sidebar, Workspaces, and mouse gestures are managed in Floorp Hub.",
+    "message": "Các cài đặt riêng của Floorp như thanh bên, Không gian làm việc, và cử chỉ chuột được quản lý trong Floorp Hub.",
     "openButton": "Mở Floorp Hub"
   },
   "floorpStartWarning": {
-    "message": "To change the \"Home\" setting, disable Floorp Start from Floorp Hub (about:hub#/features/design).",
-    "openButton": "Open Floorp Hub — Design"
+    "message": "Để thay đổi cài đặt “Trang chủ”, hãy tắt Floorp Start trong Floorp Hub (about:hub#/features/design).",
+    "openButton": "Open Floorp Hub — Thiết kế"
   },
   "workspaces": {
     "modal": {
@@ -23,26 +23,26 @@
       "cancel": "Hủy"
     },
     "icons": {
-      "article": "Article",
+      "article": "Bài viết",
       "book": "Sách",
-      "briefcase": "Briefcase",
+      "briefcase": "Cặp tài liệu",
       "cart": "Xe đẩy",
       "chat": "Trò chuyện",
       "chill": "Vui",
       "circle": "Hình tròn",
       "compass": "La bàn",
       "code": "Lập trình",
-      "dollar": "Dollar",
-      "fence": "Fence",
+      "dollar": "Đô la",
+      "fence": "Hàng rào",
       "fingerprint": "Dấu vân tay",
-      "food": "Food",
-      "fruit": "Fruit",
-      "game": "Game",
-      "gear": "Settings",
-      "gift": "Gift",
-      "key": "Key",
-      "lightning": "Lightning",
-      "network": "Network",
+      "food": "Thức ăn",
+      "fruit": "Hoa quả",
+      "game": "Trò chơi",
+      "gear": "Cài đặt",
+      "gift": "Quà",
+      "key": "Chìa khoá",
+      "lightning": "Sét",
+      "network": "Mạng",
       "notes": "Notes",
       "paint": "Paint",
       "photo": "Photo",
@@ -168,10 +168,10 @@
       "gecko-quit-from-application": "Quit Application",
       "gecko-enter-into-customize-mode": "U",
       "gecko-enter-into-offline-mode": "Enter Offline Mode",
-      "gecko-open-screen-capture": "Open Screen Capture",
+      "gecko-open-screen-capture": "Mở công cụ chụp ảnh màn hình",
       "floorp-show-pip": "Hiện hình trong hình",
       "gecko-open-bookmark-add-tool": "Thêm dấu trang",
-      "gecko-open-bookmarks-manager": "Open Bookmarks Manager",
+      "gecko-open-bookmarks-manager": "Mở quản lý dấu trang",
       "gecko-toggle-bookmark-toolbar": "Toggle Bookmark Toolbar",
       "gecko-open-general-preferences": "Open General Preferences",
       "gecko-open-privacy-preferences": "Open Privacy Preferences",
