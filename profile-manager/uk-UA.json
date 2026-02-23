@@ -2,7 +2,7 @@
     "profileManager": {
         "title": "Обліковий запис",
         "buttons": {
-            "refresh": "Refresh",
+            "refresh": "Оновити",
             "create": "Створити"
         },
         "loading": "Завантаження…",
@@ -10,7 +10,7 @@
         "current": "Поточний",
         "default": "За замовчуванням",
         "actions": {
-            "open": "Open",
+            "open": "Запустити",
             "new": "Новий",
             "rename": "Перейменувати",
             "remove": "Видалити",
