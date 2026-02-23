@@ -30,16 +30,16 @@
         "webApps": "Вебзастосунки",
         "profileAndAccount": "Профіль та обліковий запис",
         "aboutBrowser": "Про {{productName}}",
-        "updates": "Updates & Experiments",
+        "updates": "Оновлення та експерименти",
         "debug": "Налагодження",
         "mouseGesture": "Жести мишею",
         "keyboardShortcut": "Комбінації клавіш",
         "search": {
             "title": "Налаштування пошуку",
             "resultsFor": "Результати пошуку \"{{query}}\"",
-            "searchResultsDescription": "Search results for \"{{query}}\". Only {{productName}} settings are searched; Firefox settings are not included.",
+            "searchResultsDescription": "Результати пошуку для \"{{query}}\". Шукаються лише налаштування {{productName}}; налаштування Firefox не враховуються.",
             "noResults": "Нічого не знайдено",
-            "open": "Відкрийте \"{{title}}\"",
+            "open": "Відкрити \"{{title}}\"",
             "matchedText": "Відповідний текст",
             "results": "Результати пошуку"
         }
@@ -235,8 +235,8 @@
             "bookmarkBar": {
                 "title": "Панель закладок",
                 "position": "Позиція (Експеримент)",
-                "top": "Top",
-                "bottom": "Bottom",
+                "top": "Верх",
+                "bottom": "Низ",
                 "focusExpand": "Розгорнути панель закладок на фокусі"
             }
         }
