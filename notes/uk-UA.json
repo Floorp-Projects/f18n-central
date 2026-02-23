@@ -11,7 +11,7 @@
         "emptyTitle": "Без назви",
         "emptyContent": "Немає вмісту",
         "noNotesSelected": "Виберіть нотатку або створіть нову",
-        "createNew": "Створити нову замітку",
+        "createNew": "Створити нову нотатку",
         "titlePlaceholder": "Назва",
         "loading": "Завантаження нотаток...",
         "delete": "Видалити"
@@ -20,7 +20,7 @@
         "bold": "Жирний",
         "italic": "Курсив",
         "underline": "Підкреслення",
-        "strikethrough": "Закреслений",
+        "strikethrough": "Закреслення",
         "bulletList": "Маркований список",
         "numberedList": "Нумерований список",
         "alignLeft": "Вирівняти по лівому краю",
