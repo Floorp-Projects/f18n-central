@@ -77,7 +77,7 @@
       "restore-loading": "Завантаження архіву робочих просторів…",
       "restore-empty": "Немає заархівованих робочих просторів",
       "restore-error": "Не вдалося завантажити архів робочих просторів",
-      "restore-tooltip": "Toggle restore mode",
+      "restore-tooltip": "Перемкнути режим відновлення",
       "restore-item": "Restore \"{{name}}\"",
       "restore-delete-tooltip": "Delete this archive",
       "restore-tab-count": "{{count}} tab",
@@ -233,7 +233,7 @@
         "web": "Вебсторінка",
         "sidebar-tool": "Бічна панель інструментів",
         "extension": "Бічна панель розширень",
-        "builtin": "Built-in Pages (Downloads, Bookmarks, History)"
+        "builtin": "Вбудовані сторінки (Завантаження, Закладки, Історія)"
       },
       "width": "Ширина панелі",
       "url": "URL вебсторінки",
@@ -253,7 +253,7 @@
       "zoomIn": "Збільшити",
       "zoomOut": "Зменшити",
       "resetZoom": "Скинути масштаб",
-      "changeUA": "Switch User agent to Mobile/Desktop Version at this Webpanel",
+      "changeUA": "Перемкнути User Agent на мобільну/десктопну версію для цієї вебпанелі",
       "delete": "Видалити цю панель"
     }
   },
@@ -322,11 +322,11 @@
       "installing": "Встановлення...",
       "success": "Added!",
       "error": "Error occurred",
-      "installed": "Installed"
+      "installed": "Встановлено"
     },
     "error": {
       "title": "Installation Error",
-      "compatibilityNote": "This extension may not be compatible with Firefox/Floorp.",
+      "compatibilityNote": "Це розширення може бути несумісним із Firefox/Floorp.",
       "alreadyInstalled": "This extension is already installed ({{name}})",
       "downloadFailed": "Failed to download CRX file",
       "conversionFailed": "Failed to convert extension: {{error}}",
@@ -335,7 +335,7 @@
       "installFailed": "Installation failed",
       "noData": "No installation data provided",
       "addonManagerUnavailable": "AddonManager is not available",
-      "noBrowserWindow": "Could not find browser window for installation",
+      "noBrowserWindow": "Не вдалося знайти вікно браузера для встановлення",
       "createInstallFailed": "Failed to create installation object",
       "cancelledByUser": "Installation cancelled by user",
       "downloadCancelled": "Download cancelled",
@@ -348,7 +348,7 @@
       "downloadFailed": "Download failed",
       "signatureVerifyFailed": "Failed to verify extension signature",
       "corruptOrIncompatible": "Extension is corrupted or incompatible",
-      "incompatible": "This extension is not compatible with Floorp",
+      "incompatible": "Це розширення несумісне з Floorp",
       "blocked": "This extension is blocked",
       "timeout": "Extension installation timed out",
       "installFailed": "Extension installation failed",
@@ -363,7 +363,7 @@
       "chromeExtensionPrompt": "Do you want to add Chrome extension \"{{name}}\"?",
       "defaultExtensionName": "this extension",
       "chromeBadge": "[Chrome]",
-      "compatibilityWarning": "This Chrome extension has been converted to Firefox compatible format. Some features may not work properly."
+      "compatibilityWarning": "Це розширення Chrome було конвертоване у формат, сумісний із Firefox. Деякі функції можуть працювати некоректно."
     }
   },
   "hub": {
