@@ -4,12 +4,12 @@
     "tooltiptext": "Перевідкрити останню закриту вкладку {{shortcut}}"
   },
   "floorpHubWarning": {
-    "message": "Floorp-specific settings such as the panel sidebar, Workspaces, and mouse gestures are managed in Floorp Hub.",
-    "openButton": "Open Floorp Hub"
+    "message": "Керування унікальними функціями Floorp — бічною панеллю, робочими просторами та жестами миші — здійснюється через Floorp Hub.",
+    "openButton": "Перейти до Floorp Hub"
   },
   "floorpStartWarning": {
-    "message": "To change the \"Home\" setting, disable Floorp Start from Floorp Hub (about:hub#/features/design).",
-    "openButton": "Open Floorp Hub — Design"
+    "message": "Щоб змінити налаштування \"Головної сторінки\", вимкніть Floorp Start у Floorp Hub (about:hub#/features/design).",
+    "openButton": "Відкрити Floorp Hub — Зовнішній вигляд"
   },
   "workspaces": {
     "modal": {
@@ -66,17 +66,17 @@
       "move-down": "Перемістити цей робочий простір вниз",
       "delete": "Видалити робочий простір",
       "manage": "Керування робочим простором",
-      "archive": "Archive Workspace"
+      "archive": "Архівувати робочий простір"
     },
     "popup": {
       "create-new": "Створити новий робочий простір...",
       "manage": "Керування робочими просторами",
-      "restore": "Show Archived Workspaces",
-      "restore-cancel": "Exit Restore Mode",
-      "restore-title": "Archived Workspaces",
-      "restore-loading": "Loading archived workspaces…",
-      "restore-empty": "No archived workspaces",
-      "restore-error": "Failed to load archived workspaces",
+      "restore": "Переглянути архів робочих просторів",
+      "restore-cancel": "Вийти з режиму відновлення",
+      "restore-title": "Архів робочих просторів",
+      "restore-loading": "Завантаження архіву робочих просторів…",
+      "restore-empty": "Немає заархівованих робочих просторів",
+      "restore-error": "Не вдалося завантажити архів робочих просторів",
       "restore-tooltip": "Toggle restore mode",
       "restore-item": "Restore \"{{name}}\"",
       "restore-delete-tooltip": "Delete this archive",
