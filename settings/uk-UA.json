@@ -189,7 +189,7 @@
         },
         "tabSleepExclusion": {
             "title": "Tab Sleep Exclusion",
-            "description": "Exclude specific websites from tab sleep (unloading). Tabs matching these patterns will remain active and won't be automatically unloaded when memory is low.",
+            "description": "Виключити певні вебсайти з режиму сну (вивантаження). Вкладки, що відповідають цим шаблонам, залишатимуться активними та не будуть автоматично вивантажуватися при низькому обсязі пам'яті.",
             "enable": "Enable tab sleep exclusion",
             "patterns": "Exclusion Patterns",
             "patternsDescription": "Add URL patterns to exclude from tab sleep. Tabs matching these patterns will not be unloaded.",
