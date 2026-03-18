@@ -79,16 +79,16 @@
       "restore-error": "Не вдалося завантажити архів робочих просторів",
       "restore-tooltip": "Перемкнути режим відновлення",
       "restore-item": "Restore \"{{name}}\"",
-      "restore-delete-tooltip": "Delete this archive",
+      "restore-delete-tooltip": "Видалити цей архів",
       "restore-tab-count": "{{count}} tab",
       "restore-tab-count_plural": "{{count}} tabs",
-      "restore-time-just-now": "Just now",
-      "restore-time-minutes": "{{minutes}} minute ago",
-      "restore-time-minutes_plural": "{{minutes}} minutes ago",
-      "restore-time-hours": "{{hours}} hour ago",
-      "restore-time-hours_plural": "{{hours}} hours ago",
-      "restore-time-days": "{{days}} day ago",
-      "restore-time-days_plural": "{{days}} days ago"
+      "restore-time-just-now": "Щойно",
+      "restore-time-minutes": "{{minutes}} хвилину тому",
+      "restore-time-minutes_plural": "{{minutes}} хвилин тому",
+      "restore-time-hours": "{{hours}} годину тому",
+      "restore-time-hours_plural": "{{hours}} годин тому",
+      "restore-time-days": "{{days}} день тому",
+      "restore-time-days_plural": "{{days}} днів тому"
     },
     "menu": {
       "moveTabToAnotherWorkspace": "Перемістити вкладку в іншу робочу область",
@@ -199,14 +199,14 @@
       "gecko-scroll-left": "Прокрутити ліворуч",
       "gecko-scroll-to-top": "Scroll to Top",
       "gecko-scroll-to-bottom": "Scroll to Bottom",
-      "gecko-workspace-next": "Switch to Next Workspace",
-      "gecko-workspace-previous": "Switch to Previous Workspace"
+      "gecko-workspace-next": "Перейти до наступного робочого простору",
+      "gecko-workspace-previous": "Перейти до попереднього робочого простору"
     },
     "descriptions": {
       "gecko-back": "Navigate back to the previous page",
       "gecko-forward": "Navigate forward to the next page",
-      "gecko-reload": "Reload the current page",
-      "gecko-close-tab": "Close the current tab",
+      "gecko-reload": "Оновити поточну сторінку",
+      "gecko-close-tab": "Закрити поточну вкладку",
       "gecko-open-new-tab": "Відкрити нову вкладку",
       "gecko-duplicate-tab": "Duplicate the current tab",
       "gecko-reload-all-tabs": "Перезавантажити всі вкладки",
