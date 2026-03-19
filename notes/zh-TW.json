@@ -14,7 +14,16 @@
         "createNew": "建立新筆記",
         "titlePlaceholder": "標題",
         "loading": "載入筆記中……",
-        "delete": "刪除"
+        "delete": "刪除",
+        "empty": "No notes yet. Click \"New Note\" to create one.",
+        "deleteConfirmTitle": "Delete Note",
+        "deleteConfirmMessage": "Are you sure you want to delete this note? This action cannot be undone.",
+        "deleteConfirm": "刪除",
+        "deleteCancel": "取消",
+        "noteList": "Notes list",
+        "search": "Search notes",
+        "clearSearch": "Clear search",
+        "noSearchResults": "No notes match your search"
     },
     "editor": {
         "bold": "粗體",
@@ -29,7 +38,28 @@
         "quote": "引用",
         "heading1": "一級標題",
         "heading2": "二級標題",
-        "heading3": "三級標題"
+        "heading3": "三級標題",
+        "undo": "Undo",
+        "redo": "Redo",
+        "history": "歷史",
+        "toolbar": "Formatting toolbar",
+        "headings": "Headings",
+        "textFormatting": "Text formatting",
+        "lists": "Lists",
+        "alignment": "Alignment",
+        "contentArea": "Note content",
+        "placeholder": "Start writing...",
+        "image": "Insert image"
+    },
+    "common": {
+        "close": "關閉",
+        "confirm": "Confirm",
+        "cancel": "取消"
+    },
+    "save": {
+        "saving": "Saving...",
+        "saved": "Saved",
+        "error": "Save failed"
     },
     "error": {
         "loadFailed": "載入筆記資料失敗",
