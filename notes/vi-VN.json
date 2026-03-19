@@ -14,7 +14,16 @@
         "createNew": "Tạo ghi chú mới",
         "titlePlaceholder": "Tiêu đề",
         "loading": "Đang tải ghi chú..",
-        "delete": "Xoá"
+        "delete": "Xoá",
+        "empty": "No notes yet. Click \"New Note\" to create one.",
+        "deleteConfirmTitle": "Delete Note",
+        "deleteConfirmMessage": "Are you sure you want to delete this note? This action cannot be undone.",
+        "deleteConfirm": "Xoá",
+        "deleteCancel": "Hủy",
+        "noteList": "Notes list",
+        "search": "Search notes",
+        "clearSearch": "Clear search",
+        "noSearchResults": "No notes match your search"
     },
     "editor": {
         "bold": "In đậm",
@@ -29,7 +38,28 @@
         "quote": "Trích dẫn",
         "heading1": "Tiêu đề cấp 1",
         "heading2": "Tiêu đề cấp 2",
-        "heading3": "Tiêu đề cấp 3"
+        "heading3": "Tiêu đề cấp 3",
+        "undo": "Undo",
+        "redo": "Redo",
+        "history": "Lịch sử",
+        "toolbar": "Formatting toolbar",
+        "headings": "Headings",
+        "textFormatting": "Text formatting",
+        "lists": "Lists",
+        "alignment": "Alignment",
+        "contentArea": "Note content",
+        "placeholder": "Start writing...",
+        "image": "Insert image"
+    },
+    "common": {
+        "close": "Đóng",
+        "confirm": "Confirm",
+        "cancel": "Hủy"
+    },
+    "save": {
+        "saving": "Saving...",
+        "saved": "Saved",
+        "error": "Save failed"
     },
     "error": {
         "loadFailed": "Tải dữ liệu ghi chú thất bại",
