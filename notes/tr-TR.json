@@ -14,7 +14,16 @@
         "createNew": "Yeni Not Oluştur",
         "titlePlaceholder": "Başlık",
         "loading": "Notlar yükleniyor...",
-        "delete": "Sil"
+        "delete": "Sil",
+        "empty": "No notes yet. Click \"New Note\" to create one.",
+        "deleteConfirmTitle": "Delete Note",
+        "deleteConfirmMessage": "Are you sure you want to delete this note? This action cannot be undone.",
+        "deleteConfirm": "Sil",
+        "deleteCancel": "İptal Et",
+        "noteList": "Notes list",
+        "search": "Search notes",
+        "clearSearch": "Clear search",
+        "noSearchResults": "No notes match your search"
     },
     "editor": {
         "bold": "Kalın",
@@ -29,7 +38,28 @@
         "quote": "Alıntıla",
         "heading1": "Başlık 1",
         "heading2": "Başlık 2",
-        "heading3": "Başlık 3"
+        "heading3": "Başlık 3",
+        "undo": "Undo",
+        "redo": "Redo",
+        "history": "Geçmiş",
+        "toolbar": "Formatting toolbar",
+        "headings": "Headings",
+        "textFormatting": "Text formatting",
+        "lists": "Lists",
+        "alignment": "Alignment",
+        "contentArea": "Note content",
+        "placeholder": "Start writing...",
+        "image": "Insert image"
+    },
+    "common": {
+        "close": "Kapat",
+        "confirm": "Confirm",
+        "cancel": "İptal Et"
+    },
+    "save": {
+        "saving": "Saving...",
+        "saved": "Saved",
+        "error": "Save failed"
     },
     "error": {
         "loadFailed": "Not verileri yüklenemedi",
