@@ -14,7 +14,16 @@
         "createNew": "Create New Note",
         "titlePlaceholder": "Title",
         "loading": "Loading notes...",
-        "delete": "Delete"
+        "delete": "Delete",
+        "empty": "No notes yet. Click \"New Note\" to create one.",
+        "deleteConfirmTitle": "Delete Note",
+        "deleteConfirmMessage": "Are you sure you want to delete this note? This action cannot be undone.",
+        "deleteConfirm": "Delete",
+        "deleteCancel": "Cancel",
+        "noteList": "Notes list",
+        "search": "Search notes",
+        "clearSearch": "Clear search",
+        "noSearchResults": "No notes match your search"
     },
     "editor": {
         "bold": "Bold",
@@ -29,7 +38,28 @@
         "quote": "Quote",
         "heading1": "Heading 1",
         "heading2": "Heading 2",
-        "heading3": "Heading 3"
+        "heading3": "Heading 3",
+        "undo": "Undo",
+        "redo": "Redo",
+        "history": "History",
+        "toolbar": "Formatting toolbar",
+        "headings": "Headings",
+        "textFormatting": "Text formatting",
+        "lists": "Lists",
+        "alignment": "Alignment",
+        "contentArea": "Note content",
+        "placeholder": "Start writing...",
+        "image": "Insert image"
+    },
+    "common": {
+        "close": "Close",
+        "confirm": "Confirm",
+        "cancel": "Cancel"
+    },
+    "save": {
+        "saving": "Saving...",
+        "saved": "Saved",
+        "error": "Save failed"
     },
     "error": {
         "loadFailed": "Failed to load note data",
