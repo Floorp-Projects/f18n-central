@@ -14,7 +14,16 @@
         "createNew": "Skapa ny anteckning",
         "titlePlaceholder": "Titel",
         "loading": "Laddar anteckning...",
-        "delete": "Radera"
+        "delete": "Radera",
+        "empty": "No notes yet. Click \"New Note\" to create one.",
+        "deleteConfirmTitle": "Delete Note",
+        "deleteConfirmMessage": "Are you sure you want to delete this note? This action cannot be undone.",
+        "deleteConfirm": "Radera",
+        "deleteCancel": "Avbryt",
+        "noteList": "Notes list",
+        "search": "Search notes",
+        "clearSearch": "Clear search",
+        "noSearchResults": "No notes match your search"
     },
     "editor": {
         "bold": "Fetstil",
@@ -29,7 +38,28 @@
         "quote": "Citat",
         "heading1": "Rubrik 1",
         "heading2": "Rubrik 2",
-        "heading3": "Rubrik 3"
+        "heading3": "Rubrik 3",
+        "undo": "Undo",
+        "redo": "Redo",
+        "history": "Historik",
+        "toolbar": "Formatting toolbar",
+        "headings": "Headings",
+        "textFormatting": "Text formatting",
+        "lists": "Lists",
+        "alignment": "Alignment",
+        "contentArea": "Note content",
+        "placeholder": "Start writing...",
+        "image": "Insert image"
+    },
+    "common": {
+        "close": "Stäng",
+        "confirm": "Confirm",
+        "cancel": "Avbryt"
+    },
+    "save": {
+        "saving": "Saving...",
+        "saved": "Saved",
+        "error": "Save failed"
     },
     "error": {
         "loadFailed": "Misslyckades med att ladda anteckningsdata",
