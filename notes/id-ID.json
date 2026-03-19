@@ -14,7 +14,16 @@
         "createNew": "Buat Catatan Baru",
         "titlePlaceholder": "Judul",
         "loading": "Memuat catatan …",
-        "delete": "Hapus"
+        "delete": "Hapus",
+        "empty": "No notes yet. Click \"New Note\" to create one.",
+        "deleteConfirmTitle": "Delete Note",
+        "deleteConfirmMessage": "Are you sure you want to delete this note? This action cannot be undone.",
+        "deleteConfirm": "Hapus",
+        "deleteCancel": "Batal",
+        "noteList": "Notes list",
+        "search": "Search notes",
+        "clearSearch": "Clear search",
+        "noSearchResults": "No notes match your search"
     },
     "editor": {
         "bold": "Tebal",
@@ -29,7 +38,28 @@
         "quote": "Kutipan",
         "heading1": "Tajuk 1",
         "heading2": "Tajuk 2",
-        "heading3": "Tajuk 3"
+        "heading3": "Tajuk 3",
+        "undo": "Undo",
+        "redo": "Redo",
+        "history": "Riwayat",
+        "toolbar": "Formatting toolbar",
+        "headings": "Headings",
+        "textFormatting": "Text formatting",
+        "lists": "Lists",
+        "alignment": "Alignment",
+        "contentArea": "Note content",
+        "placeholder": "Start writing...",
+        "image": "Insert image"
+    },
+    "common": {
+        "close": "Tutup",
+        "confirm": "Confirm",
+        "cancel": "Batal"
+    },
+    "save": {
+        "saving": "Saving...",
+        "saved": "Saved",
+        "error": "Save failed"
     },
     "error": {
         "loadFailed": "Gagal memuat data catatan",
