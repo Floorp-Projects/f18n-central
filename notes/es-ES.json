@@ -14,7 +14,16 @@
         "createNew": "Crear nueva nota",
         "titlePlaceholder": "Título",
         "loading": "Cargando notas...",
-        "delete": "Borrar"
+        "delete": "Borrar",
+        "empty": "No notes yet. Click \"New Note\" to create one.",
+        "deleteConfirmTitle": "Delete Note",
+        "deleteConfirmMessage": "Are you sure you want to delete this note? This action cannot be undone.",
+        "deleteConfirm": "Borrar",
+        "deleteCancel": "Cancelar",
+        "noteList": "Notes list",
+        "search": "Search notes",
+        "clearSearch": "Clear search",
+        "noSearchResults": "No notes match your search"
     },
     "editor": {
         "bold": "Negrita",
@@ -29,7 +38,28 @@
         "quote": "Citar",
         "heading1": "Encabezado 1",
         "heading2": "Encabezado 2",
-        "heading3": "Encabezado 3"
+        "heading3": "Encabezado 3",
+        "undo": "Undo",
+        "redo": "Redo",
+        "history": "History",
+        "toolbar": "Formatting toolbar",
+        "headings": "Headings",
+        "textFormatting": "Text formatting",
+        "lists": "Lists",
+        "alignment": "Alignment",
+        "contentArea": "Note content",
+        "placeholder": "Start writing...",
+        "image": "Insert image"
+    },
+    "common": {
+        "close": "Cerrar",
+        "confirm": "Confirm",
+        "cancel": "Cancelar"
+    },
+    "save": {
+        "saving": "Saving...",
+        "saved": "Saved",
+        "error": "Save failed"
     },
     "error": {
         "loadFailed": "Error al cargar los datos de la nota",
