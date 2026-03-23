@@ -200,7 +200,8 @@
       "gecko-scroll-to-top": "Desplazarse a la parte superior",
       "gecko-scroll-to-bottom": "Desplazarse a la parte inferior",
       "gecko-workspace-next": "Cambiar al siguiente espacio de trabajo",
-      "gecko-workspace-previous": "Cambiar a espacio de trabajo anterior"
+      "gecko-workspace-previous": "Cambiar a espacio de trabajo anterior",
+      "floorp-toggle-zen-mode": "Toggle Zen Mode"
     },
     "descriptions": {
       "gecko-back": "Navegar hacia la página anterior",
@@ -210,7 +211,8 @@
       "gecko-open-new-tab": "Abrir una pestaña nueva",
       "gecko-duplicate-tab": "Duplicar la pestaña actual",
       "gecko-reload-all-tabs": "Recargar todas las pestañas",
-      "gecko-restore-last-tab": "Reabrir última pestaña cerrada"
+      "gecko-restore-last-tab": "Reabrir última pestaña cerrada",
+      "floorp-toggle-zen-mode": "Toggle Zen Mode to hide all UI elements for distraction-free browsing"
     }
   },
   "qrCode": {
@@ -370,5 +372,10 @@
     "menu": {
       "title": "Floorp Hub"
     }
+  },
+  "zen-mode": {
+    "label": "Zen Mode",
+    "tooltiptext": "Toggle Zen Mode",
+    "menu-label": "Toggle Zen Mode"
   }
 }
