@@ -200,7 +200,8 @@
       "gecko-scroll-to-top": "Cuộn lên đầu",
       "gecko-scroll-to-bottom": "Cuộn xuống cuối",
       "gecko-workspace-next": "Switch to Next Workspace",
-      "gecko-workspace-previous": "Switch to Previous Workspace"
+      "gecko-workspace-previous": "Switch to Previous Workspace",
+      "floorp-toggle-zen-mode": "Toggle Zen Mode"
     },
     "descriptions": {
       "gecko-back": "Quay lại trang trước",
@@ -210,7 +211,8 @@
       "gecko-open-new-tab": "Mở thẻ mới",
       "gecko-duplicate-tab": "Nhân đôi thẻ hiện tại",
       "gecko-reload-all-tabs": "Tải lại tất cả thẻ",
-      "gecko-restore-last-tab": "Mở lại thẻ đóng gần nhất"
+      "gecko-restore-last-tab": "Mở lại thẻ đóng gần nhất",
+      "floorp-toggle-zen-mode": "Toggle Zen Mode to hide all UI elements for distraction-free browsing"
     }
   },
   "qrCode": {
@@ -370,5 +372,10 @@
     "menu": {
       "title": "Trung tâm Floorp"
     }
+  },
+  "zen-mode": {
+    "label": "Zen Mode",
+    "tooltiptext": "Toggle Zen Mode",
+    "menu-label": "Toggle Zen Mode"
   }
 }
