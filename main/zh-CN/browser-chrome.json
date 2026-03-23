@@ -200,7 +200,8 @@
       "gecko-scroll-to-top": "滚动到顶部",
       "gecko-scroll-to-bottom": "滚动到底部",
       "gecko-workspace-next": "切换到下个工作区",
-      "gecko-workspace-previous": "切换到上个工作区"
+      "gecko-workspace-previous": "切换到上个工作区",
+      "floorp-toggle-zen-mode": "Toggle Zen Mode"
     },
     "descriptions": {
       "gecko-back": "返回上一页",
@@ -210,7 +211,8 @@
       "gecko-open-new-tab": "打开一个新标签页",
       "gecko-duplicate-tab": "复制当前标签页",
       "gecko-reload-all-tabs": "重新加载所有标签页",
-      "gecko-restore-last-tab": "重新打开上次关闭的标签页"
+      "gecko-restore-last-tab": "重新打开上次关闭的标签页",
+      "floorp-toggle-zen-mode": "Toggle Zen Mode to hide all UI elements for distraction-free browsing"
     }
   },
   "qrCode": {
@@ -370,5 +372,10 @@
     "menu": {
       "title": "Floorp 中心"
     }
+  },
+  "zen-mode": {
+    "label": "Zen Mode",
+    "tooltiptext": "Toggle Zen Mode",
+    "menu-label": "Toggle Zen Mode"
   }
 }
