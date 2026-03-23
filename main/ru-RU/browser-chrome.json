@@ -200,7 +200,8 @@
       "gecko-scroll-to-top": "На самый верх",
       "gecko-scroll-to-bottom": "В самый низ",
       "gecko-workspace-next": "Перейти на следующее рабочее пространство",
-      "gecko-workspace-previous": "Перейти на предыдущее рабочее пространство"
+      "gecko-workspace-previous": "Перейти на предыдущее рабочее пространство",
+      "floorp-toggle-zen-mode": "Toggle Zen Mode"
     },
     "descriptions": {
       "gecko-back": "Перейти на предыдущую страницу",
@@ -210,7 +211,8 @@
       "gecko-open-new-tab": "Открыть новую вкладку",
       "gecko-duplicate-tab": "Дублировать текущую вкладку",
       "gecko-reload-all-tabs": "Обновить все вкладки",
-      "gecko-restore-last-tab": "Переоткрыть последнюю закрытую вкладку"
+      "gecko-restore-last-tab": "Переоткрыть последнюю закрытую вкладку",
+      "floorp-toggle-zen-mode": "Toggle Zen Mode to hide all UI elements for distraction-free browsing"
     }
   },
   "qrCode": {
@@ -370,5 +372,10 @@
     "menu": {
       "title": "Центр Floorp"
     }
+  },
+  "zen-mode": {
+    "label": "Zen Mode",
+    "tooltiptext": "Toggle Zen Mode",
+    "menu-label": "Toggle Zen Mode"
   }
 }
