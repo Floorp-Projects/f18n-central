@@ -200,7 +200,8 @@
       "gecko-scroll-to-top": "맨 위로 스크롤",
       "gecko-scroll-to-bottom": "맨 아래로 스크롤",
       "gecko-workspace-next": "Switch to Next Workspace",
-      "gecko-workspace-previous": "Switch to Previous Workspace"
+      "gecko-workspace-previous": "Switch to Previous Workspace",
+      "floorp-toggle-zen-mode": "Toggle Zen Mode"
     },
     "descriptions": {
       "gecko-back": "이전 페이지로 돌아가기",
@@ -210,7 +211,8 @@
       "gecko-open-new-tab": "새 탭 열기",
       "gecko-duplicate-tab": "이 탭을 복제",
       "gecko-reload-all-tabs": "모든 탭 다시 불러오기",
-      "gecko-restore-last-tab": "최근 닫은 탭 다시 열기"
+      "gecko-restore-last-tab": "최근 닫은 탭 다시 열기",
+      "floorp-toggle-zen-mode": "Toggle Zen Mode to hide all UI elements for distraction-free browsing"
     }
   },
   "qrCode": {
@@ -370,5 +372,10 @@
     "menu": {
       "title": "Floorp Hub"
     }
+  },
+  "zen-mode": {
+    "label": "Zen Mode",
+    "tooltiptext": "Toggle Zen Mode",
+    "menu-label": "Toggle Zen Mode"
   }
 }
