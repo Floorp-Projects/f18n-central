@@ -200,7 +200,8 @@
       "gecko-scroll-to-top": "捲動至頂端",
       "gecko-scroll-to-bottom": "捲動至底端",
       "gecko-workspace-next": "切換到下一個工作空間",
-      "gecko-workspace-previous": "切換到上一個工作空間"
+      "gecko-workspace-previous": "切換到上一個工作空間",
+      "floorp-toggle-zen-mode": "Toggle Zen Mode"
     },
     "descriptions": {
       "gecko-back": "返回上一頁",
@@ -210,7 +211,8 @@
       "gecko-open-new-tab": "開啟新分頁",
       "gecko-duplicate-tab": "複製目前的分頁",
       "gecko-reload-all-tabs": "重新載入所有的分頁",
-      "gecko-restore-last-tab": "重新開啟上次關閉的分頁"
+      "gecko-restore-last-tab": "重新開啟上次關閉的分頁",
+      "floorp-toggle-zen-mode": "Toggle Zen Mode to hide all UI elements for distraction-free browsing"
     }
   },
   "qrCode": {
@@ -370,5 +372,10 @@
     "menu": {
       "title": "Floorp Hub"
     }
+  },
+  "zen-mode": {
+    "label": "Zen Mode",
+    "tooltiptext": "Toggle Zen Mode",
+    "menu-label": "Toggle Zen Mode"
   }
 }
