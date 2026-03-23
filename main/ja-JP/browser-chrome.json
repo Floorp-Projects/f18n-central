@@ -201,7 +201,7 @@
       "gecko-scroll-to-bottom": "最下部までスクロール",
       "gecko-workspace-next": "次のワークスペースに切り替える",
       "gecko-workspace-previous": "前のワークスペースに切り替える",
-      "floorp-toggle-zen-mode": "Toggle Zen Mode"
+      "floorp-toggle-zen-mode": "禅モードの表示を切り替える"
     },
     "descriptions": {
       "gecko-back": "前のページに戻る",
@@ -212,7 +212,7 @@
       "gecko-duplicate-tab": "現在のタブを複製",
       "gecko-reload-all-tabs": "すべてのタブを再読み込み",
       "gecko-restore-last-tab": "最後に閉じたタブを開きなおす",
-      "floorp-toggle-zen-mode": "Toggle Zen Mode to hide all UI elements for distraction-free browsing"
+      "floorp-toggle-zen-mode": "禅モードではすべての UI 要素が非表示になるので、現在のページに集中できます"
     }
   },
   "qrCode": {
@@ -374,8 +374,8 @@
     }
   },
   "zen-mode": {
-    "label": "Zen Mode",
-    "tooltiptext": "Toggle Zen Mode",
-    "menu-label": "Toggle Zen Mode"
+    "label": "禅モード",
+    "tooltiptext": "禅モードの表示を切り替える",
+    "menu-label": "禅モードの表示を切り替える"
   }
 }
