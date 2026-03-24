@@ -375,17 +375,17 @@
   },
   "splitView": {
     "contextMenu": {
-      "addPane": "Add Pane to Split View",
-      "moveToPane": "Move to Pane",
-      "moveToPaneN": "Pane {{n}} ({{title}})"
+      "addPane": "分割ビューに区分けを追加",
+      "moveToPane": "区分けの中に移動",
+      "moveToPaneN": "区分け {{n}} ({{title}})"
     },
     "layoutPicker": {
-      "horizontal": "Horizontal Split",
-      "vertical": "Vertical Split",
-      "grid3paneLeftMain": "Grid (Large Left)",
-      "grid2x2": "Grid (2×2)",
-      "addPane": "Add Pane",
-      "removePane": "Remove Last Pane"
+      "horizontal": "左右に分割",
+      "vertical": "上下に分割",
+      "grid3paneLeftMain": "グリッド (左側を広く)",
+      "grid2x2": "グリッド (2×2)",
+      "addPane": "区分けを追加",
+      "removePane": "最後の区分けを削除"
     }
   },
   "zen-mode": {
