@@ -373,6 +373,21 @@
       "title": "Центр Floorp"
     }
   },
+  "splitView": {
+    "contextMenu": {
+      "addPane": "Add Pane to Split View",
+      "moveToPane": "Move to Pane",
+      "moveToPaneN": "Pane {{n}} ({{title}})"
+    },
+    "layoutPicker": {
+      "horizontal": "Horizontal Split",
+      "vertical": "Vertical Split",
+      "grid3paneLeftMain": "Grid (Large Left)",
+      "grid2x2": "Grid (2×2)",
+      "addPane": "Add Pane",
+      "removePane": "Remove Last Pane"
+    }
+  },
   "zen-mode": {
     "label": "Zen Mode",
     "tooltiptext": "Toggle Zen Mode",
