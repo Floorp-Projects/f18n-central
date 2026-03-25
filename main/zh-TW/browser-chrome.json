@@ -375,6 +375,7 @@
   },
   "splitView": {
     "contextMenu": {
+      "openInSplitView": "在分割視圖中開啟",
       "addPane": "Add Pane to Split View",
       "moveToPane": "Move to Pane",
       "moveToPaneN": "Pane {{n}} ({{title}})"
