@@ -375,6 +375,7 @@
   },
   "splitView": {
     "contextMenu": {
+      "openInSplitView": "打开分屏显示",
       "addPane": "Add Pane to Split View",
       "moveToPane": "Move to Pane",
       "moveToPaneN": "Pane {{n}} ({{title}})"
