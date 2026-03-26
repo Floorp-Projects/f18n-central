@@ -11,16 +11,25 @@
         "emptyTitle": "Без назви",
         "emptyContent": "Немає вмісту",
         "noNotesSelected": "Виберіть нотатку або створіть нову",
-        "createNew": "Створити нову замітку",
+        "createNew": "Створити нову нотатку",
         "titlePlaceholder": "Назва",
         "loading": "Завантаження нотаток...",
-        "delete": "Видалити"
+        "delete": "Видалити",
+        "empty": "No notes yet. Click \"New Note\" to create one.",
+        "deleteConfirmTitle": "Delete Note",
+        "deleteConfirmMessage": "Are you sure you want to delete this note? This action cannot be undone.",
+        "deleteConfirm": "Видалити",
+        "deleteCancel": "Скасувати",
+        "noteList": "Notes list",
+        "search": "Search notes",
+        "clearSearch": "Clear search",
+        "noSearchResults": "No notes match your search"
     },
     "editor": {
         "bold": "Жирний",
         "italic": "Курсив",
         "underline": "Підкреслення",
-        "strikethrough": "Закреслений",
+        "strikethrough": "Закреслення",
         "bulletList": "Маркований список",
         "numberedList": "Нумерований список",
         "alignLeft": "Вирівняти по лівому краю",
@@ -29,7 +38,28 @@
         "quote": "Цитата",
         "heading1": "Заголовок 1",
         "heading2": "Заголовок 2",
-        "heading3": "Заголовок 3"
+        "heading3": "Заголовок 3",
+        "undo": "Undo",
+        "redo": "Redo",
+        "history": "Історія",
+        "toolbar": "Formatting toolbar",
+        "headings": "Headings",
+        "textFormatting": "Text formatting",
+        "lists": "Lists",
+        "alignment": "Alignment",
+        "contentArea": "Note content",
+        "placeholder": "Start writing...",
+        "image": "Insert image"
+    },
+    "common": {
+        "close": "Закрити",
+        "confirm": "Confirm",
+        "cancel": "Скасувати"
+    },
+    "save": {
+        "saving": "Saving...",
+        "saved": "Saved",
+        "error": "Save failed"
     },
     "error": {
         "loadFailed": "Не вдалося завантажити вміст нотатки",

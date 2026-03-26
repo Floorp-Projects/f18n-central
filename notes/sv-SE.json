@@ -14,7 +14,16 @@
         "createNew": "Skapa ny anteckning",
         "titlePlaceholder": "Titel",
         "loading": "Laddar anteckning...",
-        "delete": "Radera"
+        "delete": "Radera",
+        "empty": "Inga anteckningar ännu. Klicka på \"ny anteckning\" för att skapa en.",
+        "deleteConfirmTitle": "Radera anteckning",
+        "deleteConfirmMessage": "Är du säker på att du vill ta bort denna anteckning? Denna åtgärd kan inte ångras.",
+        "deleteConfirm": "Radera",
+        "deleteCancel": "Avbryt",
+        "noteList": "Anteckningslista",
+        "search": "Sök anteckningar",
+        "clearSearch": "Rensa sökning",
+        "noSearchResults": "Inga anteckningar matchar din sökning"
     },
     "editor": {
         "bold": "Fetstil",
@@ -29,7 +38,28 @@
         "quote": "Citat",
         "heading1": "Rubrik 1",
         "heading2": "Rubrik 2",
-        "heading3": "Rubrik 3"
+        "heading3": "Rubrik 3",
+        "undo": "Ångra",
+        "redo": "Gör om",
+        "history": "Historik",
+        "toolbar": "Verktygsfältet formatering",
+        "headings": "Rubriker",
+        "textFormatting": "Textformatering",
+        "lists": "Listor",
+        "alignment": "Justering",
+        "contentArea": "Anteckningens innehåll",
+        "placeholder": "Börja skriva...",
+        "image": "Infoga bild"
+    },
+    "common": {
+        "close": "Stäng",
+        "confirm": "Bekräfta",
+        "cancel": "Avbryt"
+    },
+    "save": {
+        "saving": "Sparar...",
+        "saved": "Sparad",
+        "error": "Spara misslyckades"
     },
     "error": {
         "loadFailed": "Misslyckades med att ladda anteckningsdata",

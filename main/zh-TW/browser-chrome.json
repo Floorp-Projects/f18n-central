@@ -200,7 +200,8 @@
       "gecko-scroll-to-top": "捲動至頂端",
       "gecko-scroll-to-bottom": "捲動至底端",
       "gecko-workspace-next": "切換到下一個工作空間",
-      "gecko-workspace-previous": "切換到上一個工作空間"
+      "gecko-workspace-previous": "切換到上一個工作空間",
+      "floorp-toggle-zen-mode": "Toggle Zen Mode"
     },
     "descriptions": {
       "gecko-back": "返回上一頁",
@@ -210,7 +211,8 @@
       "gecko-open-new-tab": "開啟新分頁",
       "gecko-duplicate-tab": "複製目前的分頁",
       "gecko-reload-all-tabs": "重新載入所有的分頁",
-      "gecko-restore-last-tab": "重新開啟上次關閉的分頁"
+      "gecko-restore-last-tab": "重新開啟上次關閉的分頁",
+      "floorp-toggle-zen-mode": "Toggle Zen Mode to hide all UI elements for distraction-free browsing"
     }
   },
   "qrCode": {
@@ -292,7 +294,7 @@
     "formFieldProgress": "字段 {{current}}/{{total}}：“{{value}}”",
     "inputValueSet": "設定輸入值：\"{{value}}\"",
     "clickElementWithText": "點選 {{tag}}: \"{{text}}\"",
-    "clickElementNoText": "點選 {{tag}} 元素",
+    "clickElementNoText": "點擊一下 {{tag}} 元素",
     "inspectPageHtml": "已獲取完整的 HTML 頁面",
     "inspectGetElement": "已獲取的元素：{{selector}}",
     "inspectGetElements": "{{count}} 個匹配的元素: {{selector}}",
@@ -370,5 +372,26 @@
     "menu": {
       "title": "Floorp Hub"
     }
+  },
+  "splitView": {
+    "contextMenu": {
+      "openInSplitView": "在分割視圖中開啟",
+      "addPane": "Add Pane to Split View",
+      "moveToPane": "Move to Pane",
+      "moveToPaneN": "Pane {{n}} ({{title}})"
+    },
+    "layoutPicker": {
+      "horizontal": "Horizontal Split",
+      "vertical": "Vertical Split",
+      "grid3paneLeftMain": "Grid (Large Left)",
+      "grid2x2": "Grid (2×2)",
+      "addPane": "Add Pane",
+      "removePane": "Remove Last Pane"
+    }
+  },
+  "zen-mode": {
+    "label": "Zen Mode",
+    "tooltiptext": "Toggle Zen Mode",
+    "menu-label": "Toggle Zen Mode"
   }
 }

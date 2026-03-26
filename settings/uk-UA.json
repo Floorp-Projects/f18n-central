@@ -30,16 +30,16 @@
         "webApps": "Вебзастосунки",
         "profileAndAccount": "Профіль та обліковий запис",
         "aboutBrowser": "Про {{productName}}",
-        "updates": "Updates & Experiments",
+        "updates": "Оновлення та експерименти",
         "debug": "Налагодження",
         "mouseGesture": "Жести мишею",
         "keyboardShortcut": "Комбінації клавіш",
         "search": {
             "title": "Налаштування пошуку",
             "resultsFor": "Результати пошуку \"{{query}}\"",
-            "searchResultsDescription": "Search results for \"{{query}}\". Only {{productName}} settings are searched; Firefox settings are not included.",
+            "searchResultsDescription": "Результати пошуку для \"{{query}}\". Шукаються лише налаштування {{productName}}; налаштування Firefox не враховуються.",
             "noResults": "Нічого не знайдено",
-            "open": "Відкрийте \"{{title}}\"",
+            "open": "Відкрити \"{{title}}\"",
             "matchedText": "Відповідний текст",
             "results": "Результати пошуку"
         }
@@ -84,7 +84,7 @@
         "proton": "Proton",
         "lepton": "Lepton",
         "photon": "Photon",
-        "protonfix": "Виправлення інтерфейсу Firefox",
+        "protonfix": "Firefox UI Fix",
         "fluerial": "Fluerial",
         "interfaceDescription": "Оберіть зовнішній вигляд браузера. \"Lepton\" за замовчуванням.",
         "otherInterfaceSettings": "Інші налаштування інтерфейсу",
@@ -145,12 +145,12 @@
                 "tab": "Автоматично приховувати вкладки",
                 "navbar": "Автоматично приховувати панель інструментів",
                 "sidebar": "Автоматично приховувати бічну панель",
-                "backButton": "Автоматично приховувати кнопку Назад",
+                "backButton": "Автоматично приховати кнопку \"Назад\"",
                 "forwardButton": "Автоматично приховувати кнопку \"Вперед\"",
                 "pageAction": "Автоматично приховувати кнопки на адресній панелі"
             },
             "hidden": {
-                "title": "Hide Settings",
+                "title": "Приховати параметри",
                 "tabIcon": "Приховувати значки вкладок",
                 "tabbar": "Приховати панель вкладок",
                 "navbar": "Приховати панель інструментів",
@@ -189,7 +189,7 @@
         },
         "tabSleepExclusion": {
             "title": "Tab Sleep Exclusion",
-            "description": "Exclude specific websites from tab sleep (unloading). Tabs matching these patterns will remain active and won't be automatically unloaded when memory is low.",
+            "description": "Виключити певні вебсайти з режиму сну (вивантаження). Вкладки, що відповідають цим шаблонам, залишатимуться активними та не будуть автоматично вивантажуватися при низькому обсязі пам'яті.",
             "enable": "Enable tab sleep exclusion",
             "patterns": "Exclusion Patterns",
             "patternsDescription": "Add URL patterns to exclude from tab sleep. Tabs matching these patterns will not be unloaded.",
@@ -235,8 +235,8 @@
             "bookmarkBar": {
                 "title": "Панель закладок",
                 "position": "Позиція (Експеримент)",
-                "top": "Top",
-                "bottom": "Bottom",
+                "top": "Верх",
+                "bottom": "Низ",
                 "focusExpand": "Розгорнути панель закладок на фокусі"
             }
         }
@@ -380,7 +380,7 @@
         "enableDescription": "Бічна панель відрізняється від бічної панелі Firefox і не заважає їй працювати. Бічна панель може відображати веб-сторінки, на відміну від бічної панелі Firefox. Ви також можете керувати робочими областями на бічній панелі.",
         "otherSettings": "Інші налаштування бічної панелі",
         "autoUnloadOnClose": "Вивантаження при закритті панелі",
-        "position": "Положення бічної панелі",
+        "position": "Розташування бічної панелі",
         "positionLeft": "Ліворуч",
         "positionRight": "Праворуч",
         "globalWidth": "Глобальна ширина веб-панелі",
@@ -526,7 +526,7 @@
         "actionDescription": "Опис жесту",
         "rockerGesturesEnabled": "Enable rocker gestures",
         "rockerGesturesDescription": "Right-click and move left to go back, right-click and move right to go forward. (Experimental)",
-        "wheelGesturesEnabled": "Enable wheel gestures",
+        "wheelGesturesEnabled": "Увімкнути жести коліщатком",
         "actions": {
             "gecko-back": "Повернутися",
             "gecko-forward": "Вперед",

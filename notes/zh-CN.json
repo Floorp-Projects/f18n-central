@@ -14,7 +14,16 @@
         "createNew": "创建新笔记",
         "titlePlaceholder": "标题",
         "loading": "加载中笔记……",
-        "delete": "删除"
+        "delete": "删除",
+        "empty": "No notes yet. Click \"New Note\" to create one.",
+        "deleteConfirmTitle": "Delete Note",
+        "deleteConfirmMessage": "Are you sure you want to delete this note? This action cannot be undone.",
+        "deleteConfirm": "删除",
+        "deleteCancel": "取消",
+        "noteList": "Notes list",
+        "search": "Search notes",
+        "clearSearch": "Clear search",
+        "noSearchResults": "No notes match your search"
     },
     "editor": {
         "bold": "粗体",
@@ -29,7 +38,28 @@
         "quote": "引用",
         "heading1": "标题 1",
         "heading2": "标题 2",
-        "heading3": "标题 3"
+        "heading3": "标题 3",
+        "undo": "Undo",
+        "redo": "Redo",
+        "history": "历史",
+        "toolbar": "Formatting toolbar",
+        "headings": "Headings",
+        "textFormatting": "Text formatting",
+        "lists": "Lists",
+        "alignment": "Alignment",
+        "contentArea": "Note content",
+        "placeholder": "Start writing...",
+        "image": "Insert image"
+    },
+    "common": {
+        "close": "关闭",
+        "confirm": "Confirm",
+        "cancel": "取消"
+    },
+    "save": {
+        "saving": "Saving...",
+        "saved": "Saved",
+        "error": "Save failed"
     },
     "error": {
         "loadFailed": "加载笔记数据失败",

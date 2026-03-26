@@ -5,16 +5,25 @@
     "notes": {
         "welcome": "{{productName}} Notes へようこそ！",
         "welcomeContent": "{{productName}} Notes へようこそ！使い方はこちら。\n\n{{productName}} Notes はデバイス間で同期できるメモ機能です。同期を有効にするには、Mozilla アカウントで {{productName}} にサインインする必要があります。\n{{productName}} Notes は {{productName}} に保存され、Firefox Sync を使用してデバイス間で同期されます。Firefox Sync は同期の内容を Mozilla アカウントのパスワードで暗号化するため、誰にもその内容を知られることはありません。",
-        "new": "新しいノート",
+        "new": "新しいメモ",
         "reorder": "並べ替え",
         "done": "完了",
         "emptyTitle": "無題",
         "emptyContent": "内容なし",
-        "noNotesSelected": "ノートを選択、または新しいノートを作成",
-        "createNew": "新しいノートを作成",
+        "noNotesSelected": "メモを選択、または新しいメモを作成",
+        "createNew": "新しいメモを作成",
         "titlePlaceholder": "タイトル",
-        "loading": "ノートを読み込み中...",
-        "delete": "削除"
+        "loading": "メモを読み込み中...",
+        "delete": "削除",
+        "empty": "まだメモがありません。[新しいメモ] をクリックして作成しましょう。",
+        "deleteConfirmTitle": "メモを削除",
+        "deleteConfirmMessage": "本当にこのメモを削除しますか？この操作は元に戻せません。",
+        "deleteConfirm": "削除",
+        "deleteCancel": "キャンセル",
+        "noteList": "メモの一覧",
+        "search": "メモを検索",
+        "clearSearch": "検索をクリア",
+        "noSearchResults": "条件に一致するメモがありません"
     },
     "editor": {
         "bold": "太字",
@@ -29,11 +38,32 @@
         "quote": "引用",
         "heading1": "見出し 1",
         "heading2": "見出し 2",
-        "heading3": "見出し 3"
+        "heading3": "見出し 3",
+        "undo": "元に戻す",
+        "redo": "やり直し",
+        "history": "履歴",
+        "toolbar": "書式設定ツールバー",
+        "headings": "見出し",
+        "textFormatting": "テキストの書式",
+        "lists": "リスト",
+        "alignment": "配置",
+        "contentArea": "メモの内容",
+        "placeholder": "書きましょう...",
+        "image": "画像を挿入"
+    },
+    "common": {
+        "close": "閉じる",
+        "confirm": "確認",
+        "cancel": "キャンセル"
+    },
+    "save": {
+        "saving": "保存中...",
+        "saved": "保存済み",
+        "error": "保存に失敗"
     },
     "error": {
-        "loadFailed": "ノートデータの読み込みに失敗しました",
-        "saveFailed": "ノートデータの保存に失敗しました",
+        "loadFailed": "メモのデータの読み込みに失敗しました",
+        "saveFailed": "メモのデータの保存に失敗しました",
         "indexOutOfRange": "インデックス {{index}} は範囲外です"
     }
 }

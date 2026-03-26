@@ -200,7 +200,8 @@
       "gecko-scroll-to-top": "Görgetés az Oldal Tetejére",
       "gecko-scroll-to-bottom": "Görgetés az Oldal Aljára",
       "gecko-workspace-next": "Váltás a Következő Munkaterületre",
-      "gecko-workspace-previous": "Váltás az Előző Munkaterületre"
+      "gecko-workspace-previous": "Váltás az Előző Munkaterületre",
+      "floorp-toggle-zen-mode": "Toggle Zen Mode"
     },
     "descriptions": {
       "gecko-back": "Ugrás az Előző Oldalra",
@@ -210,7 +211,8 @@
       "gecko-open-new-tab": "Új lap megnyitása",
       "gecko-duplicate-tab": "Aktuális lap duplikálása",
       "gecko-reload-all-tabs": "Minden lap újratöltése",
-      "gecko-restore-last-tab": "Az utolsó bezárt lap újranyitása"
+      "gecko-restore-last-tab": "Az utolsó bezárt lap újranyitása",
+      "floorp-toggle-zen-mode": "Toggle Zen Mode to hide all UI elements for distraction-free browsing"
     }
   },
   "qrCode": {
@@ -370,5 +372,26 @@
     "menu": {
       "title": "Floorp Hub"
     }
+  },
+  "splitView": {
+    "contextMenu": {
+      "openInSplitView": "Open in Split View",
+      "addPane": "Add Pane to Split View",
+      "moveToPane": "Move to Pane",
+      "moveToPaneN": "Pane {{n}} ({{title}})"
+    },
+    "layoutPicker": {
+      "horizontal": "Horizontal Split",
+      "vertical": "Vertical Split",
+      "grid3paneLeftMain": "Grid (Large Left)",
+      "grid2x2": "Grid (2×2)",
+      "addPane": "Add Pane",
+      "removePane": "Remove Last Pane"
+    }
+  },
+  "zen-mode": {
+    "label": "Zen Mode",
+    "tooltiptext": "Toggle Zen Mode",
+    "menu-label": "Toggle Zen Mode"
   }
 }

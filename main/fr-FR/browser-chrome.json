@@ -200,7 +200,8 @@
       "gecko-scroll-to-top": "Défiler vers le haut",
       "gecko-scroll-to-bottom": "Défilement vers le bas",
       "gecko-workspace-next": "Switch to Next Workspace",
-      "gecko-workspace-previous": "Switch to Previous Workspace"
+      "gecko-workspace-previous": "Switch to Previous Workspace",
+      "floorp-toggle-zen-mode": "Toggle Zen Mode"
     },
     "descriptions": {
       "gecko-back": "Retourner à la page précédente",
@@ -210,7 +211,8 @@
       "gecko-open-new-tab": "Ouvrir un nouvel onglet",
       "gecko-duplicate-tab": "Dupliquer l'onglet actuel",
       "gecko-reload-all-tabs": "Recharger tous les onglets",
-      "gecko-restore-last-tab": "Rouvrir le dernier onglet fermé"
+      "gecko-restore-last-tab": "Rouvrir le dernier onglet fermé",
+      "floorp-toggle-zen-mode": "Toggle Zen Mode to hide all UI elements for distraction-free browsing"
     }
   },
   "qrCode": {
@@ -370,5 +372,26 @@
     "menu": {
       "title": "Floorp Hub"
     }
+  },
+  "splitView": {
+    "contextMenu": {
+      "openInSplitView": "Ouvrir en vue partagée",
+      "addPane": "Add Pane to Split View",
+      "moveToPane": "Move to Pane",
+      "moveToPaneN": "Pane {{n}} ({{title}})"
+    },
+    "layoutPicker": {
+      "horizontal": "Horizontal Split",
+      "vertical": "Vertical Split",
+      "grid3paneLeftMain": "Grid (Large Left)",
+      "grid2x2": "Grid (2×2)",
+      "addPane": "Add Pane",
+      "removePane": "Remove Last Pane"
+    }
+  },
+  "zen-mode": {
+    "label": "Zen Mode",
+    "tooltiptext": "Toggle Zen Mode",
+    "menu-label": "Toggle Zen Mode"
   }
 }

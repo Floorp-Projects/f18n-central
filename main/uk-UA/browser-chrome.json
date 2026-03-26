@@ -4,12 +4,12 @@
     "tooltiptext": "Перевідкрити останню закриту вкладку {{shortcut}}"
   },
   "floorpHubWarning": {
-    "message": "Floorp-specific settings such as the panel sidebar, Workspaces, and mouse gestures are managed in Floorp Hub.",
-    "openButton": "Open Floorp Hub"
+    "message": "Керування унікальними функціями Floorp — бічною панеллю, робочими просторами та жестами миші — здійснюється через Floorp Hub.",
+    "openButton": "Перейти до Floorp Hub"
   },
   "floorpStartWarning": {
-    "message": "To change the \"Home\" setting, disable Floorp Start from Floorp Hub (about:hub#/features/design).",
-    "openButton": "Open Floorp Hub — Design"
+    "message": "Щоб змінити налаштування \"Головної сторінки\", вимкніть Floorp Start у Floorp Hub (about:hub#/features/design).",
+    "openButton": "Відкрити Floorp Hub — Зовнішній вигляд"
   },
   "workspaces": {
     "modal": {
@@ -66,33 +66,33 @@
       "move-down": "Перемістити цей робочий простір вниз",
       "delete": "Видалити робочий простір",
       "manage": "Керування робочим простором",
-      "archive": "Archive Workspace"
+      "archive": "Архівувати робочий простір"
     },
     "popup": {
       "create-new": "Створити новий робочий простір...",
       "manage": "Керування робочими просторами",
-      "restore": "Show Archived Workspaces",
-      "restore-cancel": "Exit Restore Mode",
-      "restore-title": "Archived Workspaces",
-      "restore-loading": "Loading archived workspaces…",
-      "restore-empty": "No archived workspaces",
-      "restore-error": "Failed to load archived workspaces",
-      "restore-tooltip": "Toggle restore mode",
+      "restore": "Переглянути архів робочих просторів",
+      "restore-cancel": "Вийти з режиму відновлення",
+      "restore-title": "Архів робочих просторів",
+      "restore-loading": "Завантаження архіву робочих просторів…",
+      "restore-empty": "Немає заархівованих робочих просторів",
+      "restore-error": "Не вдалося завантажити архів робочих просторів",
+      "restore-tooltip": "Перемкнути режим відновлення",
       "restore-item": "Restore \"{{name}}\"",
-      "restore-delete-tooltip": "Delete this archive",
+      "restore-delete-tooltip": "Видалити цей архів",
       "restore-tab-count": "{{count}} tab",
       "restore-tab-count_plural": "{{count}} tabs",
-      "restore-time-just-now": "Just now",
-      "restore-time-minutes": "{{minutes}} minute ago",
-      "restore-time-minutes_plural": "{{minutes}} minutes ago",
-      "restore-time-hours": "{{hours}} hour ago",
-      "restore-time-hours_plural": "{{hours}} hours ago",
-      "restore-time-days": "{{days}} day ago",
-      "restore-time-days_plural": "{{days}} days ago"
+      "restore-time-just-now": "Щойно",
+      "restore-time-minutes": "{{minutes}} хвилину тому",
+      "restore-time-minutes_plural": "{{minutes}} хвилин тому",
+      "restore-time-hours": "{{hours}} годину тому",
+      "restore-time-hours_plural": "{{hours}} годин тому",
+      "restore-time-days": "{{days}} день тому",
+      "restore-time-days_plural": "{{days}} днів тому"
     },
     "menu": {
       "moveTabToAnotherWorkspace": "Перемістити вкладку в іншу робочу область",
-      "openLinkInWorkspace": "Open Link in Another Workspace",
+      "openLinkInWorkspace": "Відкрити посилання в іншому робочому просторі",
       "noOtherWorkspace": "No other workspaces available"
     },
     "error": {
@@ -168,7 +168,7 @@
       "gecko-quit-from-application": "Вийти із застосунку",
       "gecko-enter-into-customize-mode": "Увійти в режим персоналізації",
       "gecko-enter-into-offline-mode": "Увійдіть в автономний режим",
-      "gecko-open-screen-capture": "Open Screen Capture",
+      "gecko-open-screen-capture": "Відкрити інструмент захоплення екрана",
       "floorp-show-pip": "Показати картинку в картинці",
       "gecko-open-bookmark-add-tool": "Open Bookmark Add Tool",
       "gecko-open-bookmarks-manager": "Open Bookmarks Manager",
@@ -181,14 +181,14 @@
       "gecko-open-sync-preferences": "Open Sync Preferences",
       "gecko-open-task-manager": "Відкрити диспетчер завдань",
       "gecko-forget-history": "Очистити історію",
-      "gecko-quick-forget-history": "Quick Forget History",
+      "gecko-quick-forget-history": "Швидко очистити історію",
       "gecko-clear-recent-history": "Очистити нещодавню історію",
       "gecko-restore-last-session": "Відновити останню сесію",
       "gecko-search-history": "Історія пошуку",
       "gecko-manage-history": "Керувати історією",
       "gecko-open-downloads": "Відкрити завантаження",
       "gecko-show-bookmark-sidebar": "Показати бічну панель закладок",
-      "gecko-show-history-sidebar": "Show History Sidebar",
+      "gecko-show-history-sidebar": "Показати бічну панель історії",
       "gecko-show-synced-tabs-sidebar": "Показати бічну панель синхронізованих вкладок",
       "gecko-reverse-sidebar": "Зворотне положення бічної панелі",
       "gecko-hide-sidebar": "Приховати бічну панель",
@@ -199,18 +199,20 @@
       "gecko-scroll-left": "Прокрутити ліворуч",
       "gecko-scroll-to-top": "Scroll to Top",
       "gecko-scroll-to-bottom": "Scroll to Bottom",
-      "gecko-workspace-next": "Switch to Next Workspace",
-      "gecko-workspace-previous": "Switch to Previous Workspace"
+      "gecko-workspace-next": "Перейти до наступного робочого простору",
+      "gecko-workspace-previous": "Перейти до попереднього робочого простору",
+      "floorp-toggle-zen-mode": "Toggle Zen Mode"
     },
     "descriptions": {
       "gecko-back": "Navigate back to the previous page",
       "gecko-forward": "Navigate forward to the next page",
-      "gecko-reload": "Reload the current page",
-      "gecko-close-tab": "Close the current tab",
+      "gecko-reload": "Оновити поточну сторінку",
+      "gecko-close-tab": "Закрити поточну вкладку",
       "gecko-open-new-tab": "Відкрити нову вкладку",
       "gecko-duplicate-tab": "Duplicate the current tab",
       "gecko-reload-all-tabs": "Перезавантажити всі вкладки",
-      "gecko-restore-last-tab": "Відкрити останню закриту вкладку"
+      "gecko-restore-last-tab": "Відкрити останню закриту вкладку",
+      "floorp-toggle-zen-mode": "Toggle Zen Mode to hide all UI elements for distraction-free browsing"
     }
   },
   "qrCode": {
@@ -233,7 +235,7 @@
         "web": "Вебсторінка",
         "sidebar-tool": "Бічна панель інструментів",
         "extension": "Бічна панель розширень",
-        "builtin": "Built-in Pages (Downloads, Bookmarks, History)"
+        "builtin": "Вбудовані сторінки (Завантаження, Закладки, Історія)"
       },
       "width": "Ширина панелі",
       "url": "URL вебсторінки",
@@ -249,11 +251,11 @@
     "contextMenu": {
       "unload": "Unload this webpanel",
       "mute": "Mute/Unmute this webpanel",
-      "changeZoom": "Change zoom level",
+      "changeZoom": "Змінити масштаб",
       "zoomIn": "Збільшити",
       "zoomOut": "Зменшити",
       "resetZoom": "Скинути масштаб",
-      "changeUA": "Switch User agent to Mobile/Desktop Version at this Webpanel",
+      "changeUA": "Перемкнути User Agent на мобільну/десктопну версію для цієї вебпанелі",
       "delete": "Видалити цю панель"
     }
   },
@@ -318,15 +320,15 @@
   },
   "chromeWebStore": {
     "button": {
-      "addToFloorp": "Add to Floorp",
+      "addToFloorp": "Додати до Floorp",
       "installing": "Встановлення...",
-      "success": "Added!",
+      "success": "Додано!",
       "error": "Error occurred",
-      "installed": "Installed"
+      "installed": "Встановлено"
     },
     "error": {
       "title": "Installation Error",
-      "compatibilityNote": "This extension may not be compatible with Firefox/Floorp.",
+      "compatibilityNote": "Це розширення може бути несумісним із Firefox/Floorp.",
       "alreadyInstalled": "This extension is already installed ({{name}})",
       "downloadFailed": "Failed to download CRX file",
       "conversionFailed": "Failed to convert extension: {{error}}",
@@ -335,40 +337,61 @@
       "installFailed": "Installation failed",
       "noData": "No installation data provided",
       "addonManagerUnavailable": "AddonManager is not available",
-      "noBrowserWindow": "Could not find browser window for installation",
+      "noBrowserWindow": "Не вдалося знайти вікно браузера для встановлення",
       "createInstallFailed": "Failed to create installation object",
       "cancelledByUser": "Installation cancelled by user",
       "downloadCancelled": "Download cancelled",
       "timeout": "Installation timed out",
-      "xpiInstallError": "XPI installation error: {{error}}",
-      "errorWithCode": "Installation error (code: {{code}})",
+      "xpiInstallError": "Помилка встановлення XPI: {{error}}",
+      "errorWithCode": "Помилка встановлення (код: {{code}})",
       "experimentDisabled": "This feature is not currently available"
     },
     "installErrors": {
       "downloadFailed": "Download failed",
       "signatureVerifyFailed": "Failed to verify extension signature",
       "corruptOrIncompatible": "Extension is corrupted or incompatible",
-      "incompatible": "This extension is not compatible with Floorp",
+      "incompatible": "Це розширення несумісне з Floorp",
       "blocked": "This extension is blocked",
       "timeout": "Extension installation timed out",
       "installFailed": "Extension installation failed",
       "parseFailed": "Failed to parse extension",
       "invalidFile": "Invalid extension file",
-      "networkError": "A network error occurred"
+      "networkError": "Сталася мережева помилка"
     }
   },
   "addons": {
     "notification": {
       "chromeExtensionMessage": "Do you want to add Chrome extension \"{{name}}\"? This extension has been converted from Chrome Web Store.",
       "chromeExtensionPrompt": "Do you want to add Chrome extension \"{{name}}\"?",
-      "defaultExtensionName": "this extension",
+      "defaultExtensionName": "це розширення",
       "chromeBadge": "[Chrome]",
-      "compatibilityWarning": "This Chrome extension has been converted to Firefox compatible format. Some features may not work properly."
+      "compatibilityWarning": "Це розширення Chrome було конвертоване у формат, сумісний із Firefox. Деякі функції можуть працювати некоректно."
     }
   },
   "hub": {
     "menu": {
       "title": "Floorp Hub"
     }
+  },
+  "splitView": {
+    "contextMenu": {
+      "openInSplitView": "Відкрити у розділеному вигляді",
+      "addPane": "Add Pane to Split View",
+      "moveToPane": "Move to Pane",
+      "moveToPaneN": "Pane {{n}} ({{title}})"
+    },
+    "layoutPicker": {
+      "horizontal": "Horizontal Split",
+      "vertical": "Vertical Split",
+      "grid3paneLeftMain": "Grid (Large Left)",
+      "grid2x2": "Grid (2×2)",
+      "addPane": "Add Pane",
+      "removePane": "Remove Last Pane"
+    }
+  },
+  "zen-mode": {
+    "label": "Zen Mode",
+    "tooltiptext": "Toggle Zen Mode",
+    "menu-label": "Toggle Zen Mode"
   }
 }
