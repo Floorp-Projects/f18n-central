@@ -122,7 +122,7 @@
   },
   "privateContainer": {
     "openInPrivateContainer": "사생활 보호 컨테이너으로 열기",
-    "reopenInPrivateContainer": "Reopen in Private Container",
+    "reopenInPrivateContainer": "비공개 컨테이너 다시 열기",
     "name": "사생활 보호 컨테이너"
   },
   "mouseGesture": {
