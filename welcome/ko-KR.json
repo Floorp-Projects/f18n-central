@@ -6,7 +6,7 @@
         "features": "기능",
         "featureIntroduction": "기능 소개",
         "hub": "Floorp Hub",
-        "hubIntro": "About Floorp Hub",
+        "hubIntro": "Floorp Hub에 대해",
         "customize": "맞춤 설정",
         "initialSettings": "초기 설정",
         "complete": "완료",
@@ -14,13 +14,13 @@
         "next": "다음"
     },
     "hubPage": {
-        "title": "About Floorp Hub",
-        "subtitle": "A central place for Floorp-specific settings.",
+        "title": "Floorp Hub에 대해",
+        "subtitle": "Floorp별 설정을 위한 집중 공간입니다.",
         "sectionTitle": "Floorp Hub",
-        "description": "Floorp Hub is a dedicated settings center for Floorp-specific options. You can open it by navigating to 'about:hub'. It can also be accessed from the left sidebar of Firefox's settings page at 'about:preferences'.",
-        "openHub": "Open about:hub",
-        "openPreferences": "Open Settings (about:preferences)",
-        "tip": "Tip: You can also access Floorp Hub from the Firefox settings sidebar.",
+        "description": "Floorp Hub는 플로어별 옵션을 위한 전용 설정 센터입니다. 'about:hub'로 이동하여 열 수 있습니다. Firefox 설정 페이지의 왼쪽 사이드바에 있는 'about:환경설정'에서도 액세스할 수 있습니다.",
+        "openHub": "about:hub 열기",
+        "openPreferences": "설정(about:preferences)을 열기",
+        "tip": "팁: Firefox 설정 사이드바에서 Floorp Hub에 액세스할 수도 있습니다.",
         "features": {
             "dedicated": "Dedicated Floorp settings center",
             "accessible": "Accessible from about:hub or Firefox settings",
