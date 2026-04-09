@@ -18,7 +18,7 @@
         "about": "정보",
         "aboutNoraneko": "Noraneko 정보",
         "debug": "디버그",
-        "overview": "Overview",
+        "overview": "개요",
         "features": "기능"
     },
     "pages": {
@@ -30,34 +30,34 @@
         "webApps": "웹 앱",
         "profileAndAccount": "프로필 및 계정",
         "aboutBrowser": "{{productName}} 정보",
-        "updates": "Updates & Experiments",
-        "debug": "Debug",
+        "updates": "업데이트 및 실험",
+        "debug": "디버그",
         "mouseGesture": "마우스 제스처",
         "keyboardShortcut": "키보드 단축키",
         "search": {
             "title": "검색 설정",
-            "resultsFor": "Search results for \"{{query}}\"",
-            "searchResultsDescription": "Search results for \"{{query}}\". Only {{productName}} settings are searched; Firefox settings are not included.",
-            "noResults": "No results found",
-            "open": "Open \"{{title}}\"",
-            "matchedText": "Matched Text",
-            "results": "Search Results"
+            "resultsFor": "\"{{query}}\" 검색 결과",
+            "searchResultsDescription": "\"{{query}}\"에 대한 검색 결과. {{productName}} 설정만 검색되며, Firefox 설정은 포함되지 않습니다.",
+            "noResults": "검색 결과 없음",
+            "open": "\"{{title}}\" 열기",
+            "matchedText": "일치하는 텍스트",
+            "results": "검색 결과"
         }
     },
     "home": {
         "welcome": "{{name}}님, 환영합니다👋",
         "defaultAccountName": "{{productName}} 사용자",
-        "description": "Manage your account, privacy, and security to enhance your {{productName}} experience.",
+        "description": "계정, 개인정보 및 보안을 관리하여 {{productName}}을(를) 개선하세요.",
         "setup": {
-            "title": "Setup",
-            "footerLinkText": "Log in to Accounts",
-            "setupDescription": "Complete the setup to maximize your {{productName}} experience.",
-            "setupProgressTitle": "Setup Progress",
-            "step": "Step {{step}} of {{total}}"
+            "title": "설정하기",
+            "footerLinkText": "계정으로 로그인",
+            "setupDescription": "설정을 완료하여 {{productName}} 경험을 극대화하세요.",
+            "setupProgressTitle": "설치 진행률",
+            "step": "{{step}}/{{total}}단계"
         },
         "privacyAndTrackingProtection": {
-            "title": "Privacy and Tracking Protection",
-            "footerLinkText": "Privacy and Tracking Protection",
+            "title": "개인 정보 및 추적 보호",
+            "footerLinkText": "개인 정보 및 추적 보호",
             "description": "{{productName}} protects your data and privacy by default, but you can also manage these settings manually."
         },
         "ablazeAccount": {
