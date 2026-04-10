@@ -2,7 +2,7 @@
     "profileManager": {
         "title": "프로필",
         "buttons": {
-            "refresh": "Refresh",
+            "refresh": "목록 새로 고침",
             "create": "생성"
         },
         "loading": "로딩중...",
@@ -10,7 +10,7 @@
         "current": "현재",
         "default": "기본",
         "actions": {
-            "open": "Open",
+            "open": "실행",
             "new": "신규",
             "rename": "이름 변경",
             "remove": "제거",
