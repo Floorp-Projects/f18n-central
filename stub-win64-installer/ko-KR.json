@@ -1,7 +1,7 @@
 {
     "app": {
         "status": {
-            "installing": "백그라운드에서 설치 중입니다...",
+            "installing": "백그라운드에서 설치 중...",
             "installComplete": "설치가 완료되었습니다"
         },
         "installer": {
