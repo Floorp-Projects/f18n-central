@@ -58,48 +58,48 @@
         "privacyAndTrackingProtection": {
             "title": "개인 정보 및 추적 보호",
             "footerLinkText": "개인 정보 및 추적 보호",
-            "description": "{{productName}} protects your data and privacy by default, but you can also manage these settings manually."
+            "description": "{{productName}} 는 기본적으로 데이터와 개인정보를 보호하지만 이러한 설정을 수동으로 관리할 수도 있습니다."
         },
         "ablazeAccount": {
-            "title": "Ablaze Account (Coming Soon)",
+            "title": "Ablaze 계정 (출시 예정)",
             "footerLinkText": "Ablaze 계정",
-            "description": "Use a Mozilla Account to sync some data with other devices. Ablaze Account syncs data that can't be synced with a Mozilla Account."
+            "description": "Mozilla 계정을 사용하여 일부 데이터를 다른 장치와 동기화할 수 있습니다. Ablaze 계정은 Mozilla 계정과 동기화할 수 없는 데이터를 동기화합니다."
         },
         "manageExtensions": {
             "title": "확장 관리",
-            "description": "{{productName}} allows you to manage extensions available on addons.mozilla.org.",
+            "description": "{{productName}} 를 사용하면 addons.mozilla.org에서 사용할 수 있는 확장 프로그램을 관리할 수 있습니다.",
             "footerLinkText": "확장 관리"
         },
         "browserSupport": {
-            "title": "{{productName}} Support",
-            "description": "Access support documentation written by {{productName}} contributors.",
-            "footerLinkText": "{{productName}} Support"
+            "title": "{{productName}} 지원",
+            "description": "{{productName}} 기여자들이 작성한 지원 문서에 액세스하세요.",
+            "footerLinkText": "{{productName}} 지원"
         }
     },
     "design": {
-        "tabAndAppearance": "Tab & Appearance",
-        "customizePositionOfToolbars": "Customize toolbar positions, tab bar style, and {{productName}}'s appearance.",
+        "tabAndAppearance": "탭 및 모양",
+        "customizePositionOfToolbars": "도구 모음 위치, 탭 모음 스타일 및 {{productName}}의 모양을 사용자 지정합니다.",
         "interface": "인터페이스",
-        "aboutInterfaceDesign": "About Interface Design",
+        "aboutInterfaceDesign": "인터페이스 디자인 정보",
         "proton": "Proton",
         "lepton": "Lepton",
         "photon": "Photon",
-        "protonfix": "Firefox UI Fix",
+        "protonfix": "Firefox UI 수정",
         "fluerial": "Fluerial",
-        "interfaceDescription": "Choose the interface design. \"Lepton\" is the default.",
-        "otherInterfaceSettings": "Other Interface Settings",
-        "useFaviconColorToBackgroundOfNavigationBar": "Use Favicon Color for Navigation Bar Background",
+        "interfaceDescription": "인터페이스 디자인을 선택합니다. 기본값은 \"Lepton\"입니다.",
+        "otherInterfaceSettings": "기타 인터페이스 설정",
+        "useFaviconColorToBackgroundOfNavigationBar": "탐색 모음 배경에 Favicon 색상 사용",
         "tabBar": "탭 표시줄",
         "styleDescription": "탭 표시줄의 스타일을 선택합니다.",
         "customizeTabBar": "탭 표시줄 맞춤 설정",
         "style": "스타일",
-        "horizontal": "Horizontal",
-        "multirow": "Multi-row",
-        "vertical": "Vertical",
-        "verticalTabIsRemovedFromBrowser": "Vertical Tabs have been removed from {{productName}}. Please use Firefox's native Vertical Tab Bar instead.",
-        "learnMore": "Learn more",
-        "position": "Position",
-        "positionDescription": "Choose the tab bar position.",
+        "horizontal": "수평",
+        "multirow": "다중 행",
+        "vertical": "수직",
+        "verticalTabIsRemovedFromBrowser": "{{productName}}에서 세로 탭이 제거되었습니다. 대신 Firefox의 기본 세로 탭 바를 사용하세요.",
+        "learnMore": "더 알아보기",
+        "position": "위치",
+        "positionDescription": "탭 표시줄 위치를 선택합니다.",
         "default": "Default",
         "hideTabBar": "Hide Tab Bar",
         "hideTabBarAndTitleBar": "Hide Tab Bar & Title Bar",
