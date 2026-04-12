@@ -601,7 +601,8 @@
             "gecko-scroll-to-top": "Κύλιση στην κορυφή",
             "gecko-scroll-to-bottom": "Κύλιση στη βάση",
             "gecko-workspace-next": "Εναλλαγή στον επόμενο χώρο εργασίας",
-            "gecko-workspace-previous": "Εναλλαγή στον προηγούμενο χώρο εργασίας"
+            "gecko-workspace-previous": "Εναλλαγή στον προηγούμενο χώρο εργασίας",
+            "floorp-toggle-zen-mode": "Toggle Zen Mode"
         },
         "edit": "Επεξεργασία",
         "duplicate": "Αντίγραφο",
