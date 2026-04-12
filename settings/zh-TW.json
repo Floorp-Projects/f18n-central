@@ -601,7 +601,8 @@
             "gecko-scroll-to-top": "捲動至頂端",
             "gecko-scroll-to-bottom": "捲動至底端",
             "gecko-workspace-next": "切換到下一個工作空間",
-            "gecko-workspace-previous": "切換到上一個工作空間"
+            "gecko-workspace-previous": "切換到上一個工作空間",
+            "floorp-toggle-zen-mode": "Toggle Zen Mode"
         },
         "edit": "編輯",
         "duplicate": "複製",
