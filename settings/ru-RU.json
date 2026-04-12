@@ -601,7 +601,8 @@
             "gecko-scroll-to-top": "На самый верх",
             "gecko-scroll-to-bottom": "В самый низ",
             "gecko-workspace-next": "Перейти на следующее рабочее пространство",
-            "gecko-workspace-previous": "Перейти на предыдущее рабочее пространство"
+            "gecko-workspace-previous": "Перейти на предыдущее рабочее пространство",
+            "floorp-toggle-zen-mode": "Toggle Zen Mode"
         },
         "edit": "Редактировать",
         "duplicate": "Дублировать",
