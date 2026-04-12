@@ -601,7 +601,8 @@
             "gecko-scroll-to-top": "Başa Kaydır",
             "gecko-scroll-to-bottom": "Sona Kaydır",
             "gecko-workspace-next": "Sonraki Çalışma Alanına Geç",
-            "gecko-workspace-previous": "Önceki Çalışma Alanına Geç"
+            "gecko-workspace-previous": "Önceki Çalışma Alanına Geç",
+            "floorp-toggle-zen-mode": "Toggle Zen Mode"
         },
         "edit": "Düzenle",
         "duplicate": "Çoğalt",
