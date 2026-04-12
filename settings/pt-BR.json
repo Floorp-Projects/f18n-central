@@ -601,7 +601,8 @@
             "gecko-scroll-to-top": "Voltar ao topo",
             "gecko-scroll-to-bottom": "Rolar para o final",
             "gecko-workspace-next": "Mudar para o próximo espaço de trabalho",
-            "gecko-workspace-previous": "Mudar para o espaço de trabalho anterior"
+            "gecko-workspace-previous": "Mudar para o espaço de trabalho anterior",
+            "floorp-toggle-zen-mode": "Ativar/Desativar Modo Zen"
         },
         "edit": "Editar",
         "duplicate": "Duplicar",
