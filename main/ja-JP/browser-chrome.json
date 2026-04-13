@@ -384,6 +384,9 @@
       "horizontal": "左右に分割",
       "vertical": "上下に分割",
       "grid3paneLeftMain": "グリッド (左側を広く)",
+      "grid3paneRightMain": "Grid (Large Right)",
+      "grid3paneTopMain": "Grid (Large Top)",
+      "grid3paneBottomMain": "Grid (Large Bottom)",
       "grid2x2": "グリッド (2×2)",
       "addPane": "区分けを追加",
       "removePane": "最後の区分けを削除"
