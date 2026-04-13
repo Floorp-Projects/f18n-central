@@ -384,6 +384,9 @@
       "horizontal": "Divisão horizontal",
       "vertical": "Divisão vertical",
       "grid3paneLeftMain": "Grade (maior parte à esquerda)",
+      "grid3paneRightMain": "Grid (Large Right)",
+      "grid3paneTopMain": "Grid (Large Top)",
+      "grid3paneBottomMain": "Grid (Large Bottom)",
       "grid2x2": "Grade (2×2)",
       "addPane": "Adicionar painel",
       "removePane": "Remover o último painel"
