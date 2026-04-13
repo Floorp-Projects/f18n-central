@@ -384,6 +384,9 @@
       "horizontal": "수평 분할",
       "vertical": "수직 분할",
       "grid3paneLeftMain": "그리드(왼쪽 넓게)",
+      "grid3paneRightMain": "Grid (Large Right)",
+      "grid3paneTopMain": "Grid (Large Top)",
+      "grid3paneBottomMain": "Grid (Large Bottom)",
       "grid2x2": "그리드(2×2)",
       "addPane": "창 추가",
       "removePane": "마지막 창 제거"
