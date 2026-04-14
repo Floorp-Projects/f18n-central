@@ -384,9 +384,9 @@
       "horizontal": "Horisontell delning",
       "vertical": "Vertikal delning",
       "grid3paneLeftMain": "Rutnät (stort vänster)",
-      "grid3paneRightMain": "Grid (Large Right)",
-      "grid3paneTopMain": "Grid (Large Top)",
-      "grid3paneBottomMain": "Grid (Large Bottom)",
+      "grid3paneRightMain": "Rutnät (stort höger)",
+      "grid3paneTopMain": "Rutnät (stort överst)",
+      "grid3paneBottomMain": "Rutnät (stor nederst)",
       "grid2x2": "Rutnät (2×2)",
       "addPane": "Lägg till panel",
       "removePane": "Ta bort sista panel"
