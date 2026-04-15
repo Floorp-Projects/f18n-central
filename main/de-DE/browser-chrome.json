@@ -8,7 +8,7 @@
     "openButton": "Floorp-Hub öffnen"
   },
   "floorpStartWarning": {
-    "message": "Um die Startseite zu ändern, deaktivieren Sie Floorp Start im Floorp-Hub (about:hub#/features/design).",
+    "message": "Um die Startseite zu ändern, deaktiviere Floorp Start im Floorp-Hub (about:hub#/features/design).",
     "openButton": "Floorp-Hub öffnen – Design"
   },
   "workspaces": {
@@ -361,8 +361,8 @@
   },
   "addons": {
     "notification": {
-      "chromeExtensionMessage": "Möchten Sie die Chrome-Erweiterung \"{{name}}\" hinzufügen? Diese Erweiterung wurde aus dem Chrome Web Store konvertiert.",
-      "chromeExtensionPrompt": "Möchten Sie die Chrome-Erweiterung \"{{name}}\" hinzufügen?",
+      "chromeExtensionMessage": "Möchtest du die Chrome-Erweiterung \"{{name}}\" hinzufügen? Diese Erweiterung wurde aus dem Chrome Web Store konvertiert.",
+      "chromeExtensionPrompt": "Möchtest du die Chrome-Erweiterung \"{{name}}\" hinzufügen?",
       "defaultExtensionName": "diese Erweiterung",
       "chromeBadge": "[Chrome]",
       "compatibilityWarning": "Diese Chrome-Erweiterung wurde in ein Firefox-kompatibles Format konvertiert. Einige Funktionen arbeiten möglicherweise nicht wie erwartet."
