@@ -4,11 +4,11 @@
     "tooltiptext": "Rouvrir le dernier onglet fermé {{shortcut}}"
   },
   "floorpHubWarning": {
-    "message": "Floorp-specific settings such as the panel sidebar, Workspaces, and mouse gestures are managed in Floorp Hub.",
-    "openButton": "Open Floorp Hub"
+    "message": "Les réglages spécifiques à Floorp comme la barre latérale, les espaces de travail, et les gestes de souris sont gérés dans la Plateforme de Floorp.",
+    "openButton": "Ouvrir la Plateforme de Floorp"
   },
   "floorpStartWarning": {
-    "message": "To change the \"Home\" setting, disable Floorp Start from Floorp Hub (about:hub#/features/design).",
+    "message": "Pour changer les réglages d'\"Accueil\", désactivez le démarrage de Floorp depuis la Plateforme de Floorp (about:hub#/features/design).",
     "openButton": "Open Floorp Hub — Design"
   },
   "workspaces": {
