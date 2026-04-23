@@ -282,8 +282,6 @@
         "openProfileSaveLocation": "프로필 열기 위치 저장",
         "mozillaAccountSyncSettings": "Mozilla 계정 동기화 설정",
         "syncedTo": "{{email}} 에 동기화",
-        "syncNotesToMozillaAccount": "{{productName}} 노트를 Mozilla 계정에 동기화(실험)",
-        "featureSyncSettings": "{{productName}} 기능 동기화 설정",
         "manageMozillaAccount": "Mozilla 계정 관리",
         "manageFirefoxFeatureSync": "Firefox 기능 동기화 관리",
         "aboutMozillaAccount": "Mozilla 계정 정보",
