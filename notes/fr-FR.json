@@ -43,27 +43,27 @@
         "redo": "Rétablir",
         "history": "Historique",
         "toolbar": "Mise en forme de la barre d'outils",
-        "headings": "Headings",
-        "textFormatting": "Text formatting",
-        "lists": "Lists",
-        "alignment": "Alignment",
-        "contentArea": "Note content",
-        "placeholder": "Start writing...",
-        "image": "Insert image"
+        "headings": "Titres",
+        "textFormatting": "Formatage du texte",
+        "lists": "Listes",
+        "alignment": "Alignement",
+        "contentArea": "Contenu de la note",
+        "placeholder": "Commencez à écrire...",
+        "image": "Insérer une image"
     },
     "common": {
         "close": "Fermer",
-        "confirm": "Confirm",
+        "confirm": "Confirmer",
         "cancel": "Annuler"
     },
     "save": {
-        "saving": "Saving...",
-        "saved": "Saved",
-        "error": "Save failed"
+        "saving": "Sauvegarde en cours...",
+        "saved": "Sauvegardé",
+        "error": "Échec de la sauvegarde"
     },
     "error": {
-        "loadFailed": "Failed to load note data",
-        "saveFailed": "Failed to save note data",
-        "indexOutOfRange": "Index {{index}} is out of range"
+        "loadFailed": "Échec du chargement des données de la note",
+        "saveFailed": "Échec du chargement des données de la note",
+        "indexOutOfRange": "L'index {{index}} est hors de portée"
     }
 }
