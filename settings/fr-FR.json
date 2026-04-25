@@ -192,7 +192,7 @@
             "description": "Exclure des sites web spécifiques de la mise en veille (déchargement) des onglets. Les onglets correspondant à ces modèles resteront actifs et ne seront pas automatiquement déchargés lorsque la mémoire sera faible.",
             "enable": "Activer l'exclusion de la mise en veille des onglets",
             "patterns": "Modèles d'exclusion",
-            "patternsDescription": "Add URL patterns to exclude from tab sleep. Tabs matching these patterns will not be unloaded.",
+            "patternsDescription": "Ajouter des modèles d'URL à exclure de la mise en veille des onglets. Les onglets correspondant à ces motifs ne seront pas déchargés.",
             "patternPlaceholder": "Enter URL pattern (e.g., example.com, *.google.com)",
             "add": "Ajouter",
             "remove": "Remove",
