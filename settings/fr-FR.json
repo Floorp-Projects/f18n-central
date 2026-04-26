@@ -199,8 +199,8 @@
             "noPatterns": "Aucun motif d'exclusion n'a été configuré. Ajouter des modèles pour garder des onglets spécifiques actifs.",
             "examples": "Modèles d'exemple",
             "exampleDomain": "Correspond à toute URL contenant ce domaine",
-            "exampleWildcard": "Matches all subdomains of google.com",
-            "exampleFullUrl": "Matches Gmail URLs only"
+            "exampleWildcard": "Fait correspondre à tous les sous-domaines de google.com",
+            "exampleFullUrl": "Correspond uniquement aux URL de Gmail"
         },
         "uiCustomization": {
             "title": "Personnalisation de l'interface utilisateur",
@@ -216,7 +216,7 @@
                 "title": "Affichage",
                 "disableFullscreenNotification": "Désactiver la notification en plein écran",
                 "deleteBrowserBorder": "Arrondir les angles des pages",
-                "disableQRCodeButton": "Disable QR code button"
+                "disableQRCodeButton": "Désactiver le bouton du code QR"
             },
             "special": {
                 "title": "Fonctionnalités spéciales",
@@ -226,7 +226,7 @@
             },
             "newtab": {
                 "title": "Nouvel onglet",
-                "disableFloorpStart": "Disable {{productName}} Start"
+                "disableFloorpStart": "Désactiver le démarrage de {{productName}}"
             },
             "multirowTab": {
                 "title": "Onglet multi-lignes",
@@ -237,7 +237,7 @@
                 "position": "Position (expérience)",
                 "top": "Haut",
                 "bottom": "Bas",
-                "focusExpand": "Expand bookmark bar on focus"
+                "focusExpand": "Développer la barre de signets sur la mise au point"
             }
         }
     },
@@ -254,14 +254,14 @@
         "closePopupWhenSelectingWorkspace": "Fermer la fenêtre contextuelle des espaces de travail lors de la sélection d'un espace de travail",
         "closePopupWhenSelectingWorkspaceDescription": "Choisissez de fermer ou non la fenêtre contextuelle de l'espace de travail lors de la sélection d'un espace de travail.",
         "showWorkspaceNameOnToolbar": "Afficher le nom de l'espace de travail à côté de l'icône",
-        "exitOnLastTabClose": "Exit {{productName}} when last workspace tab is closed",
+        "exitOnLastTabClose": "Quitter {{productName}} lorsque le dernier onglet de l'espace de travail est fermé",
         "manageOnBms": "Gérer les espaces de travail sur la barre latérale de {{productName}}",
         "manageOnBmsDescription": "Lorsque cette fonctionnalité est activée, vous ne pouvez gérer les espaces de travail que dans la barre latérale de {{productName}} . Vous ne pourrez pas gérer les espaces de travail à l'aide du bouton de la barre d'outils.",
         "backup": "Sauvegarde de l'espace de travail",
         "backupComingSoon": "Prochainement",
         "backupDescription": "En savoir plus sur la sauvegarde de l'espace de travail",
-        "dangerZone": "Danger Zone",
-        "initializeTitle": "Initialize workspaces",
+        "dangerZone": "Zone dangereuse",
+        "initializeTitle": "Initialiser les espaces de travail",
         "initializeDescription": "Reset workspace data to its default state. All custom workspaces will be removed and all tabs will be reassigned to the new workspace.",
         "initializeAction": "Initialize workspaces",
         "initializeSuccess": "Workspaces have been reset to their default state.",
