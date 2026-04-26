@@ -267,8 +267,8 @@
         "initializeSuccess": "Les espaces de travail ont été réinitialisés à leur état par défaut.",
         "initializeFailure": "Échec de l'initialisation des espaces de travail. Veuillez réessayer.",
         "initializeConfirmTitle": "Initialiser les espaces de travail",
-        "initializeConfirmDescription": "This removes all workspace data and recreates a single default workspace. Do you want to continue?",
-        "initializeConfirmAction": "Initialize",
+        "initializeConfirmDescription": "Cette opération supprime toutes les données de l'espace de travail et recrée un seul espace de travail par défaut. Voulez-vous continuer ?",
+        "initializeConfirmAction": "Initialisation",
         "initializeConfirmCancel": "Annuler"
     },
     "accounts": {
