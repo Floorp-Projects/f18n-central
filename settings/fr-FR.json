@@ -273,7 +273,7 @@
     },
     "accounts": {
         "profileAndAccount": "Profil et compte",
-        "profileDescription": "Profiles contain browsing-related information such as history, bookmarks, settings, and add-ons. {{productName}} uses this profile to save data.",
+        "profileDescription": "Les profils contiennent des informations liées à la navigation telles que l'historique, les marque-pages, les paramètres et les modules complémentaires. {{productName}} utilise ce profil pour sauvegarder les données.",
         "profileManagement": "Gestion du profil",
         "profileManagementDescription": "Les profils peuvent être créés et séparés les uns des autres, et leurs données sont stockées dans le dossier du profil.",
         "currentProfileName": "Nom du profil actuel : {{name}}",
@@ -302,16 +302,16 @@
         "license": "Licence"
     },
     "updates": {
-        "title": "Updates & Experiments",
-        "description": "Manage update settings and experimental features participation.",
+        "title": "Mises à jour et expérimentations",
+        "description": "Gérer les paramètres de mise à jour et la participation aux fonctionnalités expérimentales.",
         "experiments": {
-            "title": "{{productName}} Flasco Participation",
-            "description": "Control how {{productName}} enrolls you in experimental features and {{productName}} Flascos.",
-            "policyLabel": "Participation Policy",
+            "title": "{{productName}} Participation de Flasco",
+            "description": "Contrôlez la façon dont {{productName}} vous inscrit à des fonctions expérimentales et {{productName}} Flascos.",
+            "policyLabel": "Politique de participation",
             "policy": {
-                "default": "Default (Recommended)",
-                "always": "Always Participate",
-                "never": "Never Participate"
+                "default": "Par défaut (Recommandé)",
+                "always": "Toujours participer",
+                "never": "Ne jamais participer"
             },
             "policyHelp": {
                 "default": "Follow the recommended participation policy. You may be enrolled in {{productName}} Flasco based on rollout percentages.",
