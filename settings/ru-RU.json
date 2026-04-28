@@ -524,6 +524,10 @@
         "actionDescription": "Описание жеста",
         "rockerGesturesEnabled": "Включить жесты рокера",
         "rockerGesturesDescription": "Щёлкните правой кнопкой мыши и переместитесь влево, чтобы вернуться назад, щёлкните правой кнопкой мыши и переместитесь вправо, чтобы перейти вперёд. (Экспериментально)",
+        "rockerLeftRight": "Left → Right",
+        "rockerLeftRightDescription": "Hold left button, then click right button",
+        "rockerRightLeft": "Right → Left",
+        "rockerRightLeftDescription": "Hold right button, then click left button",
         "wheelGesturesEnabled": "Включить жесты колёсиком",
         "actions": {
             "gecko-back": "Вернуться назад",
