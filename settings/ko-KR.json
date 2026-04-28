@@ -524,6 +524,10 @@
         "actionDescription": "제스처 설명",
         "rockerGesturesEnabled": "제스처 흔들림 활성화",
         "rockerGesturesDescription": "마우스 오른쪽 버튼을 클릭하고 왼쪽으로 이동하면 뒤로, 마우스 오른쪽 버튼을 클릭하고 오른쪽으로 이동하면 앞으로 이동합니다. (실험)",
+        "rockerLeftRight": "Left → Right",
+        "rockerLeftRightDescription": "Hold left button, then click right button",
+        "rockerRightLeft": "Right → Left",
+        "rockerRightLeftDescription": "Hold right button, then click left button",
         "wheelGesturesEnabled": "휠 제스처 활성화",
         "actions": {
             "gecko-back": "뒤로",
