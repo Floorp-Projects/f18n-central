@@ -524,6 +524,10 @@
         "actionDescription": "手势说明",
         "rockerGesturesEnabled": "启用摇杆手势",
         "rockerGesturesDescription": "右键单击并向左移动以返回，右键单击并向右移动以前进。(实验性)",
+        "rockerLeftRight": "Left → Right",
+        "rockerLeftRightDescription": "Hold left button, then click right button",
+        "rockerRightLeft": "Right → Left",
+        "rockerRightLeftDescription": "Hold right button, then click left button",
         "wheelGesturesEnabled": "Enable wheel gestures",
         "actions": {
             "gecko-back": "转到上一页",
