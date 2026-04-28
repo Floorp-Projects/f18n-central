@@ -314,7 +314,7 @@
                 "never": "Ne jamais participer"
             },
             "policyHelp": {
-                "default": "Follow the recommended participation policy. You may be enrolled in {{productName}} Flasco based on rollout percentages.",
+                "default": "Suivez la politique de participation recommandée. Vous pouvez être inscrit sur {{productName}} Flasco en fonction des pourcentages de déploiement.",
                 "always": "Always participate in all available {{productName}} Flascos. This option is for users who want to test new features early.",
                 "never": "Never participate in {{productName}} Flascos. You will only receive stable, tested features."
             },
