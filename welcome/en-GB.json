@@ -51,7 +51,7 @@
             "noEnginesFound": "No search engines found."
         },
         "floorpHub": {
-            "title": "Cutomise the Floorp Hub title",
+            "title": "Floorp Hub",
             "description": "Floorp Hub is a dedicated settings center for Floorp-specific options. You can open it by navigating to 'about:hub'. It can also be accessed from the left sidebar of Firefox's settings page at 'about:preferences'.",
             "openHub": "Open about:hub",
             "openPreferences": "Open Settings (about:preferences)"
