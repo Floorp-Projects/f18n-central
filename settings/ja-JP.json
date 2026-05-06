@@ -523,7 +523,7 @@
         "action": "アクション",
         "actionDescription": "ジェスチャーの説明",
         "rockerGesturesEnabled": "ロッカージェスチャーを有効にする",
-        "rockerGesturesDescription": "右クリックしながら左に動かすとページを戻り、右クリックしながら右に動かすと進みます。 (実験的)",
+        "rockerGesturesDescription": "右クリックしながら左クリックするとページを戻り、左クリックしながら右クリックすると進みます。 (実験的)",
         "rockerLeftRight": "左 → 右",
         "rockerLeftRightDescription": "左ボタンを押したまま、右ボタンをクリック",
         "rockerRightLeft": "右 → 左",
