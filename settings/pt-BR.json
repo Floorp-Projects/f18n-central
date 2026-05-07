@@ -523,7 +523,7 @@
         "action": "Ação",
         "actionDescription": "Descrição do gesto",
         "rockerGesturesEnabled": "Ativar gestos de balanço",
-        "rockerGesturesDescription": "Clique com o botão direito do mouse e mova para a esquerda para voltar, clique com o botão direito do mouse e mova para a direita para avançar. (experimental)",
+        "rockerGesturesDescription": "By default, hold the left button and click the right button to go forward, and hold the right button and click the left button to go back. (Experimental)",
         "rockerLeftRight": "Esquerda → Direita",
         "rockerLeftRightDescription": "Mantenha o botão esquerdo pressionado e clique no botão direito",
         "rockerRightLeft": "Direita → Esquerda",
