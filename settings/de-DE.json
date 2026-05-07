@@ -604,7 +604,8 @@
             "gecko-scroll-to-bottom": "Ganz nach unten scrollen",
             "gecko-workspace-next": "Zum nächsten Arbeitsbereich wechseln",
             "gecko-workspace-previous": "Zum vorherigen Arbeitsbereich wechseln",
-            "floorp-toggle-zen-mode": "Zen-Modus umschalten"
+            "floorp-toggle-zen-mode": "Zen-Modus umschalten",
+            "floorp-toggle-command-palette": "Toggle Command Palette"
         },
         "edit": "Bearbeiten",
         "duplicate": "Duplizieren",
