@@ -523,7 +523,7 @@
         "action": "Δράση",
         "actionDescription": "Περιγραφή της χειρονομίας",
         "rockerGesturesEnabled": "Ενεργοποίηση χειρονομιών ποντικιού",
-        "rockerGesturesDescription": "Κάντε δεξί κλικ και μετακινηθείτε αριστερά για να πάτε πίσω, δεξί κλικ και μετακινηθείτε δεξιά για να πάτε μπροστά. (Πειραματικό)",
+        "rockerGesturesDescription": "By default, hold the left button and click the right button to go forward, and hold the right button and click the left button to go back. (Experimental)",
         "rockerLeftRight": "Left → Right",
         "rockerLeftRightDescription": "Hold left button, then click right button",
         "rockerRightLeft": "Right → Left",
