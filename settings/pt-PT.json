@@ -523,7 +523,7 @@
         "action": "Ação",
         "actionDescription": "Descrição do gesto",
         "rockerGesturesEnabled": "Ativar os gestos de baloiço",
-        "rockerGesturesDescription": "Clique com o botão direito do rato e mova para a esquerda para voltar atrás, clique com o botão direito do rato e mova para a direita para avançar. (Experimental)",
+        "rockerGesturesDescription": "By default, hold the left button and click the right button to go forward, and hold the right button and click the left button to go back. (Experimental)",
         "rockerLeftRight": "Left → Right",
         "rockerLeftRightDescription": "Hold left button, then click right button",
         "rockerRightLeft": "Right → Left",
