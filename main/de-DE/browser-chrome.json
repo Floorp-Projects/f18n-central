@@ -201,7 +201,8 @@
       "gecko-scroll-to-bottom": "Zum Seitenende scrollen",
       "gecko-workspace-next": "Zum nächsten Arbeitsbereich wechseln",
       "gecko-workspace-previous": "Zum vorherigen Arbeitsbereich wechseln",
-      "floorp-toggle-zen-mode": "Zen-Modus umschalten"
+      "floorp-toggle-zen-mode": "Zen-Modus umschalten",
+      "floorp-toggle-command-palette": "Toggle Command Palette"
     },
     "descriptions": {
       "gecko-back": "Zur vorherigen Seite zurückgehen",
@@ -212,7 +213,8 @@
       "gecko-duplicate-tab": "Aktuellen Tab duplizieren",
       "gecko-reload-all-tabs": "Alle Tabs neu laden",
       "gecko-restore-last-tab": "Zuletzt geschlossenen Tab wiederherstellen",
-      "floorp-toggle-zen-mode": "Zen-Modus umschalten, um alle Oberflächenelemente für ablenkungsfreies Surfen auszublenden"
+      "floorp-toggle-zen-mode": "Zen-Modus umschalten, um alle Oberflächenelemente für ablenkungsfreies Surfen auszublenden",
+      "floorp-toggle-command-palette": "Open or close the command palette to search and execute commands"
     }
   },
   "qrCode": {
@@ -396,5 +398,31 @@
     "label": "Zen-Modus",
     "tooltiptext": "Zen-Modus umschalten",
     "menu-label": "Zen-Modus umschalten"
+  },
+  "commandPalette": {
+    "dialogLabel": "Command Palette",
+    "placeholder": "Type a command...",
+    "navigateTo": "Go to {{url}}",
+    "categories": {
+      "recent": "Recently Used",
+      "navigation": "Navigation",
+      "tabs": "Tabs",
+      "zoom": "Zoom",
+      "bookmarks": "Lesezeichen",
+      "page": "Page",
+      "search": "Suchen",
+      "sidebar": "Seitenleiste",
+      "scrolling": "Scrolling",
+      "history": "Verlauf",
+      "window": "Window",
+      "tools": "Tools",
+      "downloads": "Downloads",
+      "workspace": "Arbeitsbereiche",
+      "floorp": "Floorp",
+      "media": "Media",
+      "open-tabs": "Open Tabs"
+    },
+    "noResults": "No commands found",
+    "noResultsHint": "Try a different search term"
   }
 }
