@@ -523,7 +523,7 @@
         "action": "Åtgärd",
         "actionDescription": "Beskrivning av gest",
         "rockerGesturesEnabled": "Aktivera rocker gester",
-        "rockerGesturesDescription": "Högerklicka och flytta till vänster för att gå tillbaka, högerklicka och flytta till höger för att gå framåt. (Experimentell)",
+        "rockerGesturesDescription": "By default, hold the left button and click the right button to go forward, and hold the right button and click the left button to go back. (Experimental)",
         "rockerLeftRight": "Vänster → Höger",
         "rockerLeftRightDescription": "Håll in vänster knapp och klicka sedan på höger knapp",
         "rockerRightLeft": "Höger → Vänster",
