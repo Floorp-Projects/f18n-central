@@ -201,7 +201,8 @@
       "gecko-scroll-to-bottom": "Défilement vers le bas",
       "gecko-workspace-next": "Basculer vers l'espace de travail suivant",
       "gecko-workspace-previous": "Basculer vers l'espace de travail précédent",
-      "floorp-toggle-zen-mode": "Permuter le mode Zen"
+      "floorp-toggle-zen-mode": "Permuter le mode Zen",
+      "floorp-toggle-command-palette": "Toggle Command Palette"
     },
     "descriptions": {
       "gecko-back": "Retourner à la page précédente",
@@ -212,7 +213,8 @@
       "gecko-duplicate-tab": "Dupliquer l'onglet actuel",
       "gecko-reload-all-tabs": "Recharger tous les onglets",
       "gecko-restore-last-tab": "Rouvrir le dernier onglet fermé",
-      "floorp-toggle-zen-mode": "Permuter le mode Zen masque tous les éléments de l'interface pour une navigation sans distraction"
+      "floorp-toggle-zen-mode": "Permuter le mode Zen masque tous les éléments de l'interface pour une navigation sans distraction",
+      "floorp-toggle-command-palette": "Open or close the command palette to search and execute commands"
     }
   },
   "qrCode": {
@@ -396,5 +398,31 @@
     "label": "Mode Calme",
     "tooltiptext": "Permuter le mode Zen",
     "menu-label": "Permuter le mode Zen"
+  },
+  "commandPalette": {
+    "dialogLabel": "Command Palette",
+    "placeholder": "Type a command...",
+    "navigateTo": "Go to {{url}}",
+    "categories": {
+      "recent": "Recently Used",
+      "navigation": "Navigation",
+      "tabs": "Onglets",
+      "zoom": "Zoom",
+      "bookmarks": "Marque-pages",
+      "page": "Page",
+      "search": "Recherche",
+      "sidebar": "Barre latérale",
+      "scrolling": "Scrolling",
+      "history": "Historique",
+      "window": "Window",
+      "tools": "Tools",
+      "downloads": "Téléchargements",
+      "workspace": "Espaces de travail",
+      "floorp": "Floorp",
+      "media": "Media",
+      "open-tabs": "Open Tabs"
+    },
+    "noResults": "No commands found",
+    "noResultsHint": "Try a different search term"
   }
 }
