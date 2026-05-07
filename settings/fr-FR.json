@@ -523,7 +523,7 @@
         "action": "Action",
         "actionDescription": "Description du geste",
         "rockerGesturesEnabled": "Activer les gestes de balancement",
-        "rockerGesturesDescription": "By default, hold the left button and click the right button to go forward, and hold the right button and click the left button to go back. (Experimental)",
+        "rockerGesturesDescription": "Par défaut, maintenez le bouton gauche et cliquez sur le bouton droit pour avancer, et maintenez le bouton droit et cliquez sur le bouton gauche pour reculer. (Expérimental)",
         "rockerLeftRight": "Gauche → Droite",
         "rockerLeftRightDescription": "Maintenir le bouton gauche enfoncé, puis cliquer sur le bouton droit",
         "rockerRightLeft": "Droite → Gauche",
@@ -605,7 +605,7 @@
             "gecko-workspace-next": "Basculer vers l'espace de travail suivant",
             "gecko-workspace-previous": "Basculer vers l'espace de travail précédent",
             "floorp-toggle-zen-mode": "Permuter le mode Zen",
-            "floorp-toggle-command-palette": "Toggle Command Palette"
+            "floorp-toggle-command-palette": "Activer/désactiver la palette de commandes"
         },
         "edit": "Modifier",
         "duplicate": "Dupliquer",
