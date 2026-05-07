@@ -201,7 +201,8 @@
       "gecko-scroll-to-bottom": "Scrolla till botten",
       "gecko-workspace-next": "Växla till nästa arbetsyta",
       "gecko-workspace-previous": "Växla till föregående arbetsyta",
-      "floorp-toggle-zen-mode": "Växla Zenläge"
+      "floorp-toggle-zen-mode": "Växla Zenläge",
+      "floorp-toggle-command-palette": "Toggle Command Palette"
     },
     "descriptions": {
       "gecko-back": "Navigera tillbaka till föregående sida",
@@ -212,7 +213,8 @@
       "gecko-duplicate-tab": "Duplicera den aktuella fliken",
       "gecko-reload-all-tabs": "Ladda om alla flikar",
       "gecko-restore-last-tab": "Öppna den senaste stängda fliken",
-      "floorp-toggle-zen-mode": "Växla till Zenläge för att dölja alla UI-element för distraktionslös surfning"
+      "floorp-toggle-zen-mode": "Växla till Zenläge för att dölja alla UI-element för distraktionslös surfning",
+      "floorp-toggle-command-palette": "Open or close the command palette to search and execute commands"
     }
   },
   "qrCode": {
@@ -396,5 +398,31 @@
     "label": "Zen läge",
     "tooltiptext": "Växla zenläge",
     "menu-label": "Växla zenläge"
+  },
+  "commandPalette": {
+    "dialogLabel": "Command Palette",
+    "placeholder": "Type a command...",
+    "navigateTo": "Go to {{url}}",
+    "categories": {
+      "recent": "Recently Used",
+      "navigation": "Navigation",
+      "tabs": "Flikar",
+      "zoom": "Zoom",
+      "bookmarks": "Bokmärken",
+      "page": "Page",
+      "search": "Sök",
+      "sidebar": "Sidebar",
+      "scrolling": "Scrolling",
+      "history": "Historik",
+      "window": "Window",
+      "tools": "Tools",
+      "downloads": "Hämtningar",
+      "workspace": "Arbetsytor",
+      "floorp": "Floorp",
+      "media": "Media",
+      "open-tabs": "Open Tabs"
+    },
+    "noResults": "No commands found",
+    "noResultsHint": "Try a different search term"
   }
 }
