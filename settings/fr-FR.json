@@ -523,7 +523,7 @@
         "action": "Action",
         "actionDescription": "Description du geste",
         "rockerGesturesEnabled": "Activer les gestes de balancement",
-        "rockerGesturesDescription": "Faites un clic droit et déplacez vers la gauche pour revenir en arrière, faites un clic droit et déplacez vers la droite pour avancer. (Expérimental)",
+        "rockerGesturesDescription": "By default, hold the left button and click the right button to go forward, and hold the right button and click the left button to go back. (Experimental)",
         "rockerLeftRight": "Gauche → Droite",
         "rockerLeftRightDescription": "Maintenir le bouton gauche enfoncé, puis cliquer sur le bouton droit",
         "rockerRightLeft": "Droite → Gauche",
