@@ -604,7 +604,8 @@
             "gecko-scroll-to-bottom": "맨 아래로",
             "gecko-workspace-next": "다음 워크스페이스로 전환",
             "gecko-workspace-previous": "이전 워크스페이스로 전환",
-            "floorp-toggle-zen-mode": "Zen 모드 전환"
+            "floorp-toggle-zen-mode": "Zen 모드 전환",
+            "floorp-toggle-command-palette": "Toggle Command Palette"
         },
         "edit": "수정",
         "duplicate": "복제",
