@@ -201,7 +201,8 @@
       "gecko-scroll-to-bottom": "맨 아래로 스크롤",
       "gecko-workspace-next": "다음 워크스페이스로 전환",
       "gecko-workspace-previous": "이전 워크스페이스로 전환",
-      "floorp-toggle-zen-mode": "Zen 모드 전환"
+      "floorp-toggle-zen-mode": "Zen 모드 전환",
+      "floorp-toggle-command-palette": "Toggle Command Palette"
     },
     "descriptions": {
       "gecko-back": "이전 페이지로 돌아가기",
@@ -212,7 +213,8 @@
       "gecko-duplicate-tab": "이 탭을 복제",
       "gecko-reload-all-tabs": "모든 탭 다시 불러오기",
       "gecko-restore-last-tab": "최근 닫은 탭 다시 열기",
-      "floorp-toggle-zen-mode": "Zen 모드를 전환하여 모든 UI 요소를 숨겨 방해받지 않고 브라우징하세요"
+      "floorp-toggle-zen-mode": "Zen 모드를 전환하여 모든 UI 요소를 숨겨 방해받지 않고 브라우징하세요",
+      "floorp-toggle-command-palette": "Open or close the command palette to search and execute commands"
     }
   },
   "qrCode": {
@@ -396,5 +398,31 @@
     "label": "Zen 모드",
     "tooltiptext": "Zen 모드 전환",
     "menu-label": "Zen 모드 전환"
+  },
+  "commandPalette": {
+    "dialogLabel": "Command Palette",
+    "placeholder": "Type a command...",
+    "navigateTo": "Go to {{url}}",
+    "categories": {
+      "recent": "Recently Used",
+      "navigation": "Navigation",
+      "tabs": "탭",
+      "zoom": "Zoom",
+      "bookmarks": "북마크",
+      "page": "Page",
+      "search": "검색",
+      "sidebar": "사이드바",
+      "scrolling": "Scrolling",
+      "history": "방문 기록",
+      "window": "Window",
+      "tools": "Tools",
+      "downloads": "다운로드",
+      "workspace": "워크스페이스",
+      "floorp": "Floorp",
+      "media": "Media",
+      "open-tabs": "Open Tabs"
+    },
+    "noResults": "No commands found",
+    "noResultsHint": "Try a different search term"
   }
 }
