@@ -604,7 +604,8 @@
             "gecko-scroll-to-bottom": "Sona Kaydır",
             "gecko-workspace-next": "Sonraki Çalışma Alanına Geç",
             "gecko-workspace-previous": "Önceki Çalışma Alanına Geç",
-            "floorp-toggle-zen-mode": "Toggle Zen Mode"
+            "floorp-toggle-zen-mode": "Toggle Zen Mode",
+            "floorp-toggle-command-palette": "Toggle Command Palette"
         },
         "edit": "Düzenle",
         "duplicate": "Çoğalt",
