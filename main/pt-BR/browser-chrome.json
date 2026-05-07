@@ -201,7 +201,8 @@
       "gecko-scroll-to-bottom": "Rolar para o final",
       "gecko-workspace-next": "Mudar para a próximo espaço de trabalho",
       "gecko-workspace-previous": "Mudar para o espaço de trabalho anterior",
-      "floorp-toggle-zen-mode": "Ativar/Desativar Modo Zen"
+      "floorp-toggle-zen-mode": "Ativar/Desativar Modo Zen",
+      "floorp-toggle-command-palette": "Toggle Command Palette"
     },
     "descriptions": {
       "gecko-back": "Voltar para a página anterior",
@@ -212,7 +213,8 @@
       "gecko-duplicate-tab": "Duplicar a aba atual",
       "gecko-reload-all-tabs": "Recarregar todas as abas",
       "gecko-restore-last-tab": "Reabra a última aba fechada",
-      "floorp-toggle-zen-mode": "Ativar/desativar o Modo Zen para ocultar todos os elementos de interface do usuário para uma navegação livre de distrações"
+      "floorp-toggle-zen-mode": "Ativar/desativar o Modo Zen para ocultar todos os elementos de interface do usuário para uma navegação livre de distrações",
+      "floorp-toggle-command-palette": "Open or close the command palette to search and execute commands"
     }
   },
   "qrCode": {
@@ -396,5 +398,31 @@
     "label": "Modo Zen",
     "tooltiptext": "Ativar/Desativar Modo Zen",
     "menu-label": "Ativar/Desativar Modo Zen"
+  },
+  "commandPalette": {
+    "dialogLabel": "Command Palette",
+    "placeholder": "Type a command...",
+    "navigateTo": "Go to {{url}}",
+    "categories": {
+      "recent": "Recently Used",
+      "navigation": "Navigation",
+      "tabs": "Abas",
+      "zoom": "Zoom",
+      "bookmarks": "Marcadores",
+      "page": "Page",
+      "search": "Pesquisar",
+      "sidebar": "Painel Lateral",
+      "scrolling": "Scrolling",
+      "history": "Histórico",
+      "window": "Window",
+      "tools": "Tools",
+      "downloads": "Downloads",
+      "workspace": "Espaços de trabalho",
+      "floorp": "Floorp",
+      "media": "Media",
+      "open-tabs": "Open Tabs"
+    },
+    "noResults": "No commands found",
+    "noResultsHint": "Try a different search term"
   }
 }
