@@ -202,7 +202,7 @@
       "gecko-workspace-next": "Basculer vers l'espace de travail suivant",
       "gecko-workspace-previous": "Basculer vers l'espace de travail précédent",
       "floorp-toggle-zen-mode": "Permuter le mode Zen",
-      "floorp-toggle-command-palette": "Toggle Command Palette"
+      "floorp-toggle-command-palette": "Activer/désactiver la palette de commandes"
     },
     "descriptions": {
       "gecko-back": "Retourner à la page précédente",
@@ -214,7 +214,7 @@
       "gecko-reload-all-tabs": "Recharger tous les onglets",
       "gecko-restore-last-tab": "Rouvrir le dernier onglet fermé",
       "floorp-toggle-zen-mode": "Permuter le mode Zen masque tous les éléments de l'interface pour une navigation sans distraction",
-      "floorp-toggle-command-palette": "Open or close the command palette to search and execute commands"
+      "floorp-toggle-command-palette": "Ouvrir ou fermer la palette de commandes pour rechercher et exécuter des commandes"
     }
   },
   "qrCode": {
@@ -400,29 +400,29 @@
     "menu-label": "Permuter le mode Zen"
   },
   "commandPalette": {
-    "dialogLabel": "Command Palette",
-    "placeholder": "Type a command...",
-    "navigateTo": "Go to {{url}}",
+    "dialogLabel": "Palette de commandes",
+    "placeholder": "Écrivez une commande...",
+    "navigateTo": "Aller sur {{url}}",
     "categories": {
-      "recent": "Recently Used",
+      "recent": "Utilisées récemment",
       "navigation": "Navigation",
       "tabs": "Onglets",
-      "zoom": "Zoom",
+      "zoom": "Zoomer",
       "bookmarks": "Marque-pages",
       "page": "Page",
       "search": "Recherche",
       "sidebar": "Barre latérale",
-      "scrolling": "Scrolling",
+      "scrolling": "Défilement",
       "history": "Historique",
-      "window": "Window",
-      "tools": "Tools",
+      "window": "Fenêtre",
+      "tools": "Outils",
       "downloads": "Téléchargements",
       "workspace": "Espaces de travail",
       "floorp": "Floorp",
-      "media": "Media",
-      "open-tabs": "Open Tabs"
+      "media": "Média",
+      "open-tabs": "Onglets ouverts"
     },
-    "noResults": "No commands found",
-    "noResultsHint": "Try a different search term"
+    "noResults": "Aucune commande trouvée",
+    "noResultsHint": "Essayez un autre terme de recherche"
   }
 }
