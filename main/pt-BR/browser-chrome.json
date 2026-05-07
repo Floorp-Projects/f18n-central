@@ -202,7 +202,7 @@
       "gecko-workspace-next": "Mudar para a próximo espaço de trabalho",
       "gecko-workspace-previous": "Mudar para o espaço de trabalho anterior",
       "floorp-toggle-zen-mode": "Ativar/Desativar Modo Zen",
-      "floorp-toggle-command-palette": "Toggle Command Palette"
+      "floorp-toggle-command-palette": "Alternar a paleta de comandos"
     },
     "descriptions": {
       "gecko-back": "Voltar para a página anterior",
@@ -214,7 +214,7 @@
       "gecko-reload-all-tabs": "Recarregar todas as abas",
       "gecko-restore-last-tab": "Reabra a última aba fechada",
       "floorp-toggle-zen-mode": "Ativar/desativar o Modo Zen para ocultar todos os elementos de interface do usuário para uma navegação livre de distrações",
-      "floorp-toggle-command-palette": "Open or close the command palette to search and execute commands"
+      "floorp-toggle-command-palette": "Abrir ou fechar a paleta de comandos para pesquisar e executar comandos"
     }
   },
   "qrCode": {
@@ -400,29 +400,29 @@
     "menu-label": "Ativar/Desativar Modo Zen"
   },
   "commandPalette": {
-    "dialogLabel": "Command Palette",
-    "placeholder": "Type a command...",
-    "navigateTo": "Go to {{url}}",
+    "dialogLabel": "Paleta de comandos",
+    "placeholder": "Digite um comando...",
+    "navigateTo": "Ir para {{url}}",
     "categories": {
-      "recent": "Recently Used",
-      "navigation": "Navigation",
+      "recent": "Usado Recentemente",
+      "navigation": "Navegação",
       "tabs": "Abas",
-      "zoom": "Zoom",
+      "zoom": "Ampliar/Reduzir",
       "bookmarks": "Marcadores",
-      "page": "Page",
+      "page": "Página",
       "search": "Pesquisar",
       "sidebar": "Painel Lateral",
-      "scrolling": "Scrolling",
+      "scrolling": "Rolagem",
       "history": "Histórico",
-      "window": "Window",
-      "tools": "Tools",
+      "window": "Janela",
+      "tools": "Ferramentas",
       "downloads": "Downloads",
       "workspace": "Espaços de trabalho",
       "floorp": "Floorp",
-      "media": "Media",
-      "open-tabs": "Open Tabs"
+      "media": "Mídia",
+      "open-tabs": "Abrir abas"
     },
-    "noResults": "No commands found",
-    "noResultsHint": "Try a different search term"
+    "noResults": "Nenhum comando encontrado",
+    "noResultsHint": "Experimente um termo de pesquisa diferente."
   }
 }
