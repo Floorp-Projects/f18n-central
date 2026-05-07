@@ -523,7 +523,7 @@
         "action": "동작",
         "actionDescription": "제스처 설명",
         "rockerGesturesEnabled": "제스처 흔들림 활성화",
-        "rockerGesturesDescription": "마우스 오른쪽 버튼을 클릭하고 왼쪽으로 이동하면 뒤로, 마우스 오른쪽 버튼을 클릭하고 오른쪽으로 이동하면 앞으로 이동합니다. (실험)",
+        "rockerGesturesDescription": "By default, hold the left button and click the right button to go forward, and hold the right button and click the left button to go back. (Experimental)",
         "rockerLeftRight": "Left → Right",
         "rockerLeftRightDescription": "Hold left button, then click right button",
         "rockerRightLeft": "Right → Left",
