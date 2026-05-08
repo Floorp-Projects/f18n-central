@@ -523,7 +523,7 @@
         "action": "動作",
         "actionDescription": "手勢說明",
         "rockerGesturesEnabled": "啟用搖桿手勢",
-        "rockerGesturesDescription": "By default, hold the left button and click the right button to go forward, and hold the right button and click the left button to go back. (Experimental)",
+        "rockerGesturesDescription": "按一下滑鼠右鍵並向左移動可返回，按一下滑鼠右鍵並向右移動可向前。(實驗性質)",
         "rockerLeftRight": "Left → Right",
         "rockerLeftRightDescription": "Hold left button, then click right button",
         "rockerRightLeft": "Right → Left",
