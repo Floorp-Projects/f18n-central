@@ -202,7 +202,7 @@
       "gecko-workspace-next": "次のワークスペースに切り替える",
       "gecko-workspace-previous": "前のワークスペースに切り替える",
       "floorp-toggle-zen-mode": "禅モードの表示を切り替える",
-      "floorp-toggle-command-palette": "Toggle Command Palette"
+      "floorp-toggle-command-palette": "コマンドパレットの表示を切り替える"
     },
     "descriptions": {
       "gecko-back": "前のページに戻る",
@@ -214,7 +214,7 @@
       "gecko-reload-all-tabs": "すべてのタブを再読み込み",
       "gecko-restore-last-tab": "最後に閉じたタブを開きなおす",
       "floorp-toggle-zen-mode": "禅モードではすべての UI 要素が非表示になるので、現在のページに集中できます",
-      "floorp-toggle-command-palette": "Open or close the command palette to search and execute commands"
+      "floorp-toggle-command-palette": "コマンドを検索および実行できるコマンドパレットを開閉します"
     }
   },
   "qrCode": {
@@ -400,29 +400,29 @@
     "menu-label": "禅モードの表示を切り替える"
   },
   "commandPalette": {
-    "dialogLabel": "Command Palette",
-    "placeholder": "Type a command...",
-    "navigateTo": "Go to {{url}}",
+    "dialogLabel": "コマンドパレット",
+    "placeholder": "コマンドを入力...",
+    "navigateTo": "{{url}} に移動",
     "categories": {
-      "recent": "Recently Used",
-      "navigation": "Navigation",
+      "recent": "最近使ったもの",
+      "navigation": "ナビゲーション",
       "tabs": "タブ",
-      "zoom": "Zoom",
+      "zoom": "ズーム",
       "bookmarks": "ブックマーク",
-      "page": "Page",
+      "page": "ページ",
       "search": "検索",
       "sidebar": "サイドバーのカスタマイズ",
-      "scrolling": "Scrolling",
+      "scrolling": "スクロール",
       "history": "履歴",
-      "window": "Window",
-      "tools": "Tools",
+      "window": "ウィンドウ",
+      "tools": "ツール",
       "downloads": "ダウンロード",
       "workspace": "ワークスペース",
       "floorp": "Floorp",
-      "media": "Media",
-      "open-tabs": "Open Tabs"
+      "media": "メディア",
+      "open-tabs": "タブを開く"
     },
-    "noResults": "No commands found",
-    "noResultsHint": "Try a different search term"
+    "noResults": "コマンドが見つかりません",
+    "noResultsHint": "別の検索語をお試しください"
   }
 }

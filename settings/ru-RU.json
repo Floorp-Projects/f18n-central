@@ -523,7 +523,7 @@
         "action": "Действие",
         "actionDescription": "Описание жеста",
         "rockerGesturesEnabled": "Включить жесты рокера",
-        "rockerGesturesDescription": "By default, hold the left button and click the right button to go forward, and hold the right button and click the left button to go back. (Experimental)",
+        "rockerGesturesDescription": "Щёлкните правой кнопкой мыши и переместитесь влево, чтобы вернуться назад, щёлкните правой кнопкой мыши и переместитесь вправо, чтобы перейти вперёд. (Экспериментально)",
         "rockerLeftRight": "Left → Right",
         "rockerLeftRightDescription": "Hold left button, then click right button",
         "rockerRightLeft": "Right → Left",

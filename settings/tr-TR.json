@@ -523,7 +523,7 @@
         "action": "Eylem",
         "actionDescription": "Hareketin açıklaması",
         "rockerGesturesEnabled": "Rocker hareketlerini etkinleştirin",
-        "rockerGesturesDescription": "By default, hold the left button and click the right button to go forward, and hold the right button and click the left button to go back. (Experimental)",
+        "rockerGesturesDescription": "Geri gitmek için sağ tıklayın ve sola hareket edin, ileri gitmek için sağ tıklayın ve sağa hareket edin. (Deneysel)",
         "rockerLeftRight": "Left → Right",
         "rockerLeftRightDescription": "Hold left button, then click right button",
         "rockerRightLeft": "Right → Left",
