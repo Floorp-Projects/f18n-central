@@ -228,10 +228,10 @@
     }
   },
   "qrCode": {
-    "pageAction": "QR-kód Létrehozása",
-    "modalTitle": "QR-kód Generátor",
-    "loading": "QR-kód Létrehozása...",
-    "copyButton": "Kép Másolása",
+    "pageAction": "QR-kód létrehozása",
+    "modalTitle": "QR-kód generátor",
+    "loading": "QR-kód létrehozása...",
+    "copyButton": "Kép másolása",
     "downloadButton": "Letöltés",
     "closeButton": "Close",
     "copySuccess": "QR code copied to clipboard!",
