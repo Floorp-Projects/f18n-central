@@ -524,10 +524,10 @@
         "actionDescription": "제스처 설명",
         "rockerGesturesEnabled": "제스처 흔들림 활성화",
         "rockerGesturesDescription": "마우스 오른쪽 버튼을 클릭하고 왼쪽으로 이동하면 뒤로, 마우스 오른쪽 버튼을 클릭하고 오른쪽으로 이동하면 앞으로 이동합니다. (실험)",
-        "rockerLeftRight": "Left → Right",
-        "rockerLeftRightDescription": "Hold left button, then click right button",
-        "rockerRightLeft": "Right → Left",
-        "rockerRightLeftDescription": "Hold right button, then click left button",
+        "rockerLeftRight": "좌 → 우",
+        "rockerLeftRightDescription": "왼쪽 버튼을 누른 채, 우클릭합니다.",
+        "rockerRightLeft": "우 → 좌",
+        "rockerRightLeftDescription": "오른쪽 버튼을 누른 채, 좌클릭합니다.",
         "wheelGesturesEnabled": "휠 제스처 활성화",
         "actions": {
             "gecko-back": "뒤로",
@@ -605,7 +605,7 @@
             "gecko-workspace-next": "다음 워크스페이스로 전환",
             "gecko-workspace-previous": "이전 워크스페이스로 전환",
             "floorp-toggle-zen-mode": "Zen 모드 전환",
-            "floorp-toggle-command-palette": "Toggle Command Palette"
+            "floorp-toggle-command-palette": "명령 팔레트 전환"
         },
         "edit": "수정",
         "duplicate": "복제",
