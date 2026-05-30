@@ -62,7 +62,7 @@
         "subtitle": "Congratulations! You've completed the Floorp setup. Enjoy a comfortable and secure internet browsing experience.",
         "nextSteps": {
             "title": "Next Steps (Optional)",
-            "setDefault": "Set as Default Browser",
+            "setDefault": "Đặt làm trình duyệt mặc định",
             "documentation": "Documentation"
         },
         "getStarted": "Get Started with Floorp",
@@ -82,7 +82,7 @@
         "start": "Bắt đầu thôi"
     },
     "localizationPage": {
-        "title": "Floorp speaks your language",
+        "title": "Floorp chung tiếng nói với bạn",
         "subtitle": "Check language settings and change if needed",
         "languageSettings": "Cài đặt ngôn ngữ",
         "languageChanged": "Nói ngôn ngữ của bạn rồi nè!",
@@ -96,7 +96,7 @@
         "languageChangeNotice": "Changing language will apply the new language without restarting Floorp. Some add-ons may not support language changes."
     },
     "featuresPage": {
-        "title": "Main Floorp Features",
+        "title": "Cái tinh năng nổi bật của Floorp",
         "subtitle": "Floorp comes with many useful features. Check out the feature overview!",
         "panelSidebar": {
             "title": "Panel Sidebar",
@@ -108,7 +108,7 @@
             ]
         },
         "workspaces": {
-            "title": "Workspaces",
+            "title": "Không gian làm việc",
             "description": "Organize multiple tab sets to streamline your work. Quickly switch between workspaces with distinctive icons and names. Access via the workspace button in the top left.",
             "features": [
                 "Categorize by purpose: work, personal, etc.",
@@ -135,10 +135,10 @@
             ]
         },
         "notebook": "Notebook",
-        "nextTab": "Go to Next Tab"
+        "nextTab": "Đi tới thẻ tiếp theo"
     },
     "finishPage": {
-        "title": "Setup Complete!",
+        "title": "Thiết lập hoàn tất!",
         "subtitle": "Tuyệt vời! Bạn đã hoàn thành thiết lập Floorp. Tận hưởng cảm giác mượt mà và an toàn khi lướt mạng.",
         "nextSteps": "Next Steps (Optional)",
         "defaultBrowser": "Đặt làm trình duyệt mặc định",
@@ -150,7 +150,7 @@
         "defaultBrowserSuccess": "Floorp has been set as your default browser!"
     },
     "whatsNew": {
-        "title": "Welcome to Floorp {{version}}!",
+        "title": "Chào mừng tới Floorp {{version}}!",
         "subtitle": "Check out what's new in Floorp!",
         "tags": {
             "settings": "Cài đặt",
