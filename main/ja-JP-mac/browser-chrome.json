@@ -207,7 +207,11 @@
       "gecko-workspace-next": "次のワークスペースに切り替える",
       "gecko-workspace-previous": "前のワークスペースに切り替える",
       "floorp-toggle-zen-mode": "禅モードの表示を切り替える",
-      "floorp-toggle-command-palette": "コマンドパレットの表示を切り替える"
+      "floorp-toggle-command-palette": "コマンドパレットの表示を切り替える",
+      "floorp-open-settings": "設定",
+      "floorp-open-hub": "Floorp Hub を開く",
+      "floorp-toggle-share-mode": "Toggle Share Mode",
+      "floorp-copy-page-url-as-markdown": "Copy Page URL as Markdown"
     },
     "descriptions": {
       "gecko-back": "前のページに戻る",
@@ -224,7 +228,11 @@
       "gecko-reload-all-tabs": "すべてのタブを再読み込み",
       "gecko-restore-last-tab": "最後に閉じたタブを開き直す",
       "floorp-toggle-zen-mode": "禅モードではすべての UI 要素が非表示になるので、現在のページに集中できます",
-      "floorp-toggle-command-palette": "コマンドを検索および実行できるコマンドパレットを開閉します"
+      "floorp-toggle-command-palette": "コマンドを検索および実行できるコマンドパレットを開閉します",
+      "floorp-open-settings": "Opens the Floorp settings page",
+      "floorp-open-hub": "Opens the Floorp Hub page",
+      "floorp-toggle-share-mode": "Toggle Share Mode to minimize UI for screen sharing and presentations",
+      "floorp-copy-page-url-as-markdown": "Copy the current page title and URL as Markdown link format: [Title](URL)"
     }
   },
   "qrCode": {
@@ -402,6 +410,9 @@
       "grid2x2": "グリッド (2×2)",
       "addPane": "区分けを追加",
       "removePane": "最後の区分けを削除"
+    },
+    "dropZone": {
+      "newWindow": "Drop here to open in new window"
     }
   },
   "zen-mode": {
@@ -430,7 +441,10 @@
       "workspace": "ワークスペース",
       "floorp": "Floorp",
       "media": "メディア",
-      "open-tabs": "タブを開く"
+      "open-tabs": "タブを開く",
+      "switcher": "Switcher",
+      "history-suggestions": "履歴",
+      "bookmark-suggestions": "ブックマーク"
     },
     "noResults": "コマンドが見つかりません",
     "noResultsHint": "別の検索語句をお試しください",
@@ -447,6 +461,61 @@
     "searchWebStepPlaceholder": "検索語句...",
     "searchWithEngine": "\"{{query}}\" を検索",
     "searchWithEngineDescription": "デフォルトの検索エンジンで検索",
-    "searchWithEngineNamed": "{{engine}} で検索"
-  }
+    "searchWithEngineNamed": "{{engine}} で検索",
+    "searchWebValidationError": "Please enter a search query",
+    "searchWebEngineLabel": "Select search engine",
+    "searchWebEnginePlaceholder": "Select a search engine...",
+    "searchEngineDefault": " (default)",
+    "searchWebWhereLabel": "Where to open results",
+    "searchWebWherePlaceholder": "Select where to open...",
+    "searchWebWhereNewTab": "新規タブ",
+    "searchWebWhereNewTabDesc": "Open in a new foreground tab",
+    "searchWebWhereBackgroundTab": "Background Tab",
+    "searchWebWhereBackgroundTabDesc": "Open in a new background tab",
+    "searchWebWhereCurrentTab": "Current Tab",
+    "searchWebWhereCurrentTabDesc": "Navigate the current tab",
+    "openUrlWhereLabel": "Where to open",
+    "openUrlWherePlaceholder": "Select where to open...",
+    "openUrlWhereNewTab": "新規タブ",
+    "openUrlWhereNewTabDesc": "Open in a new foreground tab",
+    "openUrlWhereBackgroundTab": "Background Tab",
+    "openUrlWhereBackgroundTabDesc": "Open in a new background tab",
+    "openUrlWhereCurrentTab": "Current Tab",
+    "openUrlWhereCurrentTabDesc": "Navigate the current tab",
+    "reopenInContainer": "Reopen in Container",
+    "reopenInContainerDescription": "Reopen the current tab in a specific container",
+    "reopenInContainerStepLabel": "Select a container",
+    "reopenInContainerStepPlaceholder": "Choose a container...",
+    "reopenInContainerNoContainer": "コンテナーなし",
+    "reopenInContainerNoContainerDesc": "Reopen in the default context",
+    "reopenInContainerCurrentSuffix": "(現在)",
+    "loadingChoices": "Loading options...",
+    "tabSwitcher": "Switch Tab",
+    "tabSwitcherDescription": "Switch to a different tab in the current window",
+    "tabSwitcherStepLabel": "Select a tab",
+    "tabSwitcherStepPlaceholder": "Choose a tab...",
+    "windowSwitcher": "Switch Window",
+    "windowSwitcherDescription": "Switch to a different open window",
+    "windowSwitcherStepLabel": "Select a window",
+    "windowSwitcherStepPlaceholder": "Choose a window...",
+    "windowSwitcherCurrent": "現在",
+    "windowSwitcherTabCount": "{{count}} tab(s)",
+    "closedTabSwitcher": "閉じたタブを開き直す",
+    "closedTabSwitcherDescription": "Reopen a recently closed tab",
+    "closedTabSwitcherStepLabel": "Select a closed tab",
+    "closedTabSwitcherStepPlaceholder": "Choose a closed tab...",
+    "closedWindowSwitcher": "Reopen Closed Window",
+    "closedWindowSwitcherDescription": "Reopen a recently closed window",
+    "closedWindowSwitcherStepLabel": "Select a closed window",
+    "closedWindowSwitcherStepPlaceholder": "Choose a closed window...",
+    "historySwitcher": "Browse History",
+    "historySwitcherDescription": "Open a page from your browsing history",
+    "historySwitcherStepLabel": "Select a history entry",
+    "historySwitcherStepPlaceholder": "Choose a history entry...",
+    "bookmarkSwitcher": "Switch Bookmark",
+    "bookmarkSwitcherDescription": "Open a bookmarked page",
+    "bookmarkSwitcherStepLabel": "Select a bookmark",
+    "bookmarkSwitcherStepPlaceholder": "Search or choose a bookmark..."
+  },
+  "commandPaletteReadings": {}
 }
