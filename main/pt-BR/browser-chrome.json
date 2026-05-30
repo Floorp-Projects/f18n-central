@@ -207,7 +207,11 @@
       "gecko-workspace-next": "Mudar para a próximo espaço de trabalho",
       "gecko-workspace-previous": "Mudar para o espaço de trabalho anterior",
       "floorp-toggle-zen-mode": "Ativar/Desativar Modo Zen",
-      "floorp-toggle-command-palette": "Alternar a paleta de comandos"
+      "floorp-toggle-command-palette": "Alternar a paleta de comandos",
+      "floorp-open-settings": "Open Settings",
+      "floorp-open-hub": "Abrir o Floorp Hub",
+      "floorp-toggle-share-mode": "Toggle Share Mode",
+      "floorp-copy-page-url-as-markdown": "Copy Page URL as Markdown"
     },
     "descriptions": {
       "gecko-back": "Voltar para a página anterior",
@@ -224,7 +228,11 @@
       "gecko-reload-all-tabs": "Recarregar todas as abas",
       "gecko-restore-last-tab": "Reabra a última aba fechada",
       "floorp-toggle-zen-mode": "Ativar/desativar o Modo Zen para ocultar todos os elementos de interface do usuário para uma navegação livre de distrações",
-      "floorp-toggle-command-palette": "Abrir ou fechar a paleta de comandos para pesquisar e executar comandos"
+      "floorp-toggle-command-palette": "Abrir ou fechar a paleta de comandos para pesquisar e executar comandos",
+      "floorp-open-settings": "Opens the Floorp settings page",
+      "floorp-open-hub": "Opens the Floorp Hub page",
+      "floorp-toggle-share-mode": "Toggle Share Mode to minimize UI for screen sharing and presentations",
+      "floorp-copy-page-url-as-markdown": "Copy the current page title and URL as Markdown link format: [Title](URL)"
     }
   },
   "qrCode": {
@@ -402,6 +410,9 @@
       "grid2x2": "Grade (2×2)",
       "addPane": "Adicionar painel",
       "removePane": "Remover o último painel"
+    },
+    "dropZone": {
+      "newWindow": "Drop here to open in new window"
     }
   },
   "zen-mode": {
@@ -430,7 +441,10 @@
       "workspace": "Espaços de trabalho",
       "floorp": "Floorp",
       "media": "Mídia",
-      "open-tabs": "Abrir abas"
+      "open-tabs": "Abrir abas",
+      "switcher": "Switcher",
+      "history-suggestions": "Histórico",
+      "bookmark-suggestions": "Marcadores"
     },
     "noResults": "Nenhum comando encontrado",
     "noResultsHint": "Experimente um termo de pesquisa diferente.",
@@ -447,6 +461,61 @@
     "searchWebStepPlaceholder": "Pesquisar termos...",
     "searchWithEngine": "Pesquisar por \"{{query}}\"",
     "searchWithEngineDescription": "Pesquisar com seu mecanismo de pesquisa padrão",
-    "searchWithEngineNamed": "Pesquisar com {{engine}}"
-  }
+    "searchWithEngineNamed": "Pesquisar com {{engine}}",
+    "searchWebValidationError": "Please enter a search query",
+    "searchWebEngineLabel": "Select search engine",
+    "searchWebEnginePlaceholder": "Select a search engine...",
+    "searchEngineDefault": " (default)",
+    "searchWebWhereLabel": "Where to open results",
+    "searchWebWherePlaceholder": "Select where to open...",
+    "searchWebWhereNewTab": "Nova aba",
+    "searchWebWhereNewTabDesc": "Open in a new foreground tab",
+    "searchWebWhereBackgroundTab": "Background Tab",
+    "searchWebWhereBackgroundTabDesc": "Open in a new background tab",
+    "searchWebWhereCurrentTab": "Current Tab",
+    "searchWebWhereCurrentTabDesc": "Navigate the current tab",
+    "openUrlWhereLabel": "Where to open",
+    "openUrlWherePlaceholder": "Select where to open...",
+    "openUrlWhereNewTab": "Nova aba",
+    "openUrlWhereNewTabDesc": "Open in a new foreground tab",
+    "openUrlWhereBackgroundTab": "Background Tab",
+    "openUrlWhereBackgroundTabDesc": "Open in a new background tab",
+    "openUrlWhereCurrentTab": "Current Tab",
+    "openUrlWhereCurrentTabDesc": "Navigate the current tab",
+    "reopenInContainer": "Reopen in Container",
+    "reopenInContainerDescription": "Reopen the current tab in a specific container",
+    "reopenInContainerStepLabel": "Select a container",
+    "reopenInContainerStepPlaceholder": "Choose a container...",
+    "reopenInContainerNoContainer": "Sem contêiner",
+    "reopenInContainerNoContainerDesc": "Reopen in the default context",
+    "reopenInContainerCurrentSuffix": "(atual)",
+    "loadingChoices": "Loading options...",
+    "tabSwitcher": "Switch Tab",
+    "tabSwitcherDescription": "Switch to a different tab in the current window",
+    "tabSwitcherStepLabel": "Select a tab",
+    "tabSwitcherStepPlaceholder": "Choose a tab...",
+    "windowSwitcher": "Switch Window",
+    "windowSwitcherDescription": "Switch to a different open window",
+    "windowSwitcherStepLabel": "Select a window",
+    "windowSwitcherStepPlaceholder": "Choose a window...",
+    "windowSwitcherCurrent": "atual",
+    "windowSwitcherTabCount": "{{count}} tab(s)",
+    "closedTabSwitcher": "Reabrir aba fechada",
+    "closedTabSwitcherDescription": "Reopen a recently closed tab",
+    "closedTabSwitcherStepLabel": "Select a closed tab",
+    "closedTabSwitcherStepPlaceholder": "Choose a closed tab...",
+    "closedWindowSwitcher": "Reopen Closed Window",
+    "closedWindowSwitcherDescription": "Reopen a recently closed window",
+    "closedWindowSwitcherStepLabel": "Select a closed window",
+    "closedWindowSwitcherStepPlaceholder": "Choose a closed window...",
+    "historySwitcher": "Browse History",
+    "historySwitcherDescription": "Open a page from your browsing history",
+    "historySwitcherStepLabel": "Select a history entry",
+    "historySwitcherStepPlaceholder": "Choose a history entry...",
+    "bookmarkSwitcher": "Switch Bookmark",
+    "bookmarkSwitcherDescription": "Open a bookmarked page",
+    "bookmarkSwitcherStepLabel": "Select a bookmark",
+    "bookmarkSwitcherStepPlaceholder": "Search or choose a bookmark..."
+  },
+  "commandPaletteReadings": {}
 }
