@@ -208,10 +208,10 @@
       "gecko-workspace-previous": "Växla till föregående arbetsyta",
       "floorp-toggle-zen-mode": "Växla Zenläge",
       "floorp-toggle-command-palette": "Växla kommandopalett",
-      "floorp-open-settings": "Open Settings",
+      "floorp-open-settings": "Öppna inställningar",
       "floorp-open-hub": "Öppna Floorp Hub",
-      "floorp-toggle-share-mode": "Toggle Share Mode",
-      "floorp-copy-page-url-as-markdown": "Copy Page URL as Markdown"
+      "floorp-toggle-share-mode": "Växla dela läge",
+      "floorp-copy-page-url-as-markdown": "Kopiera sidans URL som Markdown"
     },
     "descriptions": {
       "gecko-back": "Navigera tillbaka till föregående sida",
@@ -229,10 +229,10 @@
       "gecko-restore-last-tab": "Öppna den senaste stängda fliken",
       "floorp-toggle-zen-mode": "Växla till Zenläge för att dölja alla UI-element för distraktionslös surfning",
       "floorp-toggle-command-palette": "Öppna eller stäng kommandopaletten för att söka och exekvera kommandon",
-      "floorp-open-settings": "Opens the Floorp settings page",
-      "floorp-open-hub": "Opens the Floorp Hub page",
-      "floorp-toggle-share-mode": "Toggle Share Mode to minimize UI for screen sharing and presentations",
-      "floorp-copy-page-url-as-markdown": "Copy the current page title and URL as Markdown link format: [Title](URL)"
+      "floorp-open-settings": "Öppnar Floorp inställningssida",
+      "floorp-open-hub": "Öppnar Floorp Hub sidan",
+      "floorp-toggle-share-mode": "Växla till Dela läge för att minimera användargränssnittet vid skärmdelning och presentationer",
+      "floorp-copy-page-url-as-markdown": "Kopiera den aktuella sidans titel och URL som Markdown-länkformat: [Title](URL)"
     }
   },
   "qrCode": {
@@ -412,7 +412,7 @@
       "removePane": "Ta bort sista panel"
     },
     "dropZone": {
-      "newWindow": "Drop here to open in new window"
+      "newWindow": "Släpp här för att öppna i nytt fönster"
     }
   },
   "zen-mode": {
@@ -442,7 +442,7 @@
       "floorp": "Floorp",
       "media": "Media",
       "open-tabs": "Öppna flikar",
-      "switcher": "Switcher",
+      "switcher": "Växlare",
       "history-suggestions": "Historik",
       "bookmark-suggestions": "Bokmärken"
     },
@@ -462,27 +462,27 @@
     "searchWithEngine": "Sök efter \"{{query}}\"",
     "searchWithEngineDescription": "Sök med din standard sökmotor",
     "searchWithEngineNamed": "Sök med {{engine}}",
-    "searchWebValidationError": "Please enter a search query",
-    "searchWebEngineLabel": "Select search engine",
-    "searchWebEnginePlaceholder": "Select a search engine...",
-    "searchEngineDefault": " (default)",
-    "searchWebWhereLabel": "Where to open results",
-    "searchWebWherePlaceholder": "Select where to open...",
+    "searchWebValidationError": "Vänligen ange en sökfråga",
+    "searchWebEngineLabel": "Välj sökmotor",
+    "searchWebEnginePlaceholder": "Välj en sökmotor...",
+    "searchEngineDefault": " (standard)",
+    "searchWebWhereLabel": "Var ska man öppna resultat",
+    "searchWebWherePlaceholder": "Välj var du vill öppna...",
     "searchWebWhereNewTab": "Ny flik",
-    "searchWebWhereNewTabDesc": "Open in a new foreground tab",
-    "searchWebWhereBackgroundTab": "Background Tab",
-    "searchWebWhereBackgroundTabDesc": "Open in a new background tab",
-    "searchWebWhereCurrentTab": "Current Tab",
-    "searchWebWhereCurrentTabDesc": "Navigate the current tab",
-    "openUrlWhereLabel": "Where to open",
-    "openUrlWherePlaceholder": "Select where to open...",
+    "searchWebWhereNewTabDesc": "Öppna i en ny förgrundsflik",
+    "searchWebWhereBackgroundTab": "Bakgrundsflik",
+    "searchWebWhereBackgroundTabDesc": "Öppna i ny bakgrundsflik",
+    "searchWebWhereCurrentTab": "Nuvarande flik",
+    "searchWebWhereCurrentTabDesc": "Navigera nuvarande flik",
+    "openUrlWhereLabel": "Var att öppna",
+    "openUrlWherePlaceholder": "Välj var du vill öppna...",
     "openUrlWhereNewTab": "Ny flik",
-    "openUrlWhereNewTabDesc": "Open in a new foreground tab",
-    "openUrlWhereBackgroundTab": "Background Tab",
-    "openUrlWhereBackgroundTabDesc": "Open in a new background tab",
-    "openUrlWhereCurrentTab": "Current Tab",
-    "openUrlWhereCurrentTabDesc": "Navigate the current tab",
-    "reopenInContainer": "Reopen in Container",
+    "openUrlWhereNewTabDesc": "Öppna i en ny förgrundsflik",
+    "openUrlWhereBackgroundTab": "Bakgrundsflik",
+    "openUrlWhereBackgroundTabDesc": "Öppna i ny bakgrundsflik",
+    "openUrlWhereCurrentTab": "Nuvarande flik",
+    "openUrlWhereCurrentTabDesc": "Navigera nuvarande flik",
+    "reopenInContainer": "Återöppna i behållare",
     "reopenInContainerDescription": "Reopen the current tab in a specific container",
     "reopenInContainerStepLabel": "Select a container",
     "reopenInContainerStepPlaceholder": "Choose a container...",
