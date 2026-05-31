@@ -208,9 +208,9 @@
       "gecko-workspace-previous": "이전 워크스페이스로 전환",
       "floorp-toggle-zen-mode": "Zen 모드 전환",
       "floorp-toggle-command-palette": "명령 팔레트 전환",
-      "floorp-open-settings": "Open Settings",
+      "floorp-open-settings": "설정 열기",
       "floorp-open-hub": "Floorp Hub 열기",
-      "floorp-toggle-share-mode": "Toggle Share Mode",
+      "floorp-toggle-share-mode": "공유 모드 전환",
       "floorp-copy-page-url-as-markdown": "Copy Page URL as Markdown"
     },
     "descriptions": {
