@@ -467,7 +467,9 @@
             "running": "Körs",
             "stopped": "Stoppad",
             "enabledBadge": "Aktiverad",
-            "disabledBadge": "Inaktiverad"
+            "disabledBadge": "Inaktiverad",
+            "serverToken": "Server Token",
+            "copyToken": "Kopiera"
         },
         "controlsCard": {
             "title": "Kontroller",
