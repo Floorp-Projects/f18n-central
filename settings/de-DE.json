@@ -467,7 +467,9 @@
             "running": "Läuft",
             "stopped": "Gestoppt",
             "enabledBadge": "Aktiviert",
-            "disabledBadge": "Deaktiviert"
+            "disabledBadge": "Deaktiviert",
+            "serverToken": "Server Token",
+            "copyToken": "Kopieren"
         },
         "controlsCard": {
             "title": "Steuerung",
