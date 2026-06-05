@@ -198,8 +198,10 @@
       "gecko-reverse-sidebar": "サイドバーの位置を反転",
       "gecko-hide-sidebar": "サイドバーを隠す",
       "gecko-toggle-sidebar": "サイドバーの表示を切り替える",
-      "gecko-scroll-up": "上にスクロール",
-      "gecko-scroll-down": "下にスクロール",
+      "gecko-scroll-up": "Page Up",
+      "gecko-scroll-down": "Page Down",
+      "gecko-scroll-line-up": "上にスクロール",
+      "gecko-scroll-line-down": "下にスクロール",
       "gecko-scroll-right": "右にスクロール",
       "gecko-scroll-left": "左にスクロール",
       "gecko-scroll-to-top": "最上部までスクロール",
@@ -211,7 +213,16 @@
       "floorp-open-settings": "設定を開く",
       "floorp-open-hub": "Floorp Hub を開く",
       "floorp-toggle-share-mode": "共有モードの表示を切り替える",
-      "floorp-copy-page-url-as-markdown": "ページの URL を Markdown としてコピー"
+      "floorp-copy-page-url-as-markdown": "ページの URL を Markdown としてコピー",
+      "floorp-split-view-open-left": "Split View Left",
+      "floorp-split-view-open-right": "Split View Right",
+      "floorp-split-view-open-top": "Split View Top",
+      "floorp-split-view-open-bottom": "Split View Bottom",
+      "floorp-split-view-close": "Close Split View",
+      "floorp-split-view-swap-panes": "Swap Split Panes",
+      "floorp-split-view-cycle-layout": "Cycle Split Layout",
+      "floorp-split-view-add-pane": "分割ビューに区分けを追加",
+      "floorp-split-view-remove-pane": "Remove Pane from Split View"
     },
     "descriptions": {
       "gecko-back": "前のページに戻る",
@@ -232,7 +243,16 @@
       "floorp-open-settings": "Floorp の設定ページを開く",
       "floorp-open-hub": "Floorp Hub ページを開く",
       "floorp-toggle-share-mode": "画面共有やプレゼンテーションのために UI を簡略化する、共有モードの表示を切り替える",
-      "floorp-copy-page-url-as-markdown": "現在のページタイトルと URL を Markdown リンク形式としてコピー: [タイトル](URL)"
+      "floorp-copy-page-url-as-markdown": "現在のページタイトルと URL を Markdown リンク形式としてコピー: [タイトル](URL)",
+      "floorp-split-view-open-left": "Open the current tab in a split view on the left side",
+      "floorp-split-view-open-right": "Open the current tab in a split view on the right side",
+      "floorp-split-view-open-top": "Open the current tab in a split view on the top side",
+      "floorp-split-view-open-bottom": "Open the current tab in a split view on the bottom side",
+      "floorp-split-view-close": "Close the active split view and return to single tab view",
+      "floorp-split-view-swap-panes": "Swap the positions of panes in the active split view",
+      "floorp-split-view-cycle-layout": "Cycle through available split view layouts (horizontal, vertical, grid)",
+      "floorp-split-view-add-pane": "Add a new pane to the active split view",
+      "floorp-split-view-remove-pane": "Remove the last pane from the active split view"
     }
   },
   "qrCode": {
