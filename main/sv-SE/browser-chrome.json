@@ -198,8 +198,10 @@
       "gecko-reverse-sidebar": "Omvänd sidofältets position",
       "gecko-hide-sidebar": "Dölj sidofält",
       "gecko-toggle-sidebar": "Växla sidofält",
-      "gecko-scroll-up": "Scrolla uppåt",
-      "gecko-scroll-down": "Scrolla ner",
+      "gecko-scroll-up": "Page Up",
+      "gecko-scroll-down": "Page Down",
+      "gecko-scroll-line-up": "Scrolla uppåt",
+      "gecko-scroll-line-down": "Scrolla ner",
       "gecko-scroll-right": "Scrolla höger",
       "gecko-scroll-left": "Scrolla vänster",
       "gecko-scroll-to-top": "Scrolla till toppen",
@@ -211,7 +213,16 @@
       "floorp-open-settings": "Öppna inställningar",
       "floorp-open-hub": "Öppna Floorp Hub",
       "floorp-toggle-share-mode": "Växla dela läge",
-      "floorp-copy-page-url-as-markdown": "Kopiera sidans URL som Markdown"
+      "floorp-copy-page-url-as-markdown": "Kopiera sidans URL som Markdown",
+      "floorp-split-view-open-left": "Split View Left",
+      "floorp-split-view-open-right": "Split View Right",
+      "floorp-split-view-open-top": "Split View Top",
+      "floorp-split-view-open-bottom": "Split View Bottom",
+      "floorp-split-view-close": "Close Split View",
+      "floorp-split-view-swap-panes": "Swap Split Panes",
+      "floorp-split-view-cycle-layout": "Cycle Split Layout",
+      "floorp-split-view-add-pane": "Lägg till panel till delad vy",
+      "floorp-split-view-remove-pane": "Remove Pane from Split View"
     },
     "descriptions": {
       "gecko-back": "Navigera tillbaka till föregående sida",
@@ -232,7 +243,16 @@
       "floorp-open-settings": "Öppnar Floorp inställningssida",
       "floorp-open-hub": "Öppnar Floorp Hub sidan",
       "floorp-toggle-share-mode": "Växla till Dela läge för att minimera användargränssnittet vid skärmdelning och presentationer",
-      "floorp-copy-page-url-as-markdown": "Kopiera den aktuella sidans titel och URL som Markdown-länkformat: [Title](URL)"
+      "floorp-copy-page-url-as-markdown": "Kopiera den aktuella sidans titel och URL som Markdown-länkformat: [Title](URL)",
+      "floorp-split-view-open-left": "Open the current tab in a split view on the left side",
+      "floorp-split-view-open-right": "Open the current tab in a split view on the right side",
+      "floorp-split-view-open-top": "Open the current tab in a split view on the top side",
+      "floorp-split-view-open-bottom": "Open the current tab in a split view on the bottom side",
+      "floorp-split-view-close": "Close the active split view and return to single tab view",
+      "floorp-split-view-swap-panes": "Swap the positions of panes in the active split view",
+      "floorp-split-view-cycle-layout": "Cycle through available split view layouts (horizontal, vertical, grid)",
+      "floorp-split-view-add-pane": "Add a new pane to the active split view",
+      "floorp-split-view-remove-pane": "Remove the last pane from the active split view"
     }
   },
   "qrCode": {
