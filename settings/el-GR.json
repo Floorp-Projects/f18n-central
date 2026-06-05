@@ -467,7 +467,9 @@
             "running": "Εκτελείται",
             "stopped": "Διακόπηκε",
             "enabledBadge": "Ενεργοποιημένο",
-            "disabledBadge": "Απενεργοποιημένο"
+            "disabledBadge": "Απενεργοποιημένο",
+            "serverToken": "Server Token",
+            "copyToken": "Αντιγραφή"
         },
         "controlsCard": {
             "title": "Στοιχεία ελέγχου",
