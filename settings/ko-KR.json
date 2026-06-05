@@ -467,7 +467,9 @@
             "running": "실행 중",
             "stopped": "중지됨",
             "enabledBadge": "활성화됨",
-            "disabledBadge": "비활성화됨"
+            "disabledBadge": "비활성화됨",
+            "serverToken": "Server Token",
+            "copyToken": "복사"
         },
         "controlsCard": {
             "title": "제어",
