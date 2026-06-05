@@ -198,8 +198,10 @@
       "gecko-reverse-sidebar": "Inverser la position de la barre latérale",
       "gecko-hide-sidebar": "Masquer la barre latérale",
       "gecko-toggle-sidebar": "Afficher/masquer la barre latérale",
-      "gecko-scroll-up": "Défiler vers le haut",
-      "gecko-scroll-down": "Défiler vers le bas",
+      "gecko-scroll-up": "Page Up",
+      "gecko-scroll-down": "Page Down",
+      "gecko-scroll-line-up": "Défiler vers le haut",
+      "gecko-scroll-line-down": "Défiler vers le bas",
       "gecko-scroll-right": "Défiler vers la droite",
       "gecko-scroll-left": "Défiler vers la gauche",
       "gecko-scroll-to-top": "Défiler vers le haut",
@@ -211,7 +213,16 @@
       "floorp-open-settings": "Ouvrir les paramètres",
       "floorp-open-hub": "Ouvrir la Plateforme de Floorp",
       "floorp-toggle-share-mode": "Permuter le mode partage",
-      "floorp-copy-page-url-as-markdown": "Copier l'URL de la page en tant que Markdown"
+      "floorp-copy-page-url-as-markdown": "Copier l'URL de la page en tant que Markdown",
+      "floorp-split-view-open-left": "Split View Left",
+      "floorp-split-view-open-right": "Split View Right",
+      "floorp-split-view-open-top": "Split View Top",
+      "floorp-split-view-open-bottom": "Split View Bottom",
+      "floorp-split-view-close": "Close Split View",
+      "floorp-split-view-swap-panes": "Swap Split Panes",
+      "floorp-split-view-cycle-layout": "Cycle Split Layout",
+      "floorp-split-view-add-pane": "Ajouter le volet à la vue fractionnée",
+      "floorp-split-view-remove-pane": "Remove Pane from Split View"
     },
     "descriptions": {
       "gecko-back": "Retourner à la page précédente",
@@ -232,7 +243,16 @@
       "floorp-open-settings": "Ouvre la page des paramètres de Floorp",
       "floorp-open-hub": "Ouvre la page du Hub Floorp",
       "floorp-toggle-share-mode": "Basculer en mode partage en minimisant l'interface utilisateur pour le partage d'écran et les présentations",
-      "floorp-copy-page-url-as-markdown": "Copier le titre de la page actuelle et URL au format de lien Markdown : [Titre](URL)"
+      "floorp-copy-page-url-as-markdown": "Copier le titre de la page actuelle et URL au format de lien Markdown : [Titre](URL)",
+      "floorp-split-view-open-left": "Open the current tab in a split view on the left side",
+      "floorp-split-view-open-right": "Open the current tab in a split view on the right side",
+      "floorp-split-view-open-top": "Open the current tab in a split view on the top side",
+      "floorp-split-view-open-bottom": "Open the current tab in a split view on the bottom side",
+      "floorp-split-view-close": "Close the active split view and return to single tab view",
+      "floorp-split-view-swap-panes": "Swap the positions of panes in the active split view",
+      "floorp-split-view-cycle-layout": "Cycle through available split view layouts (horizontal, vertical, grid)",
+      "floorp-split-view-add-pane": "Add a new pane to the active split view",
+      "floorp-split-view-remove-pane": "Remove the last pane from the active split view"
     }
   },
   "qrCode": {
