@@ -468,7 +468,7 @@
             "stopped": "停止中",
             "enabledBadge": "有効",
             "disabledBadge": "無効",
-            "serverToken": "Server Token",
+            "serverToken": "サーバートークン",
             "copyToken": "コピー"
         },
         "controlsCard": {
