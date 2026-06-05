@@ -467,7 +467,9 @@
             "running": "Berjalan",
             "stopped": "Berhenti",
             "enabledBadge": "Aktif",
-            "disabledBadge": "Nonaktif"
+            "disabledBadge": "Nonaktif",
+            "serverToken": "Server Token",
+            "copyToken": "Salin"
         },
         "controlsCard": {
             "title": "Controls",
