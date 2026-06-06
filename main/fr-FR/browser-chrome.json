@@ -244,15 +244,15 @@
       "floorp-open-hub": "Ouvre la page du Hub Floorp",
       "floorp-toggle-share-mode": "Basculer en mode partage en minimisant l'interface utilisateur pour le partage d'écran et les présentations",
       "floorp-copy-page-url-as-markdown": "Copier le titre de la page actuelle et URL au format de lien Markdown : [Titre](URL)",
-      "floorp-split-view-open-left": "Open the current tab in a split view on the left side",
-      "floorp-split-view-open-right": "Open the current tab in a split view on the right side",
-      "floorp-split-view-open-top": "Open the current tab in a split view on the top side",
-      "floorp-split-view-open-bottom": "Open the current tab in a split view on the bottom side",
-      "floorp-split-view-close": "Close the active split view and return to single tab view",
-      "floorp-split-view-swap-panes": "Swap the positions of panes in the active split view",
-      "floorp-split-view-cycle-layout": "Cycle through available split view layouts (horizontal, vertical, grid)",
-      "floorp-split-view-add-pane": "Add a new pane to the active split view",
-      "floorp-split-view-remove-pane": "Remove the last pane from the active split view"
+      "floorp-split-view-open-left": "Ouvrez l'onglet actuel dans un affichage divisé sur le côté gauche",
+      "floorp-split-view-open-right": "Ouvrez l'onglet actuel dans un affichage divisé sur le côté droit",
+      "floorp-split-view-open-top": "Ouvrir l'onglet actuel dans un affichage divisé en haut de l'écran",
+      "floorp-split-view-open-bottom": "Ouvrir l'onglet actuel dans une vue divisée en bas de l'écran",
+      "floorp-split-view-close": "Fermer la vue fractionnée active et revenir à la vue à onglet unique",
+      "floorp-split-view-swap-panes": "Permuter les positions des volets dans la vue fractionnée active",
+      "floorp-split-view-cycle-layout": "Parcourir les dispositions disponibles pour l'affichage en mode fractionné (horizontal, vertical, en grille)",
+      "floorp-split-view-add-pane": "Ajouter un nouveau panneau à la vue fractionnée active",
+      "floorp-split-view-remove-pane": "Supprimer le dernier volet de la vue fractionnée active"
     }
   },
   "qrCode": {
@@ -529,13 +529,13 @@
     "closedWindowSwitcherStepLabel": "Sélectionnez une fenêtre fermée",
     "closedWindowSwitcherStepPlaceholder": "Choisissez une fenêtre fermée...",
     "historySwitcher": "Parcourir l'histoire",
-    "historySwitcherDescription": "Open a page from your browsing history",
-    "historySwitcherStepLabel": "Select a history entry",
-    "historySwitcherStepPlaceholder": "Choose a history entry...",
-    "bookmarkSwitcher": "Switch Bookmark",
-    "bookmarkSwitcherDescription": "Open a bookmarked page",
-    "bookmarkSwitcherStepLabel": "Select a bookmark",
-    "bookmarkSwitcherStepPlaceholder": "Search or choose a bookmark..."
+    "historySwitcherDescription": "Ouvrir une page depuis votre historique de navigation",
+    "historySwitcherStepLabel": "Sélectionnez un élément de l'historique",
+    "historySwitcherStepPlaceholder": "Sélectionnez un élément de l'historique...",
+    "bookmarkSwitcher": "Changer de marque-page",
+    "bookmarkSwitcherDescription": "Ouvrir une page enregistrée dans les favoris",
+    "bookmarkSwitcherStepLabel": "Sélectionner un favori",
+    "bookmarkSwitcherStepPlaceholder": "Rechercher ou choisir un marque-page..."
   },
   "commandPaletteReadings": {}
 }
