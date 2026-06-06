@@ -468,7 +468,7 @@
             "stopped": "Parado",
             "enabledBadge": "Ativado",
             "disabledBadge": "Desativado",
-            "serverToken": "Server Token",
+            "serverToken": "Token do servidor",
             "copyToken": "Copiar"
         },
         "controlsCard": {
