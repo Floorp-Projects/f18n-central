@@ -219,10 +219,10 @@
       "floorp-split-view-open-top": "위쪽에서 분할 화면 열기",
       "floorp-split-view-open-bottom": "아래쪽에서 분할 화면 열기",
       "floorp-split-view-close": "분할 화면 종료",
-      "floorp-split-view-swap-panes": "Swap Split Panes",
-      "floorp-split-view-cycle-layout": "Cycle Split Layout",
+      "floorp-split-view-swap-panes": "분할 창 맞바꾸기",
+      "floorp-split-view-cycle-layout": "분할 레이아웃 순환",
       "floorp-split-view-add-pane": "분할 화면 창에 추가",
-      "floorp-split-view-remove-pane": "Remove Pane from Split View"
+      "floorp-split-view-remove-pane": "분할 화면에서 창 제거"
     },
     "descriptions": {
       "gecko-back": "이전 페이지로 돌아가기",
@@ -244,15 +244,15 @@
       "floorp-open-hub": "Floorp Hub 페이지 열기",
       "floorp-toggle-share-mode": "공유 모드를 전환하여 화면 공유 및 발표를 위해 UI 최소화하기",
       "floorp-copy-page-url-as-markdown": "현재 페이지의 제목과 URL을 마크다운 링크 형식으로 복사: [제목](URL)",
-      "floorp-split-view-open-left": "Open the current tab in a split view on the left side",
-      "floorp-split-view-open-right": "Open the current tab in a split view on the right side",
-      "floorp-split-view-open-top": "Open the current tab in a split view on the top side",
-      "floorp-split-view-open-bottom": "Open the current tab in a split view on the bottom side",
-      "floorp-split-view-close": "Close the active split view and return to single tab view",
-      "floorp-split-view-swap-panes": "Swap the positions of panes in the active split view",
-      "floorp-split-view-cycle-layout": "Cycle through available split view layouts (horizontal, vertical, grid)",
-      "floorp-split-view-add-pane": "Add a new pane to the active split view",
-      "floorp-split-view-remove-pane": "Remove the last pane from the active split view"
+      "floorp-split-view-open-left": "현재 탭을 왼쪽에 분할 화면으로 열기",
+      "floorp-split-view-open-right": "현재 탭을 오른쪽에 분할 화면으로 열기",
+      "floorp-split-view-open-top": "현재 탭을 위쪽에 분할 화면으로 열기",
+      "floorp-split-view-open-bottom": "현재 탭을 아래쪽에 분할 화면으로 열기",
+      "floorp-split-view-close": "현재 분할 화면을 종료하고 단일 탭 화면으로 돌아가기",
+      "floorp-split-view-swap-panes": "현재 분할 화면의 창 위치 맞바꾸기",
+      "floorp-split-view-cycle-layout": "분할 화면 레이아웃 (수평, 수직, 격자) 간 전환하기",
+      "floorp-split-view-add-pane": "현재 분할 화면에 새 창 추가",
+      "floorp-split-view-remove-pane": "현재 분할 화면에서 마지막 창 제거"
     }
   },
   "qrCode": {
