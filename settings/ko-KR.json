@@ -468,7 +468,7 @@
             "stopped": "중지됨",
             "enabledBadge": "활성화됨",
             "disabledBadge": "비활성화됨",
-            "serverToken": "Server Token",
+            "serverToken": "서버 토큰",
             "copyToken": "복사"
         },
         "controlsCard": {
