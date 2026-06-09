@@ -210,10 +210,10 @@
       "gecko-workspace-previous": "Beralih ke Ruang Kerja Sebelumnya",
       "floorp-toggle-zen-mode": "Toggle Zen Mode",
       "floorp-toggle-command-palette": "Toggle Command Palette",
-      "floorp-open-settings": "Open Settings",
+      "floorp-open-settings": "Buka Pengaturan",
       "floorp-open-hub": "Buka Floorp Hub",
       "floorp-toggle-share-mode": "Toggle Share Mode",
-      "floorp-copy-page-url-as-markdown": "Copy Page URL as Markdown",
+      "floorp-copy-page-url-as-markdown": "Salin URL Halaman sebagai Markdown",
       "floorp-split-view-open-left": "Split View Left",
       "floorp-split-view-open-right": "Split View Right",
       "floorp-split-view-open-top": "Split View Top",
@@ -240,10 +240,10 @@
       "gecko-restore-last-tab": "Reopen the last closed tab",
       "floorp-toggle-zen-mode": "Toggle Zen Mode to hide all UI elements for distraction-free browsing",
       "floorp-toggle-command-palette": "Open or close the command palette to search and execute commands",
-      "floorp-open-settings": "Opens the Floorp settings page",
-      "floorp-open-hub": "Opens the Floorp Hub page",
+      "floorp-open-settings": "Membuka halaman pengaturan Floorp",
+      "floorp-open-hub": "Membuka halaman Floorp Hub",
       "floorp-toggle-share-mode": "Toggle Share Mode to minimize UI for screen sharing and presentations",
-      "floorp-copy-page-url-as-markdown": "Copy the current page title and URL as Markdown link format: [Title](URL)",
+      "floorp-copy-page-url-as-markdown": "Menyalin judul dan URL halaman saat ini dengan format tautan Markdown: [Judul](URL)",
       "floorp-split-view-open-left": "Open the current tab in a split view on the left side",
       "floorp-split-view-open-right": "Open the current tab in a split view on the right side",
       "floorp-split-view-open-top": "Open the current tab in a split view on the top side",
@@ -432,7 +432,7 @@
       "removePane": "Remove Last Pane"
     },
     "dropZone": {
-      "newWindow": "Drop here to open in new window"
+      "newWindow": "Seret ke sini untuk membuka di jendela baru"
     }
   },
   "zen-mode": {
@@ -482,10 +482,10 @@
     "searchWithEngine": "Search for \"{{query}}\"",
     "searchWithEngineDescription": "Search with your default search engine",
     "searchWithEngineNamed": "Search with {{engine}}",
-    "searchWebValidationError": "Please enter a search query",
-    "searchWebEngineLabel": "Select search engine",
-    "searchWebEnginePlaceholder": "Select a search engine...",
-    "searchEngineDefault": " (default)",
+    "searchWebValidationError": "Silakan masukkan kata kunci pencarian",
+    "searchWebEngineLabel": "Pilih mesin pencari",
+    "searchWebEnginePlaceholder": "Pilih mesin pencari...",
+    "searchEngineDefault": " (bawaan)",
     "searchWebWhereLabel": "Where to open results",
     "searchWebWherePlaceholder": "Select where to open...",
     "searchWebWhereNewTab": "Tab Baru",
