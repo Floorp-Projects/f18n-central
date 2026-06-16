@@ -448,8 +448,17 @@
         "uninstallConfirmation": "Copot pemasangan Aplikasi Web",
         "uninstallWarning": "Yakin ingin mencopot \"{{name}}\"?",
         "cancel": "Batal",
+        "close": "Tutup",
         "rename": "Ganti nama",
-        "uninstall": "Copot"
+        "uninstall": "Copot",
+        "container": "Kontainer",
+        "noContainer": "Tanpa Kontainer",
+        "setContainer": "Set Container",
+        "containerDescription": "Choose which Firefox Container this app opens in. Containers isolate cookies and site data.",
+        "containerDeleted": "Container deleted",
+        "resetContainer": "Setel Ulang",
+        "save": "Simpan",
+        "errorSettingContainer": "Failed to set container"
     },
     "floorpOS": {
         "title": "{{productName}} OS",
@@ -606,8 +615,7 @@
             "gecko-scroll-to-bottom": "Scroll to Bottom",
             "gecko-workspace-next": "Switch to Next Workspace",
             "gecko-workspace-previous": "Switch to Previous Workspace",
-            "floorp-toggle-zen-mode": "Toggle Zen Mode",
-            "floorp-toggle-command-palette": "Toggle Command Palette"
+            "floorp-toggle-zen-mode": "Toggle Zen Mode"
         },
         "edit": "Sunting",
         "duplicate": "Gandakan",
