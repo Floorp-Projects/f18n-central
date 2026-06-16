@@ -467,7 +467,9 @@
             "running": "実行中",
             "stopped": "停止中",
             "enabledBadge": "有効",
-            "disabledBadge": "無効"
+            "disabledBadge": "無効",
+            "serverToken": "サーバートークン",
+            "copyToken": "コピー"
         },
         "controlsCard": {
             "title": "制御",
@@ -537,7 +539,7 @@
             "gecko-open-new-tab": "新しいタブ",
             "gecko-duplicate-tab": "タブを複製",
             "gecko-reload-all-tabs": "すべてのタブを再読み込み",
-            "gecko-restore-last-tab": "閉じたタブを開きなおす",
+            "gecko-restore-last-tab": "閉じたタブを開き直す",
             "gecko-open-new-window": "新しいウィンドウを開く",
             "gecko-open-new-private-window": "新しいプライベートウィンドウを開く",
             "gecko-close-window": "ウィンドウを閉じる",

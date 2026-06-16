@@ -467,7 +467,9 @@
             "running": "Çalışıyor",
             "stopped": "Durduruldu",
             "enabledBadge": "Etkinleştirildi",
-            "disabledBadge": "Devre dışı"
+            "disabledBadge": "Devre dışı",
+            "serverToken": "Server Token",
+            "copyToken": "Kopyala"
         },
         "controlsCard": {
             "title": "Kontroller",

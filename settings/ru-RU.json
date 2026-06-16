@@ -467,7 +467,9 @@
             "running": "Работает",
             "stopped": "Остановлен",
             "enabledBadge": "Включён",
-            "disabledBadge": "Отключён"
+            "disabledBadge": "Отключён",
+            "serverToken": "Server Token",
+            "copyToken": "Копировать"
         },
         "controlsCard": {
             "title": "Управление",

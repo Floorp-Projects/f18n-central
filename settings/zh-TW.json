@@ -467,7 +467,9 @@
             "running": "執行中",
             "stopped": "已停止",
             "enabledBadge": "已啟用",
-            "disabledBadge": "已停用"
+            "disabledBadge": "已停用",
+            "serverToken": "Server Token",
+            "copyToken": "複製"
         },
         "controlsCard": {
             "title": "控制",

@@ -467,7 +467,9 @@
             "running": "실행 중",
             "stopped": "중지됨",
             "enabledBadge": "활성화됨",
-            "disabledBadge": "비활성화됨"
+            "disabledBadge": "비활성화됨",
+            "serverToken": "서버 토큰",
+            "copyToken": "복사"
         },
         "controlsCard": {
             "title": "제어",
@@ -524,10 +526,10 @@
         "actionDescription": "제스처 설명",
         "rockerGesturesEnabled": "제스처 흔들림 활성화",
         "rockerGesturesDescription": "마우스 오른쪽 버튼을 클릭하고 왼쪽으로 이동하면 뒤로, 마우스 오른쪽 버튼을 클릭하고 오른쪽으로 이동하면 앞으로 이동합니다. (실험)",
-        "rockerLeftRight": "Left → Right",
-        "rockerLeftRightDescription": "Hold left button, then click right button",
-        "rockerRightLeft": "Right → Left",
-        "rockerRightLeftDescription": "Hold right button, then click left button",
+        "rockerLeftRight": "좌 → 우",
+        "rockerLeftRightDescription": "왼쪽 버튼을 누른 채, 우클릭합니다.",
+        "rockerRightLeft": "우 → 좌",
+        "rockerRightLeftDescription": "오른쪽 버튼을 누른 채, 좌클릭합니다.",
         "wheelGesturesEnabled": "휠 제스처 활성화",
         "actions": {
             "gecko-back": "뒤로",
@@ -537,7 +539,7 @@
             "gecko-open-new-tab": "새 탭",
             "gecko-duplicate-tab": "탭 복제",
             "gecko-reload-all-tabs": "모든 탭 새로 고침",
-            "gecko-restore-last-tab": "닫힌 탭 다시 열기",
+            "gecko-restore-last-tab": "닫은 탭 다시 열기",
             "gecko-open-new-window": "새 창 열기",
             "gecko-open-new-private-window": "새 비공개 창",
             "gecko-close-window": "창 닫기",
@@ -605,7 +607,7 @@
             "gecko-workspace-next": "다음 워크스페이스로 전환",
             "gecko-workspace-previous": "이전 워크스페이스로 전환",
             "floorp-toggle-zen-mode": "Zen 모드 전환",
-            "floorp-toggle-command-palette": "Toggle Command Palette"
+            "floorp-toggle-command-palette": "명령 팔레트 전환"
         },
         "edit": "수정",
         "duplicate": "복제",

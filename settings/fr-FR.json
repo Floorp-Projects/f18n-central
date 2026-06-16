@@ -467,7 +467,9 @@
             "running": "En cours d'exécution",
             "stopped": "Arrêté",
             "enabledBadge": "Activé",
-            "disabledBadge": "Désactivé"
+            "disabledBadge": "Désactivé",
+            "serverToken": "Token de serveur",
+            "copyToken": "Copier"
         },
         "controlsCard": {
             "title": "Commandes",

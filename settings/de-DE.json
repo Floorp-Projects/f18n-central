@@ -467,7 +467,9 @@
             "running": "Läuft",
             "stopped": "Gestoppt",
             "enabledBadge": "Aktiviert",
-            "disabledBadge": "Deaktiviert"
+            "disabledBadge": "Deaktiviert",
+            "serverToken": "Server Token",
+            "copyToken": "Kopieren"
         },
         "controlsCard": {
             "title": "Steuerung",
@@ -524,10 +526,10 @@
         "actionDescription": "Beschreibung der Geste",
         "rockerGesturesEnabled": "Rocker-Gesten aktivieren",
         "rockerGesturesDescription": "Rechtsklick + Bewegung nach links, um zurück zu gehen; Rechtsklick + Bewegung nach rechts, um vorwärts zu gehen. (experimentell)",
-        "rockerLeftRight": "Left → Right",
-        "rockerLeftRightDescription": "Hold left button, then click right button",
-        "rockerRightLeft": "Right → Left",
-        "rockerRightLeftDescription": "Hold right button, then click left button",
+        "rockerLeftRight": "Links → Rechts",
+        "rockerLeftRightDescription": "Linke Taste gedrückt halten, dann rechte Taste klicken",
+        "rockerRightLeft": "Rechts → Links",
+        "rockerRightLeftDescription": "Rechte Taste gedrückt halten, dann linke Taste klicken",
         "wheelGesturesEnabled": "Mausrad-Gesten aktivieren",
         "actions": {
             "gecko-back": "Zurück",
@@ -605,7 +607,7 @@
             "gecko-workspace-next": "Zum nächsten Arbeitsbereich wechseln",
             "gecko-workspace-previous": "Zum vorherigen Arbeitsbereich wechseln",
             "floorp-toggle-zen-mode": "Zen-Modus umschalten",
-            "floorp-toggle-command-palette": "Toggle Command Palette"
+            "floorp-toggle-command-palette": "Befehlspalette ein-/ausblenden"
         },
         "edit": "Bearbeiten",
         "duplicate": "Duplizieren",
