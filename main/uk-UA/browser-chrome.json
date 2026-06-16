@@ -110,14 +110,22 @@
     "menu": {
       "webapps": "Вебзастосунок",
       "install-current": "Встановити поточну сторінку як прогресивний вебзастосунок",
-      "open-installed": "Відкрити встановлені застосунки"
+      "open-current": "Open app in selected container",
+      "open-installed": "Відкрити встановлені застосунки",
+      "container": "Контейнер"
     },
     "page-action": {
       "title": "Відкрити застосунок",
       "install": "Встановити застосунок",
       "open": "Відкрити застосунок",
       "cancel": "Скасувати",
-      "site-icon": "Іконка сайту"
+      "site-icon": "Іконка сайту",
+      "container": "Контейнер",
+      "no-container": "No container"
+    },
+    "window": {
+      "container-tooltip": "Container: {{name}}",
+      "container-fallback": "Container #{{id}}"
     }
   },
   "privateContainer": {
@@ -198,8 +206,8 @@
       "gecko-reverse-sidebar": "Зворотне положення бічної панелі",
       "gecko-hide-sidebar": "Приховати бічну панель",
       "gecko-toggle-sidebar": "Toggle Sidebar",
-      "gecko-scroll-up": "Page Up",
-      "gecko-scroll-down": "Page Down",
+      "gecko-scroll-up": "Прокрутити вгору",
+      "gecko-scroll-down": "Прокрутити вниз",
       "gecko-scroll-line-up": "Прокрутити вгору",
       "gecko-scroll-line-down": "Прокрутити вниз",
       "gecko-scroll-right": "Прокрутити праворуч",
