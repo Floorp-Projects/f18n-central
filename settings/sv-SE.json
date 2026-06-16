@@ -448,8 +448,17 @@
         "uninstallConfirmation": "Avinstallera webbapp",
         "uninstallWarning": "Är du säker att du vill avinstallera \"{{name}}\"?",
         "cancel": "Avbryt",
+        "close": "Stäng",
         "rename": "Byt namn",
-        "uninstall": "Avinstallera"
+        "uninstall": "Avinstallera",
+        "container": "Behållare",
+        "noContainer": "Inga behållare",
+        "setContainer": "Set Container",
+        "containerDescription": "Choose which Firefox Container this app opens in. Containers isolate cookies and site data.",
+        "containerDeleted": "Container deleted",
+        "resetContainer": "Återställ",
+        "save": "Spara",
+        "errorSettingContainer": "Failed to set container"
     },
     "floorpOS": {
         "title": "{{productName}} OS",
@@ -606,8 +615,7 @@
             "gecko-scroll-to-bottom": "Scrolla till botten",
             "gecko-workspace-next": "Växla till nästa arbetsyta",
             "gecko-workspace-previous": "Växla till föregående arbetsyta",
-            "floorp-toggle-zen-mode": "Växla Zenläge",
-            "floorp-toggle-command-palette": "Växla kommandopalett"
+            "floorp-toggle-zen-mode": "Växla Zenläge"
         },
         "edit": "Redigera",
         "duplicate": "Duplicera",
