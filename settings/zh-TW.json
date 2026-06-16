@@ -448,8 +448,17 @@
         "uninstallConfirmation": "移除此 PWA 應用程式",
         "uninstallWarning": "您確定要移除 \"{{name}}\" 嗎？",
         "cancel": "取消",
+        "close": "關閉",
         "rename": "重新命名",
-        "uninstall": "移除"
+        "uninstall": "移除",
+        "container": "容器",
+        "noContainer": "無容器",
+        "setContainer": "Set Container",
+        "containerDescription": "Choose which Firefox Container this app opens in. Containers isolate cookies and site data.",
+        "containerDeleted": "Container deleted",
+        "resetContainer": "重設",
+        "save": "儲存",
+        "errorSettingContainer": "Failed to set container"
     },
     "floorpOS": {
         "title": "{{productName}} OS",
@@ -606,8 +615,7 @@
             "gecko-scroll-to-bottom": "捲動至底端",
             "gecko-workspace-next": "切換到下一個工作空間",
             "gecko-workspace-previous": "切換到上一個工作空間",
-            "floorp-toggle-zen-mode": "Toggle Zen Mode",
-            "floorp-toggle-command-palette": "Toggle Command Palette"
+            "floorp-toggle-zen-mode": "Toggle Zen Mode"
         },
         "edit": "編輯",
         "duplicate": "複製",
