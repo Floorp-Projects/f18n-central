@@ -448,8 +448,17 @@
         "uninstallConfirmation": "Απεγκατάσταση εφαρμογής Web",
         "uninstallWarning": "Είστε σίγουροι ότι θέλετε να απεγκαταστήσετε το \"{{name}}\";",
         "cancel": "Ακύρωση",
+        "close": "Κλείσιμο",
         "rename": "Μετονομασία",
-        "uninstall": "Απεγκατάσταση"
+        "uninstall": "Απεγκατάσταση",
+        "container": "Περιέκτης",
+        "noContainer": "Χωρίς περιέκτη",
+        "setContainer": "Set Container",
+        "containerDescription": "Choose which Firefox Container this app opens in. Containers isolate cookies and site data.",
+        "containerDeleted": "Container deleted",
+        "resetContainer": "Επαναφορά",
+        "save": "Αποθήκευση",
+        "errorSettingContainer": "Failed to set container"
     },
     "floorpOS": {
         "title": "{{productName}} OS",
@@ -606,8 +615,7 @@
             "gecko-scroll-to-bottom": "Κύλιση στη βάση",
             "gecko-workspace-next": "Εναλλαγή στον επόμενο χώρο εργασίας",
             "gecko-workspace-previous": "Εναλλαγή στον προηγούμενο χώρο εργασίας",
-            "floorp-toggle-zen-mode": "Toggle Zen Mode",
-            "floorp-toggle-command-palette": "Toggle Command Palette"
+            "floorp-toggle-zen-mode": "Toggle Zen Mode"
         },
         "edit": "Επεξεργασία",
         "duplicate": "Αντίγραφο",
