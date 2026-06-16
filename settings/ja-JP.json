@@ -448,8 +448,17 @@
         "uninstallConfirmation": "ウェブアプリをアンインストール",
         "uninstallWarning": "本当に [{{name}}] をアンインストールしますか？",
         "cancel": "キャンセル",
+        "close": "閉じる",
         "rename": "名前を変更",
-        "uninstall": "アンインストール"
+        "uninstall": "アンインストール",
+        "container": "コンテナー",
+        "noContainer": "コンテナーなし",
+        "setContainer": "Set Container",
+        "containerDescription": "Choose which Firefox Container this app opens in. Containers isolate cookies and site data.",
+        "containerDeleted": "Container deleted",
+        "resetContainer": "リセット",
+        "save": "保存",
+        "errorSettingContainer": "Failed to set container"
     },
     "floorpOS": {
         "title": "{{productName}} OS",
@@ -606,8 +615,7 @@
             "gecko-scroll-to-bottom": "最下部までスクロール",
             "gecko-workspace-next": "次のワークスペースに切り替える",
             "gecko-workspace-previous": "前のワークスペースに切り替える",
-            "floorp-toggle-zen-mode": "禅モードの表示を切り替える",
-            "floorp-toggle-command-palette": "コマンドパレットの表示を切り替える"
+            "floorp-toggle-zen-mode": "禅モードの表示を切り替える"
         },
         "edit": "編集",
         "duplicate": "複製",
