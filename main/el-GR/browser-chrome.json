@@ -110,14 +110,22 @@
     "menu": {
       "webapps": "Εφαρμογές Web",
       "install-current": "Εγκατάσταση της τρέχουσας σελίδας ως προοδευτική εφαρμογή ιστού",
-      "open-installed": "Άνοιγμα εγκατεστημένων εφαρμογών"
+      "open-current": "Open app in selected container",
+      "open-installed": "Άνοιγμα εγκατεστημένων εφαρμογών",
+      "container": "Περιέκτης"
     },
     "page-action": {
       "title": "Άνοιγμα εφαρμογής",
       "install": "Εγκατάσταση εφαρμογής",
       "open": "Άνοιγμα εφαρμογής",
       "cancel": "Ακύρωση",
-      "site-icon": "Εικονίδιο ιστότοπου"
+      "site-icon": "Εικονίδιο ιστότοπου",
+      "container": "Περιέκτης",
+      "no-container": "No container"
+    },
+    "window": {
+      "container-tooltip": "Container: {{name}}",
+      "container-fallback": "Container #{{id}}"
     }
   },
   "privateContainer": {
@@ -198,8 +206,8 @@
       "gecko-reverse-sidebar": "Αντίστροφη θέση πλευρικής γραμμής",
       "gecko-hide-sidebar": "Απόκρυψη πλευρικής γραμμής",
       "gecko-toggle-sidebar": "Εναλλαγή πλευρικής γραμμής",
-      "gecko-scroll-up": "Page Up",
-      "gecko-scroll-down": "Page Down",
+      "gecko-scroll-up": "Κύλιση προς τα επάνω",
+      "gecko-scroll-down": "Κάντε κύλιση προς τα κάτω",
       "gecko-scroll-line-up": "Κύλιση προς τα επάνω",
       "gecko-scroll-line-down": "Κύλιση προς τα κάτω",
       "gecko-scroll-right": "Κύλιση δεξιά",
