@@ -110,14 +110,22 @@
     "menu": {
       "webapps": "Ứng dụng Web",
       "install-current": "Cài đặt trang hiện tại như một ứng dụng Web",
-      "open-installed": "Mở các ứng dụng đã cài"
+      "open-current": "Open app in selected container",
+      "open-installed": "Mở các ứng dụng đã cài",
+      "container": "Ngăn chứa"
     },
     "page-action": {
       "title": "Mở ứng dụng",
       "install": "Cài đặt ứng dụng",
       "open": "Mở ứng dụng",
       "cancel": "Hủy",
-      "site-icon": "Site icon"
+      "site-icon": "Site icon",
+      "container": "Ngăn chứa",
+      "no-container": "No container"
+    },
+    "window": {
+      "container-tooltip": "Container: {{name}}",
+      "container-fallback": "Container #{{id}}"
     }
   },
   "privateContainer": {
@@ -198,8 +206,8 @@
       "gecko-reverse-sidebar": "Reverse Sidebar Position",
       "gecko-hide-sidebar": "Ẩn thanh bên",
       "gecko-toggle-sidebar": "Đóng mở thanh bên",
-      "gecko-scroll-up": "Page Up",
-      "gecko-scroll-down": "Page Down",
+      "gecko-scroll-up": "Cuộn lên",
+      "gecko-scroll-down": "Cuộn xuống",
       "gecko-scroll-line-up": "Cuộn lên",
       "gecko-scroll-line-down": "Cuộn xuống",
       "gecko-scroll-right": "Cuộn phải ",
