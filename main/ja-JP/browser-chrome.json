@@ -221,7 +221,7 @@
       "floorp-open-settings": "設定を開く",
       "floorp-open-hub": "Floorp Hub を開く",
       "floorp-toggle-share-mode": "共有モードの表示を切り替える",
-      "floorp-copy-page-url-as-markdown": "ページの URL を Markdown としてコピー",
+      "floorp-copy-page-url-as-markdown": "ページの URL を Markdown 形式でコピー",
       "floorp-split-view-open-left": "分割ビューで左側に開く",
       "floorp-split-view-open-right": "分割ビューで右側に開く",
       "floorp-split-view-open-top": "分割ビューで上側に開く",
