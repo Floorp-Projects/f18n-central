@@ -110,14 +110,22 @@
     "menu": {
       "webapps": "Aplicaciones web",
       "install-current": "Instalar página actual como aplicación web progresiva",
-      "open-installed": "Abrir aplicaciones instaladas"
+      "open-current": "Open app in selected container",
+      "open-installed": "Abrir aplicaciones instaladas",
+      "container": "Contenedor"
     },
     "page-action": {
       "title": "Abrir aplicación",
       "install": "Instalar aplicación",
       "open": "Abrir aplicación",
       "cancel": "Cancelar",
-      "site-icon": "Icono de sitio"
+      "site-icon": "Icono de sitio",
+      "container": "Contenedor",
+      "no-container": "No container"
+    },
+    "window": {
+      "container-tooltip": "Container: {{name}}",
+      "container-fallback": "Container #{{id}}"
     }
   },
   "privateContainer": {
@@ -198,8 +206,8 @@
       "gecko-reverse-sidebar": "Reverse Sidebar Position",
       "gecko-hide-sidebar": "Ocultar barra lateral",
       "gecko-toggle-sidebar": "Alternar barra lateral",
-      "gecko-scroll-up": "Page Up",
-      "gecko-scroll-down": "Page Down",
+      "gecko-scroll-up": "Desplazarse hacia arriba",
+      "gecko-scroll-down": "Desplazarse hacia abajo",
       "gecko-scroll-line-up": "Desplazarse hacia arriba",
       "gecko-scroll-line-down": "Desplazarse hacia abajo",
       "gecko-scroll-right": "Desplazarse a la derecha",
