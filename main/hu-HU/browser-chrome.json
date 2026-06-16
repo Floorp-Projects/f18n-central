@@ -110,14 +110,22 @@
     "menu": {
       "webapps": "Web Apps",
       "install-current": "Install Current Page as Progressive Web App",
-      "open-installed": "Open Installed Apps"
+      "open-current": "Open app in selected container",
+      "open-installed": "Open Installed Apps",
+      "container": "Konténer"
     },
     "page-action": {
       "title": "Open Application",
       "install": "Install Application",
       "open": "Open Application",
       "cancel": "Cancel",
-      "site-icon": "Site icon"
+      "site-icon": "Site icon",
+      "container": "Konténer",
+      "no-container": "No container"
+    },
+    "window": {
+      "container-tooltip": "Container: {{name}}",
+      "container-fallback": "Container #{{id}}"
     }
   },
   "privateContainer": {
@@ -198,8 +206,8 @@
       "gecko-reverse-sidebar": "Oldalsáv Megfordítása",
       "gecko-hide-sidebar": "Oldalsáv Elrejtése",
       "gecko-toggle-sidebar": "Oldalsáv ki/be",
-      "gecko-scroll-up": "Page Up",
-      "gecko-scroll-down": "Page Down",
+      "gecko-scroll-up": "Görgetés Fel",
+      "gecko-scroll-down": "Görgetés Le",
       "gecko-scroll-line-up": "Görgetés Fel",
       "gecko-scroll-line-down": "Görgetés Le",
       "gecko-scroll-right": "Görgetés Jobbra",
