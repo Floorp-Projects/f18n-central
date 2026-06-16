@@ -110,14 +110,22 @@
     "menu": {
       "webapps": "Веб-приложения",
       "install-current": "Установить текущую страницу как прогрессивное веб-приложение",
-      "open-installed": "Открыть установленные приложения"
+      "open-current": "Open app in selected container",
+      "open-installed": "Открыть установленные приложения",
+      "container": "Контейнер"
     },
     "page-action": {
       "title": "Открыть приложение",
       "install": "Установить приложение",
       "open": "Открыть приложение",
       "cancel": "Отменить",
-      "site-icon": "Значок сайта"
+      "site-icon": "Значок сайта",
+      "container": "Контейнер",
+      "no-container": "No container"
+    },
+    "window": {
+      "container-tooltip": "Container: {{name}}",
+      "container-fallback": "Container #{{id}}"
     }
   },
   "privateContainer": {
@@ -198,8 +206,8 @@
       "gecko-reverse-sidebar": "Переставить положение боковой панели",
       "gecko-hide-sidebar": "Скрыть боковую панель",
       "gecko-toggle-sidebar": "Переключить боковую панель",
-      "gecko-scroll-up": "Page Up",
-      "gecko-scroll-down": "Page Down",
+      "gecko-scroll-up": "Вверх",
+      "gecko-scroll-down": "Вниз",
       "gecko-scroll-line-up": "Вверх",
       "gecko-scroll-line-down": "Вниз",
       "gecko-scroll-right": "Вправо",
