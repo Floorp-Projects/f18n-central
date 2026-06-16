@@ -448,8 +448,17 @@
         "uninstallConfirmation": "Web Uygulamasını kaldır",
         "uninstallWarning": "\"{{name}}\" web uygulamasını kaldırmak istediğinizden emin misiniz?",
         "cancel": "Vazgeç",
+        "close": "Kapat",
         "rename": "Yeniden adlandır",
-        "uninstall": "Kaldır"
+        "uninstall": "Kaldır",
+        "container": "Kapsayıcı",
+        "noContainer": "Kapsayıcı Yok",
+        "setContainer": "Set Container",
+        "containerDescription": "Choose which Firefox Container this app opens in. Containers isolate cookies and site data.",
+        "containerDeleted": "Container deleted",
+        "resetContainer": "Sıfırla",
+        "save": "Kaydet",
+        "errorSettingContainer": "Failed to set container"
     },
     "floorpOS": {
         "title": "{{productName}} OS",
@@ -606,8 +615,7 @@
             "gecko-scroll-to-bottom": "Sona Kaydır",
             "gecko-workspace-next": "Sonraki Çalışma Alanına Geç",
             "gecko-workspace-previous": "Önceki Çalışma Alanına Geç",
-            "floorp-toggle-zen-mode": "Toggle Zen Mode",
-            "floorp-toggle-command-palette": "Toggle Command Palette"
+            "floorp-toggle-zen-mode": "Toggle Zen Mode"
         },
         "edit": "Düzenle",
         "duplicate": "Çoğalt",
