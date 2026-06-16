@@ -453,12 +453,12 @@
         "uninstall": "삭제",
         "container": "컨테이너",
         "noContainer": "컨테이너 없음",
-        "setContainer": "Set Container",
-        "containerDescription": "Choose which Firefox Container this app opens in. Containers isolate cookies and site data.",
-        "containerDeleted": "Container deleted",
+        "setContainer": "컨테이너 설정",
+        "containerDescription": "앱을 어떤 Firefox 컨테이너에서 열지 선택하세요. 컨테이너는 쿠키와 사이트 데이터를 격리합니다.",
+        "containerDeleted": "컨테이너 삭제됨",
         "resetContainer": "초기화",
         "save": "저장",
-        "errorSettingContainer": "Failed to set container"
+        "errorSettingContainer": "컨테이너 설정 실패"
     },
     "floorpOS": {
         "title": "{{productName}} OS",
