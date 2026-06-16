@@ -110,14 +110,22 @@
     "menu": {
       "webapps": "Aplikasi Web",
       "install-current": "Pasang Halaman Saat Ini sebagai Aplikasi Web Progresif",
-      "open-installed": "Buka Aplikasi Terpasang"
+      "open-current": "Open app in selected container",
+      "open-installed": "Buka Aplikasi Terpasang",
+      "container": "Kontainer"
     },
     "page-action": {
       "title": "Buka Aplikasi",
       "install": "Pasang Aplikasi",
       "open": "Buka Aplikasi",
       "cancel": "Batal",
-      "site-icon": "Ikon situs"
+      "site-icon": "Ikon situs",
+      "container": "Kontainer",
+      "no-container": "No container"
+    },
+    "window": {
+      "container-tooltip": "Container: {{name}}",
+      "container-fallback": "Container #{{id}}"
     }
   },
   "privateContainer": {
@@ -198,8 +206,8 @@
       "gecko-reverse-sidebar": "Reverse Sidebar Position",
       "gecko-hide-sidebar": "Hide Sidebar",
       "gecko-toggle-sidebar": "Toggle Sidebar",
-      "gecko-scroll-up": "Page Up",
-      "gecko-scroll-down": "Page Down",
+      "gecko-scroll-up": "Scroll Up",
+      "gecko-scroll-down": "Scroll Down",
       "gecko-scroll-line-up": "Scroll Up",
       "gecko-scroll-line-down": "Scroll Down",
       "gecko-scroll-right": "Scroll Right",
