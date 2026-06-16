@@ -110,14 +110,22 @@
     "menu": {
       "webapps": "ウェブアプリ",
       "install-current": "現在のページをプログレッシブウェブアプリとしてインストール",
-      "open-installed": "インストールしたアプリを開く"
+      "open-current": "Open app in selected container",
+      "open-installed": "インストールしたアプリを開く",
+      "container": "コンテナー"
     },
     "page-action": {
       "title": "アプリを開く",
       "install": "アプリをインストール",
       "open": "アプリを開く",
       "cancel": "キャンセル",
-      "site-icon": "サイトのアイコン"
+      "site-icon": "サイトのアイコン",
+      "container": "コンテナー",
+      "no-container": "No container"
+    },
+    "window": {
+      "container-tooltip": "Container: {{name}}",
+      "container-fallback": "Container #{{id}}"
     }
   },
   "privateContainer": {
@@ -139,7 +147,7 @@
       "gecko-open-new-tab": "新規タブ",
       "gecko-duplicate-tab": "タブを複製",
       "gecko-reload-all-tabs": "すべてのタブを再読み込み",
-      "gecko-restore-last-tab": "閉じたタブを開き直す",
+      "gecko-restore-last-tab": "閉じたタブを開きなおす",
       "gecko-open-new-window": "新規ウインドウを開く",
       "gecko-open-new-private-window": "新規プライベートウインドウを開く",
       "gecko-close-window": "ウインドウを閉じる",
@@ -237,7 +245,7 @@
       "gecko-open-new-tab": "新規タブを開く",
       "gecko-duplicate-tab": "現在のタブを複製",
       "gecko-reload-all-tabs": "すべてのタブを再読み込み",
-      "gecko-restore-last-tab": "最後に閉じたタブを開き直す",
+      "gecko-restore-last-tab": "最後に閉じたタブを開きなおす",
       "floorp-toggle-zen-mode": "禅モードではすべての UI 要素が非表示になるので、現在のページに集中できます",
       "floorp-toggle-command-palette": "コマンドを検索および実行できるコマンドパレットを開閉します",
       "floorp-open-settings": "Floorp の設定ページを開く",
