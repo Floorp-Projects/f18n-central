@@ -448,8 +448,17 @@
         "uninstallConfirmation": "Desinstalar a Aplicação Web",
         "uninstallWarning": "Tem a certeza de que pretende desinstalar o \"{{name}}\"?",
         "cancel": "Cancelar",
+        "close": "Fechar",
         "rename": "Mudar o nome",
-        "uninstall": "Desinstalar"
+        "uninstall": "Desinstalar",
+        "container": "Contentor",
+        "noContainer": "Sem contentor",
+        "setContainer": "Set Container",
+        "containerDescription": "Choose which Firefox Container this app opens in. Containers isolate cookies and site data.",
+        "containerDeleted": "Container deleted",
+        "resetContainer": "Redefinir",
+        "save": "Guardar",
+        "errorSettingContainer": "Failed to set container"
     },
     "floorpOS": {
         "title": "{{productName}} SO",
@@ -606,8 +615,7 @@
             "gecko-scroll-to-bottom": "Deslocação para o fundo",
             "gecko-workspace-next": "Mudar para o espaço de trabalho seguinte",
             "gecko-workspace-previous": "Mudar para o espaço de trabalho anterior",
-            "floorp-toggle-zen-mode": "Toggle Zen Mode",
-            "floorp-toggle-command-palette": "Toggle Command Palette"
+            "floorp-toggle-zen-mode": "Toggle Zen Mode"
         },
         "edit": "Editar",
         "duplicate": "Duplicado",
