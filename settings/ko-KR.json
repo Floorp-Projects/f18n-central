@@ -448,8 +448,17 @@
         "uninstallConfirmation": "웹 앱 제거",
         "uninstallWarning": "\"{{name}} \"를 제거하시겠습니까?",
         "cancel": "취소",
+        "close": "닫기",
         "rename": "이름 변경",
-        "uninstall": "삭제"
+        "uninstall": "삭제",
+        "container": "컨테이너",
+        "noContainer": "컨테이너 없음",
+        "setContainer": "Set Container",
+        "containerDescription": "Choose which Firefox Container this app opens in. Containers isolate cookies and site data.",
+        "containerDeleted": "Container deleted",
+        "resetContainer": "초기화",
+        "save": "저장",
+        "errorSettingContainer": "Failed to set container"
     },
     "floorpOS": {
         "title": "{{productName}} OS",
@@ -606,8 +615,7 @@
             "gecko-scroll-to-bottom": "맨 아래로",
             "gecko-workspace-next": "다음 워크스페이스로 전환",
             "gecko-workspace-previous": "이전 워크스페이스로 전환",
-            "floorp-toggle-zen-mode": "Zen 모드 전환",
-            "floorp-toggle-command-palette": "명령 팔레트 전환"
+            "floorp-toggle-zen-mode": "Zen 모드 전환"
         },
         "edit": "수정",
         "duplicate": "복제",
