@@ -110,7 +110,7 @@
     "menu": {
       "webapps": "웹 앱",
       "install-current": "현재 페이지를 프로그레시브 웹 앱으로서 설치",
-      "open-current": "Open app in selected container",
+      "open-current": "선택한 컨테이너에서 앱 열기",
       "open-installed": "설치된 웹 앱 열기",
       "container": "컨테이너"
     },
@@ -121,11 +121,11 @@
       "cancel": "취소",
       "site-icon": "사이트 아이콘",
       "container": "컨테이너",
-      "no-container": "No container"
+      "no-container": "컨테이너 없음"
     },
     "window": {
-      "container-tooltip": "Container: {{name}}",
-      "container-fallback": "Container #{{id}}"
+      "container-tooltip": "컨테이너: {{name}}",
+      "container-fallback": "컨테이너 #{{id}}"
     }
   },
   "privateContainer": {
