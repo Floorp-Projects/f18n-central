@@ -448,8 +448,17 @@
         "uninstallConfirmation": "Afinstaller webapp",
         "uninstallWarning": "Er du sikker på, at du vil afinstallere \"{{name}}\"?",
         "cancel": "Annuller",
+        "close": "Luk",
         "rename": "Omdøb",
-        "uninstall": "Afinstaller"
+        "uninstall": "Afinstaller",
+        "container": "Beholder",
+        "noContainer": "Ingen beholder",
+        "setContainer": "Set Container",
+        "containerDescription": "Choose which Firefox Container this app opens in. Containers isolate cookies and site data.",
+        "containerDeleted": "Container deleted",
+        "resetContainer": "Nulstil",
+        "save": "Gem",
+        "errorSettingContainer": "Failed to set container"
     },
     "floorpOS": {
         "title": "{{productName}} OS",
@@ -606,8 +615,7 @@
             "gecko-scroll-to-bottom": "Rul til bunden",
             "gecko-workspace-next": "Switch to Next Workspace",
             "gecko-workspace-previous": "Switch to Previous Workspace",
-            "floorp-toggle-zen-mode": "Toggle Zen Mode",
-            "floorp-toggle-command-palette": "Toggle Command Palette"
+            "floorp-toggle-zen-mode": "Toggle Zen Mode"
         },
         "edit": "Rediger",
         "duplicate": "Dupliker",
