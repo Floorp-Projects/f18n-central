@@ -110,14 +110,22 @@
     "menu": {
       "webapps": "PWA 應用程式",
       "install-current": "將目前頁面安裝為 PWA 應用程式",
-      "open-installed": "開啟已安裝的 PWA 應用程式"
+      "open-current": "Open app in selected container",
+      "open-installed": "開啟已安裝的 PWA 應用程式",
+      "container": "容器"
     },
     "page-action": {
       "title": "開啟應用程式",
       "install": "安裝應用程式",
       "open": "開啟應用程式",
       "cancel": "取消",
-      "site-icon": "網站圖示"
+      "site-icon": "網站圖示",
+      "container": "容器",
+      "no-container": "No container"
+    },
+    "window": {
+      "container-tooltip": "Container: {{name}}",
+      "container-fallback": "Container #{{id}}"
     }
   },
   "privateContainer": {
@@ -198,8 +206,8 @@
       "gecko-reverse-sidebar": "反轉側邊欄位置",
       "gecko-hide-sidebar": "隱藏側邊欄",
       "gecko-toggle-sidebar": "切換側邊欄",
-      "gecko-scroll-up": "Page Up",
-      "gecko-scroll-down": "Page Down",
+      "gecko-scroll-up": "向上捲動",
+      "gecko-scroll-down": "向下捲動",
       "gecko-scroll-line-up": "向上捲動",
       "gecko-scroll-line-down": "向下捲動",
       "gecko-scroll-right": "向右捲動",
