@@ -110,14 +110,22 @@
     "menu": {
       "webapps": "Web-Apps",
       "install-current": "Aktuelle Seite als Progressive Web App installieren",
-      "open-installed": "Installierte Apps öffnen"
+      "open-current": "Open app in selected container",
+      "open-installed": "Installierte Apps öffnen",
+      "container": "Container"
     },
     "page-action": {
       "title": "Anwendung öffnen",
       "install": "Anwendung installieren",
       "open": "Anwendung öffnen",
       "cancel": "Abbrechen",
-      "site-icon": "Webseitensymbol"
+      "site-icon": "Webseitensymbol",
+      "container": "Container",
+      "no-container": "No container"
+    },
+    "window": {
+      "container-tooltip": "Container: {{name}}",
+      "container-fallback": "Container #{{id}}"
     }
   },
   "privateContainer": {
@@ -198,8 +206,8 @@
       "gecko-reverse-sidebar": "Seitenleistenposition wechseln",
       "gecko-hide-sidebar": "Seitenleiste ausblenden",
       "gecko-toggle-sidebar": "Seitenleiste umschalten",
-      "gecko-scroll-up": "Page Up",
-      "gecko-scroll-down": "Page Down",
+      "gecko-scroll-up": "Nach oben scrollen",
+      "gecko-scroll-down": "Nach unten scrollen",
       "gecko-scroll-line-up": "Nach oben scrollen",
       "gecko-scroll-line-down": "Nach unten scrollen",
       "gecko-scroll-right": "Nach rechts scrollen",
