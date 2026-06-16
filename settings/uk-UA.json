@@ -448,8 +448,17 @@
         "uninstallConfirmation": "Видалити вебзастосунок",
         "uninstallWarning": "Ви дійсно хочете видалити \"{{name}}\"?",
         "cancel": "Скасувати",
+        "close": "Закрити",
         "rename": "Перейменувати",
-        "uninstall": "Видалити"
+        "uninstall": "Видалити",
+        "container": "Контейнер",
+        "noContainer": "Без контейнера",
+        "setContainer": "Set Container",
+        "containerDescription": "Choose which Firefox Container this app opens in. Containers isolate cookies and site data.",
+        "containerDeleted": "Container deleted",
+        "resetContainer": "Reset",
+        "save": "Зберегти",
+        "errorSettingContainer": "Failed to set container"
     },
     "floorpOS": {
         "title": "{{productName}} OS",
@@ -606,8 +615,7 @@
             "gecko-scroll-to-bottom": "Scroll to Bottom",
             "gecko-workspace-next": "Switch to Next Workspace",
             "gecko-workspace-previous": "Switch to Previous Workspace",
-            "floorp-toggle-zen-mode": "Toggle Zen Mode",
-            "floorp-toggle-command-palette": "Toggle Command Palette"
+            "floorp-toggle-zen-mode": "Toggle Zen Mode"
         },
         "edit": "Редагувати",
         "duplicate": "Дублювати",
