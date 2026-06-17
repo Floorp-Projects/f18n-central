@@ -453,12 +453,12 @@
         "uninstall": "Avinstallera",
         "container": "Behållare",
         "noContainer": "Inga behållare",
-        "setContainer": "Set Container",
+        "setContainer": "Ställ in behållare",
         "containerDescription": "Choose which Firefox Container this app opens in. Containers isolate cookies and site data.",
-        "containerDeleted": "Container deleted",
+        "containerDeleted": "Behållare borttagen",
         "resetContainer": "Återställ",
         "save": "Spara",
-        "errorSettingContainer": "Failed to set container"
+        "errorSettingContainer": "Misslyckades att ställa in behållaren"
     },
     "floorpOS": {
         "title": "{{productName}} OS",
