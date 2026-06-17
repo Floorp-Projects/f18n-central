@@ -110,7 +110,7 @@
     "menu": {
       "webapps": "Webbappar",
       "install-current": "Installera nuvarande sida som progressiv webbapp",
-      "open-current": "Open app in selected container",
+      "open-current": "Öppna app i vald behållare",
       "open-installed": "Öppna installerade appar",
       "container": "Behållare"
     },
@@ -121,11 +121,11 @@
       "cancel": "Avbryt",
       "site-icon": "Webbplatsikon",
       "container": "Behållare",
-      "no-container": "No container"
+      "no-container": "Ingen behållare"
     },
     "window": {
-      "container-tooltip": "Container: {{name}}",
-      "container-fallback": "Container #{{id}}"
+      "container-tooltip": "Behållare: {{name}}",
+      "container-fallback": "Behållare #{{id}}"
     }
   },
   "privateContainer": {
