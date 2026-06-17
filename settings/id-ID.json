@@ -33,7 +33,7 @@
         "updates": "Pembaruan & Eksperimen",
         "debug": "Awakutu",
         "mouseGesture": "Gestur Tetikus",
-        "keyboardShortcut": "Keyboard Shortcuts",
+        "keyboardShortcut": "Pintasan Kibor",
         "search": {
             "title": "Telusuri Pengaturan",
             "resultsFor": "Hasil pencarian untuk \"{{query}}\"",
@@ -454,11 +454,11 @@
         "container": "Kontainer",
         "noContainer": "Tanpa Kontainer",
         "setContainer": "Set Container",
-        "containerDescription": "Choose which Firefox Container this app opens in. Containers isolate cookies and site data.",
-        "containerDeleted": "Container deleted",
+        "containerDescription": "Pilih Kontainer Firefox untuk membuka aplikasi ini. Kontainer memisahkan kuki dan data situs.",
+        "containerDeleted": "Kontainer dihapus",
         "resetContainer": "Setel Ulang",
         "save": "Simpan",
-        "errorSettingContainer": "Failed to set container"
+        "errorSettingContainer": "Gagal mengatur kontainer"
     },
     "floorpOS": {
         "title": "{{productName}} OS",
@@ -534,7 +534,7 @@
         "action": "Tindakan",
         "actionDescription": "Deskripsi gestur",
         "rockerGesturesEnabled": "Enable rocker gestures",
-        "rockerGesturesDescription": "Right-click and move left to go back, right-click and move right to go forward. (Experimental)",
+        "rockerGesturesDescription": "Klik kanan dan geser ke kiri untuk kembali, klik kanan dan geser ke kanan untuk maju. (Fitur percobaan)",
         "rockerLeftRight": "Left → Right",
         "rockerLeftRightDescription": "Hold left button, then click right button",
         "rockerRightLeft": "Right → Left",
