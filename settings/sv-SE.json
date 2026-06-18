@@ -454,7 +454,7 @@
         "container": "Behållare",
         "noContainer": "Inga behållare",
         "setContainer": "Ställ in behållare",
-        "containerDescription": "Choose which Firefox Container this app opens in. Containers isolate cookies and site data.",
+        "containerDescription": "Välj vilken Firefox Container den här appen öppnas i. behållare isolerar kakor och webbplatsdata.",
         "containerDeleted": "Behållare borttagen",
         "resetContainer": "Återställ",
         "save": "Spara",
