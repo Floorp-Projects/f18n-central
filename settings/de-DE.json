@@ -453,12 +453,12 @@
         "uninstall": "Deinstallieren",
         "container": "Container",
         "noContainer": "Kein Container",
-        "setContainer": "Set Container",
-        "containerDescription": "Choose which Firefox Container this app opens in. Containers isolate cookies and site data.",
-        "containerDeleted": "Container deleted",
+        "setContainer": "Container festlegen",
+        "containerDescription": "Wähle aus, in welchem Firefox-Container diese App geöffnet werden soll. Container isolieren Cookies und Website-Daten.",
+        "containerDeleted": "Container gelöscht",
         "resetContainer": "Zurücksetzen",
         "save": "Speichern",
-        "errorSettingContainer": "Failed to set container"
+        "errorSettingContainer": "Fehler beim Festlegen des Containers"
     },
     "floorpOS": {
         "title": "Floorp OS",
@@ -477,7 +477,7 @@
             "stopped": "Gestoppt",
             "enabledBadge": "Aktiviert",
             "disabledBadge": "Deaktiviert",
-            "serverToken": "Server Token",
+            "serverToken": "Server-Token",
             "copyToken": "Kopieren"
         },
         "controlsCard": {
