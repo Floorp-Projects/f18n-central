@@ -110,7 +110,7 @@
     "menu": {
       "webapps": "Applications Web",
       "install-current": "Installer la page actuelle en tant que Progressive Web App",
-      "open-current": "Open app in selected container",
+      "open-current": "Ouvrir l'application dans le conteneur sélectionné",
       "open-installed": "Afficher les applications installées",
       "container": "Conteneur"
     },
@@ -121,11 +121,11 @@
       "cancel": "Annuler",
       "site-icon": "Icône du site",
       "container": "Conteneur",
-      "no-container": "No container"
+      "no-container": "Aucun conteneur"
     },
     "window": {
-      "container-tooltip": "Container: {{name}}",
-      "container-fallback": "Container #{{id}}"
+      "container-tooltip": "Conteneur : {{name}}",
+      "container-fallback": "Conteneur #{{id}}"
     }
   },
   "privateContainer": {
