@@ -188,19 +188,19 @@
             }
         },
         "tabSleepExclusion": {
-            "title": "Tab Sleep Exclusion",
-            "description": "Exclude specific websites from tab sleep (unloading). Tabs matching these patterns will remain active and won't be automatically unloaded when memory is low.",
-            "enable": "Enable tab sleep exclusion",
-            "patterns": "Exclusion Patterns",
-            "patternsDescription": "Add URL patterns to exclude from tab sleep. Tabs matching these patterns will not be unloaded.",
-            "patternPlaceholder": "Enter URL pattern (e.g., example.com, *.google.com)",
+            "title": "标签页睡眠排除",
+            "description": "将特定网站排除在标签页卸载之外。符合这些模式的标签页将保持活动状态，在内存不足时不会被自动卸载。",
+            "enable": "启用标签页卸载排除功能",
+            "patterns": "排除模式",
+            "patternsDescription": "添加要从标签页卸载中排除的 URL 模式。符合这些模式的标签页将不会被卸载。",
+            "patternPlaceholder": "输入 URL 模式（例如：example.com、*.google.com）",
             "add": "添加",
             "remove": "移除",
-            "noPatterns": "No exclusion patterns configured. Add patterns to keep specific tabs active.",
-            "examples": "Pattern Examples",
-            "exampleDomain": "Matches any URL containing this domain",
-            "exampleWildcard": "Matches all subdomains of google.com",
-            "exampleFullUrl": "Matches Gmail URLs only"
+            "noPatterns": "未配置任何排除规则。请添加规则以保持特定标签页处于活动状态。",
+            "examples": "筛选模板范例",
+            "exampleDomain": "匹配包含该域名的任何 URL",
+            "exampleWildcard": "匹配 google.com 的所有子域名",
+            "exampleFullUrl": "仅匹配 Gmail 网址"
         },
         "uiCustomization": {
             "title": "自定义界面",
@@ -314,7 +314,7 @@
                 "never": "从不参与"
             },
             "policyHelp": {
-                "default": "遵循建议的参与政策。您可能根据推出进度加入 {{productName}} 测试。",
+                "default": "遵循推荐的参与政策。系统可能会根据逐步推出比例，将您纳入 {{productName}} 测试。",
                 "always": "始终参与所有可用的 {{productName}} 测试。此选项适于希望尽早测试性能的用户。",
                 "never": "从不参与 {{productName}} 测试。您只会收到稳定且经过测试的功能。"
             },
@@ -337,19 +337,19 @@
             "lastUpdated": "最近更新："
         },
         "availableFlascos": {
-            "title": "Available Flascos",
-            "description": "All available Flascos for your {{productName}} version. Some may be unavailable due to rollout limits.",
-            "noExperiments": "No experiments available.",
-            "rollout": "Rollout: {{percentage}}%",
-            "forceEnroll": "Enroll",
-            "forceEnrolled": "Enrolled",
-            "removeForceEnrollment": "Remove Override",
-            "confirmForceEnroll": "Are you sure you want to enroll in this Flasco? This will override the rollout settings.",
-            "confirmRemoveForceEnrollment": "Remove enrollment and return to normal rollout behavior?",
+            "title": "可用测试",
+            "description": "适用于您所用 {{productName}} 版本的所有可用测试。部分测试可能因逐步推出限制而不可用。",
+            "noExperiments": "没有可用的实验。",
+            "rollout": "逐步推出比例：{{percentage}}%",
+            "forceEnroll": "参与",
+            "forceEnrolled": "已参与",
+            "removeForceEnrollment": "取消覆盖",
+            "confirmForceEnroll": "您确定要参与此测试吗？这将覆盖逐步退出测试。",
+            "confirmRemoveForceEnrollment": "取消注册并恢复到正常的逐步推出行为？",
             "status": {
-                "enrolled": "Enrolled",
-                "not_in_rollout": "Not in rollout",
-                "force_enrolled": "Enrolled",
+                "enrolled": "已参与",
+                "not_in_rollout": "未在逐步推出范围内",
+                "force_enrolled": "已参与",
                 "disabled": "已禁用",
                 "control": "Control"
             }
