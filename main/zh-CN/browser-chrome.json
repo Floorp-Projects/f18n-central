@@ -28,7 +28,7 @@
       "briefcase": "公文包",
       "cart": "购物车",
       "chat": "聊天",
-      "chill": "冷酷",
+      "chill": "酷",
       "circle": "圆圈",
       "compass": "指南针",
       "code": "代码",
@@ -80,8 +80,8 @@
       "restore-tooltip": "切换恢复模式",
       "restore-item": "恢复 “{{name}}”",
       "restore-delete-tooltip": "删除此归档",
-      "restore-tab-count": "{{count}} 标签",
-      "restore-tab-count_plural": "{{count}} 标签",
+      "restore-tab-count": "{{count}} 个标签页",
+      "restore-tab-count_plural": "{{count}} 个标签页",
       "restore-time-just-now": "现在",
       "restore-time-minutes": "{{minutes}} 分钟前",
       "restore-time-minutes_plural": "{{minutes}} 分钟前",
@@ -91,7 +91,7 @@
       "restore-time-days_plural": "{{days}} 天前"
     },
     "menu": {
-      "moveTabToAnotherWorkspace": "移动标签到另一个工作区",
+      "moveTabToAnotherWorkspace": "移动标签页到另一个工作区",
       "openLinkInWorkspace": "在另一工作区打开链接",
       "noOtherWorkspace": "无可用的工作区"
     },
@@ -264,18 +264,18 @@
     }
   },
   "qrCode": {
-    "pageAction": "生成 QR 码",
-    "modalTitle": "QR 码生成器",
-    "loading": "正在生成 QR 码……",
+    "pageAction": "生成二维码",
+    "modalTitle": "二维码生成器",
+    "loading": "正在生成二维码……",
     "copyButton": "复制图像",
     "downloadButton": "下载",
     "closeButton": "关闭",
-    "copySuccess": "QR 码已复制到剪贴板！",
-    "copyError": "复制 QR 码失败",
-    "generateError": "生成 QR 码失败"
+    "copySuccess": "二维码已复制到剪贴板！",
+    "copyError": "复制二维码失败",
+    "generateError": "生成二维码失败"
   },
-  "qrcode-generate-page-action": "为此页面生成 QR 码",
-  "qrcode-generate-page-action-title": "QR 码生成器",
+  "qrcode-generate-page-action": "为此页面生成二维码",
+  "qrcode-generate-page-action-title": "二维码生成器",
   "panelSidebar": {
     "modal": {
       "type": "面板类型",
