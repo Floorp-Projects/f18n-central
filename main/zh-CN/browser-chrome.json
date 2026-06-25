@@ -108,10 +108,10 @@
   },
   "ssb": {
     "menu": {
-      "webapps": "应用",
+      "webapps": "Web 应用",
       "install-current": "将当前页面安装为应用",
       "open-current": "在选定的身份中打开应用",
-      "open-installed": "打开已安装的 Web App",
+      "open-installed": "打开已安装的 Web 应用",
       "container": "身份"
     },
     "page-action": {
