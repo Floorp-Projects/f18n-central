@@ -96,7 +96,7 @@
         "horizontal": "横向",
         "multirow": "多行",
         "vertical": "垂直",
-        "verticalTabIsRemovedFromBrowser": "Floorp 老版本内置垂直标签已从 {{productName}}中移除。请使用 Firefox 自带的垂直标签栏。",
+        "verticalTabIsRemovedFromBrowser": "{{productName}} 老版本内置的垂直标签栏已弃用。请使用 Firefox 自带的垂直标签栏。",
         "learnMore": "了解更多",
         "position": "位置",
         "positionDescription": "选择标签栏位置。",
@@ -136,8 +136,8 @@
             "back": "后退",
             "experimentalWarning": {
                 "title": "⚠️ 实验功能",
-                "description": "这些设置是实验性的，不受官方支持。问题可能会发生。",
-                "leptonRepository": "Lepton 是一款适用于 Firefox 的 css 主题。\n",
+                "description": "这些设置是实验性的，不受官方支持，可能会出现问题。",
+                "leptonRepository": "Lepton 是一款适用于 Firefox 的 CSS 主题。",
                 "visitRepository": "访问仓库页面"
             },
             "autohide": {
@@ -188,7 +188,7 @@
             }
         },
         "tabSleepExclusion": {
-            "title": "标签页睡眠排除",
+            "title": "标签页卸载排除",
             "description": "将特定网站排除在标签页卸载之外。符合这些模式的标签页将保持活动状态，在内存不足时不会被自动卸载。",
             "enable": "启用标签页卸载排除功能",
             "patterns": "排除模式",
@@ -216,7 +216,7 @@
                 "title": "显示",
                 "disableFullscreenNotification": "禁用全屏通知",
                 "deleteBrowserBorder": "网页区域圆角",
-                "disableQRCodeButton": "禁用 QR 码按钮"
+                "disableQRCodeButton": "禁用二维码按钮"
             },
             "special": {
                 "title": "特色功能",
@@ -293,7 +293,7 @@
         "releaseNotes": "发布说明和更多信息",
         "browserVersion": "{{productName}} 版本： {{browserVersion}} | 火狐浏览器版本： {{firefoxVersion}}",
         "isOfficialBuild": "（官方构建）",
-        "browserDescription": "{{productName}} 是日本开发的一款浏览器。是 Ablaze 旗下的，基于 Firefox 上开发的浏览器，旨在促进网络发展。",
+        "browserDescription": "{{productName}} 是由日本 Ablaze 社区开发的浏览器，基于 Firefox 构建，致力于推动互联网发展。",
         "browser": "{{productName}}",
         "copyright": "© 2024 {{productName}} 项目。保留所有权利。",
         "openSourceLicense": "{{productName}} 是根据 Mozilla Public License 2.0 提供的开源软件，由 Firefox 开源项目和其他开源软件实现。",
