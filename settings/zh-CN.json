@@ -36,10 +36,10 @@
         "keyboardShortcut": "键盘快捷键",
         "search": {
             "title": "搜索设置",
-            "resultsFor": "“{{query}}” 搜索结果",
-            "searchResultsDescription": "“{{query}}” 搜索结果，仅搜索 {{productName}} 设置；不包括 Firefox 设置。",
+            "resultsFor": "“{{query}}”搜索结果",
+            "searchResultsDescription": "“{{query}}”搜索结果，仅搜索 {{productName}} 设置；不包括 Firefox 设置。",
             "noResults": "未找到结果",
-            "open": "打开 “{{title}}”",
+            "open": "打开“{{title}}”",
             "matchedText": "匹配文本",
             "results": "搜索结果"
         }
@@ -115,7 +115,7 @@
             "scrollTab": "滚动滚轮切换标签页",
             "reverseScroll": "反向滚动",
             "scrollWrap": "循环滚动",
-            "scrollPrefInfo": "\"{{reverseScrollPrefName}}\" 和 \"{{scrollWrapPrefName}}\" 只有在启用 \"{{scrollPrefName}}\" 时才会起作用。",
+            "scrollPrefInfo": "“{{reverseScrollPrefName}}”和 “{{scrollWrapPrefName}}”只有在启用 “{{scrollPrefName}}” 时才会起作用。",
             "pinTitle": "显示固定标签页标题",
             "openPosition": "新标签页打开位置",
             "openPositionDescription": "指定打开新标签页的位置。遵循 Firefox 的行为将根据您打开链接的方式改变位置。",
@@ -174,7 +174,7 @@
             "urlView": {
                 "title": "URL 视图设置",
                 "moveIconToLeft": "将地址栏图标移至左侧",
-                "goButtonWhenTyping": "键入时，显示 “转到” 按钮",
+                "goButtonWhenTyping": "键入时，显示“转到”按钮",
                 "alwaysShowPageActions": "始终在地址栏中显示页面操作"
             },
             "tabbar": {
@@ -305,8 +305,8 @@
         "title": "更新与实验",
         "description": "管理更新设置和实验功能参与。",
         "experiments": {
-            "title": "{{productName}} 参加测试",
-            "description": "控制 {{productName}} 参加实验功能和{{productName}} 测试。",
+            "title": "参与 {{productName}} Flasco 测试",
+            "description": "控制 {{productName}} 实验功能与 Flasco 测试的参与方式。",
             "policyLabel": "参与政策",
             "policy": {
                 "default": "默认（推荐）",
@@ -314,44 +314,44 @@
                 "never": "从不参与"
             },
             "policyHelp": {
-                "default": "遵循推荐的参与政策。系统可能会根据逐步推出比例，将您纳入 {{productName}} 测试。",
-                "always": "始终参与所有可用的 {{productName}} 测试。此选项适于希望尽早测试性能的用户。",
-                "never": "从不参与 {{productName}} 测试。您只会收到稳定且经过测试的功能。"
+                "default": "遵循推荐的参与政策。系统可能会根据逐步推出比例，将您纳入 {{productName}} Flasco 测试。",
+                "always": "始终参与所有可用的 {{productName}} Flasco 测试。此选项适于希望尽早测试性能的用户。",
+                "never": "从不参与 {{productName}} Flasco 测试。您只会收到稳定且经过测试的功能。"
             },
             "confirmClearCache": "您确定要清除所有实验数据吗？这将重置您的作业，且无法撤销。",
             "troubleshooting": "故障排除",
-            "clearCacheDescription": "如果在实验中遇到问题，清除缓存可将所有实验相关数据重置为初始状态，从而解决这些问题。",
+            "clearCacheDescription": "实验遇到问题？清除缓存即可重置实验数据。",
             "clearCache": "清除实验缓存"
         },
         "activeFlascos": {
-            "title": "活跃 {{productName}} 测试",
-            "description": "查看和管理当前激活的测试。",
+            "title": "活跃 {{productName}} Flasco 测试",
+            "description": "查看和管理当前激活的 Flasco 测试。",
             "refresh": "刷新",
-            "noFlascos": "您当前未参加任何测试。",
+            "noFlascos": "您当前未参加任何 Flasco 测试。",
             "assignedAt": "在 {{date}} 上注册",
             "disable": "禁用",
             "enable": "启用",
             "disabledLabel": "已禁用",
-            "confirmDisable": "您确定禁用此实验？可以稍后再启用。",
-            "confirmEnable": "您确定重新启用此实验？",
+            "confirmDisable": "确定禁用此 Flasco 测试？您可以稍后再启用。",
+            "confirmEnable": "您确定重新启用此 Flasco 测试？",
             "lastUpdated": "最近更新："
         },
         "availableFlascos": {
-            "title": "可用测试",
-            "description": "适用于您所用 {{productName}} 版本的所有可用测试。部分测试可能因逐步推出限制而不可用。",
+            "title": "可用 Flasco 测试",
+            "description": "适用于您所用 {{productName}} 版本的所有可用 Flasco 测试。部分测试可能因逐步推出限制而不可用。",
             "noExperiments": "没有可用的实验。",
             "rollout": "逐步推出比例：{{percentage}}%",
             "forceEnroll": "参与",
             "forceEnrolled": "已参与",
             "removeForceEnrollment": "取消覆盖",
-            "confirmForceEnroll": "您确定要参与此测试吗？这将覆盖逐步退出测试。",
+            "confirmForceEnroll": "您确定要参与此 Flasco 测试吗？这将覆盖逐步推出设置。",
             "confirmRemoveForceEnrollment": "取消注册并恢复到正常的逐步推出行为？",
             "status": {
                 "enrolled": "已参与",
-                "not_in_rollout": "未在逐步推出范围内",
+                "not_in_rollout": "未推出",
                 "force_enrolled": "已参与",
                 "disabled": "已禁用",
-                "control": "Control"
+                "control": "对照组"
             }
         }
     },
@@ -361,12 +361,12 @@
     },
     "search": {
         "title": "检索设置",
-        "resultsFor": "搜索 \"{{query}}\" 的结果",
+        "resultsFor": "搜索“{{query}}”的结果",
         "noResults": "未找到结果",
-        "open": "打开 \"{{title}}\"",
+        "open": "打开“{{title}}”",
         "matchedText": "匹配文本",
         "results": "搜索结果",
-        "searchResultsDescription": "搜索结果为 \"{{query}}\"。仅搜索 {{productName}} 设置；不包括 Firefox 设置。"
+        "searchResultsDescription": "搜索结果为“{{query}}”。仅搜索 {{productName}} 设置；不包括 Firefox 设置。"
     },
     "panelSidebar": {
         "title": "面板侧边栏",
@@ -446,7 +446,7 @@
         "enterNewName": "输入新名称",
         "uninstallApp": "卸载 Web 应用",
         "uninstallConfirmation": "卸载应用",
-        "uninstallWarning": "您确定要卸载 \"{{name}}\" 吗？",
+        "uninstallWarning": "您确定要卸载“{{name}}”吗？",
         "cancel": "取消",
         "close": "关闭",
         "rename": "重命名",
@@ -477,7 +477,7 @@
             "stopped": "已停止",
             "enabledBadge": "已启用",
             "disabledBadge": "已禁用",
-            "serverToken": "Server Token",
+            "serverToken": "服务令牌",
             "copyToken": "复制"
         },
         "controlsCard": {
