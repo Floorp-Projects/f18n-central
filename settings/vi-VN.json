@@ -124,6 +124,7 @@
             "openNext": "Cạnh thẻ hiện tại",
             "other": "Other Tab Settings",
             "doubleClickToClose": "Close tab by double-clicking",
+            "tabDragToSplitCreate": "Allow creating split view by dragging tabs",
             "minWidth": "Minimum tab width",
             "minWidthError": "Tab width must be between {{min}} and {{max}} pixels.",
             "minHeight": "Minimum tab height",
