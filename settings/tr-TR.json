@@ -124,6 +124,7 @@
             "openNext": "Geçerli sekmenin yanında aç",
             "other": "Diğer Sekme Ayarları",
             "doubleClickToClose": "Çift tıklayarak sekmeyi kapat",
+            "tabDragToSplitCreate": "Allow creating split view by dragging tabs",
             "minWidth": "Minimum sekme genişliği",
             "minWidthError": "Sekme genişliği {{min}} ile {{max}} piksel arasında olmalıdır.",
             "minHeight": "Minimum sekme yüksekliği",
