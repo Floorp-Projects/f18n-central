@@ -124,6 +124,7 @@
             "openNext": "Open next to the current tab",
             "other": "Other Tab Settings",
             "doubleClickToClose": "Close tab by double-clicking",
+            "tabDragToSplitCreate": "Allow creating split view by dragging tabs",
             "minWidth": "Minimum tab width",
             "minWidthError": "La anchura de la pestaña debe estar entre {{min}} y {{max}} píxeles.",
             "minHeight": "Altura mínima de la pestaña",
