@@ -124,6 +124,7 @@
             "openNext": "Abrir ao lado da aba atual",
             "other": "Outras configurações de abas",
             "doubleClickToClose": "Fechar aba com clique duplo",
+            "tabDragToSplitCreate": "Allow creating split view by dragging tabs",
             "minWidth": "Largura mínima da aba",
             "minWidthError": "A largura da aba deve estar entre {{min}} e {{max}} pixels.",
             "minHeight": "Altura mínima da aba",
