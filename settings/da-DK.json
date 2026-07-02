@@ -124,6 +124,7 @@
             "openNext": "Åbn ved siden af den aktuelle fane",
             "other": "Andre faneindstillinger",
             "doubleClickToClose": "Luk fanen ved at dobbeltklikke",
+            "tabDragToSplitCreate": "Allow creating split view by dragging tabs",
             "minWidth": "Minimum fanebredde",
             "minWidthError": "Fanebredde skal være mellem {{min}} og {{max}} pixels.",
             "minHeight": "Minimum fanehøjde",
