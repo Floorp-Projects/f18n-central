@@ -124,6 +124,7 @@
             "openNext": "在目前的分頁旁開啟",
             "other": "其他分頁設定",
             "doubleClickToClose": "連按兩下關閉分頁",
+            "tabDragToSplitCreate": "Allow creating split view by dragging tabs",
             "minWidth": "最小分頁寬度",
             "minWidthError": "分頁寬度必須介於 {{min}} 和 {{max}} 像素之間。",
             "minHeight": "最小分頁高度",
