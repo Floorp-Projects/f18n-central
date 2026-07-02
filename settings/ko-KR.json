@@ -124,6 +124,7 @@
             "openNext": "현재 탭 옆에서 열기",
             "other": "기타 탭 설정",
             "doubleClickToClose": "탭을 두 번 클릭하여 닫기",
+            "tabDragToSplitCreate": "Allow creating split view by dragging tabs",
             "minWidth": "최소 탭 너비",
             "minWidthError": "탭 너비는 {{min}} ~ {{max}} 픽셀 사이여야 합니다.",
             "minHeight": "최소 탭 높이",
