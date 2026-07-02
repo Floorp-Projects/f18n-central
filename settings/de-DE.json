@@ -124,6 +124,7 @@
             "openNext": "Neben dem aktuellen Tab öffnen",
             "other": "Weitere Tab-Einstellungen",
             "doubleClickToClose": "Tab per Doppelklick schließen",
+            "tabDragToSplitCreate": "Allow creating split view by dragging tabs",
             "minWidth": "Minimale Tab-Breite",
             "minWidthError": "Die Tab-Breite muss zwischen {{min}} und {{max}} Pixeln liegen.",
             "minHeight": "Minimale Tab-Höhe",
