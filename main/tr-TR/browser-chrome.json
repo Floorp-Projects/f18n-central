@@ -110,14 +110,22 @@
     "menu": {
       "webapps": "Web Uygulamaları",
       "install-current": "Geçerli Sayfayı Progressive Web Uygulaması Olarak Yükle",
-      "open-installed": "Yüklü Web Uygulamalarını Aç"
+      "open-current": "Open app in selected container",
+      "open-installed": "Yüklü Web Uygulamalarını Aç",
+      "container": "Kapsayıcı"
     },
     "page-action": {
       "title": "Uygulamayı aç",
       "install": "Uygulamayı Yükle",
       "open": "Uygulamayı Aç",
       "cancel": "İptal Et",
-      "site-icon": "Site simgesi"
+      "site-icon": "Site simgesi",
+      "container": "Kapsayıcı",
+      "no-container": "No container"
+    },
+    "window": {
+      "container-tooltip": "Container: {{name}}",
+      "container-fallback": "Container #{{id}}"
     }
   },
   "privateContainer": {
@@ -198,8 +206,8 @@
       "gecko-reverse-sidebar": "Ters Kenar Çubuğu Konumu",
       "gecko-hide-sidebar": "Kenar Çubuğunu Gizle",
       "gecko-toggle-sidebar": "Kenar Çubuğunu Aç/Kapat",
-      "gecko-scroll-up": "Page Up",
-      "gecko-scroll-down": "Page Down",
+      "gecko-scroll-up": "Yukarı Kaydır",
+      "gecko-scroll-down": "Aşağı Kaydır",
       "gecko-scroll-line-up": "Yukarı Kaydır",
       "gecko-scroll-line-down": "Aşağı Kaydır",
       "gecko-scroll-right": "Sağa Kaydır",

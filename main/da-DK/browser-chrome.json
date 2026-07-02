@@ -110,14 +110,22 @@
     "menu": {
       "webapps": "Webapps",
       "install-current": "Installer nuværende side som progressiv webapp",
-      "open-installed": "Åbn installerede apps"
+      "open-current": "Open app in selected container",
+      "open-installed": "Åbn installerede apps",
+      "container": "Beholder"
     },
     "page-action": {
       "title": "Åbn applikation",
       "install": "Installer applikation",
       "open": "Åbn applikation",
       "cancel": "Annuller",
-      "site-icon": "Webstedsikon"
+      "site-icon": "Webstedsikon",
+      "container": "Beholder",
+      "no-container": "No container"
+    },
+    "window": {
+      "container-tooltip": "Container: {{name}}",
+      "container-fallback": "Container #{{id}}"
     }
   },
   "privateContainer": {
@@ -198,8 +206,8 @@
       "gecko-reverse-sidebar": "Omvendt position af sidepanel",
       "gecko-hide-sidebar": "Skjul sidepanel",
       "gecko-toggle-sidebar": "Vis/skjul sidepanel",
-      "gecko-scroll-up": "Page Up",
-      "gecko-scroll-down": "Page Down",
+      "gecko-scroll-up": "Rul op",
+      "gecko-scroll-down": "Rul ned",
       "gecko-scroll-line-up": "Rul op",
       "gecko-scroll-line-down": "Rul ned",
       "gecko-scroll-right": "Rul til højre",

@@ -110,14 +110,22 @@
     "menu": {
       "webapps": "Webbappar",
       "install-current": "Installera nuvarande sida som progressiv webbapp",
-      "open-installed": "Öppna installerade appar"
+      "open-current": "Öppna app i vald behållare",
+      "open-installed": "Öppna installerade appar",
+      "container": "Behållare"
     },
     "page-action": {
       "title": "Öppna program",
       "install": "Installera program",
       "open": "Öppna program",
       "cancel": "Avbryt",
-      "site-icon": "Webbplatsikon"
+      "site-icon": "Webbplatsikon",
+      "container": "Behållare",
+      "no-container": "Ingen behållare"
+    },
+    "window": {
+      "container-tooltip": "Behållare: {{name}}",
+      "container-fallback": "Behållare #{{id}}"
     }
   },
   "privateContainer": {
@@ -198,8 +206,8 @@
       "gecko-reverse-sidebar": "Omvänd sidofältets position",
       "gecko-hide-sidebar": "Dölj sidofält",
       "gecko-toggle-sidebar": "Växla sidofält",
-      "gecko-scroll-up": "Sida upp",
-      "gecko-scroll-down": "Sida ned",
+      "gecko-scroll-up": "Scrolla uppåt",
+      "gecko-scroll-down": "Scrolla ner",
       "gecko-scroll-line-up": "Scrolla uppåt",
       "gecko-scroll-line-down": "Scrolla ner",
       "gecko-scroll-right": "Scrolla höger",

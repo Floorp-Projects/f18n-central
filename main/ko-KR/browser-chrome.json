@@ -110,14 +110,22 @@
     "menu": {
       "webapps": "웹 앱",
       "install-current": "현재 페이지를 프로그레시브 웹 앱으로서 설치",
-      "open-installed": "설치된 웹 앱 열기"
+      "open-current": "선택한 컨테이너에서 앱 열기",
+      "open-installed": "설치된 웹 앱 열기",
+      "container": "컨테이너"
     },
     "page-action": {
       "title": "애플리케이션 열기",
       "install": "애플리케이션 설치",
       "open": "애플리케이션 열기",
       "cancel": "취소",
-      "site-icon": "사이트 아이콘"
+      "site-icon": "사이트 아이콘",
+      "container": "컨테이너",
+      "no-container": "컨테이너 없음"
+    },
+    "window": {
+      "container-tooltip": "컨테이너: {{name}}",
+      "container-fallback": "컨테이너 #{{id}}"
     }
   },
   "privateContainer": {
@@ -198,8 +206,8 @@
       "gecko-reverse-sidebar": "사이드바 위치 반전",
       "gecko-hide-sidebar": "사이드바 숨기기",
       "gecko-toggle-sidebar": "사이드바 전환",
-      "gecko-scroll-up": "페이지 위로",
-      "gecko-scroll-down": "페이지 아래로",
+      "gecko-scroll-up": "위로 스크롤",
+      "gecko-scroll-down": "아래로 스크롤",
       "gecko-scroll-line-up": "위로 스크롤",
       "gecko-scroll-line-down": "아래로 스크롤",
       "gecko-scroll-right": "오른쪽으로 스크롤",
