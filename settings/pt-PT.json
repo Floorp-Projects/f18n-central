@@ -124,6 +124,7 @@
             "openNext": "Abrir junto ao separador atual",
             "other": "Outras definições dos separadores",
             "doubleClickToClose": "Fechar o separador com um duplo clique",
+            "tabDragToSplitCreate": "Allow creating split view by dragging tabs",
             "minWidth": "Largura mínima do separador",
             "minWidthError": "A largura do separador deve situar-se entre {{min}} e {{max}} píxeis.",
             "minHeight": "Altura mínima do separador",
