@@ -124,6 +124,7 @@
             "openNext": "Ouvrir à côté de l'onglet en cours",
             "other": "Autres paramètres d'onglets",
             "doubleClickToClose": "Fermer l'onglet en double-cliquant",
+            "tabDragToSplitCreate": "Allow creating split view by dragging tabs",
             "minWidth": "Largeur minimale des onglets",
             "minWidthError": "La largeur de l'onglet doit être comprise entre {{min}} et {{max}} pixels.",
             "minHeight": "Hauteur minimale de l'onglet",
