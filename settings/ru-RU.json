@@ -124,6 +124,7 @@
             "openNext": "Открыть рядом с текущей вкладкой",
             "other": "Другие настройки вкладки",
             "doubleClickToClose": "Закрывать вкладки при двойном нажатии на них",
+            "tabDragToSplitCreate": "Allow creating split view by dragging tabs",
             "minWidth": "Минимальная ширина вкладки",
             "minWidthError": "Ширина вкладки должна быть от {{min}} до {{max}} пикселей.",
             "minHeight": "Минимальная высота вкладки",
