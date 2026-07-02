@@ -124,6 +124,7 @@
             "openNext": "在当前标签页旁打开",
             "other": "其它标签设置",
             "doubleClickToClose": "双击关闭标签页",
+            "tabDragToSplitCreate": "Allow creating split view by dragging tabs",
             "minWidth": "最小标签宽度",
             "minWidthError": "标签宽度必须在 {{min}} 和 {{max}} 像素之间。",
             "minHeight": "最小标签宽度",
