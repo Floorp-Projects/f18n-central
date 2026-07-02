@@ -124,6 +124,7 @@
             "openNext": "Buka di samping tab saat ini",
             "other": "Pengaturan Tab Lainnya",
             "doubleClickToClose": "Tutup tab dengan klik ganda",
+            "tabDragToSplitCreate": "Allow creating split view by dragging tabs",
             "minWidth": "Lebar tab minimal",
             "minWidthError": "Lebar tab harus di antara {{min}} dan {{max}} piksel.",
             "minHeight": "Tinggi tab minimal",
