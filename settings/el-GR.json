@@ -124,6 +124,7 @@
             "openNext": "Άνοιγμα δίπλα στην τρέχουσα καρτέλα",
             "other": "Άλλες ρυθμίσεις καρτέλας",
             "doubleClickToClose": "Κλείσιμο καρτέλας με διπλό κλικ",
+            "tabDragToSplitCreate": "Allow creating split view by dragging tabs",
             "minWidth": "Ελάχιστο πλάτος καρτέλας",
             "minWidthError": "Το πλάτος της καρτέλας πρέπει να είναι μεταξύ {{min}} και {{max}} pixels.",
             "minHeight": "Ελάχιστο ύψος καρτέλας",
