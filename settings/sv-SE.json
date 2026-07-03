@@ -124,7 +124,7 @@
             "openNext": "Öppna bredvid den aktuella fliken",
             "other": "Andra flik inställningar",
             "doubleClickToClose": "Stäng flik genom att dubbelklicka",
-            "tabDragToSplitCreate": "Allow creating split view by dragging tabs",
+            "tabDragToSplitCreate": "Tillåt skapande av delad vy genom att dra flikar",
             "minWidth": "Minsta flikbredd",
             "minWidthError": "Flikens bredd måste vara mellan {{min}} och {{max}} pixlar.",
             "minHeight": "Minsta flikhöjd",
