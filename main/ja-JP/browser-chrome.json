@@ -451,30 +451,30 @@
   "ipProtection": {
     "title": "ブラウザー VPN",
     "toolbar": {
-      "activeTooltip": "Browser VPN is on for eligible web browsing traffic in Floorp",
-      "inactiveTooltip": "Browser VPN is off — web browsing traffic is not protected",
-      "excludedTooltip": "Browser VPN is off for this site — this site is not protected",
-      "pausedTooltip": "Browser VPN is paused — web browsing traffic is not protected",
-      "errorTooltip": "Browser VPN — connection error; eligible web browsing traffic is not protected",
-      "helpTooltip": "Open Browser VPN support page"
+      "activeTooltip": "ブラウザー VPN は有効です — 対象のウェブ通信に対して動作します",
+      "inactiveTooltip": "ブラウザー VPN は無効です — ウェブ通信は保護されません",
+      "excludedTooltip": "ブラウザー VPN はこのサイトでは無効です — ここでは保護されません",
+      "pausedTooltip": "ブラウザー VPN は一時停止中です — ウェブ通信は保護されません",
+      "errorTooltip": "ブラウザー VPN — 接続エラー。対象のウェブ通信は保護されません",
+      "helpTooltip": "ブラウザー VPN のサポートページを開く"
     },
     "scope": {
-      "summary": "When active, Browser VPN can protect eligible web browsing traffic in Floorp. Its scope does not include your operating system or other apps.",
-      "fullDisclosure": "This feature uses a Mozilla account and Mozilla service infrastructure. Floorp is an independent project and is not affiliated with, endorsed by, or sponsored by Mozilla. Availability depends on your region, account status, and Mozilla’s service eligibility requirements."
+      "summary": "有効の場合、ブラウザー VPN は Floorp 内の対象となるウェブブラウジングトラフィックを保護します。お使いの OS やその他のアプリは保護対象に含まれません。",
+      "fullDisclosure": "この機能は、Mozilla アカウントおよび Mozilla のサービス基盤を利用しています。Floorp は独立したプロジェクトであり、Mozilla との提携、承認または後援を受けておりません。ご利用の可否は、お住まいの地域、アカウントの状態、および Mozilla のサービス利用要件によります。"
     },
     "unauthenticated": {
-      "title": "Try Browser VPN"
+      "title": "ブラウザー VPN を試す"
     },
     "settings": {
-      "promoHeading": "Try Browser VPN",
-      "promoMessage": "Protect eligible web browsing traffic in Floorp after signing in and confirming service availability."
+      "promoHeading": "ブラウザー VPN を試す",
+      "promoMessage": "Floorp 内の対象となるウェブブラウジングトラフィックを保護しましょう。ログインすると利用可否を確認できます。"
     },
     "terms": {
-      "prefix": "By continuing, you agree to ",
-      "termsOfUse": "Mozilla Firefox Terms of Use",
-      "conjunction": " and acknowledge ",
-      "privacyNotice": "Mozilla Firefox Privacy Notice",
-      "suffix": "."
+      "prefix": "続行することで、",
+      "termsOfUse": "Mozilla Firefox の利用規約",
+      "conjunction": "に同意し、",
+      "privacyNotice": "Mozilla Firefox のプライバシー通知",
+      "suffix": "を承認したものとみなします。"
     }
   },
   "commandPalette": {
