@@ -449,7 +449,7 @@
     "menu-label": "禅モードの表示を切り替える"
   },
   "ipProtection": {
-    "title": "Browser VPN",
+    "title": "ブラウザー VPN",
     "toolbar": {
       "activeTooltip": "Browser VPN is on for eligible web browsing traffic in Floorp",
       "inactiveTooltip": "Browser VPN is off — web browsing traffic is not protected",
