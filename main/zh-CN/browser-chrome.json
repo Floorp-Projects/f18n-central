@@ -449,24 +449,24 @@
     "menu-label": "开启/关闭禅模式"
   },
   "ipProtection": {
-    "title": "Browser VPN",
+    "title": "浏览器 VPN",
     "toolbar": {
-      "activeTooltip": "Browser VPN is on for eligible web browsing traffic in Floorp",
+      "activeTooltip": "瀏覽器 VPN 已针对 Floorp 中符合条件的网页浏览流量开启",
       "inactiveTooltip": "Browser VPN is off — web browsing traffic is not protected",
       "excludedTooltip": "Browser VPN is off for this site — this site is not protected",
       "pausedTooltip": "Browser VPN is paused — web browsing traffic is not protected",
       "errorTooltip": "Browser VPN — connection error; eligible web browsing traffic is not protected",
-      "helpTooltip": "Open Browser VPN support page"
+      "helpTooltip": "打开浏览器 VPN 支持页面"
     },
     "scope": {
       "summary": "When active, Browser VPN can protect eligible web browsing traffic in Floorp. Its scope does not include your operating system or other apps.",
-      "fullDisclosure": "This feature uses a Mozilla account and Mozilla service infrastructure. Floorp is an independent project and is not affiliated with, endorsed by, or sponsored by Mozilla. Availability depends on your region, account status, and Mozilla’s service eligibility requirements."
+      "fullDisclosure": "此功能使用 Mozilla 账户和 Mozilla 服务。Floorp 是一个独立项目，与 Mozilla 并无隶属关系，亦未获得 Mozilla 的认可或赞助。该功能的可用性取决于您的所在地区、账户状态以及 Mozilla 的服务资格条件。"
     },
     "unauthenticated": {
-      "title": "Try Browser VPN"
+      "title": "试用浏览器VPN"
     },
     "settings": {
-      "promoHeading": "Try Browser VPN",
+      "promoHeading": "试用浏览器VPN",
       "promoMessage": "Protect eligible web browsing traffic in Floorp after signing in and confirming service availability."
     },
     "terms": {
