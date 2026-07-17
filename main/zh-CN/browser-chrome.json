@@ -313,7 +313,7 @@
     "create": "创建样式",
     "open_folder": "打开样式文件夹",
     "edit_user_chrome": "编辑 userChrome.css",
-    "edit_user_content": "编辑 userChrome.css",
+    "edit_user_content": "编辑 userContent.css",
     "rebuild_complete": "样式已重重载",
     "editor_path_not_found": "未找到编辑器路径",
     "set_pref_description": "请设置编辑器路径",
