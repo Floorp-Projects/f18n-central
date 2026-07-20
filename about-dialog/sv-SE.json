@@ -7,40 +7,40 @@
       "esr": "ESR"
     },
     "update": {
-      "idle": "Check for updates",
-      "checking": "Checking for updates…",
-      "checkFailed": "Couldn't check for updates. Try again later.",
-      "upToDate": "You're up to date.",
-      "downloading": "Downloading update… {{progress}}",
-      "applying": "Installing update…",
-      "readyToRestart": "Update ready — restart to apply.",
-      "restarting": "Restarting…",
-      "policyDisabled": "Updates are managed by your organisation.",
-      "downloadFailed": "Download failed. Please try again.",
-      "noUpdater": "Updates are managed externally.",
-      "available": "Download update {{version}}",
-      "tryAgain": "Try again",
-      "restartToApply": "Restart to apply update"
+      "idle": "Sök efter uppdateringar",
+      "checking": "Söker efter uppdateringar…",
+      "checkFailed": "Kunde inte söka efter uppdateringar. Försök igen senare.",
+      "upToDate": "Du är uppdaterad.",
+      "downloading": "Laddar ner uppdatering… {{progress}}",
+      "applying": "Installerar uppdatering…",
+      "readyToRestart": "Uppdateringen är klar – starta om för att tillämpa den.",
+      "restarting": "Startar om…",
+      "policyDisabled": "Uppdateringar hanteras av din organisation.",
+      "downloadFailed": "Nedladdningen misslyckades. Försök igen senare.",
+      "noUpdater": "Uppdateringar hanteras externt.",
+      "available": "Ladda ner uppdatering {{version}}",
+      "tryAgain": "Försök igen",
+      "restartToApply": "Starta om för att tillämpa uppdatering"
     },
     "community": {
-      "title": "Join the Community"
+      "title": "Gå med i gemenskapen"
     },
     "help": {
-      "title": "Help & Support",
+      "title": "Hjälp & support",
       "support": "Support"
     },
     "sponsor": {
-      "title": "Support the Project",
-      "button": "Become a Sponsor"
+      "title": "Stöd projektet",
+      "button": "Bli en sponsor"
     },
     "links": {
-      "releaseNotes": "Release Notes",
-      "help": "Floorp Help",
-      "feedback": "Submit Feedback",
+      "releaseNotes": "Versionsinformation",
+      "help": "Floorp hjälp",
+      "feedback": "Skicka in feedback",
       "licensing": "Licens",
-      "terms": "Terms of Service",
-      "privacy": "Privacy Policy"
+      "terms": "Användarvillkor",
+      "privacy": "Integritetspolicy"
     },
-    "trademark": "The name Floorp is a trademark in Japan."
+    "trademark": "Namnet Floorp är ett varumärke i Japan."
   }
 }
