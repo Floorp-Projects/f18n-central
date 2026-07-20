@@ -7,12 +7,12 @@
       "esr": "ESR"
     },
     "update": {
-      "idle": "Check for updates",
-      "checking": "Checking for updates…",
-      "checkFailed": "Couldn't check for updates. Try again later.",
-      "upToDate": "You're up to date.",
-      "downloading": "Downloading update… {{progress}}",
-      "applying": "Installing update…",
+      "idle": "업데이트 확인",
+      "checking": "업데이트 확인 중…",
+      "checkFailed": "업데이트를 확인할 수 없습니다. 나중에 다시 시도하세요.",
+      "upToDate": "최신 버전입니다.",
+      "downloading": "업데이트 다운로드 중… {{progress}}",
+      "applying": "업데이트 설치 중…",
       "readyToRestart": "Update ready — restart to apply.",
       "restarting": "Restarting…",
       "policyDisabled": "Updates are managed by your organisation.",
