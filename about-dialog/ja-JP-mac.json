@@ -7,40 +7,40 @@
       "esr": "ESR"
     },
     "update": {
-      "idle": "Check for updates",
-      "checking": "Checking for updates…",
-      "checkFailed": "Couldn't check for updates. Try again later.",
-      "upToDate": "You're up to date.",
-      "downloading": "Downloading update… {{progress}}",
-      "applying": "Installing update…",
-      "readyToRestart": "Update ready — restart to apply.",
-      "restarting": "Restarting…",
-      "policyDisabled": "Updates are managed by your organisation.",
-      "downloadFailed": "Download failed. Please try again.",
-      "noUpdater": "Updates are managed externally.",
-      "available": "Download update {{version}}",
-      "tryAgain": "Try again",
-      "restartToApply": "Restart to apply update"
+      "idle": "更新を確認",
+      "checking": "更新を確認中…",
+      "checkFailed": "更新を確認できませんでした。後でもう一度お試しください。",
+      "upToDate": "最新の状態です。",
+      "downloading": "更新をダウンロード中… {{progress}}",
+      "applying": "更新をインストール中…",
+      "readyToRestart": "更新準備完了 — 再起動後に適用されます。",
+      "restarting": "再起動中…",
+      "policyDisabled": "更新は所属組織によって管理されています。",
+      "downloadFailed": "ダウンロードに失敗しました。もう一度お試しください。",
+      "noUpdater": "更新は外部で管理されています。",
+      "available": "更新データ {{version}} をダウンロード",
+      "tryAgain": "再試行",
+      "restartToApply": "再起動して更新を適用"
     },
     "community": {
-      "title": "Join the Community"
+      "title": "コミュニティに参加"
     },
     "help": {
-      "title": "Help & Support",
+      "title": "ヘルプとサポート",
       "support": "サポート"
     },
     "sponsor": {
-      "title": "Support the Project",
-      "button": "Become a Sponsor"
+      "title": "プロジェクトを支援",
+      "button": "スポンサーになる"
     },
     "links": {
-      "releaseNotes": "Release Notes",
-      "help": "Floorp Help",
-      "feedback": "Submit Feedback",
+      "releaseNotes": "リリースノート",
+      "help": "Floorp ヘルプ",
+      "feedback": "フィードバックを送る",
       "licensing": "ライセンス",
-      "terms": "Terms of Service",
-      "privacy": "Privacy Policy"
+      "terms": "利用規約",
+      "privacy": "プライバシーポリシー"
     },
-    "trademark": "The name Floorp is a trademark in Japan."
+    "trademark": "Floorp の名称は日本国における商標です。"
   }
 }
