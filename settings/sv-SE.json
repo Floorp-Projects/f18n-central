@@ -302,10 +302,10 @@
         "versionInfo": "Version",
         "license": "Licens",
         "noraneko": {
-            "logoAlt": "Browser Logo",
-            "description": "Noraneko is a browser as testhead of Floorp 12. Floorp is based on Firefox & Noraneko.",
-            "communityCredit": "Made by Noraneko Community with ❤",
-            "repositoryLabel": "GitHub Repository: Floorp-Projects/Floorp"
+            "logoAlt": "Webbläsarens logotyp",
+            "description": "Noraneko är en webbläsare som används som testmiljö för Floorp 12. Floorp bygger på Firefox och Noraneko.",
+            "communityCredit": "Skapad av Noraneko gemenskapen med ❤",
+            "repositoryLabel": "GitHub-arkiv: Floorp-Projects/Floorp"
         }
     },
     "updates": {
