@@ -7,40 +7,40 @@
       "esr": "ESR"
     },
     "update": {
-      "idle": "Check for updates",
-      "checking": "Checking for updates…",
-      "checkFailed": "Couldn't check for updates. Try again later.",
-      "upToDate": "You're up to date.",
-      "downloading": "Downloading update… {{progress}}",
-      "applying": "Installing update…",
-      "readyToRestart": "Update ready — restart to apply.",
-      "restarting": "Restarting…",
-      "policyDisabled": "Updates are managed by your organisation.",
-      "downloadFailed": "Download failed. Please try again.",
-      "noUpdater": "Updates are managed externally.",
-      "available": "Download update {{version}}",
-      "tryAgain": "Try again",
-      "restartToApply": "Restart to apply update"
+      "idle": "Periksa pembaruan",
+      "checking": "Memeriksa pembaruan…",
+      "checkFailed": "Tidak bisa memeriksa pembaruan. Coba lagi nanti.",
+      "upToDate": "Sudah mutakhir.",
+      "downloading": "Mengunduh pembaruan… {{progress}}",
+      "applying": "Memasang pembaruan…",
+      "readyToRestart": "Pembaruan siap — mulai ulang untuk menerapkan.",
+      "restarting": "Memulai ulang…",
+      "policyDisabled": "Pembaruan dikelola oleh organisasi Anda.",
+      "downloadFailed": "Pengunduhan gagal. Silakan coba lagi.",
+      "noUpdater": "Pembaruan dikelola secara eksternal.",
+      "available": "Unduh pembaruan {{version}}",
+      "tryAgain": "Coba lagi",
+      "restartToApply": "Mulai ulang untuk menerapkan pembaruan"
     },
     "community": {
-      "title": "Join the Community"
+      "title": "Bergabunglah dengan Komunitas"
     },
     "help": {
-      "title": "Help & Support",
+      "title": "Bantuan dan Dukungan",
       "support": "Dukungan"
     },
     "sponsor": {
-      "title": "Support the Project",
-      "button": "Become a Sponsor"
+      "title": "Dukung Proyek Ini",
+      "button": "Jadilah Sponsor Kami"
     },
     "links": {
-      "releaseNotes": "Release Notes",
-      "help": "Floorp Help",
-      "feedback": "Submit Feedback",
+      "releaseNotes": "Catatan Rilis",
+      "help": "Bantuan Floorp",
+      "feedback": "Kirim Umpan Balik",
       "licensing": "Lisensi",
-      "terms": "Terms of Service",
-      "privacy": "Privacy Policy"
+      "terms": "Ketentuan Layanan",
+      "privacy": "Kebijakan Privasi"
     },
-    "trademark": "The name Floorp is a trademark in Japan."
+    "trademark": "Nama Floorp merupakan merek dagang di Jepang."
   }
 }
