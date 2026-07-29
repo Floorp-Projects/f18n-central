@@ -456,24 +456,24 @@
       "excludedTooltip": "Floorp VPN est désactivé pour ce site - le trafic web vers ce site n'est pas protégé",
       "pausedTooltip": "Floorp VPN est suspendu - le trafic web dans Floorp n'est pas protégé",
       "errorTooltip": "Floorp VPN - erreur de connexion ; le trafic web dans Floorp n'est pas protégé",
-      "helpTooltip": "Open Browser VPN support page"
+      "helpTooltip": "Ouvrir la page de support de Floorp VPN"
     },
     "scope": {
-      "summary": "When active, Browser VPN can protect eligible web browsing traffic in Floorp. Its scope does not include your operating system or other apps.",
-      "fullDisclosure": "This feature uses a Mozilla account and Mozilla service infrastructure. Floorp is an independent project and is not affiliated with, endorsed by, or sponsored by Mozilla. Availability depends on your region, account status, and Mozilla’s service eligibility requirements."
+      "summary": "Lorsqu'il est activé,  Floorp VPN peut protéger le trafic web de Floorp. Son champ d'application n'inclut pas votre système d'exploitation ni les autres applications.",
+      "fullDisclosure": "Cette fonctionnalité utilise un compte Mozilla et l'infrastructure des services Mozilla. Floorp est un projet indépendant qui n'est ni affilié à Mozilla, ni approuvé ni parrainé par cette dernière. Sa disponibilité dépend de votre région, de l'état de votre compte et des conditions d'éligibilité aux services de Mozilla."
     },
     "unauthenticated": {
       "title": "Essayez le VPN intégré à Floorp"
     },
     "settings": {
       "promoHeading": "Essayez le VPN intégré à Floorp",
-      "promoMessage": "Protect eligible web browsing traffic in Floorp after signing in and confirming service availability."
+      "promoMessage": "Protégez le trafic web dans Floorp après vous être connecté et avoir vérifié la disponibilité du service."
     },
     "terms": {
-      "prefix": "By continuing, you agree to ",
-      "termsOfUse": "Mozilla Firefox Terms of Use",
-      "conjunction": " and acknowledge ",
-      "privacyNotice": "Mozilla Firefox Privacy Notice",
+      "prefix": "En poursuivant, vous acceptez de ",
+      "termsOfUse": "Conditions d'utilisation de Mozilla Firefox",
+      "conjunction": " et reconnaissez ",
+      "privacyNotice": "Politique de confidentialité de Mozilla Firefox",
       "suffix": "."
     }
   },
