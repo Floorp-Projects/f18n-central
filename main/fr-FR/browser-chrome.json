@@ -449,13 +449,13 @@
     "menu-label": "Permuter le mode Zen"
   },
   "ipProtection": {
-    "title": "Browser VPN",
+    "title": "Floorp VPN",
     "toolbar": {
-      "activeTooltip": "Browser VPN is on for eligible web browsing traffic in Floorp",
-      "inactiveTooltip": "Browser VPN is off — web browsing traffic is not protected",
-      "excludedTooltip": "Browser VPN is off for this site — this site is not protected",
-      "pausedTooltip": "Browser VPN is paused — web browsing traffic is not protected",
-      "errorTooltip": "Browser VPN — connection error; eligible web browsing traffic is not protected",
+      "activeTooltip": "Floorp VPN est activé pour le trafic web dans Floorp",
+      "inactiveTooltip": "Floorp VPN est désactivé - le trafic web dans Floorp n'est pas protégé",
+      "excludedTooltip": "Floorp VPN est désactivé pour ce site - le trafic web vers ce site n'est pas protégé",
+      "pausedTooltip": "Floorp VPN est suspendu - le trafic web dans Floorp n'est pas protégé",
+      "errorTooltip": "Floorp VPN - erreur de connexion ; le trafic web dans Floorp n'est pas protégé",
       "helpTooltip": "Open Browser VPN support page"
     },
     "scope": {
@@ -463,10 +463,10 @@
       "fullDisclosure": "This feature uses a Mozilla account and Mozilla service infrastructure. Floorp is an independent project and is not affiliated with, endorsed by, or sponsored by Mozilla. Availability depends on your region, account status, and Mozilla’s service eligibility requirements."
     },
     "unauthenticated": {
-      "title": "Try Browser VPN"
+      "title": "Essayez le VPN intégré à Floorp"
     },
     "settings": {
-      "promoHeading": "Try Browser VPN",
+      "promoHeading": "Essayez le VPN intégré à Floorp",
       "promoMessage": "Protect eligible web browsing traffic in Floorp after signing in and confirming service availability."
     },
     "terms": {
