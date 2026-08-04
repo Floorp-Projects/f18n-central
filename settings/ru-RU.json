@@ -676,6 +676,9 @@
         "action": "Действие",
         "shortcut": "Сочетание",
         "actions": "Действия",
+        "actionLabels": {
+            "floorp-edit-tab-url": "Edit Tab URL"
+        },
         "notSet": "Не задана",
         "add": "Добавить",
         "edit": "Изменить",
