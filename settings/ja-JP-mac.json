@@ -302,10 +302,10 @@
         "versionInfo": "バージョン",
         "license": "ライセンス",
         "noraneko": {
-            "logoAlt": "Browser Logo",
-            "description": "Noraneko is a browser as testhead of Floorp 12. Floorp is based on Firefox & Noraneko.",
-            "communityCredit": "Made by Noraneko Community with ❤",
-            "repositoryLabel": "GitHub Repository: Floorp-Projects/Floorp"
+            "logoAlt": "ブラウザーのロゴ",
+            "description": "Noraneko は Floorp 12 のテストヘッドブラウザーです。Floorp は Firefox と Noraneko をベースにしています。",
+            "communityCredit": "Noraneko コミュニティより ❤ を込めて制作",
+            "repositoryLabel": "GitHub リポジトリ: Floorp-Projects/Floorp"
         }
     },
     "updates": {
@@ -677,7 +677,7 @@
         "shortcut": "ショートカット",
         "actions": "アクション",
         "actionLabels": {
-            "floorp-edit-tab-url": "Edit Tab URL"
+            "floorp-edit-tab-url": "タブの URL を編集"
         },
         "notSet": "未設定",
         "add": "追加",
