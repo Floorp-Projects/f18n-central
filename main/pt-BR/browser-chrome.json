@@ -1,6 +1,6 @@
 {
   "tab-refresh": {
-    "reload": "Reload tab"
+    "reload": "Recarregar aba"
   },
   "undo-closed-tab": {
     "label": "Reabrir aba",
@@ -137,9 +137,9 @@
     "name": "Contêiner privado"
   },
   "tabInlineEdit": {
-    "contextMenu": "Edit Tab URL",
-    "inputLabel": "Tab URL",
-    "keyboardAction": "Edit Tab URL"
+    "contextMenu": "Editar URL da aba",
+    "inputLabel": "URL da aba",
+    "keyboardAction": "Editar URL da aba"
   },
   "mouseGesture": {
     "actions": {
