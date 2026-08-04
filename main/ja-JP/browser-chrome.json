@@ -1,6 +1,6 @@
 {
   "tab-refresh": {
-    "reload": "Reload tab"
+    "reload": "タブを再読み込み"
   },
   "undo-closed-tab": {
     "label": "閉じたタブを元に戻す",
@@ -137,9 +137,9 @@
     "name": "プライベートコンテナー"
   },
   "tabInlineEdit": {
-    "contextMenu": "Edit Tab URL",
-    "inputLabel": "Tab URL",
-    "keyboardAction": "Edit Tab URL"
+    "contextMenu": "タブの URL を編集",
+    "inputLabel": "タブの URL",
+    "keyboardAction": "タブの URL を編集"
   },
   "mouseGesture": {
     "actions": {
