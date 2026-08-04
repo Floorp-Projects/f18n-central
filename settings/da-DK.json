@@ -676,6 +676,9 @@
         "action": "Handling",
         "shortcut": "Genvej",
         "actions": "Handlinger",
+        "actionLabels": {
+            "floorp-edit-tab-url": "Edit Tab URL"
+        },
         "notSet": "Ikke indstillet",
         "add": "Tilføj ",
         "edit": "Rediger",
