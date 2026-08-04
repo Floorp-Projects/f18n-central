@@ -676,6 +676,9 @@
         "action": "Åtgärd",
         "shortcut": "Genväg",
         "actions": "Åtgärder",
+        "actionLabels": {
+            "floorp-edit-tab-url": "Edit Tab URL"
+        },
         "notSet": "Inte anget",
         "add": "Lägg till",
         "edit": "Redigera",
