@@ -676,6 +676,9 @@
         "action": "动作",
         "shortcut": "快捷键",
         "actions": "操作",
+        "actionLabels": {
+            "floorp-edit-tab-url": "Edit Tab URL"
+        },
         "notSet": "未设置",
         "add": "添加",
         "edit": "编辑",
