@@ -676,6 +676,9 @@
         "action": "Eylem",
         "shortcut": "Kısayol",
         "actions": "Eylemler",
+        "actionLabels": {
+            "floorp-edit-tab-url": "Edit Tab URL"
+        },
         "notSet": "Ayarlanmadı",
         "add": "Ekle",
         "edit": "Düzenle",
