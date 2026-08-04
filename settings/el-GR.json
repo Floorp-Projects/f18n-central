@@ -676,6 +676,9 @@
         "action": "Δράση",
         "shortcut": "Συντόμευση",
         "actions": "Δράσεις",
+        "actionLabels": {
+            "floorp-edit-tab-url": "Edit Tab URL"
+        },
         "notSet": "Δεν ορίστηκε",
         "add": "Προσθήκη",
         "edit": "Επεξεργασία",
