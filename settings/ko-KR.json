@@ -677,7 +677,7 @@
         "shortcut": "단축키",
         "actions": "동작",
         "actionLabels": {
-            "floorp-edit-tab-url": "Edit Tab URL"
+            "floorp-edit-tab-url": "탭 URL 편집"
         },
         "notSet": "설정되지 않음",
         "add": "추가",
