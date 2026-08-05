@@ -1,6 +1,6 @@
 {
   "tab-refresh": {
-    "reload": "Reload tab"
+    "reload": "탭 새로 고침"
   },
   "undo-closed-tab": {
     "label": "닫은 탭 되돌리기",
@@ -137,9 +137,9 @@
     "name": "사생활 보호 컨테이너"
   },
   "tabInlineEdit": {
-    "contextMenu": "Edit Tab URL",
-    "inputLabel": "Tab URL",
-    "keyboardAction": "Edit Tab URL"
+    "contextMenu": "탭 URL 편집",
+    "inputLabel": "탭 URL",
+    "keyboardAction": "탭 URL 편집"
   },
   "mouseGesture": {
     "actions": {
