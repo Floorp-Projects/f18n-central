@@ -677,7 +677,7 @@
         "shortcut": "Genväg",
         "actions": "Åtgärder",
         "actionLabels": {
-            "floorp-edit-tab-url": "Edit Tab URL"
+            "floorp-edit-tab-url": "Redigera flikens URL"
         },
         "notSet": "Inte anget",
         "add": "Lägg till",
