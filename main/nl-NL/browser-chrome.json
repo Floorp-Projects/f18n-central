@@ -394,7 +394,7 @@
       "noData": "Geen installatiegegevens beschikbaar",
       "addonManagerUnavailable": "AddonManager is not available",
       "noBrowserWindow": "Could not find browser window for installation",
-      "createInstallFailed": "Failed to create installation object",
+      "createInstallFailed": "Aanmaken van installatie-object mislukt",
       "cancelledByUser": "Installation cancelled by user",
       "downloadCancelled": "Download cancelled",
       "timeout": "Installation timed out",
@@ -417,7 +417,7 @@
   },
   "addons": {
     "notification": {
-      "chromeExtensionMessage": "Do you want to add Chrome extension \"{{name}}\"? This extension has been converted from Chrome Web Store.",
+      "chromeExtensionMessage": "Wil je de Chrome extensie \"{{name}}\" toevoegen? Deze extensie is geconverteerd vanuit de Chrome Web Store.",
       "chromeExtensionPrompt": "Do you want to add Chrome extension \"{{name}}\"?",
       "defaultExtensionName": "this extension",
       "chromeBadge": "[Chrome]",
@@ -475,7 +475,7 @@
     },
     "settings": {
       "promoHeading": "Try Browser VPN",
-      "promoMessage": "Protect eligible web browsing traffic in Floorp after signing in and confirming service availability."
+      "promoMessage": "Log in en controleer de beschikbaarheid van de service om ondersteund webverkeer in Floorp te beschermen."
     },
     "terms": {
       "prefix": "By continuing, you agree to ",
