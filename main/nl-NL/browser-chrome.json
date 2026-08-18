@@ -395,7 +395,7 @@
       "addonManagerUnavailable": "AddonManager is not available",
       "noBrowserWindow": "Could not find browser window for installation",
       "createInstallFailed": "Aanmaken van installatie-object mislukt",
-      "cancelledByUser": "Installation cancelled by user",
+      "cancelledByUser": "Installatie geannuleerd door gebruiker",
       "downloadCancelled": "Download cancelled",
       "timeout": "Installation timed out",
       "xpiInstallError": "XPI installation error: {{error}}",
@@ -478,7 +478,7 @@
       "promoMessage": "Log in en controleer de beschikbaarheid van de service om ondersteund webverkeer in Floorp te beschermen."
     },
     "terms": {
-      "prefix": "By continuing, you agree to ",
+      "prefix": "Door verder te gaan, ga je akkoord met ",
       "termsOfUse": "Mozilla Firefox Terms of Use",
       "conjunction": " and acknowledge ",
       "privacyNotice": "Mozilla Firefox Privacy Notice",
