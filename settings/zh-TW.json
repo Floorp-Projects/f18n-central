@@ -215,6 +215,14 @@
             "exampleWildcard": "匹配 google.com 的所有子域",
             "exampleFullUrl": "僅匹配 Gmail URL"
         },
+        "tabStacks": {
+            "title": "Tab Stacks",
+            "description": "Group tabs into stacks, shown as a chip in the tab bar with a second row of stacked tabs underneath.",
+            "enableOrDisable": "啟用/停用",
+            "enableTabStacks": "Enable tab stacks",
+            "enableTabStacksDescription": "Tab stacks present grouped tabs as a chip in the tab bar. A restart of {{productName}} is required after changing this setting.",
+            "needRestartDescriptionForEnableAndDisable": "A restart of {{productName}} is required to completely enable or disable the tab stacks feature."
+        },
         "uiCustomization": {
             "title": "介面客製化",
             "needRestartDescriptionForEnableAndDisable": "要完全啟用或停用此介面客製化功能，必須重新啟動 {{productName}}。",
