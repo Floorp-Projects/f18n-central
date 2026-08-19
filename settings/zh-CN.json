@@ -215,6 +215,14 @@
             "exampleWildcard": "匹配 google.com 的所有子域名",
             "exampleFullUrl": "仅匹配 Gmail 网址"
         },
+        "tabStacks": {
+            "title": "Tab Stacks",
+            "description": "Group tabs into stacks, shown as a chip in the tab bar with a second row of stacked tabs underneath.",
+            "enableOrDisable": "启用/禁用",
+            "enableTabStacks": "Enable tab stacks",
+            "enableTabStacksDescription": "Tab stacks present grouped tabs as a chip in the tab bar. A restart of {{productName}} is required after changing this setting.",
+            "needRestartDescriptionForEnableAndDisable": "A restart of {{productName}} is required to completely enable or disable the tab stacks feature."
+        },
         "uiCustomization": {
             "title": "自定义界面",
             "needRestartDescriptionForEnableAndDisable": "要完全启用或禁用此用户界面定制功能，需要重新启动 {{productName}}。",
