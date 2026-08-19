@@ -516,6 +516,10 @@
     "stepIndicator": "Steg {{current}} av {{total}}",
     "backToCommands": "Tillbaka till kommandon",
     "openUrl": "Öppna URL",
+    "openUrlContainerStepLabel": "Open in container",
+    "openUrlContainerStepPlaceholder": "Välj en behållare...",
+    "openUrlContainerWorkspaceDefault": "Workspace Default",
+    "openUrlContainerWorkspaceDefaultDesc": "Uses the workspace's default context",
     "openUrlDescription": "Öppna en URL i ny flik",
     "openUrlStepLabel": "Ange URL för att öppna",
     "openUrlStepPlaceholder": "https://exempel.com",
@@ -580,7 +584,17 @@
     "bookmarkSwitcher": "Växla bokmärke",
     "bookmarkSwitcherDescription": "Öppna en bokmärkt sida",
     "bookmarkSwitcherStepLabel": "Välj ett bokmärke",
-    "bookmarkSwitcherStepPlaceholder": "Sök eller välj ett bokmärke..."
+    "bookmarkSwitcherStepPlaceholder": "Sök eller välj ett bokmärke...",
+    "bookmarkSwitcherContainerStepLabel": "Open in container",
+    "bookmarkSwitcherContainerStepPlaceholder": "Välj en behållare...",
+    "bookmarkSwitcherWhereBackgroundTab": "Bakgrundsflik",
+    "bookmarkSwitcherWhereBackgroundTabDesc": "Öppna i ny bakgrundsflik",
+    "bookmarkSwitcherWhereCurrentTab": "Nuvarande flik",
+    "bookmarkSwitcherWhereCurrentTabDesc": "Navigera nuvarande flik",
+    "bookmarkSwitcherWhereLabel": "Var att öppna",
+    "bookmarkSwitcherWhereNewTab": "Ny flik",
+    "bookmarkSwitcherWhereNewTabDesc": "Öppna i en ny förgrundsflik",
+    "bookmarkSwitcherWherePlaceholder": "Välj var du vill öppna..."
   },
   "commandPaletteReadings": {}
 }
