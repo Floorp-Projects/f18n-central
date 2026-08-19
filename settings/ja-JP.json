@@ -131,13 +131,13 @@
             "minHeightError": "タブの高さは、 {{min}} から {{max}} ピクセルの間でなければなりません。"
         },
         "tabWindowBehavior": {
-            "title": "Tab and window behavior",
-            "description": "Control where links open and distinguish browser windows from Windows taskbar tab previews.",
-            "openLinks": "Open links that request a new window",
-            "openLinksDescription": "Choose whether links that request a new window open in the current window, a new window, or a new tab.",
-            "openCurrentWindowOrTab": "Current window or tab",
-            "openNewWindow": "New window",
-            "openNewTab": "New tab",
+            "title": "タブとウィンドウの動作",
+            "description": "リンクを開く場所を制御したり、ブラウザーウィンドウと Windows タスクバーのタブプレビューを区別できます。",
+            "openLinks": "新しいウィンドウで開くことを求めるリンク",
+            "openLinksDescription": "新しいウィンドウで開くよう求めてくるリンクを、現在のウィンドウ、新しいウィンドウ、新しいタブのどれで開くかを選択します。",
+            "openCurrentWindowOrTab": "現在のウィンドウまたはタブ",
+            "openNewWindow": "新しいウィンドウ",
+            "openNewTab": "新しいタブ",
             "taskbarPreviews": "Show tab previews in the taskbar",
             "taskbarPreviewsDescription": "This changes only the Windows taskbar display. It does not create additional browser windows.",
             "taskbarPreviewsUnavailable": "This option is available on Windows only."
