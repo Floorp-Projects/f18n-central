@@ -215,6 +215,14 @@
             "exampleWildcard": "google.com의 모든 하위 도메인과 일치합니다.",
             "exampleFullUrl": "Gmail URL만 일치"
         },
+        "tabStacks": {
+            "title": "Tab Stacks",
+            "description": "Group tabs into stacks, shown as a chip in the tab bar with a second row of stacked tabs underneath.",
+            "enableOrDisable": "활성화/비활성화",
+            "enableTabStacks": "Enable tab stacks",
+            "enableTabStacksDescription": "Tab stacks present grouped tabs as a chip in the tab bar. A restart of {{productName}} is required after changing this setting.",
+            "needRestartDescriptionForEnableAndDisable": "A restart of {{productName}} is required to completely enable or disable the tab stacks feature."
+        },
         "uiCustomization": {
             "title": "UI 맞춤 설정",
             "needRestartDescriptionForEnableAndDisable": "이 UI 사용자 지정 기능을 완전히 활성화 또는 비활성화하려면 {{productName}} 을 다시 시작해야 합니다.",
