@@ -130,6 +130,18 @@
             "minHeight": "최소 탭 높이",
             "minHeightError": "탭 높이는 {{min}} ~ {{max}} 픽셀 사이여야 합니다."
         },
+        "tabWindowBehavior": {
+            "title": "Tab and window behavior",
+            "description": "Control where links open and distinguish browser windows from Windows taskbar tab previews.",
+            "openLinks": "Open links that request a new window",
+            "openLinksDescription": "Choose whether links that request a new window open in the current window, a new window, or a new tab.",
+            "openCurrentWindowOrTab": "Current window or tab",
+            "openNewWindow": "New window",
+            "openNewTab": "New tab",
+            "taskbarPreviews": "Show tab previews in the taskbar",
+            "taskbarPreviewsDescription": "This changes only the Windows taskbar display. It does not create additional browser windows.",
+            "taskbarPreviewsUnavailable": "This option is available on Windows only."
+        },
         "lepton-preferences": {
             "title": "Lepton 설정",
             "description": "고급 Lepton 테마 환경 설정 구성",
@@ -511,6 +523,8 @@
     },
     "mouseGesture": {
         "description": "마우스를 움직여 브라우저를 제어하세요.",
+        "saving": "Saving mouse gesture settings…",
+        "saveError": "Mouse gesture settings could not be saved. Your previous settings are still active.",
         "generalSettings": "일반 설정",
         "generalSettingsDescription": "기본 마우스 제스처 설정",
         "enabled": "마우스 제스처 사용",
@@ -547,6 +561,10 @@
         "rockerRightLeft": "우 → 좌",
         "rockerRightLeftDescription": "오른쪽 버튼을 누른 채, 좌클릭합니다.",
         "wheelGesturesEnabled": "휠 제스처 활성화",
+        "wheelScrollUp": "위로 스크롤",
+        "wheelScrollUpDescription": "Action when scrolling the wheel up while holding the right button",
+        "wheelScrollDown": "아래로 스크롤",
+        "wheelScrollDownDescription": "Action when scrolling the wheel down while holding the right button",
         "actions": {
             "gecko-back": "뒤로",
             "gecko-forward": "앞으로",
