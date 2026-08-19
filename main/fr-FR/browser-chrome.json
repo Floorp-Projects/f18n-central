@@ -516,6 +516,10 @@
     "stepIndicator": "Étape {{current}} sur {{total}}",
     "backToCommands": "Retour aux commandes",
     "openUrl": "Ouvrir l'URL",
+    "openUrlContainerStepLabel": "Open in container",
+    "openUrlContainerStepPlaceholder": "Choisissez un conteneur...",
+    "openUrlContainerWorkspaceDefault": "Workspace Default",
+    "openUrlContainerWorkspaceDefaultDesc": "Uses the workspace's default context",
     "openUrlDescription": "Ouvrir le lien dans un nouvel onglet",
     "openUrlStepLabel": "Saisir l'URL à ouvrir",
     "openUrlStepPlaceholder": "https://example.com",
@@ -580,7 +584,17 @@
     "bookmarkSwitcher": "Changer de marque-page",
     "bookmarkSwitcherDescription": "Ouvrir une page enregistrée dans les favoris",
     "bookmarkSwitcherStepLabel": "Sélectionner un favori",
-    "bookmarkSwitcherStepPlaceholder": "Rechercher ou choisir un marque-page..."
+    "bookmarkSwitcherStepPlaceholder": "Rechercher ou choisir un marque-page...",
+    "bookmarkSwitcherContainerStepLabel": "Open in container",
+    "bookmarkSwitcherContainerStepPlaceholder": "Choisissez un conteneur...",
+    "bookmarkSwitcherWhereBackgroundTab": "Onglet d'arrière-plan",
+    "bookmarkSwitcherWhereBackgroundTabDesc": "Ouvrir dans un nouvel onglet d'arrière-plan",
+    "bookmarkSwitcherWhereCurrentTab": "Onglet actuel",
+    "bookmarkSwitcherWhereCurrentTabDesc": "Naviguer dans l'onglet en cours",
+    "bookmarkSwitcherWhereLabel": "Où ouvrir",
+    "bookmarkSwitcherWhereNewTab": "Nouvel onglet",
+    "bookmarkSwitcherWhereNewTabDesc": "Ouvrir dans un nouvel onglet au premier plan",
+    "bookmarkSwitcherWherePlaceholder": "Sélectionnez l'endroit où ouvrir..."
   },
   "commandPaletteReadings": {}
 }
