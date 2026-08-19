@@ -468,7 +468,7 @@
     },
     "scope": {
       "summary": "When active, Browser VPN can protect eligible web browsing traffic in Floorp. Its scope does not include your operating system or other apps.",
-      "fullDisclosure": "This feature uses a Mozilla account and Mozilla service infrastructure. Floorp is an independent project and is not affiliated with, endorsed by, or sponsored by Mozilla. Availability depends on your region, account status, and Mozilla’s service eligibility requirements."
+      "fullDisclosure": "Deze functie maakt gebruik van een Mozilla-account en de service-infrastructuur van Mozilla. Floorp is een onafhankelijk project en is niet gelieerd aan, goedgekeurd door of gesponsord door Mozilla. De beschikbaarheid hangt af van je regio, je accountstatus en de toelatingsvoorwaarden van Mozilla."
     },
     "unauthenticated": {
       "title": "Try Browser VPN"
@@ -518,7 +518,7 @@
     "openUrl": "Open URL",
     "openUrlDescription": "Open a URL in a new tab",
     "openUrlStepLabel": "Enter URL to open",
-    "openUrlStepPlaceholder": "https://example.com",
+    "openUrlStepPlaceholder": "https://voorbeeld.com",
     "openUrlValidationError": "Please enter a valid URL",
     "searchWeb": "Search the Web",
     "searchWebDescription": "Search with your default search engine",
