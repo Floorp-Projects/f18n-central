@@ -215,6 +215,14 @@
             "exampleWildcard": "Совпадает со всеми поддоменами google.com",
             "exampleFullUrl": "Совпадает только с URL-адресами Gmail"
         },
+        "tabStacks": {
+            "title": "Tab Stacks",
+            "description": "Group tabs into stacks, shown as a chip in the tab bar with a second row of stacked tabs underneath.",
+            "enableOrDisable": "Включить/отключить",
+            "enableTabStacks": "Enable tab stacks",
+            "enableTabStacksDescription": "Tab stacks present grouped tabs as a chip in the tab bar. A restart of {{productName}} is required after changing this setting.",
+            "needRestartDescriptionForEnableAndDisable": "A restart of {{productName}} is required to completely enable or disable the tab stacks feature."
+        },
         "uiCustomization": {
             "title": "Настройка интерфейса",
             "needRestartDescriptionForEnableAndDisable": "Для полного включения или отключения функции пользовательского интерфейса требуется перезапуск {{productName}}.",
