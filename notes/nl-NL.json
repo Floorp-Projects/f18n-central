@@ -15,7 +15,7 @@
         "titlePlaceholder": "Titel",
         "loading": "Notities laden...",
         "delete": "Verwijderen",
-        "empty": "No notes yet. Click \"New Note\" to create one.",
+        "empty": "Nog geen notities. Klik op \"Nieuwe notitie\" om er een aan te maken.",
         "deleteConfirmTitle": "Delete Note",
         "deleteConfirmMessage": "Are you sure you want to delete this note? This action cannot be undone.",
         "deleteConfirm": "Verwijderen",
