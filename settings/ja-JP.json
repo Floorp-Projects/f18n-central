@@ -130,6 +130,18 @@
             "minHeight": "タブの最小高さ",
             "minHeightError": "タブの高さは、 {{min}} から {{max}} ピクセルの間でなければなりません。"
         },
+        "tabWindowBehavior": {
+            "title": "Tab and window behavior",
+            "description": "Control where links open and distinguish browser windows from Windows taskbar tab previews.",
+            "openLinks": "Open links that request a new window",
+            "openLinksDescription": "Choose whether links that request a new window open in the current window, a new window, or a new tab.",
+            "openCurrentWindowOrTab": "Current window or tab",
+            "openNewWindow": "New window",
+            "openNewTab": "New tab",
+            "taskbarPreviews": "Show tab previews in the taskbar",
+            "taskbarPreviewsDescription": "This changes only the Windows taskbar display. It does not create additional browser windows.",
+            "taskbarPreviewsUnavailable": "This option is available on Windows only."
+        },
         "lepton-preferences": {
             "title": "Lepton の設定",
             "description": "Lepton テーマの高度な設定を変更します",
@@ -511,6 +523,8 @@
     },
     "mouseGesture": {
         "description": "マウス操作でブラウザーをコントロールします。",
+        "saving": "Saving mouse gesture settings…",
+        "saveError": "Mouse gesture settings could not be saved. Your previous settings are still active.",
         "generalSettings": "一般設定",
         "generalSettingsDescription": "マウスジェスチャーの基本設定",
         "enabled": "マウスジェスチャーを有効にする",
@@ -547,6 +561,10 @@
         "rockerRightLeft": "右 → 左",
         "rockerRightLeftDescription": "右ボタンを押したまま、左ボタンをクリック",
         "wheelGesturesEnabled": "ホイールジェスチャーを有効にする",
+        "wheelScrollUp": "上にスクロール",
+        "wheelScrollUpDescription": "Action when scrolling the wheel up while holding the right button",
+        "wheelScrollDown": "下にスクロール",
+        "wheelScrollDownDescription": "Action when scrolling the wheel down while holding the right button",
         "actions": {
             "gecko-back": "戻る",
             "gecko-forward": "進む",
