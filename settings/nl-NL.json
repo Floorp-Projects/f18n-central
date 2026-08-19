@@ -201,7 +201,7 @@
             "examples": "Pattern Examples",
             "exampleDomain": "Matches any URL containing this domain",
             "exampleWildcard": "Matches all subdomains of google.com",
-            "exampleFullUrl": "Matches Gmail URLs only"
+            "exampleFullUrl": "Geldt alleen voor Gmail-URL's"
         },
         "uiCustomization": {
             "title": "UI Customization",
@@ -277,7 +277,7 @@
         "profileDescription": "Profiles contain browsing-related information such as history, bookmarks, settings, and add-ons. Floorp uses this profile to save data.",
         "profileManagement": "Profile Management",
         "profileManagementDescription": "Profiles can be created and separated from each other, and their data is stored in the profile folder.",
-        "currentProfileName": "Current Profile Name: {{name}}",
+        "currentProfileName": "Huidige profielnaam: {{name}}",
         "profileSaveLocation": "Profile Save Location: {{path}}",
         "openProfileManager": "Open Profile Manager",
         "openProfileSaveLocation": "Open Profile Save Location",
@@ -348,7 +348,7 @@
             "description": "All available Flascos for your {{productName}} version. Some may be unavailable due to rollout limits.",
             "noExperiments": "No experiments available.",
             "rollout": "Rollout: {{percentage}}%",
-            "forceEnroll": "Enroll",
+            "forceEnroll": "Deelnemen",
             "forceEnrolled": "Enrolled",
             "removeForceEnrollment": "Remove Override",
             "confirmForceEnroll": "Are you sure you want to enroll in this Flasco? This will override the rollout settings.",
