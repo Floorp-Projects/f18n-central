@@ -130,6 +130,18 @@
             "minHeight": "Minsta flikhöjd",
             "minHeightError": "Flikens höjd måste vara mellan {{min}} och {{max}} pixlar."
         },
+        "tabWindowBehavior": {
+            "title": "Tab and window behavior",
+            "description": "Control where links open and distinguish browser windows from Windows taskbar tab previews.",
+            "openLinks": "Open links that request a new window",
+            "openLinksDescription": "Choose whether links that request a new window open in the current window, a new window, or a new tab.",
+            "openCurrentWindowOrTab": "Current window or tab",
+            "openNewWindow": "New window",
+            "openNewTab": "New tab",
+            "taskbarPreviews": "Show tab previews in the taskbar",
+            "taskbarPreviewsDescription": "This changes only the Windows taskbar display. It does not create additional browser windows.",
+            "taskbarPreviewsUnavailable": "This option is available on Windows only."
+        },
         "lepton-preferences": {
             "title": "Lepton inställningar",
             "description": "Konfigurera avancerade Lepton temainställningar",
@@ -511,6 +523,8 @@
     },
     "mouseGesture": {
         "description": "Kontrollera din webbläsare med musrörelser.",
+        "saving": "Saving mouse gesture settings…",
+        "saveError": "Mouse gesture settings could not be saved. Your previous settings are still active.",
         "generalSettings": "Allmänna inställningar",
         "generalSettingsDescription": "Grundläggande inställningar för musgester",
         "enabled": "Aktivera musgester",
@@ -547,6 +561,10 @@
         "rockerRightLeft": "Höger → Vänster",
         "rockerRightLeftDescription": "Håll in höger knapp och klicka sedan på vänster knapp",
         "wheelGesturesEnabled": "Aktivera scrollhjuls gester",
+        "wheelScrollUp": "Scrolla uppåt",
+        "wheelScrollUpDescription": "Action when scrolling the wheel up while holding the right button",
+        "wheelScrollDown": "Scrolla ner",
+        "wheelScrollDownDescription": "Action when scrolling the wheel down while holding the right button",
         "actions": {
             "gecko-back": "Gå tillbaka",
             "gecko-forward": "Gå framåt",
