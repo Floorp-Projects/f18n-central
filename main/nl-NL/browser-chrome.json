@@ -542,7 +542,7 @@
     "openUrlWhereLabel": "Waar openen",
     "openUrlWherePlaceholder": "Select where to open...",
     "openUrlWhereNewTab": "Nieuw tabblad",
-    "openUrlWhereNewTabDesc": "Open in a new foreground tab",
+    "openUrlWhereNewTabDesc": "Openen in een nieuw tabblad op de voorgrond",
     "openUrlWhereBackgroundTab": "Background Tab",
     "openUrlWhereBackgroundTabDesc": "Open in a new background tab",
     "openUrlWhereCurrentTab": "Current Tab",
