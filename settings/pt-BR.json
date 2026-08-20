@@ -131,16 +131,16 @@
             "minHeightError": "A altura da aba deve estar entre {{min}} e {{max}} pixels."
         },
         "tabWindowBehavior": {
-            "title": "Tab and window behavior",
-            "description": "Control where links open and distinguish browser windows from Windows taskbar tab previews.",
-            "openLinks": "Open links that request a new window",
-            "openLinksDescription": "Choose whether links that request a new window open in the current window, a new window, or a new tab.",
-            "openCurrentWindowOrTab": "Current window or tab",
-            "openNewWindow": "New window",
-            "openNewTab": "New tab",
-            "taskbarPreviews": "Show tab previews in the taskbar",
-            "taskbarPreviewsDescription": "This changes only the Windows taskbar display. It does not create additional browser windows.",
-            "taskbarPreviewsUnavailable": "This option is available on Windows only."
+            "title": "Comportamento das abas e janelas",
+            "description": "Controle onde os links são abertos e diferencie as janelas do navegador das visualizações das abas na barra de tarefas do Windows.",
+            "openLinks": "Abrir links que solicitem uma nova janela",
+            "openLinksDescription": "Escolha se os links que abrem em uma nova janela devem ser exibidos na janela atual, em uma nova janela ou em uma nova aba.",
+            "openCurrentWindowOrTab": "Janela ou aba atual",
+            "openNewWindow": "Nova janela",
+            "openNewTab": "Nova aba",
+            "taskbarPreviews": "Mostrar pré-visualizações das abas na barra de tarefas",
+            "taskbarPreviewsDescription": "Isso altera apenas a exibição da barra de tarefas do Windows. Não cria janelas adicionais do navegador.",
+            "taskbarPreviewsUnavailable": "Essa opção está disponível apenas no Windows."
         },
         "lepton-preferences": {
             "title": "Configurações do Lepton",
@@ -216,12 +216,12 @@
             "exampleFullUrl": "Corresponder apenas a URLs do Gmail"
         },
         "tabStacks": {
-            "title": "Tab Stacks",
-            "description": "Group tabs into stacks, shown as a chip in the tab bar with a second row of stacked tabs underneath.",
+            "title": "Pilhas de abas",
+            "description": "Agrupe as abas em pilhas, exibidas como um ícone na barra de abas, com uma segunda fileira de abas empilhadas logo abaixo.",
             "enableOrDisable": "Ativar/Desativar",
-            "enableTabStacks": "Enable tab stacks",
-            "enableTabStacksDescription": "Tab stacks present grouped tabs as a chip in the tab bar. A restart of {{productName}} is required after changing this setting.",
-            "needRestartDescriptionForEnableAndDisable": "A restart of {{productName}} is required to completely enable or disable the tab stacks feature."
+            "enableTabStacks": "Habilitar pilhas de abas",
+            "enableTabStacksDescription": "As pilhas de abas exibem abas agrupadas como um ícone na barra de abas. É necessário reiniciar o {{productName}} após alterar essa configuração.",
+            "needRestartDescriptionForEnableAndDisable": "É necessário reiniciar o {{productName}} para ativar ou desativar completamente o recurso de pilhas de abas."
         },
         "uiCustomization": {
             "title": "Personalização da interface do usuário",
@@ -531,8 +531,8 @@
     },
     "mouseGesture": {
         "description": "Controle o navegador com movimentos do mouse.",
-        "saving": "Saving mouse gesture settings…",
-        "saveError": "Mouse gesture settings could not be saved. Your previous settings are still active.",
+        "saving": "Salvando configurações de gesto do mouse…",
+        "saveError": "Não foi possível salvar as configurações de gestos do mouse. Suas configurações anteriores continuam ativas.",
         "generalSettings": "Configurações gerais",
         "generalSettingsDescription": "Configurações básicas de gestos do mouse",
         "enabled": "Ativar os gestos do mouse",
@@ -570,9 +570,9 @@
         "rockerRightLeftDescription": "Mantenha pressionado o botão direito e clique no botão esquerdo",
         "wheelGesturesEnabled": "Ativar gestos com a roda do mouse",
         "wheelScrollUp": "Rolar para cima",
-        "wheelScrollUpDescription": "Action when scrolling the wheel up while holding the right button",
+        "wheelScrollUpDescription": "Ação ao girar a roda para cima enquanto mantém pressionado o botão direito",
         "wheelScrollDown": "Rolar para baixo",
-        "wheelScrollDownDescription": "Action when scrolling the wheel down while holding the right button",
+        "wheelScrollDownDescription": "Ação ao girar a roda para baixo enquanto mantém pressionado o botão direito",
         "actions": {
             "gecko-back": "Voltar",
             "gecko-forward": "Avançar",
