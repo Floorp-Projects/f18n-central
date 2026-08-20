@@ -561,7 +561,7 @@
         "name": "Name",
         "pattern": "Pattern",
         "action": "Action",
-        "actionDescription": "Description of the gesture",
+        "actionDescription": "Beschrijving van de beweging",
         "rockerGesturesEnabled": "Enable rocker gestures",
         "rockerGesturesDescription": "Right-click and move left to go back, right-click and move right to go forward. (Experimental)",
         "rockerLeftRight": "Left → Right",
