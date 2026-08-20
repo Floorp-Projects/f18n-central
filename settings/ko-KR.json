@@ -131,13 +131,13 @@
             "minHeightError": "탭 높이는 {{min}} ~ {{max}} 픽셀 사이여야 합니다."
         },
         "tabWindowBehavior": {
-            "title": "Tab and window behavior",
+            "title": "탭 및 창 동작",
             "description": "Control where links open and distinguish browser windows from Windows taskbar tab previews.",
             "openLinks": "Open links that request a new window",
             "openLinksDescription": "Choose whether links that request a new window open in the current window, a new window, or a new tab.",
-            "openCurrentWindowOrTab": "Current window or tab",
-            "openNewWindow": "New window",
-            "openNewTab": "New tab",
+            "openCurrentWindowOrTab": "현재 창 또는 탭",
+            "openNewWindow": "새 창",
+            "openNewTab": "새 탭",
             "taskbarPreviews": "Show tab previews in the taskbar",
             "taskbarPreviewsDescription": "This changes only the Windows taskbar display. It does not create additional browser windows.",
             "taskbarPreviewsUnavailable": "This option is available on Windows only."
@@ -216,12 +216,12 @@
             "exampleFullUrl": "Gmail URL만 일치"
         },
         "tabStacks": {
-            "title": "Tab Stacks",
+            "title": "탭 쌓기",
             "description": "Group tabs into stacks, shown as a chip in the tab bar with a second row of stacked tabs underneath.",
             "enableOrDisable": "활성화/비활성화",
-            "enableTabStacks": "Enable tab stacks",
+            "enableTabStacks": "탭 쌓기 활성화",
             "enableTabStacksDescription": "Tab stacks present grouped tabs as a chip in the tab bar. A restart of {{productName}} is required after changing this setting.",
-            "needRestartDescriptionForEnableAndDisable": "A restart of {{productName}} is required to completely enable or disable the tab stacks feature."
+            "needRestartDescriptionForEnableAndDisable": "탭 쌓기 기능을 완전히 활성화 또는 비활성화하려면 {{productName}}를 다시 시작해야 합니다."
         },
         "uiCustomization": {
             "title": "UI 맞춤 설정",
@@ -531,8 +531,8 @@
     },
     "mouseGesture": {
         "description": "마우스를 움직여 브라우저를 제어하세요.",
-        "saving": "Saving mouse gesture settings…",
-        "saveError": "Mouse gesture settings could not be saved. Your previous settings are still active.",
+        "saving": "마우스 제스처 설정 저장 중…",
+        "saveError": "마우스 제스처 설정을 저장할 수 없습니다. 여전히 이전 설정을 적용합니다.",
         "generalSettings": "일반 설정",
         "generalSettingsDescription": "기본 마우스 제스처 설정",
         "enabled": "마우스 제스처 사용",
