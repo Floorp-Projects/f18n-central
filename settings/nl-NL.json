@@ -554,7 +554,7 @@
         "trailSettings": "Trail Settings",
         "trailSettingsDescription": "Customize the appearance of gesture trails.",
         "trailWidth": "Trail width",
-        "trailWidthDescription": "Width of the gesture trail line",
+        "trailWidthDescription": "Lijndikte van het gebarenspoor",
         "trailColor": "Trail color",
         "actionsSettings": "Gesture Actions",
         "actionsSettingsDescription": "Configure mouse gesture actions",
