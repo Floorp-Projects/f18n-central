@@ -10,7 +10,7 @@
       "idle": "Check for updates",
       "checking": "Checking for updates…",
       "checkFailed": "Couldn't check for updates. Try again later.",
-      "upToDate": "You're up to date.",
+      "upToDate": "Helemaal up-to-date.",
       "downloading": "Downloading update… {{progress}}",
       "applying": "Installing update…",
       "readyToRestart": "Update ready — restart to apply.",
@@ -23,7 +23,7 @@
       "restartToApply": "Restart to apply update"
     },
     "community": {
-      "title": "Join the Community"
+      "title": "Word lid van de groep"
     },
     "help": {
       "title": "Help & Support",
