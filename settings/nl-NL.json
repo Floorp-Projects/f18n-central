@@ -294,7 +294,7 @@
     },
     "accounts": {
         "profileAndAccount": "Profiel en account",
-        "profileDescription": "Profiles contain browsing-related information such as history, bookmarks, settings, and add-ons. Floorp uses this profile to save data.",
+        "profileDescription": "Profielen bevatten browse-gerelateerde informatie zoals geschiedenis, bladwijzers, instellingen en add-ons. Floorp gebruikt dit profiel om je gegevens op te slaan.",
         "profileManagement": "Profielbeheer",
         "profileManagementDescription": "Profielen kunnen apart van elkaar worden aangemaakt; de gegevens hiervan worden opgeslagen in de profielmap.",
         "currentProfileName": "Huidige profielnaam: {{name}}",
@@ -343,7 +343,7 @@
             "policyHelp": {
                 "default": "Follow the recommended participation policy. You may be enrolled in {{productName}} tests based on rollout percentages.",
                 "always": "Always participate in all available {{productName}} tests. This option is for users who want to test new features early.",
-                "never": "Never participate in {{productName}} tests. You will only receive stable, tested features."
+                "never": "Nooit deelnemen aan {{productName}}-tests. Je ontvangt alleen stabiele, geteste functies."
             },
             "confirmClearCache": "Weet je zeker dat je alle experimentgegevens wilt wissen? Hiermee worden je toewijzingen gereset en dit kan niet ongedaan worden gemaakt.",
             "troubleshooting": "Probleemoplossing",
@@ -445,7 +445,7 @@
         "editPanel": "Paneel bewerken",
         "errors": {
             "typeRequired": "Paneeltype is verplicht",
-            "urlRequired": "Voor webpanelen is een URL vereist",
+            "urlRequired": "URL is vereist voor webpanelen",
             "invalidUrl": "Voer een geldige URL in",
             "extensionIdRequired": "Voor uitbreidingspanelen is een uitbreidings-ID vereist",
             "staticPanelRequired": "Kies een zijbalkfunctie",
@@ -489,7 +489,7 @@
     },
     "floorpOS": {
         "title": "Floorp OS",
-        "description": "Manage Floorp OS backend modules and services",
+        "description": "Beheer {{productName}} OS-backendmodules en -services",
         "loading": "Laden...",
         "statusCard": {
             "title": "Status",
@@ -569,7 +569,7 @@
         "rockerRightLeft": "Right → Left",
         "rockerRightLeftDescription": "Hold right button, then click left button",
         "wheelGesturesEnabled": "Enable wheel gestures",
-        "wheelScrollUp": "Scroll omhoog",
+        "wheelScrollUp": "Scroll naar omhoog",
         "wheelScrollUpDescription": "Actie bij omhoog scrollen met het muiswiel terwijl de rechtermuisknop wordt ingedrukt",
         "wheelScrollDown": "Scroll Down",
         "wheelScrollDownDescription": "Actie bij omlaag scrollen met het muiswiel terwijl de rechtermuisknop wordt ingedrukt",
@@ -653,7 +653,7 @@
             "gecko-close-tabs-to-start": "Close Tabs to Left",
             "gecko-close-tabs-to-end": "Close Tabs to Right",
             "gecko-scroll-line-up": "Scroll omhoog",
-            "gecko-scroll-line-down": "Scroll Down",
+            "gecko-scroll-line-down": "Scroll omlaag",
             "floorp-toggle-command-palette": "Toggle Command Palette",
             "floorp-open-settings": "Open Settings",
             "floorp-open-hub": "Open Floorp Hub",
@@ -684,7 +684,7 @@
         "cancel": "Cancel",
         "save": "Save",
         "copy": "Copy",
-        "defaultName": "New Gesture",
+        "defaultName": "Nieuw muisgebaar",
         "emptyPatternError": "Please set a gesture pattern",
         "duplicatePatternError": "This gesture pattern already exists"
     },
@@ -740,9 +740,9 @@
             "close": "Close",
             "closeDescription": "Close without saving changes",
             "save": "Save",
-            "saveDescription": "Save the shortcut",
+            "saveDescription": "Sneltoets opslaan",
             "cancel": "Cancel",
-            "cancelDescription": "Cancel editing"
+            "cancelDescription": "Bewerking annuleren"
         }
     }
 }
