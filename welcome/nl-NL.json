@@ -7,7 +7,7 @@
         "featureIntroduction": "Maak kennis met de functies",
         "hub": "Floor Hub",
         "hubIntro": "Over Floorp Hub",
-        "customize": "Personaliseren ",
+        "customize": "Personaliseren",
         "initialSettings": "Standaard instellingen",
         "complete": "Voltooien",
         "previous": "Vorige",
@@ -19,7 +19,7 @@
         "sectionTitle": "Floorp Hub",
         "description": "Floorp Hub is een speciaal instellingencentrum voor Floorp-specifieke opties. Je kunt dit openen door naar 'about:hub' te navigeren. Het is ook toegankelijk via de linkerzijbalk van de instellingenpagina van Firefox op 'about:preferences'.",
         "openHub": "Open about:hub",
-        "openPreferences": "Open instellingen about:preferences",
+        "openPreferences": "Open instellingen (about:preferences)",
         "tip": "Tip: Je kunt Floorp Hub ook openen via de zijbalk van de Firefox-instellingen.",
         "features": {
             "dedicated": "Speciaal instellingencentrum voor Floorp",
@@ -117,53 +117,53 @@
             ]
         },
         "pwa": {
-            "title": "Progressive Web Applications Support",
-            "description": "On Windows, you can add PWA-compatible sites as desktop applications when you visit them. Regular websites can also be installed.",
+            "title": "Ondersteuning voor progressieve webapplicaties",
+            "description": "Als je op Windows websites bezoekt die geschikt zijn voor PWA, kun je ze toevoegen als apps op je bureaublad. Je kunt trouwens ook gewone websites installeren.",
             "features": [
-                "Run independently as desktop apps",
-                "Can be pinned to the taskbar",
-                "Firefox add-ons work too"
+                "Zelfstandig uitvoeren als desktop-apps",
+                "Kan aan de taakbalk worden vastgezet",
+                "Firefox-add-ons werken ook"
             ]
         },
         "mouseGesture": {
-            "title": "Mouse Gestures",
-            "description": "Control your browser more intuitively with natively implemented mouse gesture functionality. Execute gestures by holding the right-click button and moving your mouse.",
+            "title": "Muisbewegingen",
+            "description": "Bestuur je browser intuïtiever met de standaard ingebouwde muisbewegingen. Je voert bewegingen uit door de rechtermuisknop ingedrukt te houden en je muis te bewegen.",
             "features": [
-                "Operate without keyboard shortcuts",
-                "Fully customizable gestures",
-                "Quickly navigate pages and history"
+                "Werken zonder sneltoetsen",
+                "Volledig aanpasbare muisbewegingen",
+                "Snel door pagina's en de geschiedenis bladeren"
             ]
         },
-        "notebook": "Notebook",
-        "nextTab": "Go to Next Tab"
+        "notebook": "Notitieboekje",
+        "nextTab": "Ga naar volgend tabblad"
     },
     "finishPage": {
-        "title": "Setup Complete!",
-        "subtitle": "Congratulations! You've completed the Floorp setup. You can now enjoy comfortable and secure internet browsing.",
-        "nextSteps": "Next Steps (Optional)",
-        "defaultBrowser": "Set as Default Browser",
-        "support": "Support",
-        "documentation": "Documentation",
-        "getStarted": "Get Started with Floorp",
-        "hint": "For more detailed settings, you can customize via the Settings option in the menu button at the top right.",
-        "resourcesLabel": "Resources",
-        "defaultBrowserSuccess": "Floorp has been set as your default browser!"
+        "title": "Installatie voltooid!",
+        "subtitle": "Gefeliciteerd! Je hebt de installatie van Floorp voltooid. Je kunt nu comfortabel en veilig op internet surfen.",
+        "nextSteps": "Volgende stappen (optioneel)",
+        "defaultBrowser": "Als standaardbrowser instellen",
+        "support": "Ondersteuning",
+        "documentation": "Documentatie",
+        "getStarted": "Aan de slag met Floorp",
+        "hint": "Voor meer gedetailleerde instellingen, kun je deze aanpassen via de optie ‘Instellingen’ in de menuknop rechtsboven.",
+        "resourcesLabel": "Bronnen",
+        "defaultBrowserSuccess": "Floorp is ingesteld als uw standaardbrowser!"
     },
     "whatsNew": {
-        "title": "Welcome to Floorp {{version}}!",
-        "subtitle": "Check out what's new in Floorp!",
+        "title": "Welkom bij Floorp {{version}}!",
+        "subtitle": "Bekijk wat er nieuw is in Floorp!",
         "tags": {
             "settings": "Instellingen",
-            "productivity": "Productivity",
+            "productivity": "Productiviteit",
             "workspaces": "Werkruimtes",
             "pwa": "PWA",
-            "gestures": "Gestures"
+            "gestures": "Muisbewegingen"
         },
         "footer": {
-            "follow": "Follow",
-            "privacy": "Privacy & Terms",
-            "about": "About Floorp",
-            "copyright": "© {{year}} Floorp Projects. All rights reserved."
+            "follow": "Volg",
+            "privacy": "Privacy & voorwaarden",
+            "about": "Over Floorp",
+            "copyright": "© {{year}} Floorp Projects. Alle rechten voorbehouden."
         }
     }
 }
