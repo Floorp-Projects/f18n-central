@@ -109,7 +109,7 @@
         },
         "workspaces": {
             "title": "Workspaces",
-            "description": "Organiseer meerdere tabbladsets om je werk te stroomlijnen. Wissel snel tussen werkruimtes met herkenbare pictogrammen en namen. Open ze via de werkruimteknop linksboven.",
+            "description": "Organiseer meerdere tabbladsets om je werk te stroomlijnen. Wissel snel tussen workspaces met herkenbare pictogrammen en namen. Open ze via de workspace-knop linksboven.",
             "features": [
                 "Indelen op doel: werk, privé, enz.",
                 "Visueel herkenbaar maken met aangepaste pictogrammen",
