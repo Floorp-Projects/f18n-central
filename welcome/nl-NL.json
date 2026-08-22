@@ -89,31 +89,31 @@
         "currentLanguageInfo": "Huidige taalinformatie",
         "systemLanguage": "Systeemtaal",
         "floorpLanguage": "Floorp-taal",
-        "selectLanguage": "Select Language",
-        "useSystemLanguage": "Use System Language",
-        "multilingual": "Multilingual Support",
-        "chooseLanguage": "Choose from a wide range of languages",
-        "languageChangeNotice": "Changing language will apply the new language without restarting Floorp. Some add-ons may not support language changes."
+        "selectLanguage": "Taal selecteren",
+        "useSystemLanguage": "Systeemtaal gebruiken",
+        "multilingual": "Meertalige ondersteuning",
+        "chooseLanguage": "Kies uit een breed aanbod van talen",
+        "languageChangeNotice": "De nieuwe taal wordt direct toegepast zonder Floorp opnieuw op te starten. Sommige add-ons ondersteunen dit mogelijk niet."
     },
     "featuresPage": {
-        "title": "Main Floorp Features",
-        "subtitle": "Floorp comes with many useful features. Check out the feature overview!",
+        "title": "Belangrijkste Floorp-functies",
+        "subtitle": "Floorp biedt tal van handige functies. Bekijk het overzicht van de functies!",
         "panelSidebar": {
-            "title": "Panel Sidebar",
-            "description": "Access convenient features from the sidebar on the right while browsing. You can place web panels, note-taking functions, add-ons, bookmarks, etc. in the sidebar.",
+            "title": "Paneelzijbalk",
+            "description": "Gebruik tijdens het browsen handige functies via de rechterzijbalk. Je kunt hier webpanelen, notities, add-ons, bladwijzers en meer in plaatsen.",
             "features": [
-                "Pin websites to the sidebar",
-                "Quickly take notes with Floorp Notes while browsing",
-                "Supports containers"
+                "Zet websites vast in de zijbalk",
+                "Maak tijdens het browsen snel notities met Floorp Notes",
+                "Ondersteunt containers"
             ]
         },
         "workspaces": {
             "title": "Workspaces",
-            "description": "Organize multiple tab sets to streamline your work. Quickly switch between workspaces with distinctive icons and names. Access via the workspace button in the top left.",
+            "description": "Organiseer meerdere tabbladsets om je werk te stroomlijnen. Wissel snel tussen werkruimtes met herkenbare pictogrammen en namen. Open ze via de werkruimteknop linksboven.",
             "features": [
-                "Categorize by purpose: work, personal, etc.",
-                "Visually identify with custom icons",
-                "Easily manage tabs"
+                "Indelen op doel: werk, privé, enz.",
+                "Visueel herkenbaar maken met aangepaste pictogrammen",
+                "Tabbladen eenvoudig beheren"
             ]
         },
         "pwa": {
