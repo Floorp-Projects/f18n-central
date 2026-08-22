@@ -397,31 +397,31 @@
       "createInstallFailed": "Aanmaken van installatie-object mislukt",
       "cancelledByUser": "Installatie geannuleerd door gebruiker",
       "downloadCancelled": "Download geannuleeerd",
-      "timeout": "Installation timed out",
-      "xpiInstallError": "XPI installation error: {{error}}",
-      "errorWithCode": "Installation error (code: {{code}})",
-      "experimentDisabled": "This feature is not currently available"
+      "timeout": "Installatietijd is verstreken",
+      "xpiInstallError": "XPI installatiefout: {{error}}",
+      "errorWithCode": "Installatiefout (code: {{code}})",
+      "experimentDisabled": "Deze functie is momenteel niet beschikbaar"
     },
     "installErrors": {
-      "downloadFailed": "Download failed",
-      "signatureVerifyFailed": "Failed to verify extension signature",
-      "corruptOrIncompatible": "Extension is corrupted or incompatible",
-      "incompatible": "This extension is not compatible with Floorp",
-      "blocked": "This extension is blocked",
-      "timeout": "Extension installation timed out",
-      "installFailed": "Extension installation failed",
-      "parseFailed": "Failed to parse extension",
-      "invalidFile": "Invalid extension file",
-      "networkError": "A network error occurred"
+      "downloadFailed": "Downloaden mislukt",
+      "signatureVerifyFailed": "Extensie-handtekening verifiëren mislukt",
+      "corruptOrIncompatible": "De extensie is beschadigd of niet compatibel",
+      "incompatible": "Deze extensie is niet compatibel met Floorp",
+      "blocked": "Deze extensie is geblokkeerd",
+      "timeout": "Extensie installatie is verlopen",
+      "installFailed": "Extensie installatie mislukt",
+      "parseFailed": "Verwerken van extensie mislukt",
+      "invalidFile": "Ongeldig extensiebestand",
+      "networkError": "Netwerk fout opgetreden"
     }
   },
   "addons": {
     "notification": {
       "chromeExtensionMessage": "Wil je de Chrome extensie \"{{name}}\" toevoegen? Deze extensie is geconverteerd vanuit de Chrome Web Store.",
-      "chromeExtensionPrompt": "Do you want to add Chrome extension \"{{name}}\"?",
-      "defaultExtensionName": "this extension",
+      "chromeExtensionPrompt": "Wil je de Chrome-extensie \"{{name}}\" toevoegen?",
+      "defaultExtensionName": "deze extensie",
       "chromeBadge": "[Chrome]",
-      "compatibilityWarning": "This Chrome extension has been converted to Firefox compatible format. Some features may not work properly."
+      "compatibilityWarning": "Deze Chrome-extensie is omgezet naar een Firefox-compatibel formaat. Mogelijk werken sommige functies niet goed."
     }
   },
   "hub": {
@@ -431,57 +431,57 @@
   },
   "splitView": {
     "contextMenu": {
-      "openInSplitView": "Open in Split View",
-      "addPane": "Add Pane to Split View",
-      "moveToPane": "Move to Pane",
-      "moveToPaneN": "Pane {{n}} ({{title}})"
+      "openInSplitView": "Openen in gesplitste weergave",
+      "addPane": "Venster toevoegen aan gesplitste weergave",
+      "moveToPane": "Verplaatsen naar venster",
+      "moveToPaneN": "Venster {{n}} ({{title}})"
     },
     "layoutPicker": {
-      "horizontal": "Horizontal Split",
-      "vertical": "Vertical Split",
-      "grid3paneLeftMain": "Grid (Large Left)",
-      "grid3paneRightMain": "Grid (Large Right)",
-      "grid3paneTopMain": "Grid (Large Top)",
-      "grid3paneBottomMain": "Grid (Large Bottom)",
-      "grid2x2": "Grid (2×2)",
-      "addPane": "Add Pane",
-      "removePane": "Remove Last Pane"
+      "horizontal": "Horizontaal splitsen",
+      "vertical": "Verticaal splitsen",
+      "grid3paneLeftMain": "Raster (groot links)",
+      "grid3paneRightMain": "Raster (groot, rechts)",
+      "grid3paneTopMain": "Raster (groot boven)",
+      "grid3paneBottomMain": "Raster (groot onder)",
+      "grid2x2": "Raster (2×2)",
+      "addPane": "Venster toevoegen",
+      "removePane": "Laatste venster verwijderen"
     },
     "dropZone": {
-      "newWindow": "Drop here to open in new window"
+      "newWindow": "Hier neerzetten om in een nieuw venster te openen"
     }
   },
   "zen-mode": {
-    "label": "Zen Mode",
-    "tooltiptext": "Toggle Zen Mode",
-    "menu-label": "Toggle Zen Mode"
+    "label": "Zen Modus",
+    "tooltiptext": "Zen modus omschakelen",
+    "menu-label": "Zen modus omschakelen"
   },
   "ipProtection": {
     "title": "Browser VPN",
     "toolbar": {
-      "activeTooltip": "Browser VPN is on for eligible web browsing traffic in Floorp",
-      "inactiveTooltip": "Browser VPN is off — web browsing traffic is not protected",
-      "excludedTooltip": "Browser VPN is off for this site — this site is not protected",
-      "pausedTooltip": "Browser VPN is paused — web browsing traffic is not protected",
-      "errorTooltip": "Browser VPN — connection error; eligible web browsing traffic is not protected",
-      "helpTooltip": "Open Browser VPN support page"
+      "activeTooltip": "Browser-VPN staat aan voor ondersteund webverkeer in Floorp",
+      "inactiveTooltip": "Browser-VPN uitgeschakeld — webverkeer niet beschermd",
+      "excludedTooltip": "Browser-VPN uitgeschakeld voor deze site — site niet beschermd",
+      "pausedTooltip": "Browser-VPN gepauzeerd — webverkeer niet beschermd",
+      "errorTooltip": "Browser-VPN — verbindingsfout; webverkeer niet beschermd",
+      "helpTooltip": "Browser-VPN-supportpagina openen"
     },
     "scope": {
-      "summary": "When active, Browser VPN can protect eligible web browsing traffic in Floorp. Its scope does not include your operating system or other apps.",
+      "summary": "Wanneer de Browser-VPN actief is, beschermt deze het ondersteunde webverkeer in Floorp. Dit geldt niet voor je besturingssysteem of andere apps.",
       "fullDisclosure": "Deze functie maakt gebruik van een Mozilla-account en de service-infrastructuur van Mozilla. Floorp is een onafhankelijk project en is niet gelieerd aan, goedgekeurd door of gesponsord door Mozilla. De beschikbaarheid hangt af van je regio, je accountstatus en de toelatingsvoorwaarden van Mozilla."
     },
     "unauthenticated": {
-      "title": "Try Browser VPN"
+      "title": "Probeer Browser VPN"
     },
     "settings": {
-      "promoHeading": "Try Browser VPN",
+      "promoHeading": "Probeer Browser VPN",
       "promoMessage": "Log in en controleer de beschikbaarheid van de service om ondersteund webverkeer in Floorp te beschermen."
     },
     "terms": {
       "prefix": "Door verder te gaan, ga je akkoord met ",
-      "termsOfUse": "Mozilla Firefox Terms of Use",
-      "conjunction": " and acknowledge ",
-      "privacyNotice": "Mozilla Firefox Privacy Notice",
+      "termsOfUse": "Gebruiksvoorwaarden van Mozilla Firefox",
+      "conjunction": " en ga akkoord ",
+      "privacyNotice": "Privacyverklaring van Mozilla Firefox",
       "suffix": "."
     }
   },
