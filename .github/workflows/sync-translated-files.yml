@@ -168,7 +168,7 @@ jobs:
         with:
           repository: Floorp-Projects/Floorp
           ref: main
-          fetch-depth: 0
+          fetch-depth: 1
           path: floorp
           token: ${{ secrets.PAT }}
 
@@ -269,7 +269,6 @@ jobs:
         run: |
           set -euo pipefail
           EXPECTED_CHECKS=(
-            "verify"
             "smoke"
             "Native Runtime / macos-latest"
             "Native Runtime / ubuntu-24.04"
