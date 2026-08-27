@@ -253,10 +253,12 @@ jobs:
             )"
             PR_NUMBER="$(gh pr view "$PR_URL" --json number --jq '.number')"
           else
-            gh pr edit "$PR_NUMBER" \
-              --repo "$FLOORP_REPOSITORY" \
-              --title "[Bot] Update translated files from i18n repository" \
-              --body "$BODY"
+            gh api \
+              --method PATCH \
+              "repos/$FLOORP_REPOSITORY/pulls/$PR_NUMBER" \
+              -f title="[Bot] Update translated files from i18n repository" \
+              -f body="$BODY" \
+              >/dev/null
           fi
 
           echo "number=$PR_NUMBER" >> "$GITHUB_OUTPUT"
@@ -316,13 +318,9 @@ jobs:
           EXPECTED_HEAD_SHA: ${{ steps.changes.outputs.head_sha }}
         run: |
           set -euo pipefail
-          PR_STATE="$(
-            gh pr view "$PR_NUMBER" \
-              --repo "$FLOORP_REPOSITORY" \
-              --json baseRefOid,headRefOid
-          )"
-          CURRENT_BASE_SHA="$(jq -r '.baseRefOid' <<< "$PR_STATE")"
-          CURRENT_HEAD_SHA="$(jq -r '.headRefOid' <<< "$PR_STATE")"
+          PR_STATE="$(gh api "repos/$FLOORP_REPOSITORY/pulls/$PR_NUMBER")"
+          CURRENT_BASE_SHA="$(jq -r '.base.sha' <<< "$PR_STATE")"
+          CURRENT_HEAD_SHA="$(jq -r '.head.sha' <<< "$PR_STATE")"
           if [ "$CURRENT_BASE_SHA" != "$EXPECTED_BASE_SHA" ]; then
             echo "Floorp main changed while checks were running; refusing to merge." >&2
             exit 1
@@ -332,7 +330,11 @@ jobs:
             exit 1
           fi
 
-          gh pr merge "$PR_NUMBER" \
-            --repo "$FLOORP_REPOSITORY" \
-            --squash \
-            --match-head-commit "$EXPECTED_HEAD_SHA"
+          RESULT="$(
+            gh api \
+              --method PUT \
+              "repos/$FLOORP_REPOSITORY/pulls/$PR_NUMBER/merge" \
+              -f merge_method=squash \
+              -f "sha=$EXPECTED_HEAD_SHA"
+          )"
+          jq -e '.merged == true' <<< "$RESULT"
