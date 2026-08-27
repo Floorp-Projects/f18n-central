@@ -5,14 +5,23 @@ on:
   schedule:
     - cron: "0 17 * * *"
 
+permissions:
+  contents: write
+
+concurrency:
+  group: localization-sync
+  cancel-in-progress: false
+
 jobs:
   sync-files:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout f18n repository
         uses: actions/checkout@v4
         with:
           path: f18n-central
+          token: ${{ secrets.PAT }}
 
       - name: Checkout Floorp repository
         uses: actions/checkout@v4
@@ -25,6 +34,7 @@ jobs:
       - name: Read translation targets
         id: read-targets
         run: |
+          set -euo pipefail
           TARGETS=$(cat floorp/i18n/translation-targets.json)
           echo "targets<<EOF" >> $GITHUB_OUTPUT
           echo "$TARGETS" >> $GITHUB_OUTPUT
@@ -32,6 +42,7 @@ jobs:
 
       - name: Generate Crowdin.yml
         run: |
+          set -euo pipefail
           cd f18n-central
           TARGETS='${{ steps.read-targets.outputs.targets }}'
           echo "files:" > crowdin.yml
@@ -55,6 +66,7 @@ jobs:
 
       - name: Copy translation files
         run: |
+          set -euo pipefail
           cd f18n-central
           TARGETS='${{ steps.read-targets.outputs.targets }}'
           echo "$TARGETS" | jq -c '.targets[]' | while read -r target; do
@@ -80,9 +92,15 @@ jobs:
 
       - name: Commit and push changes
         run: |
+          set -euo pipefail
           cd f18n-central
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
           git add .
-          git commit -m "[Bot] Update i18n source files from main repository" || echo "No changes to commit"
+          if git diff --cached --quiet; then
+            echo "No source translation changes to publish."
+            exit 0
+          fi
+          git commit -m "[Bot] Update i18n source files from main repository"
+          git pull --rebase origin main
           git push
