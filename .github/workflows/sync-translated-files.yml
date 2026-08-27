@@ -1,16 +1,165 @@
-name: 🧰 (P) Copy translated files
+name: 🧰 (P) Publish translated files
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 17 * * *"
+    - cron: "30 5,11,17,23 * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: localization-sync
+  cancel-in-progress: false
+
+env:
+  F18N_REPOSITORY: Floorp-Projects/f18n-central
+  FLOORP_REPOSITORY: Floorp-Projects/Floorp
+  SYNC_BRANCH: automation/sync-translations
 
 jobs:
-  sync-files:
+  merge-crowdin:
+    name: Validate and merge Crowdin PR
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+    outputs:
+      merged: ${{ steps.merge.outputs.merged || 'false' }}
     steps:
-      - name: Checkout f18n repository
+      - name: Checkout trusted automation
         uses: actions/checkout@v4
         with:
+          ref: main
+          path: automation
+          token: ${{ secrets.PAT }}
+
+      - name: Checkout Floorp manifest
+        uses: actions/checkout@v4
+        with:
+          repository: Floorp-Projects/Floorp
+          ref: main
+          path: floorp
+          token: ${{ secrets.PAT }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Find eligible Crowdin PR
+        id: crowdin
+        env:
+          GH_TOKEN: ${{ secrets.PAT }}
+        run: |
+          set -euo pipefail
+          PRS="$(gh pr list \
+            --repo "$F18N_REPOSITORY" \
+            --state open \
+            --base main \
+            --head crowdin \
+            --limit 2 \
+            --json number,title,isDraft,isCrossRepository,headRefOid,headRefName,baseRefName,headRepository)"
+          COUNT="$(jq 'length' <<< "$PRS")"
+
+          if [ "$COUNT" -eq 0 ]; then
+            echo "No open Crowdin PR found."
+            echo "number=" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if [ "$COUNT" -ne 1 ]; then
+            echo "Expected exactly one Crowdin PR, found $COUNT." >&2
+            exit 1
+          fi
+
+          TITLE="$(jq -r '.[0].title' <<< "$PRS")"
+          IS_DRAFT="$(jq -r '.[0].isDraft' <<< "$PRS")"
+          IS_CROSS_REPOSITORY="$(jq -r '.[0].isCrossRepository' <<< "$PRS")"
+          HEAD_REPOSITORY="$(jq -r '.[0].headRepository.nameWithOwner' <<< "$PRS")"
+          HEAD_REF="$(jq -r '.[0].headRefName' <<< "$PRS")"
+          BASE_REF="$(jq -r '.[0].baseRefName' <<< "$PRS")"
+
+          if [ "$TITLE" != "New Crowdin updates" ] ||
+            [ "$IS_DRAFT" != "false" ] ||
+            [ "$IS_CROSS_REPOSITORY" != "false" ] ||
+            [ "$HEAD_REPOSITORY" != "$F18N_REPOSITORY" ] ||
+            [ "$HEAD_REF" != "crowdin" ] ||
+            [ "$BASE_REF" != "main" ]; then
+            echo "Crowdin PR does not match the trusted PR shape." >&2
+            jq '.[0]' <<< "$PRS" >&2
+            exit 1
+          fi
+
+          echo "number=$(jq -r '.[0].number' <<< "$PRS")" >> "$GITHUB_OUTPUT"
+          echo "head_sha=$(jq -r '.[0].headRefOid' <<< "$PRS")" >> "$GITHUB_OUTPUT"
+
+      - name: Reject unexpected Crowdin changes
+        if: steps.crowdin.outputs.number != ''
+        env:
+          GH_TOKEN: ${{ secrets.PAT }}
+          PR_NUMBER: ${{ steps.crowdin.outputs.number }}
+        run: |
+          set -euo pipefail
+          gh api --paginate \
+            "repos/$F18N_REPOSITORY/pulls/$PR_NUMBER/files?per_page=100" \
+            --jq '.[].filename' > automation/crowdin-changed-files.txt
+          INVALID_FILES="$(
+            gh api --paginate \
+              "repos/$F18N_REPOSITORY/pulls/$PR_NUMBER/files?per_page=100" \
+              --jq '.[] | select(.status == "removed" or (.filename | endswith(".json") | not)) | "\(.status)\t\(.filename)"'
+          )"
+          if [ -n "$INVALID_FILES" ]; then
+            echo "Crowdin PR contains removed or non-JSON files:" >&2
+            echo "$INVALID_FILES" >&2
+            exit 1
+          fi
+
+      - name: Checkout candidate merge
+        if: steps.crowdin.outputs.number != ''
+        uses: actions/checkout@v4
+        with:
+          repository: Floorp-Projects/f18n-central
+          ref: refs/pull/${{ steps.crowdin.outputs.number }}/merge
+          path: candidate
+          token: ${{ secrets.PAT }}
+
+      - name: Validate candidate translation schema
+        if: steps.crowdin.outputs.number != ''
+        run: >-
+          python automation/scripts/validate_translation_schema.py
+          --repository candidate
+          --manifest floorp/i18n/translation-targets.json
+          --allow-partial-locale ja-JP-x-kansai
+          --changed-files automation/crowdin-changed-files.txt
+
+      - name: Atomically merge Crowdin PR
+        id: merge
+        if: steps.crowdin.outputs.number != ''
+        env:
+          GH_TOKEN: ${{ secrets.PAT }}
+          PR_NUMBER: ${{ steps.crowdin.outputs.number }}
+          HEAD_SHA: ${{ steps.crowdin.outputs.head_sha }}
+        run: |
+          set -euo pipefail
+          RESULT="$(
+            gh api \
+              --method PUT \
+              "repos/$F18N_REPOSITORY/pulls/$PR_NUMBER/merge" \
+              -f merge_method=squash \
+              -f "sha=$HEAD_SHA"
+          )"
+          jq -e '.merged == true' <<< "$RESULT"
+          echo "merged=true" >> "$GITHUB_OUTPUT"
+
+  sync-floorp:
+    name: Open, verify, and merge Floorp sync PR
+    needs: merge-crowdin
+    if: ${{ always() && needs.merge-crowdin.result == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout latest f18n repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
           path: f18n-central
           token: ${{ secrets.PAT }}
 
@@ -18,62 +167,173 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: Floorp-Projects/Floorp
-          path: floorp
           ref: main
+          fetch-depth: 0
+          path: floorp
           token: ${{ secrets.PAT }}
 
-      - name: Read translation targets
-        id: read-targets
-        run: |
-          TARGETS=$(cat floorp/i18n/translation-targets.json)
-          echo "targets<<EOF" >> $GITHUB_OUTPUT
-          echo "$TARGETS" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+      - name: Prepare synchronization branch
+        run: git -C floorp switch --force-create "$SYNC_BRANCH" main
 
       - name: Copy translated files to Floorp repository
-        run: |
-          cd f18n-central
-          shopt -s nullglob
-          TARGETS='${{ steps.read-targets.outputs.targets }}'
-          echo "$TARGETS" | jq -c '.targets[]' | while read -r target; do
-            TYPE=$(echo "$target" | jq -r '.type // "file"')
-            SOURCE_PATH=$(echo "$target" | jq -r '.source_path')
-            F18N_PATH=$(echo "$target" | jq -r '.f18n_path')
-            F18N_PATH="${F18N_PATH%/}/"
-            if [ "$TYPE" = "directory" ]; then
-              SOURCE_LOCALE=$(echo "$target" | jq -r '.source_locale')
-              for LOCALE_DIR in "$F18N_PATH"*/ ; do
-                [ -d "$LOCALE_DIR" ] || continue
-                LOCALE=$(basename "$LOCALE_DIR")
-                if [ "$LOCALE" = "$SOURCE_LOCALE" ]; then
-                  continue
-                fi
-                DEST_DIR="../floorp/$SOURCE_PATH/$LOCALE"
-                echo "Copying $LOCALE_DIR to $DEST_DIR"
-                rm -rf "$DEST_DIR"
-                mkdir -p "$DEST_DIR"
-                cp -a "$LOCALE_DIR/." "$DEST_DIR/"
-              done
-            else
-              SOURCE_FILE=$(echo "$target" | jq -r '.source_file')
-              mkdir -p "../floorp/$SOURCE_PATH"
-              for LOCALE_FILE in "$F18N_PATH"*.json; do
-                if [[ "$LOCALE_FILE" == "$F18N_PATH$SOURCE_FILE" ]]; then
-                  continue
-                fi
-                LOCALE=$(basename "$LOCALE_FILE" .json)
-                echo "Copying $LOCALE_FILE to $SOURCE_PATH"
-                cp "$LOCALE_FILE" "../floorp/$SOURCE_PATH/$LOCALE.json"
-              done
-            fi
-          done
-          shopt -u nullglob
+        run: >-
+          bash f18n-central/scripts/copy_translations.sh
+          f18n-central
+          floorp
+          floorp/i18n/translation-targets.json
 
-      - name: Commit and push changes to Floorp repository
+      - name: Validate changed JSON files
         run: |
+          set -euo pipefail
           cd floorp
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
+          while IFS= read -r -d '' file; do
+            echo "Validating $file"
+            jq empty "$file"
+          done < <(git diff --name-only --diff-filter=ACM -z -- '*.json')
+
+      - name: Commit and push synchronization branch
+        id: changes
+        run: |
+          set -euo pipefail
+          cd floorp
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
           git add .
-          git commit -m "[Bot] Update translated files from i18n repository" || echo "No changes to commit"
-          git push
+          if git diff --cached --quiet; then
+            echo "No translated file changes to publish."
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          BASE_SHA="$(git rev-parse main)"
+          git commit -m "[Bot] Update translated files from i18n repository"
+          HEAD_SHA="$(git rev-parse HEAD)"
+          REMOTE_SHA="$(git ls-remote --heads origin "refs/heads/$SYNC_BRANCH" | cut -f1)"
+          if [ -n "$REMOTE_SHA" ]; then
+            git push \
+              --force-with-lease="refs/heads/$SYNC_BRANCH:$REMOTE_SHA" \
+              origin "HEAD:refs/heads/$SYNC_BRANCH"
+          else
+            git push origin "HEAD:refs/heads/$SYNC_BRANCH"
+          fi
+
+          echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          echo "base_sha=$BASE_SHA" >> "$GITHUB_OUTPUT"
+          echo "head_sha=$HEAD_SHA" >> "$GITHUB_OUTPUT"
+
+      - name: Create or update Floorp synchronization PR
+        id: floorp-pr
+        if: steps.changes.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.PAT }}
+        run: |
+          set -euo pipefail
+          F18N_SHA="$(git -C f18n-central rev-parse HEAD)"
+          BODY="Automated translation sync from Floorp-Projects/f18n-central@$F18N_SHA.
+
+          This PR is merged automatically only after every Floorp check passes. If validation fails, the PR remains open for review."
+          PR_NUMBER="$(
+            gh pr list \
+              --repo "$FLOORP_REPOSITORY" \
+              --state open \
+              --base main \
+              --head "$SYNC_BRANCH" \
+              --json number \
+              --jq '.[0].number // empty'
+          )"
+
+          if [ -z "$PR_NUMBER" ]; then
+            PR_URL="$(
+              gh pr create \
+                --repo "$FLOORP_REPOSITORY" \
+                --base main \
+                --head "$SYNC_BRANCH" \
+                --title "[Bot] Update translated files from i18n repository" \
+                --body "$BODY"
+            )"
+            PR_NUMBER="$(gh pr view "$PR_URL" --json number --jq '.number')"
+          else
+            gh pr edit "$PR_NUMBER" \
+              --repo "$FLOORP_REPOSITORY" \
+              --title "[Bot] Update translated files from i18n repository" \
+              --body "$BODY"
+          fi
+
+          echo "number=$PR_NUMBER" >> "$GITHUB_OUTPUT"
+
+      - name: Wait for Floorp checks
+        if: steps.changes.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.PAT }}
+          PR_NUMBER: ${{ steps.floorp-pr.outputs.number }}
+        run: |
+          set -euo pipefail
+          EXPECTED_CHECKS=(
+            "verify"
+            "smoke"
+            "Native Runtime / macos-latest"
+            "Native Runtime / ubuntu-24.04"
+            "Native Runtime / ubuntu-24.04-arm"
+            "Native Runtime / windows-latest"
+          )
+          MISSING_CHECKS=("${EXPECTED_CHECKS[@]}")
+          for _ in $(seq 1 40); do
+            CHECKS="$(
+              gh pr checks "$PR_NUMBER" \
+                --repo "$FLOORP_REPOSITORY" \
+                --json name,bucket 2>/dev/null || true
+            )"
+            MISSING_CHECKS=()
+            for expected in "${EXPECTED_CHECKS[@]}"; do
+              if ! jq -e --arg name "$expected" \
+                'any(.[]; .name == $name)' <<< "${CHECKS:-[]}" >/dev/null; then
+                MISSING_CHECKS+=("$expected")
+              fi
+            done
+            if [ "${#MISSING_CHECKS[@]}" -eq 0 ]; then
+              break
+            fi
+            sleep 15
+          done
+
+          if [ "${#MISSING_CHECKS[@]}" -ne 0 ]; then
+            echo "Expected Floorp checks were not reported:" >&2
+            printf '  %s\n' "${MISSING_CHECKS[@]}" >&2
+            exit 1
+          fi
+
+          gh pr checks "$PR_NUMBER" \
+            --repo "$FLOORP_REPOSITORY" \
+            --watch \
+            --interval 15 \
+            --fail-fast
+
+      - name: Atomically merge Floorp synchronization PR
+        if: steps.changes.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.PAT }}
+          PR_NUMBER: ${{ steps.floorp-pr.outputs.number }}
+          EXPECTED_BASE_SHA: ${{ steps.changes.outputs.base_sha }}
+          EXPECTED_HEAD_SHA: ${{ steps.changes.outputs.head_sha }}
+        run: |
+          set -euo pipefail
+          PR_STATE="$(
+            gh pr view "$PR_NUMBER" \
+              --repo "$FLOORP_REPOSITORY" \
+              --json baseRefOid,headRefOid
+          )"
+          CURRENT_BASE_SHA="$(jq -r '.baseRefOid' <<< "$PR_STATE")"
+          CURRENT_HEAD_SHA="$(jq -r '.headRefOid' <<< "$PR_STATE")"
+          if [ "$CURRENT_BASE_SHA" != "$EXPECTED_BASE_SHA" ]; then
+            echo "Floorp main changed while checks were running; refusing to merge." >&2
+            exit 1
+          fi
+          if [ "$CURRENT_HEAD_SHA" != "$EXPECTED_HEAD_SHA" ]; then
+            echo "PR head changed while checks were running; refusing to merge." >&2
+            exit 1
+          fi
+
+          gh pr merge "$PR_NUMBER" \
+            --repo "$FLOORP_REPOSITORY" \
+            --squash \
+            --match-head-commit "$EXPECTED_HEAD_SHA"

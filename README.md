@@ -78,3 +78,25 @@ git push origin your_branch
 
 [![Link to Main Repository](assets/Link2MainRepo.svg)](https://github.com/Floorp-Projects/Floorp)
 
+# Localization Automation
+
+The source and translated files are synchronized without writing unverified
+translations directly to Floorp's `main` branch:
+
+1. `sync-target-files.yml` refreshes the English source files from Floorp once
+   per day.
+2. `sync-translated-files.yml` runs every six hours. It accepts only the
+   same-repository `crowdin` pull request titled `New Crowdin updates`, rejects
+   removed or non-translation files, and verifies that translated JSON files
+   contain every source key before merging it.
+3. The translated files are copied to the `automation/sync-translations`
+   branch in Floorp and submitted as a pull request.
+4. The synchronization pull request is merged only after all expected Floorp
+   integration checks pass and its tested head commit is unchanged. Failed
+   validation or CI leaves the pull request open for review.
+
+Both synchronization workflows use the `localization-sync` concurrency group,
+so source and translated-file updates cannot run at the same time. They require
+the `PAT` Actions secret to have permission to push branches, create pull
+requests, and merge pull requests in both repositories.
+
