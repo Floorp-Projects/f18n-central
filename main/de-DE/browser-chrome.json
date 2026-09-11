@@ -460,9 +460,9 @@
     "title": "Browser-VPN",
     "toolbar": {
       "activeTooltip": "Das Browser-VPN ist für den entsprechenden Web-Datenverkehr in Floorp aktiviert",
-      "inactiveTooltip": "Das Browser-VPN ist deaktiviert – der Datenverkehr beim Surfen im Internet ist nicht geschützt",
+      "inactiveTooltip": "Das Browser-VPN ist deaktiviert – der Web-Datenverkehr beim Surfen im Internet ist nicht geschützt",
       "excludedTooltip": "Das Browser-VPN ist für diese Website deaktiviert – diese Website ist nicht geschützt",
-      "pausedTooltip": "Browser VPN ist pausiert — Internetverkehr ist nicht geschützt",
+      "pausedTooltip": "Browser VPN ist pausiert — Web-Datenverkehr ist nicht geschützt",
       "errorTooltip": "Browser-VPN – Verbindungsfehler; der betreffende Web-Datenverkehr ist nicht geschützt",
       "helpTooltip": "Browser-VPN-Supportseite im Browser öffnen"
     },
@@ -471,16 +471,16 @@
       "fullDisclosure": "Diese Funktion nutzt ein Mozilla-Konto und die Infrastruktur der Mozilla-Dienste. Floorp ist ein unabhängiges Projekt und steht in keiner Verbindung zu Mozilla und wird weder von Mozilla unterstützt noch gesponsert. Die Verfügbarkeit hängt von Ihrer Region, Ihrem Kontostatus und den Zugangsvoraussetzungen für Mozilla-Dienste ab."
     },
     "unauthenticated": {
-      "title": "Try Browser VPN"
+      "title": "Browser VPN testen"
     },
     "settings": {
-      "promoHeading": "Try Browser VPN",
+      "promoHeading": "Browser VPN testen",
       "promoMessage": "Schützen Sie den berechtigten Web-Datenverkehr in Floorp, nachdem Sie sich angemeldet und die Verfügbarkeit des Dienstes bestätigt haben."
     },
     "terms": {
-      "prefix": "Durch Fortfahren stimmen Sie unseren ",
+      "prefix": "Durch Fortfahren stimmen Sie den ",
       "termsOfUse": "Nutzungsbedingungen für Mozilla Firefox",
-      "conjunction": " und bestätigen ",
+      "conjunction": " zu und bestätigen den ",
       "privacyNotice": "Mozilla Firefox Datenschutzhinweis",
       "suffix": "."
     }
