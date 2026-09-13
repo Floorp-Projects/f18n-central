@@ -161,7 +161,8 @@
         },
         "footer": {
             "follow": "Слідкувати",
-            "privacy": "Політики конфіденційності та умови використання",
+            "terms": "Terms of Service",
+            "privacy": "Privacy Policy",
             "about": "Про Floorp",
             "copyright": "© {{year}} Floorp Projects. Всі права захищені."
         }

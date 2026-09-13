@@ -161,7 +161,8 @@
         },
         "footer": {
             "follow": "Ακολουθήστε",
-            "privacy": "Ιδιωτικότητα & Όροι",
+            "terms": "Terms of Service",
+            "privacy": "Privacy Policy",
             "about": "Σχετικά με το Floorp",
             "copyright": "©️ {{year}} Floorp Projects. Όλα τα δικαιώματα κατοχυρωμένα."
         }

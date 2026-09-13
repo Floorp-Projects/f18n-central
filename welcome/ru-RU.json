@@ -161,7 +161,8 @@
         },
         "footer": {
             "follow": "Подписаться",
-            "privacy": "Условия конфиденциальности",
+            "terms": "Terms of Service",
+            "privacy": "Privacy Policy",
             "about": "О Floorp",
             "copyright": "© {{year}} Project. Все права защищены."
         }
