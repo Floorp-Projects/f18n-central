@@ -34,7 +34,7 @@
         "debug": "デバッグ",
         "mouseGesture": "マウスジェスチャー",
         "keyboardShortcut": "キーボードショートカット",
-        "performance": "Performance",
+        "performance": "パフォーマンス",
         "search": {
             "title": "検索の設定",
             "resultsFor": "\"{{query}}\" の検索結果",
@@ -747,17 +747,17 @@
         }
     },
     "performance": {
-        "title": "Performance",
-        "description": "Settings that affect how the browser uses system resources.",
+        "title": "パフォーマンス",
+        "description": "ブラウザーによるシステムリソースの使用方法に影響する設定を変更します。",
         "idleReclaim": {
-            "title": "Idle memory reclaim",
-            "description": "Experimental and off by default. When enabled, attempts to reduce memory use after a period without keyboard or mouse input. The amount reclaimed depends on the pages in use.",
-            "enable": "Reclaim memory while the browser is idle",
-            "idleThreshold": "Idle time before reclaiming (seconds)",
-            "minInterval": "Minimum interval between reclaims (seconds)",
-            "minResident": "Only reclaim when memory usage exceeds (MB)",
-            "cost": "Video playback, calls, and screen sharing do not prevent reclamation. Reclamation can pause the browser, including when you resume using it. Shorter intervals increase its frequency.",
-            "saveFailed": "Could not save this setting. The previous value has been restored."
+            "title": "待機時のメモリー解放",
+            "description": "実験的な機能であり、既定では無効です。有効にすると、キーボードやマウスの入力が一定時間ない場合、メモリー使用量の削減を試みます。解放されるメモリー使用量は、使用中のページによって異なります。",
+            "enable": "ブラウザーが待機状態の間にメモリーを解放する",
+            "idleThreshold": "解放までの待機時間 (秒)",
+            "minInterval": "再度解放するまでの最小の間隔 (秒)",
+            "minResident": "メモリー使用量が次を超えた場合にのみ解放する (MB)",
+            "cost": "動画再生、通話、画面共有は解放を妨げません。解放処理により、使用を再開する際などに動作が一時停止する場合があります。間隔を短くするほど解放頻度が高まります。",
+            "saveFailed": "この設定を保存できませんでした。以前の値が復元されました。"
         }
     }
 }
