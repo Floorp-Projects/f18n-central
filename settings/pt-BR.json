@@ -331,24 +331,24 @@
     },
     "updates": {
         "releaseNotes": {
-            "learnMore": "Read about our funding and this setting (Japanese)",
-            "title": "Release notes after updates",
-            "description": "Choose how Floorp opens release notes after an update.",
+            "learnMore": "Leia sobre nosso financiamento e esta configuração (em japonês)",
+            "title": "Notas da versão após atualizações",
+            "description": "Escolha como o Floorp abre as notas da versão após uma atualização.",
             "disabled": {
-                "label": "Do not open automatically",
-                "description": "Release notes will not open after updates. Your blocker settings apply when you visit the blog."
+                "label": "Não abrir automaticamente",
+                "description": "As notas da versão não abrirão após as atualizações. Suas configurações de bloqueio se aplicam quando você visita o blog."
             },
             "blocking": {
-                "label": "Open with your blocker settings",
-                "description": "Open release notes without restricting your extensions. This does not install or enable an ad blocker."
+                "label": "Abrir com as configurações do bloqueador",
+                "description": "Abrir notas de lançamento sem restringir suas extensões. Isso não instala nem ativa um bloqueador de anúncios."
             },
             "support": {
-                "label": "Open and allow ads to support Floorp (recommended)",
-                "description": "Prevent uBlock Origin, AdGuard, Adblock Plus, AdBlock and Ghostery from filtering the Floorp blog."
+                "label": "Abrir e permitir a exibição de anúncios para apoiar o Floorp (recomendado)",
+                "description": "Impedir que o uBlock Origin, o AdGuard, o Adblock Plus, o AdBlock e o Ghostery filtrem o blog do Floorp."
             },
-            "supportMessage": "Advertising revenue from release notes supports Floorp development and operation. Thank you for supporting us in a way that works for you.",
-            "scope": "This exception applies to all HTTPS visits to blog.floorp.app, including manually opened pages. It also affects tracking protection and custom filters in the five listed extensions. Other extensions are not restricted by this setting. Other protection tools may still block ads. Reload open blog pages after changing this setting.",
-            "error": "Could not load or save this setting. Please reopen this page and try again."
+            "supportMessage": "A receita publicitária das notas da versão ajuda a financiar o desenvolvimento e a operação do Floorp. Agradecemos por nos apoiar da maneira que for mais conveniente para você.",
+            "scope": "Essa exceção se aplica a todas as visitas em HTTPS ao blog.floorp.app, incluindo páginas abertas manualmente. Ela também afeta a proteção contra rastreamento e os filtros personalizados nas cinco extensões listadas. Outras extensões não são restringidas por essa configuração. Outras ferramentas de proteção ainda podem bloquear anúncios. Atualize as páginas do blog abertas após alterar essa configuração.",
+            "error": "Não foi possível carregar ou salvar esta configuração. Por favor, reabra esta página e tente novamente."
         },
         "title": "Atualizações e testes",
         "description": "Gerencie as configurações de atualização e a participação em recursos experimentais.",
