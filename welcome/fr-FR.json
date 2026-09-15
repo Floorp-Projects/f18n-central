@@ -1,30 +1,30 @@
 {
   "releaseNotes": {
-      "learnMore": "Read about our funding and this setting (Japanese)",
-      "title": "Release notes and supporting Floorp",
-      "description": "Advertising revenue supports Floorp development and operation. Choose how to open release notes after updates. You can change this later in Settings → Updates & Experiments.",
+      "learnMore": "En savoir plus sur notre financement et ce réglage (japonais)",
+      "title": "Notes de version et support Floorp",
+      "description": "Les recettes publicitaires financent le développement et l'exploitation de Floorp. Choisissez comment afficher les notes de version après les mises à jour. Vous pourrez modifier ce paramètre ultérieurement dans Paramètres → Mises à jour et expérimentations.",
       "disabled": {
-      "label": "Do not open automatically",
-      "description": "Do not open release notes after updates. Keep your blocker settings when visiting the blog."
+      "label": "Ne pas ouvrir automatiquement",
+      "description": "N'ouvrez pas les notes de version après les mises à jour. Conservez vos paramètres de blocage lorsque vous consultez le blog."
       },
       "blocking": {
-      "label": "Open with your blocker settings",
-      "description": "Keep your extensions working as configured. This does not install or enable an ad blocker."
+      "label": "Ouvrir avec vos paramètres de blocage",
+      "description": "Gardez vos extensions fonctionnelles comme configurées. Cela n'installe pas ou n'active pas un bloqueur de publicité."
       },
       "support": {
-      "label": "Allow ads to support Floorp (recommended)",
-      "description": "Restrict uBlock Origin, AdGuard, Adblock Plus, AdBlock and Ghostery on the Floorp blog."
+      "label": "Autoriser les publicités pour soutenir Floorp (recommandé)",
+      "description": "Restreindre uBlock Origin, AdGuard, Adblock Plus, AdBlock et Ghostery sur le blog Floorp."
       },
-      "scope": "The restriction applies to all HTTPS pages on blog.floorp.app, including manually opened pages, and affects tracking protection and custom filters as well as ad blocking. Other extensions are not restricted by this setting. Ads may still be blocked by other protection tools. Reload open blog pages after changing the setting.",
-      "applyOnConfirm": "Your selection takes effect only when you confirm. Closing this page keeps your current setting.",
-      "changeSelection": "Change selection",
-      "applyOnFinish": "This is a draft selection. It takes effect when you finish setup on the next screen. Closing setup before then keeps your current setting.",
-      "confirm": "Save selection",
-      "dismiss": "Keep current setting",
-      "error": "Could not load or save your selection. Please reopen this page and try again."
+      "scope": "Cette restriction s'applique à toutes les pages HTTPS du site blog.floorp.app, y compris celles ouvertes manuellement, et concerne la protection contre le suivi, les filtres personnalisés ainsi que le blocage des publicités. Les autres extensions ne sont pas restreintes par ce réglage. Les publicités peuvent toujours être bloquées par d'autres outils de protection. Veuillez actualiser les pages du blog ouvertes après avoir modifié ce réglage.",
+      "applyOnConfirm": "Votre choix ne sera effectif qu'une fois que vous l'aurez confirmé. Si vous fermez cette page, votre paramètre actuel sera conservé.",
+      "changeSelection": "Changer la sélection",
+      "applyOnFinish": "Il s'agit d'un choix provisoire. Il prendra effet lorsque vous aurez terminé la configuration sur l'écran suivant. Si vous fermez la fenêtre de configuration avant cela, vos paramètres actuels seront alors conservés.",
+      "confirm": "Enregistrer la sélection",
+      "dismiss": "Conserver les paramètres actuels",
+      "error": "Impossible de charger ou d'enregistrer votre sélection. Veuillez rouvrir cette page et réessayer."
   },
   "navigation": {
-      "support": "Support Floorp",
+      "support": "Support de Floorp",
       "welcome": "Bienvenue",
       "language": "Langue",
       "languageSupport": "Prise en charge de la langue",
