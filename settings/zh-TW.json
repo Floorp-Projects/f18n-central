@@ -34,7 +34,7 @@
         "debug": "偵錯",
         "mouseGesture": "滑鼠手勢",
         "keyboardShortcut": "鍵盤快捷鍵",
-        "performance": "Performance",
+        "performance": "效能",
         "search": {
             "title": "搜尋設定",
             "resultsFor": "搜尋 {{query}} 的結果",
@@ -331,16 +331,16 @@
     },
     "updates": {
         "releaseNotes": {
-            "learnMore": "Read about our funding and this setting (Japanese)",
-            "title": "Release notes after updates",
-            "description": "Choose how Floorp opens release notes after an update.",
+            "learnMore": "了解我們的資金來源及此計畫的背景（日文）",
+            "title": "歷來更新版本說明",
+            "description": "選擇 Floorp 在更新後如何開啟版本說明。",
             "disabled": {
-                "label": "Do not open automatically",
-                "description": "Release notes will not open after updates. Your blocker settings apply when you visit the blog."
+                "label": "不要自動開啟",
+                "description": "版本說明將不會在更新後自動開啟。攔截設定在你造訪官方部落格時也會生效。"
             },
             "blocking": {
-                "label": "Open with your blocker settings",
-                "description": "Open release notes without restricting your extensions. This does not install or enable an ad blocker."
+                "label": "以你的攔截器開啟",
+                "description": "在不限制擴充功能的情況下開啟版本說明。此操作不會開啟或安裝廣告攔截器。"
             },
             "support": {
                 "label": "Open and allow ads to support Floorp (recommended)",
