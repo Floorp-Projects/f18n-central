@@ -331,24 +331,24 @@
     },
     "updates": {
         "releaseNotes": {
-            "learnMore": "Read about our funding and this setting (Japanese)",
-            "title": "Release notes after updates",
-            "description": "Choose how Floorp opens release notes after an update.",
+            "learnMore": "この設定とご支援についての詳細を読む",
+            "title": "更新後のリリースノート",
+            "description": "Floorp の更新後にリリースノートを開く方法を選択します。",
             "disabled": {
-                "label": "Do not open automatically",
-                "description": "Release notes will not open after updates. Your blocker settings apply when you visit the blog."
+                "label": "自動で開かない",
+                "description": "更新後にリリースノートを開きません。ブログを閲覧する際は、お使いのブロッカーの設定が適用されます。"
             },
             "blocking": {
-                "label": "Open with your blocker settings",
-                "description": "Open release notes without restricting your extensions. This does not install or enable an ad blocker."
+                "label": "ブロッカーの設定を維持して開く",
+                "description": "お使いの拡張機能をそのままにリリースノートを開きます。広告ブロッカーを自動でインストールまたは有効化することはありません。"
             },
             "support": {
-                "label": "Open and allow ads to support Floorp (recommended)",
-                "description": "Prevent uBlock Origin, AdGuard, Adblock Plus, AdBlock and Ghostery from filtering the Floorp blog."
+                "label": "Floorp を支援するために、広告を許可して開く (おすすめ)",
+                "description": "uBlock Origin、AdGuard、Adblock Plus、AdBlock、Ghostery が、Floorp ブログをフィルタリングするのを防ぎます。"
             },
-            "supportMessage": "Advertising revenue from release notes supports Floorp development and operation. Thank you for supporting us in a way that works for you.",
-            "scope": "This exception applies to all HTTPS visits to blog.floorp.app, including manually opened pages. It also affects tracking protection and custom filters in the five listed extensions. Other extensions are not restricted by this setting. Other protection tools may still block ads. Reload open blog pages after changing this setting.",
-            "error": "Could not load or save this setting. Please reopen this page and try again."
+            "supportMessage": "リリースノートからの広告収入は、Floorpの開発と運営を支えています。皆様のご都合に沿った形でのご支援に、心より感謝申し上げます。",
+            "scope": "この制限は、手動で開いた場合を含む blog.floorp.app 上のすべての HTTPS ページに適用され、広告ブロックやトラッキング保護、カスタムフィルター機能に影響します。他の拡張機能はこの設定による制限を受けません。他の保護ツールによって広告がブロックされる場合があります。設定を変更した後は、開いているブログページを再読み込みしてください。",
+            "error": "設定の読み込み、または保存に失敗しました。このページを再度開いて、もう一度お試しください。"
         },
         "title": "更新と実験",
         "description": "更新に関する設定と実験的な機能への参加を管理します。",
