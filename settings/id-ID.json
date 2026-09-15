@@ -34,7 +34,7 @@
         "debug": "Awakutu",
         "mouseGesture": "Gestur Tetikus",
         "keyboardShortcut": "Pintasan Kibor",
-        "performance": "Performance",
+        "performance": "Performa",
         "search": {
             "title": "Telusuri Pengaturan",
             "resultsFor": "Hasil pencarian untuk \"{{query}}\"",
@@ -767,8 +767,8 @@
         }
     },
     "performance": {
-        "title": "Performance",
-        "description": "Settings that affect how the browser uses system resources.",
+        "title": "Performa",
+        "description": "Pengaturan yang memengaruhi penggunaan sumber daya sistem dari peramban.",
         "idleReclaim": {
             "title": "Idle memory reclaim",
             "description": "Experimental and off by default. When enabled, attempts to reduce memory use after a period without keyboard or mouse input. The amount reclaimed depends on the pages in use.",
