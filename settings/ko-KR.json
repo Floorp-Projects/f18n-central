@@ -34,7 +34,7 @@
         "debug": "디버그",
         "mouseGesture": "마우스 제스처",
         "keyboardShortcut": "키보드 단축키",
-        "performance": "Performance",
+        "performance": "성능",
         "search": {
             "title": "검색 설정",
             "resultsFor": "\"{{query}}\" 검색 결과",
@@ -331,24 +331,24 @@
     },
     "updates": {
         "releaseNotes": {
-            "learnMore": "Read about our funding and this setting (Japanese)",
-            "title": "Release notes after updates",
-            "description": "Choose how Floorp opens release notes after an update.",
+            "learnMore": "이 설정과 자금 마련에 대해 자세히 알아보기 (일본어)",
+            "title": "업데이트 후 릴리스 노트",
+            "description": "업데이트 후 Floorp가 릴리스 노트를 여는 방식을 선택합니다.",
             "disabled": {
-                "label": "Do not open automatically",
-                "description": "Release notes will not open after updates. Your blocker settings apply when you visit the blog."
+                "label": "자동으로 열지 않기",
+                "description": "업데이트 후 릴리스 노트를 열지 않습니다. 블로그에 방문할 때 차단기 설정을 적용합니다."
             },
             "blocking": {
-                "label": "Open with your blocker settings",
-                "description": "Open release notes without restricting your extensions. This does not install or enable an ad blocker."
+                "label": "차단기 설정을 유지한 채 열기",
+                "description": "확장을 제한하지 않고 릴리스 노트를 엽니다. 이 설정이 광고 차단기를 자동으로 설치하거나 활성화하지는 않습니다."
             },
             "support": {
-                "label": "Open and allow ads to support Floorp (recommended)",
-                "description": "Prevent uBlock Origin, AdGuard, Adblock Plus, AdBlock and Ghostery from filtering the Floorp blog."
+                "label": "Floorp를 돕기 위해 광고를 허용하고 열기 (권장)",
+                "description": "uBlock Origin, AdGuard, Adblock Plus, AdBlock, Ghostery가 Floorp 블로그의 광고를 차단하지 않도록 합니다."
             },
             "supportMessage": "Advertising revenue from release notes supports Floorp development and operation. Thank you for supporting us in a way that works for you.",
             "scope": "This exception applies to all HTTPS visits to blog.floorp.app, including manually opened pages. It also affects tracking protection and custom filters in the five listed extensions. Other extensions are not restricted by this setting. Other protection tools may still block ads. Reload open blog pages after changing this setting.",
-            "error": "Could not load or save this setting. Please reopen this page and try again."
+            "error": "이 설정을 불러오거나 저장할 수 있습니다. 이 페이지를 닫았다 연 뒤 다시 시도해 주세요."
         },
         "title": "업데이트 및 실험",
         "description": "업데이트 설정 및 실험적 기능 참여를 관리합니다.",
@@ -767,7 +767,7 @@
         }
     },
     "performance": {
-        "title": "Performance",
+        "title": "성능",
         "description": "Settings that affect how the browser uses system resources.",
         "idleReclaim": {
             "title": "Idle memory reclaim",
