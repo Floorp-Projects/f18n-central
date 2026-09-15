@@ -340,15 +340,15 @@
             },
             "blocking": {
                 "label": "Ouvrir avec vos paramètres de blocage",
-                "description": "Open release notes without restricting your extensions. This does not install or enable an ad blocker."
+                "description": "Consultez les notes de mise à jour sans restreindre vos extensions. Cela n'installe ni n'active aucun bloqueur de publicités."
             },
             "support": {
-                "label": "Open and allow ads to support Floorp (recommended)",
-                "description": "Prevent uBlock Origin, AdGuard, Adblock Plus, AdBlock and Ghostery from filtering the Floorp blog."
+                "label": "Ouvrir et autoriser les publicités pour supporter Floorp (recommandé)",
+                "description": "Empêchez uBlock Origin, AdGuard, Adblock Plus, AdBlock et Ghostery de filtrer le blog Floorp."
             },
-            "supportMessage": "Advertising revenue from release notes supports Floorp development and operation. Thank you for supporting us in a way that works for you.",
-            "scope": "This exception applies to all HTTPS visits to blog.floorp.app, including manually opened pages. It also affects tracking protection and custom filters in the five listed extensions. Other extensions are not restricted by this setting. Other protection tools may still block ads. Reload open blog pages after changing this setting.",
-            "error": "Could not load or save this setting. Please reopen this page and try again."
+            "supportMessage": "Les recettes publicitaires générées par les notes de mise à jour permettent de financer le développement et l'exploitation de Floorp. Merci de nous soutenir de la manière qui vous convient le mieux.",
+            "scope": "Cette exception s'applique à toutes les visites via HTTPS sur blog.floorp.app, y compris les pages ouvertes manuellement. Elle affecte également la protection contre le suivi et les filtres personnalisés des cinq extensions répertoriées. Les autres extensions ne sont pas concernées par ce paramètre. D'autres outils de protection peuvent toutefois continuer à bloquer les publicités. Veuillez actualiser les pages du blog ouvertes après avoir modifié ce paramètre.",
+            "error": "Impossible de charger ou d'enregistrer ce paramètre. Veuillez rouvrir cette page et réessayer."
         },
         "title": "Mises à jour et expérimentations",
         "description": "Gérer les paramètres de mise à jour et la participation aux fonctionnalités expérimentales.",
