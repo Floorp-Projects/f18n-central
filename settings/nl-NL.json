@@ -34,7 +34,7 @@
         "debug": "Debug",
         "mouseGesture": "Muis gebaren",
         "keyboardShortcut": "Sneltoetsen",
-        "performance": "Performance",
+        "performance": "Prestaties",
         "search": {
             "title": "Zoekinstellingen",
             "resultsFor": "Zoekresultaten voor \"{{query}}\"",
@@ -331,22 +331,22 @@
     },
     "updates": {
         "releaseNotes": {
-            "learnMore": "Read about our funding and this setting (Japanese)",
-            "title": "Release notes after updates",
-            "description": "Choose how Floorp opens release notes after an update.",
+            "learnMore": "Lees meer over onze financiering en deze instelling (Japans)",
+            "title": "Releaseopmerkingen na updates",
+            "description": "Kies hoe Floorp releaseopmerkingen opent na een update.",
             "disabled": {
-                "label": "Do not open automatically",
-                "description": "Release notes will not open after updates. Your blocker settings apply when you visit the blog."
+                "label": "Niet automatisch openen",
+                "description": "Releaseopmerkingen worden niet geopend na updates. Uw instellingen voor blokkering zijn van toepassing wanneer u de blog bezoekt."
             },
             "blocking": {
-                "label": "Open with your blocker settings",
-                "description": "Open release notes without restricting your extensions. This does not install or enable an ad blocker."
+                "label": "Openen met je blocker-instellingen",
+                "description": "Releaseopmerkingen openen zonder je extensies te beperken. Dit installeert of activeert geen advertentieblokker."
             },
             "support": {
-                "label": "Open and allow ads to support Floorp (recommended)",
-                "description": "Prevent uBlock Origin, AdGuard, Adblock Plus, AdBlock and Ghostery from filtering the Floorp blog."
+                "label": "Openen en advertenties toestaan om Floorp te steunen (aanbevolen)",
+                "description": "Voorkom dat uBlock Origin, AdGuard, Adblock Plus, AdBlock en Ghostery de Floorp-blog filteren."
             },
-            "supportMessage": "Advertising revenue from release notes supports Floorp development and operation. Thank you for supporting us in a way that works for you.",
+            "supportMessage": "Advertentie-inkomsten uit releaseopmerkingen ondersteunen de ontwikkeling en exploitatie van Floorp. Bedankt dat je ons steunt op een manier die voor jou werkt.",
             "scope": "This exception applies to all HTTPS visits to blog.floorp.app, including manually opened pages. It also affects tracking protection and custom filters in the five listed extensions. Other extensions are not restricted by this setting. Other protection tools may still block ads. Reload open blog pages after changing this setting.",
             "error": "Could not load or save this setting. Please reopen this page and try again."
         },
