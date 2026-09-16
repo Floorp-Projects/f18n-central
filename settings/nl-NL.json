@@ -348,7 +348,7 @@
             },
             "supportMessage": "Advertentie-inkomsten uit releaseopmerkingen ondersteunen de ontwikkeling en exploitatie van Floorp. Bedankt dat je ons steunt op een manier die voor jou werkt.",
             "scope": "Deze uitzondering is van toepassing op alle HTTPS-bezoeken aan blog.floorp.app, inclusief handmatig geopende pagina's. Het heeft ook invloed op de trackingbescherming en aangepaste filters in de vijf vermelde extensies. Andere extensies worden niet beperkt door deze instelling. Andere beschermingsmiddelen kunnen nog steeds advertenties blokkeren. Herlaad geopende blogpagina's na het wijzigen van deze instelling.",
-            "error": "Could not load or save this setting. Please reopen this page and try again."
+            "error": "Kon deze instelling niet laden of opslaan. Open deze pagina opnieuw en probeer het nog een keer."
         },
         "title": "Updates en experimenten",
         "description": "Beheer de update-instellingen en de deelname aan experimentele functies.",
@@ -767,17 +767,17 @@
         }
     },
     "performance": {
-        "title": "Performance",
-        "description": "Settings that affect how the browser uses system resources.",
+        "title": "Prestaties",
+        "description": "Instellingen die invloed hebben op hoe de browser systeembronnen gebruikt.",
         "idleReclaim": {
-            "title": "Idle memory reclaim",
-            "description": "Experimental and off by default. When enabled, attempts to reduce memory use after a period without keyboard or mouse input. The amount reclaimed depends on the pages in use.",
-            "enable": "Reclaim memory while the browser is idle",
-            "idleThreshold": "Idle time before reclaiming (seconds)",
-            "minInterval": "Minimum interval between reclaims (seconds)",
-            "minResident": "Only reclaim when memory usage exceeds (MB)",
-            "cost": "Video playback, calls, and screen sharing do not prevent reclamation. Reclamation can pause the browser, including when you resume using it. Shorter intervals increase its frequency.",
-            "saveFailed": "Could not save this setting. The previous value has been restored."
+            "title": "Geheugen vrijmaken bij inactiviteit",
+            "description": "Experimenteel en standaard uitgeschakeld. Wanneer ingeschakeld, wordt geprobeerd het geheugengebruik te verminderen na een periode zonder toetsenbord- of muisinvoer. De hoeveelheid vrijgemaakt geheugen hangt af van de pagina's die je gebruikt.",
+            "enable": "Geheugen vrijmaken wanneer de browser inactief is",
+            "idleThreshold": "Inactiviteitstijd voor vrijmaken (seconden)",
+            "minInterval": "Minimaal interval tussen vrijgaven (seconden)",
+            "minResident": "Alleen vrijmaken wanneer geheugengebruik hoger is dan (MB)",
+            "cost": "Het afspelen van video's, oproepen en het delen van je scherm voorkomen het vrijmaken van geheugen niet. Het vrijmaken kan de browser tijdelijk laten haperen, ook wanneer je deze weer gaat gebruiken. Kortere intervallen verhogen de frequentie hiervan.",
+            "saveFailed": "Kon deze instelling niet opslaan. De vorige waarde is hersteld."
         }
     }
 }
