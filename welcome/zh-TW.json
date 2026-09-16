@@ -1,30 +1,30 @@
 {
   "releaseNotes": {
-      "learnMore": "Read about our funding and this setting (Japanese)",
-      "title": "Release notes and supporting Floorp",
-      "description": "Advertising revenue supports Floorp development and operation. Choose how to open release notes after updates. You can change this later in Settings → Updates & Experiments.",
+      "learnMore": "了解我們的資金來源及此計畫的背景（日文）",
+      "title": "發行說明與支持 Floorp",
+      "description": "廣告收入支持 Floorp 的開發與營運。請選擇更新後如何開啟版本說明，也可在「設定」→「更新與測試功能」中變更此設定。",
       "disabled": {
-      "label": "Do not open automatically",
-      "description": "Do not open release notes after updates. Keep your blocker settings when visiting the blog."
+      "label": "不要自動開啟",
+      "description": "更新後不開啟版本說明。瀏覽官方部落格時亦保留你的廣告阻擋設定。"
       },
       "blocking": {
-      "label": "Open with your blocker settings",
-      "description": "Keep your extensions working as configured. This does not install or enable an ad blocker."
+      "label": "以你的廣告攔截器設定開啟",
+      "description": "保持擴充功能依照原有設定運作。這不會安裝或打開廣告攔截器。"
       },
       "support": {
-      "label": "Allow ads to support Floorp (recommended)",
-      "description": "Restrict uBlock Origin, AdGuard, Adblock Plus, AdBlock and Ghostery on the Floorp blog."
+      "label": "顯示廣告來支持 Floorp（建議）",
+      "description": "在 Floorp 部落格上限制 uBlock Origin、AdGuard、Adblock Plus、AdBlock 及 Ghostery。"
       },
-      "scope": "The restriction applies to all HTTPS pages on blog.floorp.app, including manually opened pages, and affects tracking protection and custom filters as well as ad blocking. Other extensions are not restricted by this setting. Ads may still be blocked by other protection tools. Reload open blog pages after changing the setting.",
-      "applyOnConfirm": "Your selection takes effect only when you confirm. Closing this page keeps your current setting.",
-      "changeSelection": "Change selection",
-      "applyOnFinish": "This is a draft selection. It takes effect when you finish setup on the next screen. Closing setup before then keeps your current setting.",
-      "confirm": "Save selection",
-      "dismiss": "Keep current setting",
-      "error": "Could not load or save your selection. Please reopen this page and try again."
+      "scope": "此限制適用於所有在 blog.floorp.app 網域的 HTTPS 頁面，包括手動開啟的頁面。此設定亦會影響追蹤防護、自定義篩選器和廣告阻擋器。其他擴充功能不受此設定限制，但其他防護工具仍可能阻擋廣告。變更此設定後，請重新載入已開啟的部落格頁面。",
+      "applyOnConfirm": "你的選擇必須在確認後才會生效。關閉此頁面將保留原本的設定。",
+      "changeSelection": "變更選擇",
+      "applyOnFinish": "這些選擇尚未保存。當你在下一畫面完成設定後，這些選項將會生效。若在此之前關閉設定畫面，系統將保留原本的設定。",
+      "confirm": "儲存所選項目",
+      "dismiss": "保留當前設定",
+      "error": "無法載入或儲存你的選擇。請重新開啟此頁面並再次嘗試。"
   },
   "navigation": {
-      "support": "Support Floorp",
+      "support": "支持 Floorp",
       "welcome": "歡迎！",
       "language": "語言",
       "languageSupport": "語言支援",
