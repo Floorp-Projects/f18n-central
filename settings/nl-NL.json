@@ -347,7 +347,7 @@
                 "description": "Voorkom dat uBlock Origin, AdGuard, Adblock Plus, AdBlock en Ghostery de Floorp-blog filteren."
             },
             "supportMessage": "Advertentie-inkomsten uit releaseopmerkingen ondersteunen de ontwikkeling en exploitatie van Floorp. Bedankt dat je ons steunt op een manier die voor jou werkt.",
-            "scope": "This exception applies to all HTTPS visits to blog.floorp.app, including manually opened pages. It also affects tracking protection and custom filters in the five listed extensions. Other extensions are not restricted by this setting. Other protection tools may still block ads. Reload open blog pages after changing this setting.",
+            "scope": "Deze uitzondering is van toepassing op alle HTTPS-bezoeken aan blog.floorp.app, inclusief handmatig geopende pagina's. Het heeft ook invloed op de trackingbescherming en aangepaste filters in de vijf vermelde extensies. Andere extensies worden niet beperkt door deze instelling. Andere beschermingsmiddelen kunnen nog steeds advertenties blokkeren. Herlaad geopende blogpagina's na het wijzigen van deze instelling.",
             "error": "Could not load or save this setting. Please reopen this page and try again."
         },
         "title": "Updates en experimenten",
