@@ -2,18 +2,18 @@
   "setupRich": {
     "selected": "選択中",
     "languageActive": "メニューや設定画面に使用されます",
-    "palettePreview": "Color preview",
-    "searchDestination": "Address bar search provider",
-    "enlarge": "Enlarge the {{feature}} screenshot",
-    "enlargeShort": "View larger",
-    "closePreview": "Close preview",
-    "actualScreenshot": "An actual Floorp screenshot. Appearance varies with your version and settings."
+    "palettePreview": "色のプレビュー",
+    "searchDestination": "アドレスバーの検索プロバイダー",
+    "enlarge": "{{feature}} のスクリーンショットを拡大",
+    "enlargeShort": "拡大表示",
+    "closePreview": "プレビューを閉じる",
+    "actualScreenshot": "Floorp の実際のスクリーンショットです。外観はお使いのバージョンや設定によって異なります。"
   },
   "setupV5": {
     "back": "戻る",
     "supportLabels": {
       "disabled": "自動で開かない",
-      "blocking": "Open with my blocker settings",
+      "blocking": "ブロッカーの設定を維持して開く",
       "support": "Allow ads to support Floorp"
     },
     "supportNotice": "This is a draft choice. It takes effect when you press “Start using Floorp” on the next page. Closing setup before then keeps your current settings.",
