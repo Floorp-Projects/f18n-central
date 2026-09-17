@@ -1,30 +1,30 @@
 {
   "releaseNotes": {
-      "learnMore": "Read about our funding and this setting (Japanese)",
-      "title": "Release notes and supporting Floorp",
-      "description": "Advertising revenue supports Floorp development and operation. Choose how to open release notes after updates. You can change this later in Settings → Updates & Experiments.",
+      "learnMore": "Läs mer om vår finansiering och denna verksamhetsmiljö (japanska)",
+      "title": "Släpp anteckningar och stödjande av Floorp",
+      "description": "Annonsintäkterna finansierar utvecklingen och driften av Floorp. Välj hur du vill öppna versionsinformationen efter uppdateringar. Du kan ändra detta senare under Inställningar → Uppdateringar och experiment.",
       "disabled": {
-      "label": "Do not open automatically",
-      "description": "Do not open release notes after updates. Keep your blocker settings when visiting the blog."
+      "label": "Öppna inte automatiskt",
+      "description": "Öppna inte versionsfakta efter uppdateringar. Håll dina blockeringsinställningar när du besöker bloggen."
       },
       "blocking": {
-      "label": "Open with your blocker settings",
-      "description": "Keep your extensions working as configured. This does not install or enable an ad blocker."
+      "label": "Öppna med dina blockeringsinställningar",
+      "description": "Håll dina tillägg konfigurerade. Detta installerar eller aktiverar inte en annonsblockerare."
       },
       "support": {
-      "label": "Allow ads to support Floorp (recommended)",
-      "description": "Restrict uBlock Origin, AdGuard, Adblock Plus, AdBlock and Ghostery on the Floorp blog."
+      "label": "Tillåt annonser för att stödja Floorp (rekommenderas)",
+      "description": "Förhindra uBlock Origin, AdGuard, Adblock Plus, AdBlock och Ghostery från att filtrera Floorp blogg."
       },
-      "scope": "The restriction applies to all HTTPS pages on blog.floorp.app, including manually opened pages, and affects tracking protection and custom filters as well as ad blocking. Other extensions are not restricted by this setting. Ads may still be blocked by other protection tools. Reload open blog pages after changing the setting.",
-      "applyOnConfirm": "Your selection takes effect only when you confirm. Closing this page keeps your current setting.",
-      "changeSelection": "Change selection",
-      "applyOnFinish": "This is a draft selection. It takes effect when you finish setup on the next screen. Closing setup before then keeps your current setting.",
-      "confirm": "Save selection",
-      "dismiss": "Keep current setting",
-      "error": "Could not load or save your selection. Please reopen this page and try again."
+      "scope": "Detta undantag gäller alla HTTPS-besök på blog.floorp.app, inklusive sidor som öppnas manuellt. Det påverkar även spårningsskyddet och anpassade filter i de fem angivna tilläggen. Övriga tillägg påverkas inte av den här inställningen. Andra skyddsverktyg kan fortfarande blockera annonser. Ladda om öppna bloggsidor efter att du har ändrat den här inställningen.",
+      "applyOnConfirm": "Ditt val träder i kraft först när du bekräftar det. Om du stänger den här sidan behålls din nuvarande inställning.",
+      "changeSelection": "Ändra val",
+      "applyOnFinish": "Detta är ett utkast val. Det träder i kraft när du avslutar installationen på nästa skärm. Stänger installationen innan du behåller din nuvarande inställning.",
+      "confirm": "Spara val",
+      "dismiss": "Behåll nuvarande inställningar",
+      "error": "Kunde inte ladda eller spara ditt val. Öppna sidan igen och försök igen."
   },
   "navigation": {
-      "support": "Support Floorp",
+      "support": "Stöd Floorp",
       "welcome": "Välkommen",
       "language": "Språk",
       "languageSupport": "Språkstöd",
