@@ -1,7 +1,7 @@
 {
   "setupRich": {
     "selected": "選択中",
-    "languageActive": "Used for menus and settings",
+    "languageActive": "メニューや設定画面に使用されます",
     "palettePreview": "Color preview",
     "searchDestination": "Address bar search provider",
     "enlarge": "Enlarge the {{feature}} screenshot",
