@@ -455,33 +455,33 @@
     "mouseGesture": {
       "title": "マウスの動きで、すばやく操作",
       "steps": [
-        "Hold the right button",
-        "Move left",
-        "Release the button"
+        "右ボタンを押したまま",
+        "左へ動かして",
+        "ボタンを離す"
       ],
-      "previous": "Previous page",
-      "current": "Current page",
-      "result": "← Returned to the previous page (demo)",
-      "hint": "An example of the default Back gesture.",
-      "enable": "Enable mouse gestures in Settings to use this feature.",
-      "benefit": "Hold the right mouse button and move the mouse to perform actions such as Back."
+      "previous": "前のページ",
+      "current": "現在のページ",
+      "result": "← 前のページに戻りました (デモ)",
+      "hint": "既定の [戻る] ジェスチャーの例。",
+      "enable": "利用する場合は、設定でマウスジェスチャーを有効にしてください。",
+      "benefit": "右ボタンを押しながらマウスを動かすと、[戻る] などの操作ができます。"
     }
   },
   "welcomeMotion": {
     "steps": [
-      "Check language",
-      "Choose appearance",
-      "Get started"
+      "言語を確認",
+      "外観を選ぶ",
+      "はじめる"
     ],
     "descriptions": [
-      "Check your preferred display language.",
-      "Choose a theme and search engine.",
-      "Review your choices and start using Floorp."
+      "お好みの表示言語を確認します。",
+      "テーマや検索エンジンを選べます。",
+      "選択内容を確認し、Floorp をはじめましょう。"
     ],
-    "replay": "Watch again"
+    "replay": "もう一度見る"
   },
   "demoPlayback": {
-    "pause": "Pause",
-    "play": "Play / resume"
+    "pause": "一時停止",
+    "play": "再生 / 再開"
   }
 }
