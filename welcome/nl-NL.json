@@ -1,10 +1,10 @@
 {
   "setupRich": {
     "selected": "Geselecteerd",
-    "languageActive": "Used for menus and settings",
-    "palettePreview": "Color preview",
-    "searchDestination": "Address bar search provider",
-    "enlarge": "Enlarge the {{feature}} screenshot",
+    "languageActive": "Gebruikt voor menu's en instellingen",
+    "palettePreview": "Kleurvoorbeeld",
+    "searchDestination": "Zoekmachine in de adresbalk",
+    "enlarge": "Schermafbeelding van {{feature}} vergroten",
     "enlargeShort": "View larger",
     "closePreview": "Close preview",
     "actualScreenshot": "An actual Floorp screenshot. Appearance varies with your version and settings."
