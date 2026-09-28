@@ -143,16 +143,13 @@
             "taskbarPreviewsDescription": "Dit verandert alleen de weergave op de Windows-taakbalk. Het maakt geen extra browservensters aan.",
             "taskbarPreviewsUnavailable": "Deze optie is uitsluitend beschikbaar voor Windows."
         },
-        "lepton-preferences": {
-            "title": "Lepton Instellingen",
-            "description": "Geavanceerde Lepton-thema-instellingen configureren",
-            "configureLepton": "Lepton configureren",
+        "chrome-extras": {
+            "title": "UI Extension Settings",
+            "description": "Apply optional UI tweaks on top of the currently selected design",
             "back": "Terug",
             "experimentalWarning": {
                 "title": "⚠️ Experimentele functies",
-                "description": "Deze instellingen zijn experimenteel en worden niet officieel ondersteund. Er kunnen problemen optreden.",
-                "leptonRepository": "Lepton is een css thema voor Firefox.",
-                "visitRepository": "Repositorypagina bezoeken"
+                "description": "Deze instellingen zijn experimenteel en worden niet officieel ondersteund. Er kunnen problemen optreden."
             },
             "autohide": {
                 "title": "Instellingen automatisch verbergen",
@@ -176,8 +173,8 @@
             },
             "icon": {
                 "title": "Pictograminstellingen",
-                "disabled": "Lepton-pictogrammen voor snelmenu en paneelmenu uitschakelen",
-                "menu": "Lepton-pictogrammen voor snelmenu inschakelen"
+                "disabled": "Disable context menu and panel menu icons",
+                "menu": "Enable context menu icons"
             },
             "centered": {
                 "title": "Gecentreerde instellingen",
@@ -199,7 +196,8 @@
             "sidebar": {
                 "title": "Zijbalk instellingen",
                 "overlap": "Zijbalk over website-inhoud tonen"
-            }
+            },
+            "configure": "Open UI extension settings"
         },
         "tabSleepExclusion": {
             "title": "Tabbladslaapstand-uitzonderingen",
