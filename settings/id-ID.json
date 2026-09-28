@@ -510,9 +510,9 @@
         "resetContainer": "Setel Ulang",
         "save": "Simpan",
         "errorRenaming": "Tidak bisa mengganti nama Aplikasi Web ini.",
-        "errorUninstalling": "Could not uninstall this Web App.",
+        "errorUninstalling": "Tidak bisa menghapus Aplikasi Web ini.",
         "errorSettingContainer": "Gagal mengatur kontainer",
-        "nativeContainerFixed": "This macOS Web App keeps the container chosen when it was installed. Changing its container is not supported yet. Its current login and site data have been kept."
+        "nativeContainerFixed": "Aplikasi Web macOS ini tetap menggunakan kontainer terpilih saat dipasang. Penggantian kontainer belum didukung. Data login dan situs tetap tersimpan."
     },
     "floorpOS": {
         "title": "{{productName}} OS",
