@@ -143,16 +143,13 @@
             "taskbarPreviewsDescription": "This changes only the Windows taskbar display. It does not create additional browser windows.",
             "taskbarPreviewsUnavailable": "This option is available on Windows only."
         },
-        "lepton-preferences": {
-            "title": "Ρυθμίσεις Lepton",
-            "description": "Ρύθμιση των προηγμένων προτιμήσεων του θέματος Lepton",
-            "configureLepton": "Διαμόρφωση του Lepton",
+        "chrome-extras": {
+            "title": "UI Extension Settings",
+            "description": "Apply optional UI tweaks on top of the currently selected design",
             "back": "Πίσω",
             "experimentalWarning": {
                 "title": "⚠️ Πειραματικά χαρακτηριστικά",
-                "description": "Αυτές οι ρυθμίσεις είναι πειραματικές και δεν υποστηρίζονται επίσημα. Ενδέχεται να προκύψουν προβλήματα.",
-                "leptonRepository": "Το Lepton είναι ένα θέμα css για τον Firefox.",
-                "visitRepository": "Επισκεφθείτε τη σελίδα αποθετηρίου"
+                "description": "Αυτές οι ρυθμίσεις είναι πειραματικές και δεν υποστηρίζονται επίσημα. Ενδέχεται να προκύψουν προβλήματα."
             },
             "autohide": {
                 "title": "Ρυθμίσεις αυτόματης απόκρυψης",
@@ -176,8 +173,8 @@
             },
             "icon": {
                 "title": "Ρυθμίσεις εικονιδίων",
-                "disabled": "Απενεργοποίηση εικονιδίων μενού και μενού πίνακα του Lepton",
-                "menu": "Ενεργοποίηση των εικονιδίων του μενού περιβάλλοντος του Lepton"
+                "disabled": "Disable context menu and panel menu icons",
+                "menu": "Enable context menu icons"
             },
             "centered": {
                 "title": "Ρυθμίσεις Κεντραρισμένων",
@@ -199,7 +196,8 @@
             "sidebar": {
                 "title": "Ρυθμίσεις πλευρικής γραμμής",
                 "overlap": "Εμφάνιση πλευρικής μπάρας πάνω από το περιεχόμενο του ιστότοπου"
-            }
+            },
+            "configure": "Open UI extension settings"
         },
         "tabSleepExclusion": {
             "title": "Εξαίρεση καρτέλας από αναστολή",

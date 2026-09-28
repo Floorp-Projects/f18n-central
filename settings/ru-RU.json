@@ -143,16 +143,13 @@
             "taskbarPreviewsDescription": "This changes only the Windows taskbar display. It does not create additional browser windows.",
             "taskbarPreviewsUnavailable": "This option is available on Windows only."
         },
-        "lepton-preferences": {
-            "title": "Настройки Lepton",
-            "description": "Настройка дополнительных параметров темы Lepton",
-            "configureLepton": "Настройка Lepton",
+        "chrome-extras": {
+            "title": "UI Extension Settings",
+            "description": "Apply optional UI tweaks on top of the currently selected design",
             "back": "Назад",
             "experimentalWarning": {
                 "title": "⚠️ Экспериментальные функции",
-                "description": "Эти настройки являются экспериментальными и официально не поддерживаются. Могут возникнуть проблемы.",
-                "leptonRepository": "Lepton — это css тема для Firefox.",
-                "visitRepository": "Открыть страницу репозитория"
+                "description": "Эти настройки являются экспериментальными и официально не поддерживаются. Могут возникнуть проблемы."
             },
             "autohide": {
                 "title": "Настройки автоскрытия",
@@ -176,8 +173,8 @@
             },
             "icon": {
                 "title": "Настройки значков",
-                "disabled": "Отключить контекстное меню и значки меню панели Lepton",
-                "menu": "Включить значки контекстного меню Lepton"
+                "disabled": "Disable context menu and panel menu icons",
+                "menu": "Enable context menu icons"
             },
             "centered": {
                 "title": "Настройки центрирования",
@@ -199,7 +196,8 @@
             "sidebar": {
                 "title": "Настройки боковой панели",
                 "overlap": "Отображать боковую панель поверх содержимого сайта"
-            }
+            },
+            "configure": "Open UI extension settings"
         },
         "tabSleepExclusion": {
             "title": "Исключение перехода вкладки в спящий режим",
