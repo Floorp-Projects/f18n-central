@@ -215,7 +215,7 @@
             "exampleFullUrl": "Correspond uniquement aux URL de Gmail"
         },
         "tabStacks": {
-            "unavailableInVerticalTabs": "Tab stacks are unavailable with vertical tabs. Your setting is kept and applies when you return to horizontal tabs.",
+            "unavailableInVerticalTabs": "Les piles d'onglets sont indisponibles avec les onglets verticaux. Votre paramètre est conservé et s'applique lorsque vous revenez aux onglets horizontaux.",
             "title": "Piles d'onglets",
             "description": "Regroupez les onglets dans des piles, représentées sous la forme d'une icône dans la barre d'onglets, avec une deuxième rangée d'onglets empilés en dessous.",
             "enableOrDisable": "Activer/Désactiver",
@@ -785,10 +785,10 @@
         }
     },
     "ui": {
-        "skipToContent": "Skip to content",
+        "skipToContent": "Passer directement au contenu",
         "loading": "Chargement…",
-        "setupProgress": "Setup progress",
-        "stepNavigation": "Setup navigation",
+        "setupProgress": "Progression de l'installation",
+        "stepNavigation": "Configuration de la navigation",
         "settingsNavigation": "Settings navigation",
         "openNavigation": "Open navigation",
         "closeNavigation": "Close navigation",
