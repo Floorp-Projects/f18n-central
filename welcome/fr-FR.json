@@ -412,76 +412,76 @@
           ]
         },
         {
-          "category": "Study notes",
-          "title": "Today’s learning notes",
-          "description": "Put what you learned into your own words.",
+          "category": "Notes d'étude",
+          "title": "Notes d'apprentissage du jour",
+          "description": "Reformulez ce que vous avez appris avec vos propres mots.",
           "items": [
-            "Summarize the key points",
-            "Write down new words",
-            "List questions to explore next"
+            "Résumez les points essentiels",
+            "Notez les nouveaux mots",
+            "Liste des questions à approfondir par la suite"
           ]
         }
       ]
     },
     "panelSidebar": {
-      "title": "Open a site alongside your page",
-      "instruction": "Use the music icon on the right to open or close the saved site.",
-      "article": "Keep exploring",
+      "title": "Ouvrir un site à côté de votre page",
+      "instruction": "Utilisez l'icône de musique à droite pour ouvrir ou fermer le site enregistré.",
+      "article": "Continuez à explorer",
       "music": "Musique",
-      "favorites": "Favorites",
+      "favorites": "Favoris",
       "tracks": [
-        "Moonlit",
-        "Blue hour",
-        "Gentle breeze"
+        "Au clair de lune",
+        "Heure bleue",
+        "Légère brise"
       ],
-      "play": "Try playback (no audio)",
-      "stop": "Stop playback",
-      "toggle": "Toggle music panel",
-      "open": "Your page and saved site appear side by side.",
-      "closed": "Open the panel again using the music icon on the right.",
-      "benefit": "Open another site alongside the page you are viewing."
+      "play": "Essayer la lecture (sans audio)",
+      "stop": "Arrêter la lecture",
+      "toggle": "Afficher/masquer le panneau Musique",
+      "open": "Votre page et le site enregistré s'affichent côte à côte.",
+      "closed": "Ouvrez à nouveau le panneau en utilisant l'icône de la musique sur la droite.",
+      "benefit": "Ouvrez un autre site à côté de la page que vous consultez."
     },
     "pwa": {
-      "title": "Turn a favorite site into an app",
-      "instruction": "Try installing from the icon on the right of the address bar.",
-      "icon": "Open web app installation menu",
-      "open": "Open app",
+      "title": "Transformez un site favori en une application",
+      "instruction": "Essayez de l'installer à partir de l'icône située sur la droite de la barre d'adresse.",
+      "icon": "Ouvrir le menu d'installation de l'application web",
+      "open": "Ouvrir l’application",
       "install": "Installer l'application",
-      "calendar": "Calendar",
-      "result": "Example of a standalone app window",
-      "benefit": "Open a site as an app in a separate window.",
-      "tab": "Web apps"
+      "calendar": "Calendrier",
+      "result": "Exemple de fenêtre d'application autonome",
+      "benefit": "Ouvrir un site en tant qu'application dans une fenêtre séparée.",
+      "tab": "Applications Web"
     },
     "mouseGesture": {
-      "title": "Navigate with a mouse gesture",
+      "title": "Naviguer à l'aide d'un geste de souris",
       "steps": [
-        "Hold the right button",
-        "Move left",
-        "Release the button"
+        "Maintenez le bouton droit enfoncé",
+        "Déplacer à gauche",
+        "Relâchez le bouton"
       ],
-      "previous": "Previous page",
-      "current": "Current page",
-      "result": "← Returned to the previous page (demo)",
-      "hint": "An example of the default Back gesture.",
-      "enable": "Enable mouse gestures in Settings to use this feature.",
-      "benefit": "Hold the right mouse button and move the mouse to perform actions such as Back."
+      "previous": "Page précédente",
+      "current": "Page actuelle",
+      "result": "← Retour à la page précédente (démo)",
+      "hint": "Exemple du geste « Retour » par défaut.",
+      "enable": "Activez les gestes de la souris dans les Paramètres pour utiliser cette fonctionnalité.",
+      "benefit": "Maintenez le bouton droit de la souris enfoncé et déplacez la souris pour effectuer des actions telles que « Retour »."
     }
   },
   "welcomeMotion": {
     "steps": [
-      "Check language",
-      "Choose appearance",
-      "Get started"
+      "Vérifier la langue",
+      "Choisir l'apparence",
+      "C'est parti"
     ],
     "descriptions": [
-      "Check your preferred display language.",
-      "Choose a theme and search engine.",
-      "Review your choices and start using Floorp."
+      "Vérifiez votre langue d'affichage préférée.",
+      "Choisissez un thème et un moteur de recherche.",
+      "Passez en revue vos choix et commencez à naviguer."
     ],
-    "replay": "Watch again"
+    "replay": "Regarder à nouveau"
   },
   "demoPlayback": {
     "pause": "Pause",
-    "play": "Play / resume"
+    "play": "Lecture / reprise"
   }
 }
