@@ -82,47 +82,47 @@
     "languageTitle": "Langue d'affichage",
     "languageLabel": "Langue d'affichage de Floorp",
     "languageHint": "Utilisé pour les menus et les réglages.",
-    "languageNotice": "Some add-ons may not support changing languages.",
-    "languageCurrent": "Using {{language}}",
-    "featuresTitle": "Explore the features",
-    "hubTitle": "Find what you want to adjust",
+    "languageNotice": "Il se peut que certaines extensions ne prennent pas en charge le changement de langue.",
+    "languageCurrent": "{{language}} utilisé",
+    "featuresTitle": "Explorer les fonctionnalités",
+    "hubTitle": "Trouvez ce que vous voulez ajuster",
     "hubItems": [
       {
-        "title": "Tabs and appearance",
-        "description": "Tab layout and the browser’s appearance"
+        "title": "Onglet & Apparence",
+        "description": "Disposition des onglets et apparence du navigateur"
       },
       {
         "title": "Espaces de travail",
-        "description": "Switch tasks and organize tabs"
+        "description": "Basculer entre les tâches et organiser les onglets"
       },
       {
-        "title": "Mouse gestures",
-        "description": "Shortcuts to frequently used actions"
+        "title": "Gestes de la souris",
+        "description": "Raccourcis vers les actions fréquemment utilisées"
       }
     ],
     "openHub": "Ouvrir la Plateforme de Floorp",
-    "openPreferences": "Open Firefox Settings",
-    "newTab": "Opens in a new tab.",
-    "hubAddress": "You can also enter about:hub in the address bar.",
-    "customizeTitle": "Your first settings",
-    "searchHint": "Used when searching from the address bar.",
+    "openPreferences": "Ouvrez les paramètres Firefox",
+    "newTab": "S'ouvre dans un nouvel onglet.",
+    "hubAddress": "Vous pouvez également saisir about:hub dans la barre d'adresse.",
+    "customizeTitle": "Vos premiers réglages",
+    "searchHint": "Utilisé lors de la recherche dans la barre d'adresse.",
     "supportTitle": "Notes de mise à jour après les mises à jour",
-    "scopeTitle": "Scope when allowing advertising",
-    "summaryTitle": "Review your settings",
+    "scopeTitle": "Portée de l'autorisation de la publicité",
+    "summaryTitle": "Vérifiez vos paramètres",
     "change": "Modifier",
-    "defaultTitle": "Make Floorp your everyday browser",
-    "defaultHint": "Set links to open in Floorp.",
-    "getStarted": "Start using Floorp",
-    "finishNotice": "“Start using Floorp” confirms your release notes choice."
+    "defaultTitle": "Faites de Floorp votre navigateur de tous les jours",
+    "defaultHint": "Définir les liens à ouvrir dans Floorp.",
+    "getStarted": "Commencer à utiliser Floorp",
+    "finishNotice": "« Commencer à utiliser Floorp » confirme votre choix concernant les notes de mise à jour."
   },
   "releaseNotes": {
     "prompt": {
-      "title": "A new choice.\nSupport what comes next.",
-      "description": "Advertising revenue supports Floorp development and operation. You can now choose how release notes open and how blockers work on the Floorp blog.",
-      "hint": "Your settings stay as they are until you save a selection. You can change it later in Updates & Experiments.",
-      "choiceTitle": "Choose how release notes open",
-      "choiceDescription": "Choose automatic display after updates and how your blockers work on the Floorp blog.",
-      "dismiss": "Not now"
+      "title": "Un nouveau choix.\nSoutenez ce qui va suivre.",
+      "description": "Les recettes publicitaires financent le développement et l'exploitation de Floorp. Vous pouvez désormais choisir le mode d'affichage des notes de mise à jour et comment les bloqueurs fonctionnent sur le blog de Floorp.",
+      "hint": "Vos paramètres restent inchangés jusqu'à ce que vous enregistriez une sélection. Vous pourrez les modifier ultérieurement dans la section « Mises à jour et expérimentations ».",
+      "choiceTitle": "Choisissez le mode d'ouverture des notes de mise à jour",
+      "choiceDescription": "Choisissez l'affichage automatique après les mises à jour et comment vos bloqueurs fonctionnent sur le blog Floorp.",
+      "dismiss": "Pas maintenant"
     },
     "learnMore": "En savoir plus sur notre financement et ce réglage (japonais)",
     "title": "Notes de version et support Floorp",
@@ -140,7 +140,7 @@
       "description": "Restreindre uBlock Origin, AdGuard, Adblock Plus, AdBlock et Ghostery sur le blog Floorp."
     },
     "scope": "Cette restriction s'applique à toutes les pages HTTPS du site blog.floorp.app, y compris celles ouvertes manuellement, et concerne la protection contre le suivi, les filtres personnalisés ainsi que le blocage des publicités. Les autres extensions ne sont pas restreintes par ce réglage. Les publicités peuvent toujours être bloquées par d'autres outils de protection. Veuillez actualiser les pages du blog ouvertes après avoir modifié ce réglage.",
-    "currentSetting": "Current setting: {{mode}}",
+    "currentSetting": "Réglage actuel : {{mode}}",
     "applyOnConfirm": "Votre choix ne sera effectif qu'une fois que vous l'aurez confirmé. Si vous fermez cette page, votre paramètre actuel sera conservé.",
     "changeSelection": "Changer la sélection",
     "applyOnFinish": "Il s'agit d'un choix provisoire. Il prendra effet lorsque vous aurez terminé la configuration sur l'écran suivant. Si vous fermez la fenêtre de configuration avant cela, vos paramètres actuels seront alors conservés.",
@@ -220,10 +220,10 @@
   },
   "setupGuide": {
     "welcome": "Bienvenue sur Floorp.",
-    "description": "Make your browser work the way you do.",
-    "introduction": "This guide introduces Floorp's features and helps you choose your first settings.",
-    "start": "Start setup",
-    "next": "Next, check your display language.",
+    "description": "Adaptez votre navigateur à votre façon de travailler.",
+    "introduction": "Ce guide présente les fonctionnalités de Floorp et vous aide à définir vos premiers paramètres.",
+    "start": "Démarrer la configuration",
+    "next": "Ensuite, vérifiez votre langue d'affichage.",
     "progress": "Configuration {{current}} / {{total}}",
     "title": "Ce que couvre ce tutoriel",
     "subtitle": "Explorez les fonctionnalités et choisissez les paramètres qui vous conviennent.",
@@ -408,7 +408,7 @@
           "items": [
             "Trouver un café au bord de mer",
             "Explorer une nouvelle ville",
-            "Make a packing list"
+            "Créer une liste d'emballage"
           ]
         },
         {
