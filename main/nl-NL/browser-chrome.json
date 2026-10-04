@@ -510,8 +510,8 @@
       "media": "Media",
       "open-tabs": "Tabbladen openen",
       "switcher": "Schakelaar",
-      "history-suggestions": "Geschiedenis",
-      "bookmark-suggestions": "Bladwijzers"
+      "history-suggestions": "History (Dynamic Search)",
+      "bookmark-suggestions": "Bookmarks (Dynamic Search)"
     },
     "noResults": "Geen opdrachten gevonden",
     "noResultsHint": "Probeer een andere zoekopdracht",
@@ -596,7 +596,15 @@
     "bookmarkSwitcherWhereLabel": "Waar openen",
     "bookmarkSwitcherWhereNewTab": "Nieuw tabblad",
     "bookmarkSwitcherWhereNewTabDesc": "Openen in een nieuw tabblad op de voorgrond",
-    "bookmarkSwitcherWherePlaceholder": "Kies waar je het wilt openen..."
+    "bookmarkSwitcherWherePlaceholder": "Kies waar je het wilt openen...",
+    "shortcutLabel": "@{{prefix}}",
+    "shortcutWithArgsLabel": "@{{prefix}} {{args}}",
+    "searchShortcutDescription": "Search \"{{query}}\"",
+    "shortcuts": {
+      "reservedTabSearch": "Search Open Tabs",
+      "reservedBookmarkSearch": "Search Bookmarks",
+      "reservedHistorySearch": "Zoekgeschiedenis"
+    }
   },
   "commandPaletteReadings": {}
 }
