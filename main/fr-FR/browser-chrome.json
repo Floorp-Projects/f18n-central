@@ -510,8 +510,8 @@
       "media": "Média",
       "open-tabs": "Onglets ouverts",
       "switcher": "Commuter",
-      "history-suggestions": "History (Dynamic Search)",
-      "bookmark-suggestions": "Bookmarks (Dynamic Search)"
+      "history-suggestions": "Historique (Recherche dynamique)",
+      "bookmark-suggestions": "Marque-pages (Recherche Dynamique)"
     },
     "noResults": "Aucune commande trouvée",
     "noResultsHint": "Essayez un autre terme de recherche",
@@ -599,10 +599,10 @@
     "bookmarkSwitcherWherePlaceholder": "Sélectionnez l'endroit où ouvrir...",
     "shortcutLabel": "@{{prefix}}",
     "shortcutWithArgsLabel": "@{{prefix}} {{args}}",
-    "searchShortcutDescription": "Search \"{{query}}\"",
+    "searchShortcutDescription": "Recherche \"{{query}}\"",
     "shortcuts": {
-      "reservedTabSearch": "Search Open Tabs",
-      "reservedBookmarkSearch": "Search Bookmarks",
+      "reservedTabSearch": "Rechercher dans les onglets ouverts",
+      "reservedBookmarkSearch": "Recherche de marque-pages",
       "reservedHistorySearch": "Rechercher dans l’historique"
     }
   },
