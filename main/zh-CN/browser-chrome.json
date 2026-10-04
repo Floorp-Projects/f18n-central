@@ -510,8 +510,8 @@
       "media": "媒体",
       "open-tabs": "打开的标签页",
       "switcher": "切换",
-      "history-suggestions": "历史",
-      "bookmark-suggestions": "书签"
+      "history-suggestions": "History (Dynamic Search)",
+      "bookmark-suggestions": "Bookmarks (Dynamic Search)"
     },
     "noResults": "未找到任何命令",
     "noResultsHint": "不妨试试其他搜索词",
@@ -596,7 +596,15 @@
     "bookmarkSwitcherWhereLabel": "打开位置",
     "bookmarkSwitcherWhereNewTab": "新标签页",
     "bookmarkSwitcherWhereNewTabDesc": "在新建的前台标签页中打开",
-    "bookmarkSwitcherWherePlaceholder": "选择打开位置……"
+    "bookmarkSwitcherWherePlaceholder": "选择打开位置……",
+    "shortcutLabel": "@{{prefix}}",
+    "shortcutWithArgsLabel": "@{{prefix}} {{args}}",
+    "searchShortcutDescription": "Search \"{{query}}\"",
+    "shortcuts": {
+      "reservedTabSearch": "Search Open Tabs",
+      "reservedBookmarkSearch": "Search Bookmarks",
+      "reservedHistorySearch": "搜索历史"
+    }
   },
   "commandPaletteReadings": {}
 }
