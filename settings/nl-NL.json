@@ -33,7 +33,7 @@
         "updates": "Updates & Experimenten",
         "debug": "Debug",
         "mouseGesture": "Muis gebaren",
-        "contextMenu": "Context Menus",
+        "contextMenu": "Contextmenu's",
         "keyboardShortcut": "Sneltoetsen",
         "performance": "Prestaties",
         "search": {
@@ -715,12 +715,12 @@
         "duplicatePatternError": "Dit muisgebaarpatroon bestaat al"
     },
     "contextMenu": {
-        "description": "Reorder or hide browser context-menu items. Menus supplied by websites are not changed.",
-        "general": "General",
-        "generalDescription": "Enable the custom layout or restore all browser menus to their defaults.",
-        "enable": "Use customized context menus",
-        "enableDescription": "Apply the layouts configured below to supported browser menus.",
-        "resetAll": "Reset all context menus",
+        "description": "Browser-contextmenu-items ordenen of verbergen. Menu's die door websites worden geleverd, veranderen niet.",
+        "general": "Algemeen",
+        "generalDescription": "Aangepaste lay-out inschakelen of alle browsermenu's naar de standaardwaarden herstellen.",
+        "enable": "Gebruik aangepaste contextmenu's",
+        "enableDescription": "De hieronder geconfigureerde lay-outs toepassen op ondersteunde browsermenu's.",
+        "resetAll": "Herstel alle contextmenu's",
         "resetAllDescription": "Remove every saved order, visibility, and independent-profile override.",
         "cancel": "Annuleren",
         "confirmReset": "Reset everything",
