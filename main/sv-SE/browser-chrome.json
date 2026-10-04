@@ -510,8 +510,8 @@
       "media": "Media",
       "open-tabs": "Öppna flikar",
       "switcher": "Växlare",
-      "history-suggestions": "Historik",
-      "bookmark-suggestions": "Bokmärken"
+      "history-suggestions": "History (Dynamic Search)",
+      "bookmark-suggestions": "Bookmarks (Dynamic Search)"
     },
     "noResults": "Inga kommandon hittades",
     "noResultsHint": "Prova en annan sökterm",
@@ -596,7 +596,15 @@
     "bookmarkSwitcherWhereLabel": "Var att öppna",
     "bookmarkSwitcherWhereNewTab": "Ny flik",
     "bookmarkSwitcherWhereNewTabDesc": "Öppna i en ny förgrundsflik",
-    "bookmarkSwitcherWherePlaceholder": "Välj var du vill öppna..."
+    "bookmarkSwitcherWherePlaceholder": "Välj var du vill öppna...",
+    "shortcutLabel": "@{{prefix}}",
+    "shortcutWithArgsLabel": "@{{prefix}} {{args}}",
+    "searchShortcutDescription": "Search \"{{query}}\"",
+    "shortcuts": {
+      "reservedTabSearch": "Search Open Tabs",
+      "reservedBookmarkSearch": "Search Bookmarks",
+      "reservedHistorySearch": "Sökhistorik"
+    }
   },
   "commandPaletteReadings": {}
 }
