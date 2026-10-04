@@ -510,8 +510,8 @@
       "media": "媒體",
       "open-tabs": "開啟的分頁",
       "switcher": "切換",
-      "history-suggestions": "歷史",
-      "bookmark-suggestions": "書籤"
+      "history-suggestions": "History (Dynamic Search)",
+      "bookmark-suggestions": "Bookmarks (Dynamic Search)"
     },
     "noResults": "未找到任何指令",
     "noResultsHint": "嘗試使用其它關鍵字",
@@ -596,7 +596,15 @@
     "bookmarkSwitcherWhereLabel": "開啟位置",
     "bookmarkSwitcherWhereNewTab": "開啟新分頁",
     "bookmarkSwitcherWhereNewTabDesc": "在前景的新分頁開啟",
-    "bookmarkSwitcherWherePlaceholder": "選擇要開啟的位置……"
+    "bookmarkSwitcherWherePlaceholder": "選擇要開啟的位置……",
+    "shortcutLabel": "@{{prefix}}",
+    "shortcutWithArgsLabel": "@{{prefix}} {{args}}",
+    "searchShortcutDescription": "Search \"{{query}}\"",
+    "shortcuts": {
+      "reservedTabSearch": "Search Open Tabs",
+      "reservedBookmarkSearch": "Search Bookmarks",
+      "reservedHistorySearch": "搜尋記錄"
+    }
   },
   "commandPaletteReadings": {}
 }
