@@ -510,8 +510,8 @@
       "media": "Medien",
       "open-tabs": "Geöffnete Tabs",
       "switcher": "Wechsler",
-      "history-suggestions": "Verlauf",
-      "bookmark-suggestions": "Lesezeichen"
+      "history-suggestions": "History (Dynamic Search)",
+      "bookmark-suggestions": "Bookmarks (Dynamic Search)"
     },
     "noResults": "Keine Befehle gefunden",
     "noResultsHint": "Anderen Suchbegriff versuchen",
@@ -596,7 +596,15 @@
     "bookmarkSwitcherWhereLabel": "Ort zum Öffnen",
     "bookmarkSwitcherWhereNewTab": "Neuer Tab",
     "bookmarkSwitcherWhereNewTabDesc": "In einem neuen Vordergrund-Tab öffnen",
-    "bookmarkSwitcherWherePlaceholder": "Anzeigeort auswählen..."
+    "bookmarkSwitcherWherePlaceholder": "Anzeigeort auswählen...",
+    "shortcutLabel": "@{{prefix}}",
+    "shortcutWithArgsLabel": "@{{prefix}} {{args}}",
+    "searchShortcutDescription": "Search \"{{query}}\"",
+    "shortcuts": {
+      "reservedTabSearch": "Search Open Tabs",
+      "reservedBookmarkSearch": "Search Bookmarks",
+      "reservedHistorySearch": "Verlauf durchsuchen"
+    }
   },
   "commandPaletteReadings": {}
 }
