@@ -424,6 +424,13 @@
         "searchResultsDescription": "Resultados da pesquisa para \"{{query}}\". Apenas as definições de {{productName}} são pesquisadas; as definições do Firefox não estão incluídas."
     },
     "panelSidebar": {
+        "overlay": "Display over the page",
+        "overlayDescription": "Open the sidebar over the website without changing the website's size.",
+        "openOnHover": "Open on mouse hover",
+        "openOnHoverDescription": "Hover over a panel icon to preview it. Move away to hide it, or click the icon to keep it open. This also enables display over the page.",
+        "firefoxTitle": "Firefox Sidebar",
+        "firefoxDescription": "Configure the Firefox sidebar for bookmarks, history, and extensions. These options also apply to the sidebar settings in UI Extensions.",
+        "firefoxHoverDescription": "Hover over the sidebar edge to open the last selected tool. Move away to hide it, or click the edge to keep it open. A focused sidebar stays open. This also enables display over the page.",
         "title": "Painel Barra lateral",
         "description": "A barra lateral do painel é uma funcionalidade que lhe permite apresentar várias ferramentas, sites e extensões na parte lateral da janela. Aqui, pode personalizar, adicionar, eliminar e gerir painéis.",
         "basicSettings": "Definições básicas",
