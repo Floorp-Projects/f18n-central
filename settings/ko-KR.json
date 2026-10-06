@@ -424,6 +424,13 @@
         "searchResultsDescription": "\"{{query}}\"에 대한 검색 결과. {{productName}} 설정만 검색되며, Firefox 설정은 포함되지 않습니다."
     },
     "panelSidebar": {
+        "overlay": "Display over the page",
+        "overlayDescription": "Open the sidebar over the website without changing the website's size.",
+        "openOnHover": "Open on mouse hover",
+        "openOnHoverDescription": "Hover over a panel icon to preview it. Move away to hide it, or click the icon to keep it open. This also enables display over the page.",
+        "firefoxTitle": "Firefox Sidebar",
+        "firefoxDescription": "Configure the Firefox sidebar for bookmarks, history, and extensions. These options also apply to the sidebar settings in UI Extensions.",
+        "firefoxHoverDescription": "Hover over the sidebar edge to open the last selected tool. Move away to hide it, or click the edge to keep it open. A focused sidebar stays open. This also enables display over the page.",
         "title": "패널 사이드바",
         "description": "패널 사이드바는 창 측면에 다양한 도구, 웹사이트, 확장 프로그램을 표시할 수 있는 기능입니다. 여기에서 패널을 사용자 지정하고, 추가하고, 삭제하고, 관리할 수 있습니다.",
         "basicSettings": "기본 설정",
