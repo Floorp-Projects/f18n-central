@@ -285,7 +285,12 @@
   },
   "qrcode-generate-page-action": "이 페이지의 QR 코드 생성",
   "qrcode-generate-page-action-title": "QR 코드 생성기",
+  "firefoxSidebar": {
+    "edgeToggle": "Open or pin the Firefox sidebar",
+    "resize": "Resize Firefox sidebar"
+  },
   "panelSidebar": {
+    "resize": "Resize panel sidebar",
     "modal": {
       "type": "패널 유형",
       "typeOptions": {
