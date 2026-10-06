@@ -285,7 +285,12 @@
   },
   "qrcode-generate-page-action": "Tạo mã QR cho trang này",
   "qrcode-generate-page-action-title": "Tạo mã QR",
+  "firefoxSidebar": {
+    "edgeToggle": "Open or pin the Firefox sidebar",
+    "resize": "Resize Firefox sidebar"
+  },
   "panelSidebar": {
+    "resize": "Resize panel sidebar",
     "modal": {
       "type": "Panel Type",
       "typeOptions": {
