@@ -285,7 +285,12 @@
   },
   "qrcode-generate-page-action": "Bu sayfa için QR Kod oluşturun",
   "qrcode-generate-page-action-title": "QR Kod Oluşturucu",
+  "firefoxSidebar": {
+    "edgeToggle": "Open or pin the Firefox sidebar",
+    "resize": "Resize Firefox sidebar"
+  },
   "panelSidebar": {
+    "resize": "Resize panel sidebar",
     "modal": {
       "type": "Panel Türü",
       "typeOptions": {
