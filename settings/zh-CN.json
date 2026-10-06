@@ -424,6 +424,13 @@
         "searchResultsDescription": "搜索结果为“{{query}}”。仅搜索 {{productName}} 设置；不包括 Firefox 设置。"
     },
     "panelSidebar": {
+        "overlay": "Display over the page",
+        "overlayDescription": "Open the sidebar over the website without changing the website's size.",
+        "openOnHover": "Open on mouse hover",
+        "openOnHoverDescription": "Hover over a panel icon to preview it. Move away to hide it, or click the icon to keep it open. This also enables display over the page.",
+        "firefoxTitle": "Firefox Sidebar",
+        "firefoxDescription": "Configure the Firefox sidebar for bookmarks, history, and extensions. These options also apply to the sidebar settings in UI Extensions.",
+        "firefoxHoverDescription": "Hover over the sidebar edge to open the last selected tool. Move away to hide it, or click the edge to keep it open. A focused sidebar stays open. This also enables display over the page.",
         "title": "面板侧边栏",
         "description": "面板侧边栏是一项允许在窗口侧边显示各种工具、网站和扩展的功能。在这里，你可以自定义、添加、删除和管理面板。",
         "basicSettings": "基础设置",
