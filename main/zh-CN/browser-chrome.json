@@ -285,7 +285,12 @@
   },
   "qrcode-generate-page-action": "为此页面生成二维码",
   "qrcode-generate-page-action-title": "二维码生成器",
+  "firefoxSidebar": {
+    "edgeToggle": "Open or pin the Firefox sidebar",
+    "resize": "Resize Firefox sidebar"
+  },
   "panelSidebar": {
+    "resize": "Resize panel sidebar",
     "modal": {
       "type": "面板类型",
       "typeOptions": {
