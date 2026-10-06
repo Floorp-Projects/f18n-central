@@ -285,7 +285,12 @@
   },
   "qrcode-generate-page-action": "Δημιουργία κωδικού QR για αυτήν τη σελίδα",
   "qrcode-generate-page-action-title": "Γεννήτρια κωδικού QR",
+  "firefoxSidebar": {
+    "edgeToggle": "Open or pin the Firefox sidebar",
+    "resize": "Resize Firefox sidebar"
+  },
   "panelSidebar": {
+    "resize": "Resize panel sidebar",
     "modal": {
       "type": "Τύπος πίνακα",
       "typeOptions": {
