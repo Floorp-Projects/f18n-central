@@ -285,7 +285,12 @@
   },
   "qrcode-generate-page-action": "QR-Code für diese Seite generieren",
   "qrcode-generate-page-action-title": "QR-Code-Generator",
+  "firefoxSidebar": {
+    "edgeToggle": "Open or pin the Firefox sidebar",
+    "resize": "Resize Firefox sidebar"
+  },
   "panelSidebar": {
+    "resize": "Resize panel sidebar",
     "modal": {
       "type": "Panel-Typ",
       "typeOptions": {
