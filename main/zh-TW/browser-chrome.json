@@ -285,7 +285,12 @@
   },
   "qrcode-generate-page-action": "為此頁生成 QR 碼",
   "qrcode-generate-page-action-title": "QR 碼產生器",
+  "firefoxSidebar": {
+    "edgeToggle": "Open or pin the Firefox sidebar",
+    "resize": "Resize Firefox sidebar"
+  },
   "panelSidebar": {
+    "resize": "Resize panel sidebar",
     "modal": {
       "type": "面板類型",
       "typeOptions": {
