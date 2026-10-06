@@ -285,7 +285,12 @@
   },
   "qrcode-generate-page-action": "Генерувати QR-код для цієї сторінки",
   "qrcode-generate-page-action-title": "Генератор QR-кодів",
+  "firefoxSidebar": {
+    "edgeToggle": "Open or pin the Firefox sidebar",
+    "resize": "Resize Firefox sidebar"
+  },
   "panelSidebar": {
+    "resize": "Resize panel sidebar",
     "modal": {
       "type": "Тип панелі",
       "typeOptions": {
