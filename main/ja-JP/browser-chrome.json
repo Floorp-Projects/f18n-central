@@ -286,11 +286,11 @@
   "qrcode-generate-page-action": "このページの QR コードを生成",
   "qrcode-generate-page-action-title": "QR コードジェネレーター",
   "firefoxSidebar": {
-    "edgeToggle": "Open or pin the Firefox sidebar",
-    "resize": "Resize Firefox sidebar"
+    "edgeToggle": "Firefox のサイドバーを開く/固定",
+    "resize": "Firefox のサイドバーのサイズを変更"
   },
   "panelSidebar": {
-    "resize": "Resize panel sidebar",
+    "resize": "パネルサイドバーのサイズを変更",
     "modal": {
       "type": "パネルの種類",
       "typeOptions": {
