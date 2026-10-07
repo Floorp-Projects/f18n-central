@@ -286,11 +286,11 @@
   "qrcode-generate-page-action": "Gerar código QR para esta página",
   "qrcode-generate-page-action-title": "Gerador de código QR",
   "firefoxSidebar": {
-    "edgeToggle": "Open or pin the Firefox sidebar",
-    "resize": "Resize Firefox sidebar"
+    "edgeToggle": "Abrir ou fixar a barra lateral do Firefox",
+    "resize": "Redimensionar a barra lateral do Firefox"
   },
   "panelSidebar": {
-    "resize": "Resize panel sidebar",
+    "resize": "Redimensionar a barra lateral do painel",
     "modal": {
       "type": "Tipo de painel",
       "typeOptions": {
