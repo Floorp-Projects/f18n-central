@@ -286,11 +286,11 @@
   "qrcode-generate-page-action": "QR-code genereren voor deze pagina",
   "qrcode-generate-page-action-title": "QR-code Generator",
   "firefoxSidebar": {
-    "edgeToggle": "Open or pin the Firefox sidebar",
-    "resize": "Resize Firefox sidebar"
+    "edgeToggle": "De Firefox-zijbalk openen of vastzetten",
+    "resize": "De Firefox-zijbalk groter of kleiner maken"
   },
   "panelSidebar": {
-    "resize": "Resize panel sidebar",
+    "resize": "Breedte van de zijbalk aanpassen",
     "modal": {
       "type": "Paneel Type",
       "typeOptions": {
