@@ -286,11 +286,11 @@
   "qrcode-generate-page-action": "이 페이지의 QR 코드 생성",
   "qrcode-generate-page-action-title": "QR 코드 생성기",
   "firefoxSidebar": {
-    "edgeToggle": "Open or pin the Firefox sidebar",
-    "resize": "Resize Firefox sidebar"
+    "edgeToggle": "Firefox 사이드바 열거나 고정",
+    "resize": "Firefox 사이드바 크기 조정"
   },
   "panelSidebar": {
-    "resize": "Resize panel sidebar",
+    "resize": "패널 사이드바 크기 조정",
     "modal": {
       "type": "패널 유형",
       "typeOptions": {
@@ -515,8 +515,8 @@
       "media": "미디어",
       "open-tabs": "탭 열기",
       "switcher": "전환기",
-      "history-suggestions": "History (Dynamic Search)",
-      "bookmark-suggestions": "Bookmarks (Dynamic Search)"
+      "history-suggestions": "기록 (동적 검색)",
+      "bookmark-suggestions": "북마크 (동적 검색)"
     },
     "noResults": "명령을 찾을 수 없음",
     "noResultsHint": "다른 검색어를 사용해 보세요",
@@ -604,10 +604,10 @@
     "bookmarkSwitcherWherePlaceholder": "열 위치 선택...",
     "shortcutLabel": "@{{prefix}}",
     "shortcutWithArgsLabel": "@{{prefix}} {{args}}",
-    "searchShortcutDescription": "Search \"{{query}}\"",
+    "searchShortcutDescription": "\"{{query}}\" 검색",
     "shortcuts": {
-      "reservedTabSearch": "Search Open Tabs",
-      "reservedBookmarkSearch": "Search Bookmarks",
+      "reservedTabSearch": "열린 탭 검색",
+      "reservedBookmarkSearch": "북마크 검색",
       "reservedHistorySearch": "검색 기록"
     }
   },
