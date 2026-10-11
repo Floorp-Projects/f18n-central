@@ -424,8 +424,8 @@
         "searchResultsDescription": "Hasil penelusuran untuk \"{{query}}\". Hanya pengaturan {{productName}} yang dicari; pengaturan Firefox tidak disertakan."
     },
     "panelSidebar": {
-        "overlay": "Display over the page",
-        "overlayDescription": "Open the sidebar over the website without changing the website's size.",
+        "overlay": "Tampilkan di atas halaman",
+        "overlayDescription": "Membuka bilah samping di atas situs web tanpa mengubah ukuran situs web tersebut.",
         "openOnHover": "Open on mouse hover",
         "openOnHoverDescription": "Hover over a panel icon to preview it. Move away to hide it, or click the icon to keep it open. This also enables display over the page.",
         "firefoxTitle": "Firefox Sidebar",
