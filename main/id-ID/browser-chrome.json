@@ -286,11 +286,11 @@
   "qrcode-generate-page-action": "Buat kode QR untuk halaman ini",
   "qrcode-generate-page-action-title": "Pembuat Kode QR",
   "firefoxSidebar": {
-    "edgeToggle": "Open or pin the Firefox sidebar",
-    "resize": "Resize Firefox sidebar"
+    "edgeToggle": "Buka atau sematkan bilah samping Firefox",
+    "resize": "Ubah ukuran bilah samping Firefox"
   },
   "panelSidebar": {
-    "resize": "Resize panel sidebar",
+    "resize": "Ubah ukuran bilah samping",
     "modal": {
       "type": "Jenis Panel",
       "typeOptions": {
