@@ -973,7 +973,7 @@
             "workspace": "Không gian làm việc",
             "floorp": "Floorp",
             "media": "Media",
-            "open-tabs": "Open Tabs",
+            "open-tabs": "Open Tabs (Dynamic Search)",
             "switcher": "Switcher",
             "history-suggestions": "History (Dynamic Search)",
             "bookmark-suggestions": "Bookmarks (Dynamic Search)"
