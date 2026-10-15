@@ -973,7 +973,7 @@
             "workspace": "Arbeitsbereiche",
             "floorp": "Floorp",
             "media": "Medien",
-            "open-tabs": "Geöffnete Tabs",
+            "open-tabs": "Open Tabs (Dynamic Search)",
             "switcher": "Wechsler",
             "history-suggestions": "History (Dynamic Search)",
             "bookmark-suggestions": "Bookmarks (Dynamic Search)"
