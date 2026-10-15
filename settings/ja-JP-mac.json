@@ -973,7 +973,7 @@
             "workspace": "ワークスペース",
             "floorp": "Floorp",
             "media": "メディア",
-            "open-tabs": "タブを開く",
+            "open-tabs": "Open Tabs (Dynamic Search)",
             "switcher": "スイッチャー",
             "history-suggestions": "History (Dynamic Search)",
             "bookmark-suggestions": "Bookmarks (Dynamic Search)"
