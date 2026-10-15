@@ -973,7 +973,7 @@
             "workspace": "工作区",
             "floorp": "Floorp",
             "media": "媒体",
-            "open-tabs": "打开的标签页",
+            "open-tabs": "Open Tabs (Dynamic Search)",
             "switcher": "切换",
             "history-suggestions": "History (Dynamic Search)",
             "bookmark-suggestions": "Bookmarks (Dynamic Search)"
