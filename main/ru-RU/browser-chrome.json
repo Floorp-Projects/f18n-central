@@ -464,7 +464,7 @@
     "menu-label": "Переключить режим дзен"
   },
   "ipProtection": {
-    "title": "Browser VPN",
+    "title": "VPN Браузера",
     "toolbar": {
       "activeTooltip": "Browser VPN включён для подходящего веб-трафика в Floorp",
       "inactiveTooltip": "Browser VPN выключен — веб-трафик не защищён",
