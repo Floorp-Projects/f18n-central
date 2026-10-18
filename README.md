@@ -88,7 +88,12 @@ translations directly to Floorp's `main` branch:
 2. `sync-translated-files.yml` runs every six hours. It accepts only the
    same-repository `crowdin` pull request titled `New Crowdin updates`, rejects
    removed or non-translation files, and verifies that translated JSON files
-   contain every source key before merging it.
+   contain every source key before merging it. The candidate is built locally
+   from the exact main and Crowdin commits, rather than GitHub's potentially
+   stale PR merge ref. Conflicts report the affected files and stop publication.
+   Both commits are checked again before merging. Crowdin PRs use merge commits
+   to retain their ancestry, preventing previously published translations from
+   being replayed in later PRs.
 3. The translated files are copied to the `automation/sync-translations`
    branch in Floorp and submitted as a pull request.
 4. The synchronization pull request is merged only after all expected Floorp
@@ -100,3 +105,9 @@ so source and translated-file updates cannot run at the same time. They require
 the `PAT` Actions secret to have permission to push branches, create pull
 requests, and merge pull requests in both repositories.
 
+If a manual translation on main conflicts with Crowdin, merge main into the
+crowdin branch and resolve the affected keys without dropping either side's
+additions. Preserve the latest reviewed translation for conflicting wording,
+run `validate_translation_schema.py` against the Floorp manifest, then rerun
+publication. Do not force-push or replace translations with source-language
+fallbacks to clear a conflict.
