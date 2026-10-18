@@ -91,35 +91,30 @@ jobs:
           echo "number=$(jq -r '.[0].number' <<< "$PRS")" >> "$GITHUB_OUTPUT"
           echo "head_sha=$(jq -r '.[0].headRefOid' <<< "$PRS")" >> "$GITHUB_OUTPUT"
 
-      - name: Reject unexpected Crowdin changes
-        if: steps.crowdin.outputs.number != ''
-        env:
-          GH_TOKEN: ${{ secrets.PAT }}
-          PR_NUMBER: ${{ steps.crowdin.outputs.number }}
-        run: |
-          set -euo pipefail
-          gh api --paginate \
-            "repos/$F18N_REPOSITORY/pulls/$PR_NUMBER/files?per_page=100" \
-            --jq '.[].filename' > automation/crowdin-changed-files.txt
-          INVALID_FILES="$(
-            gh api --paginate \
-              "repos/$F18N_REPOSITORY/pulls/$PR_NUMBER/files?per_page=100" \
-              --jq '.[] | select(.status == "removed" or (.filename | endswith(".json") | not)) | "\(.status)\t\(.filename)"'
-          )"
-          if [ -n "$INVALID_FILES" ]; then
-            echo "Crowdin PR contains removed or non-JSON files:" >&2
-            echo "$INVALID_FILES" >&2
-            exit 1
-          fi
-
-      - name: Checkout candidate merge
+      - name: Checkout pinned Crowdin head
         if: steps.crowdin.outputs.number != ''
         uses: actions/checkout@v4
         with:
           repository: Floorp-Projects/f18n-central
-          ref: refs/pull/${{ steps.crowdin.outputs.number }}/merge
+          ref: ${{ steps.crowdin.outputs.head_sha }}
+          fetch-depth: 0
           path: candidate
           token: ${{ secrets.PAT }}
+
+      - name: Prepare current candidate and reject unexpected changes
+        id: candidate
+        if: steps.crowdin.outputs.number != ''
+        env:
+          HEAD_SHA: ${{ steps.crowdin.outputs.head_sha }}
+        run: |
+          set -euo pipefail
+          BASE_SHA="$(git -C automation rev-parse HEAD)"
+          python automation/scripts/prepare_crowdin_merge.py \
+            --repository candidate \
+            --base-sha "$BASE_SHA" \
+            --head-sha "$HEAD_SHA" \
+            --changed-files automation/crowdin-changed-files.txt
+          echo "base_sha=$BASE_SHA" >> "$GITHUB_OUTPUT"
 
       - name: Validate candidate translation schema
         if: steps.crowdin.outputs.number != ''
@@ -137,13 +132,20 @@ jobs:
           GH_TOKEN: ${{ secrets.PAT }}
           PR_NUMBER: ${{ steps.crowdin.outputs.number }}
           HEAD_SHA: ${{ steps.crowdin.outputs.head_sha }}
+          BASE_SHA: ${{ steps.candidate.outputs.base_sha }}
         run: |
           set -euo pipefail
+          CURRENT_BASE_SHA="$(gh api "repos/$F18N_REPOSITORY/git/ref/heads/main" --jq '.object.sha')"
+          CURRENT_HEAD_SHA="$(gh api "repos/$F18N_REPOSITORY/pulls/$PR_NUMBER" --jq '.head.sha')"
+          if [ "$CURRENT_BASE_SHA" != "$BASE_SHA" ] || [ "$CURRENT_HEAD_SHA" != "$HEAD_SHA" ]; then
+            echo "Crowdin head or main changed after validation; rerun publication to validate the new commits." >&2
+            exit 1
+          fi
           RESULT="$(
             gh api \
               --method PUT \
               "repos/$F18N_REPOSITORY/pulls/$PR_NUMBER/merge" \
-              -f merge_method=squash \
+              -f merge_method=merge \
               -f "sha=$HEAD_SHA"
           )"
           jq -e '.merged == true' <<< "$RESULT"
