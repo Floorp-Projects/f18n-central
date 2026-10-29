@@ -74,8 +74,8 @@
       "indicator-attention": "{{name}} — Erreur de synchronisation de l'espace de travail : {{error}}",
       "status-selected": "Inclus dans la synchronisation",
       "status-error": "Erreur de synchronisation",
-      "status-paused": "Sync paused",
-      "indicator-paused": "{{name}} — Workspace sync paused: {{error}}",
+      "status-paused": "Synchronisation suspendue",
+      "indicator-paused": "{{name}} — Synchronisation de l'espace de travail en pause : {{error}}",
       "engine-disabled": "Workspace sync is turned off. Choose Resume Workspace Sync in the workspace menu to sync your selected workspaces."
     },
     "context-menu": {
