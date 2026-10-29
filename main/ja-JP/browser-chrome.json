@@ -138,16 +138,16 @@
       "unsubscribe": "このワークスペースの同期を停止",
       "operation-failed": "コンテナーの操作を完了できませんでした。ワークスペースメニューでステータスを確認し、もう一度お試しください。",
       "reopen-needed": "一部の既存のタブは、同期されたコンテナーで再度開く必要があります。ワークスペースメニューから [開き直す] アクションを選択してください。",
-      "reopen-select": "Choose a tab to reopen in its synced container.",
-      "reopen-confirm": "Reopen this tab in its synced container? The current tab will be replaced after the new page loads. Unsaved form input and page state may be lost.",
-      "default-unavailable": "Container — use Set Up Workspace Containers in the workspace menu first.",
-      "legacy-scope": "Which missing container assignments should be set? Tabs means every tab in this workspace whose container is still unknown.",
-      "legacy-scope-default": "Workspace default only",
-      "legacy-scope-tabs": "All tabs with unknown containers",
-      "legacy-scope-all": "Workspace default and all tabs with unknown containers",
-      "legacy-target": "Choose the container for the selected assignments. Existing sign-ins on this device will be used.",
-      "legacy-none": "No container (normal browsing)",
-      "legacy-create": "Create a container using the workspace name (sign-in required)"
+      "reopen-select": "同期コンテナーで開き直すタブを選択してください。",
+      "reopen-confirm": "このタブを同期コンテナーで開き直しますか？ 新しいページが読み込まれ、現在のタブが置き換わります。保存されていないフォームの入力やページの状態が失われる可能性があります。",
+      "default-unavailable": "コンテナー — 最初にワークスペースメニューから [ワークスペースコンテナーを設定] してください。",
+      "legacy-scope": "どの未割り当てのコンテナーを設定しますか？タブとは、このワークスペース内で、コンテナーがまだ不明なすべてのタブを指します。",
+      "legacy-scope-default": "ワークスペースの既定のみ",
+      "legacy-scope-tabs": "コンテナーが不明なすべてのタブ",
+      "legacy-scope-all": "ワークスペースの既定およびコンテナーが不明なすべてのタブ",
+      "legacy-target": "その対象で使用するコンテナーを選択してください。このデバイスに保存されたサインイン情報が使用されます。",
+      "legacy-none": "コンテナーなし (通常のブラウジング)",
+      "legacy-create": "このワークスペース名でコンテナーを作成 (ログインが必要)"
     }
   },
   "profile-manager-button": {
