@@ -137,17 +137,17 @@
       "create": "Créer un nouveau conteneur «{{name}}» (connexion requise)",
       "unsubscribe": "Arrêter la synchronisation de cet espace de travail",
       "operation-failed": "L'opération sur le conteneur n'a pas pu être menée à bien. Vérifiez son statut dans le menu de l'espace de travail et réessayez.",
-      "reopen-needed": "Some existing tabs need to be reopened in their synced container. Choose the reopen action in the workspace menu.",
-      "reopen-select": "Choose a tab to reopen in its synced container.",
-      "reopen-confirm": "Reopen this tab in its synced container? The current tab will be replaced after the new page loads. Unsaved form input and page state may be lost.",
-      "default-unavailable": "Container — use Set Up Workspace Containers in the workspace menu first.",
-      "legacy-scope": "Which missing container assignments should be set? Tabs means every tab in this workspace whose container is still unknown.",
-      "legacy-scope-default": "Workspace default only",
-      "legacy-scope-tabs": "All tabs with unknown containers",
-      "legacy-scope-all": "Workspace default and all tabs with unknown containers",
-      "legacy-target": "Choose the container for the selected assignments. Existing sign-ins on this device will be used.",
-      "legacy-none": "No container (normal browsing)",
-      "legacy-create": "Create a container using the workspace name (sign-in required)"
+      "reopen-needed": "Certains onglets existants doivent être rouverts dans leur conteneur synchronisé. Choisissez l'action de réouverture dans le menu de l'espace de travail.",
+      "reopen-select": "Choisissez un onglet à rouvrir dans son conteneur synchronisé.",
+      "reopen-confirm": "Rouvrir cet onglet dans son conteneur synchronisé ? L'onglet actuel sera remplacé après le chargement de la nouvelle page. Les données saisies dans le formulaire et l'état de la page qui n'ont pas été enregistrés risquent d'être perdus.",
+      "default-unavailable": "Conteneur — utilisez d'abord Configurer les conteneurs d'espace de travail dans le menu de l'espace de travail.",
+      "legacy-scope": "Quelles affectations de conteneur manquantes faut-il définir ? Les onglets signifient chaque onglet de cet espace de travail dont le conteneur est toujours inconnu.",
+      "legacy-scope-default": "Espace de travail par défaut uniquement",
+      "legacy-scope-tabs": "Tous les onglets avec des conteneurs inconnus",
+      "legacy-scope-all": "Espace de travail par défaut et tous les onglets avec des conteneurs inconnus",
+      "legacy-target": "Choisissez le conteneur pour les tâches sélectionnées. Les identifiants de connexion existants sur cet appareil seront utilisés.",
+      "legacy-none": "Aucun conteneur (navigation normale)",
+      "legacy-create": "Créer un conteneur en utilisant le nom de l'espace de travail (connexion requise)"
     }
   },
   "profile-manager-button": {
