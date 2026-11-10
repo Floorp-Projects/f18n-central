@@ -20,6 +20,7 @@
       "name-placeholder": "Einen Namen für diesen Arbeitsbereich eingeben",
       "container": "Container",
       "no-container": "Kein Container",
+      "unavailable-container": "Unavailable container (ID {{id}})",
       "icon": "Symbol",
       "edit-title": "Arbeitsbereich bearbeiten",
       "save": "Änderungen speichern",
