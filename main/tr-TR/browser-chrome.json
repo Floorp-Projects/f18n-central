@@ -20,6 +20,7 @@
       "name-placeholder": "Bu çalışma alanı için bir ad girin",
       "container": "Kapsayıcı",
       "no-container": "Kapsayıcı Yok",
+      "unavailable-container": "Unavailable container (ID {{id}})",
       "icon": "Simge",
       "edit-title": "Çalışma Alanını Düzenle",
       "save": "Değişiklikleri Kaydet",

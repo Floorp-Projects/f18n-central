@@ -20,6 +20,7 @@
       "name-placeholder": "Introduzir um nome para este espaço de trabalho",
       "container": "Contentor",
       "no-container": "Sem contentor",
+      "unavailable-container": "Unavailable container (ID {{id}})",
       "icon": "Ícone",
       "edit-title": "Editar espaço de trabalho",
       "save": "Guardar alterações",

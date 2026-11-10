@@ -20,6 +20,7 @@
       "name-placeholder": "Geef een naam voor deze workspace",
       "container": "Container",
       "no-container": "Geen container",
+      "unavailable-container": "Unavailable container (ID {{id}})",
       "icon": "Pictogram",
       "edit-title": "Workspace bewerken",
       "save": "Wijzigingen opslaan",

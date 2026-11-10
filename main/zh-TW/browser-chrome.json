@@ -20,6 +20,7 @@
       "name-placeholder": "為此工作區命名",
       "container": "容器",
       "no-container": "無容器",
+      "unavailable-container": "Unavailable container (ID {{id}})",
       "icon": "圖示",
       "edit-title": "編輯工作區",
       "save": "儲存變更",
