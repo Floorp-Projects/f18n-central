@@ -20,6 +20,7 @@
       "name-placeholder": "Masukkan nama untuk ruang kerja ini",
       "container": "Kontainer",
       "no-container": "No Container",
+      "unavailable-container": "Unavailable container (ID {{id}})",
       "icon": "Ikon",
       "edit-title": "Sunting Ruang Kerja",
       "save": "Simpan Perubahan",
