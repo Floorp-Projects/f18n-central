@@ -20,6 +20,7 @@
       "name-placeholder": "Введіть назву для цього робочого простору",
       "container": "Контейнер",
       "no-container": "Без контейнера",
+      "unavailable-container": "Unavailable container (ID {{id}})",
       "icon": "Іконка",
       "edit-title": "Редагувати робочий простір",
       "save": "Зберегти зміни",
