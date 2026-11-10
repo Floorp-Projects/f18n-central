@@ -20,6 +20,7 @@
       "name-placeholder": "Введите название для рабочего пространства",
       "container": "Контейнер",
       "no-container": "Нет контейнера",
+      "unavailable-container": "Unavailable container (ID {{id}})",
       "icon": "Значок",
       "edit-title": "Редактирование рабочего пространства",
       "save": "Сохранить изменения",
