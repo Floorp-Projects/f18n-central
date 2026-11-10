@@ -20,6 +20,7 @@
       "name-placeholder": "Nhập tên cho không gian làm việc",
       "container": "Ngăn chứa",
       "no-container": "Không ngăn chứa",
+      "unavailable-container": "Unavailable container (ID {{id}})",
       "icon": "Biểu tượng",
       "edit-title": "Chỉnh không gian làm việc",
       "save": "Lưu thay đổi",
