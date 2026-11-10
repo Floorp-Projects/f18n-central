@@ -20,6 +20,7 @@
       "name-placeholder": "Įveskite šios darbo srities pavadinimą",
       "container": "Konteineris",
       "no-container": "Nėra konteinerio",
+      "unavailable-container": "Unavailable container (ID {{id}})",
       "icon": "Piktograma",
       "edit-title": "Redaguoti darbo sritį",
       "save": "Įrašyti pakeitimus",
