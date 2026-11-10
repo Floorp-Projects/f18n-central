@@ -30,7 +30,7 @@ The source files in the Floorp repository correspond to the files here as follow
 *Full mapping configuration can be found in [`i18n/translation-targets.json`](https://github.com/Floorp-Projects/Floorp/blob/main/i18n/translation-targets.json).*
 
 ### 2. Translating into Other Languages
-All translations (Japanese, French, German, etc.) are managed through Crowdin:
+All translations are managed through Crowdin:
 👉 **[Join Floorp Browser translation on Crowdin](https://crowdin.com/project/floorp-browser)**
 
 Translations submitted on Crowdin will be automatically synchronized to this repository and then integrated into Floorp releases.
