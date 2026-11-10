@@ -20,6 +20,7 @@
       "name-placeholder": "Εισάγετε ένα όνομα για αυτόν τον χώρο εργασίας",
       "container": "Περιέκτης",
       "no-container": "Χωρίς περιέκτη",
+      "unavailable-container": "Unavailable container (ID {{id}})",
       "icon": "Εικονίδιο",
       "edit-title": "Επεξεργασία χώρου εργασίας",
       "save": "Αποθήκευση αλλαγών",
