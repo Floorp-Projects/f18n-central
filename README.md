@@ -9,68 +9,31 @@
 <img src="assets/Floorp_Logo_f18n_Dark.svg#gh-dark-mode-only" width="300px"></img>
 </p>
 
-This repository hosts the localization files for Floorp, which have been sourced from Crowdin. It also include main English (US) localization.
+> [!IMPORTANT]
+> **This repository is read-only for manual contributions.**  
+> Localization source files (en-US) are maintained in the main [Floorp repository](https://github.com/Floorp-Projects/Floorp) and automatically synced here.  
+> Translations into other languages are managed via [Crowdin](https://crowdin.com/project/floorp-browser). Do not submit Pull Requests directly to this repository.
 
-## Improving the English (US) Localization
+## How to Contribute
 
-If you notice any issues with the English (US) localization, you can modify or fix it by following these steps:
+### 1. Updating or Fixing English (en-US) Strings
+If you want to improve, fix typos, or update outdated English descriptions, please submit a Pull Request to the **[Floorp-Projects/Floorp](https://github.com/Floorp-Projects/Floorp)** repository instead of this one.
 
-1. Fork this repository by clicking the [Fork](https://github.com/Floorp-Projects/f18n-central/fork) button.
+The source files in the Floorp repository correspond to the files here as follows:
 
-2. Clone your forked repository to your local machine using the following command:
+| f18n-central path | Source file in `Floorp-Projects/Floorp` |
+| :--- | :--- |
+| `main/en-US/*.json` | `i18n/en-US/*.json` |
+| `stub-win64-installer/en-US.json` | `static/installers/stub-win64-installer/src/lib/i18n/locales/en-US.json` |
+| `{feature-name}/en-US.json`<br>*(e.g., `settings/`, `newtab/`, `about-dialog/`)* | `browser-features/pages-{feature-name}/src/lib/i18n/locales/en-US.json`<br>*(e.g., `pages-settings/`, `pages-newtab/`, `pages-aboutDialog/`)* |
 
-```bash
-git clone https://github.com/{YOUR_USERNAME}/f18n-central.git
-```
+*Full mapping configuration can be found in [`i18n/translation-targets.json`](https://github.com/Floorp-Projects/Floorp/blob/main/i18n/translation-targets.json).*
 
-3. Create a new branch for your improvements using the following command:
+### 2. Translating into Other Languages
+All translations (Japanese, French, German, etc.) are managed through Crowdin:
+👉 **[Join Floorp Browser translation on Crowdin](https://crowdin.com/project/floorp-browser)**
 
-```bash
-git checkout -b your_branch
-```
-
-4. Update the English (US) source files under `main/en-US/` (for example `main/en-US/browser-chrome.json`). The list of synced namespaces lives in Floorp at https://github.com/Floorp-Projects/Floorp/blob/main/i18n/translation-targets.json.
-
-The `JSON` file extension is used for i18next localization files. You can use any text editor to edit the file. The structure of the file is as follows:
-
-```json
-{
-  "key": "value",
-  "key": "value"
-}
-```
-
-You can modify the value of the key to improve the localization. For example:
-
-```json
-{
-  "hello": "Hello, World!",
-  "welcome": "Welcome to Floorp!"
-}
-```
-
-5. Commit your changes.
-
-```bash
-git add .
-git commit -m "Your commit message"
-```
-
-6. Push your changes.
-
-```bash
-git push origin your_branch
-```
-
-7. Create a pull request.
-
-[Create Pull Request](https://github.com/Floorp-Projects/f18n-central/compare)
-
-# Contributing to other translation
-
-✅ If you are fluent in a language and want to help translate Floorp Browser, we invite you to be part of our Crowdin translation project.
-
-🌎 [Get started on Crowdin](https://crowdin.com/project/floorp-browser) and contribute to making Floorp accessible in your language.
+Translations submitted on Crowdin will be automatically synchronized to this repository and then integrated into Floorp releases.
 
 🙏 Your support in this effort is greatly appreciated. Let's make Floorp available to even more people worldwide!
 
