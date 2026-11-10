@@ -20,6 +20,7 @@
       "name-placeholder": "Adjon meg egy nevet a munkaterületnek",
       "container": "Konténer",
       "no-container": "Nincs konténer",
+      "unavailable-container": "Unavailable container (ID {{id}})",
       "icon": "Ikon",
       "edit-title": "Munkaterület szerkesztése",
       "save": "Módosítások mentése",
