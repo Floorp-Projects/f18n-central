@@ -20,6 +20,7 @@
       "name-placeholder": "输入此工作区的名称",
       "container": "身份",
       "no-container": "无身份",
+      "unavailable-container": "Unavailable container (ID {{id}})",
       "icon": "图标",
       "edit-title": "编辑工作区",
       "save": "保存更改",
