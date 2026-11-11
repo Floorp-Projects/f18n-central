@@ -20,7 +20,7 @@
       "name-placeholder": "このワークスペースの名前を入力",
       "container": "コンテナー",
       "no-container": "コンテナーなし",
-      "unavailable-container": "Unavailable container (ID {{id}})",
+      "unavailable-container": "利用不可のコンテナー (ID {{id}})",
       "icon": "アイコン",
       "edit-title": "ワークスペースを編集",
       "save": "保存",
