@@ -20,7 +20,7 @@
       "name-placeholder": "Ange ett namn för denna arbetsyta",
       "container": "Behållare",
       "no-container": "Inga behållare",
-      "unavailable-container": "Unavailable container (ID {{id}})",
+      "unavailable-container": "Otillgänglig behållare (ID {{id}})",
       "icon": "Ikon",
       "edit-title": "Redigera arbetsyta",
       "save": "Spara ändringar",
