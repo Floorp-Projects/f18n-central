@@ -125,6 +125,7 @@
       "setup": "ワークスペースコンテナーを設定…",
       "reopen": "同期中のコンテナーでタブを開き直す…",
       "status-pending": "コンテナーの設定が必要",
+      "choose-new-tab": "The workspace’s default container is unavailable. Choose a container for this tab. Existing sign-ins in that container will be used.",
       "indicator-pending": "{{name}} — コンテナーの設定が必要です: {{error}}",
       "definition-missing": "コンテナーの情報はまだ届いていません。利用可能になり次第、タブが開きます。",
       "legacy-unresolved": "一部の古い同期済みタブにはコンテナーの割り当てがありません。[ワークスペースコンテナーを設定…] で使用するコンテナーを選択できます。",
