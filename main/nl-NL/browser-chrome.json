@@ -125,6 +125,7 @@
       "setup": "Werkruimtecontainers instellen…",
       "reopen": "Tabblad heropenen in de gesynchroniseerde container…",
       "status-pending": "Containerconfiguratie vereist",
+      "choose-new-tab": "The workspace’s default container is unavailable. Choose a container for this tab. Existing sign-ins in that container will be used.",
       "indicator-pending": "{{name}} — Containerconfiguratie vereist: {{error}}",
       "definition-missing": "De containerinformatie is nog niet ontvangen. Tabbladen worden geopend zodra deze beschikbaar is.",
       "legacy-unresolved": "Sommige oudere gesynchroniseerde tabbladen hebben geen container. Gebruik Werkruimtecontainers instellen om te kiezen waarin ze moeten openen.",

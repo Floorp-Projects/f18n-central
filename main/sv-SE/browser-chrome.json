@@ -125,6 +125,7 @@
       "setup": "Ställ in behållare för arbetsytor…",
       "reopen": "Öppna en flik igen i dess synkroniserade behållare…",
       "status-pending": "Konfiguration av behållare behövs",
+      "choose-new-tab": "The workspace’s default container is unavailable. Choose a container for this tab. Existing sign-ins in that container will be used.",
       "indicator-pending": "{{name}} — Behållarkonfigurationen behövs: {{error}}",
       "definition-missing": "Behållarinformationen har inte anlänt ännu. Flikarna öppnas efter att den är tillgänglig.",
       "legacy-unresolved": "Vissa äldre synkroniserade flikar har ingen behållare tilldelad. Använd ”Konfigurera arbetsytans behållare” för att välja var de ska öppnas.",
