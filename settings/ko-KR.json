@@ -883,6 +883,25 @@
             "minResident": "회수를 시작할 메모리 사용량 기준 (MB)",
             "cost": "동영상 재생, 통화, 화면 공유도 회수를 막지 않습니다. 회수로 인해 사용을 재개할 때를 포함해, 브라우저가 멈출 수 있습니다. 간격을 짧게 설정할수록 더 자주 회수합니다.",
             "saveFailed": "이 설정을 저장할 수 있습니다. 이전 값이 복원되었습니다."
+        },
+        "tabAutoUnload": {
+            "title": "Tab Auto Unload",
+            "description": "Automatically unload inactive tabs when the browser's memory usage exceeds the threshold. Unloaded tabs reload when you select them again.",
+            "enable": "Enable tab auto unload",
+            "memoryThreshold": "Unload when memory usage exceeds (MB)",
+            "minInactive": "Only unload tabs inactive for (minutes)",
+            "exclusionsTitle": "URLs excluded from unloading",
+            "exclusionsDescription": "Tabs matching these patterns are never unloaded automatically. They are also excluded from Firefox's built-in tab unloading.",
+            "patternPlaceholder": "URL 패턴 입력(예: example.com, *.google.com)",
+            "add": "추가",
+            "remove": "제거",
+            "examples": "Pattern examples",
+            "exampleDomain": "Matches any URL containing this domain.",
+            "exampleWildcard": "Matches the domain and its subdomains.",
+            "exampleFullUrl": "Matches URLs starting with this path.",
+            "noPatterns": "No excluded URLs yet.",
+            "cost": "Selected tabs, pinned tabs, tabs playing audio, Picture-in-Picture, WebRTC calls, and private browsing tabs are not unloaded. A tab with an unsaved form or beforeunload prompt may refuse to unload.",
+            "saveFailed": "Could not save this setting. The previous value was restored."
         }
     },
     "ui": {
