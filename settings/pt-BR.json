@@ -883,6 +883,25 @@
             "minResident": "Recuperar apenas quando o uso de memória exceder (MB)",
             "cost": "A reprodução de vídeos, as chamadas e o compartilhamento de tela não impedem a liberação de memória. A liberação de memória pode pausar o navegador, inclusive quando você retoma o uso dele. Intervalos mais curtos aumentam a frequência desse processo.",
             "saveFailed": "Não foi possível salvar esta configuração. O valor anterior foi restaurado."
+        },
+        "tabAutoUnload": {
+            "title": "Tab Auto Unload",
+            "description": "Automatically unload inactive tabs when the browser's memory usage exceeds the threshold. Unloaded tabs reload when you select them again.",
+            "enable": "Enable tab auto unload",
+            "memoryThreshold": "Unload when memory usage exceeds (MB)",
+            "minInactive": "Only unload tabs inactive for (minutes)",
+            "exclusionsTitle": "URLs excluded from unloading",
+            "exclusionsDescription": "Tabs matching these patterns are never unloaded automatically. They are also excluded from Firefox's built-in tab unloading.",
+            "patternPlaceholder": "Insira o padrão de URL (por exemplo: example.com, *.google.com)",
+            "add": "Adicionar",
+            "remove": "Excluir",
+            "examples": "Pattern examples",
+            "exampleDomain": "Corresponder a qualquer URL que contenha esse domínio.",
+            "exampleWildcard": "Matches the domain and its subdomains.",
+            "exampleFullUrl": "Matches URLs starting with this path.",
+            "noPatterns": "No excluded URLs yet.",
+            "cost": "Selected tabs, pinned tabs, tabs playing audio, Picture-in-Picture, WebRTC calls, and private browsing tabs are not unloaded. A tab with an unsaved form or beforeunload prompt may refuse to unload.",
+            "saveFailed": "Could not save this setting. The previous value was restored."
         }
     },
     "ui": {
