@@ -883,6 +883,25 @@
             "minResident": "Återanvänd endast när minnesanvändningen överstiger (MB)",
             "cost": "Videouppspelning, samtal och skärmdelning hindrar inte återanvändning. Återanvändningen kan pausa webbläsaren, även när du återupptar användningen. Kortare intervall ökar frekvensen.",
             "saveFailed": "Kunde inte spara denna inställning. Det tidigare värdet har återställts."
+        },
+        "tabAutoUnload": {
+            "title": "Tab Auto Unload",
+            "description": "Automatically unload inactive tabs when the browser's memory usage exceeds the threshold. Unloaded tabs reload when you select them again.",
+            "enable": "Enable tab auto unload",
+            "memoryThreshold": "Unload when memory usage exceeds (MB)",
+            "minInactive": "Only unload tabs inactive for (minutes)",
+            "exclusionsTitle": "URLs excluded from unloading",
+            "exclusionsDescription": "Tabs matching these patterns are never unloaded automatically. They are also excluded from Firefox's built-in tab unloading.",
+            "patternPlaceholder": "Ange URL-mönster (t.ex. example.com, *.google.com)",
+            "add": "Lägg till",
+            "remove": "Ta bort",
+            "examples": "Pattern examples",
+            "exampleDomain": "Matchar alla URL: er som innehåller denna domän.",
+            "exampleWildcard": "Matches the domain and its subdomains.",
+            "exampleFullUrl": "Matches URLs starting with this path.",
+            "noPatterns": "No excluded URLs yet.",
+            "cost": "Selected tabs, pinned tabs, tabs playing audio, Picture-in-Picture, WebRTC calls, and private browsing tabs are not unloaded. A tab with an unsaved form or beforeunload prompt may refuse to unload.",
+            "saveFailed": "Could not save this setting. The previous value was restored."
         }
     },
     "ui": {
