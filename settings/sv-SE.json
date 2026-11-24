@@ -885,23 +885,23 @@
             "saveFailed": "Kunde inte spara denna inställning. Det tidigare värdet har återställts."
         },
         "tabAutoUnload": {
-            "title": "Tab Auto Unload",
-            "description": "Automatically unload inactive tabs when the browser's memory usage exceeds the threshold. Unloaded tabs reload when you select them again.",
-            "enable": "Enable tab auto unload",
-            "memoryThreshold": "Unload when memory usage exceeds (MB)",
-            "minInactive": "Only unload tabs inactive for (minutes)",
-            "exclusionsTitle": "URLs excluded from unloading",
-            "exclusionsDescription": "Tabs matching these patterns are never unloaded automatically. They are also excluded from Firefox's built-in tab unloading.",
+            "title": "Flik automatisk urladdning",
+            "description": "Ladda automatisk ur inaktiva flikar när webbläsarens minnesanvändning överskrider tröskelvärdet. Flikar som har frigjorts från minnet laddas in på nytt när du väljer dem igen.",
+            "enable": "Aktivera automatisk urladdning av flik",
+            "memoryThreshold": "Urladda när minnesanvändningen överstiger (MB)",
+            "minInactive": "Ladda endast ur flikar från minnet som varit inaktiva i (minuter)",
+            "exclusionsTitle": "Webbadresser exkluderade från urladdning",
+            "exclusionsDescription": "Flikar som matchar dessa mönster laddas aldrig bort från minnet automatiskt. De undantas även från Firefox inbyggda funktion för att ladda ur flikar från minnet.",
             "patternPlaceholder": "Ange URL-mönster (t.ex. example.com, *.google.com)",
             "add": "Lägg till",
             "remove": "Ta bort",
-            "examples": "Pattern examples",
+            "examples": "Exempel på mönster",
             "exampleDomain": "Matchar alla URL: er som innehåller denna domän.",
-            "exampleWildcard": "Matches the domain and its subdomains.",
-            "exampleFullUrl": "Matches URLs starting with this path.",
-            "noPatterns": "No excluded URLs yet.",
-            "cost": "Selected tabs, pinned tabs, tabs playing audio, Picture-in-Picture, WebRTC calls, and private browsing tabs are not unloaded. A tab with an unsaved form or beforeunload prompt may refuse to unload.",
-            "saveFailed": "Could not save this setting. The previous value was restored."
+            "exampleWildcard": "Matchar domänen och dess underdomäner.",
+            "exampleFullUrl": "Matchar URL: er som börjar med denna sökväg.",
+            "noPatterns": "Inga exkluderade URL: er ännu.",
+            "cost": "Valda flikar, fästa flikar, flikar som spelar ljud, Bild-i-bild, WebRTC samtal och privata surfflikar kommer inte att laddas ur. En flik med ett osparat formulär eller innan urladdning kan vägra att laddas ur.",
+            "saveFailed": "Kunde inte spara denna inställning. Det tidigare värdet återställdes."
         }
     },
     "ui": {
