@@ -883,6 +883,25 @@
             "minResident": "Alleen vrijmaken wanneer geheugengebruik hoger is dan (MB)",
             "cost": "Het afspelen van video's, oproepen en het delen van je scherm voorkomen het vrijmaken van geheugen niet. Het vrijmaken kan de browser tijdelijk laten haperen, ook wanneer je deze weer gaat gebruiken. Kortere intervallen verhogen de frequentie hiervan.",
             "saveFailed": "Kon deze instelling niet opslaan. De vorige waarde is hersteld."
+        },
+        "tabAutoUnload": {
+            "title": "Tab Auto Unload",
+            "description": "Automatically unload inactive tabs when the browser's memory usage exceeds the threshold. Unloaded tabs reload when you select them again.",
+            "enable": "Enable tab auto unload",
+            "memoryThreshold": "Unload when memory usage exceeds (MB)",
+            "minInactive": "Only unload tabs inactive for (minutes)",
+            "exclusionsTitle": "URLs excluded from unloading",
+            "exclusionsDescription": "Tabs matching these patterns are never unloaded automatically. They are also excluded from Firefox's built-in tab unloading.",
+            "patternPlaceholder": "Vul een URL-patroon in (bijv. example.com,*.google.com)",
+            "add": "Toevoegen",
+            "remove": "Verwijderen",
+            "examples": "Pattern examples",
+            "exampleDomain": "Geldt voor elke URL die dit domein bevat.",
+            "exampleWildcard": "Matches the domain and its subdomains.",
+            "exampleFullUrl": "Matches URLs starting with this path.",
+            "noPatterns": "No excluded URLs yet.",
+            "cost": "Selected tabs, pinned tabs, tabs playing audio, Picture-in-Picture, WebRTC calls, and private browsing tabs are not unloaded. A tab with an unsaved form or beforeunload prompt may refuse to unload.",
+            "saveFailed": "Could not save this setting. The previous value was restored."
         }
     },
     "ui": {

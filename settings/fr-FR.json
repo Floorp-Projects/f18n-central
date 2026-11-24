@@ -883,6 +883,25 @@
             "minResident": "Récupération uniquement lorsque l'utilisation de la mémoire excède (MB)",
             "cost": "La lecture de vidéos, les appels et le partage d'écran n'empêchent pas la récupération de mémoire. La récupération de mémoire peut mettre le navigateur en pause, y compris lorsque vous recommencez à l'utiliser. Des intervalles plus courts augmentent la fréquence de ce phénomène.",
             "saveFailed": "Impossible d'enregistrer ce paramètre. La valeur précédente a été restaurée."
+        },
+        "tabAutoUnload": {
+            "title": "Tab Auto Unload",
+            "description": "Automatically unload inactive tabs when the browser's memory usage exceeds the threshold. Unloaded tabs reload when you select them again.",
+            "enable": "Enable tab auto unload",
+            "memoryThreshold": "Unload when memory usage exceeds (MB)",
+            "minInactive": "Only unload tabs inactive for (minutes)",
+            "exclusionsTitle": "URLs excluded from unloading",
+            "exclusionsDescription": "Tabs matching these patterns are never unloaded automatically. They are also excluded from Firefox's built-in tab unloading.",
+            "patternPlaceholder": "Saisir un modèle d'URL (par exemple, exemple.com, *.google.com)",
+            "add": "Ajouter",
+            "remove": "Supprimer",
+            "examples": "Pattern examples",
+            "exampleDomain": "Correspond à toute URL contenant ce domaine.",
+            "exampleWildcard": "Matches the domain and its subdomains.",
+            "exampleFullUrl": "Matches URLs starting with this path.",
+            "noPatterns": "No excluded URLs yet.",
+            "cost": "Selected tabs, pinned tabs, tabs playing audio, Picture-in-Picture, WebRTC calls, and private browsing tabs are not unloaded. A tab with an unsaved form or beforeunload prompt may refuse to unload.",
+            "saveFailed": "Could not save this setting. The previous value was restored."
         }
     },
     "ui": {
@@ -973,7 +992,7 @@
             "workspace": "Espaces de travail",
             "floorp": "Floorp",
             "media": "Média",
-            "open-tabs": "Onglets ouverts (Recherche dynamique)",
+            "open-tabs": "Onglets ouverts",
             "switcher": "Commuter",
             "history-suggestions": "Historique (Recherche dynamique)",
             "bookmark-suggestions": "Marque-pages (Recherche Dynamique)"
