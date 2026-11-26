@@ -885,23 +885,23 @@
             "saveFailed": "Impossible d'enregistrer ce paramètre. La valeur précédente a été restaurée."
         },
         "tabAutoUnload": {
-            "title": "Tab Auto Unload",
-            "description": "Automatically unload inactive tabs when the browser's memory usage exceeds the threshold. Unloaded tabs reload when you select them again.",
-            "enable": "Enable tab auto unload",
-            "memoryThreshold": "Unload when memory usage exceeds (MB)",
-            "minInactive": "Only unload tabs inactive for (minutes)",
-            "exclusionsTitle": "URLs excluded from unloading",
-            "exclusionsDescription": "Tabs matching these patterns are never unloaded automatically. They are also excluded from Firefox's built-in tab unloading.",
+            "title": "Déchargement automatique d'onglet",
+            "description": "Les onglets inactifs sont automatiquement déchargés lorsque l'utilisation de la mémoire par le navigateur dépasse le seuil défini. Les onglets déchargés se rechargent lorsque vous les sélectionnez à nouveau.",
+            "enable": "Activer le déchargement automatique des onglets",
+            "memoryThreshold": "Décharger lorsque l'utilisation de la mémoire dépasse (MB)",
+            "minInactive": "Ne décharger que les onglets inactifs depuis (minutes)",
+            "exclusionsTitle": "URL exclues du déchargement",
+            "exclusionsDescription": "Les onglets correspondant à ces critères ne sont jamais déchargés automatiquement. Ils sont également exclus du mécanisme de déchargement des onglets intégré à Firefox.",
             "patternPlaceholder": "Saisir un modèle d'URL (par exemple, exemple.com, *.google.com)",
             "add": "Ajouter",
             "remove": "Supprimer",
-            "examples": "Pattern examples",
+            "examples": "Exemples de modèles",
             "exampleDomain": "Correspond à toute URL contenant ce domaine.",
-            "exampleWildcard": "Matches the domain and its subdomains.",
-            "exampleFullUrl": "Matches URLs starting with this path.",
-            "noPatterns": "No excluded URLs yet.",
-            "cost": "Selected tabs, pinned tabs, tabs playing audio, Picture-in-Picture, WebRTC calls, and private browsing tabs are not unloaded. A tab with an unsaved form or beforeunload prompt may refuse to unload.",
-            "saveFailed": "Could not save this setting. The previous value was restored."
+            "exampleWildcard": "Correspond au domaine et à ses sous-domaines.",
+            "exampleFullUrl": "Correspond aux URL commençant par ce chemin.",
+            "noPatterns": "Aucune URL n'a encore été exclue.",
+            "cost": "Les onglets sélectionnés, épinglés, ceux qui diffusent du son, ceux en mode « image dans l'image », ceux générants des appels WebRTC, et ceux en mode de navigation privée ne sont pas déchargés. Un onglet avec un formulaire non enregistré ou pour lequel une invite « beforeunload » s'est affichée peut refuser d'être déchargé.",
+            "saveFailed": "Impossible d'enregistrer ce paramètre. La valeur précédente a été rétablie."
         }
     },
     "ui": {
