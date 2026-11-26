@@ -895,13 +895,13 @@
             "patternPlaceholder": "Saisir un modèle d'URL (par exemple, exemple.com, *.google.com)",
             "add": "Ajouter",
             "remove": "Supprimer",
-            "examples": "Pattern examples",
+            "examples": "Exemples de modèles",
             "exampleDomain": "Correspond à toute URL contenant ce domaine.",
-            "exampleWildcard": "Matches the domain and its subdomains.",
-            "exampleFullUrl": "Matches URLs starting with this path.",
-            "noPatterns": "No excluded URLs yet.",
-            "cost": "Selected tabs, pinned tabs, tabs playing audio, Picture-in-Picture, WebRTC calls, and private browsing tabs are not unloaded. A tab with an unsaved form or beforeunload prompt may refuse to unload.",
-            "saveFailed": "Could not save this setting. The previous value was restored."
+            "exampleWildcard": "Correspond au domaine et à ses sous-domaines.",
+            "exampleFullUrl": "Correspond aux URL commençant par ce chemin.",
+            "noPatterns": "Aucune URL n'a encore été exclue.",
+            "cost": "Les onglets sélectionnés, épinglés, ceux qui diffusent du son, ceux en mode « image dans l'image », ceux générants des appels WebRTC, et ceux en mode de navigation privée ne sont pas déchargés. Un onglet avec un formulaire non enregistré ou pour lequel une invite « beforeunload » s'est affichée peut refuser d'être déchargé.",
+            "saveFailed": "Impossible d'enregistrer ce paramètre. La valeur précédente a été rétablie."
         }
     },
     "ui": {
