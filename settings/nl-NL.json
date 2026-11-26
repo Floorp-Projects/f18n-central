@@ -890,18 +890,18 @@
             "enable": "Automatisch sluiten tabbladen inschakelen",
             "memoryThreshold": "Sluiten wanneer geheugengebruik hoger is dan (MB)",
             "minInactive": "Alleen tabbladen sluiten die langer inactief zijn dan (minuten)",
-            "exclusionsTitle": "URLs excluded from unloading",
-            "exclusionsDescription": "Tabs matching these patterns are never unloaded automatically. They are also excluded from Firefox's built-in tab unloading.",
+            "exclusionsTitle": "URL's uitgesloten van sluiten",
+            "exclusionsDescription": "Tabbladen die overeenkomen met deze patronen worden nooit automatisch gesloten. Ze zijn ook uitgesloten van het ingebouwde sluiten van tabbladen in Firefox.",
             "patternPlaceholder": "Vul een URL-patroon in (bijv. example.com,*.google.com)",
             "add": "Toevoegen",
             "remove": "Verwijderen",
-            "examples": "Pattern examples",
+            "examples": "Patroonvoorbeelden",
             "exampleDomain": "Geldt voor elke URL die dit domein bevat.",
-            "exampleWildcard": "Matches the domain and its subdomains.",
-            "exampleFullUrl": "Matches URLs starting with this path.",
-            "noPatterns": "No excluded URLs yet.",
-            "cost": "Selected tabs, pinned tabs, tabs playing audio, Picture-in-Picture, WebRTC calls, and private browsing tabs are not unloaded. A tab with an unsaved form or beforeunload prompt may refuse to unload.",
-            "saveFailed": "Could not save this setting. The previous value was restored."
+            "exampleWildcard": "Komt overeen met het domein en alle subdomeinen.",
+            "exampleFullUrl": "Geldt voor URL's die starten met dit path.",
+            "noPatterns": "Nog geen URL's uitgesloten.",
+            "cost": "• Geselecteerde tabbladen, vastgezette tabbladen, tabbladen met spelende audio, Picture-in-Picture, WebRTC-gesprekken en privétabbladen worden niet gesloten. Een tabblad met een niet-opgeslagen formulier of een waarschuwing bij het sluiten weigert mogelijk om te sluiten.",
+            "saveFailed": "Opslaan instelling mislukt. Vorige waarde hersteld."
         }
     },
     "ui": {
