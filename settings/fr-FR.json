@@ -765,7 +765,6 @@
         "items": "Éléments du menu",
         "editingIndependent": "Utilisez les boutons fléchés ou la commande Déplacer vers … pour réorganiser les éléments. Le glisser-déposer est également disponible dans le contexte actuel. Les commutateurs de visibilité s'appliquent uniquement aux éléments que Floorp peut masquer en toute sécurité dans ce profil de contexte.",
         "editingShared": "Utilisez les boutons fléchés ou la commande Déplacer vers … pour réorganiser les éléments. Le glisser-déposer est également disponible dans le contexte actuel. Les commutateurs de visibilité s'appliquent uniquement aux éléments que Floorp peut masquer en toute sécurité dans la mise en page partagée.",
-        "incompleteContainer": "Firefox n'a signalé qu'une partie de ce menu. Les éléments enregistrés non signalés seront conservés inchangés.",
         "capabilityHelp": "« Conditionnel dans Firefox » signifie que Firefox a masqué l'élément pour le dernier contexte de clic droit observé. Il reste disponible dans Tous les éléments afin que vous puissiez configurer son ordre relatif. Les éléments « Ordre fixe » restent à leur emplacement d'origine et ne peuvent être ni déplacés ni utilisés comme destinations.",
         "viewMode": "Éléments affichés",
         "viewCurrent": "Contexte actuel",
