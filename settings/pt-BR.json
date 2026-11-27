@@ -765,7 +765,6 @@
         "items": "Itens do menu",
         "editingIndependent": "Use os botões de seta ou a opção “Mover para… ” para reordenar os itens. Também é possível arrastar itens no contexto atual. As opções de visibilidade se aplicam apenas aos itens que o Floorp pode ocultar com segurança neste perfil de contexto.",
         "editingShared": "Use os botões de seta ou a opção “Mover para… ” para reordenar os itens. Também é possível arrastar itens no contexto atual. As opções de visibilidade se aplicam apenas aos itens que o Floorp pode ocultar com segurança no layout compartilhado.",
-        "incompleteContainer": "O Firefox informou apenas parte desse menu. Os itens salvos que não foram informados permanecerão inalterados.",
         "capabilityHelp": "“Condicional no Firefox” significa que o Firefox ocultou o item no contexto do clique com o botão direito observado mais recentemente. Ele permanece disponível em “Todos os itens”, para que você possa definir sua ordem relativa. Os itens com “Ordem fixa” permanecem em suas posições originais e não podem ser movidos nem usados como destinos.",
         "viewMode": "Itens exibidos",
         "viewCurrent": "Contexto atual",
