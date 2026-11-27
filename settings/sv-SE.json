@@ -765,7 +765,6 @@
         "items": "Menyobjekt",
         "editingIndependent": "Använd pilknapparna eller Flytta till… för att ordna om objekt. Dra finns också i nuvarande kontext. Synlighetsbrytare gäller endast objekt som Floorp säkert kan gömma i denna kontextprofil.",
         "editingShared": "Använd pilknapparna eller ”Flytta till… ” för att ändra ordningen på objekten. Det går även att dra objekten i det aktuella kontextet. Synlighetsinställningarna gäller endast objekt som Floorp säkert kan dölja i den delade layouten.",
-        "incompleteContainer": "Firefox rapporterade endast en del av denna meny. Orapporterade sparade objekt kommer att hållas oförändrade.",
         "capabilityHelp": "”Villkorligt i Firefox” innebär att Firefox har dolt objektet för det senast observerade högerklick-kontexten. Det finns fortfarande tillgängligt under ”Alla objekt”, så att du kan ställa in dess relativa ordning. Objekt med ”Fast ordning” förblir på sina ursprungliga platser och kan varken flyttas eller användas som mål.",
         "viewMode": "Objekt visas",
         "viewCurrent": "Nuvarande kontext",
