@@ -765,7 +765,6 @@
         "items": "Menu items",
         "editingIndependent": "Gebruik de pijlknoppen of ‘Verplaatsen naar…’ om de volgorde van de items te wijzigen. In de huidige context kun je items ook verslepen. De zichtbaarheidsinstellingen zijn alleen van toepassing op items die Floorp in dit contextprofiel veilig kan verbergen.",
         "editingShared": "Gebruik de pijlknoppen of ‘Verplaatsen naar…’ om de volgorde van de items te wijzigen. In de huidige context kun je items ook verslepen. De zichtbaarheidsinstellingen zijn alleen van toepassing op items die Floorp veilig kan verbergen in de gedeelde lay-out.",
-        "incompleteContainer": "Firefox heeft dit menu maar deels doorgegeven. Niet-gemelde opgeslagen items worden niet gewijzigd.",
         "capabilityHelp": "“Voorwaardelijk in Firefox” betekent dat Firefox het item heeft verborgen voor de laatst waargenomen context van de rechtermuisknop. Het blijft beschikbaar in ‘Alle items’, zodat je de relatieve volgorde ervan kunt configureren. Items met een ‘Vaste volgorde’ blijven op hun oorspronkelijke positie staan en kunnen niet worden verplaatst of als doel worden gebruikt.",
         "viewMode": "Getoonde items",
         "viewCurrent": "Huidige context",
